@@ -1,0 +1,32 @@
+{
+  "source_workbook": "data/master/world_cup_2026_player_map_master.xlsx",
+  "club_baseline": "data/processed/club_geolocation_baseline/clubs_geocoded_corrected.csv",
+  "counts": {
+    "players": 1275,
+    "clubs": 461,
+    "player_club_at_callup": 1275,
+    "unique_player_ids": 1275,
+    "unique_club_ids": 461,
+    "unique_player_club_ids": 461
+  },
+  "checks": {
+    "player_ids_unique": true,
+    "duplicate_nonblank_player_wikidata_ids": [],
+    "player_club_ids_missing_from_clubs": [],
+    "clubs_matching_canonical_baseline": true,
+    "club_baseline_diffs": [],
+    "clubs_not_in_baseline_pending_geocoding": [
+      "c_borac_banja_luka_0d0962ee",
+      "c_sturm_graz_0596817b",
+      "c_austin_fc_2ef8ba67",
+      "c_al_fateh_51013db3",
+      "c_jeonbuk_hyundai_motors_cf0b1d05"
+    ],
+    "lingering_known_old_club_ids_in_current_master": {}
+  },
+  "birthplace_city_review": {
+    "exact_player_birthplace_vs_club_city_overlaps": 132,
+    "candidate_review_row_count": 1,
+    "candidate_review_output": "data/processed/master_exports/player_birthplace_city_candidate_review.csv"
+  }
+}

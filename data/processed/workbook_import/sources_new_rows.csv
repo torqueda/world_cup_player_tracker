@@ -1,0 +1,6 @@
+﻿source_id,source_name,url,retrieved_at,notes
+wiki_squads_2026,Wikipedia: 2026 FIFA World Cup squads,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads,2026-07-12,"Final 26-man rosters, shirt numbers, coaches, replacement notes. Snapshot: data/raw/wikipedia_2026_squads_snapshot.html"
+wiki_officials_2026,Wikipedia: 2026 FIFA World Cup officials,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_officials,2026-07-12,"Referees, assistants, VARs with match assignments. Snapshot: data/raw/wikipedia_2026_officials_snapshot.html"
+fifa_player_stats_2026,FIFA.com player statistics (through quarterfinals),https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/statistics/player-statistics,2026-07-12,Goals/assists/minutes for all registered players; cards from Discipline tab. Collected from rendered pages.
+fifa_team_stats_2026,FIFA.com team statistics (through quarterfinals),https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/statistics/team-statistics,2026-07-12,"Team goals, assists, xG, possession. Collected from rendered pages."
+fifa_fixtures_2026,FIFA.com scores & fixtures,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures,2026-07-12,All match results through the quarterfinals plus remaining schedule. Snapshot: data/raw/fifa_scores_fixtures_snapshot.txt

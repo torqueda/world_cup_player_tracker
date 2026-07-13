@@ -1,0 +1,1249 @@
+﻿group,team,shirt_number,position,player_name,is_captain,date_of_birth,caps,goals,club,club_country
+Group A,Czech Republic,1,GK,Matěj Kovář,False,2000-05-17,20,0,PSV Eindhoven,Royal Dutch Football Association
+Group A,Czech Republic,2,DF,David Zima,False,2000-11-08,25,1,Slavia Prague,Football Association of the Czech Republic
+Group A,Czech Republic,3,DF,Tomáš Holeš,False,1993-03-31,41,2,Slavia Prague,Football Association of the Czech Republic
+Group A,Czech Republic,4,DF,Robin Hranáč,False,2000-01-29,14,1,TSG Hoffenheim,German Football Association
+Group A,Czech Republic,5,DF,Vladimír Coufal,False,1992-08-22,62,2,TSG Hoffenheim,German Football Association
+Group A,Czech Republic,6,DF,Štěpán Chaloupek,False,2003-03-08,5,0,Slavia Prague,Football Association of the Czech Republic
+Group A,Czech Republic,7,DF,Ladislav Krejčí,True,1999-04-20,27,5,Wolverhampton Wanderers,The Football Association
+Group A,Czech Republic,8,MF,Vladimír Darida,False,1990-08-08,79,8,Hradec Králové,Football Association of the Czech Republic
+Group A,Czech Republic,9,FW,Adam Hložek,False,2002-07-25,43,5,TSG Hoffenheim,German Football Association
+Group A,Czech Republic,10,FW,Patrik Schick,False,1996-01-24,53,26,Bayer Leverkusen,German Football Association
+Group A,Czech Republic,11,FW,Jan Kuchta,False,1997-01-08,31,3,Sparta Prague,Football Association of the Czech Republic
+Group A,Czech Republic,12,MF,Lukáš Červ,False,2001-04-10,17,2,Viktoria Plzeň,Football Association of the Czech Republic
+Group A,Czech Republic,13,FW,Mojmír Chytil,False,1999-04-29,22,6,Slavia Prague,Football Association of the Czech Republic
+Group A,Czech Republic,14,DF,David Jurásek,False,2000-08-07,18,1,Slavia Prague,Football Association of the Czech Republic
+Group A,Czech Republic,15,FW,Pavel Šulc,False,2000-12-29,21,5,Lyon,French Football Federation
+Group A,Czech Republic,16,GK,Jindřich Staněk,False,1996-04-27,14,0,Slavia Prague,Football Association of the Czech Republic
+Group A,Czech Republic,17,MF,Lukáš Provod,False,1996-10-23,38,3,Slavia Prague,Football Association of the Czech Republic
+Group A,Czech Republic,18,MF,Michal Sadílek,False,1999-05-31,35,1,Slavia Prague,Football Association of the Czech Republic
+Group A,Czech Republic,19,FW,Tomáš Chorý,False,1995-01-26,22,7,Slavia Prague,Football Association of the Czech Republic
+Group A,Czech Republic,20,DF,Jaroslav Zelený,False,1992-08-20,23,0,Sparta Prague,Football Association of the Czech Republic
+Group A,Czech Republic,21,DF,David Douděra,False,1998-05-31,17,2,Slavia Prague,Football Association of the Czech Republic
+Group A,Czech Republic,22,MF,Tomáš Souček,False,1995-02-27,90,17,West Ham United,The Football Association
+Group A,Czech Republic,23,GK,Lukáš Horníček,False,2002-07-13,1,0,Braga,Portuguese Football Federation
+Group A,Czech Republic,24,MF,Alexandr Sojka,False,2003-04-02,2,0,Viktoria Plzeň,Football Association of the Czech Republic
+Group A,Czech Republic,25,MF,Hugo Sochůrek,False,2008-06-07,1,0,Sparta Prague,Football Association of the Czech Republic
+Group A,Czech Republic,26,FW,Denis Višinský,False,2003-03-21,2,1,Viktoria Plzeň,Football Association of the Czech Republic
+Group A,Mexico,1,GK,Raúl Rangel,False,2000-02-25,14,0,Guadalajara,Mexican Football Federation
+Group A,Mexico,2,DF,Jorge Sánchez,False,1997-12-10,59,3,PAOK,Hellenic Football Federation
+Group A,Mexico,3,DF,César Montes,False,1997-02-24,67,4,Lokomotiv Moscow,Russian Football Union
+Group A,Mexico,4,DF,Edson Álvarez,True,1997-10-24,98,7,Fenerbahçe,Turkish Football Federation
+Group A,Mexico,5,DF,Johan Vásquez,False,1998-10-22,46,3,Genoa,Italian Football Federation
+Group A,Mexico,6,MF,Érik Lira,False,2000-05-08,25,0,Cruz Azul,Mexican Football Federation
+Group A,Mexico,7,MF,Luis Romo,False,1995-06-05,63,4,Guadalajara,Mexican Football Federation
+Group A,Mexico,8,MF,Álvaro Fidalgo,False,1997-04-09,4,0,Real Betis,Royal Spanish Football Federation
+Group A,Mexico,9,FW,Raúl Jiménez,False,1991-05-05,124,44,Fulham,The Football Association
+Group A,Mexico,10,FW,Alexis Vega,False,1997-11-25,52,7,Toluca,Mexican Football Federation
+Group A,Mexico,11,FW,Santiago Giménez,False,2001-04-18,47,6,Milan,Italian Football Federation
+Group A,Mexico,12,GK,Carlos Acevedo,False,1996-04-19,7,0,Santos Laguna,Mexican Football Federation
+Group A,Mexico,13,GK,Guillermo Ochoa,False,1985-07-13,152,0,AEL Limassol,Cyprus Football Association
+Group A,Mexico,14,FW,Armando González,False,2003-04-20,7,1,Guadalajara,Mexican Football Federation
+Group A,Mexico,15,DF,Israel Reyes,False,2000-05-23,34,2,América,Mexican Football Federation
+Group A,Mexico,16,FW,Julián Quiñones,False,1997-03-24,22,2,Al-Qadsiah,Saudi Arabian Football Federation
+Group A,Mexico,17,MF,Orbelín Pineda,False,1996-03-24,92,12,AEK Athens,Hellenic Football Federation
+Group A,Mexico,18,MF,Obed Vargas,False,2005-08-05,6,0,Atlético Madrid,Royal Spanish Football Federation
+Group A,Mexico,19,MF,Gilberto Mora,False,2008-10-14,8,0,Tijuana,Mexican Football Federation
+Group A,Mexico,20,DF,Mateo Chávez,False,2004-05-12,10,0,AZ,Royal Dutch Football Association
+Group A,Mexico,21,FW,César Huerta,False,2000-12-03,26,3,Anderlecht,Royal Belgian Football Association
+Group A,Mexico,22,FW,Guillermo Martínez,False,1995-03-15,12,3,Pumas UNAM,Mexican Football Federation
+Group A,Mexico,23,DF,Jesús Gallardo,False,1994-08-15,121,3,Toluca,Mexican Football Federation
+Group A,Mexico,24,MF,Luis Chávez,False,1996-01-15,45,5,Dynamo Moscow,Russian Football Union
+Group A,Mexico,25,FW,Roberto Alvarado,False,1998-09-07,67,5,Guadalajara,Mexican Football Federation
+Group A,Mexico,26,MF,Brian Gutiérrez,False,2003-06-17,7,2,Guadalajara,Mexican Football Federation
+Group A,South Africa,1,GK,Ronwen Williams,True,1992-01-21,62,0,Mamelodi Sundowns,South African Football Association
+Group A,South Africa,2,DF,Thabang Matuludi,False,1999-01-14,3,0,Polokwane City,South African Football Association
+Group A,South Africa,3,DF,Khulumani Ndamane,False,2004-02-05,5,0,Mamelodi Sundowns,South African Football Association
+Group A,South Africa,4,MF,Teboho Mokoena,False,1997-01-24,51,9,Mamelodi Sundowns,South African Football Association
+Group A,South Africa,5,MF,Thalente Mbatha,False,2000-03-06,15,3,Orlando Pirates,South African Football Association
+Group A,South Africa,6,DF,Aubrey Modiba,False,1995-07-22,44,3,Mamelodi Sundowns,South African Football Association
+Group A,South Africa,7,FW,Oswin Appollis,False,2001-08-25,26,8,Orlando Pirates,South African Football Association
+Group A,South Africa,8,FW,Tshepang Moremi,False,2000-10-02,10,1,Orlando Pirates,South African Football Association
+Group A,South Africa,9,FW,Lyle Foster,False,2000-09-03,27,10,Burnley,The Football Association
+Group A,South Africa,10,FW,Relebohile Mofokeng,False,2004-10-23,13,0,Orlando Pirates,South African Football Association
+Group A,South Africa,11,MF,Themba Zwane,False,1989-08-03,54,12,Mamelodi Sundowns,South African Football Association
+Group A,South Africa,12,FW,Thapelo Maseko,False,2003-11-11,10,1,AEL Limassol,Cyprus Football Association
+Group A,South Africa,13,MF,Sphephelo Sithole,False,1999-03-03,28,1,Tondela,Portuguese Football Federation
+Group A,South Africa,14,DF,Mbekezeli Mbokazi,False,2005-09-19,10,1,Chicago Fire FC,United States Soccer Federation
+Group A,South Africa,15,FW,Iqraam Rayners,False,1995-12-19,14,4,Mamelodi Sundowns,South African Football Association
+Group A,South Africa,16,GK,Sipho Chaine,False,1996-12-14,4,0,Orlando Pirates,South African Football Association
+Group A,South Africa,17,FW,Evidence Makgopa,False,2000-06-05,26,6,Orlando Pirates,South African Football Association
+Group A,South Africa,18,DF,Samukele Kabini,False,2004-03-15,6,0,Molde,Norwegian Football Federation
+Group A,South Africa,19,DF,Nkosinathi Sibisi,False,1995-09-22,20,0,Orlando Pirates,South African Football Association
+Group A,South Africa,20,DF,Khuliso Mudau,False,1995-04-26,32,1,Mamelodi Sundowns,South African Football Association
+Group A,South Africa,21,DF,Ime Okon,False,2004-02-20,8,1,Hannover 96,German Football Association
+Group A,South Africa,22,GK,Ricardo Goss,False,1994-04-02,5,0,Siwelele,South African Football Association
+Group A,South Africa,23,MF,Jayden Adams,False,2001-05-05,5,0,Mamelodi Sundowns,South African Football Association
+Group A,South Africa,24,DF,Olwethu Makhanya,False,2004-04-30,1,0,Philadelphia Union,United States Soccer Federation
+Group A,South Africa,25,FW,Kamogelo Sebelebele,False,2002-07-21,3,0,Orlando Pirates,South African Football Association
+Group A,South Africa,26,DF,Bradley Cross,False,2001-01-30,1,0,Kaizer Chiefs,South African Football Association
+Group A,South Korea,1,GK,Kim Seung-gyu,False,1990-09-30,87,0,FC Tokyo,Japan Football Association
+Group A,South Korea,2,DF,Lee Han-beom,False,2002-06-17,8,0,Midtjylland,Danish Football Association
+Group A,South Korea,3,MF,Lee Gi-hyuk,False,2000-07-07,3,0,Gangwon FC,Korea Football Association
+Group A,South Korea,4,DF,Kim Min-jae,False,1996-11-15,79,4,Bayern Munich,German Football Association
+Group A,South Korea,5,DF,Kim Tae-hyeon,False,2000-09-17,7,0,Kashima Antlers,Japan Football Association
+Group A,South Korea,6,MF,Hwang In-beom,False,1996-09-20,73,6,Feyenoord,Royal Dutch Football Association
+Group A,South Korea,7,FW,Son Heung-min,True,1992-07-08,144,56,Los Angeles FC,United States Soccer Federation
+Group A,South Korea,8,MF,Paik Seung-ho,False,1997-03-17,27,3,Birmingham City,The Football Association
+Group A,South Korea,9,FW,Cho Gue-sung,False,1998-01-25,44,12,Midtjylland,Danish Football Association
+Group A,South Korea,10,MF,Lee Jae-sung,False,1992-08-10,105,15,Mainz 05,German Football Association
+Group A,South Korea,11,MF,Hwang Hee-chan,False,1996-01-26,79,17,Wolverhampton Wanderers,The Football Association
+Group A,South Korea,12,GK,Song Bum-keun,False,1997-10-15,3,0,Jeonbuk Hyundai Motors,Korea Football Association
+Group A,South Korea,13,DF,Lee Tae-seok,False,2002-07-28,15,1,Austria Wien,Austrian Football Association
+Group A,South Korea,14,DF,Cho Wi-je,False,2001-08-25,1,0,Jeonbuk Hyundai Motors,Korea Football Association
+Group A,South Korea,15,DF,Kim Moon-hwan,False,1995-08-01,35,0,Daejeon Hana Citizen,Korea Football Association
+Group A,South Korea,16,DF,Park Jin-seob,False,1995-10-23,14,1,Zhejiang,Chinese Football Association
+Group A,South Korea,17,MF,Bae Jun-ho,False,2003-08-21,13,2,Stoke City,The Football Association
+Group A,South Korea,18,FW,Oh Hyeon-gyu,False,2001-04-12,27,6,Beşiktaş,Turkish Football Federation
+Group A,South Korea,19,MF,Lee Kang-in,False,2001-02-19,47,11,Paris Saint-Germain,French Football Federation
+Group A,South Korea,20,MF,Yang Hyun-jun,False,2002-05-25,9,0,Celtic,Scottish Football Association
+Group A,South Korea,21,GK,Jo Hyeon-woo,False,1991-09-25,48,0,Ulsan HD,Korea Football Association
+Group A,South Korea,22,DF,Seol Young-woo,False,1998-12-05,34,0,Red Star Belgrade,Football Association of Serbia
+Group A,South Korea,23,DF,Jens Castrop,False,2003-07-29,7,0,Borussia Mönchengladbach,German Football Association
+Group A,South Korea,24,MF,Kim Jin-gyu,False,1997-02-24,22,3,Jeonbuk Hyundai Motors,Korea Football Association
+Group A,South Korea,25,MF,Eom Ji-sung,False,2002-05-09,9,2,Swansea City,Football Association of Wales
+Group A,South Korea,26,MF,Lee Dong-gyeong,False,1997-09-20,18,4,Ulsan HD,Korea Football Association
+Group B,Bosnia and Herzegovina,1,GK,Nikola Vasilj,False,1995-12-02,26,0,FC St. Pauli,German Football Association
+Group B,Bosnia and Herzegovina,2,DF,Nihad Mujakić,False,1998-04-15,12,1,Gaziantep,Turkish Football Federation
+Group B,Bosnia and Herzegovina,3,DF,Dennis Hadžikadunić,False,1998-07-09,32,0,Sampdoria,Italian Football Federation
+Group B,Bosnia and Herzegovina,4,DF,Tarik Muharemović,False,2003-02-28,14,1,Sassuolo,Italian Football Federation
+Group B,Bosnia and Herzegovina,5,DF,Sead Kolašinac,False,1993-06-20,65,0,Atalanta,Italian Football Federation
+Group B,Bosnia and Herzegovina,6,MF,Benjamin Tahirović,False,2003-03-03,28,2,Brøndby,Danish Football Association
+Group B,Bosnia and Herzegovina,7,DF,Amar Dedić,False,2002-08-18,28,1,Benfica,Portuguese Football Federation
+Group B,Bosnia and Herzegovina,8,MF,Armin Gigović,False,2002-04-06,20,1,Young Boys,Swiss Football Association
+Group B,Bosnia and Herzegovina,9,FW,Samed Baždar,False,2004-01-31,13,1,Jagiellonia Białystok,Polish Football Association
+Group B,Bosnia and Herzegovina,10,FW,Ermedin Demirović,False,1998-03-25,40,4,VfB Stuttgart,German Football Association
+Group B,Bosnia and Herzegovina,11,FW,Edin Džeko,True,1986-03-17,148,73,Schalke 04,German Football Association
+Group B,Bosnia and Herzegovina,12,GK,Mladen Jurkas,False,2007-10-07,0,0,Borac Banja Luka,Football Association of Bosnia and Herzegovina
+Group B,Bosnia and Herzegovina,13,MF,Ivan Bašić,False,2002-04-30,17,0,Astana,Kazakhstan Football Federation
+Group B,Bosnia and Herzegovina,14,MF,Ivan Šunjić,False,1996-10-09,11,0,Pafos,Cyprus Football Association
+Group B,Bosnia and Herzegovina,15,MF,Amar Memić,False,2001-01-20,13,1,Viktoria Plzeň,Football Association of the Czech Republic
+Group B,Bosnia and Herzegovina,16,MF,Amir Hadžiahmetović,False,1997-03-08,36,0,Hull City,The Football Association
+Group B,Bosnia and Herzegovina,17,MF,Dženis Burnić,False,1998-05-22,20,0,Karlsruher SC,German Football Association
+Group B,Bosnia and Herzegovina,18,DF,Nikola Katić,False,1996-10-10,17,2,Schalke 04,German Football Association
+Group B,Bosnia and Herzegovina,19,FW,Kerim Alajbegović,False,2007-09-21,10,1,Red Bull Salzburg,Austrian Football Association
+Group B,Bosnia and Herzegovina,20,FW,Esmir Bajraktarević,False,2005-03-10,16,1,PSV Eindhoven,Royal Dutch Football Association
+Group B,Bosnia and Herzegovina,21,DF,Stjepan Radeljić,False,1997-09-05,5,0,Rijeka,Croatian Football Federation
+Group B,Bosnia and Herzegovina,22,GK,Martin Zlomislić,False,1998-08-16,3,0,Rijeka,Croatian Football Federation
+Group B,Bosnia and Herzegovina,23,FW,Haris Tabaković,False,1994-06-20,10,4,Borussia Mönchengladbach,German Football Association
+Group B,Bosnia and Herzegovina,24,DF,Arjan Malić,False,2005-08-28,8,0,Sturm Graz,Austrian Football Association
+Group B,Bosnia and Herzegovina,25,FW,Jovo Lukić,False,1998-11-28,3,0,Universitatea Cluj,Romanian Football Federation
+Group B,Bosnia and Herzegovina,26,MF,Ermin Mahmić,False,2005-03-14,2,0,Slovan Liberec,Football Association of the Czech Republic
+Group B,Canada,1,GK,Dayne St. Clair,False,1997-05-09,20,0,Inter Miami CF,United States Soccer Federation
+Group B,Canada,2,DF,Alistair Johnston,False,1998-10-08,58,1,Celtic,Scottish Football Association
+Group B,Canada,3,DF,Alfie Jones,False,1997-10-07,2,0,Middlesbrough,The Football Association
+Group B,Canada,4,DF,Luc de Fougerolles,False,2005-10-12,13,0,Dender EH,Royal Belgian Football Association
+Group B,Canada,5,DF,Joel Waterman,False,1996-01-24,17,0,Chicago Fire FC,United States Soccer Federation
+Group B,Canada,6,MF,Mathieu Choinière,False,1999-02-07,23,0,Los Angeles FC,United States Soccer Federation
+Group B,Canada,7,MF,Stephen Eustáquio,False,1996-12-21,56,4,Los Angeles FC,United States Soccer Federation
+Group B,Canada,8,MF,Ismaël Koné,False,2002-06-16,40,4,Sassuolo,Italian Football Federation
+Group B,Canada,9,FW,Cyle Larin,False,1995-04-17,90,30,Southampton,The Football Association
+Group B,Canada,10,FW,Jonathan David,False,2000-01-14,77,39,Juventus,Italian Football Federation
+Group B,Canada,11,MF,Liam Millar,False,1999-09-27,41,1,Hull City,The Football Association
+Group B,Canada,12,FW,Tani Oluwaseyi,False,2000-05-15,24,2,Villarreal,Royal Spanish Football Federation
+Group B,Canada,13,DF,Derek Cornelius,False,1997-11-25,44,1,Rangers,Scottish Football Association
+Group B,Canada,14,MF,Jacob Shaffelburg,False,1999-11-26,31,6,Los Angeles FC,United States Soccer Federation
+Group B,Canada,15,DF,Moïse Bombito,False,2000-03-30,20,0,Nice,French Football Federation
+Group B,Canada,16,GK,Maxime Crépeau,False,1994-05-11,32,0,Orlando City SC,United States Soccer Federation
+Group B,Canada,17,FW,Tajon Buchanan,False,1999-02-08,60,8,Villarreal,Royal Spanish Football Federation
+Group B,Canada,18,GK,Owen Goodman,False,2003-11-27,0,0,Barnsley,The Football Association
+Group B,Canada,19,DF,Alphonso Davies,True,2000-11-02,58,15,Bayern Munich,German Football Association
+Group B,Canada,20,FW,Ali Ahmed,False,2000-10-10,24,1,Norwich City,The Football Association
+Group B,Canada,21,MF,Jonathan Osorio,False,1992-06-12,90,10,Toronto FC,Canadian Soccer Association
+Group B,Canada,22,DF,Richie Laryea,False,1995-01-07,75,1,Toronto FC,Canadian Soccer Association
+Group B,Canada,23,DF,Niko Sigur,False,2003-09-09,19,2,Hajduk Split,Croatian Football Federation
+Group B,Canada,24,FW,Promise David,False,2001-07-03,10,3,Union Saint-Gilloise,Royal Belgian Football Association
+Group B,Canada,25,MF,Nathan Saliba,False,2004-02-07,15,2,Anderlecht,Royal Belgian Football Association
+Group B,Canada,26,FW,Jayden Nelson,False,2002-09-26,14,3,Austin FC,United States Soccer Federation
+Group B,Qatar,1,GK,Mahmud Abunada,False,2000-02-05,6,0,Al-Rayyan,Qatar Football Association
+Group B,Qatar,2,DF,Pedro Miguel,False,1990-08-06,105,3,Al-Sadd,Qatar Football Association
+Group B,Qatar,3,DF,Lucas Mendes,False,1990-07-03,25,1,Al-Wakrah,Qatar Football Association
+Group B,Qatar,4,DF,Issa Laye,False,1997-12-22,4,0,Al-Arabi,Qatar Football Association
+Group B,Qatar,5,DF,Jassem Gaber,False,2002-02-20,32,1,Al-Rayyan,Qatar Football Association
+Group B,Qatar,6,MF,Abdulaziz Hatem,False,1990-01-01,119,11,Al-Rayyan,Qatar Football Association
+Group B,Qatar,7,FW,Ahmed Alaaeldin,False,1993-01-31,68,9,Al-Rayyan,Qatar Football Association
+Group B,Qatar,8,FW,Edmilson Junior,False,1994-08-19,16,0,Al-Duhail,Qatar Football Association
+Group B,Qatar,9,FW,Mohammed Muntari,False,1993-12-20,67,16,Al-Gharafa,Qatar Football Association
+Group B,Qatar,10,FW,Hassan Al-Haydos,True,1990-12-11,186,41,Al-Sadd,Qatar Football Association
+Group B,Qatar,11,FW,Akram Afif,False,1996-11-18,125,39,Al-Sadd,Qatar Football Association
+Group B,Qatar,12,MF,Karim Boudiaf,False,1990-09-16,118,5,Al-Duhail,Qatar Football Association
+Group B,Qatar,13,DF,Ayoub Al-Oui,False,2005-03-11,6,0,Al-Gharafa,Qatar Football Association
+Group B,Qatar,14,DF,Homam Ahmed,False,1999-08-25,68,3,Cultural Leonesa,Royal Spanish Football Federation
+Group B,Qatar,15,FW,Yusuf Abdurisag,False,1999-08-06,39,3,Al-Wakrah,Qatar Football Association
+Group B,Qatar,16,DF,Boualem Khoukhi,False,1990-07-09,116,20,Al-Sadd,Qatar Football Association
+Group B,Qatar,17,MF,Ahmed Al-Ganehi,False,2000-09-22,13,1,Al-Gharafa,Qatar Football Association
+Group B,Qatar,18,DF,Sultan Al-Brake,False,1996-04-07,17,0,Al-Duhail,Qatar Football Association
+Group B,Qatar,19,FW,Almoez Ali,False,1996-08-19,115,55,Al-Duhail,Qatar Football Association
+Group B,Qatar,20,MF,Ahmed Fathy,False,1993-01-25,48,0,Al-Arabi,Qatar Football Association
+Group B,Qatar,21,GK,Salah Zakaria,False,1999-04-24,8,0,Al-Duhail,Qatar Football Association
+Group B,Qatar,22,GK,Meshaal Barsham,False,1998-02-14,52,0,Al-Sadd,Qatar Football Association
+Group B,Qatar,23,MF,Assim Madibo,False,1996-10-22,51,0,Al-Wakrah,Qatar Football Association
+Group B,Qatar,24,FW,Tahsin Jamshid,False,2006-06-16,3,0,Al-Duhail,Qatar Football Association
+Group B,Qatar,25,DF,Al-Hashmi Al-Hussain,False,2003-08-15,8,0,Al-Arabi,Qatar Football Association
+Group B,Qatar,26,FW,Mohamed Manai,False,2002-10-25,10,0,Al-Shamal,Qatar Football Association
+Group B,Switzerland,1,GK,Gregor Kobel,False,1997-12-06,21,0,Borussia Dortmund,German Football Association
+Group B,Switzerland,2,DF,Miro Muheim,False,1998-03-24,10,0,Hamburger SV,German Football Association
+Group B,Switzerland,3,DF,Silvan Widmer,False,1993-03-05,60,5,Mainz 05,German Football Association
+Group B,Switzerland,4,DF,Nico Elvedi,False,1996-09-30,67,3,Borussia Mönchengladbach,German Football Association
+Group B,Switzerland,5,DF,Manuel Akanji,False,1995-07-19,81,4,Inter Milan,Italian Football Federation
+Group B,Switzerland,6,MF,Denis Zakaria,False,1996-11-20,65,3,Monaco,French Football Federation
+Group B,Switzerland,7,FW,Breel Embolo,False,1997-02-14,86,24,Rennes,French Football Federation
+Group B,Switzerland,8,MF,Remo Freuler,False,1992-04-15,88,11,Bologna,Italian Football Federation
+Group B,Switzerland,9,MF,Johan Manzambi,False,2005-10-14,12,3,SC Freiburg,German Football Association
+Group B,Switzerland,10,MF,Granit Xhaka,True,1992-09-27,146,17,Sunderland,The Football Association
+Group B,Switzerland,11,FW,Dan Ndoye,False,2000-10-25,31,8,Nottingham Forest,The Football Association
+Group B,Switzerland,12,GK,Yvon Mvogo,False,1994-06-06,13,0,Lorient,French Football Federation
+Group B,Switzerland,13,DF,Ricardo Rodriguez,False,1992-08-25,138,9,Real Betis,Royal Spanish Football Federation
+Group B,Switzerland,14,MF,Ardon Jashari,False,2002-07-30,8,0,Milan,Italian Football Federation
+Group B,Switzerland,15,MF,Djibril Sow,False,1997-02-06,52,0,Sevilla,Royal Spanish Football Federation
+Group B,Switzerland,16,FW,Christian Fassnacht,False,1993-11-11,23,5,Young Boys,Swiss Football Association
+Group B,Switzerland,17,FW,Rubén Vargas,False,1998-08-05,61,11,Sevilla,Royal Spanish Football Federation
+Group B,Switzerland,18,DF,Eray Cömert,False,1998-02-04,22,0,Valencia,Royal Spanish Football Federation
+Group B,Switzerland,19,FW,Noah Okafor,False,2000-05-24,25,2,Leeds United,The Football Association
+Group B,Switzerland,20,MF,Michel Aebischer,False,1997-01-06,40,2,Pisa,Italian Football Federation
+Group B,Switzerland,21,GK,Marvin Keller,False,2002-07-03,1,0,Young Boys,Swiss Football Association
+Group B,Switzerland,22,MF,Fabian Rieder,False,2002-02-16,28,1,FC Augsburg,German Football Association
+Group B,Switzerland,23,FW,Zeki Amdouni,False,2000-12-04,29,11,Burnley,The Football Association
+Group B,Switzerland,24,DF,Aurèle Amenda,False,2003-07-31,7,0,Eintracht Frankfurt,German Football Association
+Group B,Switzerland,25,DF,Luca Jaquez,False,2003-06-02,3,0,VfB Stuttgart,German Football Association
+Group B,Switzerland,26,FW,Cedric Itten,False,1996-12-27,15,5,Fortuna Düsseldorf,German Football Association
+Group C,Brazil,1,GK,Alisson,False,1992-10-02,78,0,Liverpool,The Football Association
+Group C,Brazil,2,MF,Éderson Silva,False,1999-07-07,3,0,Atalanta,Italian Football Federation
+Group C,Brazil,3,DF,Gabriel Magalhães,False,1997-12-19,17,1,Arsenal,The Football Association
+Group C,Brazil,4,DF,Marquinhos,True,1994-05-14,105,7,Paris Saint-Germain,French Football Federation
+Group C,Brazil,5,MF,Casemiro,False,1992-02-23,86,9,Manchester United,The Football Association
+Group C,Brazil,6,DF,Alex Sandro,False,1991-01-26,45,2,Flamengo,Brazilian Football Confederation
+Group C,Brazil,7,FW,Vinícius Júnior,False,2000-07-12,49,9,Real Madrid,Royal Spanish Football Federation
+Group C,Brazil,8,MF,Bruno Guimarães,False,1997-11-16,43,3,Newcastle United,The Football Association
+Group C,Brazil,9,FW,Matheus Cunha,False,1999-05-27,23,1,Manchester United,The Football Association
+Group C,Brazil,10,FW,Neymar,False,1992-02-05,128,79,Santos,Brazilian Football Confederation
+Group C,Brazil,11,FW,Raphinha,False,1996-12-14,39,11,Barcelona,Royal Spanish Football Federation
+Group C,Brazil,12,GK,Weverton,False,1987-12-13,11,0,Grêmio,Brazilian Football Confederation
+Group C,Brazil,13,DF,Danilo Luiz,False,1991-07-15,70,1,Flamengo,Brazilian Football Confederation
+Group C,Brazil,14,DF,Bremer,False,1997-03-18,8,1,Juventus,Italian Football Federation
+Group C,Brazil,15,DF,Léo Pereira,False,1996-01-31,4,0,Flamengo,Brazilian Football Confederation
+Group C,Brazil,16,DF,Douglas Santos,False,1994-03-22,7,0,Zenit Saint Petersburg,Russian Football Union
+Group C,Brazil,17,MF,Fabinho,False,1993-10-23,33,0,Al-Ittihad,Saudi Arabian Football Federation
+Group C,Brazil,18,MF,Danilo Santos,False,2001-04-29,4,2,Botafogo,Brazilian Football Confederation
+Group C,Brazil,19,FW,Endrick,False,2006-07-21,17,4,Lyon,French Football Federation
+Group C,Brazil,20,MF,Lucas Paquetá,False,1997-08-27,63,13,Flamengo,Brazilian Football Confederation
+Group C,Brazil,21,FW,Luiz Henrique,False,2001-01-02,15,2,Zenit Saint Petersburg,Russian Football Union
+Group C,Brazil,22,FW,Gabriel Martinelli,False,2001-06-18,23,4,Arsenal,The Football Association
+Group C,Brazil,23,GK,Ederson Moraes,False,1993-08-17,32,0,Fenerbahçe,Turkish Football Federation
+Group C,Brazil,24,DF,Roger Ibañez,False,1998-11-23,7,0,Al-Ahli,Saudi Arabian Football Federation
+Group C,Brazil,25,FW,Igor Thiago,False,2001-06-26,4,2,Brentford,The Football Association
+Group C,Brazil,26,FW,Rayan,False,2006-08-03,2,1,Bournemouth,The Football Association
+Group C,Haiti,1,GK,Johny Placide,True,1988-01-29,82,0,Bastia,French Football Federation
+Group C,Haiti,2,DF,Carlens Arcus,False,1996-06-28,56,1,Angers,French Football Federation
+Group C,Haiti,3,DF,Keeto Thermoncy,False,2006-03-29,1,0,Young Boys,Swiss Football Association
+Group C,Haiti,4,DF,Ricardo Adé,False,1990-05-21,59,2,LDU Quito,Ecuadorian Football Federation
+Group C,Haiti,5,DF,Hannes Delcroix,False,1999-02-28,7,0,Lugano,Swiss Football Association
+Group C,Haiti,6,MF,Carl Sainté,False,2002-08-09,26,0,El Paso Locomotive FC,United States Soccer Federation
+Group C,Haiti,7,FW,Derrick Etienne Jr.,False,1996-11-25,51,8,Toronto FC,Canadian Soccer Association
+Group C,Haiti,8,DF,Martin Expérience,False,1999-03-09,21,0,Nancy,French Football Federation
+Group C,Haiti,9,FW,Duckens Nazon,False,1994-04-07,82,44,Esteghlal,Football Federation Islamic Republic of Iran
+Group C,Haiti,10,MF,Jean-Ricner Bellegarde,False,1998-06-27,10,0,Wolverhampton Wanderers,The Football Association
+Group C,Haiti,11,FW,Louicius Deedson,False,2001-02-11,32,10,FC Dallas,United States Soccer Federation
+Group C,Haiti,12,GK,Alexandre Pierre,False,2001-02-25,16,0,Sochaux,French Football Federation
+Group C,Haiti,13,DF,Duke Lacroix,False,1993-10-14,16,3,Colorado Springs Switchbacks FC,United States Soccer Federation
+Group C,Haiti,14,DF,Garven Metusala,False,1999-12-31,16,0,Colorado Springs Switchbacks FC,United States Soccer Federation
+Group C,Haiti,15,FW,Ruben Providence,False,2001-07-07,15,3,Almere City,Royal Dutch Football Association
+Group C,Haiti,16,FW,Lenny Joseph,False,2000-10-12,2,1,Ferencváros,Hungarian Football Federation
+Group C,Haiti,17,MF,Danley Jean Jacques,False,2000-05-20,31,6,Philadelphia Union,United States Soccer Federation
+Group C,Haiti,18,FW,Wilson Isidor,False,2000-08-27,4,2,Sunderland,The Football Association
+Group C,Haiti,19,FW,Yassin Fortuné,False,1999-01-30,4,0,Vizela,Portuguese Football Federation
+Group C,Haiti,20,FW,Frantzdy Pierrot,False,1995-03-29,51,34,Çaykur Rizespor,Turkish Football Federation
+Group C,Haiti,21,FW,Josué Casimir,False,2001-09-24,7,0,Auxerre,French Football Federation
+Group C,Haiti,22,DF,Jean-Kévin Duverne,False,1997-07-12,17,1,Gent,Royal Belgian Football Association
+Group C,Haiti,23,GK,Josué Duverger,False,2000-04-27,7,0,Cosmos Koblenz,German Football Association
+Group C,Haiti,24,DF,Wilguens Paugain,False,2001-08-24,8,0,Zulte Waregem,Royal Belgian Football Association
+Group C,Haiti,25,MF,Dominique Simon,False,2000-07-29,2,0,Tatran Prešov,Slovak Football Association
+Group C,Haiti,26,MF,Woodensky Pierre,False,2004-12-30,1,0,Violette,Haitian Football Federation
+Group C,Morocco,1,GK,Yassine Bounou,False,1991-04-05,90,0,Al-Hilal,Saudi Arabian Football Federation
+Group C,Morocco,2,DF,Achraf Hakimi,True,1998-11-04,96,11,Paris Saint-Germain,French Football Federation
+Group C,Morocco,3,DF,Noussair Mazraoui,False,1997-11-14,45,2,Manchester United,The Football Association
+Group C,Morocco,4,MF,Sofyan Amrabat,False,1996-08-21,75,0,Real Betis,Royal Spanish Football Federation
+Group C,Morocco,5,DF,Marwane Saâdane,False,1992-01-17,8,0,Al-Fateh,Saudi Arabian Football Federation
+Group C,Morocco,6,MF,Ayyoub Bouaddi,False,2007-10-02,3,0,Lille,French Football Federation
+Group C,Morocco,7,MF,Chemsdine Talbi,False,2005-05-09,5,0,Sunderland,The Football Association
+Group C,Morocco,8,MF,Azzedine Ounahi,False,2000-04-19,49,9,Girona,Royal Spanish Football Federation
+Group C,Morocco,9,FW,Soufiane Rahimi,False,1996-06-02,37,12,Al Ain,United Arab Emirates Football Association
+Group C,Morocco,10,FW,Brahim Díaz,False,1999-08-03,26,14,Real Madrid,Royal Spanish Football Federation
+Group C,Morocco,11,MF,Ismael Saibari,False,2001-01-28,30,9,PSV Eindhoven,Royal Dutch Football Association
+Group C,Morocco,12,GK,Munir Mohamedi,False,1989-05-10,52,0,RS Berkane,Royal Moroccan Football Federation
+Group C,Morocco,13,DF,Zakaria El Ouahdi,False,2001-12-31,3,0,Genk,Royal Belgian Football Association
+Group C,Morocco,14,DF,Issa Diop,False,1997-01-09,4,0,Fulham,The Football Association
+Group C,Morocco,15,MF,Samir El Mourabet,False,2005-10-06,4,0,Strasbourg,French Football Federation
+Group C,Morocco,16,MF,Gessime Yassine,False,2005-11-22,4,0,Strasbourg,French Football Federation
+Group C,Morocco,17,FW,Amine Sbaï,False,2000-11-05,2,0,Angers,French Football Federation
+Group C,Morocco,18,DF,Chadi Riad,False,2003-06-17,6,1,Crystal Palace,The Football Association
+Group C,Morocco,19,DF,Youssef Belammari,False,1998-09-20,18,0,Al Ahly,Egyptian Football Association
+Group C,Morocco,20,FW,Ayoub El Kaabi,False,1993-06-25,71,35,Olympiacos,Hellenic Football Federation
+Group C,Morocco,21,FW,Ayoube Amaimouni,False,2004-11-30,2,0,Eintracht Frankfurt,German Football Association
+Group C,Morocco,22,GK,Ahmed Reda Tagnaouti,False,1996-04-05,3,0,AS FAR,Royal Moroccan Football Federation
+Group C,Morocco,23,MF,Bilal El Khannouss,False,2004-05-10,37,3,VfB Stuttgart,German Football Association
+Group C,Morocco,24,MF,Neil El Aynaoui,False,2001-07-02,16,2,Roma,Italian Football Federation
+Group C,Morocco,25,DF,Redouane Halhal,False,2003-03-05,3,0,Mechelen,Royal Belgian Football Association
+Group C,Morocco,26,DF,Anass Salah-Eddine,False,2002-01-18,9,0,PSV Eindhoven,Royal Dutch Football Association
+Group C,Scotland,1,GK,Angus Gunn,False,1996-01-22,22,0,Nottingham Forest,The Football Association
+Group C,Scotland,2,DF,Aaron Hickey,False,2002-06-10,21,0,Brentford,The Football Association
+Group C,Scotland,3,DF,Andy Robertson,True,1994-03-11,94,4,Liverpool,The Football Association
+Group C,Scotland,4,MF,Scott McTominay,False,1996-12-08,70,15,Napoli,Italian Football Federation
+Group C,Scotland,5,DF,Grant Hanley,False,1991-11-20,68,2,Hibernian,Scottish Football Association
+Group C,Scotland,6,DF,Kieran Tierney,False,1997-06-05,56,2,Celtic,Scottish Football Association
+Group C,Scotland,7,MF,John McGinn,False,1994-10-18,86,20,Aston Villa,The Football Association
+Group C,Scotland,8,MF,Tyler Fletcher,False,2007-03-19,2,0,Manchester United,The Football Association
+Group C,Scotland,9,FW,Lyndon Dykes,False,1995-10-07,51,10,Charlton Athletic,The Football Association
+Group C,Scotland,10,FW,Ché Adams,False,1996-07-13,47,13,Torino,Italian Football Federation
+Group C,Scotland,11,MF,Ryan Christie,False,1995-02-22,68,10,Bournemouth,The Football Association
+Group C,Scotland,12,GK,Liam Kelly,False,1996-01-23,3,0,Rangers,Scottish Football Association
+Group C,Scotland,13,DF,Jack Hendry,False,1995-05-07,38,3,Al-Ettifaq,Saudi Arabian Football Federation
+Group C,Scotland,14,FW,Ross Stewart,False,1996-07-11,3,0,Southampton,The Football Association
+Group C,Scotland,15,DF,John Souttar,False,1996-09-25,24,2,Rangers,Scottish Football Association
+Group C,Scotland,16,DF,Dominic Hyam,False,1995-12-20,4,0,Wrexham,Football Association of Wales
+Group C,Scotland,17,FW,Ben Gannon-Doak,False,2005-11-11,14,1,Bournemouth,The Football Association
+Group C,Scotland,18,FW,George Hirst,False,1999-02-15,10,1,Ipswich Town,The Football Association
+Group C,Scotland,19,MF,Lewis Ferguson,False,1999-08-24,24,1,Bologna,Italian Football Federation
+Group C,Scotland,20,FW,Lawrence Shankland,False,1995-08-10,20,7,Heart of Midlothian,Scottish Football Association
+Group C,Scotland,21,GK,Craig Gordon,False,1982-12-31,84,0,Heart of Midlothian,Scottish Football Association
+Group C,Scotland,22,DF,Nathan Patterson,False,2001-10-16,26,1,Everton,The Football Association
+Group C,Scotland,23,MF,Kenny McLean,False,1992-01-08,58,3,Norwich City,The Football Association
+Group C,Scotland,24,DF,Anthony Ralston,False,1998-11-16,27,1,Celtic,Scottish Football Association
+Group C,Scotland,25,FW,Findlay Curtis,False,2006-06-09,3,1,Kilmarnock,Scottish Football Association
+Group C,Scotland,26,DF,Scott McKenna,False,1996-11-12,50,1,Dinamo Zagreb,Croatian Football Federation
+Group D,Australia,1,GK,Mathew Ryan,True,1992-04-08,104,0,Levante,Royal Spanish Football Federation
+Group D,Australia,2,DF,Miloš Degenek,False,1994-04-28,57,1,APOEL,Cyprus Football Association
+Group D,Australia,3,DF,Alessandro Circati,False,2003-10-10,13,1,Parma,Italian Football Federation
+Group D,Australia,4,DF,Jacob Italiano,False,2001-07-30,5,0,Grazer AK,Austrian Football Association
+Group D,Australia,5,DF,Jordan Bos,False,2002-10-29,27,4,Feyenoord,Royal Dutch Football Association
+Group D,Australia,6,DF,Jason Geria,False,1993-05-10,14,0,Albirex Niigata,Japan Football Association
+Group D,Australia,7,FW,Mathew Leckie,False,1991-02-04,80,14,Melbourne City,Football Australia
+Group D,Australia,8,MF,Connor Metcalfe,False,1999-11-05,36,1,FC St. Pauli,German Football Association
+Group D,Australia,9,FW,Mohamed Touré,False,2004-03-26,10,2,Norwich City,The Football Association
+Group D,Australia,10,FW,Ajdin Hrustic,False,1996-07-05,37,4,Heracles Almelo,Royal Dutch Football Association
+Group D,Australia,11,FW,Awer Mabil,False,1995-09-15,38,10,Castellón,Royal Spanish Football Federation
+Group D,Australia,12,GK,Paul Izzo,False,1995-01-06,4,0,Randers,Danish Football Association
+Group D,Australia,13,MF,Aiden O'Neill,False,1998-07-04,31,0,New York City FC,United States Soccer Federation
+Group D,Australia,14,MF,Cammy Devlin,False,1998-06-07,5,0,Heart of Midlothian,Scottish Football Association
+Group D,Australia,15,DF,Kai Trewin,False,2001-05-18,6,0,New York City FC,United States Soccer Federation
+Group D,Australia,16,DF,Aziz Behich,False,1990-12-16,84,3,Melbourne City,Football Australia
+Group D,Australia,17,FW,Nestory Irankunda,False,2006-02-09,15,5,Watford,The Football Association
+Group D,Australia,18,GK,Patrick Beach,False,2003-08-06,2,0,Melbourne City,Football Australia
+Group D,Australia,19,DF,Harry Souttar,False,1998-10-22,38,11,Leicester City,The Football Association
+Group D,Australia,20,FW,Cristian Volpato,False,2003-11-15,1,0,Sassuolo,Italian Football Federation
+Group D,Australia,21,DF,Cameron Burgess,False,1995-10-21,27,0,Swansea City,Football Association of Wales
+Group D,Australia,22,MF,Jackson Irvine,False,1993-03-07,82,14,FC St. Pauli,German Football Association
+Group D,Australia,23,FW,Nishan Velupillay,False,2001-05-07,7,3,Melbourne Victory,Football Australia
+Group D,Australia,24,MF,Paul Okon-Engstler,False,2005-01-24,6,0,Sydney FC,Football Australia
+Group D,Australia,25,DF,Lucas Herrington,False,2007-09-05,4,0,Colorado Rapids,United States Soccer Federation
+Group D,Australia,26,FW,Tete Yengi,False,2000-11-28,1,1,Machida Zelvia,Japan Football Association
+Group D,Paraguay,1,GK,Gatito Fernández,False,1988-03-29,31,0,Cerro Porteño,Paraguayan Football Association
+Group D,Paraguay,2,DF,Gustavo Velázquez,False,1991-04-17,13,1,Cerro Porteño,Paraguayan Football Association
+Group D,Paraguay,3,DF,Omar Alderete,False,1996-12-26,36,3,Sunderland,The Football Association
+Group D,Paraguay,4,DF,Juan José Cáceres,False,2000-06-01,17,0,Dynamo Moscow,Russian Football Union
+Group D,Paraguay,5,DF,Fabián Balbuena,False,1991-08-23,48,2,Grêmio,Brazilian Football Confederation
+Group D,Paraguay,6,DF,Júnior Alonso,False,1993-02-09,71,3,Atlético Mineiro,Brazilian Football Confederation
+Group D,Paraguay,7,MF,Ramón Sosa,False,1999-08-31,29,1,Palmeiras,Brazilian Football Confederation
+Group D,Paraguay,8,MF,Diego Gómez,False,2003-03-27,24,3,Brighton & Hove Albion,The Football Association
+Group D,Paraguay,9,FW,Antonio Sanabria,False,1996-03-04,48,7,Cremonese,Italian Football Federation
+Group D,Paraguay,10,MF,Miguel Almirón,False,1994-02-10,76,10,Atlanta United FC,United States Soccer Federation
+Group D,Paraguay,11,MF,Maurício,False,2001-06-22,3,0,Palmeiras,Brazilian Football Confederation
+Group D,Paraguay,12,GK,Orlando Gill,False,2000-06-11,6,0,San Lorenzo,Argentine Football Association
+Group D,Paraguay,13,DF,José Canale,False,1996-07-20,2,0,Lanús,Argentine Football Association
+Group D,Paraguay,14,MF,Andrés Cubas,False,1996-05-11,33,0,Vancouver Whitecaps FC,Canadian Soccer Association
+Group D,Paraguay,15,DF,Gustavo Gómez,True,1993-05-06,89,4,Palmeiras,Brazilian Football Confederation
+Group D,Paraguay,16,MF,Damián Bobadilla,False,2001-07-11,19,1,São Paulo,Brazilian Football Confederation
+Group D,Paraguay,17,FW,Kaku,False,1995-01-11,33,6,Al Ain,United Arab Emirates Football Association
+Group D,Paraguay,18,FW,Álex Arce,False,1995-06-16,15,1,Independiente Rivadavia,Argentine Football Association
+Group D,Paraguay,19,FW,Julio Enciso,False,2004-01-23,32,4,Strasbourg,French Football Federation
+Group D,Paraguay,20,MF,Braian Ojeda,False,2000-06-27,17,0,Orlando City SC,United States Soccer Federation
+Group D,Paraguay,21,FW,Gabriel Ávalos,False,1991-07-09,23,2,Independiente,Argentine Football Association
+Group D,Paraguay,22,GK,Gastón Olveira,False,1993-04-21,1,0,Olimpia,Paraguayan Football Association
+Group D,Paraguay,23,MF,Matías Galarza,False,2002-02-11,15,3,Atlanta United FC,United States Soccer Federation
+Group D,Paraguay,24,MF,Gustavo Caballero,False,2001-09-21,2,1,Portsmouth,The Football Association
+Group D,Paraguay,25,FW,Isidro Pitta,False,1999-08-14,5,0,Red Bull Bragantino,Brazilian Football Confederation
+Group D,Paraguay,26,DF,Alexandro Maidana,False,2005-07-26,2,1,Talleres,Argentine Football Association
+Group D,Turkey,1,GK,Mert Günok,False,1989-03-01,37,0,Fenerbahçe,Turkish Football Federation
+Group D,Turkey,2,DF,Zeki Çelik,False,1997-02-17,61,3,Roma,Italian Football Federation
+Group D,Turkey,3,DF,Merih Demiral,False,1998-03-05,62,6,Al-Ahli,Saudi Arabian Football Federation
+Group D,Turkey,4,DF,Çağlar Söyüncü,False,1996-05-23,60,2,Fenerbahçe,Turkish Football Federation
+Group D,Turkey,5,MF,Salih Özcan,False,1998-01-11,30,1,Borussia Dortmund,German Football Association
+Group D,Turkey,6,MF,Orkun Kökçü,False,2000-12-29,50,4,Beşiktaş,Turkish Football Federation
+Group D,Turkey,7,FW,Kerem Aktürkoğlu,False,1998-10-21,52,15,Fenerbahçe,Turkish Football Federation
+Group D,Turkey,8,FW,Arda Güler,False,2005-02-25,29,6,Real Madrid,Royal Spanish Football Federation
+Group D,Turkey,9,FW,Deniz Gül,False,2004-07-02,8,2,Porto,Portuguese Football Federation
+Group D,Turkey,10,MF,Hakan Çalhanoğlu,True,1994-02-08,105,22,Inter Milan,Italian Football Federation
+Group D,Turkey,11,FW,Kenan Yıldız,False,2005-05-04,28,5,Juventus,Italian Football Federation
+Group D,Turkey,12,GK,Altay Bayındır,False,1998-04-14,12,0,Manchester United,The Football Association
+Group D,Turkey,13,DF,Eren Elmalı,False,2000-07-07,23,0,Galatasaray,Turkish Football Federation
+Group D,Turkey,14,DF,Abdülkerim Bardakcı,False,1994-09-07,27,2,Galatasaray,Turkish Football Federation
+Group D,Turkey,15,DF,Ozan Kabak,False,2000-03-25,30,2,TSG Hoffenheim,German Football Association
+Group D,Turkey,16,MF,İsmail Yüksek,False,1999-01-26,32,1,Fenerbahçe,Turkish Football Federation
+Group D,Turkey,17,FW,İrfan Can Kahveci,False,1995-07-15,47,6,Kasımpaşa,Turkish Football Federation
+Group D,Turkey,18,DF,Mert Müldür,False,1999-04-03,45,3,Fenerbahçe,Turkish Football Federation
+Group D,Turkey,19,FW,Yunus Akgün,False,2000-07-07,19,4,Galatasaray,Turkish Football Federation
+Group D,Turkey,20,DF,Ferdi Kadıoğlu,False,1999-10-07,30,2,Brighton & Hove Albion,The Football Association
+Group D,Turkey,21,FW,Barış Alper Yılmaz,False,2000-05-23,35,4,Galatasaray,Turkish Football Federation
+Group D,Turkey,22,MF,Kaan Ayhan,False,1994-11-10,73,5,Galatasaray,Turkish Football Federation
+Group D,Turkey,23,GK,Uğurcan Çakır,False,1996-04-05,39,0,Galatasaray,Turkish Football Federation
+Group D,Turkey,24,FW,Oğuz Aydın,False,2000-10-27,11,0,Fenerbahçe,Turkish Football Federation
+Group D,Turkey,25,DF,Samet Akaydin,False,1994-03-13,19,1,Çaykur Rizespor,Turkish Football Federation
+Group D,Turkey,26,FW,Can Uzun,False,2005-11-11,6,1,Eintracht Frankfurt,German Football Association
+Group D,United States,1,GK,Matt Turner,False,1994-06-24,54,0,New England Revolution,United States Soccer Federation
+Group D,United States,2,DF,Sergiño Dest,False,2000-11-03,39,3,PSV Eindhoven,Royal Dutch Football Association
+Group D,United States,3,DF,Chris Richards,False,2000-03-28,36,3,Crystal Palace,The Football Association
+Group D,United States,4,MF,Tyler Adams,False,1999-02-14,54,2,Bournemouth,The Football Association
+Group D,United States,5,DF,Antonee Robinson,False,1997-08-08,54,5,Fulham,The Football Association
+Group D,United States,6,DF,Auston Trusty,False,1998-08-12,8,0,Celtic,Scottish Football Association
+Group D,United States,7,MF,Giovanni Reyna,False,2002-11-13,38,9,Borussia Mönchengladbach,German Football Association
+Group D,United States,8,MF,Weston McKennie,False,1998-08-28,66,12,Juventus,Italian Football Federation
+Group D,United States,9,FW,Ricardo Pepi,False,2003-01-09,37,13,PSV Eindhoven,Royal Dutch Football Association
+Group D,United States,10,FW,Christian Pulisic,False,1998-09-18,86,33,Milan,Italian Football Federation
+Group D,United States,11,FW,Brenden Aaronson,False,2000-10-22,58,9,Leeds United,The Football Association
+Group D,United States,12,DF,Miles Robinson,False,1997-03-14,40,3,FC Cincinnati,United States Soccer Federation
+Group D,United States,13,DF,Tim Ream,True,1987-10-05,82,1,Charlotte FC,United States Soccer Federation
+Group D,United States,14,MF,Sebastian Berhalter,False,2001-05-10,13,1,Vancouver Whitecaps FC,Canadian Soccer Association
+Group D,United States,15,MF,Cristian Roldan,False,1995-06-03,47,0,Seattle Sounders FC,United States Soccer Federation
+Group D,United States,16,DF,Alex Freeman,False,2004-08-09,17,2,Villarreal,Royal Spanish Football Federation
+Group D,United States,17,MF,Malik Tillman,False,2002-05-28,30,3,Bayer Leverkusen,German Football Association
+Group D,United States,18,DF,Max Arfsten,False,2001-04-19,20,1,Columbus Crew,United States Soccer Federation
+Group D,United States,19,FW,Haji Wright,False,1998-03-27,20,7,Coventry City,The Football Association
+Group D,United States,20,FW,Folarin Balogun,False,2001-07-03,27,9,Monaco,French Football Federation
+Group D,United States,21,FW,Timothy Weah,False,2000-02-22,51,7,Marseille,French Football Federation
+Group D,United States,22,DF,Mark McKenzie,False,1999-02-25,29,0,Toulouse,French Football Federation
+Group D,United States,23,DF,Joe Scally,False,2002-12-31,26,0,Borussia Mönchengladbach,German Football Association
+Group D,United States,24,GK,Matt Freese,False,1998-09-02,15,0,New York City FC,United States Soccer Federation
+Group D,United States,25,GK,Chris Brady,False,2004-03-03,1,0,Chicago Fire FC,United States Soccer Federation
+Group D,United States,26,FW,Alejandro Zendejas,False,1998-02-07,14,2,América,Mexican Football Federation
+Group E,Curaçao,1,GK,Eloy Room,False,1989-02-06,71,0,Miami FC,United States Soccer Federation
+Group E,Curaçao,2,DF,Shurandy Sambo,False,2001-08-19,8,0,Sparta Rotterdam,Royal Dutch Football Association
+Group E,Curaçao,3,DF,Juriën Gaari,False,1993-12-23,60,1,Abha,Saudi Arabian Football Federation
+Group E,Curaçao,4,DF,Roshon van Eijma,False,1998-06-09,28,1,RKC Waalwijk,Royal Dutch Football Association
+Group E,Curaçao,5,DF,Sherel Floranus,False,1998-08-23,28,0,PEC Zwolle,Royal Dutch Football Association
+Group E,Curaçao,6,MF,Godfried Roemeratoe,False,1999-08-19,28,1,RKC Waalwijk,Royal Dutch Football Association
+Group E,Curaçao,7,MF,Juninho Bacuna,False,1997-08-07,49,15,Volendam,Royal Dutch Football Association
+Group E,Curaçao,8,MF,Livano Comenencia,False,2004-02-03,20,2,Zürich,Swiss Football Association
+Group E,Curaçao,9,FW,Jürgen Locadia,False,1993-11-07,13,1,Miami FC,United States Soccer Federation
+Group E,Curaçao,10,MF,Leandro Bacuna,True,1991-08-21,72,16,Iğdır,Turkish Football Federation
+Group E,Curaçao,11,FW,Jeremy Antonisse,False,2002-03-29,27,4,Kifisia,Hellenic Football Federation
+Group E,Curaçao,12,FW,Sontje Hansen,False,2002-05-18,6,1,Middlesbrough,The Football Association
+Group E,Curaçao,13,FW,Tyrese Noslin,False,2002-09-11,7,1,Telstar,Royal Dutch Football Association
+Group E,Curaçao,14,FW,Kenji Gorré,False,1994-09-29,38,6,Maccabi Haifa,Israel Football Association
+Group E,Curaçao,15,MF,Ar'jany Martha,False,2003-09-04,9,2,Rotherham United,The Football Association
+Group E,Curaçao,16,FW,Jearl Margaritha,False,2000-04-10,22,5,Beveren,Royal Belgian Football Association
+Group E,Curaçao,17,FW,Brandley Kuwas,False,1992-09-19,35,2,Volendam,Royal Dutch Football Association
+Group E,Curaçao,18,DF,Armando Obispo,False,1999-03-05,6,0,PSV Eindhoven,Royal Dutch Football Association
+Group E,Curaçao,19,FW,Gervane Kastaneer,False,1996-06-09,29,9,Terengganu,Football Association of Malaysia
+Group E,Curaçao,20,DF,Joshua Brenet,False,1994-03-20,18,2,Kayserispor,Turkish Football Federation
+Group E,Curaçao,21,MF,Tahith Chong,False,1999-12-04,6,3,Sheffield United,The Football Association
+Group E,Curaçao,22,MF,Kevin Felida,False,1999-11-11,19,1,Den Bosch,Royal Dutch Football Association
+Group E,Curaçao,23,DF,Riechedly Bazoer,False,1996-10-12,5,0,Konyaspor,Turkish Football Federation
+Group E,Curaçao,24,DF,Deveron Fonville,False,2003-05-16,2,0,NEC,Royal Dutch Football Association
+Group E,Curaçao,25,GK,Tyrick Bodak,False,2002-05-15,4,0,Telstar,Royal Dutch Football Association
+Group E,Curaçao,26,GK,Trevor Doornbusch,False,1999-07-06,8,0,VVV-Venlo,Royal Dutch Football Association
+Group E,Ecuador,1,GK,Hernán Galíndez,False,1987-03-30,35,0,Huracán,Argentine Football Association
+Group E,Ecuador,2,DF,Félix Torres,False,1997-01-11,49,5,Internacional,Brazilian Football Confederation
+Group E,Ecuador,3,DF,Piero Hincapié,False,2002-01-09,52,3,Arsenal,The Football Association
+Group E,Ecuador,4,DF,Joel Ordóñez,False,2004-04-21,17,0,Club Brugge,Royal Belgian Football Association
+Group E,Ecuador,5,MF,Jordy Alcívar,False,1999-08-05,11,1,Independiente del Valle,Ecuadorian Football Federation
+Group E,Ecuador,6,DF,Willian Pacho,False,2001-10-16,34,2,Paris Saint-Germain,French Football Federation
+Group E,Ecuador,7,DF,Pervis Estupiñán,False,1998-01-21,54,5,Milan,Italian Football Federation
+Group E,Ecuador,8,MF,Anthony Valencia,False,2003-07-21,3,1,Antwerp,Royal Belgian Football Association
+Group E,Ecuador,9,FW,John Yeboah,False,2000-06-23,23,3,Venezia,Italian Football Federation
+Group E,Ecuador,10,MF,Kendry Páez,False,2007-05-04,26,2,River Plate,Argentine Football Association
+Group E,Ecuador,11,FW,Kevin Rodríguez,False,2000-03-04,31,2,Union Saint-Gilloise,Royal Belgian Football Association
+Group E,Ecuador,12,GK,Moisés Ramírez,False,2000-09-09,7,0,Kifisia,Hellenic Football Federation
+Group E,Ecuador,13,FW,Enner Valencia,True,1989-11-04,105,49,Pachuca,Mexican Football Federation
+Group E,Ecuador,14,MF,Alan Minda,False,2003-05-14,20,2,Atlético Mineiro,Brazilian Football Confederation
+Group E,Ecuador,15,MF,Pedro Vite,False,2002-03-09,17,1,Pumas UNAM,Mexican Football Federation
+Group E,Ecuador,16,FW,Jordy Caicedo,False,1997-11-18,20,4,Huracán,Argentine Football Association
+Group E,Ecuador,17,DF,Ángelo Preciado,False,1998-02-18,55,0,Atlético Mineiro,Brazilian Football Confederation
+Group E,Ecuador,18,MF,Denil Castillo,False,2004-03-24,5,0,Midtjylland,Danish Football Association
+Group E,Ecuador,19,FW,Gonzalo Plata,False,2000-11-01,50,8,Flamengo,Brazilian Football Confederation
+Group E,Ecuador,20,FW,Nilson Angulo,False,2003-06-19,14,2,Sunderland,The Football Association
+Group E,Ecuador,21,MF,Alan Franco,False,1998-08-21,58,1,Atlético Mineiro,Brazilian Football Confederation
+Group E,Ecuador,22,GK,Gonzalo Valle,False,1996-02-28,4,0,LDU Quito,Ecuadorian Football Federation
+Group E,Ecuador,23,MF,Moisés Caicedo,False,2001-11-02,61,3,Chelsea,The Football Association
+Group E,Ecuador,24,FW,Jeremy Arévalo,False,2005-03-19,4,0,VfB Stuttgart,German Football Association
+Group E,Ecuador,25,DF,Jackson Porozo,False,2000-08-04,10,1,Tijuana,Mexican Football Federation
+Group E,Ecuador,26,DF,Yaimar Medina,False,2004-11-05,6,0,Genk,Royal Belgian Football Association
+Group E,Germany,1,GK,Manuel Neuer,False,1986-03-27,124,0,Bayern Munich,German Football Association
+Group E,Germany,2,DF,Antonio Rüdiger,False,1993-03-03,82,3,Real Madrid,Royal Spanish Football Federation
+Group E,Germany,3,DF,Waldemar Anton,False,1996-07-20,13,0,Borussia Dortmund,German Football Association
+Group E,Germany,4,DF,Jonathan Tah,False,1996-02-11,47,1,Bayern Munich,German Football Association
+Group E,Germany,5,MF,Aleksandar Pavlović,False,2004-05-03,11,1,Bayern Munich,German Football Association
+Group E,Germany,6,DF,Joshua Kimmich,True,1995-02-08,110,10,Bayern Munich,German Football Association
+Group E,Germany,7,FW,Kai Havertz,False,1999-06-11,58,22,Arsenal,The Football Association
+Group E,Germany,8,MF,Leon Goretzka,False,1995-02-06,70,15,Bayern Munich,German Football Association
+Group E,Germany,9,MF,Jamie Leweling,False,2001-02-26,5,1,VfB Stuttgart,German Football Association
+Group E,Germany,10,MF,Jamal Musiala,False,2003-02-26,42,9,Bayern Munich,German Football Association
+Group E,Germany,11,FW,Nick Woltemade,False,2002-02-14,11,4,Newcastle United,The Football Association
+Group E,Germany,12,GK,Oliver Baumann,False,1990-06-02,13,0,TSG Hoffenheim,German Football Association
+Group E,Germany,13,MF,Pascal Groß,False,1991-06-15,18,1,Brighton & Hove Albion,The Football Association
+Group E,Germany,14,FW,Maximilian Beier,False,2002-10-17,9,0,Borussia Dortmund,German Football Association
+Group E,Germany,15,DF,Nico Schlotterbeck,False,1999-12-01,27,0,Borussia Dortmund,German Football Association
+Group E,Germany,16,MF,Angelo Stiller,False,2001-04-04,8,0,VfB Stuttgart,German Football Association
+Group E,Germany,17,MF,Florian Wirtz,False,2003-05-03,41,11,Liverpool,The Football Association
+Group E,Germany,18,DF,Nathaniel Brown,False,2003-06-16,5,0,Eintracht Frankfurt,German Football Association
+Group E,Germany,19,MF,Leroy Sané,False,1996-01-11,76,17,Galatasaray,Turkish Football Federation
+Group E,Germany,20,MF,Nadiem Amiri,False,1996-10-27,11,1,Mainz 05,German Football Association
+Group E,Germany,21,GK,Alexander Nübel,False,1996-09-30,3,0,VfB Stuttgart,German Football Association
+Group E,Germany,22,DF,David Raum,False,1998-04-22,37,1,RB Leipzig,German Football Association
+Group E,Germany,23,MF,Felix Nmecha,False,2000-10-10,8,1,Borussia Dortmund,German Football Association
+Group E,Germany,24,DF,Malick Thiaw,False,2001-08-08,5,0,Newcastle United,The Football Association
+Group E,Germany,25,MF,Assan Ouédraogo,False,2006-05-09,1,1,RB Leipzig,German Football Association
+Group E,Germany,26,FW,Deniz Undav,False,1996-07-19,9,6,VfB Stuttgart,German Football Association
+Group E,Ivory Coast,1,GK,Yahia Fofana,False,2000-08-21,35,0,Çaykur Rizespor,Turkish Football Federation
+Group E,Ivory Coast,2,DF,Ousmane Diomande,False,2003-12-04,15,1,Sporting CP,Portuguese Football Federation
+Group E,Ivory Coast,3,DF,Ghislain Konan,False,1995-12-27,54,0,Gil Vicente,Portuguese Football Federation
+Group E,Ivory Coast,4,MF,Jean Michaël Seri,False,1991-07-19,65,4,Maribor,Football Association of Slovenia
+Group E,Ivory Coast,5,DF,Wilfried Singo,False,2000-12-25,34,1,Galatasaray,Turkish Football Federation
+Group E,Ivory Coast,6,MF,Seko Fofana,False,1995-05-07,33,7,Porto,Portuguese Football Federation
+Group E,Ivory Coast,7,DF,Odilon Kossounou,False,2001-01-04,36,0,Atalanta,Italian Football Federation
+Group E,Ivory Coast,8,MF,Franck Kessié,True,1996-12-19,102,15,Al-Ahli,Saudi Arabian Football Federation
+Group E,Ivory Coast,9,FW,Ange-Yoan Bonny,False,2003-10-25,1,0,Inter Milan,Italian Football Federation
+Group E,Ivory Coast,10,FW,Simon Adingra,False,2002-01-01,29,5,Monaco,French Football Federation
+Group E,Ivory Coast,11,FW,Yan Diomande,False,2006-11-14,10,3,RB Leipzig,German Football Association
+Group E,Ivory Coast,12,FW,Elye Wahi,False,2003-01-02,2,0,Nice,French Football Federation
+Group E,Ivory Coast,13,DF,Christopher Opéri,False,1997-04-29,12,0,İstanbul Başakşehir,Turkish Football Federation
+Group E,Ivory Coast,14,FW,Oumar Diakité,False,2003-12-20,30,6,Cercle Brugge,Royal Belgian Football Association
+Group E,Ivory Coast,15,FW,Amad Diallo,False,2002-07-11,19,6,Manchester United,The Football Association
+Group E,Ivory Coast,16,GK,Mohamed Koné,False,2002-03-07,0,0,Charleroi,Royal Belgian Football Association
+Group E,Ivory Coast,17,DF,Guéla Doué,False,2002-10-17,20,3,Strasbourg,French Football Federation
+Group E,Ivory Coast,18,MF,Ibrahim Sangaré,False,1997-12-02,57,12,Nottingham Forest,The Football Association
+Group E,Ivory Coast,19,FW,Nicolas Pépé,False,1995-05-29,56,12,Villarreal,Royal Spanish Football Federation
+Group E,Ivory Coast,20,DF,Emmanuel Agbadou,False,1997-06-17,20,2,Beşiktaş,Turkish Football Federation
+Group E,Ivory Coast,21,DF,Evan Ndicka,False,1999-08-20,28,0,Roma,Italian Football Federation
+Group E,Ivory Coast,22,FW,Evann Guessand,False,2001-07-01,21,4,Crystal Palace,The Football Association
+Group E,Ivory Coast,23,GK,Alban Lafont,False,1999-01-23,4,0,Panathinaikos,Hellenic Football Federation
+Group E,Ivory Coast,24,FW,Bazoumana Touré,False,2006-03-02,6,2,TSG Hoffenheim,German Football Association
+Group E,Ivory Coast,25,MF,Parfait Guiagon,False,2001-02-22,5,0,Charleroi,Royal Belgian Football Association
+Group E,Ivory Coast,26,MF,Christ Inao Oulaï,False,2006-04-06,9,0,Trabzonspor,Turkish Football Federation
+Group F,Japan,1,GK,Zion Suzuki,False,2002-08-21,24,0,Parma,Italian Football Federation
+Group F,Japan,2,DF,Yukinari Sugawara,False,2000-06-28,21,2,Werder Bremen,German Football Association
+Group F,Japan,3,DF,Shōgo Taniguchi,False,1991-07-15,38,1,Sint-Truiden,Royal Belgian Football Association
+Group F,Japan,4,DF,Kō Itakura,True,1997-01-27,40,2,Ajax,Royal Dutch Football Association
+Group F,Japan,5,DF,Yūto Nagatomo,False,1986-09-12,145,4,FC Tokyo,Japan Football Association
+Group F,Japan,6,FW,Shūto Machino,False,1999-09-30,14,5,Borussia Mönchengladbach,German Football Association
+Group F,Japan,7,MF,Ao Tanaka,False,1998-09-10,38,8,Leeds United,The Football Association
+Group F,Japan,8,MF,Takefusa Kubo,False,2001-06-04,49,7,Real Sociedad,Royal Spanish Football Federation
+Group F,Japan,9,FW,Keisuke Gotō,False,2005-06-03,4,0,Sint-Truiden,Royal Belgian Football Association
+Group F,Japan,10,MF,Ritsu Dōan,False,1998-06-16,65,11,Eintracht Frankfurt,German Football Association
+Group F,Japan,11,MF,Daizen Maeda,False,1997-10-20,27,4,Celtic,Scottish Football Association
+Group F,Japan,12,GK,Keisuke Ōsako,False,1999-07-28,11,0,Sanfrecce Hiroshima,Japan Football Association
+Group F,Japan,13,MF,Keito Nakamura,False,2000-07-28,25,10,Reims,French Football Federation
+Group F,Japan,14,MF,Junya Itō,False,1993-03-09,69,15,Genk,Royal Belgian Football Association
+Group F,Japan,15,MF,Daichi Kamada,False,1996-08-05,49,12,Crystal Palace,The Football Association
+Group F,Japan,16,DF,Tsuyoshi Watanabe,False,1997-02-05,11,0,Feyenoord,Royal Dutch Football Association
+Group F,Japan,17,MF,Yuito Suzuki,False,2001-10-25,6,0,SC Freiburg,German Football Association
+Group F,Japan,18,FW,Ayase Ueda,False,1998-08-28,39,16,Feyenoord,Royal Dutch Football Association
+Group F,Japan,19,FW,Kōki Ogawa,False,1997-08-08,15,11,NEC,Royal Dutch Football Association
+Group F,Japan,20,DF,Ayumu Seko,False,2000-06-07,14,0,Le Havre,French Football Federation
+Group F,Japan,21,DF,Hiroki Itō,False,1999-05-12,24,1,Bayern Munich,German Football Association
+Group F,Japan,22,DF,Takehiro Tomiyasu,False,1998-11-05,43,1,Ajax,Royal Dutch Football Association
+Group F,Japan,23,GK,Tomoki Hayakawa,False,1999-03-03,4,0,Kashima Antlers,Japan Football Association
+Group F,Japan,24,MF,Kaishū Sano,False,2000-12-30,13,0,Mainz 05,German Football Association
+Group F,Japan,25,DF,Junnosuke Suzuki,False,2003-07-12,6,0,Copenhagen,Danish Football Association
+Group F,Japan,26,FW,Kento Shiogai,False,2005-03-26,2,0,VfL Wolfsburg,German Football Association
+Group F,Netherlands,1,GK,Bart Verbruggen,False,2002-08-18,29,0,Brighton & Hove Albion,The Football Association
+Group F,Netherlands,2,DF,Lutsharel Geertruida,False,2000-07-18,21,0,Sunderland,The Football Association
+Group F,Netherlands,3,MF,Marten de Roon,False,1991-03-29,43,1,Atalanta,Italian Football Federation
+Group F,Netherlands,4,DF,Virgil van Dijk,True,1991-07-08,92,12,Liverpool,The Football Association
+Group F,Netherlands,5,DF,Nathan Aké,False,1995-02-18,59,5,Manchester City,The Football Association
+Group F,Netherlands,6,DF,Jan Paul van Hecke,False,2000-06-08,12,0,Brighton & Hove Albion,The Football Association
+Group F,Netherlands,7,MF,Justin Kluivert,False,1999-05-05,12,0,Bournemouth,The Football Association
+Group F,Netherlands,8,MF,Ryan Gravenberch,False,2002-05-16,27,1,Liverpool,The Football Association
+Group F,Netherlands,9,FW,Wout Weghorst,False,1992-08-07,52,14,Ajax,Royal Dutch Football Association
+Group F,Netherlands,10,FW,Memphis Depay,False,1994-02-13,109,55,Corinthians,Brazilian Football Confederation
+Group F,Netherlands,11,FW,Cody Gakpo,False,1999-05-07,50,21,Liverpool,The Football Association
+Group F,Netherlands,12,DF,Mats Wieffer,False,1999-11-16,15,1,Brighton & Hove Albion,The Football Association
+Group F,Netherlands,13,GK,Robin Roefs,False,2003-01-17,1,0,Sunderland,The Football Association
+Group F,Netherlands,14,MF,Tijjani Reijnders,False,1998-07-29,32,7,Manchester City,The Football Association
+Group F,Netherlands,15,DF,Micky van de Ven,False,2001-04-19,21,1,Tottenham Hotspur,The Football Association
+Group F,Netherlands,16,MF,Guus Til,False,1997-12-22,7,1,PSV Eindhoven,Royal Dutch Football Association
+Group F,Netherlands,17,FW,Noa Lang,False,1999-06-17,15,3,Galatasaray,Turkish Football Federation
+Group F,Netherlands,18,FW,Donyell Malen,False,1999-01-19,53,13,Roma,Italian Football Federation
+Group F,Netherlands,19,FW,Brian Brobbey,False,2002-02-01,12,1,Sunderland,The Football Association
+Group F,Netherlands,20,MF,Teun Koopmeiners,False,1998-02-28,28,3,Juventus,Italian Football Federation
+Group F,Netherlands,21,MF,Frenkie de Jong,False,1997-05-12,66,2,Barcelona,Royal Spanish Football Federation
+Group F,Netherlands,22,DF,Denzel Dumfries,False,1996-04-18,72,11,Inter Milan,Italian Football Federation
+Group F,Netherlands,23,GK,Mark Flekken,False,1993-06-13,12,0,Bayer Leverkusen,German Football Association
+Group F,Netherlands,24,FW,Crysencio Summerville,False,2001-10-30,2,0,West Ham United,The Football Association
+Group F,Netherlands,25,DF,Jorrel Hato,False,2006-03-07,8,0,Chelsea,The Football Association
+Group F,Netherlands,26,MF,Quinten Timber,False,2001-06-17,11,1,Marseille,French Football Federation
+Group F,Sweden,1,GK,Jacob Widell Zetterström,False,1998-07-11,3,0,Derby County,The Football Association
+Group F,Sweden,2,DF,Gustaf Lagerbielke,False,2000-04-10,11,2,Braga,Portuguese Football Federation
+Group F,Sweden,3,DF,Victor Lindelöf,True,1994-07-17,76,3,Aston Villa,The Football Association
+Group F,Sweden,4,DF,Isak Hien,False,1999-01-13,29,0,Atalanta,Italian Football Federation
+Group F,Sweden,5,DF,Gabriel Gudmundsson,False,1999-04-29,24,0,Leeds United,The Football Association
+Group F,Sweden,6,DF,Herman Johansson,False,1997-10-16,3,0,FC Dallas,United States Soccer Federation
+Group F,Sweden,7,MF,Lucas Bergvall,False,2006-02-02,10,0,Tottenham Hotspur,The Football Association
+Group F,Sweden,8,DF,Daniel Svensson,False,2002-02-12,13,0,Borussia Dortmund,German Football Association
+Group F,Sweden,9,FW,Alexander Isak,False,1999-09-21,58,17,Liverpool,The Football Association
+Group F,Sweden,10,MF,Benjamin Nygren,False,2001-07-08,11,3,Celtic,Scottish Football Association
+Group F,Sweden,11,FW,Anthony Elanga,False,2002-04-27,30,6,Newcastle United,The Football Association
+Group F,Sweden,12,GK,Viktor Johansson,False,1998-09-14,12,0,Stoke City,The Football Association
+Group F,Sweden,13,MF,Ken Sema,False,1993-09-30,33,5,Pafos,Cyprus Football Association
+Group F,Sweden,14,DF,Hjalmar Ekdal,False,1998-10-21,13,0,Burnley,The Football Association
+Group F,Sweden,15,DF,Carl Starfelt,False,1995-06-01,18,0,Celta Vigo,Royal Spanish Football Federation
+Group F,Sweden,16,MF,Jesper Karlström,False,1995-06-21,25,0,Udinese,Italian Football Federation
+Group F,Sweden,17,FW,Viktor Gyökeres,False,1998-06-04,33,20,Arsenal,The Football Association
+Group F,Sweden,18,MF,Yasin Ayari,False,2003-10-06,21,3,Brighton & Hove Albion,The Football Association
+Group F,Sweden,19,MF,Mattias Svanberg,False,1999-01-05,41,2,VfL Wolfsburg,German Football Association
+Group F,Sweden,20,DF,Eric Smith,False,1997-01-08,2,0,FC St. Pauli,German Football Association
+Group F,Sweden,21,DF,Alexander Bernhardsson,False,1998-09-08,11,0,Holstein Kiel,German Football Association
+Group F,Sweden,22,MF,Besfort Zeneli,False,2002-11-21,8,0,Union Saint-Gilloise,Royal Belgian Football Association
+Group F,Sweden,23,GK,Kristoffer Nordfeldt,False,1989-06-23,21,0,AIK,Swedish Football Association
+Group F,Sweden,24,DF,Elliot Stroud,False,2002-06-22,1,0,Mjällby AIF,Swedish Football Association
+Group F,Sweden,25,FW,Gustaf Nilsson,False,1997-05-23,10,4,Club Brugge,Royal Belgian Football Association
+Group F,Sweden,26,FW,Taha Ali,False,1998-07-01,2,0,Malmö FF,Swedish Football Association
+Group F,Tunisia,1,GK,Mouhib Chamakh,False,2001-08-25,3,0,Club Africain,Tunisian Football Federation
+Group F,Tunisia,2,DF,Ali Abdi,False,1993-12-20,46,7,Nice,French Football Federation
+Group F,Tunisia,3,DF,Montassar Talbi,False,1998-05-26,64,4,Lorient,French Football Federation
+Group F,Tunisia,4,DF,Omar Rekik,False,2001-12-20,6,0,Maribor,Football Association of Slovenia
+Group F,Tunisia,5,DF,Adem Arous,False,2004-07-17,2,0,Kasımpaşa,Turkish Football Federation
+Group F,Tunisia,6,DF,Dylan Bronn,False,1995-06-19,52,2,Servette,Swiss Football Association
+Group F,Tunisia,7,FW,Elias Achouri,False,1999-02-10,30,4,Copenhagen,Danish Football Association
+Group F,Tunisia,8,FW,Elias Saad,False,1999-12-27,15,4,Hannover 96,German Football Association
+Group F,Tunisia,9,FW,Hazem Mastouri,False,1997-06-18,19,4,Dynamo Makhachkala,Russian Football Union
+Group F,Tunisia,10,MF,Hannibal Mejbri,False,2003-01-21,45,1,Burnley,The Football Association
+Group F,Tunisia,11,MF,Ismaël Gharbi,False,2004-04-10,17,2,FC Augsburg,German Football Association
+Group F,Tunisia,12,DF,Mortadha Ben Ouanes,False,1994-07-02,18,0,Kasımpaşa,Turkish Football Federation
+Group F,Tunisia,13,MF,Rani Khedira,False,1994-01-27,3,0,Union Berlin,German Football Association
+Group F,Tunisia,14,MF,Khalil Ayari,False,2005-02-02,4,0,Paris Saint-Germain,French Football Federation
+Group F,Tunisia,15,MF,Hadj Mahmoud,False,2000-04-24,9,0,Lugano,Swiss Football Association
+Group F,Tunisia,16,GK,Aymen Dahmen,False,1997-01-28,37,0,CS Sfaxien,Tunisian Football Federation
+Group F,Tunisia,17,MF,Ellyes Skhiri,True,1995-05-10,83,4,Eintracht Frankfurt,German Football Association
+Group F,Tunisia,18,FW,Rayan Elloumi,False,2007-09-17,4,0,Vancouver Whitecaps FC,Canadian Soccer Association
+Group F,Tunisia,19,FW,Firas Chaouat,False,1996-05-08,30,6,Club Africain,Tunisian Football Federation
+Group F,Tunisia,20,DF,Yan Valery,False,1999-02-22,22,0,Young Boys,Swiss Football Association
+Group F,Tunisia,21,DF,Mohamed Amine Ben Hamida,False,1995-12-15,13,0,Espérance de Tunis,Tunisian Football Federation
+Group F,Tunisia,22,GK,Sabri Ben Hessen,False,1996-06-13,2,0,Étoile du Sahel,Tunisian Football Federation
+Group F,Tunisia,23,DF,Moutaz Neffati,False,2004-09-04,5,0,IFK Norrköping,Swedish Football Association
+Group F,Tunisia,24,DF,Raed Chikhaoui,False,2004-06-09,0,0,US Monastir,Tunisian Football Federation
+Group F,Tunisia,25,MF,Anis Ben Slimane,False,2001-03-16,41,4,Norwich City,The Football Association
+Group F,Tunisia,26,MF,Sebastian Tounekti,False,2002-07-13,12,1,Celtic,Scottish Football Association
+Group G,Belgium,1,GK,Thibaut Courtois,False,1992-05-11,109,0,Real Madrid,Royal Spanish Football Federation
+Group G,Belgium,2,DF,Zeno Debast,False,2003-10-24,26,1,Sporting CP,Portuguese Football Federation
+Group G,Belgium,3,DF,Arthur Theate,False,2000-05-25,33,1,Eintracht Frankfurt,German Football Association
+Group G,Belgium,4,DF,Brandon Mechele,False,1993-01-28,9,1,Club Brugge,Royal Belgian Football Association
+Group G,Belgium,5,DF,Maxim De Cuyper,False,2000-12-22,19,4,Brighton & Hove Albion,The Football Association
+Group G,Belgium,6,MF,Axel Witsel,False,1989-01-12,138,12,Girona,Royal Spanish Football Federation
+Group G,Belgium,7,MF,Kevin De Bruyne,False,1991-06-28,119,37,Napoli,Italian Football Federation
+Group G,Belgium,8,MF,Youri Tielemans,True,1997-05-07,85,13,Aston Villa,The Football Association
+Group G,Belgium,9,FW,Romelu Lukaku,False,1993-05-13,126,90,Napoli,Italian Football Federation
+Group G,Belgium,10,FW,Leandro Trossard,False,1994-12-04,51,12,Arsenal,The Football Association
+Group G,Belgium,11,FW,Jérémy Doku,False,2002-05-27,43,7,Manchester City,The Football Association
+Group G,Belgium,12,GK,Senne Lammens,False,2002-07-07,2,0,Manchester United,The Football Association
+Group G,Belgium,13,GK,Mike Penders,False,2005-07-31,0,0,Strasbourg,French Football Federation
+Group G,Belgium,14,FW,Dodi Lukébakio,False,1997-09-24,30,6,Benfica,Portuguese Football Federation
+Group G,Belgium,15,DF,Thomas Meunier,False,1991-09-12,80,10,Lille,French Football Federation
+Group G,Belgium,16,DF,Koni De Winter,False,2002-06-12,8,0,Milan,Italian Football Federation
+Group G,Belgium,17,FW,Charles De Ketelaere,False,2001-03-10,30,6,Atalanta,Italian Football Federation
+Group G,Belgium,18,DF,Joaquin Seys,False,2005-03-28,5,0,Club Brugge,Royal Belgian Football Association
+Group G,Belgium,19,MF,Diego Moreira,False,2004-08-06,3,0,Strasbourg,French Football Federation
+Group G,Belgium,20,MF,Hans Vanaken,False,1992-08-24,34,7,Club Brugge,Royal Belgian Football Association
+Group G,Belgium,21,DF,Timothy Castagne,False,1995-12-05,63,2,Fulham,The Football Association
+Group G,Belgium,22,MF,Alexis Saelemaekers,False,1999-06-27,24,2,Milan,Italian Football Federation
+Group G,Belgium,23,MF,Nicolas Raskin,False,2001-02-23,13,2,Rangers,Scottish Football Association
+Group G,Belgium,24,MF,Amadou Onana,False,2001-08-16,29,1,Aston Villa,The Football Association
+Group G,Belgium,25,DF,Nathan Ngoy,False,2003-06-10,4,0,Lille,French Football Federation
+Group G,Belgium,26,FW,Matias Fernandez-Pardo,False,2005-02-03,2,0,Lille,French Football Federation
+Group G,Egypt,1,GK,Mohamed El Shenawy,False,1988-12-18,76,0,Al Ahly,Egyptian Football Association
+Group G,Egypt,2,DF,Yasser Ibrahim,False,1993-02-10,17,1,Al Ahly,Egyptian Football Association
+Group G,Egypt,3,DF,Mohamed Hany,False,1996-02-02,42,0,Al Ahly,Egyptian Football Association
+Group G,Egypt,4,DF,Hossam Abdelmaguid,False,2001-04-30,13,0,Zamalek,Egyptian Football Association
+Group G,Egypt,5,DF,Ramy Rabia,False,1993-05-20,44,5,Al Ain,United Arab Emirates Football Association
+Group G,Egypt,6,DF,Mohamed Abdelmonem,False,1999-02-01,36,3,Nice,French Football Federation
+Group G,Egypt,7,FW,Trézéguet,False,1994-10-01,96,23,Al Ahly,Egyptian Football Association
+Group G,Egypt,8,MF,Emam Ashour,False,1998-02-20,29,0,Al Ahly,Egyptian Football Association
+Group G,Egypt,9,FW,Hamza Abdelkarim,False,2008-01-01,2,0,Barcelona B,Royal Spanish Football Federation
+Group G,Egypt,10,FW,Mohamed Salah,True,1992-06-15,116,67,Liverpool,The Football Association
+Group G,Egypt,11,MF,Mostafa Ziko,False,1997-04-27,2,2,Pyramids,Egyptian Football Association
+Group G,Egypt,12,FW,Haissem Hassan,False,2002-02-08,4,0,Oviedo,Royal Spanish Football Federation
+Group G,Egypt,13,DF,Ahmed Fatouh,False,1998-03-22,39,1,Zamalek,Egyptian Football Association
+Group G,Egypt,14,MF,Hamdy Fathy,False,1994-09-29,63,3,Al-Wakrah,Qatar Football Association
+Group G,Egypt,15,DF,Karim Hafez,False,1996-03-12,9,0,Pyramids,Egyptian Football Association
+Group G,Egypt,16,GK,El Mahdy Soliman,False,1987-06-08,0,0,Zamalek,Egyptian Football Association
+Group G,Egypt,17,MF,Mohanad Lasheen,False,1996-05-29,23,0,Pyramids,Egyptian Football Association
+Group G,Egypt,18,MF,Nabil Emad,False,1996-04-06,12,0,Al-Najma,Saudi Arabian Football Federation
+Group G,Egypt,19,MF,Marwan Attia,False,1998-08-01,34,1,Al Ahly,Egyptian Football Association
+Group G,Egypt,20,FW,Ibrahim Adel,False,2001-04-23,24,3,Nordsjælland,Danish Football Association
+Group G,Egypt,21,MF,Mahmoud Saber,False,2001-07-30,15,1,ZED,Egyptian Football Association
+Group G,Egypt,22,FW,Omar Marmoush,False,1999-02-07,50,11,Manchester City,The Football Association
+Group G,Egypt,23,GK,Mostafa Shobeir,False,2000-05-15,9,0,Al Ahly,Egyptian Football Association
+Group G,Egypt,24,DF,Tarek Alaa,False,2002-01-05,3,0,ZED,Egyptian Football Association
+Group G,Egypt,25,FW,Zizo,False,1996-01-10,63,5,Al Ahly,Egyptian Football Association
+Group G,Egypt,26,GK,Mohamed Alaa,False,1999-01-01,0,0,El Gouna,Egyptian Football Association
+Group G,Iran,1,GK,Alireza Beiranvand,False,1992-09-21,86,0,Tractor,Football Federation Islamic Republic of Iran
+Group G,Iran,2,DF,Saleh Hardani,False,1998-12-26,18,1,Esteghlal,Football Federation Islamic Republic of Iran
+Group G,Iran,3,DF,Ehsan Hajsafi,True,1990-02-25,146,7,Sepahan,Football Federation Islamic Republic of Iran
+Group G,Iran,4,DF,Shojae Khalilzadeh,False,1989-05-14,58,2,Tractor,Football Federation Islamic Republic of Iran
+Group G,Iran,5,DF,Milad Mohammadi,False,1993-09-29,76,1,Persepolis,Football Federation Islamic Republic of Iran
+Group G,Iran,6,MF,Saeid Ezatolahi,False,1996-10-01,83,2,Shabab Al Ahli,United Arab Emirates Football Association
+Group G,Iran,7,MF,Alireza Jahanbakhsh,False,1993-08-11,99,17,Dender EH,Royal Belgian Football Association
+Group G,Iran,8,MF,Mohammad Mohebi,False,1998-12-20,37,14,Rostov,Russian Football Union
+Group G,Iran,9,FW,Mehdi Taremi,False,1992-07-18,105,60,Olympiacos,Hellenic Football Federation
+Group G,Iran,10,FW,Mehdi Ghayedi,False,1998-12-05,30,10,Al Nasr,United Arab Emirates Football Association
+Group G,Iran,11,FW,Ali Alipour,False,1995-11-11,14,1,Persepolis,Football Federation Islamic Republic of Iran
+Group G,Iran,12,GK,Payam Niazmand,False,1995-04-06,15,0,Persepolis,Football Federation Islamic Republic of Iran
+Group G,Iran,13,DF,Hossein Kanaanizadegan,False,1994-03-23,65,6,Persepolis,Football Federation Islamic Republic of Iran
+Group G,Iran,14,MF,Saman Ghoddos,False,1993-09-06,68,3,Kalba,United Arab Emirates Football Association
+Group G,Iran,15,MF,Rouzbeh Cheshmi,False,1993-07-24,40,3,Esteghlal,Football Federation Islamic Republic of Iran
+Group G,Iran,16,MF,Mahdi Torabi,False,1994-09-10,52,7,Tractor,Football Federation Islamic Republic of Iran
+Group G,Iran,17,DF,Arya Yousefi,False,2002-04-22,14,1,Sepahan,Football Federation Islamic Republic of Iran
+Group G,Iran,18,FW,Amirhossein Hosseinzadeh,False,2000-10-30,18,5,Tractor,Football Federation Islamic Republic of Iran
+Group G,Iran,19,DF,Ali Nemati,False,1996-02-08,18,0,Foolad,Football Federation Islamic Republic of Iran
+Group G,Iran,20,FW,Shahriyar Moghanlou,False,1994-12-21,21,2,Kalba,United Arab Emirates Football Association
+Group G,Iran,21,MF,Mohammad Ghorbani,False,2001-10-07,16,0,Al Wahda,United Arab Emirates Football Association
+Group G,Iran,22,GK,Hossein Hosseini,False,1992-06-30,13,0,Sepahan,Football Federation Islamic Republic of Iran
+Group G,Iran,23,DF,Ramin Rezaeian,False,1990-03-21,74,8,Foolad,Football Federation Islamic Republic of Iran
+Group G,Iran,24,FW,Dennis Eckert,False,1997-01-09,0,0,Standard Liège,Royal Belgian Football Association
+Group G,Iran,25,DF,Danial Eiri,False,2003-10-26,0,0,Malavan,Football Federation Islamic Republic of Iran
+Group G,Iran,26,MF,Amirmohammad Razzaghinia,False,2006-04-11,4,0,Esteghlal,Football Federation Islamic Republic of Iran
+Group G,New Zealand,1,GK,Max Crocombe,False,1993-08-12,24,0,Millwall,The Football Association
+Group G,New Zealand,2,DF,Tim Payne,False,1994-01-10,51,3,Wellington Phoenix,New Zealand Football
+Group G,New Zealand,3,DF,Francis de Vries,False,1994-11-28,20,1,Auckland FC,New Zealand Football
+Group G,New Zealand,4,DF,Tyler Bindon,False,2005-01-27,25,3,Sheffield United,The Football Association
+Group G,New Zealand,5,DF,Michael Boxall,False,1988-08-18,63,1,Minnesota United FC,United States Soccer Federation
+Group G,New Zealand,6,MF,Joe Bell,False,1999-04-27,32,1,Viking,Norwegian Football Federation
+Group G,New Zealand,7,FW,Logan Rogerson,False,1998-05-28,18,2,Auckland FC,New Zealand Football
+Group G,New Zealand,8,MF,Marko Stamenić,False,2002-02-19,39,3,Swansea City,Football Association of Wales
+Group G,New Zealand,9,FW,Chris Wood,True,1991-12-07,90,45,Nottingham Forest,The Football Association
+Group G,New Zealand,10,MF,Sarpreet Singh,False,1999-02-20,28,3,Wellington Phoenix,New Zealand Football
+Group G,New Zealand,11,MF,Elijah Just,False,2000-05-01,44,9,Motherwell,Scottish Football Association
+Group G,New Zealand,12,GK,Alex Paulsen,False,2002-07-04,8,0,Lechia Gdańsk,Polish Football Association
+Group G,New Zealand,13,DF,Liberato Cacace,False,2000-09-27,37,1,Wrexham,Football Association of Wales
+Group G,New Zealand,14,MF,Alex Rufer,False,1996-06-12,26,0,Wellington Phoenix,New Zealand Football
+Group G,New Zealand,15,DF,Nando Pijnaker,False,1999-02-25,25,0,Auckland FC,New Zealand Football
+Group G,New Zealand,16,DF,Finn Surman,False,2003-09-23,19,2,Portland Timbers,United States Soccer Federation
+Group G,New Zealand,17,FW,Kosta Barbarouses,False,1990-02-19,76,10,Western Sydney Wanderers,Football Australia
+Group G,New Zealand,18,FW,Ben Waine,False,2001-06-11,31,9,Port Vale,The Football Association
+Group G,New Zealand,19,MF,Ben Old,False,2002-08-13,24,2,Saint-Étienne,French Football Federation
+Group G,New Zealand,20,MF,Callum McCowatt,False,1999-04-30,32,4,Silkeborg,Danish Football Association
+Group G,New Zealand,21,FW,Jesse Randall,False,2002-08-19,11,2,Auckland FC,New Zealand Football
+Group G,New Zealand,22,GK,Michael Woud,False,1999-01-16,6,0,Auckland FC,New Zealand Football
+Group G,New Zealand,23,MF,Ryan Thomas,False,1994-12-20,25,3,PEC Zwolle,Royal Dutch Football Association
+Group G,New Zealand,24,DF,Callan Elliot,False,1999-07-07,11,0,Auckland FC,New Zealand Football
+Group G,New Zealand,25,MF,Lachlan Bayliss,False,2002-07-24,4,0,Newcastle Jets,Football Australia
+Group G,New Zealand,26,DF,Tommy Smith,False,1990-03-31,56,2,Braintree Town,The Football Association
+Group H,Cape Verde,1,GK,Vozinha,False,1986-06-03,90,0,Chaves,Portuguese Football Federation
+Group H,Cape Verde,2,DF,Stopira,False,1988-05-20,61,4,Torreense,Portuguese Football Federation
+Group H,Cape Verde,3,DF,Diney,False,1995-01-17,32,2,Al Bataeh,United Arab Emirates Football Association
+Group H,Cape Verde,4,DF,Pico,False,1992-06-17,45,0,Shamrock Rovers,Football Association of Ireland
+Group H,Cape Verde,5,DF,Logan Costa,False,2001-04-01,28,0,Villarreal,Royal Spanish Football Federation
+Group H,Cape Verde,6,MF,Kevin Pina,False,1997-01-27,31,3,Krasnodar,Russian Football Union
+Group H,Cape Verde,7,MF,Jovane Cabral,False,1998-06-14,29,3,Estrela Amadora,Portuguese Football Federation
+Group H,Cape Verde,8,MF,João Paulo,False,1998-05-26,41,1,FCSB,Romanian Football Federation
+Group H,Cape Verde,9,FW,Gilson Benchimol,False,2001-12-29,21,6,Akron Tolyatti,Russian Football Union
+Group H,Cape Verde,10,MF,Jamiro Monteiro,False,1993-11-23,55,5,PEC Zwolle,Royal Dutch Football Association
+Group H,Cape Verde,11,MF,Garry Rodrigues,False,1990-11-27,61,10,Apollon Limassol,Cyprus Football Association
+Group H,Cape Verde,12,GK,Márcio Rosa,False,1997-02-23,11,0,Montana,Bulgarian Football Union
+Group H,Cape Verde,13,DF,Sidny Lopes Cabral,False,2002-09-18,11,3,Benfica,Portuguese Football Federation
+Group H,Cape Verde,14,MF,Deroy Duarte,False,1999-07-04,33,0,Ludogorets Razgrad,Bulgarian Football Union
+Group H,Cape Verde,15,MF,Laros Duarte,False,1997-02-28,20,1,Puskás Akadémia,Hungarian Football Federation
+Group H,Cape Verde,16,MF,Yannick Semedo,False,1995-12-29,11,1,Farense,Portuguese Football Federation
+Group H,Cape Verde,17,MF,Willy Semedo,False,1994-04-27,38,3,Omonia,Cyprus Football Association
+Group H,Cape Verde,18,MF,Telmo Arcanjo,False,2001-06-21,16,1,Vitória de Guimarães,Portuguese Football Federation
+Group H,Cape Verde,19,FW,Dailon Livramento,False,2001-05-04,22,7,Casa Pia,Portuguese Football Federation
+Group H,Cape Verde,20,FW,Ryan Mendes,True,1990-01-08,96,22,Iğdır,Turkish Football Federation
+Group H,Cape Verde,21,MF,Nuno da Costa,False,1991-02-10,9,2,İstanbul Başakşehir,Turkish Football Federation
+Group H,Cape Verde,22,DF,Steven Moreira,False,1994-08-13,20,0,Columbus Crew,United States Soccer Federation
+Group H,Cape Verde,23,GK,CJ dos Santos,False,2000-08-24,1,0,San Diego FC,United States Soccer Federation
+Group H,Cape Verde,24,DF,Wagner Pina,False,2002-11-03,14,0,Trabzonspor,Turkish Football Federation
+Group H,Cape Verde,25,DF,Kelvin Pires,False,2000-06-05,6,1,SJK,Football Association of Finland
+Group H,Cape Verde,26,MF,Hélio Varela,False,2002-05-03,21,0,Maccabi Tel Aviv,Israel Football Association
+Group H,Saudi Arabia,1,GK,Nawaf Al-Aqidi,False,2000-05-10,24,0,Al-Nassr,Saudi Arabian Football Federation
+Group H,Saudi Arabia,2,DF,Ali Majrashi,False,1999-10-02,21,0,Al-Ahli,Saudi Arabian Football Federation
+Group H,Saudi Arabia,3,DF,Ali Lajami,False,1996-04-24,24,1,Al-Hilal,Saudi Arabian Football Federation
+Group H,Saudi Arabia,4,DF,Abdulelah Al-Amri,False,1997-01-15,44,1,Al-Nassr,Saudi Arabian Football Federation
+Group H,Saudi Arabia,5,DF,Hassan Al-Tambakti,False,1999-02-09,54,1,Al-Hilal,Saudi Arabian Football Federation
+Group H,Saudi Arabia,6,MF,Nasser Al-Dawsari,False,1998-12-19,47,1,Al-Hilal,Saudi Arabian Football Federation
+Group H,Saudi Arabia,7,MF,Musab Al-Juwayr,False,2003-06-20,37,6,Al-Qadsiah,Saudi Arabian Football Federation
+Group H,Saudi Arabia,8,FW,Ayman Yahya,False,2001-05-14,26,0,Al-Nassr,Saudi Arabian Football Federation
+Group H,Saudi Arabia,9,FW,Firas Al-Buraikan,False,2000-05-14,72,16,Al-Ahli,Saudi Arabian Football Federation
+Group H,Saudi Arabia,10,FW,Salem Al-Dawsari,True,1991-08-19,111,27,Al-Hilal,Saudi Arabian Football Federation
+Group H,Saudi Arabia,11,FW,Saleh Al-Shehri,False,1993-11-01,59,17,Al-Ittihad,Saudi Arabian Football Federation
+Group H,Saudi Arabia,12,DF,Saud Abdulhamid,False,1999-07-18,55,1,Lens,French Football Federation
+Group H,Saudi Arabia,13,DF,Nawaf Boushal,False,1999-09-16,27,0,Al-Nassr,Saudi Arabian Football Federation
+Group H,Saudi Arabia,14,DF,Hassan Kadesh,False,1992-09-26,21,2,Al-Ittihad,Saudi Arabian Football Federation
+Group H,Saudi Arabia,15,MF,Abdullah Al-Khaibari,False,1996-08-16,42,0,Al-Nassr,Saudi Arabian Football Federation
+Group H,Saudi Arabia,16,MF,Ziyad Al-Johani,False,2001-11-11,12,0,Al-Ahli,Saudi Arabian Football Federation
+Group H,Saudi Arabia,17,FW,Khalid Al-Ghannam,False,2000-11-08,7,0,Al-Ettifaq,Saudi Arabian Football Federation
+Group H,Saudi Arabia,18,MF,Alaa Al-Hejji,False,1995-12-03,3,0,Neom,Saudi Arabian Football Federation
+Group H,Saudi Arabia,19,FW,Abdullah Al-Hamdan,False,1999-09-13,52,13,Al-Nassr,Saudi Arabian Football Federation
+Group H,Saudi Arabia,20,FW,Sultan Mandash,False,1994-10-17,7,2,Al-Hilal,Saudi Arabian Football Federation
+Group H,Saudi Arabia,21,GK,Mohammed Al-Owais,False,1991-10-10,65,0,Al-Ula,Saudi Arabian Football Federation
+Group H,Saudi Arabia,22,GK,Ahmed Al-Kassar,False,1991-05-08,9,0,Al-Qadsiah,Saudi Arabian Football Federation
+Group H,Saudi Arabia,23,MF,Mohamed Kanno,False,1994-09-22,79,8,Al-Hilal,Saudi Arabian Football Federation
+Group H,Saudi Arabia,24,DF,Moteb Al-Harbi,False,2000-02-20,13,0,Al-Hilal,Saudi Arabian Football Federation
+Group H,Saudi Arabia,25,DF,Jehad Thakri,False,2001-07-21,8,0,Al-Qadsiah,Saudi Arabian Football Federation
+Group H,Saudi Arabia,26,DF,Mohammed Abu Al-Shamat,False,2002-08-11,8,0,Al-Qadsiah,Saudi Arabian Football Federation
+Group H,Spain,1,GK,David Raya,False,1995-09-15,13,0,Arsenal,The Football Association
+Group H,Spain,2,DF,Marc Pubill,False,2003-06-20,2,0,Atlético Madrid,Royal Spanish Football Federation
+Group H,Spain,3,DF,Álex Grimaldo,False,1995-09-20,14,0,Bayer Leverkusen,German Football Association
+Group H,Spain,4,DF,Eric García,False,2001-01-09,21,0,Barcelona,Royal Spanish Football Federation
+Group H,Spain,5,DF,Marcos Llorente,False,1995-01-30,24,0,Atlético Madrid,Royal Spanish Football Federation
+Group H,Spain,6,MF,Mikel Merino,False,1996-06-22,43,10,Arsenal,The Football Association
+Group H,Spain,7,FW,Ferran Torres,False,2000-02-29,57,24,Barcelona,Royal Spanish Football Federation
+Group H,Spain,8,MF,Fabián Ruiz,False,1996-04-03,42,6,Paris Saint-Germain,French Football Federation
+Group H,Spain,9,MF,Gavi,False,2004-08-05,30,5,Barcelona,Royal Spanish Football Federation
+Group H,Spain,10,FW,Dani Olmo,False,1998-05-07,50,12,Barcelona,Royal Spanish Football Federation
+Group H,Spain,11,FW,Yéremy Pino,False,2002-10-20,23,4,Crystal Palace,The Football Association
+Group H,Spain,12,DF,Pedro Porro,False,1999-09-13,18,0,Tottenham Hotspur,The Football Association
+Group H,Spain,13,GK,Joan Garcia,False,2001-05-04,2,0,Barcelona,Royal Spanish Football Federation
+Group H,Spain,14,DF,Aymeric Laporte,False,1994-05-27,46,2,Athletic Bilbao,Royal Spanish Football Federation
+Group H,Spain,15,MF,Álex Baena,False,2001-07-20,17,2,Atlético Madrid,Royal Spanish Football Federation
+Group H,Spain,16,MF,Rodri,True,1996-06-22,62,4,Manchester City,The Football Association
+Group H,Spain,17,FW,Nico Williams,False,2002-07-12,30,6,Athletic Bilbao,Royal Spanish Football Federation
+Group H,Spain,18,MF,Martín Zubimendi,False,1999-02-02,26,3,Arsenal,The Football Association
+Group H,Spain,19,FW,Lamine Yamal,False,2007-07-13,25,6,Barcelona,Royal Spanish Football Federation
+Group H,Spain,20,MF,Pedri,False,2002-11-25,41,6,Barcelona,Royal Spanish Football Federation
+Group H,Spain,21,FW,Mikel Oyarzabal,False,1997-04-21,53,25,Real Sociedad,Royal Spanish Football Federation
+Group H,Spain,22,DF,Pau Cubarsí,False,2007-01-22,12,0,Barcelona,Royal Spanish Football Federation
+Group H,Spain,23,GK,Unai Simón,False,1997-06-11,58,0,Athletic Bilbao,Royal Spanish Football Federation
+Group H,Spain,24,DF,Marc Cucurella,False,1998-07-22,24,1,Chelsea,The Football Association
+Group H,Spain,25,FW,Víctor Muñoz,False,2003-07-13,2,1,Osasuna,Royal Spanish Football Federation
+Group H,Spain,26,FW,Borja Iglesias,False,1993-01-17,8,0,Celta Vigo,Royal Spanish Football Federation
+Group H,Uruguay,1,GK,Sergio Rochet,False,1993-03-23,35,0,Internacional,Brazilian Football Confederation
+Group H,Uruguay,2,DF,José María Giménez,True,1995-01-20,99,8,Atlético Madrid,Royal Spanish Football Federation
+Group H,Uruguay,3,DF,Sebastián Cáceres,False,1999-08-18,24,0,América,Mexican Football Federation
+Group H,Uruguay,4,DF,Ronald Araújo,False,1999-03-07,27,1,Barcelona,Royal Spanish Football Federation
+Group H,Uruguay,5,MF,Manuel Ugarte,False,2001-04-11,36,1,Manchester United,The Football Association
+Group H,Uruguay,6,MF,Rodrigo Bentancur,False,1997-06-25,74,3,Tottenham Hotspur,The Football Association
+Group H,Uruguay,7,MF,Nicolás de la Cruz,False,1997-06-01,34,5,Flamengo,Brazilian Football Confederation
+Group H,Uruguay,8,MF,Federico Valverde,False,1998-07-22,73,9,Real Madrid,Royal Spanish Football Federation
+Group H,Uruguay,9,FW,Darwin Núñez,False,1999-06-24,38,13,Al-Hilal,Saudi Arabian Football Federation
+Group H,Uruguay,10,MF,Giorgian de Arrascaeta,False,1994-06-01,60,13,Flamengo,Brazilian Football Confederation
+Group H,Uruguay,11,FW,Facundo Pellistri,False,2001-12-20,39,2,Panathinaikos,Hellenic Football Federation
+Group H,Uruguay,12,GK,Santiago Mele,False,1997-09-06,8,0,Monterrey,Mexican Football Federation
+Group H,Uruguay,13,DF,Guillermo Varela,False,1993-03-24,28,0,Flamengo,Brazilian Football Confederation
+Group H,Uruguay,14,MF,Agustín Canobbio,False,1998-10-01,15,1,Fluminense,Brazilian Football Confederation
+Group H,Uruguay,15,MF,Emiliano Martínez,False,1999-08-17,10,0,Palmeiras,Brazilian Football Confederation
+Group H,Uruguay,16,DF,Mathías Olivera,False,1997-10-31,35,2,Napoli,Italian Football Federation
+Group H,Uruguay,17,DF,Matías Viña,False,1997-11-09,43,1,River Plate,Argentine Football Association
+Group H,Uruguay,18,FW,Brian Rodríguez,False,2000-05-20,32,4,América,Mexican Football Federation
+Group H,Uruguay,19,FW,Rodrigo Aguirre,False,1994-10-01,10,3,Tigres UANL,Mexican Football Federation
+Group H,Uruguay,20,MF,Maximiliano Araújo,False,2000-02-15,28,3,Sporting CP,Portuguese Football Federation
+Group H,Uruguay,21,FW,Federico Viñas,False,1998-06-30,11,2,Oviedo,Royal Spanish Football Federation
+Group H,Uruguay,22,MF,Joaquín Piquerez,False,1998-08-24,19,0,Palmeiras,Brazilian Football Confederation
+Group H,Uruguay,23,GK,Fernando Muslera,False,1986-06-16,134,0,Estudiantes,Argentine Football Association
+Group H,Uruguay,24,DF,Santiago Bueno,False,1998-11-09,8,0,Wolverhampton Wanderers,The Football Association
+Group H,Uruguay,25,MF,Juan Manuel Sanabria,False,2000-03-29,5,1,Real Salt Lake,United States Soccer Federation
+Group H,Uruguay,26,MF,Rodrigo Zalazar,False,1999-08-12,8,2,Braga,Portuguese Football Federation
+Group I,France,1,GK,Brice Samba,False,1994-04-25,4,0,Rennes,French Football Federation
+Group I,France,2,DF,Malo Gusto,False,2003-05-19,11,0,Chelsea,The Football Association
+Group I,France,3,DF,Lucas Digne,False,1993-07-20,58,0,Aston Villa,The Football Association
+Group I,France,4,DF,Dayot Upamecano,False,1998-10-27,38,2,Bayern Munich,German Football Association
+Group I,France,5,DF,Jules Koundé,False,1998-11-12,48,0,Barcelona,Royal Spanish Football Federation
+Group I,France,6,MF,Manu Koné,False,2001-05-17,14,0,Roma,Italian Football Federation
+Group I,France,7,FW,Ousmane Dembélé,False,1997-05-15,59,7,Paris Saint-Germain,French Football Federation
+Group I,France,8,MF,Aurélien Tchouaméni,False,2000-01-27,46,3,Real Madrid,Royal Spanish Football Federation
+Group I,France,9,FW,Marcus Thuram,False,1997-08-06,34,3,Inter Milan,Italian Football Federation
+Group I,France,10,FW,Kylian Mbappé,True,1998-12-20,98,56,Real Madrid,Royal Spanish Football Federation
+Group I,France,11,FW,Michael Olise,False,2001-12-12,17,7,Bayern Munich,German Football Association
+Group I,France,12,FW,Bradley Barcola,False,2002-09-02,20,3,Paris Saint-Germain,French Football Federation
+Group I,France,13,MF,N'Golo Kanté,False,1991-03-29,69,2,Fenerbahçe,Turkish Football Federation
+Group I,France,14,MF,Adrien Rabiot,False,1995-04-03,59,7,Milan,Italian Football Federation
+Group I,France,15,DF,Ibrahima Konaté,False,1999-05-25,28,0,Liverpool,The Football Association
+Group I,France,16,GK,Mike Maignan,False,1995-07-03,40,0,Milan,Italian Football Federation
+Group I,France,17,DF,William Saliba,False,2001-03-24,32,0,Arsenal,The Football Association
+Group I,France,18,MF,Warren Zaïre-Emery,False,2006-03-08,11,1,Paris Saint-Germain,French Football Federation
+Group I,France,19,DF,Théo Hernandez,False,1997-10-06,44,2,Al-Hilal,Saudi Arabian Football Federation
+Group I,France,20,FW,Désiré Doué,False,2005-06-03,7,2,Paris Saint-Germain,French Football Federation
+Group I,France,21,DF,Lucas Hernandez,False,1996-02-14,42,0,Paris Saint-Germain,French Football Federation
+Group I,France,22,FW,Jean-Philippe Mateta,False,1997-06-28,4,2,Crystal Palace,The Football Association
+Group I,France,23,GK,Robin Risser,False,2004-12-02,0,0,Lens,French Football Federation
+Group I,France,24,MF,Rayan Cherki,False,2003-08-17,7,2,Manchester City,The Football Association
+Group I,France,25,MF,Maghnes Akliouche,False,2002-02-25,9,1,Monaco,French Football Federation
+Group I,France,26,DF,Maxence Lacroix,False,2000-04-06,4,0,Crystal Palace,The Football Association
+Group I,Iraq,1,GK,Fahad Talib,False,1994-10-21,21,0,Al-Talaba,Iraq Football Association
+Group I,Iraq,2,DF,Rebin Sulaka,False,1992-04-12,56,1,Port,Football Association of Thailand
+Group I,Iraq,3,DF,Hussein Ali,False,2002-03-01,27,1,Pogoń Szczecin,Polish Football Association
+Group I,Iraq,4,DF,Zaid Tahseen,False,2001-01-29,28,1,Pakhtakor,Uzbekistan Football Association
+Group I,Iraq,5,DF,Akam Hashim,False,1998-08-16,14,1,Al-Zawraa,Iraq Football Association
+Group I,Iraq,6,DF,Manaf Younis,False,1996-11-16,34,1,Al-Shorta,Iraq Football Association
+Group I,Iraq,7,MF,Youssef Amyn,False,2003-08-21,27,2,AEK Larnaca,Cyprus Football Association
+Group I,Iraq,8,MF,Ibrahim Bayesh,False,2000-05-01,76,8,Al Dhafra,United Arab Emirates Football Association
+Group I,Iraq,9,FW,Ali Al-Hamadi,False,2002-03-01,20,5,Luton Town,The Football Association
+Group I,Iraq,10,FW,Mohanad Ali,False,2000-06-20,72,27,Dibba,United Arab Emirates Football Association
+Group I,Iraq,11,FW,Ahmed Qasem,False,2003-07-12,3,0,Nashville SC,United States Soccer Federation
+Group I,Iraq,12,GK,Jalal Hassan,True,1991-05-18,102,0,Al-Zawraa,Iraq Football Association
+Group I,Iraq,13,FW,Ali Yousif,False,1996-01-19,7,1,Al-Talaba,Iraq Football Association
+Group I,Iraq,14,MF,Zidane Iqbal,False,2003-04-27,25,2,Utrecht,Royal Dutch Football Association
+Group I,Iraq,15,DF,Ahmed Maknzi,False,2001-09-24,7,0,Al-Karma,Iraq Football Association
+Group I,Iraq,16,MF,Amir Al-Ammari,False,1997-07-27,51,3,Cracovia,Polish Football Association
+Group I,Iraq,17,FW,Ali Jasim,False,2004-01-20,36,2,Al-Najma,Saudi Arabian Football Federation
+Group I,Iraq,18,FW,Aymen Hussein,False,1996-03-22,95,33,Al-Karma,Iraq Football Association
+Group I,Iraq,19,MF,Kevin Yakob,False,2000-10-10,9,0,AGF,Danish Football Association
+Group I,Iraq,20,MF,Aimar Sher,False,2002-12-20,7,0,Sarpsborg 08,Norwegian Football Federation
+Group I,Iraq,21,FW,Marko Farji,False,2004-03-16,12,0,Venezia,Italian Football Federation
+Group I,Iraq,22,GK,Ahmed Basil,False,1996-08-19,16,0,Al-Shorta,Iraq Football Association
+Group I,Iraq,23,DF,Merchas Doski,False,1999-12-07,31,1,Viktoria Plzeň,Football Association of the Czech Republic
+Group I,Iraq,24,MF,Zaid Ismail,False,2002-01-03,6,0,Al-Talaba,Iraq Football Association
+Group I,Iraq,25,DF,Mustafa Saadoon,False,2001-05-25,17,0,Al-Shorta,Iraq Football Association
+Group I,Iraq,26,DF,Frans Putros,False,1993-07-14,28,0,Persib,Football Association of Indonesia
+Group I,Norway,1,GK,Ørjan Nyland,False,1990-09-10,71,0,Sevilla,Royal Spanish Football Federation
+Group I,Norway,2,MF,Morten Thorsby,False,1996-05-05,31,0,Cremonese,Italian Football Federation
+Group I,Norway,3,DF,Kristoffer Ajer,False,1998-04-17,52,2,Brentford,The Football Association
+Group I,Norway,4,DF,Leo Østigård,False,1999-11-28,38,1,Genoa,Italian Football Federation
+Group I,Norway,5,DF,David Møller Wolfe,False,2002-04-23,22,1,Wolverhampton Wanderers,The Football Association
+Group I,Norway,6,MF,Patrick Berg,False,1997-11-24,43,0,Bodø/Glimt,Norwegian Football Federation
+Group I,Norway,7,FW,Alexander Sørloth,False,1995-12-05,72,26,Atlético Madrid,Royal Spanish Football Federation
+Group I,Norway,8,MF,Sander Berge,False,1998-02-14,66,1,Fulham,The Football Association
+Group I,Norway,9,FW,Erling Haaland,False,2000-07-21,50,55,Manchester City,The Football Association
+Group I,Norway,10,MF,Martin Ødegaard,True,1998-12-17,68,5,Arsenal,The Football Association
+Group I,Norway,11,FW,Jørgen Strand Larsen,False,2000-02-06,28,6,Crystal Palace,The Football Association
+Group I,Norway,12,GK,Sander Tangvik,False,2002-11-29,0,0,Hamburger SV,German Football Association
+Group I,Norway,13,GK,Egil Selvik,False,1997-07-30,7,0,Watford,The Football Association
+Group I,Norway,14,MF,Fredrik Aursnes,False,1995-12-10,22,1,Benfica,Portuguese Football Federation
+Group I,Norway,15,DF,Fredrik André Bjørkan,False,1998-08-21,21,1,Bodø/Glimt,Norwegian Football Federation
+Group I,Norway,16,DF,Marcus Holmgren Pedersen,False,2000-07-16,32,0,Torino,Italian Football Federation
+Group I,Norway,17,DF,Torbjørn Heggem,False,1999-01-12,15,0,Bologna,Italian Football Federation
+Group I,Norway,18,MF,Kristian Thorstvedt,False,1999-03-13,37,4,Sassuolo,Italian Football Federation
+Group I,Norway,19,MF,Thelo Aasgaard,False,2002-05-02,8,5,Rangers,Scottish Football Association
+Group I,Norway,20,MF,Antonio Nusa,False,2005-04-17,24,8,RB Leipzig,German Football Association
+Group I,Norway,21,MF,Andreas Schjelderup,False,2004-06-01,12,1,Benfica,Portuguese Football Federation
+Group I,Norway,22,MF,Oscar Bobb,False,2003-07-12,20,2,Fulham,The Football Association
+Group I,Norway,23,MF,Jens Petter Hauge,False,1999-10-12,15,1,Bodø/Glimt,Norwegian Football Federation
+Group I,Norway,24,DF,Sondre Langås,False,2001-02-02,3,0,Derby County,The Football Association
+Group I,Norway,25,DF,Henrik Falchener,False,2003-05-08,1,0,Viking,Norwegian Football Federation
+Group I,Norway,26,DF,Julian Ryerson,False,1997-11-17,43,1,Borussia Dortmund,German Football Association
+Group I,Senegal,1,GK,Yehvann Diouf,False,1999-11-16,2,0,Nice,French Football Federation
+Group I,Senegal,2,DF,Mamadou Sarr,False,2005-08-29,8,0,Chelsea,The Football Association
+Group I,Senegal,3,DF,Kalidou Koulibaly,True,1991-06-20,104,2,Al-Hilal,Saudi Arabian Football Federation
+Group I,Senegal,4,DF,Abdoulaye Seck,False,1992-06-04,25,4,Maccabi Haifa,Israel Football Association
+Group I,Senegal,5,MF,Idrissa Gueye,False,1989-09-26,132,7,Everton,The Football Association
+Group I,Senegal,6,MF,Pathé Ciss,False,1994-03-16,30,0,Rayo Vallecano,Royal Spanish Football Federation
+Group I,Senegal,7,FW,Assane Diao,False,2005-09-07,5,0,Como,Italian Football Federation
+Group I,Senegal,8,MF,Lamine Camara,False,2004-01-01,45,7,Monaco,French Football Federation
+Group I,Senegal,9,FW,Bamba Dieng,False,2000-03-23,23,2,Lorient,French Football Federation
+Group I,Senegal,10,FW,Sadio Mané,False,1992-04-10,128,55,Al-Nassr,Saudi Arabian Football Federation
+Group I,Senegal,11,FW,Nicolas Jackson,False,2001-06-20,33,8,Bayern Munich,German Football Association
+Group I,Senegal,12,FW,Cherif Ndiaye,False,1996-01-23,19,4,Samsunspor,Turkish Football Federation
+Group I,Senegal,13,FW,Iliman Ndiaye,False,2000-03-06,41,4,Everton,The Football Association
+Group I,Senegal,14,DF,Ismail Jakobs,False,1999-08-17,31,0,Galatasaray,Turkish Football Federation
+Group I,Senegal,15,DF,Krépin Diatta,False,1999-02-25,62,2,Monaco,French Football Federation
+Group I,Senegal,16,GK,Édouard Mendy,False,1992-03-01,58,0,Al-Ahli,Saudi Arabian Football Federation
+Group I,Senegal,17,MF,Pape Matar Sarr,False,2002-09-14,40,4,Tottenham Hotspur,The Football Association
+Group I,Senegal,18,FW,Ismaïla Sarr,False,1998-02-25,84,19,Crystal Palace,The Football Association
+Group I,Senegal,19,DF,Moussa Niakhaté,False,1996-03-08,32,0,Lyon,French Football Federation
+Group I,Senegal,20,FW,Ibrahim Mbaye,False,2008-01-24,11,3,Paris Saint-Germain,French Football Federation
+Group I,Senegal,21,MF,Habib Diarra,False,2004-01-03,21,4,Sunderland,The Football Association
+Group I,Senegal,22,MF,Bara Sapoko Ndiaye,False,2007-12-31,1,0,Bayern Munich,German Football Association
+Group I,Senegal,23,GK,Mory Diaw,False,1993-06-22,5,0,Le Havre,French Football Federation
+Group I,Senegal,24,DF,Antoine Mendy,False,2004-05-27,7,0,Nice,French Football Federation
+Group I,Senegal,25,DF,El Hadji Malick Diouf,False,2004-12-29,20,1,West Ham United,The Football Association
+Group I,Senegal,26,MF,Pape Gueye,False,1999-01-24,42,5,Villarreal,Royal Spanish Football Federation
+Group J,Algeria,1,GK,Melvin Mastil,False,2000-02-19,2,0,Stade Nyonnais,Swiss Football Association
+Group J,Algeria,2,DF,Aïssa Mandi,False,1991-10-22,119,8,Lille,French Football Federation
+Group J,Algeria,3,DF,Achref Abada,False,1999-06-15,9,1,USM Alger,Algerian Football Federation
+Group J,Algeria,4,DF,Mohamed Amine Tougai,False,2000-01-22,30,2,Espérance de Tunis,Tunisian Football Federation
+Group J,Algeria,5,DF,Zineddine Belaïd,False,1999-03-20,18,1,JS Kabylie,Algerian Football Federation
+Group J,Algeria,6,MF,Ramiz Zerrouki,False,1998-05-26,53,3,Twente,Royal Dutch Football Association
+Group J,Algeria,7,FW,Riyad Mahrez,True,1991-02-21,116,38,Al-Ahli,Saudi Arabian Football Federation
+Group J,Algeria,8,MF,Houssem Aouar,False,1998-06-30,22,6,Al-Ittihad,Saudi Arabian Football Federation
+Group J,Algeria,9,FW,Amine Gouiri,False,2000-02-16,23,10,Marseille,French Football Federation
+Group J,Algeria,10,MF,Farès Chaïbi,False,2002-11-28,31,3,Eintracht Frankfurt,German Football Association
+Group J,Algeria,11,FW,Anis Hadj Moussa,False,2002-02-11,15,2,Feyenoord,Royal Dutch Football Association
+Group J,Algeria,12,FW,Nadhir Benbouali,False,2000-04-17,4,1,Győri ETO,Hungarian Football Federation
+Group J,Algeria,13,DF,Jaouen Hadjam,False,2003-03-26,18,3,Young Boys,Swiss Football Association
+Group J,Algeria,14,MF,Hicham Boudaoui,False,1999-09-23,34,0,Nice,French Football Federation
+Group J,Algeria,15,DF,Rayan Aït-Nouri,False,2001-06-06,30,0,Manchester City,The Football Association
+Group J,Algeria,16,GK,Oussama Benbot,False,1994-10-11,5,0,USM Alger,Algerian Football Federation
+Group J,Algeria,17,DF,Rafik Belghali,False,2002-06-07,13,1,Hellas Verona,Italian Football Federation
+Group J,Algeria,18,FW,Mohamed Amoura,False,2000-05-09,47,19,VfL Wolfsburg,German Football Association
+Group J,Algeria,19,MF,Nabil Bentaleb,False,1994-11-24,60,6,Lille,French Football Federation
+Group J,Algeria,20,FW,Adil Boulbina,False,2003-05-02,12,6,Al-Duhail,Qatar Football Association
+Group J,Algeria,21,DF,Ramy Bensebaini,False,1995-04-16,82,9,Borussia Dortmund,German Football Association
+Group J,Algeria,22,MF,Ibrahim Maza,False,2005-11-24,17,2,Bayer Leverkusen,German Football Association
+Group J,Algeria,23,GK,Luca Zidane,False,1998-05-13,7,0,Granada,Royal Spanish Football Federation
+Group J,Algeria,24,MF,Yacine Titraoui,False,2003-07-26,5,0,Charleroi,Royal Belgian Football Association
+Group J,Algeria,25,FW,Farès Ghedjemis,False,2002-09-06,1,1,Frosinone,Italian Football Federation
+Group J,Algeria,26,DF,Samir Chergui,False,1999-02-06,5,0,Paris FC,French Football Federation
+Group J,Argentina,1,GK,Juan Musso,False,1994-05-06,4,0,Atlético Madrid,Royal Spanish Football Federation
+Group J,Argentina,2,DF,Marcos Senesi,False,1997-05-10,3,0,Bournemouth,The Football Association
+Group J,Argentina,3,DF,Nicolás Tagliafico,False,1992-08-31,76,1,Lyon,French Football Federation
+Group J,Argentina,4,DF,Gonzalo Montiel,False,1997-01-01,39,2,River Plate,Argentine Football Association
+Group J,Argentina,5,MF,Leandro Paredes,False,1994-06-29,77,5,Boca Juniors,Argentine Football Association
+Group J,Argentina,6,DF,Lisandro Martínez,False,1998-01-18,28,1,Manchester United,The Football Association
+Group J,Argentina,7,MF,Rodrigo De Paul,False,1994-05-24,87,2,Inter Miami CF,United States Soccer Federation
+Group J,Argentina,8,MF,Valentín Barco,False,2004-07-23,4,2,Strasbourg,French Football Federation
+Group J,Argentina,9,FW,Julián Alvarez,False,2000-01-31,51,14,Atlético Madrid,Royal Spanish Football Federation
+Group J,Argentina,10,FW,Lionel Messi,True,1987-06-24,199,117,Inter Miami CF,United States Soccer Federation
+Group J,Argentina,11,MF,Giovani Lo Celso,False,1996-04-09,67,4,Real Betis,Royal Spanish Football Federation
+Group J,Argentina,12,GK,Gerónimo Rulli,False,1992-05-20,8,0,Marseille,French Football Federation
+Group J,Argentina,13,DF,Cristian Romero,False,1998-04-27,51,3,Tottenham Hotspur,The Football Association
+Group J,Argentina,14,MF,Exequiel Palacios,False,1998-10-05,40,0,Bayer Leverkusen,German Football Association
+Group J,Argentina,15,MF,Nicolás González,False,1998-04-06,51,6,Atlético Madrid,Royal Spanish Football Federation
+Group J,Argentina,16,FW,Thiago Almada,False,2001-04-26,16,5,Atlético Madrid,Royal Spanish Football Federation
+Group J,Argentina,17,FW,Giuliano Simeone,False,2002-12-18,13,2,Atlético Madrid,Royal Spanish Football Federation
+Group J,Argentina,18,FW,Nico Paz,False,2004-09-08,9,1,Como,Italian Football Federation
+Group J,Argentina,19,DF,Nicolás Otamendi,False,1988-02-12,132,8,Benfica,Portuguese Football Federation
+Group J,Argentina,20,MF,Alexis Mac Allister,False,1998-12-24,46,6,Liverpool,The Football Association
+Group J,Argentina,21,FW,José Manuel López,False,2000-12-06,5,0,Palmeiras,Brazilian Football Confederation
+Group J,Argentina,22,FW,Lautaro Martínez,False,1997-08-22,77,37,Inter Milan,Italian Football Federation
+Group J,Argentina,23,GK,Emiliano Martínez,False,1992-09-02,59,0,Aston Villa,The Football Association
+Group J,Argentina,24,MF,Enzo Fernández,False,2001-01-17,42,6,Chelsea,The Football Association
+Group J,Argentina,25,DF,Facundo Medina,False,1999-05-28,9,0,Marseille,French Football Federation
+Group J,Argentina,26,DF,Nahuel Molina,False,1998-04-06,58,1,Atlético Madrid,Royal Spanish Football Federation
+Group J,Austria,1,GK,Alexander Schlager,False,1996-02-01,26,0,Red Bull Salzburg,Austrian Football Association
+Group J,Austria,2,DF,David Affengruber,False,2001-03-19,1,0,Elche,Royal Spanish Football Federation
+Group J,Austria,3,DF,Kevin Danso,False,1998-09-19,32,0,Tottenham Hotspur,The Football Association
+Group J,Austria,4,MF,Xaver Schlager,False,1997-09-28,51,4,RB Leipzig,German Football Association
+Group J,Austria,5,DF,Stefan Posch,False,1997-05-14,52,5,Mainz 05,German Football Association
+Group J,Austria,6,MF,Nicolas Seiwald,False,2001-05-04,47,1,RB Leipzig,German Football Association
+Group J,Austria,7,FW,Marko Arnautović,False,1989-04-19,133,47,Red Star Belgrade,Football Association of Serbia
+Group J,Austria,8,DF,David Alaba,True,1992-06-24,113,15,Real Madrid,Royal Spanish Football Federation
+Group J,Austria,9,MF,Marcel Sabitzer,False,1994-03-17,98,26,Borussia Dortmund,German Football Association
+Group J,Austria,10,MF,Florian Grillitsch,False,1995-08-07,58,1,Braga,Portuguese Football Federation
+Group J,Austria,11,FW,Michael Gregoritsch,False,1994-04-18,75,24,FC Augsburg,German Football Association
+Group J,Austria,12,GK,Florian Wiegele,False,2001-03-21,1,0,Viktoria Plzeň,Football Association of the Czech Republic
+Group J,Austria,13,GK,Patrick Pentz,False,1997-01-02,18,0,Brøndby,Danish Football Association
+Group J,Austria,14,FW,Saša Kalajdžić,False,1997-07-07,22,4,LASK,Austrian Football Association
+Group J,Austria,15,DF,Philipp Lienhart,False,1996-07-11,41,3,SC Freiburg,German Football Association
+Group J,Austria,16,DF,Phillipp Mwene,False,1994-01-29,30,0,Mainz 05,German Football Association
+Group J,Austria,17,MF,Carney Chukwuemeka,False,2003-10-20,3,1,Borussia Dortmund,German Football Association
+Group J,Austria,18,MF,Romano Schmid,False,2000-01-27,34,3,Werder Bremen,German Football Association
+Group J,Austria,19,MF,Dejan Ljubičić,False,1997-10-08,9,1,Schalke 04,German Football Association
+Group J,Austria,20,MF,Konrad Laimer,False,1997-05-27,57,7,Bayern Munich,German Football Association
+Group J,Austria,21,FW,Patrick Wimmer,False,2001-05-30,30,1,VfL Wolfsburg,German Football Association
+Group J,Austria,22,MF,Alexander Prass,False,2001-05-26,19,0,TSG Hoffenheim,German Football Association
+Group J,Austria,23,DF,Marco Friedl,False,1998-03-16,11,0,Werder Bremen,German Football Association
+Group J,Austria,24,MF,Paul Wanner,False,2005-12-23,3,0,PSV Eindhoven,Royal Dutch Football Association
+Group J,Austria,25,DF,Michael Svoboda,False,1998-10-15,4,0,Venezia,Italian Football Federation
+Group J,Austria,26,MF,Alessandro Schöpf,False,1994-02-07,35,6,Wolfsberger AC,Austrian Football Association
+Group J,Jordan,1,GK,Yazeed Abulaila,False,1993-01-08,76,0,Al-Hussein,Jordan Football Association
+Group J,Jordan,2,DF,Mohammad Abu Hashish,False,1995-05-09,56,1,Al-Karma,Iraq Football Association
+Group J,Jordan,3,DF,Abdallah Nasib,False,1994-02-25,65,3,Al-Zawraa,Iraq Football Association
+Group J,Jordan,4,DF,Husam Abu Dahab,False,2000-05-13,18,0,Al-Faisaly,Jordan Football Association
+Group J,Jordan,5,DF,Yazan Al-Arab,False,1996-01-31,80,3,FC Seoul,Korea Football Association
+Group J,Jordan,6,MF,Amer Jamous,False,2002-07-03,19,1,Al-Zawraa,Iraq Football Association
+Group J,Jordan,7,FW,Mohammad Abu Zrayq,False,1997-12-30,41,5,Raja Casablanca,Royal Moroccan Football Federation
+Group J,Jordan,8,MF,Noor Al-Rawabdeh,False,1997-02-24,68,3,Selangor,Football Association of Malaysia
+Group J,Jordan,9,FW,Ali Olwan,False,2000-03-26,66,29,Al-Sailiya,Qatar Football Association
+Group J,Jordan,10,FW,Musa Al-Taamari,False,1997-06-10,92,24,Rennes,French Football Federation
+Group J,Jordan,11,FW,Odeh Al-Fakhouri,False,2005-11-22,10,1,Pyramids,Egyptian Football Association
+Group J,Jordan,12,GK,Nour Bani Attiah,False,1993-01-25,5,0,Al-Faisaly,Jordan Football Association
+Group J,Jordan,13,FW,Mahmoud Al-Mardi,False,1993-10-06,89,9,Al-Hussein,Jordan Football Association
+Group J,Jordan,14,MF,Rajaei Ayed,False,1993-07-25,72,0,Al-Hussein,Jordan Football Association
+Group J,Jordan,15,MF,Ibrahim Sadeh,False,2000-04-27,57,3,Al-Karma,Iraq Football Association
+Group J,Jordan,16,DF,Mo Abualnadi,False,2001-02-08,18,0,Selangor,Football Association of Malaysia
+Group J,Jordan,17,DF,Salim Obaid,False,1992-01-17,11,0,Al-Hussein,Jordan Football Association
+Group J,Jordan,18,MF,Mohammad Taha,False,2005-07-13,2,0,Al-Hussein,Jordan Football Association
+Group J,Jordan,19,DF,Saed Al-Rosan,False,1997-02-01,21,2,Al-Hussein,Jordan Football Association
+Group J,Jordan,20,MF,Mohannad Abu Taha,False,2003-02-02,29,1,Al-Quwa Al-Jawiya,Iraq Football Association
+Group J,Jordan,21,MF,Nizar Al-Rashdan,False,1999-03-23,47,4,Qatar SC,Qatar Football Association
+Group J,Jordan,22,GK,Abdallah Al-Fakhouri,False,2000-01-22,11,0,Al-Wehdat,Jordan Football Association
+Group J,Jordan,23,DF,Ihsan Haddad,True,1994-02-05,92,2,Al-Hussein,Jordan Football Association
+Group J,Jordan,24,FW,Ali Azaizeh,False,2004-04-13,4,0,Al-Shabab,Saudi Arabian Football Federation
+Group J,Jordan,25,MF,Mohammad Al-Dawoud,False,1992-04-12,13,1,Al-Wehdat,Jordan Football Association
+Group J,Jordan,26,DF,Anas Badawi,False,1997-09-13,1,0,Al-Faisaly,Jordan Football Association
+Group K,Colombia,1,GK,David Ospina,False,1988-08-31,130,0,Atlético Nacional,Colombian Football Federation
+Group K,Colombia,2,DF,Daniel Muñoz,False,1996-05-26,46,3,Crystal Palace,The Football Association
+Group K,Colombia,3,DF,Jhon Lucumí,False,1998-06-26,37,1,Bologna,Italian Football Federation
+Group K,Colombia,4,DF,Santiago Arias,False,1992-01-13,68,0,Independiente,Argentine Football Association
+Group K,Colombia,5,MF,Kevin Castaño,False,2000-09-29,25,0,River Plate,Argentine Football Association
+Group K,Colombia,6,MF,Richard Ríos,False,2000-06-02,32,2,Benfica,Portuguese Football Federation
+Group K,Colombia,7,FW,Luis Díaz,False,1997-01-13,74,22,Bayern Munich,German Football Association
+Group K,Colombia,8,MF,Jorge Carrascal,False,1998-05-25,24,2,Flamengo,Brazilian Football Confederation
+Group K,Colombia,9,FW,Jhon Córdoba,False,1993-05-11,21,6,Krasnodar,Russian Football Union
+Group K,Colombia,10,MF,James Rodríguez,True,1991-07-12,126,31,Minnesota United FC,United States Soccer Federation
+Group K,Colombia,11,MF,Jhon Arias,False,1997-09-21,38,6,Palmeiras,Brazilian Football Confederation
+Group K,Colombia,12,GK,Camilo Vargas,False,1989-03-09,42,0,Atlas,Mexican Football Federation
+Group K,Colombia,13,DF,Yerry Mina,False,1994-09-23,54,8,Cagliari,Italian Football Federation
+Group K,Colombia,14,DF,Gustavo Puerta,False,2003-07-23,6,1,Racing Santander,Royal Spanish Football Federation
+Group K,Colombia,15,MF,Juan Portilla,False,1998-09-12,10,0,Athletico Paranaense,Brazilian Football Confederation
+Group K,Colombia,16,MF,Jefferson Lerma,False,1994-10-25,65,5,Crystal Palace,The Football Association
+Group K,Colombia,17,DF,Johan Mojica,False,1992-08-21,45,1,Mallorca,Royal Spanish Football Federation
+Group K,Colombia,18,DF,Willer Ditta,False,1998-01-23,5,0,Cruz Azul,Mexican Football Federation
+Group K,Colombia,19,FW,Cucho Hernández,False,1999-04-20,9,2,Real Betis,Royal Spanish Football Federation
+Group K,Colombia,20,MF,Juan Fernando Quintero,False,1993-01-18,49,6,River Plate,Argentine Football Association
+Group K,Colombia,21,FW,Jaminton Campaz,False,2000-05-24,10,1,Rosario Central,Argentine Football Association
+Group K,Colombia,22,DF,Deiver Machado,False,1993-09-02,15,0,Nantes,French Football Federation
+Group K,Colombia,23,DF,Davinson Sánchez,False,1996-06-12,79,4,Galatasaray,Turkish Football Federation
+Group K,Colombia,24,GK,Álvaro Montero,False,1995-03-29,12,0,Vélez Sarsfield,Argentine Football Association
+Group K,Colombia,25,FW,Luis Suárez,False,1997-12-02,12,5,Sporting CP,Portuguese Football Federation
+Group K,Colombia,26,FW,Andrés Gómez,False,2002-09-12,8,2,Vasco da Gama,Brazilian Football Confederation
+Group K,DR Congo,1,GK,Lionel Mpasi,False,1994-08-01,29,0,Le Havre,French Football Federation
+Group K,DR Congo,2,DF,Aaron Wan-Bissaka,False,1997-11-26,12,0,West Ham United,The Football Association
+Group K,DR Congo,3,DF,Steve Kapuadi,False,1998-04-30,4,0,Widzew Łódź,Polish Football Association
+Group K,DR Congo,4,DF,Axel Tuanzebe,False,1997-11-14,14,1,Burnley,The Football Association
+Group K,DR Congo,5,DF,Dylan Batubinsika,False,1996-02-15,14,1,AEL,Hellenic Football Federation
+Group K,DR Congo,6,MF,Ngal'ayel Mukau,False,2004-11-03,14,0,Lille,French Football Federation
+Group K,DR Congo,7,MF,Nathanaël Mbuku,False,2002-03-16,19,2,Montpellier,French Football Federation
+Group K,DR Congo,8,MF,Samuel Moutoussamy,False,1996-08-12,58,0,Atromitos,Hellenic Football Federation
+Group K,DR Congo,9,FW,Brian Cipenga,False,1998-03-11,8,0,Castellón,Royal Spanish Football Federation
+Group K,DR Congo,10,MF,Théo Bongonda,False,1995-11-20,38,7,Spartak Moscow,Russian Football Union
+Group K,DR Congo,11,FW,Gaël Kakuta,False,1991-06-21,31,5,AEL,Hellenic Football Federation
+Group K,DR Congo,12,DF,Joris Kayembe,False,1994-08-08,26,1,Genk,Royal Belgian Football Association
+Group K,DR Congo,13,FW,Meschak Elia,False,1997-08-06,69,12,Alanyaspor,Turkish Football Federation
+Group K,DR Congo,14,MF,Noah Sadiki,False,2004-12-17,20,0,Sunderland,The Football Association
+Group K,DR Congo,15,MF,Aaron Tshibola,False,1995-01-02,17,1,Kilmarnock,Scottish Football Association
+Group K,DR Congo,16,GK,Timothy Fayulu,False,1999-07-24,3,0,Noah,Football Federation of Armenia
+Group K,DR Congo,17,FW,Cédric Bakambu,False,1991-04-11,70,21,Real Betis,Royal Spanish Football Federation
+Group K,DR Congo,18,MF,Charles Pickel,False,1997-05-15,34,1,Espanyol,Royal Spanish Football Federation
+Group K,DR Congo,19,FW,Fiston Mayele,False,1994-06-24,37,6,Pyramids,Egyptian Football Association
+Group K,DR Congo,20,FW,Yoane Wissa,False,1996-09-03,38,9,Newcastle United,The Football Association
+Group K,DR Congo,21,GK,Matthieu Epolo,False,2005-01-15,1,0,Standard Liège,Royal Belgian Football Association
+Group K,DR Congo,22,DF,Chancel Mbemba,True,1994-08-08,109,7,Lille,French Football Federation
+Group K,DR Congo,23,FW,Simon Banza,False,1996-08-13,15,2,Al Jazira,United Arab Emirates Football Association
+Group K,DR Congo,24,DF,Gédéon Kalulu,False,1997-08-29,28,0,Aris Limassol,Cyprus Football Association
+Group K,DR Congo,25,MF,Edo Kayembe,False,1998-06-03,43,2,Watford,The Football Association
+Group K,DR Congo,26,DF,Arthur Masuaku,False,1993-11-07,45,4,Lens,French Football Federation
+Group K,Portugal,1,GK,Diogo Costa,False,1999-09-19,43,0,Porto,Portuguese Football Federation
+Group K,Portugal,2,DF,Nélson Semedo,False,1993-11-16,50,0,Fenerbahçe,Turkish Football Federation
+Group K,Portugal,3,DF,Rúben Dias,False,1997-05-14,76,3,Manchester City,The Football Association
+Group K,Portugal,4,DF,Tomás Araújo,False,2002-05-16,5,0,Benfica,Portuguese Football Federation
+Group K,Portugal,5,DF,Diogo Dalot,False,1999-03-18,35,3,Manchester United,The Football Association
+Group K,Portugal,6,MF,Matheus Nunes,False,1998-08-27,20,2,Manchester City,The Football Association
+Group K,Portugal,7,FW,Cristiano Ronaldo,True,1985-02-05,228,143,Al-Nassr,Saudi Arabian Football Federation
+Group K,Portugal,8,MF,Bruno Fernandes,False,1994-09-08,89,29,Manchester United,The Football Association
+Group K,Portugal,9,FW,Gonçalo Ramos,False,2001-06-20,25,10,Paris Saint-Germain,French Football Federation
+Group K,Portugal,10,MF,Bernardo Silva,False,1994-08-10,109,14,Manchester City,The Football Association
+Group K,Portugal,11,FW,João Félix,False,1999-11-10,54,12,Al-Nassr,Saudi Arabian Football Federation
+Group K,Portugal,12,GK,José Sá,False,1993-01-17,5,0,Wolverhampton Wanderers,The Football Association
+Group K,Portugal,13,DF,Renato Veiga,False,2003-07-29,13,1,Villarreal,Royal Spanish Football Federation
+Group K,Portugal,14,DF,Gonçalo Inácio,False,2001-08-25,22,2,Sporting CP,Portuguese Football Federation
+Group K,Portugal,15,MF,João Neves,False,2004-09-27,22,3,Paris Saint-Germain,French Football Federation
+Group K,Portugal,16,FW,Francisco Trincão,False,1999-12-29,18,3,Sporting CP,Portuguese Football Federation
+Group K,Portugal,17,FW,Rafael Leão,False,1999-06-10,44,5,Milan,Italian Football Federation
+Group K,Portugal,18,FW,Pedro Neto,False,2000-03-09,25,3,Chelsea,The Football Association
+Group K,Portugal,19,FW,Gonçalo Guedes,False,1996-11-29,34,8,Real Sociedad,Royal Spanish Football Federation
+Group K,Portugal,20,DF,João Cancelo,False,1994-05-27,68,12,Barcelona,Royal Spanish Football Federation
+Group K,Portugal,21,MF,Rúben Neves,False,1997-03-13,67,1,Al-Hilal,Saudi Arabian Football Federation
+Group K,Portugal,22,GK,Rui Silva,False,1994-02-07,3,0,Sporting CP,Portuguese Football Federation
+Group K,Portugal,23,MF,Vitinha,False,2000-02-13,38,0,Paris Saint-Germain,French Football Federation
+Group K,Portugal,24,DF,Samú Costa,False,2000-11-27,6,0,Mallorca,Royal Spanish Football Federation
+Group K,Portugal,25,DF,Nuno Mendes,False,2002-06-19,44,1,Paris Saint-Germain,French Football Federation
+Group K,Portugal,26,FW,Francisco Conceição,False,2002-12-14,17,4,Juventus,Italian Football Federation
+Group K,Uzbekistan,1,GK,Utkir Yusupov,False,1991-01-04,40,0,Navbahor Namangan,Uzbekistan Football Association
+Group K,Uzbekistan,2,DF,Abdukodir Khusanov,False,2004-02-29,27,0,Manchester City,The Football Association
+Group K,Uzbekistan,3,DF,Khojiakbar Alijonov,False,1997-04-19,40,2,Pakhtakor,Uzbekistan Football Association
+Group K,Uzbekistan,4,DF,Farrukh Sayfiev,False,1991-01-17,46,1,Neftchi Fergana,Uzbekistan Football Association
+Group K,Uzbekistan,5,DF,Rustam Ashurmatov,False,1996-07-07,49,1,Esteghlal,Football Federation Islamic Republic of Iran
+Group K,Uzbekistan,6,MF,Akmal Mozgovoy,False,1999-04-02,25,1,Pakhtakor,Uzbekistan Football Association
+Group K,Uzbekistan,7,MF,Otabek Shukurov,False,1996-06-22,84,9,Baniyas,United Arab Emirates Football Association
+Group K,Uzbekistan,8,MF,Jamshid Iskanderov,False,1993-10-16,38,4,Neftchi Fergana,Uzbekistan Football Association
+Group K,Uzbekistan,9,MF,Odiljon Hamrobekov,False,1996-02-13,72,1,Tractor,Football Federation Islamic Republic of Iran
+Group K,Uzbekistan,10,MF,Ruslanbek Jiyanov,False,2001-06-05,5,0,Navbahor Namangan,Uzbekistan Football Association
+Group K,Uzbekistan,11,MF,Oston Urunov,False,2000-12-19,42,10,Persepolis,Football Federation Islamic Republic of Iran
+Group K,Uzbekistan,12,GK,Abduvohid Nematov,False,2001-03-20,8,0,Nasaf,Uzbekistan Football Association
+Group K,Uzbekistan,13,DF,Sherzod Nasrullaev,False,1998-07-23,31,2,Nasaf,Uzbekistan Football Association
+Group K,Uzbekistan,14,FW,Eldor Shomurodov,True,1995-06-29,92,44,İstanbul Başakşehir,Turkish Football Federation
+Group K,Uzbekistan,15,DF,Umar Eshmurodov,False,1992-11-30,29,0,Nasaf,Uzbekistan Football Association
+Group K,Uzbekistan,16,GK,Botirali Ergashev,False,1995-06-23,2,0,Neftchi Fergana,Uzbekistan Football Association
+Group K,Uzbekistan,17,MF,Dostonbek Khamdamov,False,1996-07-24,34,5,Pakhtakor,Uzbekistan Football Association
+Group K,Uzbekistan,18,DF,Abdulla Abdullaev,False,1997-09-01,17,0,Dibba,United Arab Emirates Football Association
+Group K,Uzbekistan,19,MF,Azizjon Ganiev,False,1998-02-22,19,0,Al Bataeh,United Arab Emirates Football Association
+Group K,Uzbekistan,20,FW,Azizbek Amonov,False,1997-10-30,12,2,Dinamo Samarqand,Uzbekistan Football Association
+Group K,Uzbekistan,21,FW,Igor Sergeev,False,1993-04-30,83,25,Persepolis,Football Federation Islamic Republic of Iran
+Group K,Uzbekistan,22,MF,Abbosbek Fayzullaev,False,2003-10-03,32,9,İstanbul Başakşehir,Turkish Football Federation
+Group K,Uzbekistan,23,MF,Sherzod Esanov,False,2003-02-01,1,0,Bukhara,Uzbekistan Football Association
+Group K,Uzbekistan,24,DF,Bekhruz Karimov,False,2007-08-07,2,0,Surkhon Termiz,Uzbekistan Football Association
+Group K,Uzbekistan,25,DF,Avazbek Ulmasaliev,False,2000-03-27,0,0,AGMK,Uzbekistan Football Association
+Group K,Uzbekistan,26,DF,Jakhongir Urozov,False,2004-01-18,4,0,Dinamo Samarqand,Uzbekistan Football Association
+Group L,Croatia,1,GK,Dominik Livaković,False,1995-01-09,75,0,Dinamo Zagreb,Croatian Football Federation
+Group L,Croatia,2,DF,Josip Stanišić,False,2000-04-02,31,0,Bayern Munich,German Football Association
+Group L,Croatia,3,DF,Marin Pongračić,False,1997-09-11,20,0,Fiorentina,Italian Football Federation
+Group L,Croatia,4,DF,Joško Gvardiol,False,2002-01-23,48,4,Manchester City,The Football Association
+Group L,Croatia,5,DF,Duje Ćaleta-Car,False,1996-09-17,38,1,Real Sociedad,Royal Spanish Football Federation
+Group L,Croatia,6,DF,Josip Šutalo,False,2000-02-28,33,0,Ajax,Royal Dutch Football Association
+Group L,Croatia,7,MF,Nikola Moro,False,1998-03-12,10,0,Bologna,Italian Football Federation
+Group L,Croatia,8,MF,Mateo Kovačić,False,1994-05-06,113,5,Manchester City,The Football Association
+Group L,Croatia,9,FW,Andrej Kramarić,False,1991-06-19,116,36,TSG Hoffenheim,German Football Association
+Group L,Croatia,10,MF,Luka Modrić,True,1985-09-09,198,29,Milan,Italian Football Federation
+Group L,Croatia,11,FW,Ante Budimir,False,1991-07-22,38,6,Osasuna,Royal Spanish Football Federation
+Group L,Croatia,12,GK,Ivor Pandur,False,2000-03-25,0,0,Hull City,The Football Association
+Group L,Croatia,13,MF,Nikola Vlašić,False,1997-10-04,63,10,Torino,Italian Football Federation
+Group L,Croatia,14,FW,Ivan Perišić,False,1989-02-02,154,38,PSV Eindhoven,Royal Dutch Football Association
+Group L,Croatia,15,MF,Mario Pašalić,False,1995-02-09,85,12,Atalanta,Italian Football Federation
+Group L,Croatia,16,MF,Martin Baturina,False,2003-02-16,19,1,Como,Italian Football Federation
+Group L,Croatia,17,MF,Petar Sučić,False,2003-10-25,17,1,Inter Milan,Italian Football Federation
+Group L,Croatia,18,DF,Kristijan Jakić,False,1997-05-14,17,2,FC Augsburg,German Football Association
+Group L,Croatia,19,MF,Toni Fruk,False,2001-03-09,7,1,Rijeka,Croatian Football Federation
+Group L,Croatia,20,FW,Igor Matanović,False,2003-03-31,9,2,SC Freiburg,German Football Association
+Group L,Croatia,21,MF,Luka Sučić,False,2002-09-08,21,1,Real Sociedad,Royal Spanish Football Federation
+Group L,Croatia,22,DF,Luka Vušković,False,2007-02-24,5,1,Hamburger SV,German Football Association
+Group L,Croatia,23,GK,Dominik Kotarski,False,2000-02-10,4,0,Copenhagen,Danish Football Association
+Group L,Croatia,24,FW,Marco Pašalić,False,2000-09-14,15,1,Orlando City SC,United States Soccer Federation
+Group L,Croatia,25,DF,Martin Erlić,False,1998-01-24,13,1,Midtjylland,Danish Football Association
+Group L,Croatia,26,FW,Petar Musa,False,1998-03-04,11,1,FC Dallas,United States Soccer Federation
+Group L,England,1,GK,Jordan Pickford,False,1994-03-07,84,0,Everton,The Football Association
+Group L,England,2,DF,Ezri Konsa,False,1997-10-23,20,1,Aston Villa,The Football Association
+Group L,England,3,DF,Nico O'Reilly,False,2005-03-21,5,0,Manchester City,The Football Association
+Group L,England,4,MF,Declan Rice,False,1999-01-14,73,7,Arsenal,The Football Association
+Group L,England,5,DF,John Stones,False,1994-05-28,89,3,Manchester City,The Football Association
+Group L,England,6,DF,Marc Guéhi,False,2000-07-13,29,1,Manchester City,The Football Association
+Group L,England,7,FW,Bukayo Saka,False,2001-09-05,49,14,Arsenal,The Football Association
+Group L,England,8,MF,Elliot Anderson,False,2002-11-06,9,0,Nottingham Forest,The Football Association
+Group L,England,9,FW,Harry Kane,True,1993-07-28,114,79,Bayern Munich,German Football Association
+Group L,England,10,MF,Jude Bellingham,False,2003-06-29,48,6,Real Madrid,Royal Spanish Football Federation
+Group L,England,11,FW,Marcus Rashford,False,1997-10-31,72,18,Barcelona,Royal Spanish Football Federation
+Group L,England,12,DF,Trevoh Chalobah,False,1999-07-05,1,0,Chelsea,The Football Association
+Group L,England,13,GK,Dean Henderson,False,1997-03-12,5,0,Crystal Palace,The Football Association
+Group L,England,14,MF,Jordan Henderson,False,1990-06-17,90,3,Brentford,The Football Association
+Group L,England,15,DF,Dan Burn,False,1992-05-09,8,0,Newcastle United,The Football Association
+Group L,England,16,MF,Kobbie Mainoo,False,2005-04-19,14,0,Manchester United,The Football Association
+Group L,England,17,MF,Morgan Rogers,False,2002-07-26,15,1,Aston Villa,The Football Association
+Group L,England,18,FW,Anthony Gordon,False,2001-02-24,19,3,Newcastle United,The Football Association
+Group L,England,19,FW,Ollie Watkins,False,1995-12-30,22,7,Aston Villa,The Football Association
+Group L,England,20,FW,Noni Madueke,False,2002-03-10,11,1,Arsenal,The Football Association
+Group L,England,21,MF,Eberechi Eze,False,1998-06-29,17,3,Arsenal,The Football Association
+Group L,England,22,FW,Ivan Toney,False,1996-03-16,8,1,Al-Ahli,Saudi Arabian Football Federation
+Group L,England,23,GK,James Trafford,False,2002-10-10,2,0,Manchester City,The Football Association
+Group L,England,24,DF,Reece James,False,1999-12-08,24,1,Chelsea,The Football Association
+Group L,England,25,DF,Djed Spence,False,2000-08-09,6,0,Tottenham Hotspur,The Football Association
+Group L,England,26,DF,Jarell Quansah,False,2003-01-29,3,0,Bayer Leverkusen,German Football Association
+Group L,Ghana,1,GK,Lawrence Ati-Zigi,False,1996-11-29,29,0,St. Gallen,Swiss Football Association
+Group L,Ghana,2,DF,Alidu Seidu,False,2000-06-04,24,1,Rennes,French Football Federation
+Group L,Ghana,3,MF,Caleb Yirenkyi,False,2006-01-15,11,1,Nordsjælland,Danish Football Association
+Group L,Ghana,4,DF,Jonas Adjetey,False,2003-12-13,10,0,VfL Wolfsburg,German Football Association
+Group L,Ghana,5,MF,Thomas Partey,False,1993-06-13,57,15,Villarreal,Royal Spanish Football Federation
+Group L,Ghana,6,DF,Abdul Mumin,False,1998-06-06,5,0,Rayo Vallecano,Royal Spanish Football Federation
+Group L,Ghana,7,FW,Abdul Fatawu,False,2004-03-08,28,3,Leicester City,The Football Association
+Group L,Ghana,8,MF,Kwasi Sibo,False,1998-06-24,8,0,Oviedo,Royal Spanish Football Federation
+Group L,Ghana,9,FW,Jordan Ayew,True,1991-09-11,120,34,Leicester City,The Football Association
+Group L,Ghana,10,FW,Brandon Thomas-Asante,False,1998-12-29,8,1,Coventry City,The Football Association
+Group L,Ghana,11,MF,Antoine Semenyo,False,2000-01-07,34,3,Manchester City,The Football Association
+Group L,Ghana,12,GK,Joseph Anang,False,2000-06-08,1,0,St Patrick's Athletic,Football Association of Ireland
+Group L,Ghana,13,FW,Christopher Bonsu Baah,False,2004-12-14,9,0,Al-Qadsiah,Saudi Arabian Football Federation
+Group L,Ghana,14,DF,Gideon Mensah,False,1998-07-18,40,0,Auxerre,French Football Federation
+Group L,Ghana,15,MF,Elisha Owusu,False,1997-11-07,20,0,Auxerre,French Football Federation
+Group L,Ghana,16,GK,Benjamin Asare,False,1992-07-13,11,0,Hearts of Oak,Ghana Football Association
+Group L,Ghana,17,DF,Abdul Rahman Baba,False,1994-07-02,51,1,PAOK,Hellenic Football Federation
+Group L,Ghana,18,DF,Jerome Opoku,False,1998-10-14,11,1,İstanbul Başakşehir,Turkish Football Federation
+Group L,Ghana,19,FW,Iñaki Williams,False,1994-06-15,26,2,Athletic Bilbao,Royal Spanish Football Federation
+Group L,Ghana,20,MF,Augustine Boakye,False,2000-11-03,0,0,Saint-Étienne,French Football Federation
+Group L,Ghana,21,DF,Kojo Peprah Oppong,False,2004-06-04,4,0,Nice,French Football Federation
+Group L,Ghana,22,FW,Kamaldeen Sulemana,False,2002-02-15,28,1,Atalanta,Italian Football Federation
+Group L,Ghana,23,DF,Derrick Luckassen,False,1995-07-03,1,0,Pafos,Cyprus Football Association
+Group L,Ghana,24,FW,Ernest Nuamah,False,2003-11-01,18,4,Lyon,French Football Federation
+Group L,Ghana,25,FW,Prince Kwabena Adu,False,2003-09-23,5,0,Viktoria Plzeň,Football Association of the Czech Republic
+Group L,Ghana,26,DF,Marvin Senaya,False,2001-01-28,2,0,Auxerre,French Football Federation
+Group L,Panama,1,GK,Luis Mejía,False,1991-03-16,56,0,Nacional,Uruguayan Football Association
+Group L,Panama,2,DF,César Blackman,False,1998-04-02,40,3,Slovan Bratislava,Slovak Football Association
+Group L,Panama,3,DF,José Córdoba,False,2001-06-03,32,1,Norwich City,The Football Association
+Group L,Panama,4,DF,Fidel Escobar,False,1995-01-09,99,4,Saprissa,Costa Rican Football Federation
+Group L,Panama,5,DF,Edgardo Fariña,False,2001-10-19,18,0,Pari Nizhny Novgorod,Russian Football Union
+Group L,Panama,6,MF,Cristian Martínez,False,1997-02-06,66,2,Ironi Kiryat Shmona,Israel Football Association
+Group L,Panama,7,MF,José Luis Rodríguez,False,1998-06-19,70,8,Juárez,Mexican Football Federation
+Group L,Panama,8,MF,Adalberto Carrasquilla,False,1998-11-28,73,3,Pumas UNAM,Mexican Football Federation
+Group L,Panama,9,FW,Tomás Rodríguez,False,1999-03-09,13,4,Saprissa,Costa Rican Football Federation
+Group L,Panama,10,MF,Ismael Díaz,False,1997-05-12,57,17,León,Mexican Football Federation
+Group L,Panama,11,MF,Yoel Bárcenas,False,1993-10-23,104,10,Mazatlán,Mexican Football Federation
+Group L,Panama,12,GK,César Samudio,False,1994-02-23,5,0,Marathón,National Autonomous Federation of Football of Honduras
+Group L,Panama,13,DF,Jiovany Ramos,False,1997-01-26,23,2,Puerto Cabello,Venezuelan Football Federation
+Group L,Panama,14,DF,Carlos Harvey,False,2000-02-03,28,3,Minnesota United FC,United States Soccer Federation
+Group L,Panama,15,DF,Eric Davis,False,1991-03-31,107,9,Plaza Amador,Panamanian Football Federation
+Group L,Panama,16,DF,Andrés Andrade,False,1998-10-16,50,1,LASK,Austrian Football Association
+Group L,Panama,17,FW,José Fajardo,False,1993-08-18,68,17,Universidad Católica,Ecuadorian Football Federation
+Group L,Panama,18,FW,Cecilio Waterman,False,1991-04-13,55,15,Universidad de Concepción,Football Federation of Chile
+Group L,Panama,19,MF,Alberto Quintero,False,1987-12-18,141,7,Plaza Amador,Panamanian Football Federation
+Group L,Panama,20,MF,Aníbal Godoy,True,1990-02-10,159,4,San Diego FC,United States Soccer Federation
+Group L,Panama,21,MF,César Yanis,False,1996-01-28,56,5,Cobresal,Football Federation of Chile
+Group L,Panama,22,GK,Orlando Mosquera,False,1994-12-25,48,0,Al-Fayha,Saudi Arabian Football Federation
+Group L,Panama,23,DF,Michael Amir Murillo,False,1996-02-11,94,9,Beşiktaş,Turkish Football Federation
+Group L,Panama,24,FW,Azarias Londoño,False,2001-06-21,11,0,Universidad Católica,Ecuadorian Football Federation
+Group L,Panama,25,DF,Roderick Miller,False,1992-04-03,50,2,Turan Tovuz,Association of Football Federations of Azerbaijan
+Group L,Panama,26,DF,Jorge Gutiérrez,False,1998-09-01,18,0,Deportivo La Guaira,Venezuelan Football Federation

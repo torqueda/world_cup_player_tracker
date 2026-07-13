@@ -1,0 +1,15 @@
+metric,value
+clubs_input_rows,457
+working_rows,457
+wikidata_candidate_rows,4592
+clubs_with_candidate_rows,449
+clubs_with_no_candidates_or_api_failure,8
+review_queue_rows,251
+request_log_rows,1715
+failed_request_log_rows,0
+match_status__auto_candidate_high_stadium_coords,206
+match_status__candidate_coords_need_review,11
+match_status__candidate_no_coordinates,38
+match_status__candidate_stadium_coords_needs_spotcheck,192
+match_status__needs_manual_match_review,2
+match_status__no_wikidata_candidates_found,8

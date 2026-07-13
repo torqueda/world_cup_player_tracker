@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node / frontend (site/ has its own .gitignore too)
+node_modules/
+site/dist/
+.pnpm-store/
+
+# Editor / temp
+*.swp
+~$*

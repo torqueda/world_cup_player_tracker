@@ -1,0 +1,11 @@
+﻿source_id,source_type,publisher,url,title,accessed_at,published_at,reliability_tier,notes
+club_corr_0001,p_sco_lawrence_shankland_c03e8909,Lawrence Shankland,Scotland,c_hearts_422d35b1,Hearts,c_rangers_8ee581e0,Rangers F.C.,player_club_source_error
+club_corr_0002,p_irq_aymen_hussein_9b6a0747,Aymen Hussein,Iraq,c_al_khor_f91729aa,Al-Khor,c_al_karma_f9b63d11,Al-Karma SC,player_club_source_error
+club_corr_0003,p_irq_mohanad_ali_41068002,Mohanad Ali,Iraq,c_al_shorta_03f6bef7,Al-Shorta,c_dibba_al_fujairah_06c16d12,Dibba FC,player_club_source_error
+club_corr_0004,p_nor_sander_tangvik_493d3d56,Sander Tangvik,Norway,c_hamburg_sv_8cb7fa56,Hamburg SV,c_hamburger_sv_bc4db90c,Hamburger SV,club_source_variant_or_typo
+club_corr_0005,p_cro_luka_vuskovic_79fcb50b,Luka Vuskovic,Croatia,c_hamburg_sv_8cb7fa56,Hamburg SV,c_hamburger_sv_bc4db90c,Hamburger SV,club_source_variant_or_typo
+wiki_squads_2026,roster,Wikipedia,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads,2026 FIFA World Cup squads,2026-07-12,,secondary_verified,"Final 26-man rosters, shirt numbers, coaches, replacements. Snapshot: data/raw/wikipedia_2026_squads_snapshot.html"
+wiki_officials_2026,officials,Wikipedia,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_officials,2026 FIFA World Cup officials,2026-07-12,,secondary_verified,"Referees, assistants, VARs. Snapshot: data/raw/wikipedia_2026_officials_snapshot.html"
+fifa_player_stats_2026,stats,FIFA,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/statistics/player-statistics,FIFA.com player statistics (through quarterfinals),2026-07-12,,primary_official,Goals/assists/minutes for all registered players; cards from Discipline tab.
+fifa_team_stats_2026,stats,FIFA,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/statistics/team-statistics,FIFA.com team statistics (through quarterfinals),2026-07-12,,primary_official,"Team goals, assists, xG, possession."
+fifa_fixtures_2026,matches,FIFA,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures,FIFA.com scores & fixtures,2026-07-12,,primary_official,All match results through the quarterfinals plus remaining schedule. Snapshot: data/raw/fifa_scores_fixtures_snapshot.txt

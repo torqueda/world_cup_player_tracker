@@ -1,0 +1,14 @@
+metric,value,notes
+current_players_rows,1248,From master workbook players sheet.
+old_clubs_rows,511,Input Step 2 clubs.csv.
+old_unique_raw_club_names_in_callups,518,Distinct club_name_at_source strings in player_club_at_callup.csv.
+normalized_canonical_clubs,463,clubs_normalized.csv rows.
+canonical_club_reduction,48,Old club rows collapsed by alias normalization.
+auto_merge_groups,45,Curated high-confidence club-name groups applied.
+alias_map_rows,511,One row per old Step 2 club row.
+normalized_callup_rows,1248,Should remain one row per player call-up club.
+squad_entries_repaired_rows,1248,"Same row count as input squad_entries, with Ali Yousef/Yousif player_id repair applied."
+player_id_repairs_applied,1,Repairs made where old Step 2 IDs no longer joined to current players.
+review_queue_rows,18,Candidates not auto-merged.
+wikidata_ids_filled,0,Step 5b remains needed; old clubs input had blank wikidata_id.
+geocoding_filled,0,Intentionally blank. Do not geocode until club normalization is approved.

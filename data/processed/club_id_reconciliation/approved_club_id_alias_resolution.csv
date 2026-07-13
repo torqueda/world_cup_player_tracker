@@ -1,0 +1,8 @@
+source_club_id,source_club_name,target_club_id,target_club_name,target_present_in_geocoded,target_present_in_step5_final,player_club_rows_reassigned
+c_al_etiffaq_f2058dce,Al Etiffaq,c_al_ettifaq_807c8264,Al-Ettifaq Club,TRUE,TRUE,1
+c_heart_of_midlothian_d14abfe8,Heart of Midlothian,c_hearts_422d35b1,Heart of Midlothian F.C.,TRUE,TRUE,1
+c_kasimpasa_520d5e13,Kasimpasa,c_kasmpasa_61344b51,Kasımpaşa S.K.,TRUE,TRUE,1
+c_leeds_d537b1a4,Leeds,c_leeds_united_4d0a095e,Leeds United F.C.,TRUE,TRUE,1
+c_mainz_0f856462,Mainz,c_mainz_05_a2ff4aed,Mainz 05,TRUE,TRUE,3
+c_man_united_e54449db,Man United,c_manchester_united_f05b841f,Manchester United,TRUE,TRUE,1
+c_tottehham_6d832957,Tottehham,c_tottenham_hotspur_ef01ee61,Tottenham Hotspur,TRUE,TRUE,1

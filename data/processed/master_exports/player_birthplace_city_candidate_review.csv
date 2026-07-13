@@ -1,0 +1,2 @@
+﻿player_id,display_name,birth_country,place_of_birth,candidate_club_city,normalized_player_birthplace,normalized_candidate_club_city,review_reason
+p_usa_folarin_balogun_3e3f15dd,Folarin Balogun,United States,New York City,New York,new york,new york,generic location suffix removed produced a canonical city-name match

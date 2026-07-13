@@ -1,0 +1,10 @@
+metric,value
+approved_alias_rows,7
+clubs_final_original_rows,464
+clubs_final_reconciled_rows,457
+player_club_original_rows,1248
+player_club_rows_with_changed_club_id,9
+distinct_player_club_club_ids_after_remap,457
+distinct_geocoded_club_ids,457
+all_remapped_player_club_ids_exist_in_reconciled_clubs_final,TRUE
+all_remapped_player_club_ids_exist_in_geocoded_clubs,TRUE

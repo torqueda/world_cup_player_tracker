@@ -1,0 +1,434 @@
+[
+  {
+    "coach_id": "co_wc2026_cze_8a780207",
+    "team": "Czechia",
+    "team_code": "CZE",
+    "coach_name": "Miroslav Koubek",
+    "coach_nationality": "Czechia",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_mex_bdc742cc",
+    "team": "Mexico",
+    "team_code": "MEX",
+    "coach_name": "Javier Aguirre",
+    "coach_nationality": "Mexico",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_rsa_babe856f",
+    "team": "South Africa",
+    "team_code": "RSA",
+    "coach_name": "Hugo Broos",
+    "coach_nationality": "Belgium",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_kor_310de085",
+    "team": "South Korea",
+    "team_code": "KOR",
+    "coach_name": "Hong Myung-bo",
+    "coach_nationality": "South Korea",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_bih_77a4d336",
+    "team": "Bosnia-Herzegovina",
+    "team_code": "BIH",
+    "coach_name": "Sergej Barbarez",
+    "coach_nationality": "Bosnia-Herzegovina",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_can_2273b982",
+    "team": "Canada",
+    "team_code": "CAN",
+    "coach_name": "Jesse Marsch",
+    "coach_nationality": "United States",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_qat_8c479ccc",
+    "team": "Qatar",
+    "team_code": "QAT",
+    "coach_name": "Julen Lopetegui",
+    "coach_nationality": "Spain",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_sui_208966df",
+    "team": "Switzerland",
+    "team_code": "SUI",
+    "coach_name": "Murat Yakin",
+    "coach_nationality": "Switzerland",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_bra_ae9375e1",
+    "team": "Brazil",
+    "team_code": "BRA",
+    "coach_name": "Carlo Ancelotti",
+    "coach_nationality": "Italy",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_hai_6874f2ba",
+    "team": "Haiti",
+    "team_code": "HAI",
+    "coach_name": "Sébastien Migné",
+    "coach_nationality": "France",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_mar_6e488650",
+    "team": "Morocco",
+    "team_code": "MAR",
+    "coach_name": "Mohamed Ouahbi",
+    "coach_nationality": "Morocco",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_sco_36759265",
+    "team": "Scotland",
+    "team_code": "SCO",
+    "coach_name": "Steve Clarke",
+    "coach_nationality": "Scotland",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_aus_7e7a23f7",
+    "team": "Australia",
+    "team_code": "AUS",
+    "coach_name": "Tony Popovic",
+    "coach_nationality": "Australia",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_par_8b97953e",
+    "team": "Paraguay",
+    "team_code": "PAR",
+    "coach_name": "Gustavo Alfaro",
+    "coach_nationality": "Argentina",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_tur_4e4f9e3c",
+    "team": "Türkiye",
+    "team_code": "TUR",
+    "coach_name": "Vincenzo Montella",
+    "coach_nationality": "Italy",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_usa_812938cf",
+    "team": "United States",
+    "team_code": "USA",
+    "coach_name": "Mauricio Pochettino",
+    "coach_nationality": "Argentina",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_cuw_1fb15e54",
+    "team": "Curacao",
+    "team_code": "CUW",
+    "coach_name": "Dick Advocaat",
+    "coach_nationality": "Netherlands",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_ecu_9153a25d",
+    "team": "Ecuador",
+    "team_code": "ECU",
+    "coach_name": "Sebastián Beccacece",
+    "coach_nationality": "Argentina",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_ger_aec765f2",
+    "team": "Germany",
+    "team_code": "GER",
+    "coach_name": "Julian Nagelsmann",
+    "coach_nationality": "Germany",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_civ_47977387",
+    "team": "Ivory Coast",
+    "team_code": "CIV",
+    "coach_name": "Emerse Faé",
+    "coach_nationality": "Ivory Coast",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_jpn_65bb8501",
+    "team": "Japan",
+    "team_code": "JPN",
+    "coach_name": "Hajime Moriyasu",
+    "coach_nationality": "Japan",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_ned_0b77d28f",
+    "team": "Netherlands",
+    "team_code": "NED",
+    "coach_name": "Ronald Koeman",
+    "coach_nationality": "Netherlands",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_swe_c2158ced",
+    "team": "Sweden",
+    "team_code": "SWE",
+    "coach_name": "Graham Potter",
+    "coach_nationality": "England",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_tun_cd1cc503",
+    "team": "Tunisia",
+    "team_code": "TUN",
+    "coach_name": "Sabri Lamouchi (first match) / Hervé Renard (remaining matches)",
+    "coach_nationality": "France",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_bel_b5dff675",
+    "team": "Belgium",
+    "team_code": "BEL",
+    "coach_name": "Rudi Garcia",
+    "coach_nationality": "France",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_egy_fe6e452d",
+    "team": "Egypt",
+    "team_code": "EGY",
+    "coach_name": "Hossam Hassan",
+    "coach_nationality": "Egypt",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_irn_349e1875",
+    "team": "Iran",
+    "team_code": "IRN",
+    "coach_name": "Amir Ghalenoei",
+    "coach_nationality": "Iran",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_nzl_3d10e1ce",
+    "team": "New Zealand",
+    "team_code": "NZL",
+    "coach_name": "Darren Bazeley",
+    "coach_nationality": "England",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_cpv_a7782410",
+    "team": "Cape Verde",
+    "team_code": "CPV",
+    "coach_name": "Bubista",
+    "coach_nationality": "Cape Verde",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_ksa_936e924e",
+    "team": "Saudi Arabia",
+    "team_code": "KSA",
+    "coach_name": "Georgios Donis",
+    "coach_nationality": "Greece",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_esp_d7c6262f",
+    "team": "Spain",
+    "team_code": "ESP",
+    "coach_name": "Luis de la Fuente",
+    "coach_nationality": "Spain",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_uru_8e6604d0",
+    "team": "Uruguay",
+    "team_code": "URU",
+    "coach_name": "Marcelo Bielsa",
+    "coach_nationality": "Argentina",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_fra_8e0f3340",
+    "team": "France",
+    "team_code": "FRA",
+    "coach_name": "Didier Deschamps",
+    "coach_nationality": "France",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_irq_0b66cf24",
+    "team": "Iraq",
+    "team_code": "IRQ",
+    "coach_name": "Graham Arnold",
+    "coach_nationality": "Australia",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_nor_2af8908a",
+    "team": "Norway",
+    "team_code": "NOR",
+    "coach_name": "Ståle Solbakken",
+    "coach_nationality": "Norway",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_sen_8660543a",
+    "team": "Senegal",
+    "team_code": "SEN",
+    "coach_name": "Pape Thiaw",
+    "coach_nationality": "Senegal",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_alg_7a7f3573",
+    "team": "Algeria",
+    "team_code": "ALG",
+    "coach_name": "Vladimir Petković",
+    "coach_nationality": "Bosnia and Herzegovina",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_arg_02af8113",
+    "team": "Argentina",
+    "team_code": "ARG",
+    "coach_name": "Lionel Scaloni",
+    "coach_nationality": "Argentina",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_aut_840fb150",
+    "team": "Austria",
+    "team_code": "AUT",
+    "coach_name": "Ralf Rangnick",
+    "coach_nationality": "Germany",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_jor_987272b0",
+    "team": "Jordan",
+    "team_code": "JOR",
+    "coach_name": "Jamal Sellami",
+    "coach_nationality": "Morocco",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_col_34297f2a",
+    "team": "Colombia",
+    "team_code": "COL",
+    "coach_name": "Néstor Lorenzo",
+    "coach_nationality": "Argentina",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_cod_d6e886ec",
+    "team": "Congo DR",
+    "team_code": "COD",
+    "coach_name": "Sébastien Desabre",
+    "coach_nationality": "France",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_por_e8b1c7df",
+    "team": "Portugal",
+    "team_code": "POR",
+    "coach_name": "Roberto Martínez",
+    "coach_nationality": "Spain",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_uzb_09ef23f7",
+    "team": "Uzbekistan",
+    "team_code": "UZB",
+    "coach_name": "Fabio Cannavaro",
+    "coach_nationality": "Italy",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_cro_d3517486",
+    "team": "Croatia",
+    "team_code": "CRO",
+    "coach_name": "Zlatko Dalić",
+    "coach_nationality": "Croatia",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_eng_baa14ef5",
+    "team": "England",
+    "team_code": "ENG",
+    "coach_name": "Thomas Tuchel",
+    "coach_nationality": "Germany",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_gha_52a23a07",
+    "team": "Ghana",
+    "team_code": "GHA",
+    "coach_name": "Carlos Queiroz",
+    "coach_nationality": "Portugal",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "coach_id": "co_wc2026_pan_91b54d7e",
+    "team": "Panama",
+    "team_code": "PAN",
+    "coach_name": "Thomas Christiansen",
+    "coach_nationality": "Spain",
+    "source_id": "wiki_squads_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  }
+]

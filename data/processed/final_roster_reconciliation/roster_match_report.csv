@@ -1,0 +1,1222 @@
+﻿player_id,team,display_name,wiki_player_name,match_method,shirt_number,position,is_captain,caps_pre_tournament,goals_pre_tournament,wiki_club,our_dob,wiki_dob,dob_check
+p_alg_aissa_mandi_18ff426e,Algeria,Aissa Mandi,Aïssa Mandi,exact,2,DF,False,119,8,Lille,1991-10-22,1991-10-22,OK
+p_alg_mohamed_amine_tougai_d2bbe8d2,Algeria,Mohamed Amine Tougai,Mohamed Amine Tougai,exact,4,DF,False,30,2,Espérance de Tunis,2000-01-22,2000-01-22,OK
+p_alg_ramiz_zerrouki_365c4fe7,Algeria,Ramiz Zerrouki,Ramiz Zerrouki,exact,6,MF,False,53,3,Twente,1998-05-26,1998-05-26,OK
+p_alg_riyad_mahrez_cf3747ad,Algeria,Riyad Mahrez,Riyad Mahrez,exact,7,FW,True,116,38,Al-Ahli,1991-02-21,1991-02-21,OK
+p_alg_houssem_aouar_4b886415,Algeria,Houssem Aouar,Houssem Aouar,exact,8,MF,False,22,6,Al-Ittihad,1998-06-30,1998-06-30,OK
+p_alg_amine_gouiri_e78ccbec,Algeria,Amine Gouiri,Amine Gouiri,exact,9,FW,False,23,10,Marseille,2000-02-16,2000-02-16,OK
+p_alg_fares_chaibi_7363c3a0,Algeria,Fares Chaibi,Farès Chaïbi,exact,10,MF,False,31,3,Eintracht Frankfurt,2002-11-28,2002-11-28,OK
+p_alg_anis_hadj_moussa_ad8afb91,Algeria,Anis Hadj Moussa,Anis Hadj Moussa,exact,11,FW,False,15,2,Feyenoord,2002-02-11,2002-02-11,OK
+p_alg_jaouen_hadjam_0bd5d114,Algeria,Jaouen Hadjam,Jaouen Hadjam,exact,13,DF,False,18,3,Young Boys,2003-03-26,2003-03-26,OK
+p_alg_hicham_boudaoui_0c0f5c95,Algeria,Hicham Boudaoui,Hicham Boudaoui,exact,14,MF,False,34,0,Nice,1999-09-23,1999-09-23,OK
+p_alg_rayan_ait_nouri_5cb1bf64,Algeria,Rayan Ait Nouri,Rayan Aït-Nouri,exact,15,DF,False,30,0,Manchester City,2001-06-06,2001-06-06,OK
+p_alg_oussama_benbot_899e999e,Algeria,Oussama Benbot,Oussama Benbot,exact,16,GK,False,5,0,USM Alger,1994-10-11,1994-10-11,OK
+p_alg_rafik_belghali_e4487e93,Algeria,Rafik Belghali,Rafik Belghali,exact,17,DF,False,13,1,Hellas Verona,2002-06-07,2002-06-07,OK
+p_alg_nabil_bentaleb_b4544369,Algeria,Nabil Bentaleb,Nabil Bentaleb,exact,19,MF,False,60,6,Lille,1994-11-24,1994-11-24,OK
+p_alg_adil_boulbina_d1bb01d8,Algeria,Adil Boulbina,Adil Boulbina,exact,20,FW,False,12,6,Al-Duhail,2003-05-02,2003-05-02,OK
+p_alg_ramy_bensebaini_3cd59af9,Algeria,Ramy Bensebaini,Ramy Bensebaini,exact,21,DF,False,82,9,Borussia Dortmund,1995-04-16,1995-04-16,OK
+p_alg_ibrahim_maza_9745cb11,Algeria,Ibrahim Maza,Ibrahim Maza,exact,22,MF,False,17,2,Bayer Leverkusen,2005-11-24,2005-11-24,OK
+p_alg_luca_zidane_9bb39f36,Algeria,Luca Zidane,Luca Zidane,exact,23,GK,False,7,0,Granada,1998-05-13,1998-05-13,OK
+p_alg_fares_ghedjemis_fe617a47,Algeria,Fares Ghedjemis,Farès Ghedjemis,exact,25,FW,False,1,1,Frosinone,2002-09-06,2002-09-06,OK
+p_alg_samir_chergui_ab6dd360,Algeria,Samir Chergui,Samir Chergui,exact,26,DF,False,5,0,Paris FC,1999-02-06,1999-02-06,OK
+p_alg_melvin_masstil_9362665c,Algeria,Melvin Masstil,Melvin Mastil,fuzzy:0.96,1,GK,False,2,0,Stade Nyonnais,2000-02-19,2000-02-19,OK
+p_alg_achraf_abada_19289ff4,Algeria,Achraf Abada,Achref Abada,fuzzy:0.95,3,DF,False,9,1,USM Alger,1999-06-15,1999-06-15,OK
+p_alg_zinedine_belaid_80b40d09,Algeria,Zinedine Belaid,Zineddine Belaïd,fuzzy:0.97,5,DF,False,18,1,JS Kabylie,1999-03-20,1999-03-20,OK
+p_alg_nadir_benbouali_bb5a8a6a,Algeria,Nadir Benbouali,Nadhir Benbouali,fuzzy:0.97,12,FW,False,4,1,Győri ETO,2000-04-17,2000-04-17,OK
+p_alg_mohamed_amine_amoura_56f3780c,Algeria,Mohamed Amine Amoura,Mohamed Amoura,fuzzy:0.95,18,FW,False,47,19,VfL Wolfsburg,2000-05-09,2000-05-09,OK
+p_alg_yassine_titraoui_dce1a510,Algeria,Yassine Titraoui,Yacine Titraoui,fuzzy:0.95,24,MF,False,5,0,Charleroi,2003-07-26,2003-07-26,OK
+p_arg_juan_musso_67aa6620,Argentina,Juan Musso,Juan Musso,exact,1,GK,False,4,0,Atlético Madrid,1994-05-06,1994-05-06,OK
+p_arg_nicolas_tagliafico_ed77a5b4,Argentina,Nicolás Tagliafico,Nicolás Tagliafico,exact,3,DF,False,76,1,Lyon,1992-08-31,1992-08-31,OK
+p_arg_gonzalo_montiel_aef86bee,Argentina,Gonzalo Montiel,Gonzalo Montiel,exact,4,DF,False,39,2,River Plate,1997-01-01,1997-01-01,OK
+p_arg_leandro_paredes_03c0d6ce,Argentina,Leandro Paredes,Leandro Paredes,exact,5,MF,False,77,5,Boca Juniors,1994-06-29,1994-06-29,OK
+p_arg_lisandro_martinez_3b573d93,Argentina,Lisandro Martínez,Lisandro Martínez,exact,6,DF,False,28,1,Manchester United,1998-01-18,1998-01-18,OK
+p_arg_rodrigo_de_paul_8af82594,Argentina,Rodrigo De Paul,Rodrigo De Paul,exact,7,MF,False,87,2,Inter Miami CF,1994-05-24,1994-05-24,OK
+p_arg_valentin_barco_e3b78216,Argentina,Valentín Barco,Valentín Barco,exact,8,MF,False,4,2,Strasbourg,2004-07-23,2004-07-23,OK
+p_arg_julian_alvarez_797f95f2,Argentina,Julián Álvarez,Julián Alvarez,exact,9,FW,False,51,14,Atlético Madrid,2000-01-31,2000-01-31,OK
+p_arg_lionel_messi_a65fe07a,Argentina,Lionel Messi,Lionel Messi,exact,10,FW,True,199,117,Inter Miami CF,1987-06-24,1987-06-24,OK
+p_arg_giovani_lo_celso_5503c556,Argentina,Giovani Lo Celso,Giovani Lo Celso,exact,11,MF,False,67,4,Real Betis,1996-04-09,1996-04-09,OK
+p_arg_geronimo_rulli_1f840d31,Argentina,Gerónimo Rulli,Gerónimo Rulli,exact,12,GK,False,8,0,Marseille,1992-05-20,1992-05-20,OK
+p_arg_cristian_romero_8fab5f9e,Argentina,Cristian Romero,Cristian Romero,exact,13,DF,False,51,3,Tottenham Hotspur,1998-04-27,1998-04-27,OK
+p_arg_exequiel_palacios_caaa7c6d,Argentina,Exequiel Palacios,Exequiel Palacios,exact,14,MF,False,40,0,Bayer Leverkusen,1998-10-05,1998-10-05,OK
+p_arg_nicolas_gonzalez_fbfd120f,Argentina,Nicolás González,Nicolás González,exact,15,MF,False,51,6,Atlético Madrid,1998-04-06,1998-04-06,OK
+p_arg_thiago_almada_3bc6dc24,Argentina,Thiago Almada,Thiago Almada,exact,16,FW,False,16,5,Atlético Madrid,2001-04-26,2001-04-26,OK
+p_arg_giuliano_simeone_9c448df8,Argentina,Giuliano Simeone,Giuliano Simeone,exact,17,FW,False,13,2,Atlético Madrid,2002-12-18,2002-12-18,OK
+p_arg_nico_paz_80721f86,Argentina,Nico Paz,Nico Paz,exact,18,FW,False,9,1,Como,2004-09-08,2004-09-08,OK
+p_arg_nicolas_otamendi_3a1c796d,Argentina,Nicolás Otamendi,Nicolás Otamendi,exact,19,DF,False,132,8,Benfica,1988-02-12,1988-02-12,OK
+p_arg_alexis_mac_allister_5fb6c1df,Argentina,Alexis Mac Allister,Alexis Mac Allister,exact,20,MF,False,46,6,Liverpool,1998-12-24,1998-12-24,OK
+p_arg_jose_manuel_lopez_6501b924,Argentina,Jose Manuel López,José Manuel López,exact,21,FW,False,5,0,Palmeiras,2000-12-06,2000-12-06,OK
+p_arg_lautaro_martinez_6a845476,Argentina,Lautaro Martínez,Lautaro Martínez,exact,22,FW,False,77,37,Inter Milan,1997-08-22,1997-08-22,OK
+p_arg_emiliano_martinez_c1a843dd,Argentina,Emiliano Martínez,Emiliano Martínez,exact,23,GK,False,59,0,Aston Villa,1992-09-02,1992-09-02,OK
+p_arg_enzo_fernandez_0572786a,Argentina,Enzo Fernández,Enzo Fernández,exact,24,MF,False,42,6,Chelsea,2001-01-17,2001-01-17,OK
+p_arg_facundo_medina_5f424a87,Argentina,Facundo Medina,Facundo Medina,exact,25,DF,False,9,0,Marseille,1999-05-28,1999-05-28,OK
+p_arg_nahuel_molina_7f1b1e08,Argentina,Nahuel Molina,Nahuel Molina,exact,26,DF,False,58,1,Atlético Madrid,1998-04-06,1998-04-06,OK
+p_aus_mathew_ryan_7abfe358,Australia,Mathew Ryan,Mathew Ryan,exact,1,GK,True,104,0,Levante,1992-04-08,1992-04-08,OK
+p_aus_milos_degenek_d704a90d,Australia,Milos Degenek,Miloš Degenek,exact,2,DF,False,57,1,APOEL,1994-04-28,1994-04-28,OK
+p_aus_alessandro_circati_764625f7,Australia,Alessandro Circati,Alessandro Circati,exact,3,DF,False,13,1,Parma,2003-10-10,2003-10-10,OK
+p_aus_jacob_italiano_9d055542,Australia,Jacob Italiano,Jacob Italiano,exact,4,DF,False,5,0,Grazer AK,2001-07-30,2001-07-30,OK
+p_aus_jordan_bos_65625b94,Australia,Jordan Bos,Jordan Bos,exact,5,DF,False,27,4,Feyenoord,2002-10-29,2002-10-29,OK
+p_aus_jason_geria_ca25f974,Australia,Jason Geria,Jason Geria,exact,6,DF,False,14,0,Albirex Niigata,1993-05-10,1993-05-10,OK
+p_aus_mathew_leckie_968e41a4,Australia,Mathew Leckie,Mathew Leckie,exact,7,FW,False,80,14,Melbourne City,1991-02-04,1991-02-04,OK
+p_aus_connor_metcalfe_12fb1964,Australia,Connor Metcalfe,Connor Metcalfe,exact,8,MF,False,36,1,FC St. Pauli,1999-11-05,1999-11-05,OK
+p_aus_mohamed_toure_5cd1e876,Australia,Mohamed Toure,Mohamed Touré,exact,9,FW,False,10,2,Norwich City,2004-03-26,2004-03-26,OK
+p_aus_ajdin_hrustic_175f7377,Australia,Ajdin Hrustic,Ajdin Hrustic,exact,10,FW,False,37,4,Heracles Almelo,1996-07-05,1996-07-05,OK
+p_aus_awer_mabil_1ac388bf,Australia,Awer Mabil,Awer Mabil,exact,11,FW,False,38,10,Castellón,1995-09-15,1995-09-15,OK
+p_aus_paul_izzo_ec6eecbc,Australia,Paul Izzo,Paul Izzo,exact,12,GK,False,4,0,Randers,1995-01-06,1995-01-06,OK
+p_aus_aiden_o_neill_efb600c3,Australia,Aiden O'Neill,Aiden O'Neill,exact,13,MF,False,31,0,New York City FC,1998-07-04,1998-07-04,OK
+p_aus_kai_trewin_9d5c2757,Australia,Kai Trewin,Kai Trewin,exact,15,DF,False,6,0,New York City FC,2001-05-18,2001-05-18,OK
+p_aus_aziz_behich_63afe512,Australia,Aziz Behich,Aziz Behich,exact,16,DF,False,84,3,Melbourne City,1990-12-16,1990-12-16,OK
+p_aus_nestory_irankunda_230ebed8,Australia,Nestory Irankunda,Nestory Irankunda,exact,17,FW,False,15,5,Watford,2006-02-09,2006-02-09,OK
+p_aus_patrick_beach_622c4760,Australia,Patrick Beach,Patrick Beach,exact,18,GK,False,2,0,Melbourne City,2003-08-06,2003-08-06,OK
+p_aus_harry_souttar_af530958,Australia,Harry Souttar,Harry Souttar,exact,19,DF,False,38,11,Leicester City,1998-10-22,1998-10-22,OK
+p_aus_cristian_volpato_70261c9a,Australia,Cristian Volpato,Cristian Volpato,exact,20,FW,False,1,0,Sassuolo,2003-11-15,2003-11-15,OK
+p_aus_cameron_burgess_86ce5eeb,Australia,Cameron Burgess,Cameron Burgess,exact,21,DF,False,27,0,Swansea City,1995-10-21,1995-10-21,OK
+p_aus_jackson_irvine_eeed0b95,Australia,Jackson Irvine,Jackson Irvine,exact,22,MF,False,82,14,FC St. Pauli,1993-03-07,1993-03-07,OK
+p_aus_nishan_velupillay_e473bc27,Australia,Nishan Velupillay,Nishan Velupillay,exact,23,FW,False,7,3,Melbourne Victory,2001-05-07,2001-05-07,OK
+p_aus_lucas_herrington_a104a4d8,Australia,Lucas Herrington,Lucas Herrington,exact,25,DF,False,4,0,Colorado Rapids,2007-09-05,2007-09-05,OK
+p_aus_tete_yengi_66f6414a,Australia,Tete Yengi,Tete Yengi,exact,26,FW,False,1,1,Machida Zelvia,2000-11-28,2000-11-28,OK
+p_aus_cameron_devlin_644bde9b,Australia,Cameron Devlin,Cammy Devlin,fuzzy:0.95,14,MF,False,5,0,Heart of Midlothian,1998-06-07,1998-06-07,OK
+p_aus_paul_okon_jr_7510a440,Australia,Paul Okon Jr,Paul Okon-Engstler,fuzzy:0.95,24,MF,False,6,0,Sydney FC,2005-01-24,2005-01-24,OK
+p_aut_alexander_schlager_b76cdc05,Austria,Alexander Schlager,Alexander Schlager,exact,1,GK,False,26,0,Red Bull Salzburg,1996-02-01,1996-02-01,OK
+p_aut_david_affengruber_571b6252,Austria,David Affengruber,David Affengruber,exact,2,DF,False,1,0,Elche,2001-03-19,2001-03-19,OK
+p_aut_kevin_danso_cc750167,Austria,Kevin Danso,Kevin Danso,exact,3,DF,False,32,0,Tottenham Hotspur,1998-09-19,1998-09-19,OK
+p_aut_xaver_schlager_dd1bd3e2,Austria,Xaver Schlager,Xaver Schlager,exact,4,MF,False,51,4,RB Leipzig,1997-09-28,1997-09-28,OK
+p_aut_stefan_posch_c4a93e0c,Austria,Stefan Posch,Stefan Posch,exact,5,DF,False,52,5,Mainz 05,1997-05-14,1997-05-14,OK
+p_aut_nicolas_seiwald_b34473c6,Austria,Nicolas Seiwald,Nicolas Seiwald,exact,6,MF,False,47,1,RB Leipzig,2001-05-04,2001-05-04,OK
+p_aut_marko_arnautovic_b7235e69,Austria,Marko Arnautovic,Marko Arnautović,exact,7,FW,False,133,47,Red Star Belgrade,1989-04-19,1989-04-19,OK
+p_aut_david_alaba_cffaf421,Austria,David Alaba,David Alaba,exact,8,DF,True,113,15,Real Madrid,1992-06-24,1992-06-24,OK
+p_aut_marcel_sabitzer_51c8c5f3,Austria,Marcel Sabitzer,Marcel Sabitzer,exact,9,MF,False,98,26,Borussia Dortmund,1994-03-17,1994-03-17,OK
+p_aut_florian_grillitsch_988ef91c,Austria,Florian Grillitsch,Florian Grillitsch,exact,10,MF,False,58,1,Braga,1995-08-07,1995-08-07,OK
+p_aut_michael_gregoritsch_79be7cb7,Austria,Michael Gregoritsch,Michael Gregoritsch,exact,11,FW,False,75,24,FC Augsburg,1994-04-18,1994-04-18,OK
+p_aut_florian_wiegele_29234ed6,Austria,Florian Wiegele,Florian Wiegele,exact,12,GK,False,1,0,Viktoria Plzeň,2001-03-21,2001-03-21,OK
+p_aut_patrick_pentz_a9b01b61,Austria,Patrick Pentz,Patrick Pentz,exact,13,GK,False,18,0,Brøndby,1997-01-02,1997-01-02,OK
+p_aut_sasa_kalajdzic_f722586c,Austria,Sasa Kalajdzic,Saša Kalajdžić,exact,14,FW,False,22,4,LASK,1997-07-07,1997-07-07,OK
+p_aut_philipp_lienhart_305d3a6e,Austria,Philipp Lienhart,Philipp Lienhart,exact,15,DF,False,41,3,SC Freiburg,1996-07-11,1996-07-11,OK
+p_aut_carney_chukwuemeka_32cb323a,Austria,Carney Chukwuemeka,Carney Chukwuemeka,exact,17,MF,False,3,1,Borussia Dortmund,2003-10-20,2003-10-20,OK
+p_aut_romano_schmid_77d66729,Austria,Romano Schmid,Romano Schmid,exact,18,MF,False,34,3,Werder Bremen,2000-01-27,2000-01-27,OK
+p_aut_konrad_laimer_c4a135d3,Austria,Konrad Laimer,Konrad Laimer,exact,20,MF,False,57,7,Bayern Munich,1997-05-27,1997-05-27,OK
+p_aut_patrick_wimmer_f5d2cd91,Austria,Patrick Wimmer,Patrick Wimmer,exact,21,FW,False,30,1,VfL Wolfsburg,2001-05-30,2001-05-30,OK
+p_aut_alexander_prass_f7961176,Austria,Alexander Prass,Alexander Prass,exact,22,MF,False,19,0,TSG Hoffenheim,2001-05-26,2001-05-26,OK
+p_aut_marco_friedl_505f4d47,Austria,Marco Friedl,Marco Friedl,exact,23,DF,False,11,0,Werder Bremen,1998-03-16,1998-03-16,OK
+p_aut_paul_wanner_29e4edc7,Austria,Paul Wanner,Paul Wanner,exact,24,MF,False,3,0,PSV Eindhoven,2005-12-23,2005-12-23,OK
+p_aut_michael_svoboda_55a6a7fb,Austria,Michael Svoboda,Michael Svoboda,exact,25,DF,False,4,0,Venezia,1998-10-15,1998-10-15,OK
+p_aut_alessandro_schopf_e931a5b8,Austria,Alessandro Schopf,Alessandro Schöpf,exact,26,MF,False,35,6,Wolfsberger AC,1994-02-07,1994-02-07,OK
+p_aut_philipp_mwene_1f4fda7d,Austria,Philipp Mwene,Phillipp Mwene,fuzzy:0.96,16,DF,False,30,0,Mainz 05,1994-01-29,1994-01-29,OK
+p_bel_thibaut_courtois_040ad8d2,Belgium,Thibaut Courtois,Thibaut Courtois,exact,1,GK,False,109,0,Real Madrid,1992-05-11,1992-05-11,OK
+p_bel_zeno_debast_152d7cb9,Belgium,Zeno Debast,Zeno Debast,exact,2,DF,False,26,1,Sporting CP,2003-10-24,2003-10-24,OK
+p_bel_arthur_theate_4ae5bb19,Belgium,Arthur Theate,Arthur Theate,exact,3,DF,False,33,1,Eintracht Frankfurt,2000-05-25,2000-05-25,OK
+p_bel_brandon_mechele_04a8a44e,Belgium,Brandon Mechele,Brandon Mechele,exact,4,DF,False,9,1,Club Brugge,1993-01-28,1993-01-28,OK
+p_bel_maxim_de_cuyper_2dacb3ff,Belgium,Maxim De Cuyper,Maxim De Cuyper,exact,5,DF,False,19,4,Brighton & Hove Albion,2000-12-22,2000-12-22,OK
+p_bel_axel_witsel_f3fb6771,Belgium,Axel Witsel,Axel Witsel,exact,6,MF,False,138,12,Girona,1989-01-12,1989-01-12,OK
+p_bel_kevin_de_bruyne_2ab46ffa,Belgium,Kevin De Bruyne,Kevin De Bruyne,exact,7,MF,False,119,37,Napoli,1991-06-28,1991-06-28,OK
+p_bel_youri_tielemans_f3e11248,Belgium,Youri Tielemans,Youri Tielemans,exact,8,MF,True,85,13,Aston Villa,1997-05-07,1997-05-07,OK
+p_bel_romelu_lukaku_bf4c275e,Belgium,Romelu Lukaku,Romelu Lukaku,exact,9,FW,False,126,90,Napoli,1993-05-13,1993-05-13,OK
+p_bel_leandro_trossard_e88bad80,Belgium,Leandro Trossard,Leandro Trossard,exact,10,FW,False,51,12,Arsenal,1994-12-04,1994-12-04,OK
+p_bel_jeremy_doku_db4a6a04,Belgium,Jérémy Doku,Jérémy Doku,exact,11,FW,False,43,7,Manchester City,2002-05-27,2002-05-27,OK
+p_bel_senne_lammens_578abff0,Belgium,Senne Lammens,Senne Lammens,exact,12,GK,False,2,0,Manchester United,2002-07-07,2002-07-07,OK
+p_bel_mike_penders_44bb081c,Belgium,Mike Penders,Mike Penders,exact,13,GK,False,0,0,Strasbourg,2005-07-31,2005-07-31,OK
+p_bel_dodi_lukebakio_554fff42,Belgium,Dodi Lukebakio,Dodi Lukébakio,exact,14,FW,False,30,6,Benfica,1997-09-24,1997-09-24,OK
+p_bel_thomas_meunier_3aff17d3,Belgium,Thomas Meunier,Thomas Meunier,exact,15,DF,False,80,10,Lille,1991-09-12,1991-09-12,OK
+p_bel_koni_de_winter_2ec1bedb,Belgium,Koni De Winter,Koni De Winter,exact,16,DF,False,8,0,Milan,2002-06-12,2002-06-12,OK
+p_bel_charles_de_ketelaere_ca23ee0b,Belgium,Charles De Ketelaere,Charles De Ketelaere,exact,17,FW,False,30,6,Atalanta,2001-03-10,2001-03-10,OK
+p_bel_joaquin_seys_c2326a15,Belgium,Joaquin Seys,Joaquin Seys,exact,18,DF,False,5,0,Club Brugge,2005-03-28,2005-03-28,OK
+p_bel_diego_moreira_53146078,Belgium,Diego Moreira,Diego Moreira,exact,19,MF,False,3,0,Strasbourg,2004-08-06,2004-08-06,OK
+p_bel_hans_vanaken_ad0966e2,Belgium,Hans Vanaken,Hans Vanaken,exact,20,MF,False,34,7,Club Brugge,1992-08-24,1992-08-24,OK
+p_bel_timothy_castagne_7ff63792,Belgium,Timothy Castagne,Timothy Castagne,exact,21,DF,False,63,2,Fulham,1995-12-05,1995-12-05,OK
+p_bel_alexis_saelemaekers_687396dd,Belgium,Alexis Saelemaekers,Alexis Saelemaekers,exact,22,MF,False,24,2,Milan,1999-06-27,1999-06-27,OK
+p_bel_nicolas_raskin_05ba6412,Belgium,Nicolas Raskin,Nicolas Raskin,exact,23,MF,False,13,2,Rangers,2001-02-23,2001-02-23,OK
+p_bel_amadou_onana_448ba4f1,Belgium,Amadou Onana,Amadou Onana,exact,24,MF,False,29,1,Aston Villa,2001-08-16,2001-08-16,OK
+p_bel_nathan_ngoy_02cef402,Belgium,Nathan Ngoy,Nathan Ngoy,exact,25,DF,False,4,0,Lille,2003-06-10,2003-06-10,OK
+p_bel_matias_fernandez_pardo_c2681da5,Belgium,Matias Fernandez-Pardo,Matias Fernandez-Pardo,exact,26,FW,False,2,0,Lille,2005-02-03,2005-02-03,OK
+p_bih_nikola_vasilj_4d665981,Bosnia-Herzegovina,Nikola Vasilj,Nikola Vasilj,exact,1,GK,False,26,0,FC St. Pauli,1995-12-02,1995-12-02,OK
+p_bih_nihad_mujakic_1dba0c25,Bosnia-Herzegovina,Nihad Mujakic,Nihad Mujakić,exact,2,DF,False,12,1,Gaziantep,1998-04-15,1998-04-15,OK
+p_bih_dennis_hadzikadunic_de197585,Bosnia-Herzegovina,Dennis Hadzikadunic,Dennis Hadžikadunić,exact,3,DF,False,32,0,Sampdoria,1998-07-09,1998-07-09,OK
+p_bih_tarik_muharemovic_f0fc52ce,Bosnia-Herzegovina,Tarik Muharemovic,Tarik Muharemović,exact,4,DF,False,14,1,Sassuolo,2003-02-28,2003-02-28,OK
+p_bih_sead_kolasinac_542b91f0,Bosnia-Herzegovina,Sead Kolasinac,Sead Kolašinac,exact,5,DF,False,65,0,Atalanta,1993-06-20,1993-06-20,OK
+p_bih_benjamin_tahirovic_62e71261,Bosnia-Herzegovina,Benjamin Tahirovic,Benjamin Tahirović,exact,6,MF,False,28,2,Brøndby,2003-03-03,2003-03-03,OK
+p_bih_amar_dedic_d2964e27,Bosnia-Herzegovina,Amar Dedic,Amar Dedić,exact,7,DF,False,28,1,Benfica,2002-08-18,2002-08-18,OK
+p_bih_armin_gigovic_28dd1773,Bosnia-Herzegovina,Armin Gigovic,Armin Gigović,exact,8,MF,False,20,1,Young Boys,2002-04-06,2002-04-06,OK
+p_bih_samed_bazdar_08b5f2c0,Bosnia-Herzegovina,Samed Bazdar,Samed Baždar,exact,9,FW,False,13,1,Jagiellonia Białystok,2004-01-31,2004-01-31,OK
+p_bih_ermedin_demirovic_0fb96d18,Bosnia-Herzegovina,Ermedin Demirovic,Ermedin Demirović,exact,10,FW,False,40,4,VfB Stuttgart,1998-03-25,1998-03-25,OK
+p_bih_edin_dzeko_ddafdfa5,Bosnia-Herzegovina,Edin Dzeko,Edin Džeko,exact,11,FW,True,148,73,Schalke 04,1986-03-17,1986-03-17,OK
+p_bih_ivan_basic_6c3d818c,Bosnia-Herzegovina,Ivan Basic,Ivan Bašić,exact,13,MF,False,17,0,Astana,2002-04-30,2002-04-30,OK
+p_bih_ivan_sunjic_0494eba9,Bosnia-Herzegovina,Ivan Sunjic,Ivan Šunjić,exact,14,MF,False,11,0,Pafos,1996-10-09,1996-10-09,OK
+p_bih_amar_memic_1ca20cc8,Bosnia-Herzegovina,Amar Memic,Amar Memić,exact,15,MF,False,13,1,Viktoria Plzeň,2001-01-20,2001-01-20,OK
+p_bih_amir_hadziahmetovic_6c02a767,Bosnia-Herzegovina,Amir Hadziahmetovic,Amir Hadžiahmetović,exact,16,MF,False,36,0,Hull City,1997-03-08,1997-03-08,OK
+p_bih_dzenis_burnic_0a2873d0,Bosnia-Herzegovina,Dzenis Burnic,Dženis Burnić,exact,17,MF,False,20,0,Karlsruher SC,1998-05-22,1998-05-22,OK
+p_bih_nikola_katic_79d7e039,Bosnia-Herzegovina,Nikola Katic,Nikola Katić,exact,18,DF,False,17,2,Schalke 04,1996-10-10,1996-10-10,OK
+p_bih_kerim_alajbegovic_2e3e66af,Bosnia-Herzegovina,Kerim Alajbegovic,Kerim Alajbegović,exact,19,FW,False,10,1,Red Bull Salzburg,2007-09-21,2007-09-21,OK
+p_bih_esmir_bajraktarevic_94f4ae47,Bosnia-Herzegovina,Esmir Bajraktarevic,Esmir Bajraktarević,exact,20,FW,False,16,1,PSV Eindhoven,2005-03-10,2005-03-10,OK
+p_bih_stjepan_radeljic_882cc157,Bosnia-Herzegovina,Stjepan Radeljic,Stjepan Radeljić,exact,21,DF,False,5,0,Rijeka,1997-09-05,1997-09-05,OK
+p_bih_martin_zlomislic_93d55036,Bosnia-Herzegovina,Martin Zlomislic,Martin Zlomislić,exact,22,GK,False,3,0,Rijeka,1998-08-16,1998-08-16,OK
+p_bih_haris_tabakovic_8ca24820,Bosnia-Herzegovina,Haris Tabakovic,Haris Tabaković,exact,23,FW,False,10,4,Borussia Mönchengladbach,1994-06-20,1994-06-20,OK
+p_bih_jovo_lukic_d8dde85e,Bosnia-Herzegovina,Jovo Lukic,Jovo Lukić,exact,25,FW,False,3,0,Universitatea Cluj,1998-11-28,1998-11-28,OK
+p_bih_ermin_mahmic_f48e604f,Bosnia-Herzegovina,Ermin Mahmic,Ermin Mahmić,exact,26,MF,False,2,0,Slovan Liberec,2005-03-14,2005-03-14,OK
+p_bra_alisson_94f708d4,Brazil,Alisson,Alisson,exact,1,GK,False,78,0,Liverpool,1993-06-25,1992-10-02,MISMATCH
+p_bra_gabriel_magalhaes_471513ea,Brazil,Gabriel Magalhães,Gabriel Magalhães,exact,3,DF,False,17,1,Arsenal,1997-12-19,1997-12-19,OK
+p_bra_marquinhos_93871617,Brazil,Marquinhos,Marquinhos,exact,4,DF,True,105,7,Paris Saint-Germain,1994-05-14,1994-05-14,OK
+p_bra_casemiro_156976fb,Brazil,Casemiro,Casemiro,exact,5,MF,False,86,9,Manchester United,1992-02-23,1992-02-23,OK
+p_bra_alex_sandro_90bade89,Brazil,Alex Sandro,Alex Sandro,exact,6,DF,False,45,2,Flamengo,1991-01-26,1991-01-26,OK
+p_bra_vinicius_junior_486c236d,Brazil,Vinícius Júnior,Vinícius Júnior,exact,7,FW,False,49,9,Real Madrid,2000-07-12,2000-07-12,OK
+p_bra_bruno_guimaraes_722635a3,Brazil,Bruno Guimarães,Bruno Guimarães,exact,8,MF,False,43,3,Newcastle United,1997-11-16,1997-11-16,OK
+p_bra_matheus_cunha_952533c7,Brazil,Matheus Cunha,Matheus Cunha,exact,9,FW,False,23,1,Manchester United,1999-05-27,1999-05-27,OK
+p_bra_neymar_04b2152f,Brazil,Neymar,Neymar,exact,10,FW,False,128,79,Santos,1992-02-05,1992-02-05,OK
+p_bra_raphinha_6616ffaa,Brazil,Raphinha,Raphinha,exact,11,FW,False,39,11,Barcelona,1996-12-14,1996-12-14,OK
+p_bra_weverton_aa35a4b0,Brazil,Weverton,Weverton,exact,12,GK,False,11,0,Grêmio,1987-12-13,1987-12-13,OK
+p_bra_bremer_d70621c1,Brazil,Bremer,Bremer,exact,14,DF,False,8,1,Juventus,1997-03-18,1997-03-18,OK
+p_bra_leo_pereira_341afa28,Brazil,Léo Pereira,Léo Pereira,exact,15,DF,False,4,0,Flamengo,1996-01-31,1996-01-31,OK
+p_bra_douglas_santos_028abcb8,Brazil,Douglas Santos,Douglas Santos,exact,16,DF,False,7,0,Zenit Saint Petersburg,1994-03-22,1994-03-22,OK
+p_bra_fabinho_52c532e8,Brazil,Fabinho,Fabinho,exact,17,MF,False,33,0,Al-Ittihad,1993-10-23,1993-10-23,OK
+p_bra_danilo_santos_056f5396,Brazil,Danilo Santos,Danilo Santos,exact,18,MF,False,4,2,Botafogo,2001-04-29,2001-04-29,OK
+p_bra_endrick_7f3c1fc7,Brazil,Endrick,Endrick,exact,19,FW,False,17,4,Lyon,2006-07-21,2006-07-21,OK
+p_bra_lucas_paqueta_e5388113,Brazil,Lucas Paquetá,Lucas Paquetá,exact,20,MF,False,63,13,Flamengo,1997-08-27,1997-08-27,OK
+p_bra_luiz_henrique_87e67c62,Brazil,Luiz Henrique,Luiz Henrique,exact,21,FW,False,15,2,Zenit Saint Petersburg,2001-01-02,2001-01-02,OK
+p_bra_gabriel_martinelli_a800c177,Brazil,Gabriel Martinelli,Gabriel Martinelli,exact,22,FW,False,23,4,Arsenal,2001-06-18,2001-06-18,OK
+p_bra_roger_ibanez_53f85355,Brazil,Roger Ibañez,Roger Ibañez,exact,24,DF,False,7,0,Al-Ahli,1998-11-23,1998-11-23,OK
+p_bra_igor_thiago_089a5794,Brazil,Igor Thiago,Igor Thiago,exact,25,FW,False,4,2,Brentford,2001-06-26,2001-06-26,OK
+p_bra_rayan_a61beae6,Brazil,Rayan,Rayan,exact,26,FW,False,2,1,Bournemouth,2006-08-03,2006-08-03,OK
+p_bra_danilo_dad200cf,Brazil,Danilo,Danilo Luiz,fuzzy:0.95,13,DF,False,70,1,Flamengo,1991-07-15,1991-07-15,OK
+p_bra_ederson_3f59700a,Brazil,Ederson Santana de Moraes,Ederson Moraes,fuzzy:0.95,23,GK,False,32,0,Fenerbahçe,1993-08-17,1993-08-17,OK
+p_can_dayne_st_clair_14cffc0c,Canada,Dayne St. Clair,Dayne St. Clair,exact,1,GK,False,20,0,Inter Miami CF,1997-05-09,1997-05-09,OK
+p_can_alistair_johnston_84f7235e,Canada,Alistair Johnston,Alistair Johnston,exact,2,DF,False,58,1,Celtic,1998-10-08,1998-10-08,OK
+p_can_alfie_jones_e79490ac,Canada,Alfie Jones,Alfie Jones,exact,3,DF,False,2,0,Middlesbrough,1997-10-07,1997-10-07,OK
+p_can_luc_de_fougerolles_1b8770b0,Canada,Luc De Fougerolles,Luc de Fougerolles,exact,4,DF,False,13,0,Dender EH,2005-10-12,2005-10-12,OK
+p_can_joel_waterman_3ae9b89f,Canada,Joel Waterman,Joel Waterman,exact,5,DF,False,17,0,Chicago Fire FC,1996-01-24,1996-01-24,OK
+p_can_mathieu_choiniere_4da94c88,Canada,Mathieu Choinière,Mathieu Choinière,exact,6,MF,False,23,0,Los Angeles FC,1999-02-07,1999-02-07,OK
+p_can_stephen_eustaquio_0af0fe87,Canada,Stephen Eustáquio,Stephen Eustáquio,exact,7,MF,False,56,4,Los Angeles FC,1996-12-21,1996-12-21,OK
+p_can_ismael_kone_30a50f55,Canada,Ismaël Koné,Ismaël Koné,exact,8,MF,False,40,4,Sassuolo,2002-06-16,2002-06-16,OK
+p_can_cyle_larin_5ee295d1,Canada,Cyle Larin,Cyle Larin,exact,9,FW,False,90,30,Southampton,1995-04-17,1995-04-17,OK
+p_can_jonathan_david_48d85738,Canada,Jonathan David,Jonathan David,exact,10,FW,False,77,39,Juventus,2000-01-14,2000-01-14,OK
+p_can_liam_millar_82289e83,Canada,Liam Millar,Liam Millar,exact,11,MF,False,41,1,Hull City,1999-09-27,1999-09-27,OK
+p_can_tani_oluwaseyi_c5bc2390,Canada,Tani Oluwaseyi,Tani Oluwaseyi,exact,12,FW,False,24,2,Villarreal,2000-05-15,2000-05-15,OK
+p_can_derek_cornelius_7647ea16,Canada,Derek Cornelius,Derek Cornelius,exact,13,DF,False,44,1,Rangers,1997-11-25,1997-11-25,OK
+p_can_jacob_shaffelburg_600e8e1c,Canada,Jacob Shaffelburg,Jacob Shaffelburg,exact,14,MF,False,31,6,Los Angeles FC,1999-11-26,1999-11-26,OK
+p_can_moise_bombito_f446293f,Canada,Moïse Bombito,Moïse Bombito,exact,15,DF,False,20,0,Nice,2000-03-30,2000-03-30,OK
+p_can_maxime_crepeau_58975bf1,Canada,Maxime Crépeau,Maxime Crépeau,exact,16,GK,False,32,0,Orlando City SC,1994-05-11,1994-05-11,OK
+p_can_tajon_buchanan_d3e9a02e,Canada,Tajon Buchanan,Tajon Buchanan,exact,17,FW,False,60,8,Villarreal,1999-02-08,1999-02-08,OK
+p_can_owen_goodman_6afe3ffe,Canada,Owen Goodman,Owen Goodman,exact,18,GK,False,0,0,Barnsley,2003-11-27,2003-11-27,OK
+p_can_alphonso_davies_6f19b8d9,Canada,Alphonso Davies,Alphonso Davies,exact,19,DF,True,58,15,Bayern Munich,2000-11-02,2000-11-02,OK
+p_can_ali_ahmed_23b0243f,Canada,Ali Ahmed,Ali Ahmed,exact,20,FW,False,24,1,Norwich City,2000-10-10,2000-10-10,OK
+p_can_jonathan_osorio_de04efe3,Canada,Jonathan Osorio,Jonathan Osorio,exact,21,MF,False,90,10,Toronto FC,1992-06-12,1992-06-12,OK
+p_can_richie_laryea_1bdc1060,Canada,Richie Laryea,Richie Laryea,exact,22,DF,False,75,1,Toronto FC,1995-01-07,1995-01-07,OK
+p_can_niko_sigur_05f36400,Canada,Niko Sigur,Niko Sigur,exact,23,DF,False,19,2,Hajduk Split,2003-09-09,2003-09-09,OK
+p_can_promise_david_48b187dd,Canada,Promise David,Promise David,exact,24,FW,False,10,3,Union Saint-Gilloise,2001-07-03,2001-07-03,OK
+p_can_nathan_saliba_7a28cc90,Canada,Nathan Saliba,Nathan Saliba,exact,25,MF,False,15,2,Anderlecht,2004-08-29,2004-02-07,MISMATCH
+p_cpv_vozinha_39ca1e1b,Cape Verde,Vozinha,Vozinha,exact,1,GK,False,90,0,Chaves,1986-06-03,1986-06-03,OK
+p_cpv_stopira_c5945b52,Cape Verde,Stopira,Stopira,exact,2,DF,False,61,4,Torreense,1988-05-20,1988-05-20,OK
+p_cpv_diney_74fbc707,Cape Verde,Diney,Diney,exact,3,DF,False,32,2,Al Bataeh,1995-01-17,1995-01-17,OK
+p_cpv_pico_393423cd,Cape Verde,Pico,Pico,exact,4,DF,False,45,0,Shamrock Rovers,1992-06-17,1992-06-17,OK
+p_cpv_logan_costa_c884015d,Cape Verde,Logan Costa,Logan Costa,exact,5,DF,False,28,0,Villarreal,2001-04-01,2001-04-01,OK
+p_cpv_kevin_pina_a911b2ec,Cape Verde,Kevin Pina,Kevin Pina,exact,6,MF,False,31,3,Krasnodar,1997-01-27,1997-01-27,OK
+p_cpv_jovane_cabral_8e657888,Cape Verde,Jovane Cabral,Jovane Cabral,exact,7,MF,False,29,3,Estrela Amadora,1998-06-14,1998-06-14,OK
+p_cpv_joao_paulo_d979c18f,Cape Verde,João Paulo,João Paulo,exact,8,MF,False,41,1,FCSB,1998-05-26,1998-05-26,OK
+p_cpv_gilson_benchimol_bd494b6b,Cape Verde,Gilson Benchimol,Gilson Benchimol,exact,9,FW,False,21,6,Akron Tolyatti,2001-12-29,2001-12-29,OK
+p_cpv_jamiro_monteiro_c0b70720,Cape Verde,Jamiro Monteiro,Jamiro Monteiro,exact,10,MF,False,55,5,PEC Zwolle,1993-11-23,1993-11-23,OK
+p_cpv_garry_rodrigues_849010a1,Cape Verde,Garry Rodrigues,Garry Rodrigues,exact,11,MF,False,61,10,Apollon Limassol,1990-11-27,1990-11-27,OK
+p_cpv_marcio_rosa_4cfb6048,Cape Verde,Marcio Rosa,Márcio Rosa,exact,12,GK,False,11,0,Montana,1997-02-23,1997-02-23,OK
+p_cpv_sidny_lopes_cabral_454810de,Cape Verde,Sidny Lopes Cabral,Sidny Lopes Cabral,exact,13,DF,False,11,3,Benfica,2002-09-18,2002-09-18,OK
+p_cpv_deroy_duarte_21c02ec9,Cape Verde,Deroy Duarte,Deroy Duarte,exact,14,MF,False,33,0,Ludogorets Razgrad,1999-07-04,1999-07-04,OK
+p_cpv_laros_duarte_a9fe3cb1,Cape Verde,Laros Duarte,Laros Duarte,exact,15,MF,False,20,1,Puskás Akadémia,1997-02-28,1997-02-28,OK
+p_cpv_yannick_semedo_aec11bf9,Cape Verde,Yannick Semedo,Yannick Semedo,exact,16,MF,False,11,1,Farense,1995-12-29,1995-12-29,OK
+p_cpv_willy_semedo_5bf0f2cf,Cape Verde,Willy Semedo,Willy Semedo,exact,17,MF,False,38,3,Omonia,1994-04-27,1994-04-27,OK
+p_cpv_telmo_arcanjo_68d204d8,Cape Verde,Telmo Arcanjo,Telmo Arcanjo,exact,18,MF,False,16,1,Vitória de Guimarães,2001-06-21,2001-06-21,OK
+p_cpv_dailon_livramento_bc239e04,Cape Verde,Dailon Livramento,Dailon Livramento,exact,19,FW,False,22,7,Casa Pia,2001-05-04,2001-05-04,OK
+p_cpv_ryan_mendes_16ee6c68,Cape Verde,Ryan Mendes,Ryan Mendes,exact,20,FW,True,96,22,Iğdır,1990-01-08,1990-01-08,OK
+p_cpv_nuno_da_costa_1443d08a,Cape Verde,Nuno da Costa,Nuno da Costa,exact,21,MF,False,9,2,İstanbul Başakşehir,1991-02-10,1991-02-10,OK
+p_cpv_steven_moreira_94afb375,Cape Verde,Steven Moreira,Steven Moreira,exact,22,DF,False,20,0,Columbus Crew,1994-08-13,1994-08-13,OK
+p_cpv_cj_dos_santos_94353cd6,Cape Verde,CJ dos Santos,CJ dos Santos,exact,23,GK,False,1,0,San Diego FC,2000-08-24,2000-08-24,OK
+p_cpv_wagner_pina_007184a6,Cape Verde,Wagner Pina,Wagner Pina,exact,24,DF,False,14,0,Trabzonspor,2002-11-03,2002-11-03,OK
+p_cpv_kelvin_pires_4b4f3ad5,Cape Verde,Kelvin Pires,Kelvin Pires,exact,25,DF,False,6,1,SJK,2000-06-05,2000-06-05,OK
+p_cpv_helio_varela_e03882dc,Cape Verde,Helio Varela,Hélio Varela,exact,26,MF,False,21,0,Maccabi Tel Aviv,2002-05-03,2002-05-03,OK
+p_col_david_ospina_54e7c40a,Colombia,David Ospina,David Ospina,exact,1,GK,False,130,0,Atlético Nacional,1988-08-31,1988-08-31,OK
+p_col_daniel_munoz_1d285dc5,Colombia,Daniel Muñoz,Daniel Muñoz,exact,2,DF,False,46,3,Crystal Palace,1996-05-26,1996-05-26,OK
+p_col_jhon_lucumi_9bb59393,Colombia,Jhon Lucumí,Jhon Lucumí,exact,3,DF,False,37,1,Bologna,1998-06-26,1998-06-26,OK
+p_col_santiago_arias_6dbcd316,Colombia,Santiago Arias,Santiago Arias,exact,4,DF,False,68,0,Independiente,1992-01-13,1992-01-13,OK
+p_col_kevin_castano_1ceb5d8e,Colombia,Kevin Castaño,Kevin Castaño,exact,5,MF,False,25,0,River Plate,2000-09-29,2000-09-29,OK
+p_col_richard_rios_8d2ad3ad,Colombia,Richard Ríos,Richard Ríos,exact,6,MF,False,32,2,Benfica,2000-06-02,2000-06-02,OK
+p_col_luis_diaz_e65ed479,Colombia,Luis Díaz,Luis Díaz,exact,7,FW,False,74,22,Bayern Munich,1997-01-13,1997-01-13,OK
+p_col_jorge_carrascal_235e66d9,Colombia,Jorge Carrascal,Jorge Carrascal,exact,8,MF,False,24,2,Flamengo,1998-05-25,1998-05-25,OK
+p_col_jhon_cordoba_fa8d3746,Colombia,Jhon Córdoba,Jhon Córdoba,exact,9,FW,False,21,6,Krasnodar,1993-05-11,1993-05-11,OK
+p_col_james_rodriguez_337c2924,Colombia,James Rodríguez,James Rodríguez,exact,10,MF,True,126,31,Minnesota United FC,1991-07-12,1991-07-12,OK
+p_col_jhon_arias_cc7fde94,Colombia,Jhon Arias,Jhon Arias,exact,11,MF,False,38,6,Palmeiras,1997-09-21,1997-09-21,OK
+p_col_camilo_vargas_700a4a06,Colombia,Camilo Vargas,Camilo Vargas,exact,12,GK,False,42,0,Atlas,1989-03-09,1989-03-09,OK
+p_col_yerry_mina_ad8dcfc4,Colombia,Yerry Mina,Yerry Mina,exact,13,DF,False,54,8,Cagliari,1994-09-23,1994-09-23,OK
+p_col_gustavo_puerta_b3786d3e,Colombia,Gustavo Puerta,Gustavo Puerta,exact,14,DF,False,6,1,Racing Santander,2003-07-23,2003-07-23,OK
+p_col_juan_portilla_1de5885b,Colombia,Juan Portilla,Juan Portilla,exact,15,MF,False,10,0,Athletico Paranaense,1998-09-12,1998-09-12,OK
+p_col_jefferson_lerma_aa1dcaca,Colombia,Jefferson Lerma,Jefferson Lerma,exact,16,MF,False,65,5,Crystal Palace,1994-10-25,1994-10-25,OK
+p_col_johan_mojica_9a1cfae5,Colombia,Johan Mojica,Johan Mojica,exact,17,DF,False,45,1,Mallorca,1992-08-21,1992-08-21,OK
+p_col_willer_ditta_aa30458a,Colombia,Willer Ditta,Willer Ditta,exact,18,DF,False,5,0,Cruz Azul,1997-01-23,1998-01-23,MISMATCH
+p_col_cucho_hernandez_b18b9740,Colombia,Cucho Hernández,Cucho Hernández,exact,19,FW,False,9,2,Real Betis,1999-04-22,1999-04-20,MISMATCH
+p_col_juan_fernando_quintero_5480f4a3,Colombia,Juan Fernando Quintero,Juan Fernando Quintero,exact,20,MF,False,49,6,River Plate,1993-01-18,1993-01-18,OK
+p_col_jaminton_campaz_988499fe,Colombia,Jaminton Campaz,Jaminton Campaz,exact,21,FW,False,10,1,Rosario Central,2000-05-24,2000-05-24,OK
+p_col_deiver_machado_559f458d,Colombia,Deiver Machado,Deiver Machado,exact,22,DF,False,15,0,Nantes,1993-09-02,1993-09-02,OK
+p_col_davinson_sanchez_cd174d91,Colombia,Davinson Sánchez,Davinson Sánchez,exact,23,DF,False,79,4,Galatasaray,1996-06-12,1996-06-12,OK
+p_col_alvaro_montero_6ca48db5,Colombia,Álvaro Montero,Álvaro Montero,exact,24,GK,False,12,0,Vélez Sarsfield,1995-03-29,1995-03-29,OK
+p_col_luis_suarez_c1d2e1cf,Colombia,Luis Suárez,Luis Suárez,exact,25,FW,False,12,5,Sporting CP,1997-12-02,1997-12-02,OK
+p_col_andres_gomez_37f19480,Colombia,Andrés Gómez,Andrés Gómez,exact,26,FW,False,8,2,Vasco da Gama,2002-09-12,2002-09-12,OK
+p_cro_dominik_livakovic_b645f4ec,Croatia,Dominik Livakovic,Dominik Livaković,exact,1,GK,False,75,0,Dinamo Zagreb,1995-01-09,1995-01-09,OK
+p_cro_josip_stanisic_6bc83a44,Croatia,Josip Stanisic,Josip Stanišić,exact,2,DF,False,31,0,Bayern Munich,2000-04-02,2000-04-02,OK
+p_cro_marin_pongracic_f44edbc4,Croatia,Marin Pongracic,Marin Pongračić,exact,3,DF,False,20,0,Fiorentina,1997-09-11,1997-09-11,OK
+p_cro_josko_gvardiol_9da99a67,Croatia,Josko Gvardiol,Joško Gvardiol,exact,4,DF,False,48,4,Manchester City,2002-01-23,2002-01-23,OK
+p_cro_duje_caleta_car_9f7d1eb0,Croatia,Duje Caleta-Car,Duje Ćaleta-Car,exact,5,DF,False,38,1,Real Sociedad,1996-09-17,1996-09-17,OK
+p_cro_josip_sutalo_f8d13b90,Croatia,Josip Sutalo,Josip Šutalo,exact,6,DF,False,33,0,Ajax,2000-02-28,2000-02-28,OK
+p_cro_nikola_moro_56d80e10,Croatia,Nikola Moro,Nikola Moro,exact,7,MF,False,10,0,Bologna,1998-03-12,1998-03-12,OK
+p_cro_mateo_kovacic_1828796d,Croatia,Mateo Kovacic,Mateo Kovačić,exact,8,MF,False,113,5,Manchester City,1994-05-06,1994-05-06,OK
+p_cro_andrej_kramaric_8a563275,Croatia,Andrej Kramaric,Andrej Kramarić,exact,9,FW,False,116,36,TSG Hoffenheim,1991-06-19,1991-06-19,OK
+p_cro_luka_modric_b1bf833b,Croatia,Luka Modric,Luka Modrić,exact,10,MF,True,198,29,Milan,1985-09-09,1985-09-09,OK
+p_cro_ante_budimir_7e030d33,Croatia,Ante Budimir,Ante Budimir,exact,11,FW,False,38,6,Osasuna,1991-07-22,1991-07-22,OK
+p_cro_ivor_pandur_b0e1513d,Croatia,Ivor Pandur,Ivor Pandur,exact,12,GK,False,0,0,Hull City,2000-03-25,2000-03-25,OK
+p_cro_nikola_vlasic_b9ef1ba0,Croatia,Nikola Vlasic,Nikola Vlašić,exact,13,MF,False,63,10,Torino,1997-10-04,1997-10-04,OK
+p_cro_ivan_perisic_b27fa102,Croatia,Ivan Perisic,Ivan Perišić,exact,14,FW,False,154,38,PSV Eindhoven,1989-02-02,1989-02-02,OK
+p_cro_mario_pasalic_79c9b5ac,Croatia,Mario Pasalic,Mario Pašalić,exact,15,MF,False,85,12,Atalanta,1995-02-09,1995-02-09,OK
+p_cro_martin_baturina_5967eb7b,Croatia,Martin Baturina,Martin Baturina,exact,16,MF,False,19,1,Como,2003-02-16,2003-02-16,OK
+p_cro_petar_sucic_1a1e68bc,Croatia,Petar Sucic,Petar Sučić,exact,17,MF,False,17,1,Inter Milan,2003-10-25,2003-10-25,OK
+p_cro_kristijan_jakic_d8624e1b,Croatia,Kristijan Jakic,Kristijan Jakić,exact,18,DF,False,17,2,FC Augsburg,1997-05-14,1997-05-14,OK
+p_cro_toni_fruk_1dcf2fa2,Croatia,Toni Fruk,Toni Fruk,exact,19,MF,False,7,1,Rijeka,2001-03-09,2001-03-09,OK
+p_cro_igor_matanovic_d90d27a8,Croatia,Igor Matanovic,Igor Matanović,exact,20,FW,False,9,2,SC Freiburg,2003-03-31,2003-03-31,OK
+p_cro_luka_sucic_1a238337,Croatia,Luka Sucic,Luka Sučić,exact,21,MF,False,21,1,Real Sociedad,2002-09-08,2002-09-08,OK
+p_cro_luka_vuskovic_79fcb50b,Croatia,Luka Vuskovic,Luka Vušković,exact,22,DF,False,5,1,Hamburger SV,2007-02-24,2007-02-24,OK
+p_cro_dominik_kotarski_43fc9e9c,Croatia,Dominik Kotarski,Dominik Kotarski,exact,23,GK,False,4,0,Copenhagen,2000-02-10,2000-02-10,OK
+p_cro_marco_pasalic_cf208e00,Croatia,Marco Pasalic,Marco Pašalić,exact,24,FW,False,15,1,Orlando City SC,2000-09-14,2000-09-14,OK
+p_cro_martin_erlic_f3995dca,Croatia,Martin Erlic,Martin Erlić,exact,25,DF,False,13,1,Midtjylland,1998-01-24,1998-01-24,OK
+p_cro_petar_musa_01ba09b8,Croatia,Petar Musa,Petar Musa,exact,26,FW,False,11,1,FC Dallas,1998-03-04,1998-03-04,OK
+p_cuw_eloy_room_766eba9c,Curacao,Eloy Room,Eloy Room,exact,1,GK,False,71,0,Miami FC,1989-02-06,1989-02-06,OK
+p_cuw_shurandy_sambo_a97d2c74,Curacao,Shurandy Sambo,Shurandy Sambo,exact,2,DF,False,8,0,Sparta Rotterdam,2001-08-19,2001-08-19,OK
+p_cuw_jurien_gaari_a76a6b62,Curacao,Jurien Gaari,Juriën Gaari,exact,3,DF,False,60,1,Abha,1993-12-23,1993-12-23,OK
+p_cuw_roshon_van_eijma_b2ec515a,Curacao,Roshon van Eijma,Roshon van Eijma,exact,4,DF,False,28,1,RKC Waalwijk,1998-06-09,1998-06-09,OK
+p_cuw_sherel_floranus_eebdf20b,Curacao,Sherel Floranus,Sherel Floranus,exact,5,DF,False,28,0,PEC Zwolle,1998-08-23,1998-08-23,OK
+p_cuw_godfried_roemeratoe_d9cdf0ba,Curacao,Godfried Roemeratoe,Godfried Roemeratoe,exact,6,MF,False,28,1,RKC Waalwijk,1999-08-19,1999-08-19,OK
+p_cuw_juninho_bacuna_6ae75aa7,Curacao,Juninho Bacuna,Juninho Bacuna,exact,7,MF,False,49,15,Volendam,1997-08-07,1997-08-07,OK
+p_cuw_livano_comenencia_4bfc3e0e,Curacao,Livano Comenencia,Livano Comenencia,exact,8,MF,False,20,2,Zürich,2004-02-03,2004-02-03,OK
+p_cuw_jurgen_locadia_3e4148d1,Curacao,Jurgen Locadia,Jürgen Locadia,exact,9,FW,False,13,1,Miami FC,1993-11-07,1993-11-07,OK
+p_cuw_leandro_bacuna_fe060b4c,Curacao,Leandro Bacuna,Leandro Bacuna,exact,10,MF,True,72,16,Iğdır,1991-08-21,1991-08-21,OK
+p_cuw_jeremy_antonisse_2a790f95,Curacao,Jeremy Antonisse,Jeremy Antonisse,exact,11,FW,False,27,4,Kifisia,2002-03-29,2002-03-29,OK
+p_cuw_sontje_hansen_11e5c9da,Curacao,Sontje Hansen,Sontje Hansen,exact,12,FW,False,6,1,Middlesbrough,2002-05-18,2002-05-18,OK
+p_cuw_tyrese_noslin_15e4ed6e,Curacao,Tyrese Noslin,Tyrese Noslin,exact,13,FW,False,7,1,Telstar,2002-09-11,2002-09-11,OK
+p_cuw_kenji_gorre_5c1a814f,Curacao,Kenji Gorre,Kenji Gorré,exact,14,FW,False,38,6,Maccabi Haifa,1994-09-29,1994-09-29,OK
+p_cuw_ar_jany_martha_ee88960d,Curacao,Ar'jany Martha,Ar'jany Martha,exact,15,MF,False,9,2,Rotherham United,2003-09-04,2003-09-04,OK
+p_cuw_jearl_margaritha_f0bb7092,Curacao,Jearl Margaritha,Jearl Margaritha,exact,16,FW,False,22,5,Beveren,2000-04-10,2000-04-10,OK
+p_cuw_brandley_kuwas_ec0a25de,Curacao,Brandley Kuwas,Brandley Kuwas,exact,17,FW,False,35,2,Volendam,1992-09-19,1992-09-19,OK
+p_cuw_armando_obispo_a5e33bde,Curacao,Armando Obispo,Armando Obispo,exact,18,DF,False,6,0,PSV Eindhoven,1999-03-05,1999-03-05,OK
+p_cuw_gervane_kastaneer_23a2d41b,Curacao,Gervane Kastaneer,Gervane Kastaneer,exact,19,FW,False,29,9,Terengganu,1996-06-09,1996-06-09,OK
+p_cuw_joshua_brenet_8ef176fa,Curacao,Joshua Brenet,Joshua Brenet,exact,20,DF,False,18,2,Kayserispor,1994-03-20,1994-03-20,OK
+p_cuw_tahith_chong_28728a9e,Curacao,Tahith Chong,Tahith Chong,exact,21,MF,False,6,3,Sheffield United,1999-12-04,1999-12-04,OK
+p_cuw_kevin_felida_fdaf3088,Curacao,Kevin Felida,Kevin Felida,exact,22,MF,False,19,1,Den Bosch,1999-11-11,1999-11-11,OK
+p_cuw_riechedly_bazoer_cd19291e,Curacao,Riechedly Bazoer,Riechedly Bazoer,exact,23,DF,False,5,0,Konyaspor,1996-10-12,1996-10-12,OK
+p_cuw_deveron_fonville_09aec64e,Curacao,Deveron Fonville,Deveron Fonville,exact,24,DF,False,2,0,NEC,2003-05-16,2003-05-16,OK
+p_cuw_tyrick_bodak_d57fabe6,Curacao,Tyrick Bodak,Tyrick Bodak,exact,25,GK,False,4,0,Telstar,2002-05-15,2002-05-15,OK
+p_cuw_trevor_doornbusch_832d7d51,Curacao,Trevor Doornbusch,Trevor Doornbusch,exact,26,GK,False,8,0,VVV-Venlo,1999-07-06,1999-07-06,OK
+p_cze_david_zima_dfdda2aa,Czechia,David Zima,David Zima,exact,2,DF,False,25,1,Slavia Prague,2000-11-08,2000-11-08,OK
+p_cze_tomas_holes_7cf2b9f1,Czechia,Tomáš Holeš,Tomáš Holeš,exact,3,DF,False,41,2,Slavia Prague,1993-03-31,1993-03-31,OK
+p_cze_robin_hranac_1cd4348c,Czechia,Robin Hranáč,Robin Hranáč,exact,4,DF,False,14,1,TSG Hoffenheim,2000-01-29,2000-01-29,OK
+p_cze_vladimir_coufal_eca99358,Czechia,Vladimír Coufal,Vladimír Coufal,exact,5,DF,False,62,2,TSG Hoffenheim,1992-08-22,1992-08-22,OK
+p_cze_stepan_chaloupek_c0a3e524,Czechia,Štěpán Chaloupek,Štěpán Chaloupek,exact,6,DF,False,5,0,Slavia Prague,2003-03-08,2003-03-08,OK
+p_cze_ladislav_krejci_c9f3ad8a,Czechia,Ladislav Krejčí,Ladislav Krejčí,exact,7,DF,True,27,5,Wolverhampton Wanderers,1999-04-20,1999-04-20,OK
+p_cze_vladimir_darida_49574ae8,Czechia,Vladimir Darida,Vladimír Darida,exact,8,MF,False,79,8,Hradec Králové,1990-08-08,1990-08-08,OK
+p_cze_adam_hlozek_9f18f741,Czechia,Adam Hložek,Adam Hložek,exact,9,FW,False,43,5,TSG Hoffenheim,2002-07-25,2002-07-25,OK
+p_cze_patrik_schick_2bc58744,Czechia,Patrik Schick,Patrik Schick,exact,10,FW,False,53,26,Bayer Leverkusen,1996-01-24,1996-01-24,OK
+p_cze_jan_kuchta_4db80617,Czechia,Jan Kuchta,Jan Kuchta,exact,11,FW,False,31,3,Sparta Prague,1997-01-08,1997-01-08,OK
+p_cze_lukas_cerv_cf39dade,Czechia,Lukás Cerv,Lukáš Červ,exact,12,MF,False,17,2,Viktoria Plzeň,2001-04-10,2001-04-10,OK
+p_cze_mojmir_chytil_85222716,Czechia,Mojmír Chytil,Mojmír Chytil,exact,13,FW,False,22,6,Slavia Prague,1999-04-29,1999-04-29,OK
+p_cze_david_jurasek_bd68aa70,Czechia,David Jurásek,David Jurásek,exact,14,DF,False,18,1,Slavia Prague,2000-08-07,2000-08-07,OK
+p_cze_jindrich_stanek_419fcbc9,Czechia,Jindrich Stanek,Jindřich Staněk,exact,16,GK,False,14,0,Slavia Prague,1996-04-27,1996-04-27,OK
+p_cze_lukas_provod_fb55d6e2,Czechia,Lukás Provod,Lukáš Provod,exact,17,MF,False,38,3,Slavia Prague,1996-10-23,1996-10-23,OK
+p_cze_michal_sadilek_862a9039,Czechia,Michal Sadílek,Michal Sadílek,exact,18,MF,False,35,1,Slavia Prague,1999-05-31,1999-05-31,OK
+p_cze_tomas_chory_b5ef7aa2,Czechia,Tomáš Chorý,Tomáš Chorý,exact,19,FW,False,22,7,Slavia Prague,1995-01-26,1995-01-26,OK
+p_cze_jaroslav_zeleny_7a83c315,Czechia,Jaroslav Zelený,Jaroslav Zelený,exact,20,DF,False,23,0,Sparta Prague,1992-08-20,1992-08-20,OK
+p_cze_david_doudera_860cd7c3,Czechia,David Douděra,David Douděra,exact,21,DF,False,17,2,Slavia Prague,1998-05-31,1998-05-31,OK
+p_cze_tomas_soucek_13524176,Czechia,Tomáš Souček,Tomáš Souček,exact,22,MF,False,90,17,West Ham United,1995-02-27,1995-02-27,OK
+p_cze_lukas_hornicek_e3ff19bb,Czechia,Lukas Hornicek,Lukáš Horníček,exact,23,GK,False,1,0,Braga,2002-07-13,2002-07-13,OK
+p_cze_alexandr_sojka_e8155981,Czechia,Alexandr Sojka,Alexandr Sojka,exact,24,MF,False,2,0,Viktoria Plzeň,2003-04-02,2003-04-02,OK
+p_cze_hugo_sochurek_1d6d29ce,Czechia,Hugo Sochůrek,Hugo Sochůrek,exact,25,MF,False,1,0,Sparta Prague,2008-06-07,2008-06-07,OK
+p_cze_denis_visinsky_43597932,Czechia,Denis Višinský,Denis Višinský,exact,26,FW,False,2,1,Viktoria Plzeň,2003-03-21,2003-03-21,OK
+p_cod_lionel_mpasi_ae61eb92,Congo DR,Lionel Mpasi,Lionel Mpasi,exact,1,GK,False,29,0,Le Havre,1994-08-01,1994-08-01,OK
+p_cod_aaron_wan_bissaka_1743e232,Congo DR,Aaron Wan-Bissaka,Aaron Wan-Bissaka,exact,2,DF,False,12,0,West Ham United,1997-11-26,1997-11-26,OK
+p_cod_steve_kapuadi_720557c4,Congo DR,Steve Kapuadi,Steve Kapuadi,exact,3,DF,False,4,0,Widzew Łódź,1998-04-30,1998-04-30,OK
+p_cod_axel_tuanzebe_90944b97,Congo DR,Axel Tuanzebe,Axel Tuanzebe,exact,4,DF,False,14,1,Burnley,1997-11-14,1997-11-14,OK
+p_cod_dylan_batubinsika_1c74e07f,Congo DR,Dylan Batubinsika,Dylan Batubinsika,exact,5,DF,False,14,1,AEL,1996-02-15,1996-02-15,OK
+p_cod_ngal_ayel_mukau_f2c34320,Congo DR,Ngal'ayel Mukau,Ngal'ayel Mukau,exact,6,MF,False,14,0,Lille,2004-11-03,2004-11-03,OK
+p_cod_nathanael_mbuku_b15f5169,Congo DR,Nathanaël Mbuku,Nathanaël Mbuku,exact,7,MF,False,19,2,Montpellier,2002-03-16,2002-03-16,OK
+p_cod_samuel_moutoussamy_8b0e95be,Congo DR,Samuel Moutoussamy,Samuel Moutoussamy,exact,8,MF,False,58,0,Atromitos,1996-08-12,1996-08-12,OK
+p_cod_brian_cipenga_465e42ce,Congo DR,Brian Cipenga,Brian Cipenga,exact,9,FW,False,8,0,Castellón,1998-03-11,1998-03-11,OK
+p_cod_theo_bongonda_39129f32,Congo DR,Théo Bongonda,Théo Bongonda,exact,10,MF,False,38,7,Spartak Moscow,1995-11-20,1995-11-20,OK
+p_cod_gael_kakuta_d18f69e8,Congo DR,Gaël Kakuta,Gaël Kakuta,exact,11,FW,False,31,5,AEL,1991-06-21,1991-06-21,OK
+p_cod_joris_kayembe_5001c3d2,Congo DR,Joris Kayembe,Joris Kayembe,exact,12,DF,False,26,1,Genk,1994-08-08,1994-08-08,OK
+p_cod_meschak_elia_0b968915,Congo DR,Meschak Elia,Meschak Elia,exact,13,FW,False,69,12,Alanyaspor,1997-08-06,1997-08-06,OK
+p_cod_noah_sadiki_dddcc558,Congo DR,Noah Sadiki,Noah Sadiki,exact,14,MF,False,20,0,Sunderland,2004-12-17,2004-12-17,OK
+p_cod_aaron_tshibola_5291411b,Congo DR,Aaron Tshibola,Aaron Tshibola,exact,15,MF,False,17,1,Kilmarnock,1995-01-02,1995-01-02,OK
+p_cod_timothy_fayulu_37d7a6c0,Congo DR,Timothy Fayulu,Timothy Fayulu,exact,16,GK,False,3,0,Noah,1999-07-24,1999-07-24,OK
+p_cod_cedric_bakambu_d23d8daf,Congo DR,Cédric Bakambu,Cédric Bakambu,exact,17,FW,False,70,21,Real Betis,1991-04-11,1991-04-11,OK
+p_cod_charles_pickel_4f73be2c,Congo DR,Charles Pickel,Charles Pickel,exact,18,MF,False,34,1,Espanyol,1997-05-15,1997-05-15,OK
+p_cod_fiston_mayele_d1c0c8ef,Congo DR,Fiston Mayele,Fiston Mayele,exact,19,FW,False,37,6,Pyramids,1994-06-24,1994-06-24,OK
+p_cod_yoane_wissa_17ae0a9d,Congo DR,Yoane Wissa,Yoane Wissa,exact,20,FW,False,38,9,Newcastle United,1996-09-03,1996-09-03,OK
+p_cod_matthieu_epolo_10653c65,Congo DR,Matthieu Epolo,Matthieu Epolo,exact,21,GK,False,1,0,Standard Liège,2005-01-15,2005-01-15,OK
+p_cod_chancel_mbemba_df08a255,Congo DR,Chancel Mbemba,Chancel Mbemba,exact,22,DF,True,109,7,Lille,1994-08-08,1994-08-08,OK
+p_cod_simon_banza_34e3c6e3,Congo DR,Simon Banza,Simon Banza,exact,23,FW,False,15,2,Al Jazira,1996-08-13,1996-08-13,OK
+p_cod_gedeon_kalulu_3355f179,Congo DR,Gedeon Kalulu,Gédéon Kalulu,exact,24,DF,False,28,0,Aris Limassol,1997-08-29,1997-08-29,OK
+p_cod_edo_kayembe_5143c1cb,Congo DR,Edo Kayembe,Edo Kayembe,exact,25,MF,False,43,2,Watford,1998-08-03,1998-06-03,MISMATCH
+p_cod_arthur_masuaku_4b8f4c1e,Congo DR,Arthur Masuaku,Arthur Masuaku,exact,26,DF,False,45,4,Lens,1993-11-07,1993-11-07,OK
+p_ecu_hernan_galindez_f5182915,Ecuador,Hernán Galíndez,Hernán Galíndez,exact,1,GK,False,35,0,Huracán,1987-03-30,1987-03-30,OK
+p_ecu_felix_torres_ea2e596f,Ecuador,Félix Torres,Félix Torres,exact,2,DF,False,49,5,Internacional,1997-01-11,1997-01-11,OK
+p_ecu_piero_hincapie_2bef414e,Ecuador,Piero Hincapié,Piero Hincapié,exact,3,DF,False,52,3,Arsenal,2002-01-09,2002-01-09,OK
+p_ecu_joel_ordonez_6b4213b6,Ecuador,Joel Ordóñez,Joel Ordóñez,exact,4,DF,False,17,0,Club Brugge,2004-04-21,2004-04-21,OK
+p_ecu_jordy_alcivar_0ba80cc6,Ecuador,Jordy Alcivar,Jordy Alcívar,exact,5,MF,False,11,1,Independiente del Valle,1999-08-05,1999-08-05,OK
+p_ecu_willian_pacho_ecbaea58,Ecuador,Willian Pacho,Willian Pacho,exact,6,DF,False,34,2,Paris Saint-Germain,2001-10-16,2001-10-16,OK
+p_ecu_pervis_estupinan_79b0301b,Ecuador,Pervis Estupiñán,Pervis Estupiñán,exact,7,DF,False,54,5,Milan,1998-01-21,1998-01-21,OK
+p_ecu_anthony_valencia_c0877fe2,Ecuador,Anthony Valencia,Anthony Valencia,exact,8,MF,False,3,1,Antwerp,2003-07-21,2003-07-21,OK
+p_ecu_john_yeboah_f4179bba,Ecuador,John Yeboah,John Yeboah,exact,9,FW,False,23,3,Venezia,2000-06-23,2000-06-23,OK
+p_ecu_kendry_paez_8d79db29,Ecuador,Kendry Páez,Kendry Páez,exact,10,MF,False,26,2,River Plate,2007-05-04,2007-05-04,OK
+p_ecu_kevin_rodriguez_cbff52ff,Ecuador,Kevin Rodríguez,Kevin Rodríguez,exact,11,FW,False,31,2,Union Saint-Gilloise,2000-03-04,2000-03-04,OK
+p_ecu_moises_ramirez_50b6ae46,Ecuador,Moisés Ramírez,Moisés Ramírez,exact,12,GK,False,7,0,Kifisia,2000-09-09,2000-09-09,OK
+p_ecu_enner_valencia_48a653b4,Ecuador,Enner Valencia,Enner Valencia,exact,13,FW,True,105,49,Pachuca,1989-11-04,1989-11-04,OK
+p_ecu_alan_minda_66e3710b,Ecuador,Alan Minda,Alan Minda,exact,14,MF,False,20,2,Atlético Mineiro,2003-05-14,2003-05-14,OK
+p_ecu_pedro_vite_02c8e945,Ecuador,Pedro Vite,Pedro Vite,exact,15,MF,False,17,1,Pumas UNAM,2002-03-09,2002-03-09,OK
+p_ecu_jordy_caicedo_8f721383,Ecuador,Jordy Caicedo,Jordy Caicedo,exact,16,FW,False,20,4,Huracán,1997-11-18,1997-11-18,OK
+p_ecu_angelo_preciado_7ab7269e,Ecuador,Ángelo Preciado,Ángelo Preciado,exact,17,DF,False,55,0,Atlético Mineiro,1998-02-18,1998-02-18,OK
+p_ecu_denil_castillo_11773cc3,Ecuador,Denil Castillo,Denil Castillo,exact,18,MF,False,5,0,Midtjylland,2004-03-24,2004-03-24,OK
+p_ecu_gonzalo_plata_52795550,Ecuador,Gonzalo Plata,Gonzalo Plata,exact,19,FW,False,50,8,Flamengo,2000-11-01,2000-11-01,OK
+p_ecu_nilson_angulo_36180178,Ecuador,Nilson Angulo,Nilson Angulo,exact,20,FW,False,14,2,Sunderland,2003-06-19,2003-06-19,OK
+p_ecu_alan_franco_80965137,Ecuador,Alan Franco,Alan Franco,exact,21,MF,False,58,1,Atlético Mineiro,1998-08-21,1998-08-21,OK
+p_ecu_gonzalo_valle_9b2837b7,Ecuador,Gonzalo Valle,Gonzalo Valle,exact,22,GK,False,4,0,LDU Quito,1996-02-28,1996-02-28,OK
+p_ecu_moises_caicedo_933ed1f6,Ecuador,Moisés Caicedo,Moisés Caicedo,exact,23,MF,False,61,3,Chelsea,2001-11-02,2001-11-02,OK
+p_ecu_jeremy_arevalo_4611b2ea,Ecuador,Jeremy Arévalo,Jeremy Arévalo,exact,24,FW,False,4,0,VfB Stuttgart,2005-03-19,2005-03-19,OK
+p_ecu_jackson_porozo_e9ca15cf,Ecuador,Jackson Porozo,Jackson Porozo,exact,25,DF,False,10,1,Tijuana,2000-08-04,2000-08-04,OK
+p_ecu_yaimar_medina_64320c80,Ecuador,Yaimar Medina,Yaimar Medina,exact,26,DF,False,6,0,Genk,2004-11-05,2004-11-05,OK
+p_egy_mohamed_el_shenawy_6eaa4541,Egypt,Mohamed El Shenawy,Mohamed El Shenawy,exact,1,GK,False,76,0,Al Ahly,1988-12-18,1988-12-18,OK
+p_egy_yasser_ibrahim_41e0dcc2,Egypt,Yasser Ibrahim,Yasser Ibrahim,exact,2,DF,False,17,1,Al Ahly,1993-02-10,1993-02-10,OK
+p_egy_mohamed_hany_f4c4265d,Egypt,Mohamed Hany,Mohamed Hany,exact,3,DF,False,42,0,Al Ahly,1996-01-25,1996-02-02,MISMATCH
+p_egy_hossam_abdelmaguid_f62351a1,Egypt,Hossam Abdelmaguid,Hossam Abdelmaguid,exact,4,DF,False,13,0,Zamalek,2001-04-30,2001-04-30,OK
+p_egy_ramy_rabia_6e837348,Egypt,Ramy Rabia,Ramy Rabia,exact,5,DF,False,44,5,Al Ain,1993-05-20,1993-05-20,OK
+p_egy_mohamed_abdelmonem_7d6d2721,Egypt,Mohamed Abdelmonem,Mohamed Abdelmonem,exact,6,DF,False,36,3,Nice,1999-02-01,1999-02-01,OK
+p_egy_emam_ashour_dca07f46,Egypt,Emam Ashour,Emam Ashour,exact,8,MF,False,29,0,Al Ahly,1998-02-20,1998-02-20,OK
+p_egy_hamza_abdelkarim_21334e1d,Egypt,Hamza Abdelkarim,Hamza Abdelkarim,exact,9,FW,False,2,0,Barcelona B,2008-01-01,2008-01-01,OK
+p_egy_mohamed_salah_9bd519f5,Egypt,Mohamed Salah,Mohamed Salah,exact,10,FW,True,116,67,Liverpool,1992-06-15,1992-06-15,OK
+p_egy_mostafa_ziko_c5b09adb,Egypt,Mostafa Ziko,Mostafa Ziko,exact,11,MF,False,2,2,Pyramids,1997-04-27,1997-04-27,OK
+p_egy_haissem_hassan_176106e8,Egypt,Haissem Hassan,Haissem Hassan,exact,12,FW,False,4,0,Oviedo,2002-02-08,2002-02-08,OK
+p_egy_ahmed_fatouh_dc7f8034,Egypt,Ahmed Fatouh,Ahmed Fatouh,exact,13,DF,False,39,1,Zamalek,1998-03-22,1998-03-22,OK
+p_egy_hamdy_fathy_b1dda916,Egypt,Hamdy Fathy,Hamdy Fathy,exact,14,MF,False,63,3,Al-Wakrah,1994-09-29,1994-09-29,OK
+p_egy_karim_hafez_63394784,Egypt,Karim Hafez,Karim Hafez,exact,15,DF,False,9,0,Pyramids,1996-03-12,1996-03-12,OK
+p_egy_el_mahdy_soliman_378a11ec,Egypt,El Mahdy Soliman,El Mahdy Soliman,exact,16,GK,False,0,0,Zamalek,1986-11-30,1987-06-08,MISMATCH
+p_egy_mohanad_lasheen_643f7e97,Egypt,Mohanad Lasheen,Mohanad Lasheen,exact,17,MF,False,23,0,Pyramids,1996-05-29,1996-05-29,OK
+p_egy_nabil_emad_89db2d51,Egypt,Nabil Emad,Nabil Emad,exact,18,MF,False,12,0,Al-Najma,1996-04-06,1996-04-06,OK
+p_egy_marwan_attia_3d176d42,Egypt,Marwan Attia,Marwan Attia,exact,19,MF,False,34,1,Al Ahly,1998-08-01,1998-08-01,OK
+p_egy_ibrahim_adel_ada19cb6,Egypt,Ibrahim Adel,Ibrahim Adel,exact,20,FW,False,24,3,Nordsjælland,2001-04-23,2001-04-23,OK
+p_egy_mahmoud_saber_1d4ea4ea,Egypt,Mahmoud Saber,Mahmoud Saber,exact,21,MF,False,15,1,ZED,2001-07-30,2001-07-30,OK
+p_egy_omar_marmoush_2c310315,Egypt,Omar Marmoush,Omar Marmoush,exact,22,FW,False,50,11,Manchester City,1999-02-07,1999-02-07,OK
+p_egy_mostafa_shobeir_a364322d,Egypt,Mostafa Shobeir,Mostafa Shobeir,exact,23,GK,False,9,0,Al Ahly,2000-05-15,2000-05-15,OK
+p_egy_tarek_alaa_045a4f0c,Egypt,Tarek Alaa,Tarek Alaa,exact,24,DF,False,3,0,ZED,2002-01-05,2002-01-05,OK
+p_egy_ahmed_zizo_a1a7d135,Egypt,Zizo,Zizo,exact,25,FW,False,63,5,Al Ahly,1996-01-10,1996-01-10,OK
+p_egy_mohamed_alaa_bb97a03c,Egypt,Mohamed Alaa,Mohamed Alaa,exact,26,GK,False,0,0,El Gouna,1999-01-01,1999-01-01,OK
+p_egy_mahmoud_trezeguet_50e56a9a,Egypt,Mahmoud Trezeguet,Trézéguet,fuzzy:0.95,7,FW,False,96,23,Al Ahly,1994-10-01,1994-10-01,OK
+p_eng_jordan_pickford_94fab51d,England,Jordan Pickford,Jordan Pickford,exact,1,GK,False,84,0,Everton,1994-03-07,1994-03-07,OK
+p_eng_ezri_konsa_f88a75d2,England,Ezri Konsa,Ezri Konsa,exact,2,DF,False,20,1,Aston Villa,1997-10-23,1997-10-23,OK
+p_eng_nico_o_reilly_2dab2e0a,England,Nico O'Reilly,Nico O'Reilly,exact,3,DF,False,5,0,Manchester City,2005-03-21,2005-03-21,OK
+p_eng_declan_rice_0ff1a845,England,Declan Rice,Declan Rice,exact,4,MF,False,73,7,Arsenal,1999-01-14,1999-01-14,OK
+p_eng_john_stones_67de16d3,England,John Stones,John Stones,exact,5,DF,False,89,3,Manchester City,1994-05-28,1994-05-28,OK
+p_eng_marc_guehi_fcc38a3b,England,Marc Guéhi,Marc Guéhi,exact,6,DF,False,29,1,Manchester City,2000-07-13,2000-07-13,OK
+p_eng_bukayo_saka_923ab09a,England,Bukayo Saka,Bukayo Saka,exact,7,FW,False,49,14,Arsenal,2001-09-05,2001-09-05,OK
+p_eng_elliot_anderson_bc282e95,England,Elliot Anderson,Elliot Anderson,exact,8,MF,False,9,0,Nottingham Forest,2002-11-06,2002-11-06,OK
+p_eng_harry_kane_f79407ae,England,Harry Kane,Harry Kane,exact,9,FW,True,114,79,Bayern Munich,1993-07-28,1993-07-28,OK
+p_eng_jude_bellingham_2c8f4032,England,Jude Bellingham,Jude Bellingham,exact,10,MF,False,48,6,Real Madrid,2003-06-29,2003-06-29,OK
+p_eng_marcus_rashford_ce290c86,England,Marcus Rashford,Marcus Rashford,exact,11,FW,False,72,18,Barcelona,1997-10-31,1997-10-31,OK
+p_eng_dean_henderson_3eb72332,England,Dean Henderson,Dean Henderson,exact,13,GK,False,5,0,Crystal Palace,1997-03-12,1997-03-12,OK
+p_eng_jordan_henderson_5b089a51,England,Jordan Henderson,Jordan Henderson,exact,14,MF,False,90,3,Brentford,1990-06-17,1990-06-17,OK
+p_eng_dan_burn_d8767ec9,England,Dan Burn,Dan Burn,exact,15,DF,False,8,0,Newcastle United,1992-05-09,1992-05-09,OK
+p_eng_kobbie_mainoo_b235baec,England,Kobbie Mainoo,Kobbie Mainoo,exact,16,MF,False,14,0,Manchester United,2005-04-19,2005-04-19,OK
+p_eng_morgan_rogers_a63d7ee3,England,Morgan Rogers,Morgan Rogers,exact,17,MF,False,15,1,Aston Villa,2002-07-26,2002-07-26,OK
+p_eng_anthony_gordon_8d09374d,England,Anthony Gordon,Anthony Gordon,exact,18,FW,False,19,3,Newcastle United,2001-02-24,2001-02-24,OK
+p_eng_ollie_watkins_912d0ae6,England,Ollie Watkins,Ollie Watkins,exact,19,FW,False,22,7,Aston Villa,1995-12-30,1995-12-30,OK
+p_eng_noni_madueke_d8b245bd,England,Noni Madueke,Noni Madueke,exact,20,FW,False,11,1,Arsenal,2002-03-10,2002-03-10,OK
+p_eng_eberechi_eze_f9407929,England,Eberechi Eze,Eberechi Eze,exact,21,MF,False,17,3,Arsenal,1998-06-29,1998-06-29,OK
+p_eng_ivan_toney_43d4768b,England,Ivan Toney,Ivan Toney,exact,22,FW,False,8,1,Al-Ahli,1996-03-16,1996-03-16,OK
+p_eng_james_trafford_92c6e207,England,James Trafford,James Trafford,exact,23,GK,False,2,0,Manchester City,2002-10-10,2002-10-10,OK
+p_eng_reece_james_10c551ad,England,Reece James,Reece James,exact,24,DF,False,24,1,Chelsea,1999-12-08,1999-12-08,OK
+p_eng_djed_spence_fb1412e0,England,Djed Spence,Djed Spence,exact,25,DF,False,6,0,Tottenham Hotspur,2000-08-09,2000-08-09,OK
+p_eng_jarell_quansah_4880d329,England,Jarell Quansah,Jarell Quansah,exact,26,DF,False,3,0,Bayer Leverkusen,2003-01-29,2003-01-29,OK
+p_fra_brice_samba_0edb2cc4,France,Brice Samba,Brice Samba,exact,1,GK,False,4,0,Rennes,1994-04-25,1994-04-25,OK
+p_fra_malo_gusto_a29e99b8,France,Malo Gusto,Malo Gusto,exact,2,DF,False,11,0,Chelsea,2003-05-19,2003-05-19,OK
+p_fra_lucas_digne_c29d72a4,France,Lucas Digne,Lucas Digne,exact,3,DF,False,58,0,Aston Villa,1993-07-20,1993-07-20,OK
+p_fra_dayot_upamecano_a225089e,France,Dayot Upamecano,Dayot Upamecano,exact,4,DF,False,38,2,Bayern Munich,1998-10-27,1998-10-27,OK
+p_fra_jules_kounde_38ff4e1e,France,Jules Koundé,Jules Koundé,exact,5,DF,False,48,0,Barcelona,1998-11-12,1998-11-12,OK
+p_fra_manu_kone_f214de7a,France,Manu Koné,Manu Koné,exact,6,MF,False,14,0,Roma,2001-05-17,2001-05-17,OK
+p_fra_ousmane_dembele_7af030a3,France,Ousmane Dembélé,Ousmane Dembélé,exact,7,FW,False,59,7,Paris Saint-Germain,1997-05-15,1997-05-15,OK
+p_fra_aurelien_tchouameni_2623c307,France,Aurélien Tchouaméni,Aurélien Tchouaméni,exact,8,MF,False,46,3,Real Madrid,2000-01-27,2000-01-27,OK
+p_fra_marcus_thuram_e731d664,France,Marcus Thuram,Marcus Thuram,exact,9,FW,False,34,3,Inter Milan,1997-08-06,1997-08-06,OK
+p_fra_kylian_mbappe_5c8aecad,France,Kylian Mbappé,Kylian Mbappé,exact,10,FW,True,98,56,Real Madrid,1998-12-20,1998-12-20,OK
+p_fra_michael_olise_1b6b5e45,France,Michael Olise,Michael Olise,exact,11,FW,False,17,7,Bayern Munich,2001-12-12,2001-12-12,OK
+p_fra_bradley_barcola_9ed4efd7,France,Bradley Barcola,Bradley Barcola,exact,12,FW,False,20,3,Paris Saint-Germain,2002-09-02,2002-09-02,OK
+p_fra_n_golo_kante_d7ef4b21,France,N'Golo Kanté,N'Golo Kanté,exact,13,MF,False,69,2,Fenerbahçe,1991-03-29,1991-03-29,OK
+p_fra_adrien_rabiot_94aef8b8,France,Adrien Rabiot,Adrien Rabiot,exact,14,MF,False,59,7,Milan,1995-04-03,1995-04-03,OK
+p_fra_ibrahima_konate_0aff16dd,France,Ibrahima Konaté,Ibrahima Konaté,exact,15,DF,False,28,0,Liverpool,1999-05-25,1999-05-25,OK
+p_fra_mike_maignan_07745398,France,Mike Maignan,Mike Maignan,exact,16,GK,False,40,0,Milan,1995-07-03,1995-07-03,OK
+p_fra_william_saliba_9577886c,France,William Saliba,William Saliba,exact,17,DF,False,32,0,Arsenal,2001-03-24,2001-03-24,OK
+p_fra_warren_zaire_emery_36ebe310,France,Warren Zaïre-Emery,Warren Zaïre-Emery,exact,18,MF,False,11,1,Paris Saint-Germain,2006-03-08,2006-03-08,OK
+p_fra_theo_hernandez_9466bda3,France,Theo Hernández,Théo Hernandez,exact,19,DF,False,44,2,Al-Hilal,1997-10-06,1997-10-06,OK
+p_fra_desire_doue_a41bc652,France,Désiré Doué,Désiré Doué,exact,20,FW,False,7,2,Paris Saint-Germain,2005-06-03,2005-06-03,OK
+p_fra_lucas_hernandez_0590c7c2,France,Lucas Hernández,Lucas Hernandez,exact,21,DF,False,42,0,Paris Saint-Germain,1996-02-14,1996-02-14,OK
+p_fra_jean_philippe_mateta_8de3288c,France,Jean-Philippe Mateta,Jean-Philippe Mateta,exact,22,FW,False,4,2,Crystal Palace,1997-06-28,1997-06-28,OK
+p_fra_robin_risser_b7c52484,France,Robin Risser,Robin Risser,exact,23,GK,False,0,0,Lens,2004-12-02,2004-12-02,OK
+p_fra_rayan_cherki_8222a77c,France,Rayan Cherki,Rayan Cherki,exact,24,MF,False,7,2,Manchester City,2003-08-17,2003-08-17,OK
+p_fra_maghnes_akliouche_4775cb14,France,Maghnes Akliouche,Maghnes Akliouche,exact,25,MF,False,9,1,Monaco,2002-02-25,2002-02-25,OK
+p_fra_maxence_lacroix_af3dd6a0,France,Maxence Lacroix,Maxence Lacroix,exact,26,DF,False,4,0,Crystal Palace,2000-04-06,2000-04-06,OK
+p_ger_manuel_neuer_2b002102,Germany,Manuel Neuer,Manuel Neuer,exact,1,GK,False,124,0,Bayern Munich,1986-03-27,1986-03-27,OK
+p_ger_antonio_rudiger_af855b19,Germany,Antonio Rüdiger,Antonio Rüdiger,exact,2,DF,False,82,3,Real Madrid,1993-03-03,1993-03-03,OK
+p_ger_waldemar_anton_5a410767,Germany,Waldemar Anton,Waldemar Anton,exact,3,DF,False,13,0,Borussia Dortmund,1996-07-20,1996-07-20,OK
+p_ger_jonathan_tah_1c697711,Germany,Jonathan Tah,Jonathan Tah,exact,4,DF,False,47,1,Bayern Munich,1996-02-11,1996-02-11,OK
+p_ger_aleksandar_pavlovic_a9a7a401,Germany,Aleksandar Pavlovic,Aleksandar Pavlović,exact,5,MF,False,11,1,Bayern Munich,2004-05-03,2004-05-03,OK
+p_ger_joshua_kimmich_07cb499d,Germany,Joshua Kimmich,Joshua Kimmich,exact,6,DF,True,110,10,Bayern Munich,1995-02-08,1995-02-08,OK
+p_ger_kai_havertz_f326f9e3,Germany,Kai Havertz,Kai Havertz,exact,7,FW,False,58,22,Arsenal,1999-06-11,1999-06-11,OK
+p_ger_leon_goretzka_eb848a66,Germany,Leon Goretzka,Leon Goretzka,exact,8,MF,False,70,15,Bayern Munich,1995-02-06,1995-02-06,OK
+p_ger_jamie_leweling_39be0dc9,Germany,Jamie Leweling,Jamie Leweling,exact,9,MF,False,5,1,VfB Stuttgart,2001-02-26,2001-02-26,OK
+p_ger_jamal_musiala_2c7634e0,Germany,Jamal Musiala,Jamal Musiala,exact,10,MF,False,42,9,Bayern Munich,2003-02-26,2003-02-26,OK
+p_ger_nick_woltemade_2fd28776,Germany,Nick Woltemade,Nick Woltemade,exact,11,FW,False,11,4,Newcastle United,2002-02-14,2002-02-14,OK
+p_ger_oliver_baumann_cf56c765,Germany,Oliver Baumann,Oliver Baumann,exact,12,GK,False,13,0,TSG Hoffenheim,1990-06-02,1990-06-02,OK
+p_ger_maximilian_beier_b5e59d4d,Germany,Maximilian Beier,Maximilian Beier,exact,14,FW,False,9,0,Borussia Dortmund,2002-10-17,2002-10-17,OK
+p_ger_nico_schlotterbeck_89a5b22b,Germany,Nico Schlotterbeck,Nico Schlotterbeck,exact,15,DF,False,27,0,Borussia Dortmund,1999-12-01,1999-12-01,OK
+p_ger_angelo_stiller_76abfc21,Germany,Angelo Stiller,Angelo Stiller,exact,16,MF,False,8,0,VfB Stuttgart,2001-04-04,2001-04-04,OK
+p_ger_florian_wirtz_f76adfaf,Germany,Florian Wirtz,Florian Wirtz,exact,17,MF,False,41,11,Liverpool,2003-05-03,2003-05-03,OK
+p_ger_nathaniel_brown_5c421f53,Germany,Nathaniel Brown,Nathaniel Brown,exact,18,DF,False,5,0,Eintracht Frankfurt,2003-06-16,2003-06-16,OK
+p_ger_leroy_sane_ae060795,Germany,Leroy Sané,Leroy Sané,exact,19,MF,False,76,17,Galatasaray,1996-01-11,1996-01-11,OK
+p_ger_alexander_nubel_f6a121cf,Germany,Alexander Nübel,Alexander Nübel,exact,21,GK,False,3,0,VfB Stuttgart,1996-09-30,1996-09-30,OK
+p_ger_david_raum_c3413a00,Germany,David Raum,David Raum,exact,22,DF,False,37,1,RB Leipzig,1998-04-22,1998-04-22,OK
+p_ger_felix_nmecha_c2161753,Germany,Felix Nmecha,Felix Nmecha,exact,23,MF,False,8,1,Borussia Dortmund,2000-10-10,2000-10-10,OK
+p_ger_malick_thiaw_532cd092,Germany,Malick Thiaw,Malick Thiaw,exact,24,DF,False,5,0,Newcastle United,2001-08-08,2001-08-08,OK
+p_ger_deniz_undav_e68250a7,Germany,Deniz Undav,Deniz Undav,exact,26,FW,False,9,6,VfB Stuttgart,1996-07-19,1996-07-19,OK
+p_ger_pascal_gross_1e084b77,Germany,Pascal Gross,Pascal Groß,fuzzy:0.95,13,MF,False,18,1,Brighton & Hove Albion,1991-06-15,1991-06-15,OK
+p_gha_lawrence_ati_zigi_050bf0e0,Ghana,Lawrence Ati-Zigi,Lawrence Ati-Zigi,exact,1,GK,False,29,0,St. Gallen,1996-11-29,1996-11-29,OK
+p_gha_alidu_seidu_bc358fed,Ghana,Alidu Seidu,Alidu Seidu,exact,2,DF,False,24,1,Rennes,2000-06-04,2000-06-04,OK
+p_gha_caleb_yirenkyi_6e914fa8,Ghana,Caleb Yirenkyi,Caleb Yirenkyi,exact,3,MF,False,11,1,Nordsjælland,2006-01-15,2006-01-15,OK
+p_gha_jonas_adjetey_bec8dfa5,Ghana,Jonas Adjetey,Jonas Adjetey,exact,4,DF,False,10,0,VfL Wolfsburg,2003-12-13,2003-12-13,OK
+p_gha_thomas_partey_36a320fc,Ghana,Thomas Partey,Thomas Partey,exact,5,MF,False,57,15,Villarreal,1993-06-13,1993-06-13,OK
+p_gha_abdul_mumin_17e610bc,Ghana,Abdul Mumin,Abdul Mumin,exact,6,DF,False,5,0,Rayo Vallecano,1998-06-06,1998-06-06,OK
+p_gha_kwasi_sibo_5217bbfe,Ghana,Kwasi Sibo,Kwasi Sibo,exact,8,MF,False,8,0,Oviedo,1998-06-24,1998-06-24,OK
+p_gha_jordan_ayew_fe021acd,Ghana,Jordan Ayew,Jordan Ayew,exact,9,FW,True,120,34,Leicester City,1991-09-11,1991-09-11,OK
+p_gha_brandon_thomas_asante_a966ba92,Ghana,Brandon Thomas-Asante,Brandon Thomas-Asante,exact,10,FW,False,8,1,Coventry City,1999-12-29,1998-12-29,MISMATCH
+p_gha_antoine_semenyo_22e4e850,Ghana,Antoine Semenyo,Antoine Semenyo,exact,11,MF,False,34,3,Manchester City,2000-01-07,2000-01-07,OK
+p_gha_joseph_anang_0dbb73df,Ghana,Joseph Anang,Joseph Anang,exact,12,GK,False,1,0,St Patrick's Athletic,2000-06-08,2000-06-08,OK
+p_gha_christopher_bonsu_baah_6f0ce58c,Ghana,Christopher Bonsu Baah,Christopher Bonsu Baah,exact,13,FW,False,9,0,Al-Qadsiah,2004-12-14,2004-12-14,OK
+p_gha_gideon_mensah_65d119e6,Ghana,Gideon Mensah,Gideon Mensah,exact,14,DF,False,40,0,Auxerre,1998-07-18,1998-07-18,OK
+p_gha_elisha_owusu_142f6789,Ghana,Elisha Owusu,Elisha Owusu,exact,15,MF,False,20,0,Auxerre,1997-11-07,1997-11-07,OK
+p_gha_benjamin_asare_6451594e,Ghana,Benjamin Asare,Benjamin Asare,exact,16,GK,False,11,0,Hearts of Oak,1992-01-01,1992-07-13,MISMATCH
+p_gha_jerome_opoku_75d9830b,Ghana,Jerome Opoku,Jerome Opoku,exact,18,DF,False,11,1,İstanbul Başakşehir,1998-10-14,1998-10-14,OK
+p_gha_inaki_williams_67f9e88d,Ghana,Iñaki Williams,Iñaki Williams,exact,19,FW,False,26,2,Athletic Bilbao,1994-06-15,1994-06-15,OK
+p_gha_augustine_boakye_e06d4e69,Ghana,Augustine Boakye,Augustine Boakye,exact,20,MF,False,0,0,Saint-Étienne,2000-11-03,2000-11-03,OK
+p_gha_derrick_luckassen_12598b8a,Ghana,Derrick Luckassen,Derrick Luckassen,exact,23,DF,False,1,0,Pafos,1995-07-03,1995-07-03,OK
+p_gha_ernest_nuamah_78040df4,Ghana,Ernest Nuamah,Ernest Nuamah,exact,24,FW,False,18,4,Lyon,2003-11-01,2003-11-01,OK
+p_gha_prince_kwabena_adu_8305cf1e,Ghana,Prince Kwabena Adu,Prince Kwabena Adu,exact,25,FW,False,5,0,Viktoria Plzeň,2003-09-23,2003-09-23,OK
+p_gha_marvin_senaya_73ba140e,Ghana,Marvin Senaya,Marvin Senaya,exact,26,DF,False,2,0,Auxerre,2001-01-28,2001-01-28,OK
+p_gha_abdul_fatawu_issahaku_99eb1666,Ghana,Abdul Fatawu Issahaku,Abdul Fatawu,fuzzy:0.95,7,FW,False,28,3,Leicester City,2004-03-08,2004-03-08,OK
+p_gha_baba_abdul_rahman_b5539bc9,Ghana,Baba Abdul Rahman,Abdul Rahman Baba,fuzzy:0.95,17,DF,False,51,1,PAOK,1994-07-02,1994-07-02,OK
+p_gha_kojo_oppong_peprah_565abb15,Ghana,Kojo Oppong Peprah,Kojo Peprah Oppong,fuzzy:0.95,21,DF,False,4,0,Nice,2004-06-04,2004-06-04,OK
+p_gha_kamal_deen_sulemana_5806821c,Ghana,Kamal Deen Sulemana,Kamaldeen Sulemana,fuzzy:0.97,22,FW,False,28,1,Atalanta,2002-02-15,2002-02-15,OK
+p_hai_johny_placide_5b55b6a8,Haiti,Johny Placide,Johny Placide,exact,1,GK,True,82,0,Bastia,1988-01-29,1988-01-29,OK
+p_hai_carlens_arcus_602059bc,Haiti,Carlens Arcus,Carlens Arcus,exact,2,DF,False,56,1,Angers,1996-06-28,1996-06-28,OK
+p_hai_keeto_thermoncy_1ca5b6a8,Haiti,Keeto Thermoncy,Keeto Thermoncy,exact,3,DF,False,1,0,Young Boys,2006-03-29,2006-03-29,OK
+p_hai_ricardo_ade_61845ffb,Haiti,Ricardo Adé,Ricardo Adé,exact,4,DF,False,59,2,LDU Quito,1990-05-21,1990-05-21,OK
+p_hai_hannes_delcroix_a05d11fc,Haiti,Hannes Delcroix,Hannes Delcroix,exact,5,DF,False,7,0,Lugano,1999-02-28,1999-02-28,OK
+p_hai_derrick_etienne_76db4655,Haiti,Derrick Etienne Jr.,Derrick Etienne Jr.,exact,7,FW,False,51,8,Toronto FC,1996-11-25,1996-11-25,OK
+p_hai_martin_experience_fa6fe29c,Haiti,Martin Expérience,Martin Expérience,exact,8,DF,False,21,0,Nancy,1998-03-09,1999-03-09,MISMATCH
+p_hai_duckens_nazon_3c6b6667,Haiti,Duckens Nazon,Duckens Nazon,exact,9,FW,False,82,44,Esteghlal,1994-04-07,1994-04-07,OK
+p_hai_jean_ricner_bellegarde_b7f84448,Haiti,Jean-Ricner Bellegarde,Jean-Ricner Bellegarde,exact,10,MF,False,10,0,Wolverhampton Wanderers,1998-06-27,1998-06-27,OK
+p_hai_alexandre_pierre_10ace7cc,Haiti,Alexandre Pierre,Alexandre Pierre,exact,12,GK,False,16,0,Sochaux,2001-02-25,2001-02-25,OK
+p_hai_duke_lacroix_a6b39e89,Haiti,Duke Lacroix,Duke Lacroix,exact,13,DF,False,16,3,Colorado Springs Switchbacks FC,1993-10-14,1993-10-14,OK
+p_hai_ruben_providence_a6120264,Haiti,Ruben Providence,Ruben Providence,exact,15,FW,False,15,3,Almere City,2001-07-07,2001-07-07,OK
+p_hai_lenny_joseph_6ba48cca,Haiti,Lenny Joseph,Lenny Joseph,exact,16,FW,False,2,1,Ferencváros,2000-10-12,2000-10-12,OK
+p_hai_danley_jean_jacques_e7ae4eb9,Haiti,Danley Jean Jacques,Danley Jean Jacques,exact,17,MF,False,31,6,Philadelphia Union,2000-05-20,2000-05-20,OK
+p_hai_wilson_isidor_f5f75d6e,Haiti,Wilson Isidor,Wilson Isidor,exact,18,FW,False,4,2,Sunderland,2000-08-27,2000-08-27,OK
+p_hai_yassin_fortune_833632c6,Haiti,Yassin Fortuné,Yassin Fortuné,exact,19,FW,False,4,0,Vizela,1999-01-30,1999-01-30,OK
+p_hai_frantzdy_pierrot_7ab97ac9,Haiti,Frantzdy Pierrot,Frantzdy Pierrot,exact,20,FW,False,51,34,Çaykur Rizespor,1995-03-29,1995-03-29,OK
+p_hai_josue_casimir_4fc2ea5d,Haiti,Josué Casimir,Josué Casimir,exact,21,FW,False,7,0,Auxerre,2001-09-24,2001-09-24,OK
+p_hai_jean_kevin_duverne_214b51da,Haiti,Jean-Kévin Duverne,Jean-Kévin Duverne,exact,22,DF,False,17,1,Gent,1997-07-12,1997-07-12,OK
+p_hai_josue_duverger_59879619,Haiti,Josue Duverger,Josué Duverger,exact,23,GK,False,7,0,Cosmos Koblenz,2000-04-27,2000-04-27,OK
+p_hai_wilguens_paugain_2d2cf476,Haiti,Wilguens Paugain,Wilguens Paugain,exact,24,DF,False,8,0,Zulte Waregem,2001-08-24,2001-08-24,OK
+p_hai_dominique_simon_5a5018b5,Haiti,Dominique Simon,Dominique Simon,exact,25,MF,False,2,0,Tatran Prešov,2000-07-29,2000-07-29,OK
+p_hai_woodensky_pierre_4d67f86b,Haiti,Woodensky Pierre,Woodensky Pierre,exact,26,MF,False,1,0,Violette,2004-12-30,2004-12-30,OK
+p_hai_carl_fred_sainte_85af76c4,Haiti,Carl Fred Sainté,Carl Sainté,fuzzy:0.95,6,MF,False,26,0,El Paso Locomotive FC,2002-08-09,2002-08-09,OK
+p_hai_don_deedson_louicius_d86d7de3,Haiti,Don Deedson Louicius,Louicius Deedson,fuzzy:0.95,11,FW,False,32,10,FC Dallas,2001-02-11,2001-02-11,OK
+p_irn_alireza_beiranvand_c79fbeca,Iran,Alireza Beiranvand,Alireza Beiranvand,exact,1,GK,False,86,0,Tractor,1992-09-22,1992-09-21,MISMATCH
+p_irn_saleh_hardani_78f246fd,Iran,Saleh Hardani,Saleh Hardani,exact,2,DF,False,18,1,Esteghlal,1996-09-14,1998-12-26,MISMATCH
+p_irn_ehsan_hajsafi_a5b31104,Iran,Ehsan Hajsafi,Ehsan Hajsafi,exact,3,DF,True,146,7,Sepahan,1990-02-25,1990-02-25,OK
+p_irn_milad_mohammadi_2ae110d5,Iran,Milad Mohammadi,Milad Mohammadi,exact,5,DF,False,76,1,Persepolis,1993-09-29,1993-09-29,OK
+p_irn_saeid_ezatolahi_824242af,Iran,Saeid Ezatolahi,Saeid Ezatolahi,exact,6,MF,False,83,2,Shabab Al Ahli,1996-10-01,1996-10-01,OK
+p_irn_alireza_jahanbakhsh_5432b448,Iran,Alireza Jahanbakhsh,Alireza Jahanbakhsh,exact,7,MF,False,99,17,Dender EH,1993-08-11,1993-08-11,OK
+p_irn_mohammad_mohebi_636fdb33,Iran,Mohammad Mohebi,Mohammad Mohebi,exact,8,MF,False,37,14,Rostov,1998-12-20,1998-12-20,OK
+p_irn_mehdi_taremi_38334e38,Iran,Mehdi Taremi,Mehdi Taremi,exact,9,FW,False,105,60,Olympiacos,1992-07-18,1992-07-18,OK
+p_irn_ali_alipour_660cfb24,Iran,Ali Alipour,Ali Alipour,exact,11,FW,False,14,1,Persepolis,1995-11-11,1995-11-11,OK
+p_irn_payam_niazmand_de771085,Iran,Payam Niazmand,Payam Niazmand,exact,12,GK,False,15,0,Persepolis,1995-04-06,1995-04-06,OK
+p_irn_saman_ghoddos_7f5156ee,Iran,Saman Ghoddos,Saman Ghoddos,exact,14,MF,False,68,3,Kalba,1993-09-06,1993-09-06,OK
+p_irn_rouzbeh_cheshmi_d28eefb8,Iran,Rouzbeh Cheshmi,Rouzbeh Cheshmi,exact,15,MF,False,40,3,Esteghlal,1993-07-24,1993-07-24,OK
+p_irn_amirhossein_hosseinzadeh_5e0318a3,Iran,Amirhossein Hosseinzadeh,Amirhossein Hosseinzadeh,exact,18,FW,False,18,5,Tractor,2000-10-30,2000-10-30,OK
+p_irn_mohammad_ghorbani_68ed5ab8,Iran,Mohammad Ghorbani,Mohammad Ghorbani,exact,21,MF,False,16,0,Al Wahda,2001-10-07,2001-10-07,OK
+p_irn_hossein_hosseini_f21beeb8,Iran,Hossein Hosseini,Hossein Hosseini,exact,22,GK,False,13,0,Sepahan,1992-06-30,1992-06-30,OK
+p_irn_ramin_rezaeian_8c480a56,Iran,Ramin Rezaeian,Ramin Rezaeian,exact,23,DF,False,74,8,Foolad,1990-03-21,1990-03-21,OK
+p_irn_danial_eiri_b3eb89cf,Iran,Danial Eiri,Danial Eiri,exact,25,DF,False,0,0,Malavan,2003-10-26,2003-10-26,OK
+p_irn_shoka_khalilzadeh_f59e2ea0,Iran,Shoka Khalilzadeh,Shojae Khalilzadeh,fuzzy:0.95,4,DF,False,58,2,Tractor,1989-05-14,1989-05-14,OK
+p_irn_mehdi_ghaedi_1f0fa314,Iran,Mehdi Ghaedi,Mehdi Ghayedi,fuzzy:0.96,10,FW,False,30,10,Al Nasr,1998-12-05,1998-12-05,OK
+p_irn_hossein_kanaani_9363e09c,Iran,Hossein Kanaani,Hossein Kanaanizadegan,fuzzy:0.95,13,DF,False,65,6,Persepolis,1994-03-23,1994-03-23,OK
+p_irn_mehdi_torabi_09cc5558,Iran,Mehdi Torabi,Mahdi Torabi,fuzzy:0.95,16,MF,False,52,7,Tractor,1994-09-10,1994-09-10,OK
+p_irn_aria_yousefi_f95f0ba9,Iran,Aria Yousefi,Arya Yousefi,fuzzy:0.95,17,DF,False,14,1,Sepahan,2002-04-22,2002-04-22,OK
+p_irn_ali_nemati_omid_noorafkan_f6768b31,Iran,Ali Nemati Omid Noorafkan,Ali Nemati,fuzzy:0.95,19,DF,False,18,0,Foolad,1996-02-08,1996-02-08,OK
+p_irn_dennis_dargahi_5584fc55,Iran,Dennis Dargahi,Dennis Eckert,fuzzy:0.95,24,FW,False,0,0,Standard Liège,1997-01-09,1997-01-09,OK
+p_irn_amir_mohammad_razzaghinia_90e7272b,Iran,Amir Mohammad Razzaghinia,Amirmohammad Razzaghinia,fuzzy:0.98,26,MF,False,4,0,Esteghlal,2006-04-11,2006-04-11,OK
+p_irq_fahad_talib_c28c0429,Iraq,Fahad Talib,Fahad Talib,exact,1,GK,False,21,0,Al-Talaba,1994-10-21,1994-10-21,OK
+p_irq_rebin_sulaka_fedaefe9,Iraq,Rebin Sulaka,Rebin Sulaka,exact,2,DF,False,56,1,Port,1992-04-12,1992-04-12,OK
+p_irq_hussein_ali_529d4879,Iraq,Hussein Ali,Hussein Ali,exact,3,DF,False,27,1,Pogoń Szczecin,2002-03-01,2002-03-01,OK
+p_irq_zaid_tahseen_3653fad0,Iraq,Zaid Tahseen,Zaid Tahseen,exact,4,DF,False,28,1,Pakhtakor,2001-01-29,2001-01-29,OK
+p_irq_manaf_younis_460d1a76,Iraq,Manaf Younis,Manaf Younis,exact,6,DF,False,34,1,Al-Shorta,1996-12-29,1996-11-16,MISMATCH
+p_irq_youssef_amyn_d351b42a,Iraq,Youssef Amyn,Youssef Amyn,exact,7,MF,False,27,2,AEK Larnaca,2003-08-21,2003-08-21,OK
+p_irq_ibrahim_bayesh_14f10c39,Iraq,Ibrahim Bayesh,Ibrahim Bayesh,exact,8,MF,False,76,8,Al Dhafra,2000-05-01,2000-05-01,OK
+p_irq_ali_al_hamadi_5f405fcb,Iraq,Ali Al-Hamadi,Ali Al-Hamadi,exact,9,FW,False,20,5,Luton Town,2002-03-01,2002-03-01,OK
+p_irq_mohanad_ali_41068002,Iraq,Mohanad Ali,Mohanad Ali,exact,10,FW,False,72,27,Dibba,2000-06-20,2000-06-20,OK
+p_irq_jalal_hassan_4f8cd40c,Iraq,Jalal Hassan,Jalal Hassan,exact,12,GK,True,102,0,Al-Zawraa,1991-05-18,1991-05-18,OK
+p_irq_ali_yousif_6a20f1d1,Iraq,Ali Yousif,Ali Yousif,exact,13,FW,False,7,1,Al-Talaba,1996-01-19,1996-01-19,OK
+p_irq_zidane_iqbal_f6585c9f,Iraq,Zidane Iqbal,Zidane Iqbal,exact,14,MF,False,25,2,Utrecht,2003-04-27,2003-04-27,OK
+p_irq_amir_al_ammari_558241ed,Iraq,Amir Al-Ammari,Amir Al-Ammari,exact,16,MF,False,51,3,Cracovia,1997-07-27,1997-07-27,OK
+p_irq_ali_jasim_ae580daa,Iraq,Ali Jasim,Ali Jasim,exact,17,FW,False,36,2,Al-Najma,2004-01-20,2004-01-20,OK
+p_irq_aymen_hussein_9b6a0747,Iraq,Aymen Hussein,Aymen Hussein,exact,18,FW,False,95,33,Al-Karma,1996-03-22,1996-03-22,OK
+p_irq_kevin_yakob_a1bd8110,Iraq,Kevin Yakob,Kevin Yakob,exact,19,MF,False,9,0,AGF,2000-10-10,2000-10-10,OK
+p_irq_aimar_sher_3a79fb7b,Iraq,Aimar Sher,Aimar Sher,exact,20,MF,False,7,0,Sarpsborg 08,2002-12-20,2002-12-20,OK
+p_irq_marko_farji_55da3fb3,Iraq,Marko Farji,Marko Farji,exact,21,FW,False,12,0,Venezia,2004-03-16,2004-03-16,OK
+p_irq_ahmed_basil_cdcfe125,Iraq,Ahmed Basil,Ahmed Basil,exact,22,GK,False,16,0,Al-Shorta,1996-08-19,1996-08-19,OK
+p_irq_merchas_doski_a5061488,Iraq,Merchas Doski,Merchas Doski,exact,23,DF,False,31,1,Viktoria Plzeň,1999-12-07,1999-12-07,OK
+p_irq_zaid_ismail_8b92e738,Iraq,Zaid Ismail,Zaid Ismail,exact,24,MF,False,6,0,Al-Talaba,2002-01-03,2002-01-03,OK
+p_irq_mustafa_saadoon_99731d3e,Iraq,Mustafa Saadoon,Mustafa Saadoon,exact,25,DF,False,17,0,Al-Shorta,2001-05-25,2001-05-25,OK
+p_irq_frans_putros_885f98d6,Iraq,Frans Putros,Frans Putros,exact,26,DF,False,28,0,Persib,1993-07-14,1993-07-14,OK
+p_irq_akam_hashem_b16f6ebd,Iraq,Akam Hashem,Akam Hashim,fuzzy:0.95,5,DF,False,14,1,Al-Zawraa,1998-08-16,1998-08-16,OK
+p_irq_ahmed_qasim_8d813506,Iraq,Ahmed Qasim,Ahmed Qasem,fuzzy:0.95,11,FW,False,3,0,Nashville SC,2003-07-12,2003-07-12,OK
+p_civ_yahia_fofana_2e5eb280,Ivory Coast,Yahia Fofana,Yahia Fofana,exact,1,GK,False,35,0,Çaykur Rizespor,2000-08-21,2000-08-21,OK
+p_civ_ousmane_diomande_1d6c0dbf,Ivory Coast,Ousmane Diomande,Ousmane Diomande,exact,2,DF,False,15,1,Sporting CP,2003-12-04,2003-12-04,OK
+p_civ_ghislain_konan_e158f52e,Ivory Coast,Ghislain Konan,Ghislain Konan,exact,3,DF,False,54,0,Gil Vicente,1995-12-27,1995-12-27,OK
+p_civ_jean_michael_seri_0d1254ee,Ivory Coast,Jean Michaël Seri,Jean Michaël Seri,exact,4,MF,False,65,4,Maribor,1991-07-19,1991-07-19,OK
+p_civ_wilfried_singo_97e43f6b,Ivory Coast,Wilfried Singo,Wilfried Singo,exact,5,DF,False,34,1,Galatasaray,2000-12-25,2000-12-25,OK
+p_civ_seko_fofana_baa2ea68,Ivory Coast,Seko Fofana,Seko Fofana,exact,6,MF,False,33,7,Porto,1995-05-07,1995-05-07,OK
+p_civ_odilon_kossounou_485c6071,Ivory Coast,Odilon Kossounou,Odilon Kossounou,exact,7,DF,False,36,0,Atalanta,2001-01-04,2001-01-04,OK
+p_civ_franck_kessie_f8141739,Ivory Coast,Franck Kessié,Franck Kessié,exact,8,MF,True,102,15,Al-Ahli,1996-12-19,1996-12-19,OK
+p_civ_ange_yoan_bonny_21e399a6,Ivory Coast,Ange-Yoan Bonny,Ange-Yoan Bonny,exact,9,FW,False,1,0,Inter Milan,2003-10-25,2003-10-25,OK
+p_civ_simon_adingra_fd8856ab,Ivory Coast,Simon Adingra,Simon Adingra,exact,10,FW,False,29,5,Monaco,2002-01-01,2002-01-01,OK
+p_civ_yan_diomande_de52cf92,Ivory Coast,Yan Diomande,Yan Diomande,exact,11,FW,False,10,3,RB Leipzig,2006-11-14,2006-11-14,OK
+p_civ_elye_wahi_ea121682,Ivory Coast,Elye Wahi,Elye Wahi,exact,12,FW,False,2,0,Nice,2003-01-02,2003-01-02,OK
+p_civ_oumar_diakite_99c59fc6,Ivory Coast,Oumar Diakité,Oumar Diakité,exact,14,FW,False,30,6,Cercle Brugge,2003-12-20,2003-12-20,OK
+p_civ_amad_diallo_eaf79116,Ivory Coast,Amad Diallo,Amad Diallo,exact,15,FW,False,19,6,Manchester United,2002-07-11,2002-07-11,OK
+p_civ_mohamed_kone_7bb65963,Ivory Coast,Mohamed Koné,Mohamed Koné,exact,16,GK,False,0,0,Charleroi,2002-03-07,2002-03-07,OK
+p_civ_guela_doue_67f0b3de,Ivory Coast,Guela Doué,Guéla Doué,exact,17,DF,False,20,3,Strasbourg,2002-10-17,2002-10-17,OK
+p_civ_ibrahim_sangare_379e4037,Ivory Coast,Ibrahim Sangaré,Ibrahim Sangaré,exact,18,MF,False,57,12,Nottingham Forest,1997-12-02,1997-12-02,OK
+p_civ_nicolas_pepe_4c6d5a76,Ivory Coast,Nicolas Pépé,Nicolas Pépé,exact,19,FW,False,56,12,Villarreal,1995-05-29,1995-05-29,OK
+p_civ_emmanuel_agbadou_3ba2ad4e,Ivory Coast,Emmanuel Agbadou,Emmanuel Agbadou,exact,20,DF,False,20,2,Beşiktaş,1997-06-17,1997-06-17,OK
+p_civ_evan_ndicka_f1e4915c,Ivory Coast,Evan Ndicka,Evan Ndicka,exact,21,DF,False,28,0,Roma,1999-08-20,1999-08-20,OK
+p_civ_evann_guessand_162fdf3e,Ivory Coast,Evann Guessand,Evann Guessand,exact,22,FW,False,21,4,Crystal Palace,2001-07-01,2001-07-01,OK
+p_civ_alban_lafont_5ef4d738,Ivory Coast,Alban Lafont,Alban Lafont,exact,23,GK,False,4,0,Panathinaikos,1999-01-23,1999-01-23,OK
+p_civ_bazoumana_toure_39bde082,Ivory Coast,Bazoumana Touré,Bazoumana Touré,exact,24,FW,False,6,2,TSG Hoffenheim,2006-03-02,2006-03-02,OK
+p_civ_parfait_guiagon_ae254f1d,Ivory Coast,Parfait Guiagon,Parfait Guiagon,exact,25,MF,False,5,0,Charleroi,2001-02-22,2001-02-22,OK
+p_civ_christ_inao_oulai_68e57131,Ivory Coast,Christ Inao Oulaï,Christ Inao Oulaï,exact,26,MF,False,9,0,Trabzonspor,2006-04-06,2006-04-06,OK
+p_jpn_zion_suzuki_96139af4,Japan,Zion Suzuki,Zion Suzuki,exact,1,GK,False,24,0,Parma,2002-08-21,2002-08-21,OK
+p_jpn_yukinari_sugawara_42fed6b2,Japan,Yukinari Sugawara,Yukinari Sugawara,exact,2,DF,False,21,2,Werder Bremen,2000-06-28,2000-06-28,OK
+p_jpn_shogo_taniguchi_5fd03d6e,Japan,Shogo Taniguchi,Shōgo Taniguchi,exact,3,DF,False,38,1,Sint-Truiden,1991-07-15,1991-07-15,OK
+p_jpn_ko_itakura_4205049b,Japan,Ko Itakura,Kō Itakura,exact,4,DF,True,40,2,Ajax,1997-01-27,1997-01-27,OK
+p_jpn_yuto_nagatomo_3be35d13,Japan,Yūto Nagatomo,Yūto Nagatomo,exact,5,DF,False,145,4,FC Tokyo,1986-09-12,1986-09-12,OK
+p_jpn_ao_tanaka_53e245d5,Japan,Ao Tanaka,Ao Tanaka,exact,7,MF,False,38,8,Leeds United,1998-09-10,1998-09-10,OK
+p_jpn_takefusa_kubo_c7cec035,Japan,Takefusa Kubo,Takefusa Kubo,exact,8,MF,False,49,7,Real Sociedad,2001-06-04,2001-06-04,OK
+p_jpn_keisuke_goto_3f36ef1c,Japan,Keisuke Goto,Keisuke Gotō,exact,9,FW,False,4,0,Sint-Truiden,2005-06-03,2005-06-03,OK
+p_jpn_ritsu_doan_98daeb30,Japan,Ritsu Doan,Ritsu Dōan,exact,10,MF,False,65,11,Eintracht Frankfurt,1998-06-16,1998-06-16,OK
+p_jpn_daizen_maeda_5a563a7e,Japan,Daizen Maeda,Daizen Maeda,exact,11,MF,False,27,4,Celtic,1997-10-20,1997-10-20,OK
+p_jpn_keisuke_osako_73c87d06,Japan,Keisuke Osako,Keisuke Ōsako,exact,12,GK,False,11,0,Sanfrecce Hiroshima,1999-07-28,1999-07-28,OK
+p_jpn_keito_nakamura_9cd7b0ff,Japan,Keito Nakamura,Keito Nakamura,exact,13,MF,False,25,10,Reims,2000-07-28,2000-07-28,OK
+p_jpn_junya_ito_e84750d1,Japan,Junya Ito,Junya Itō,exact,14,MF,False,69,15,Genk,1993-03-09,1993-03-09,OK
+p_jpn_daichi_kamada_253f8216,Japan,Daichi Kamada,Daichi Kamada,exact,15,MF,False,49,12,Crystal Palace,1996-08-05,1996-08-05,OK
+p_jpn_tsuyoshi_watanabe_898d98e8,Japan,Tsuyoshi Watanabe,Tsuyoshi Watanabe,exact,16,DF,False,11,0,Feyenoord,1997-02-05,1997-02-05,OK
+p_jpn_yuito_suzuki_8b1fdd20,Japan,Yuito Suzuki,Yuito Suzuki,exact,17,MF,False,6,0,SC Freiburg,2001-10-25,2001-10-25,OK
+p_jpn_ayase_ueda_f7cf1aea,Japan,Ayase Ueda,Ayase Ueda,exact,18,FW,False,39,16,Feyenoord,1998-08-28,1998-08-28,OK
+p_jpn_koki_ogawa_d27941e4,Japan,Koki Ogawa,Kōki Ogawa,exact,19,FW,False,15,11,NEC,1997-08-08,1997-08-08,OK
+p_jpn_ayumu_seko_70bee5b0,Japan,Ayumu Seko,Ayumu Seko,exact,20,DF,False,14,0,Le Havre,2000-06-07,2000-06-07,OK
+p_jpn_hiroki_ito_752d0a2f,Japan,Hiroki Itō,Hiroki Itō,exact,21,DF,False,24,1,Bayern Munich,1999-05-12,1999-05-12,OK
+p_jpn_takehiro_tomiyasu_06590bf8,Japan,Takehiro Tomiyasu,Takehiro Tomiyasu,exact,22,DF,False,43,1,Ajax,1998-11-05,1998-11-05,OK
+p_jpn_tomoki_hayakawa_77526c2f,Japan,Tomoki Hayakawa,Tomoki Hayakawa,exact,23,GK,False,4,0,Kashima Antlers,1999-03-03,1999-03-03,OK
+p_jpn_kaishu_sano_10750420,Japan,Kaishu Sano,Kaishū Sano,exact,24,MF,False,13,0,Mainz 05,2000-12-30,2000-12-30,OK
+p_jpn_junnosuke_suzuki_58362bee,Japan,Junnosuke Suzuki,Junnosuke Suzuki,exact,25,DF,False,6,0,Copenhagen,2003-07-12,2003-07-12,OK
+p_jpn_kento_shiogai_cbbc75e1,Japan,Kento Shiogai,Kento Shiogai,exact,26,FW,False,2,0,VfL Wolfsburg,2005-03-26,2005-03-26,OK
+p_jor_yazid_abulaila_b5866197,Jordan,Yazeed Abulaila,Yazeed Abulaila,exact,1,GK,False,76,0,Al-Hussein,1993-01-08,1993-01-08,OK
+p_jor_abdallah_nasib_57f7fc96,Jordan,Abdallah Nasib,Abdallah Nasib,exact,3,DF,False,65,3,Al-Zawraa,1994-02-25,1994-02-25,OK
+p_jor_husam_abu_dahab_8f755201,Jordan,Husam Abu Dahab,Husam Abu Dahab,exact,4,DF,False,18,0,Al-Faisaly,2000-05-13,2000-05-13,OK
+p_jor_yazan_al_arab_0aee9fd8,Jordan,Yazan Al-Arab,Yazan Al-Arab,exact,5,DF,False,80,3,FC Seoul,1996-01-31,1996-01-31,OK
+p_jor_amer_jamous_4ee15382,Jordan,Amer Jamous,Amer Jamous,exact,6,MF,False,19,1,Al-Zawraa,2002-07-03,2002-07-03,OK
+p_jor_noor_al_rawabdeh_6dbad9db,Jordan,Noor Al-Rawabdeh,Noor Al-Rawabdeh,exact,8,MF,False,68,3,Selangor,1997-02-24,1997-02-24,OK
+p_jor_ali_olwan_f44740f2,Jordan,Ali Olwan,Ali Olwan,exact,9,FW,False,66,29,Al-Sailiya,2000-03-26,2000-03-26,OK
+p_jor_odeh_al_fakhouri_753f9683,Jordan,Odeh Al-Fakhouri,Odeh Al-Fakhouri,exact,11,FW,False,10,1,Pyramids,2005-11-20,2005-11-22,MISMATCH
+p_jor_nour_bani_attiah_4ddf85a1,Jordan,Nour Bani Attiah,Nour Bani Attiah,exact,12,GK,False,5,0,Al-Faisaly,1993-01-25,1993-01-25,OK
+p_jor_mahmoud_al_mardi_0339d694,Jordan,Mahmoud Al-Mardi,Mahmoud Al-Mardi,exact,13,FW,False,89,9,Al-Hussein,1993-10-06,1993-10-06,OK
+p_jor_rajaei_ayed_3ba0a1a9,Jordan,Rajaei Ayed,Rajaei Ayed,exact,14,MF,False,72,0,Al-Hussein,1993-07-25,1993-07-25,OK
+p_jor_ibrahim_sadeh_98980a9c,Jordan,Ibrahim Sadeh,Ibrahim Sadeh,exact,15,MF,False,57,3,Al-Karma,2000-04-27,2000-04-27,OK
+p_jor_saed_al_rosan_7aa756f3,Jordan,Saed Al-Rosan,Saed Al-Rosan,exact,19,DF,False,21,2,Al-Hussein,1997-02-01,1997-02-01,OK
+p_jor_mohannad_abu_taha_de1d1fe2,Jordan,Mohannad Abu Taha,Mohannad Abu Taha,exact,20,MF,False,29,1,Al-Quwa Al-Jawiya,2003-02-02,2003-02-02,OK
+p_jor_nizar_al_rashdan_6484db9b,Jordan,Nizar Al-Rashdan,Nizar Al-Rashdan,exact,21,MF,False,47,4,Qatar SC,1999-03-23,1999-03-23,OK
+p_jor_abdallah_al_fakhouri_696806b1,Jordan,Abdallah Al-Fakhouri,Abdallah Al-Fakhouri,exact,22,GK,False,11,0,Al-Wehdat,2000-02-22,2000-01-22,MISMATCH
+p_jor_ihsan_haddad_f173de07,Jordan,Ihsan Haddad,Ihsan Haddad,exact,23,DF,True,92,2,Al-Hussein,1994-02-05,1994-02-05,OK
+p_jor_ali_azaizeh_d554394b,Jordan,Ali Azaizeh,Ali Azaizeh,exact,24,FW,False,4,0,Al-Shabab,2004-04-13,2004-04-13,OK
+p_jor_anas_badawi_a40ec56c,Jordan,Anas Badawi,Anas Badawi,exact,26,DF,False,1,0,Al-Faisaly,1997-09-13,1997-09-13,OK
+p_jor_mohammed_abu_hashish_e028ec54,Jordan,Mohammed Abu Hashish,Mohammad Abu Hashish,fuzzy:0.95,2,DF,False,56,1,Al-Karma,1995-05-09,1995-05-09,OK
+p_jor_mohammed_abu_zrayq_41a4f9c2,Jordan,Mohammed Abu Zrayq,Mohammad Abu Zrayq,fuzzy:0.95,7,FW,False,41,5,Raja Casablanca,1997-12-30,1997-12-30,OK
+p_jor_mousa_al_tamari_3a38c926,Jordan,Mousa Al-Tamari,Musa Al-Taamari,fuzzy:0.95,10,FW,False,92,24,Rennes,1997-06-10,1997-06-10,OK
+p_jor_mohammad_abualnadi_553267b7,Jordan,Mohammad Abualnadi,Mo Abualnadi,fuzzy:0.95,16,DF,False,18,0,Selangor,2001-02-08,2001-02-08,OK
+p_jor_saleem_obaid_2fc34ef8,Jordan,Saleem Obaid,Salim Obaid,fuzzy:0.95,17,DF,False,11,0,Al-Hussein,1992-01-17,1992-01-17,OK
+p_jor_mohammed_al_dawoud_eaaa3401,Jordan,Mohammed Al-Dawoud,Mohammad Al-Dawoud,fuzzy:0.95,25,MF,False,13,1,Al-Wehdat,1992-04-12,1992-04-12,OK
+p_mex_raul_rangel_fd3acb0d,Mexico,Raúl Rangel,Raúl Rangel,exact,1,GK,False,14,0,Guadalajara,2000-02-25,2000-02-25,OK
+p_mex_jorge_sanchez_f9fdad59,Mexico,Jorge Sánchez,Jorge Sánchez,exact,2,DF,False,59,3,PAOK,1993-02-14,1997-12-10,MISMATCH
+p_mex_cesar_montes_bdb1ce89,Mexico,César Montes,César Montes,exact,3,DF,False,67,4,Lokomotiv Moscow,1997-02-24,1997-02-24,OK
+p_mex_edson_alvarez_ee19e8a4,Mexico,Edson Álvarez,Edson Álvarez,exact,4,DF,True,98,7,Fenerbahçe,1997-10-24,1997-10-24,OK
+p_mex_johan_vasquez_2858b9c4,Mexico,Johan Vásquez,Johan Vásquez,exact,5,DF,False,46,3,Genoa,1998-10-22,1998-10-22,OK
+p_mex_erik_lira_9fbed47a,Mexico,Erik Lira,Érik Lira,exact,6,MF,False,25,0,Cruz Azul,2000-05-08,2000-05-08,OK
+p_mex_luis_romo_56c015b1,Mexico,Luis Romo,Luis Romo,exact,7,MF,False,63,4,Guadalajara,1995-06-05,1995-06-05,OK
+p_mex_alvaro_fidalgo_3d0f69df,Mexico,Álvaro Fidalgo,Álvaro Fidalgo,exact,8,MF,False,4,0,Real Betis,1997-04-09,1997-04-09,OK
+p_mex_raul_jimenez_c47a5ffa,Mexico,Raúl Jiménez,Raúl Jiménez,exact,9,FW,False,124,44,Fulham,1991-05-05,1991-05-05,OK
+p_mex_alexis_vega_6d8b7924,Mexico,Alexis Vega,Alexis Vega,exact,10,FW,False,52,7,Toluca,1997-11-25,1997-11-25,OK
+p_mex_santiago_gimenez_59159c84,Mexico,Santiago Gimenez,Santiago Giménez,exact,11,FW,False,47,6,Milan,2001-04-18,2001-04-18,OK
+p_mex_carlos_acevedo_a75726b0,Mexico,Carlos Acevedo,Carlos Acevedo,exact,12,GK,False,7,0,Santos Laguna,1996-04-19,1996-04-19,OK
+p_mex_guillermo_ochoa_add9f489,Mexico,Guillermo Ochoa,Guillermo Ochoa,exact,13,GK,False,152,0,AEL Limassol,1985-07-13,1985-07-13,OK
+p_mex_armando_gonzalez_3f91fad5,Mexico,Armando González,Armando González,exact,14,FW,False,7,1,Guadalajara,2003-04-20,2003-04-20,OK
+p_mex_israel_reyes_a91c6ee7,Mexico,Israel Reyes,Israel Reyes,exact,15,DF,False,34,2,América,2000-05-23,2000-05-23,OK
+p_mex_julian_quinones_0cf58bb0,Mexico,Julián Quiñones,Julián Quiñones,exact,16,FW,False,22,2,Al-Qadsiah,1997-03-24,1997-03-24,OK
+p_mex_orbelin_pineda_f17e8194,Mexico,Orbelín Pineda,Orbelín Pineda,exact,17,MF,False,92,12,AEK Athens,1996-03-24,1996-03-24,OK
+p_mex_obed_vargas_60228b0f,Mexico,Obed Vargas,Obed Vargas,exact,18,MF,False,6,0,Atlético Madrid,2005-08-05,2005-08-05,OK
+p_mex_gilberto_mora_4cec389a,Mexico,Gilberto Mora,Gilberto Mora,exact,19,MF,False,8,0,Tijuana,2008-10-14,2008-10-14,OK
+p_mex_mateo_chavez_db583c24,Mexico,Mateo Chávez,Mateo Chávez,exact,20,DF,False,10,0,AZ,2004-05-12,2004-05-12,OK
+p_mex_cesar_huerta_11f35dc9,Mexico,César Huerta,César Huerta,exact,21,FW,False,26,3,Anderlecht,2000-12-03,2000-12-03,OK
+p_mex_guillermo_martinez_fb0f082f,Mexico,Guillermo Martínez,Guillermo Martínez,exact,22,FW,False,12,3,Pumas UNAM,1995-03-15,1995-03-15,OK
+p_mex_jesus_gallardo_f2c39ec2,Mexico,Jesús Gallardo,Jesús Gallardo,exact,23,DF,False,121,3,Toluca,1994-08-15,1994-08-15,OK
+p_mex_luis_chavez_9afafe41,Mexico,Luis Chávez,Luis Chávez,exact,24,MF,False,45,5,Dynamo Moscow,1996-01-15,1996-01-15,OK
+p_mex_roberto_alvarado_f5b62687,Mexico,Roberto Alvarado,Roberto Alvarado,exact,25,FW,False,67,5,Guadalajara,1998-09-07,1998-09-07,OK
+p_mex_brian_gutierrez_bd8fbff5,Mexico,Brian Gutiérrez,Brian Gutiérrez,exact,26,MF,False,7,2,Guadalajara,2003-06-17,2003-06-17,OK
+p_mar_yassine_bounou_cc5a7582,Morocco,Yassine Bounou,Yassine Bounou,exact,1,GK,False,90,0,Al-Hilal,1991-04-05,1991-04-05,OK
+p_mar_achraf_hakimi_25bd8357,Morocco,Achraf Hakimi,Achraf Hakimi,exact,2,DF,True,96,11,Paris Saint-Germain,1998-11-04,1998-11-04,OK
+p_mar_noussair_mazraoui_dd4b96e7,Morocco,Noussair Mazraoui,Noussair Mazraoui,exact,3,DF,False,45,2,Manchester United,1997-11-14,1997-11-14,OK
+p_mar_sofyan_amrabat_7d589346,Morocco,Sofyan Amrabat,Sofyan Amrabat,exact,4,MF,False,75,0,Real Betis,1996-08-21,1996-08-21,OK
+p_mar_ayyoub_bouaddi_2f15e2cb,Morocco,Ayyoub Bouaddi,Ayyoub Bouaddi,exact,6,MF,False,3,0,Lille,2007-10-02,2007-10-02,OK
+p_mar_chemsdine_talbi_6ed7253d,Morocco,Chemsdine Talbi,Chemsdine Talbi,exact,7,MF,False,5,0,Sunderland,2005-05-09,2005-05-09,OK
+p_mar_azzedine_ounahi_2e95a029,Morocco,Azzedine Ounahi,Azzedine Ounahi,exact,8,MF,False,49,9,Girona,2000-04-19,2000-04-19,OK
+p_mar_soufiane_rahimi_cb7885e7,Morocco,Soufiane Rahimi,Soufiane Rahimi,exact,9,FW,False,37,12,Al Ain,1996-06-02,1996-06-02,OK
+p_mar_brahim_diaz_ddd3914b,Morocco,Brahim Díaz,Brahim Díaz,exact,10,FW,False,26,14,Real Madrid,1999-08-03,1999-08-03,OK
+p_mar_ismael_saibari_e7edb9e4,Morocco,Ismael Saibari,Ismael Saibari,exact,11,MF,False,30,9,PSV Eindhoven,2001-01-28,2001-01-28,OK
+p_mar_zakaria_el_ouahdi_0544d52a,Morocco,Zakaria El Ouahdi,Zakaria El Ouahdi,exact,13,DF,False,3,0,Genk,2001-12-31,2001-12-31,OK
+p_mar_issa_diop_05f39eb9,Morocco,Issa Diop,Issa Diop,exact,14,DF,False,4,0,Fulham,1997-01-09,1997-01-09,OK
+p_mar_samir_el_mourabet_f037a66a,Morocco,Samir El Mourabet,Samir El Mourabet,exact,15,MF,False,4,0,Strasbourg,2005-10-06,2005-10-06,OK
+p_mar_gessime_yassine_f7b65c3a,Morocco,Gessime Yassine,Gessime Yassine,exact,16,MF,False,4,0,Strasbourg,2005-11-22,2005-11-22,OK
+p_mar_chadi_riad_ddbeda14,Morocco,Chadi Riad,Chadi Riad,exact,18,DF,False,6,1,Crystal Palace,2003-06-17,2003-06-17,OK
+p_mar_youssef_belammari_3bdfba74,Morocco,Youssef Belammari,Youssef Belammari,exact,19,DF,False,18,0,Al Ahly,1998-09-20,1998-09-20,OK
+p_mar_ayoub_el_kaabi_de6767d0,Morocco,Ayoub El Kaabi,Ayoub El Kaabi,exact,20,FW,False,71,35,Olympiacos,1993-06-25,1993-06-25,OK
+p_mar_ayoube_amaimouni_78e0bc2e,Morocco,Ayoube Amaimouni,Ayoube Amaimouni,exact,21,FW,False,2,0,Eintracht Frankfurt,2004-11-30,2004-11-30,OK
+p_mar_reda_tagnaouti_e4413ba6,Morocco,Ahmed Reda Tagnaouti,Ahmed Reda Tagnaouti,exact,22,GK,False,3,0,AS FAR,1996-04-05,1996-04-05,OK
+p_mar_bilal_el_khannouss_80e44fb8,Morocco,Bilal El Khannouss,Bilal El Khannouss,exact,23,MF,False,37,3,VfB Stuttgart,2004-05-10,2004-05-10,OK
+p_mar_neil_el_aynaoui_1e9ee6d0,Morocco,Neil El Aynaoui,Neil El Aynaoui,exact,24,MF,False,16,2,Roma,2001-07-02,2001-07-02,OK
+p_mar_redouane_halhal_625ec8b8,Morocco,Redouane Halhal,Redouane Halhal,exact,25,DF,False,3,0,Mechelen,2003-03-05,2003-03-05,OK
+p_mar_anass_salah_eddine_b5b95ed8,Morocco,Anass Salah-Eddine,Anass Salah-Eddine,exact,26,DF,False,9,0,PSV Eindhoven,2002-01-18,2002-01-18,OK
+p_mar_munir_el_kajoui_872a5ca9,Morocco,Munir El Kajoui,Munir Mohamedi,fuzzy:0.95,12,GK,False,52,0,RS Berkane,1989-05-10,1989-05-10,OK
+p_ned_bart_verbruggen_6e94a97f,Netherlands,Bart Verbruggen,Bart Verbruggen,exact,1,GK,False,29,0,Brighton & Hove Albion,2002-08-18,2002-08-18,OK
+p_ned_marten_de_roon_134a0d27,Netherlands,Marten de Roon,Marten de Roon,exact,3,MF,False,43,1,Atalanta,1991-03-29,1991-03-29,OK
+p_ned_virgil_van_dijk_02a79b1b,Netherlands,Virgil van Dijk,Virgil van Dijk,exact,4,DF,True,92,12,Liverpool,1991-07-08,1991-07-08,OK
+p_ned_nathan_ake_b4612add,Netherlands,Nathan Aké,Nathan Aké,exact,5,DF,False,59,5,Manchester City,1995-02-18,1995-02-18,OK
+p_ned_jan_paul_van_hecke_192ee129,Netherlands,Jan Paul van Hecke,Jan Paul van Hecke,exact,6,DF,False,12,0,Brighton & Hove Albion,2000-06-08,2000-06-08,OK
+p_ned_justin_kluivert_0ebf1e3d,Netherlands,Justin Kluivert,Justin Kluivert,exact,7,MF,False,12,0,Bournemouth,1999-05-05,1999-05-05,OK
+p_ned_ryan_gravenberch_dbc380de,Netherlands,Ryan Gravenberch,Ryan Gravenberch,exact,8,MF,False,27,1,Liverpool,2002-05-16,2002-05-16,OK
+p_ned_wout_weghorst_fc445a82,Netherlands,Wout Weghorst,Wout Weghorst,exact,9,FW,False,52,14,Ajax,1992-08-07,1992-08-07,OK
+p_ned_memphis_depay_f7b47817,Netherlands,Memphis Depay,Memphis Depay,exact,10,FW,False,109,55,Corinthians,1994-02-13,1994-02-13,OK
+p_ned_cody_gakpo_7eb491eb,Netherlands,Cody Gakpo,Cody Gakpo,exact,11,FW,False,50,21,Liverpool,1999-05-07,1999-05-07,OK
+p_ned_mats_wieffer_8187d609,Netherlands,Mats Wieffer,Mats Wieffer,exact,12,DF,False,15,1,Brighton & Hove Albion,1999-11-16,1999-11-16,OK
+p_ned_robin_roefs_c5811ebf,Netherlands,Robin Roefs,Robin Roefs,exact,13,GK,False,1,0,Sunderland,2003-01-17,2003-01-17,OK
+p_ned_tijjani_reijnders_9f40a1a3,Netherlands,Tijjani Reijnders,Tijjani Reijnders,exact,14,MF,False,32,7,Manchester City,1998-07-29,1998-07-29,OK
+p_ned_micky_van_de_ven_d7e820b9,Netherlands,Micky van de Ven,Micky van de Ven,exact,15,DF,False,21,1,Tottenham Hotspur,2001-04-19,2001-04-19,OK
+p_ned_guus_til_a8ea1db8,Netherlands,Guus Til,Guus Til,exact,16,MF,False,7,1,PSV Eindhoven,1997-12-22,1997-12-22,OK
+p_ned_noa_lang_6a796b45,Netherlands,Noa Lang,Noa Lang,exact,17,FW,False,15,3,Galatasaray,1999-06-17,1999-06-17,OK
+p_ned_donyell_malen_3a8fc490,Netherlands,Donyell Malen,Donyell Malen,exact,18,FW,False,53,13,Roma,1999-01-19,1999-01-19,OK
+p_ned_brian_brobbey_d99edca5,Netherlands,Brian Brobbey,Brian Brobbey,exact,19,FW,False,12,1,Sunderland,2002-02-01,2002-02-01,OK
+p_ned_teun_koopmeiners_ffcf8621,Netherlands,Teun Koopmeiners,Teun Koopmeiners,exact,20,MF,False,28,3,Juventus,1998-02-28,1998-02-28,OK
+p_ned_frenkie_de_jong_506d8270,Netherlands,Frenkie de Jong,Frenkie de Jong,exact,21,MF,False,66,2,Barcelona,1997-05-12,1997-05-12,OK
+p_ned_denzel_dumfries_5ed0ea47,Netherlands,Denzel Dumfries,Denzel Dumfries,exact,22,DF,False,72,11,Inter Milan,1996-04-18,1996-04-18,OK
+p_ned_mark_flekken_274f228e,Netherlands,Mark Flekken,Mark Flekken,exact,23,GK,False,12,0,Bayer Leverkusen,1993-06-13,1993-06-13,OK
+p_ned_crysencio_summerville_5c5b575d,Netherlands,Crysencio Summerville,Crysencio Summerville,exact,24,FW,False,2,0,West Ham United,2001-10-30,2001-10-30,OK
+p_ned_jorrel_hato_3e44047b,Netherlands,Jorrel Hato,Jorrel Hato,exact,25,DF,False,8,0,Chelsea,2006-03-07,2006-03-07,OK
+p_ned_quinten_timber_b5f8e096,Netherlands,Quinten Timber,Quinten Timber,exact,26,MF,False,11,1,Marseille,2001-06-17,2001-06-17,OK
+p_nzl_max_crocombe_9b736de0,New Zealand,Max Crocombe,Max Crocombe,exact,1,GK,False,24,0,Millwall,1993-08-12,1993-08-12,OK
+p_nzl_tim_payne_b32f45a4,New Zealand,Tim Payne,Tim Payne,exact,2,DF,False,51,3,Wellington Phoenix,1994-01-10,1994-01-10,OK
+p_nzl_francis_de_vries_c9af7d52,New Zealand,Francis De Vries,Francis de Vries,exact,3,DF,False,20,1,Auckland FC,1994-11-28,1994-11-28,OK
+p_nzl_tyler_bindon_5a9cfd46,New Zealand,Tyler Bindon,Tyler Bindon,exact,4,DF,False,25,3,Sheffield United,2005-01-27,2005-01-27,OK
+p_nzl_michael_boxall_37cfecac,New Zealand,Michael Boxall,Michael Boxall,exact,5,DF,False,63,1,Minnesota United FC,1988-08-18,1988-08-18,OK
+p_nzl_joe_bell_b6fb39cf,New Zealand,Joe Bell,Joe Bell,exact,6,MF,False,32,1,Viking,1999-04-27,1999-04-27,OK
+p_nzl_marko_stamenic_e9419bd4,New Zealand,Marko Stamenic,Marko Stamenić,exact,8,MF,False,39,3,Swansea City,2002-02-19,2002-02-19,OK
+p_nzl_chris_wood_a3d282b2,New Zealand,Chris Wood,Chris Wood,exact,9,FW,True,90,45,Nottingham Forest,1991-12-07,1991-12-07,OK
+p_nzl_sarpreet_singh_84ea63e4,New Zealand,Sarpreet Singh,Sarpreet Singh,exact,10,MF,False,28,3,Wellington Phoenix,1999-02-20,1999-02-20,OK
+p_nzl_eli_just_334179f3,New Zealand,Elijah Just,Elijah Just,exact,11,MF,False,44,9,Motherwell,2000-05-01,2000-05-01,OK
+p_nzl_alex_paulsen_484818e3,New Zealand,Alex Paulsen,Alex Paulsen,exact,12,GK,False,8,0,Lechia Gdańsk,2002-07-04,2002-07-04,OK
+p_nzl_liberato_cacace_48269594,New Zealand,Liberato Cacace,Liberato Cacace,exact,13,DF,False,37,1,Wrexham,2000-09-27,2000-09-27,OK
+p_nzl_alex_rufer_2397219e,New Zealand,Alex Rufer,Alex Rufer,exact,14,MF,False,26,0,Wellington Phoenix,1996-06-12,1996-06-12,OK
+p_nzl_nando_pijnaker_e39631da,New Zealand,Nando Pijnaker,Nando Pijnaker,exact,15,DF,False,25,0,Auckland FC,1999-02-25,1999-02-25,OK
+p_nzl_finn_surman_128f933a,New Zealand,Finn Surman,Finn Surman,exact,16,DF,False,19,2,Portland Timbers,2003-09-23,2003-09-23,OK
+p_nzl_kosta_barbarouses_9c19e14d,New Zealand,Kosta Barbarouses,Kosta Barbarouses,exact,17,FW,False,76,10,Western Sydney Wanderers,1990-02-19,1990-02-19,OK
+p_nzl_ben_waine_a8769b23,New Zealand,Ben Waine,Ben Waine,exact,18,FW,False,31,9,Port Vale,2001-06-11,2001-06-11,OK
+p_nzl_ben_old_65a24b78,New Zealand,Ben Old,Ben Old,exact,19,MF,False,24,2,Saint-Étienne,2002-08-13,2002-08-13,OK
+p_nzl_callum_mccowatt_bdb3ef62,New Zealand,Callum McCowatt,Callum McCowatt,exact,20,MF,False,32,4,Silkeborg,1999-04-30,1999-04-30,OK
+p_nzl_jesse_randall_e9de5817,New Zealand,Jesse Randall,Jesse Randall,exact,21,FW,False,11,2,Auckland FC,2002-08-19,2002-08-19,OK
+p_nzl_michael_woud_74d3c5ee,New Zealand,Michael Woud,Michael Woud,exact,22,GK,False,6,0,Auckland FC,1999-01-16,1999-01-16,OK
+p_nzl_ryan_thomas_c155ade5,New Zealand,Ryan Thomas,Ryan Thomas,exact,23,MF,False,25,3,PEC Zwolle,1994-12-20,1994-12-20,OK
+p_nzl_callan_elliot_a606bb00,New Zealand,Callan Elliot,Callan Elliot,exact,24,DF,False,11,0,Auckland FC,1999-07-07,1999-07-07,OK
+p_nzl_lachlan_bayliss_060f8afa,New Zealand,Lachlan Bayliss,Lachlan Bayliss,exact,25,MF,False,4,0,Newcastle Jets,2002-07-24,2002-07-24,OK
+p_nzl_tommy_smith_eddfc930,New Zealand,Tommy Smith,Tommy Smith,exact,26,DF,False,56,2,Braintree Town,1990-03-31,1990-03-31,OK
+p_nor_rjan_nyland_2dbf8b2e,Norway,Ørjan Nyland,Ørjan Nyland,exact,1,GK,False,71,0,Sevilla,1990-09-10,1990-09-10,OK
+p_nor_morten_thorsby_7f59cd96,Norway,Morten Thorsby,Morten Thorsby,exact,2,MF,False,31,0,Cremonese,1996-05-05,1996-05-05,OK
+p_nor_kristoffer_ajer_2a2d5159,Norway,Kristoffer Ajer,Kristoffer Ajer,exact,3,DF,False,52,2,Brentford,1998-04-17,1998-04-17,OK
+p_nor_leo_stigard_2b05eecd,Norway,Leo Østigård,Leo Østigård,exact,4,DF,False,38,1,Genoa,1999-11-28,1999-11-28,OK
+p_nor_david_mller_wolfe_ee82ecf0,Norway,David Møller Wolfe,David Møller Wolfe,exact,5,DF,False,22,1,Wolverhampton Wanderers,2002-04-23,2002-04-23,OK
+p_nor_patrick_berg_0f63566f,Norway,Patrick Berg,Patrick Berg,exact,6,MF,False,43,0,Bodø/Glimt,1997-11-24,1997-11-24,OK
+p_nor_alexander_srloth_4e6e1e0b,Norway,Alexander Sørloth,Alexander Sørloth,exact,7,FW,False,72,26,Atlético Madrid,1995-12-05,1995-12-05,OK
+p_nor_sander_berge_ffc0d963,Norway,Sander Berge,Sander Berge,exact,8,MF,False,66,1,Fulham,1998-02-14,1998-02-14,OK
+p_nor_erling_haaland_8dd12d34,Norway,Erling Haaland,Erling Haaland,exact,9,FW,False,50,55,Manchester City,2000-07-21,2000-07-21,OK
+p_nor_martin_degaard_a56842f6,Norway,Martin Ødegaard,Martin Ødegaard,exact,10,MF,True,68,5,Arsenal,1998-12-17,1998-12-17,OK
+p_nor_jrgen_strand_larsen_79008d85,Norway,Jørgen Strand Larsen,Jørgen Strand Larsen,exact,11,FW,False,28,6,Crystal Palace,2000-02-06,2000-02-06,OK
+p_nor_sander_tangvik_493d3d56,Norway,Sander Tangvik,Sander Tangvik,exact,12,GK,False,0,0,Hamburger SV,2002-11-29,2002-11-29,OK
+p_nor_egil_selvik_9a4e6ec6,Norway,Egil Selvik,Egil Selvik,exact,13,GK,False,7,0,Watford,1997-07-30,1997-07-30,OK
+p_nor_fredrik_aursnes_af090b77,Norway,Fredrik Aursnes,Fredrik Aursnes,exact,14,MF,False,22,1,Benfica,1995-12-10,1995-12-10,OK
+p_nor_fredrik_andre_bjrkan_37f8fc86,Norway,Fredrik André Bjørkan,Fredrik André Bjørkan,exact,15,DF,False,21,1,Bodø/Glimt,1998-08-21,1998-08-21,OK
+p_nor_marcus_pedersen_469304e0,Norway,Marcus Holmgren Pedersen,Marcus Holmgren Pedersen,exact,16,DF,False,32,0,Torino,2000-07-16,2000-07-16,OK
+p_nor_torbjrn_heggem_9c8bd1e0,Norway,Torbjørn Heggem,Torbjørn Heggem,exact,17,DF,False,15,0,Bologna,1999-01-12,1999-01-12,OK
+p_nor_kristian_thorstvedt_bb6b964a,Norway,Kristian Thorstvedt,Kristian Thorstvedt,exact,18,MF,False,37,4,Sassuolo,1999-03-13,1999-03-13,OK
+p_nor_thelo_aasgaard_c53f9e81,Norway,Thelo Aasgaard,Thelo Aasgaard,exact,19,MF,False,8,5,Rangers,2002-05-02,2002-05-02,OK
+p_nor_antonio_nusa_81417d06,Norway,Antonio Nusa,Antonio Nusa,exact,20,MF,False,24,8,RB Leipzig,2005-04-17,2005-04-17,OK
+p_nor_andreas_schjelderup_691edfe3,Norway,Andreas Schjelderup,Andreas Schjelderup,exact,21,MF,False,12,1,Benfica,2004-06-01,2004-06-01,OK
+p_nor_oscar_bobb_af804bdb,Norway,Oscar Bobb,Oscar Bobb,exact,22,MF,False,20,2,Fulham,2003-07-12,2003-07-12,OK
+p_nor_jens_petter_hauge_b4fbb364,Norway,Jens Petter Hauge,Jens Petter Hauge,exact,23,MF,False,15,1,Bodø/Glimt,1999-10-12,1999-10-12,OK
+p_nor_sondre_langas_2327cc97,Norway,Sondre Langås,Sondre Langås,exact,24,DF,False,3,0,Derby County,2001-02-02,2001-02-02,OK
+p_nor_henrik_falchener_17c87246,Norway,Henrik Falchener,Henrik Falchener,exact,25,DF,False,1,0,Viking,2003-05-08,2003-05-08,OK
+p_nor_julian_ryerson_8e11cbd8,Norway,Julian Ryerson,Julian Ryerson,exact,26,DF,False,43,1,Borussia Dortmund,1997-11-17,1997-11-17,OK
+p_pan_luis_mejia_81cccffb,Panama,Luis Mejía,Luis Mejía,exact,1,GK,False,56,0,Nacional,1991-03-16,1991-03-16,OK
+p_pan_cesar_blackman_10f6339c,Panama,César Blackman,César Blackman,exact,2,DF,False,40,3,Slovan Bratislava,1998-04-02,1998-04-02,OK
+p_pan_jose_cordoba_5e989cc4,Panama,José Córdoba,José Córdoba,exact,3,DF,False,32,1,Norwich City,2001-03-06,2001-06-03,MISMATCH
+p_pan_fidel_escobar_e7bf7a21,Panama,Fidel Escobar,Fidel Escobar,exact,4,DF,False,99,4,Saprissa,1995-01-09,1995-01-09,OK
+p_pan_edgardo_farina_fbbc0630,Panama,Edgardo Fariña,Edgardo Fariña,exact,5,DF,False,18,0,Pari Nizhny Novgorod,2001-10-19,2001-10-19,OK
+p_pan_cristian_martinez_728431b8,Panama,Cristian Martínez,Cristian Martínez,exact,6,MF,False,66,2,Ironi Kiryat Shmona,1997-02-06,1997-02-06,OK
+p_pan_jose_luis_rodriguez_9c3acc7f,Panama,José Luis Rodríguez,José Luis Rodríguez,exact,7,MF,False,70,8,Juárez,1998-06-19,1998-06-19,OK
+p_pan_adalberto_carrasquilla_09a610eb,Panama,Adalberto Carrasquilla,Adalberto Carrasquilla,exact,8,MF,False,73,3,Pumas UNAM,1998-11-28,1998-11-28,OK
+p_pan_tomas_rodriguez_b4db0276,Panama,Tomás Rodríguez,Tomás Rodríguez,exact,9,FW,False,13,4,Saprissa,1999-03-09,1999-03-09,OK
+p_pan_ismael_diaz_8352c19e,Panama,Ismael Díaz,Ismael Díaz,exact,10,MF,False,57,17,León,1997-05-12,1997-05-12,OK
+p_pan_yoel_barcenas_cfb422ce,Panama,Yoel Bárcenas,Yoel Bárcenas,exact,11,MF,False,104,10,Mazatlán,1993-10-23,1993-10-23,OK
+p_pan_cesar_samudio_51e540e4,Panama,César Samudio,César Samudio,exact,12,GK,False,5,0,Marathón,1994-03-26,1994-02-23,MISMATCH
+p_pan_jiovany_ramos_03a449db,Panama,Jiovany Ramos,Jiovany Ramos,exact,13,DF,False,23,2,Puerto Cabello,1997-01-26,1997-01-26,OK
+p_pan_carlos_harvey_6940f7e7,Panama,Carlos Harvey,Carlos Harvey,exact,14,DF,False,28,3,Minnesota United FC,2000-02-03,2000-02-03,OK
+p_pan_eric_davis_6aae02da,Panama,Éric Davis,Eric Davis,exact,15,DF,False,107,9,Plaza Amador,1991-03-31,1991-03-31,OK
+p_pan_andres_andrade_fecf430d,Panama,Andrés Andrade,Andrés Andrade,exact,16,DF,False,50,1,LASK,1998-10-16,1998-10-16,OK
+p_pan_jose_fajardo_25277826,Panama,José Fajardo,José Fajardo,exact,17,FW,False,68,17,Universidad Católica,1993-08-18,1993-08-18,OK
+p_pan_cecilio_waterman_c26446a3,Panama,Cecilio Waterman,Cecilio Waterman,exact,18,FW,False,55,15,Universidad de Concepción,1991-04-13,1991-04-13,OK
+p_pan_alberto_quintero_abc8a593,Panama,Alberto Quintero,Alberto Quintero,exact,19,MF,False,141,7,Plaza Amador,1987-12-18,1987-12-18,OK
+p_pan_anibal_godoy_66da4a55,Panama,Aníbal Godoy,Aníbal Godoy,exact,20,MF,True,159,4,San Diego FC,1990-02-10,1990-02-10,OK
+p_pan_cesar_yanis_68035ab8,Panama,César Yanis,César Yanis,exact,21,MF,False,56,5,Cobresal,1996-01-28,1996-01-28,OK
+p_pan_orlando_mosquera_13ae1ad6,Panama,Orlando Mosquera,Orlando Mosquera,exact,22,GK,False,48,0,Al-Fayha,1994-12-25,1994-12-25,OK
+p_pan_azarias_londono_1bebc3ea,Panama,Azarias Londoño,Azarias Londoño,exact,24,FW,False,11,0,Universidad Católica,2001-06-21,2001-06-21,OK
+p_pan_roderick_miller_31cae4f7,Panama,Roderick Miller,Roderick Miller,exact,25,DF,False,50,2,Turan Tovuz,1992-04-03,1992-04-03,OK
+p_pan_jorge_gutierrez_49c35438,Panama,Jorge Gutiérrez,Jorge Gutiérrez,exact,26,DF,False,18,0,Deportivo La Guaira,1998-09-01,1998-09-01,OK
+p_pan_amir_murillo_cfdc6520,Panama,Amir Murillo,Michael Amir Murillo,fuzzy:0.95,23,DF,False,94,9,Beşiktaş,1996-02-11,1996-02-11,OK
+p_par_gustavo_velazquez_3d4e04a0,Paraguay,Gustavo Velázquez,Gustavo Velázquez,exact,2,DF,False,13,1,Cerro Porteño,1991-04-17,1991-04-17,OK
+p_par_omar_alderete_29987932,Paraguay,Omar Alderete,Omar Alderete,exact,3,DF,False,36,3,Sunderland,1996-12-26,1996-12-26,OK
+p_par_juan_caceres_52182aba,Paraguay,Juan José Cáceres,Juan José Cáceres,exact,4,DF,False,17,0,Dynamo Moscow,2000-06-01,2000-06-01,OK
+p_par_fabian_balbuena_94556ad3,Paraguay,Fabián Balbuena,Fabián Balbuena,exact,5,DF,False,48,2,Grêmio,1991-08-23,1991-08-23,OK
+p_par_junior_alonso_e984eb93,Paraguay,Júnior Alonso,Júnior Alonso,exact,6,DF,False,71,3,Atlético Mineiro,1993-02-09,1993-02-09,OK
+p_par_ramon_sosa_d362dd10,Paraguay,Ramón Sosa,Ramón Sosa,exact,7,MF,False,29,1,Palmeiras,1999-08-31,1999-08-31,OK
+p_par_diego_gomez_3c192530,Paraguay,Diego Gómez,Diego Gómez,exact,8,MF,False,24,3,Brighton & Hove Albion,2003-03-27,2003-03-27,OK
+p_par_antonio_sanabria_1710832e,Paraguay,Antonio Sanabria,Antonio Sanabria,exact,9,FW,False,48,7,Cremonese,1996-03-04,1996-03-04,OK
+p_par_miguel_almiron_97ef1356,Paraguay,Miguel Almirón,Miguel Almirón,exact,10,MF,False,76,10,Atlanta United FC,1994-02-10,1994-02-10,OK
+p_par_mauricio_24540669,Paraguay,Maurício,Maurício,exact,11,MF,False,3,0,Palmeiras,2001-06-22,2001-06-22,OK
+p_par_orlando_gill_7aa70d28,Paraguay,Orlando Gill,Orlando Gill,exact,12,GK,False,6,0,San Lorenzo,2000-06-11,2000-06-11,OK
+p_par_jose_canale_3cfd4298,Paraguay,Jose Canale,José Canale,exact,13,DF,False,2,0,Lanús,1996-07-20,1996-07-20,OK
+p_par_andres_cubas_23543da5,Paraguay,Andrés Cubas,Andrés Cubas,exact,14,MF,False,33,0,Vancouver Whitecaps FC,1996-06-22,1996-05-11,MISMATCH
+p_par_gustavo_gomez_15ac3be9,Paraguay,Gustavo Gómez,Gustavo Gómez,exact,15,DF,True,89,4,Palmeiras,1993-05-06,1993-05-06,OK
+p_par_damian_bobadilla_d7883f3b,Paraguay,Damián Bobadilla,Damián Bobadilla,exact,16,MF,False,19,1,São Paulo,2001-07-11,2001-07-11,OK
+p_par_kaku_1e07c4b6,Paraguay,Kaku,Kaku,exact,17,FW,False,33,6,Al Ain,1995-01-11,1995-01-11,OK
+p_par_alex_arce_256e3298,Paraguay,Alex Arce,Álex Arce,exact,18,FW,False,15,1,Independiente Rivadavia,1995-06-16,1995-06-16,OK
+p_par_julio_enciso_d5119c91,Paraguay,Julio Enciso,Julio Enciso,exact,19,FW,False,32,4,Strasbourg,2004-01-23,2004-01-23,OK
+p_par_braian_ojeda_8a697e94,Paraguay,Braian Ojeda,Braian Ojeda,exact,20,MF,False,17,0,Orlando City SC,2000-06-27,2000-06-27,OK
+p_par_gabriel_avalos_3d7a0590,Paraguay,Gabriel Ávalos,Gabriel Ávalos,exact,21,FW,False,23,2,Independiente,1990-10-12,1991-07-09,MISMATCH
+p_par_gaston_olveira_b6ce3950,Paraguay,Gastón Olveira,Gastón Olveira,exact,22,GK,False,1,0,Olimpia,1993-04-21,1993-04-21,OK
+p_par_matias_galarza_d7b606d1,Paraguay,Matías Galarza,Matías Galarza,exact,23,MF,False,15,3,Atlanta United FC,2002-02-11,2002-02-11,OK
+p_par_gustavo_caballero_c06c1dcd,Paraguay,Gustavo Caballero,Gustavo Caballero,exact,24,MF,False,2,1,Portsmouth,2001-09-21,2001-09-21,OK
+p_par_isidro_pitta_5f7fc8a3,Paraguay,Isidro Pitta,Isidro Pitta,exact,25,FW,False,5,0,Red Bull Bragantino,1999-08-14,1999-08-14,OK
+p_par_alexandro_maidana_1c0fb791,Paraguay,Alexandro Maidana,Alexandro Maidana,exact,26,DF,False,2,1,Talleres,2005-07-26,2005-07-26,OK
+p_par_roberto_fernandez_ce3a140a,Paraguay,Roberto Júnior Fernández Torres,Gatito Fernández,fuzzy:0.95,1,GK,False,31,0,Cerro Porteño,1988-03-29,1988-03-29,OK
+p_por_diogo_costa_f79c6507,Portugal,Diogo Costa,Diogo Costa,exact,1,GK,False,43,0,Porto,1999-09-19,1999-09-19,OK
+p_por_nelson_semedo_c6670ea2,Portugal,Nélson Semedo,Nélson Semedo,exact,2,DF,False,50,0,Fenerbahçe,1993-11-16,1993-11-16,OK
+p_por_ruben_dias_03318c1c,Portugal,Rúben Dias,Rúben Dias,exact,3,DF,False,76,3,Manchester City,1997-05-14,1997-05-14,OK
+p_por_tomas_araujo_48300d70,Portugal,Tomás Araújo,Tomás Araújo,exact,4,DF,False,5,0,Benfica,2002-05-16,2002-05-16,OK
+p_por_diogo_dalot_50ac8237,Portugal,Diogo Dalot,Diogo Dalot,exact,5,DF,False,35,3,Manchester United,1999-03-18,1999-03-18,OK
+p_por_matheus_nunes_9c5b063f,Portugal,Matheus Nunes,Matheus Nunes,exact,6,MF,False,20,2,Manchester City,1998-08-27,1998-08-27,OK
+p_por_cristiano_ronaldo_f2d7c6b3,Portugal,Cristiano Ronaldo,Cristiano Ronaldo,exact,7,FW,True,228,143,Al-Nassr,1985-02-05,1985-02-05,OK
+p_por_bruno_fernandes_39e06934,Portugal,Bruno Fernandes,Bruno Fernandes,exact,8,MF,False,89,29,Manchester United,1994-09-08,1994-09-08,OK
+p_por_goncalo_ramos_99ad3a78,Portugal,Gonçalo Ramos,Gonçalo Ramos,exact,9,FW,False,25,10,Paris Saint-Germain,2001-06-20,2001-06-20,OK
+p_por_bernardo_silva_27e75e3e,Portugal,Bernardo Silva,Bernardo Silva,exact,10,MF,False,109,14,Manchester City,1994-08-10,1994-08-10,OK
+p_por_joao_felix_b727707a,Portugal,João Félix,João Félix,exact,11,FW,False,54,12,Al-Nassr,1999-11-10,1999-11-10,OK
+p_por_jose_sa_28ba6253,Portugal,José Sá,José Sá,exact,12,GK,False,5,0,Wolverhampton Wanderers,1993-01-17,1993-01-17,OK
+p_por_renato_veiga_f7fd67f2,Portugal,Renato Veiga,Renato Veiga,exact,13,DF,False,13,1,Villarreal,2003-07-29,2003-07-29,OK
+p_por_goncalo_inacio_dfd84d89,Portugal,Gonçalo Inacio,Gonçalo Inácio,exact,14,DF,False,22,2,Sporting CP,2001-08-25,2001-08-25,OK
+p_por_joao_neves_068e5539,Portugal,João Neves,João Neves,exact,15,MF,False,22,3,Paris Saint-Germain,2004-09-27,2004-09-27,OK
+p_por_francisco_trincao_7fa80efa,Portugal,Francisco Trincão,Francisco Trincão,exact,16,FW,False,18,3,Sporting CP,1999-12-29,1999-12-29,OK
+p_por_rafael_leao_a7f10c77,Portugal,Rafael Leão,Rafael Leão,exact,17,FW,False,44,5,Milan,1999-06-10,1999-06-10,OK
+p_por_pedro_neto_58ef9265,Portugal,Pedro Neto,Pedro Neto,exact,18,FW,False,25,3,Chelsea,2000-03-09,2000-03-09,OK
+p_por_goncalo_guedes_fd0cda11,Portugal,Gonçalo Guedes,Gonçalo Guedes,exact,19,FW,False,34,8,Real Sociedad,1996-11-29,1996-11-29,OK
+p_por_joao_cancelo_f93f48d5,Portugal,João Cancelo,João Cancelo,exact,20,DF,False,68,12,Barcelona,1994-05-27,1994-05-27,OK
+p_por_ruben_neves_7dfd12f0,Portugal,Rúben Neves,Rúben Neves,exact,21,MF,False,67,1,Al-Hilal,1997-03-13,1997-03-13,OK
+p_por_rui_silva_dba41a0e,Portugal,Rui Silva,Rui Silva,exact,22,GK,False,3,0,Sporting CP,1994-02-07,1994-02-07,OK
+p_por_vitinha_51bc84d2,Portugal,Vitinha,Vitinha,exact,23,MF,False,38,0,Paris Saint-Germain,2000-02-13,2000-02-13,OK
+p_por_samu_costa_1ce43354,Portugal,Samú Costa,Samú Costa,exact,24,DF,False,6,0,Mallorca,2000-11-27,2000-11-27,OK
+p_por_nuno_mendes_7c66d939,Portugal,Nuno Mendes,Nuno Mendes,exact,25,DF,False,44,1,Paris Saint-Germain,2002-06-19,2002-06-19,OK
+p_por_francisco_conceicao_40abfb02,Portugal,Francisco Conceição,Francisco Conceição,exact,26,FW,False,17,4,Juventus,2002-12-14,2002-12-14,OK
+p_qat_pedro_miguel_d2f653ff,Qatar,Pedro Miguel,Pedro Miguel,exact,2,DF,False,105,3,Al-Sadd,1990-08-06,1990-08-06,OK
+p_qat_lucas_mendes_6e398990,Qatar,Lucas Mendes,Lucas Mendes,exact,3,DF,False,25,1,Al-Wakrah,1990-07-03,1990-07-03,OK
+p_qat_issa_laye_12b58964,Qatar,Issa Laye,Issa Laye,exact,4,DF,False,4,0,Al-Arabi,1997-12-22,1997-12-22,OK
+p_qat_jassim_gaber_e21b11b5,Qatar,Jassem Gaber,Jassem Gaber,exact,5,DF,False,32,1,Al-Rayyan,2002-02-20,2002-02-20,OK
+p_qat_abdulaziz_hatem_1df7c78b,Qatar,Abdulaziz Hatem,Abdulaziz Hatem,exact,6,MF,False,119,11,Al-Rayyan,1990-10-28,1990-01-01,MISMATCH
+p_qat_edmilson_junior_fd36f4dc,Qatar,Edmílson Junior,Edmilson Junior,exact,8,FW,False,16,0,Al-Duhail,1994-08-19,1994-08-19,OK
+p_qat_mohammed_muntari_0cc96fcf,Qatar,Mohammed Muntari,Mohammed Muntari,exact,9,FW,False,67,16,Al-Gharafa,1993-12-20,1993-12-20,OK
+p_qat_hassan_al_haydos_7964c3fe,Qatar,Hassan Al-Haydos,Hassan Al-Haydos,exact,10,FW,True,186,41,Al-Sadd,1990-12-11,1990-12-11,OK
+p_qat_akram_afif_064f2846,Qatar,Akram Afif,Akram Afif,exact,11,FW,False,125,39,Al-Sadd,1996-11-18,1996-11-18,OK
+p_qat_karim_boudiaf_57d704fd,Qatar,Karim Boudiaf,Karim Boudiaf,exact,12,MF,False,118,5,Al-Duhail,1990-09-16,1990-09-16,OK
+p_qat_ayoub_al_alawi_6dd2354d,Qatar,Ayoub Al-Oui,Ayoub Al-Oui,exact,13,DF,False,6,0,Al-Gharafa,2005-03-11,2005-03-11,OK
+p_qat_yusuf_abdurisag_f1f3a249,Qatar,Yusuf Abdurisag,Yusuf Abdurisag,exact,15,FW,False,39,3,Al-Wakrah,1999-08-06,1999-08-06,OK
+p_qat_boualem_khoukhi_344ecfb2,Qatar,Boualem Khoukhi,Boualem Khoukhi,exact,16,DF,False,116,20,Al-Sadd,1990-07-09,1990-07-09,OK
+p_qat_ahmed_al_ganehi_52152103,Qatar,Ahmed Al-Ganehi,Ahmed Al-Ganehi,exact,17,MF,False,13,1,Al-Gharafa,2000-09-22,2000-09-22,OK
+p_qat_sultan_al_brake_407121a6,Qatar,Sultan Al Brake,Sultan Al-Brake,exact,18,DF,False,17,0,Al-Duhail,1996-04-07,1996-04-07,OK
+p_qat_almoez_ali_68112fbe,Qatar,Almoez Ali,Almoez Ali,exact,19,FW,False,115,55,Al-Duhail,1996-08-19,1996-08-19,OK
+p_qat_salah_zakaria_06bc91ac,Qatar,Salah Zakaria,Salah Zakaria,exact,21,GK,False,8,0,Al-Duhail,1999-04-24,1999-04-24,OK
+p_qat_meshaal_barsham_8e6c8b1b,Qatar,Meshaal Barsham,Meshaal Barsham,exact,22,GK,False,52,0,Al-Sadd,1998-02-14,1998-02-14,OK
+p_qat_assim_madibo_5500c512,Qatar,Assim Madibo,Assim Madibo,exact,23,MF,False,51,0,Al-Wakrah,1996-10-22,1996-10-22,OK
+p_qat_al_hashmi_al_hussain_18ea1300,Qatar,Al-Hashmi Al-Hussain,Al-Hashmi Al-Hussain,exact,25,DF,False,8,0,Al-Arabi,2003-08-15,2003-08-15,OK
+p_qat_mohammed_mannai_56f09e90,Qatar,Mohamed Manai,Mohamed Manai,exact,26,FW,False,10,0,Al-Shamal,2002-10-25,2002-10-25,OK
+p_qat_mahmoud_abunada_b9d0a3c8,Qatar,Mahmoud Abunada,Mahmud Abunada,fuzzy:0.97,1,GK,False,6,0,Al-Rayyan,2000-02-05,2000-02-05,OK
+p_qat_ahmed_alaa_9687a16a,Qatar,Ahmed Alaa,Ahmed Alaaeldin,fuzzy:0.95,7,FW,False,68,9,Al-Rayyan,1993-01-31,1993-01-31,OK
+p_qat_homam_al_amin_5998ff2f,Qatar,Homam Al-Amin,Homam Ahmed,fuzzy:0.95,14,DF,False,68,3,Cultural Leonesa,1999-08-25,1999-08-25,OK
+p_qat_ahmed_fathi_80feb52e,Qatar,Ahmed Fathi,Ahmed Fathy,fuzzy:0.95,20,MF,False,48,0,Al-Arabi,1993-01-25,1993-01-25,OK
+p_qat_tahsin_mohammed_41593ac8,Qatar,Tahsin Mohammed Jamshid,Tahsin Jamshid,fuzzy:0.95,24,FW,False,3,0,Al-Duhail,2006-06-16,2006-06-16,OK
+p_ksa_nawaf_al_aqidi_d0e97068,Saudi Arabia,Nawaf Al Aqidi,Nawaf Al-Aqidi,exact,1,GK,False,24,0,Al-Nassr,2000-05-10,2000-05-10,OK
+p_ksa_ali_majrashi_f27c8815,Saudi Arabia,Ali Majrashi,Ali Majrashi,exact,2,DF,False,21,0,Al-Ahli,1999-10-01,1999-10-02,MISMATCH
+p_ksa_ali_lajami_81d185fd,Saudi Arabia,Ali Lajami,Ali Lajami,exact,3,DF,False,24,1,Al-Hilal,1996-04-25,1996-04-24,MISMATCH
+p_ksa_abdulelah_al_amri_ff89b489,Saudi Arabia,Abdulelah Al Amri,Abdulelah Al-Amri,exact,4,DF,False,44,1,Al-Nassr,1997-01-15,1997-01-15,OK
+p_ksa_nasser_al_dawsari_b09d4811,Saudi Arabia,Nasser Al Dawsari,Nasser Al-Dawsari,exact,6,MF,False,47,1,Al-Hilal,1998-12-19,1998-12-19,OK
+p_ksa_musab_al_juwayr_6725ea56,Saudi Arabia,Musab Al Juwayr,Musab Al-Juwayr,exact,7,MF,False,37,6,Al-Qadsiah,2003-06-20,2003-06-20,OK
+p_ksa_ayman_yahya_a2cd67a1,Saudi Arabia,Ayman Yahya,Ayman Yahya,exact,8,FW,False,26,0,Al-Nassr,2001-05-14,2001-05-14,OK
+p_ksa_firas_al_buraikan_aaec0383,Saudi Arabia,Firas Al Buraikan,Firas Al-Buraikan,exact,9,FW,False,72,16,Al-Ahli,2000-05-14,2000-05-14,OK
+p_ksa_salem_al_dawsari_89ba5da9,Saudi Arabia,Salem Al Dawsari,Salem Al-Dawsari,exact,10,FW,True,111,27,Al-Hilal,1991-08-19,1991-08-19,OK
+p_ksa_saleh_al_shehri_f0162952,Saudi Arabia,Saleh Al Shehri,Saleh Al-Shehri,exact,11,FW,False,59,17,Al-Ittihad,1993-11-01,1993-11-01,OK
+p_ksa_saud_abdulhamid_280fdc73,Saudi Arabia,Saud Abdulhamid,Saud Abdulhamid,exact,12,DF,False,55,1,Lens,1999-07-18,1999-07-18,OK
+p_ksa_nawaf_boushal_d86dd21f,Saudi Arabia,Nawaf Boushal,Nawaf Boushal,exact,13,DF,False,27,0,Al-Nassr,1999-09-16,1999-09-16,OK
+p_ksa_hassan_kadesh_2de89b9c,Saudi Arabia,Hassan Kadesh,Hassan Kadesh,exact,14,DF,False,21,2,Al-Ittihad,1992-09-26,1992-09-26,OK
+p_ksa_abdullah_al_khaibari_342f38bd,Saudi Arabia,Abdullah Al Khaibari,Abdullah Al-Khaibari,exact,15,MF,False,42,0,Al-Nassr,1996-08-16,1996-08-16,OK
+p_ksa_ziyad_al_johani_3dfbe657,Saudi Arabia,Ziyad Al Johani,Ziyad Al-Johani,exact,16,MF,False,12,0,Al-Ahli,2001-11-11,2001-11-11,OK
+p_ksa_khalid_al_ghannam_b44eecee,Saudi Arabia,Khalid Al Ghannam,Khalid Al-Ghannam,exact,17,FW,False,7,0,Al-Ettifaq,2000-11-07,2000-11-08,MISMATCH
+p_ksa_abdullah_al_hamdan_e6c2e57f,Saudi Arabia,Abdullah Al Hamdan,Abdullah Al-Hamdan,exact,19,FW,False,52,13,Al-Nassr,1999-09-12,1999-09-13,MISMATCH
+p_ksa_mohammed_al_owais_503d89a6,Saudi Arabia,Mohammed Al Owais,Mohammed Al-Owais,exact,21,GK,False,65,0,Al-Ula,1991-10-10,1991-10-10,OK
+p_ksa_ahmed_al_kassar_8fc0426f,Saudi Arabia,Ahmed Al Kassar,Ahmed Al-Kassar,exact,22,GK,False,9,0,Al-Qadsiah,1991-05-08,1991-05-08,OK
+p_ksa_moteb_al_harbi_e138f807,Saudi Arabia,Moteb Al Harbi,Moteb Al-Harbi,exact,24,DF,False,13,0,Al-Hilal,2000-02-19,2000-02-20,MISMATCH
+p_ksa_jehad_thikri_f840add2,Saudi Arabia,Jehad Thakri,Jehad Thakri,exact,25,DF,False,8,0,Al-Qadsiah,2001-07-21,2001-07-21,OK
+p_ksa_mohammed_abu_al_shamat_9200f73e,Saudi Arabia,Mohammed Abu Al Shamat,Mohammed Abu Al-Shamat,exact,26,DF,False,8,0,Al-Qadsiah,2002-08-11,2002-08-11,OK
+p_ksa_hassan_tambakti_75c262c0,Saudi Arabia,Hassan Tambakti,Hassan Al-Tambakti,fuzzy:0.95,5,DF,False,54,1,Al-Hilal,1999-02-09,1999-02-09,OK
+p_ksa_alaa_al_hajji_7835ad30,Saudi Arabia,Alaa Al Hajji,Alaa Al-Hejji,fuzzy:0.95,18,MF,False,3,0,Neom,1995-12-03,1995-12-03,OK
+p_ksa_mohammed_kanno_4ab9d092,Saudi Arabia,Mohammed Kanno,Mohamed Kanno,fuzzy:0.96,23,MF,False,79,8,Al-Hilal,1994-09-22,1994-09-22,OK
+p_sco_angus_gunn_891fa04c,Scotland,Angus Gunn,Angus Gunn,exact,1,GK,False,22,0,Nottingham Forest,1996-01-22,1996-01-22,OK
+p_sco_aaron_hickey_923038a5,Scotland,Aaron Hickey,Aaron Hickey,exact,2,DF,False,21,0,Brentford,2002-06-10,2002-06-10,OK
+p_sco_andy_robertson_6d65a602,Scotland,Andy Robertson,Andy Robertson,exact,3,DF,True,94,4,Liverpool,1994-03-11,1994-03-11,OK
+p_sco_scott_mctominay_66d2f7cf,Scotland,Scott McTominay,Scott McTominay,exact,4,MF,False,70,15,Napoli,1996-12-08,1996-12-08,OK
+p_sco_grant_hanley_f7710f4b,Scotland,Grant Hanley,Grant Hanley,exact,5,DF,False,68,2,Hibernian,1991-11-20,1991-11-20,OK
+p_sco_kieran_tierney_75ec1db6,Scotland,Kieran Tierney,Kieran Tierney,exact,6,DF,False,56,2,Celtic,1997-06-05,1997-06-05,OK
+p_sco_john_mcginn_be1280d7,Scotland,John McGinn,John McGinn,exact,7,MF,False,86,20,Aston Villa,1994-10-18,1994-10-18,OK
+p_sco_lyndon_dykes_c6b1e63b,Scotland,Lyndon Dykes,Lyndon Dykes,exact,9,FW,False,51,10,Charlton Athletic,1995-10-07,1995-10-07,OK
+p_sco_che_adams_e88d9b6f,Scotland,Ché Adams,Ché Adams,exact,10,FW,False,47,13,Torino,1996-07-13,1996-07-13,OK
+p_sco_ryan_christie_60f09d9e,Scotland,Ryan Christie,Ryan Christie,exact,11,MF,False,68,10,Bournemouth,1995-02-22,1995-02-22,OK
+p_sco_liam_kelly_c1331bc4,Scotland,Liam Kelly,Liam Kelly,exact,12,GK,False,3,0,Rangers,1990-02-10,1996-01-23,MISMATCH
+p_sco_jack_hendry_533b108a,Scotland,Jack Hendry,Jack Hendry,exact,13,DF,False,38,3,Al-Ettifaq,1995-05-07,1995-05-07,OK
+p_sco_ross_stewart_10079e43,Scotland,Ross Stewart,Ross Stewart,exact,14,FW,False,3,0,Southampton,1995-04-16,1996-07-11,MISMATCH
+p_sco_john_souttar_4f577a6e,Scotland,John Souttar,John Souttar,exact,15,DF,False,24,2,Rangers,1996-09-25,1996-09-25,OK
+p_sco_dom_hyam_8372632a,Scotland,Dominic Hyam,Dominic Hyam,exact,16,DF,False,4,0,Wrexham,1995-12-20,1995-12-20,OK
+p_sco_ben_gannon_doak_dc3b3caf,Scotland,Ben Gannon-Doak,Ben Gannon-Doak,exact,17,FW,False,14,1,Bournemouth,2005-11-11,2005-11-11,OK
+p_sco_george_hirst_c5d5fa29,Scotland,George Hirst,George Hirst,exact,18,FW,False,10,1,Ipswich Town,1999-02-15,1999-02-15,OK
+p_sco_lewis_ferguson_ea95fb10,Scotland,Lewis Ferguson,Lewis Ferguson,exact,19,MF,False,24,1,Bologna,1999-08-24,1999-08-24,OK
+p_sco_lawrence_shankland_c03e8909,Scotland,Lawrence Shankland,Lawrence Shankland,exact,20,FW,False,20,7,Heart of Midlothian,1995-08-10,1995-08-10,OK
+p_sco_craig_gordon_8f2c9726,Scotland,Craig Gordon,Craig Gordon,exact,21,GK,False,84,0,Heart of Midlothian,1982-12-31,1982-12-31,OK
+p_sco_nathan_patterson_e96cf00a,Scotland,Nathan Patterson,Nathan Patterson,exact,22,DF,False,26,1,Everton,2001-10-16,2001-10-16,OK
+p_sco_kenny_mclean_25cd41a4,Scotland,Kenny McLean,Kenny McLean,exact,23,MF,False,58,3,Norwich City,1992-01-08,1992-01-08,OK
+p_sco_anthony_ralston_f8b878f9,Scotland,Anthony Ralston,Anthony Ralston,exact,24,DF,False,27,1,Celtic,1998-11-16,1998-11-16,OK
+p_sco_finlay_curtis_9d5c6741,Scotland,Findlay Curtis,Findlay Curtis,exact,25,FW,False,3,1,Kilmarnock,2006-06-09,2006-06-09,OK
+p_sco_scott_mckenna_ab03a9df,Scotland,Scott McKenna,Scott McKenna,exact,26,DF,False,50,1,Dinamo Zagreb,1996-11-12,1996-11-12,OK
+p_sen_yehvann_diouf_c1354386,Senegal,Yehvann Diouf,Yehvann Diouf,exact,1,GK,False,2,0,Nice,1999-11-16,1999-11-16,OK
+p_sen_mamadou_sarr_73b25f01,Senegal,Mamadou Sarr,Mamadou Sarr,exact,2,DF,False,8,0,Chelsea,2005-08-29,2005-08-29,OK
+p_sen_kalidou_koulibaly_284f9c02,Senegal,Kalidou Koulibaly,Kalidou Koulibaly,exact,3,DF,True,104,2,Al-Hilal,1991-06-20,1991-06-20,OK
+p_sen_abdoulaye_seck_fa9e55b2,Senegal,Abdoulaye Seck,Abdoulaye Seck,exact,4,DF,False,25,4,Maccabi Haifa,1992-06-04,1992-06-04,OK
+p_sen_pathe_ciss_8a6cdcef,Senegal,Pathé Ciss,Pathé Ciss,exact,6,MF,False,30,0,Rayo Vallecano,1994-03-16,1994-03-16,OK
+p_sen_assane_diao_0f0dfab0,Senegal,Assane Diao,Assane Diao,exact,7,FW,False,5,0,Como,2005-09-07,2005-09-07,OK
+p_sen_lamine_camara_8da56cdd,Senegal,Lamine Camara,Lamine Camara,exact,8,MF,False,45,7,Monaco,2004-01-01,2004-01-01,OK
+p_sen_bamba_dieng_f49589f9,Senegal,Bamba Dieng,Bamba Dieng,exact,9,FW,False,23,2,Lorient,2000-03-23,2000-03-23,OK
+p_sen_sadio_mane_fde3a2ed,Senegal,Sadio Mané,Sadio Mané,exact,10,FW,False,128,55,Al-Nassr,1992-04-10,1992-04-10,OK
+p_sen_nicolas_jackson_624ecdb7,Senegal,Nicolas Jackson,Nicolas Jackson,exact,11,FW,False,33,8,Bayern Munich,2001-06-20,2001-06-20,OK
+p_sen_cherif_ndiaye_7d9e0658,Senegal,Cherif Ndiaye,Cherif Ndiaye,exact,12,FW,False,19,4,Samsunspor,1996-01-23,1996-01-23,OK
+p_sen_iliman_ndiaye_04ffdec0,Senegal,Iliman Ndiaye,Iliman Ndiaye,exact,13,FW,False,41,4,Everton,2000-03-06,2000-03-06,OK
+p_sen_ismail_jakobs_ee8b9fc4,Senegal,Ismail Jakobs,Ismail Jakobs,exact,14,DF,False,31,0,Galatasaray,1999-08-17,1999-08-17,OK
+p_sen_krepin_diatta_c3508620,Senegal,Krépin Diatta,Krépin Diatta,exact,15,DF,False,62,2,Monaco,1999-02-25,1999-02-25,OK
+p_sen_edouard_mendy_12d6c326,Senegal,Édouard Mendy,Édouard Mendy,exact,16,GK,False,58,0,Al-Ahli,1992-03-01,1992-03-01,OK
+p_sen_pape_matar_sarr_b4d0d243,Senegal,Pape Matar Sarr,Pape Matar Sarr,exact,17,MF,False,40,4,Tottenham Hotspur,2002-09-14,2002-09-14,OK
+p_sen_ismaila_sarr_54028aa3,Senegal,Ismaïla Sarr,Ismaïla Sarr,exact,18,FW,False,84,19,Crystal Palace,1998-02-25,1998-02-25,OK
+p_sen_moussa_niakhate_dcbbaf9b,Senegal,Moussa Niakhaté,Moussa Niakhaté,exact,19,DF,False,32,0,Lyon,1996-03-08,1996-03-08,OK
+p_sen_ibrahim_mbaye_c761f48b,Senegal,Ibrahim Mbaye,Ibrahim Mbaye,exact,20,FW,False,11,3,Paris Saint-Germain,2008-01-24,2008-01-24,OK
+p_sen_habib_diarra_28f5810c,Senegal,Habib Diarra,Habib Diarra,exact,21,MF,False,21,4,Sunderland,2004-01-03,2004-01-03,OK
+p_sen_bara_sapoko_ndiaye_36e09ebd,Senegal,Bara Sapoko Ndiaye,Bara Sapoko Ndiaye,exact,22,MF,False,1,0,Bayern Munich,2007-12-31,2007-12-31,OK
+p_sen_mory_diaw_03abd6b3,Senegal,Mory Diaw,Mory Diaw,exact,23,GK,False,5,0,Le Havre,1993-06-22,1993-06-22,OK
+p_sen_antoine_mendy_ea5f408c,Senegal,Antoine Mendy,Antoine Mendy,exact,24,DF,False,7,0,Nice,2004-05-27,2004-05-27,OK
+p_sen_el_hadji_malick_diouf_2fb2dad9,Senegal,El Hadji Malick Diouf,El Hadji Malick Diouf,exact,25,DF,False,20,1,West Ham United,2004-12-28,2004-12-29,MISMATCH
+p_sen_pape_gueye_1b557530,Senegal,Pape Gueye,Pape Gueye,exact,26,MF,False,42,5,Villarreal,1999-01-24,1999-01-24,OK
+p_sen_idrissa_gana_gueye_93254a9a,Senegal,Idrissa Gana Gueye,Idrissa Gueye,fuzzy:0.95,5,MF,False,132,7,Everton,1989-09-26,1989-09-26,OK
+p_rsa_ronwen_williams_8988314c,South Africa,Ronwen Williams,Ronwen Williams,exact,1,GK,True,62,0,Mamelodi Sundowns,1992-01-21,1992-01-21,OK
+p_rsa_thabang_matuludi_b0738f64,South Africa,Thabang Matuludi,Thabang Matuludi,exact,2,DF,False,3,0,Polokwane City,1999-01-14,1999-01-14,OK
+p_rsa_khulumani_ndamane_fbcaf768,South Africa,Khulumani Ndamane,Khulumani Ndamane,exact,3,DF,False,5,0,Mamelodi Sundowns,2004-02-05,2004-02-05,OK
+p_rsa_teboho_mokoena_f2c012d8,South Africa,Teboho Mokoena,Teboho Mokoena,exact,4,MF,False,51,9,Mamelodi Sundowns,1997-01-24,1997-01-24,OK
+p_rsa_thalente_mbatha_a316dba5,South Africa,Thalente Mbatha,Thalente Mbatha,exact,5,MF,False,15,3,Orlando Pirates,2000-03-06,2000-03-06,OK
+p_rsa_aubrey_modiba_38a51174,South Africa,Aubrey Modiba,Aubrey Modiba,exact,6,DF,False,44,3,Mamelodi Sundowns,1995-07-22,1995-07-22,OK
+p_rsa_oswin_appollis_c5b541fb,South Africa,Oswin Appollis,Oswin Appollis,exact,7,FW,False,26,8,Orlando Pirates,2001-08-25,2001-08-25,OK
+p_rsa_tshepang_moremi_49d28f3d,South Africa,Tshepang Moremi,Tshepang Moremi,exact,8,FW,False,10,1,Orlando Pirates,2000-10-02,2000-10-02,OK
+p_rsa_lyle_foster_d7794c0a,South Africa,Lyle Foster,Lyle Foster,exact,9,FW,False,27,10,Burnley,2000-09-03,2000-09-03,OK
+p_rsa_relebohile_mofokeng_c09aabfb,South Africa,Relebohile Mofokeng,Relebohile Mofokeng,exact,10,FW,False,13,0,Orlando Pirates,2004-10-23,2004-10-23,OK
+p_rsa_themba_zwane_7ea3fe91,South Africa,Themba Zwane,Themba Zwane,exact,11,MF,False,54,12,Mamelodi Sundowns,1989-08-03,1989-08-03,OK
+p_rsa_thapelo_maseko_340901ba,South Africa,Thapelo Maseko,Thapelo Maseko,exact,12,FW,False,10,1,AEL Limassol,2003-11-11,2003-11-11,OK
+p_rsa_mbekezeli_mbokazi_aab0b6aa,South Africa,Mbekezeli Mbokazi,Mbekezeli Mbokazi,exact,14,DF,False,10,1,Chicago Fire FC,2005-09-19,2005-09-19,OK
+p_rsa_iqraam_rayners_4b1217ec,South Africa,Iqraam Rayners,Iqraam Rayners,exact,15,FW,False,14,4,Mamelodi Sundowns,1995-12-19,1995-12-19,OK
+p_rsa_sipho_chaine_5123e728,South Africa,Sipho Chaine,Sipho Chaine,exact,16,GK,False,4,0,Orlando Pirates,1996-12-14,1996-12-14,OK
+p_rsa_evidence_makgopa_dcf422d1,South Africa,Evidence Makgopa,Evidence Makgopa,exact,17,FW,False,26,6,Orlando Pirates,2000-06-05,2000-06-05,OK
+p_rsa_samukelo_kabini_a3476421,South Africa,Samukele Kabini,Samukele Kabini,exact,18,DF,False,6,0,Molde,2004-03-15,2004-03-15,OK
+p_rsa_nkosinathi_sibisi_c2a232db,South Africa,Nkosinathi Sibisi,Nkosinathi Sibisi,exact,19,DF,False,20,0,Orlando Pirates,1995-05-22,1995-09-22,MISMATCH
+p_rsa_khuliso_mudau_658805c6,South Africa,Khuliso Mudau,Khuliso Mudau,exact,20,DF,False,32,1,Mamelodi Sundowns,1995-04-26,1995-04-26,OK
+p_rsa_ime_okon_4e7e2ef7,South Africa,Ime Okon,Ime Okon,exact,21,DF,False,8,1,Hannover 96,2004-02-20,2004-02-20,OK
+p_rsa_ricardo_goss_02c98ce1,South Africa,Ricardo Goss,Ricardo Goss,exact,22,GK,False,5,0,Siwelele,1994-04-02,1994-04-02,OK
+p_rsa_jayden_adams_661cd5d8,South Africa,Jayden Adams,Jayden Adams,exact,23,MF,False,5,0,Mamelodi Sundowns,2001-05-05,2001-05-05,OK
+p_rsa_olwethu_makhanya_4966d327,South Africa,Olwethu Makhanya,Olwethu Makhanya,exact,24,DF,False,1,0,Philadelphia Union,2004-04-30,2004-04-30,OK
+p_rsa_kamgogelo_sebelebele_dafaac5f,South Africa,Kamogelo Sebelebele,Kamogelo Sebelebele,exact,25,FW,False,3,0,Orlando Pirates,2002-07-21,2002-07-21,OK
+p_rsa_bradley_cross_fefe3ca9,South Africa,Bradley Cross,Bradley Cross,exact,26,DF,False,1,0,Kaizer Chiefs,2001-01-30,2001-01-30,OK
+p_rsa_yaya_sithole_720d4ea2,South Africa,Yaya Sithole,Sphephelo Sithole,fuzzy:0.95,13,MF,False,28,1,Tondela,1999-03-03,1999-03-03,OK
+p_kor_kim_seung_gyu_3b561c51,South Korea,Kim Seung-Gyu,Kim Seung-gyu,exact,1,GK,False,87,0,FC Tokyo,1990-09-30,1990-09-30,OK
+p_kor_lee_han_beom_356f075d,South Korea,Lee Han-Beom,Lee Han-beom,exact,2,DF,False,8,0,Midtjylland,2002-06-17,2002-06-17,OK
+p_kor_lee_ki_hyeok_ee739183,South Korea,Lee Gi-hyuk,Lee Gi-hyuk,exact,3,MF,False,3,0,Gangwon FC,2000-07-07,2000-07-07,OK
+p_kor_kim_min_jae_309bd5fe,South Korea,Kim Min-jae,Kim Min-jae,exact,4,DF,False,79,4,Bayern Munich,1996-11-15,1996-11-15,OK
+p_kor_hwang_in_beom_3d141c5e,South Korea,Hwang In-Beom,Hwang In-beom,exact,6,MF,False,73,6,Feyenoord,1996-09-20,1996-09-20,OK
+p_kor_son_heung_min_5f26a150,South Korea,Son Heung-Min,Son Heung-min,exact,7,FW,True,144,56,Los Angeles FC,1992-07-08,1992-07-08,OK
+p_kor_paik_seung_ho_49bd0363,South Korea,Paik Seung-Ho,Paik Seung-ho,exact,8,MF,False,27,3,Birmingham City,1997-03-17,1997-03-17,OK
+p_kor_cho_kyu_sung_4b336066,South Korea,Cho Gue-sung,Cho Gue-sung,exact,9,FW,False,44,12,Midtjylland,1998-01-25,1998-01-25,OK
+p_kor_lee_jae_sung_18631f11,South Korea,Lee Jae-sung,Lee Jae-sung,exact,10,MF,False,105,15,Mainz 05,1992-08-10,1992-08-10,OK
+p_kor_hwang_hee_chan_fd18ecac,South Korea,Hwang Hee-Chan,Hwang Hee-chan,exact,11,MF,False,79,17,Wolverhampton Wanderers,1996-01-26,1996-01-26,OK
+p_kor_song_bum_keun_9a9b50d2,South Korea,Song Bum-Keun,Song Bum-keun,exact,12,GK,False,3,0,Jeonbuk Hyundai Motors,1997-10-15,1997-10-15,OK
+p_kor_lee_tae_seok_702171f1,South Korea,Lee Tae-Seok,Lee Tae-seok,exact,13,DF,False,15,1,Austria Wien,2002-07-28,2002-07-28,OK
+p_kor_kim_moon_hwan_5dba97b0,South Korea,Kim Moon-Hwan,Kim Moon-hwan,exact,15,DF,False,35,0,Daejeon Hana Citizen,1995-08-01,1995-08-01,OK
+p_kor_park_jin_seop_865948aa,South Korea,Park Jin-seob,Park Jin-seob,exact,16,DF,False,14,1,Zhejiang,1995-10-23,1995-10-23,OK
+p_kor_bae_jun_ho_34d1ebbc,South Korea,Bae Jun-Ho,Bae Jun-ho,exact,17,MF,False,13,2,Stoke City,2003-08-21,2003-08-21,OK
+p_kor_oh_hyun_kyu_0ff51d6a,South Korea,Oh Hyeon-gyu,Oh Hyeon-gyu,exact,18,FW,False,27,6,Beşiktaş,2001-04-12,2001-04-12,OK
+p_kor_lee_kang_in_25b99eea,South Korea,Lee Kang-In,Lee Kang-in,exact,19,MF,False,47,11,Paris Saint-Germain,2001-02-19,2001-02-19,OK
+p_kor_yang_hyun_jun_153f1578,South Korea,Yang Hyun-jun,Yang Hyun-jun,exact,20,MF,False,9,0,Celtic,2002-05-25,2002-05-25,OK
+p_kor_jo_hyun_woo_0fadb509,South Korea,Jo Hyeon-woo,Jo Hyeon-woo,exact,21,GK,False,48,0,Ulsan HD,1991-09-25,1991-09-25,OK
+p_kor_seol_young_woo_0e0c9a40,South Korea,Seol Young-Woo,Seol Young-woo,exact,22,DF,False,34,0,Red Star Belgrade,1998-12-05,1998-12-05,OK
+p_kor_jens_castrop_cabd9e74,South Korea,Jens Castrop,Jens Castrop,exact,23,DF,False,7,0,Borussia Mönchengladbach,2003-07-29,2003-07-29,OK
+p_kor_kim_jin_kyu_31f94043,South Korea,Kim Jin-gyu,Kim Jin-gyu,exact,24,MF,False,22,3,Jeonbuk Hyundai Motors,1997-02-24,1997-02-24,OK
+p_kor_um_ji_sung_1aee215f,South Korea,Eom Ji-sung,Eom Ji-sung,exact,25,MF,False,9,2,Swansea City,2002-05-09,2002-05-09,OK
+p_kor_lee_dong_gyeong_4e703d31,South Korea,Lee Dong-Gyeong,Lee Dong-gyeong,exact,26,MF,False,18,4,Ulsan HD,1997-09-20,1997-09-20,OK
+p_kor_kim_tae_hyun_ebe70829,South Korea,Kim Tae-hyun,Kim Tae-hyeon,fuzzy:0.88,5,DF,False,7,0,Kashima Antlers,1996-12-19,2000-09-17,MISMATCH
+p_esp_david_raya_c9061320,Spain,David Raya,David Raya,exact,1,GK,False,13,0,Arsenal,1995-09-15,1995-09-15,OK
+p_esp_marc_pubill_d2a2e62e,Spain,Marc Pubill,Marc Pubill,exact,2,DF,False,2,0,Atlético Madrid,2003-06-20,2003-06-20,OK
+p_esp_alex_grimaldo_380246b9,Spain,Álex Grimaldo,Álex Grimaldo,exact,3,DF,False,14,0,Bayer Leverkusen,1995-09-20,1995-09-20,OK
+p_esp_eric_garcia_6bde2268,Spain,Eric García,Eric García,exact,4,DF,False,21,0,Barcelona,2001-01-09,2001-01-09,OK
+p_esp_marcos_llorente_c1fec723,Spain,Marcos Llorente,Marcos Llorente,exact,5,DF,False,24,0,Atlético Madrid,1995-01-30,1995-01-30,OK
+p_esp_mikel_merino_3cd7ba0b,Spain,Mikel Merino,Mikel Merino,exact,6,MF,False,43,10,Arsenal,1996-06-22,1996-06-22,OK
+p_esp_ferran_torres_5f3e558c,Spain,Ferran Torres,Ferran Torres,exact,7,FW,False,57,24,Barcelona,2000-02-29,2000-02-29,OK
+p_esp_fabian_ruiz_f77ab34e,Spain,Fabián Ruiz,Fabián Ruiz,exact,8,MF,False,42,6,Paris Saint-Germain,1996-04-03,1996-04-03,OK
+p_esp_gavi_5005014c,Spain,Gavi,Gavi,exact,9,MF,False,30,5,Barcelona,2004-08-05,2004-08-05,OK
+p_esp_dani_olmo_d19ca454,Spain,Dani Olmo,Dani Olmo,exact,10,FW,False,50,12,Barcelona,1998-05-07,1998-05-07,OK
+p_esp_yeremy_pino_6bc6c1eb,Spain,Yéremy Pino,Yéremy Pino,exact,11,FW,False,23,4,Crystal Palace,2002-10-20,2002-10-20,OK
+p_esp_pedro_porro_2809798d,Spain,Pedro Porro,Pedro Porro,exact,12,DF,False,18,0,Tottenham Hotspur,1999-09-13,1999-09-13,OK
+p_esp_joan_garcia_bfb47d9e,Spain,Joan García,Joan Garcia,exact,13,GK,False,2,0,Barcelona,2001-05-04,2001-05-04,OK
+p_esp_aymeric_laporte_db4a868f,Spain,Aymeric Laporte,Aymeric Laporte,exact,14,DF,False,46,2,Athletic Bilbao,1994-05-27,1994-05-27,OK
+p_esp_alex_baena_bbaabdb8,Spain,Álex Baena,Álex Baena,exact,15,MF,False,17,2,Atlético Madrid,2001-07-20,2001-07-20,OK
+p_esp_rodri_ff6c7612,Spain,Rodri,Rodri,exact,16,MF,True,62,4,Manchester City,1996-06-22,1996-06-22,OK
+p_esp_nico_williams_2f7f9310,Spain,Nico Williams,Nico Williams,exact,17,FW,False,30,6,Athletic Bilbao,2002-07-12,2002-07-12,OK
+p_esp_martin_zubimendi_1b5ff566,Spain,Martín Zubimendi,Martín Zubimendi,exact,18,MF,False,26,3,Arsenal,1999-02-02,1999-02-02,OK
+p_esp_lamine_yamal_313dfbd9,Spain,Lamine Yamal,Lamine Yamal,exact,19,FW,False,25,6,Barcelona,2007-07-13,2007-07-13,OK
+p_esp_pedri_2043861f,Spain,Pedri,Pedri,exact,20,MF,False,41,6,Barcelona,2002-11-25,2002-11-25,OK
+p_esp_mikel_oyarzabal_3a93b97f,Spain,Mikel Oyarzabal,Mikel Oyarzabal,exact,21,FW,False,53,25,Real Sociedad,1997-04-21,1997-04-21,OK
+p_esp_pau_cubarsi_18d80371,Spain,Pau Cubarsí,Pau Cubarsí,exact,22,DF,False,12,0,Barcelona,2007-01-22,2007-01-22,OK
+p_esp_unai_simon_0ed05794,Spain,Unai Simón,Unai Simón,exact,23,GK,False,58,0,Athletic Bilbao,1997-06-11,1997-06-11,OK
+p_esp_marc_cucurella_60ccd08a,Spain,Marc Cucurella,Marc Cucurella,exact,24,DF,False,24,1,Chelsea,1998-07-22,1998-07-22,OK
+p_esp_borja_iglesias_a875a386,Spain,Borja Iglesias,Borja Iglesias,exact,26,FW,False,8,0,Celta Vigo,1993-01-17,1993-01-17,OK
+p_esp_victor_munoz_222d24b5,Spain,Víctor Muñoz Villanueva,Víctor Muñoz,fuzzy:0.95,25,FW,False,2,1,Osasuna,2003-07-13,2003-07-13,OK
+p_swe_jacob_widell_zetterstrom_e958d11e,Sweden,Jacob Widell Zetterstrom,Jacob Widell Zetterström,exact,1,GK,False,3,0,Derby County,1998-07-11,1998-07-11,OK
+p_swe_gustaf_lagerbielke_bc6ed8a1,Sweden,Gustaf Lagerbielke,Gustaf Lagerbielke,exact,2,DF,False,11,2,Braga,2000-04-10,2000-04-10,OK
+p_swe_victor_lindelof_39bc6637,Sweden,Victor Lindelöf,Victor Lindelöf,exact,3,DF,True,76,3,Aston Villa,1994-07-17,1994-07-17,OK
+p_swe_isak_hien_5af7ff83,Sweden,Isak Hien,Isak Hien,exact,4,DF,False,29,0,Atalanta,1999-01-13,1999-01-13,OK
+p_swe_gabriel_gudmundsson_eb2d9efc,Sweden,Gabriel Gudmundsson,Gabriel Gudmundsson,exact,5,DF,False,24,0,Leeds United,1999-04-29,1999-04-29,OK
+p_swe_lucas_bergvall_53031c77,Sweden,Lucas Bergvall,Lucas Bergvall,exact,7,MF,False,10,0,Tottenham Hotspur,2006-02-02,2006-02-02,OK
+p_swe_daniel_svensson_bc86dc59,Sweden,Daniel Svensson,Daniel Svensson,exact,8,DF,False,13,0,Borussia Dortmund,2002-02-12,2002-02-12,OK
+p_swe_alexander_isak_d29df017,Sweden,Alexander Isak,Alexander Isak,exact,9,FW,False,58,17,Liverpool,1999-09-21,1999-09-21,OK
+p_swe_benjamin_nygren_53f36aef,Sweden,Benjamin Nygren,Benjamin Nygren,exact,10,MF,False,11,3,Celtic,2001-07-08,2001-07-08,OK
+p_swe_anthony_elanga_7d84448c,Sweden,Anthony Elanga,Anthony Elanga,exact,11,FW,False,30,6,Newcastle United,2002-04-27,2002-04-27,OK
+p_swe_viktor_johansson_6a0e6047,Sweden,Viktor Johansson,Viktor Johansson,exact,12,GK,False,12,0,Stoke City,1998-09-14,1998-09-14,OK
+p_swe_ken_sema_0128247c,Sweden,Ken Sema,Ken Sema,exact,13,MF,False,33,5,Pafos,1993-09-30,1993-09-30,OK
+p_swe_hjalmar_ekdal_da20d081,Sweden,Hjalmar Ekdal,Hjalmar Ekdal,exact,14,DF,False,13,0,Burnley,1998-10-21,1998-10-21,OK
+p_swe_carl_starfelt_f9c7b3df,Sweden,Carl Starfelt,Carl Starfelt,exact,15,DF,False,18,0,Celta Vigo,1995-06-01,1995-06-01,OK
+p_swe_jesper_karlstrom_d3aef6c6,Sweden,Jesper Karlström,Jesper Karlström,exact,16,MF,False,25,0,Udinese,1995-06-21,1995-06-21,OK
+p_swe_viktor_gyokeres_e165bb38,Sweden,Viktor Gyökeres,Viktor Gyökeres,exact,17,FW,False,33,20,Arsenal,1998-06-04,1998-06-04,OK
+p_swe_yasin_ayari_aac82e94,Sweden,Yasin Ayari,Yasin Ayari,exact,18,MF,False,21,3,Brighton & Hove Albion,2003-10-06,2003-10-06,OK
+p_swe_mattias_svanberg_c682891f,Sweden,Mattias Svanberg,Mattias Svanberg,exact,19,MF,False,41,2,VfL Wolfsburg,1999-01-05,1999-01-05,OK
+p_swe_erik_smith_9cafee29,Sweden,Eric Smith,Eric Smith,exact,20,DF,False,2,0,FC St. Pauli,1997-01-05,1997-01-08,MISMATCH
+p_swe_alexander_bernhardsson_183625f1,Sweden,Alexander Bernhardsson,Alexander Bernhardsson,exact,21,DF,False,11,0,Holstein Kiel,1998-09-08,1998-09-08,OK
+p_swe_besfort_zeneli_4d53162c,Sweden,Besfort Zeneli,Besfort Zeneli,exact,22,MF,False,8,0,Union Saint-Gilloise,2002-11-21,2002-11-21,OK
+p_swe_kristoffer_nordfeldt_c048cf33,Sweden,Kristoffer Nordfeldt,Kristoffer Nordfeldt,exact,23,GK,False,21,0,AIK,1989-06-23,1989-06-23,OK
+p_swe_elliot_stroud_e7f82634,Sweden,Elliot Stroud,Elliot Stroud,exact,24,DF,False,1,0,Mjällby AIF,2002-06-22,2002-06-22,OK
+p_swe_gustaf_nilsson_68eca14b,Sweden,Gustaf Nilsson,Gustaf Nilsson,exact,25,FW,False,10,4,Club Brugge,1997-05-23,1997-05-23,OK
+p_swe_taha_ali_e82566e9,Sweden,Taha Ali,Taha Ali,exact,26,FW,False,2,0,Malmö FF,1998-07-01,1998-07-01,OK
+p_sui_gregor_kobel_9fd52126,Switzerland,Gregor Kobel,Gregor Kobel,exact,1,GK,False,21,0,Borussia Dortmund,1997-12-06,1997-12-06,OK
+p_sui_miro_muheim_abcffed3,Switzerland,Miro Muheim,Miro Muheim,exact,2,DF,False,10,0,Hamburger SV,1998-03-24,1998-03-24,OK
+p_sui_silvan_widmer_5a449c9b,Switzerland,Silvan Widmer,Silvan Widmer,exact,3,DF,False,60,5,Mainz 05,1993-03-05,1993-03-05,OK
+p_sui_nico_elvedi_e4747b6b,Switzerland,Nico Elvedi,Nico Elvedi,exact,4,DF,False,67,3,Borussia Mönchengladbach,1996-09-30,1996-09-30,OK
+p_sui_manuel_akanji_78cfa9fc,Switzerland,Manuel Akanji,Manuel Akanji,exact,5,DF,False,81,4,Inter Milan,1995-07-19,1995-07-19,OK
+p_sui_denis_zakaria_a483edd8,Switzerland,Denis Zakaria,Denis Zakaria,exact,6,MF,False,65,3,Monaco,1996-11-20,1996-11-20,OK
+p_sui_breel_embolo_5b94de4f,Switzerland,Breel Embolo,Breel Embolo,exact,7,FW,False,86,24,Rennes,1997-02-14,1997-02-14,OK
+p_sui_remo_freuler_6c0d98d6,Switzerland,Remo Freuler,Remo Freuler,exact,8,MF,False,88,11,Bologna,1992-04-15,1992-04-15,OK
+p_sui_johan_manzambi_fdf8dac7,Switzerland,Johan Manzambi,Johan Manzambi,exact,9,MF,False,12,3,SC Freiburg,2005-10-14,2005-10-14,OK
+p_sui_granit_xhaka_665f45a1,Switzerland,Granit Xhaka,Granit Xhaka,exact,10,MF,True,146,17,Sunderland,1992-09-27,1992-09-27,OK
+p_sui_dan_ndoye_7c314fdc,Switzerland,Dan Ndoye,Dan Ndoye,exact,11,FW,False,31,8,Nottingham Forest,2000-10-25,2000-10-25,OK
+p_sui_yvon_mvogo_a2147aa7,Switzerland,Yvon Mvogo,Yvon Mvogo,exact,12,GK,False,13,0,Lorient,1994-06-06,1994-06-06,OK
+p_sui_ricardo_rodriguez_5c3e42fc,Switzerland,Ricardo Rodriguez,Ricardo Rodriguez,exact,13,DF,False,138,9,Real Betis,1992-08-25,1992-08-25,OK
+p_sui_ardon_jashari_2e08546c,Switzerland,Ardon Jashari,Ardon Jashari,exact,14,MF,False,8,0,Milan,2002-07-30,2002-07-30,OK
+p_sui_djibril_sow_84f9945a,Switzerland,Djibril Sow,Djibril Sow,exact,15,MF,False,52,0,Sevilla,1997-02-06,1997-02-06,OK
+p_sui_christian_fassnacht_aa3e62b8,Switzerland,Christian Fassnacht,Christian Fassnacht,exact,16,FW,False,23,5,Young Boys,1993-11-11,1993-11-11,OK
+p_sui_ruben_vargas_e9e82ac0,Switzerland,Rubén Vargas,Rubén Vargas,exact,17,FW,False,61,11,Sevilla,1998-08-05,1998-08-05,OK
+p_sui_eray_comert_ad155989,Switzerland,Eray Cömert,Eray Cömert,exact,18,DF,False,22,0,Valencia,1998-02-04,1998-02-04,OK
+p_sui_noah_okafor_15d60927,Switzerland,Noah Okafor,Noah Okafor,exact,19,FW,False,25,2,Leeds United,2000-05-24,2000-05-24,OK
+p_sui_michel_aebischer_eaf17002,Switzerland,Michel Aebischer,Michel Aebischer,exact,20,MF,False,40,2,Pisa,1997-01-06,1997-01-06,OK
+p_sui_marvin_keller_b14825c0,Switzerland,Marvin Keller,Marvin Keller,exact,21,GK,False,1,0,Young Boys,2002-07-03,2002-07-03,OK
+p_sui_fabian_rieder_6de26ce4,Switzerland,Fabian Rieder,Fabian Rieder,exact,22,MF,False,28,1,FC Augsburg,2002-02-16,2002-02-16,OK
+p_sui_zeki_amdouni_65de5a66,Switzerland,Zeki Amdouni,Zeki Amdouni,exact,23,FW,False,29,11,Burnley,2000-12-04,2000-12-04,OK
+p_sui_aurele_amenda_eece3a6a,Switzerland,Aurèle Amenda,Aurèle Amenda,exact,24,DF,False,7,0,Eintracht Frankfurt,2003-07-31,2003-07-31,OK
+p_sui_luca_jaquez_07e711c4,Switzerland,Luca Jaquez,Luca Jaquez,exact,25,DF,False,3,0,VfB Stuttgart,2003-06-02,2003-06-02,OK
+p_sui_cedric_itten_c3e3378c,Switzerland,Cedric Itten,Cedric Itten,exact,26,FW,False,15,5,Fortuna Düsseldorf,1996-12-27,1996-12-27,OK
+p_tun_ali_abdi_129ee089,Tunisia,Ali Abdi,Ali Abdi,exact,2,DF,False,46,7,Nice,1993-12-20,1993-12-20,OK
+p_tun_montassar_talbi_fefd7c0b,Tunisia,Montassar Talbi,Montassar Talbi,exact,3,DF,False,64,4,Lorient,1998-05-26,1998-05-26,OK
+p_tun_omar_rekik_ceaef541,Tunisia,Omar Rekik,Omar Rekik,exact,4,DF,False,6,0,Maribor,2001-12-20,2001-12-20,OK
+p_tun_adem_arous_c6ec8c9f,Tunisia,Adem Arous,Adem Arous,exact,5,DF,False,2,0,Kasımpaşa,2004-07-17,2004-07-17,OK
+p_tun_dylan_bronn_aef3e7a9,Tunisia,Dylan Bronn,Dylan Bronn,exact,6,DF,False,52,2,Servette,1995-06-19,1995-06-19,OK
+p_tun_elias_achouri_54099dc4,Tunisia,Elias Achouri,Elias Achouri,exact,7,FW,False,30,4,Copenhagen,1999-02-10,1999-02-10,OK
+p_tun_elias_saad_1fb52bca,Tunisia,Elias Saad,Elias Saad,exact,8,FW,False,15,4,Hannover 96,1999-12-27,1999-12-27,OK
+p_tun_hazem_mastouri_d4cb874a,Tunisia,Hazem Mastouri,Hazem Mastouri,exact,9,FW,False,19,4,Dynamo Makhachkala,1997-06-18,1997-06-18,OK
+p_tun_hannibal_mejbri_2991068c,Tunisia,Hannibal Mejbri,Hannibal Mejbri,exact,10,MF,False,45,1,Burnley,2003-01-21,2003-01-21,OK
+p_tun_ismael_gharbi_d8ee92a5,Tunisia,Ismaël Gharbi,Ismaël Gharbi,exact,11,MF,False,17,2,FC Augsburg,2004-04-10,2004-04-10,OK
+p_tun_mortadha_ben_ouanes_504c21b9,Tunisia,Mortadha Ben Ouanes,Mortadha Ben Ouanes,exact,12,DF,False,18,0,Kasımpaşa,1994-07-02,1994-07-02,OK
+p_tun_rani_khedira_fced077d,Tunisia,Rani Khedira,Rani Khedira,exact,13,MF,False,3,0,Union Berlin,1994-01-27,1994-01-27,OK
+p_tun_khalil_ayari_f0637767,Tunisia,Khalil Ayari,Khalil Ayari,exact,14,MF,False,4,0,Paris Saint-Germain,2005-02-02,2005-02-02,OK
+p_tun_hadj_mahmoud_bc994824,Tunisia,Hadj Mahmoud,Hadj Mahmoud,exact,15,MF,False,9,0,Lugano,2000-04-24,2000-04-24,OK
+p_tun_aymen_dahmen_b36b253a,Tunisia,Aymen Dahmen,Aymen Dahmen,exact,16,GK,False,37,0,CS Sfaxien,1997-01-28,1997-01-28,OK
+p_tun_ellyes_skhiri_6b6c94f5,Tunisia,Ellyes Skhiri,Ellyes Skhiri,exact,17,MF,True,83,4,Eintracht Frankfurt,1995-05-10,1995-05-10,OK
+p_tun_rayan_elloumi_8d469ccb,Tunisia,Rayan Elloumi,Rayan Elloumi,exact,18,FW,False,4,0,Vancouver Whitecaps FC,2007-09-17,2007-09-17,OK
+p_tun_firas_chaouat_fc84bec1,Tunisia,Firas Chaouat,Firas Chaouat,exact,19,FW,False,30,6,Club Africain,1996-05-08,1996-05-08,OK
+p_tun_yan_valery_b224fb5c,Tunisia,Yan Valery,Yan Valery,exact,20,DF,False,22,0,Young Boys,1999-02-22,1999-02-22,OK
+p_tun_mohamed_amine_ben_hamida_4045891e,Tunisia,Mohamed Amine Ben Hamida,Mohamed Amine Ben Hamida,exact,21,DF,False,13,0,Espérance de Tunis,1995-12-15,1995-12-15,OK
+p_tun_sabri_ben_hessen_96ec4b2c,Tunisia,Sabri Ben Hessen,Sabri Ben Hessen,exact,22,GK,False,2,0,Étoile du Sahel,1996-06-13,1996-06-13,OK
+p_tun_moutaz_neffati_4bac9637,Tunisia,Moutaz Neffati,Moutaz Neffati,exact,23,DF,False,5,0,IFK Norrköping,2004-09-04,2004-09-04,OK
+p_tun_raed_chikhaoui_bec8fb86,Tunisia,Raed Chikhaoui,Raed Chikhaoui,exact,24,DF,False,0,0,US Monastir,2004-06-09,2004-06-09,OK
+p_tun_anis_ben_slimane_f616315a,Tunisia,Anis Ben Slimane,Anis Ben Slimane,exact,25,MF,False,41,4,Norwich City,2001-03-16,2001-03-16,OK
+p_tun_sebastian_tounekti_98b62da5,Tunisia,Sebastian Tounekti,Sebastian Tounekti,exact,26,MF,False,12,1,Celtic,2002-07-13,2002-07-13,OK
+p_tun_abdelmouhib_chamakh_e29f55d3,Tunisia,Abdelmouhib Chamakh,Mouhib Chamakh,fuzzy:0.95,1,GK,False,3,0,Club Africain,2001-08-25,2001-08-25,OK
+p_tur_mert_gunok_74d9a597,Türkiye,Mert Gunok,Mert Günok,exact,1,GK,False,37,0,Fenerbahçe,1989-03-01,1989-03-01,OK
+p_tur_zeki_celik_bd18591a,Türkiye,Zeki Celik,Zeki Çelik,exact,2,DF,False,61,3,Roma,1997-02-17,1997-02-17,OK
+p_tur_merih_demiral_eba0c47c,Türkiye,Merih Demiral,Merih Demiral,exact,3,DF,False,62,6,Al-Ahli,1998-03-05,1998-03-05,OK
+p_tur_caglar_soyuncu_3bbca1bc,Türkiye,Caglar Soyuncu,Çağlar Söyüncü,exact,4,DF,False,60,2,Fenerbahçe,1996-05-23,1996-05-23,OK
+p_tur_salih_ozcan_e4897523,Türkiye,Salih Ozcan,Salih Özcan,exact,5,MF,False,30,1,Borussia Dortmund,1998-01-11,1998-01-11,OK
+p_tur_orkun_kokcu_6391207c,Türkiye,Orkun Kokcu,Orkun Kökçü,exact,6,MF,False,50,4,Beşiktaş,2000-12-29,2000-12-29,OK
+p_tur_kerem_akturkoglu_df6efb9b,Türkiye,Kerem Akturkoglu,Kerem Aktürkoğlu,exact,7,FW,False,52,15,Fenerbahçe,1998-10-21,1998-10-21,OK
+p_tur_arda_guler_fa7fbc25,Türkiye,Arda Guler,Arda Güler,exact,8,FW,False,29,6,Real Madrid,2005-02-25,2005-02-25,OK
+p_tur_deniz_gul_fc9914ea,Türkiye,Deniz Gul,Deniz Gül,exact,9,FW,False,8,2,Porto,2004-07-02,2004-07-02,OK
+p_tur_ozan_kabak_c4fb80a7,Türkiye,Ozan Kabak,Ozan Kabak,exact,15,DF,False,30,2,TSG Hoffenheim,2000-03-25,2000-03-25,OK
+p_tur_ismail_yuksek_0968b6bd,Türkiye,Ismail Yuksek,İsmail Yüksek,exact,16,MF,False,32,1,Fenerbahçe,1999-01-26,1999-01-26,OK
+p_tur_irfan_can_kahveci_65af2c1e,Türkiye,Irfan Can Kahveci,İrfan Can Kahveci,exact,17,FW,False,47,6,Kasımpaşa,1995-07-15,1995-07-15,OK
+p_tur_mert_muldur_b54b5fa7,Türkiye,Mert Muldur,Mert Müldür,exact,18,DF,False,45,3,Fenerbahçe,1999-04-03,1999-04-03,OK
+p_tur_yunus_akgun_7d8f68a0,Türkiye,Yunus Akgun,Yunus Akgün,exact,19,FW,False,19,4,Galatasaray,2000-07-07,2000-07-07,OK
+p_tur_kaan_ayhan_7a2fd167,Türkiye,Kaan Ayhan,Kaan Ayhan,exact,22,MF,False,73,5,Galatasaray,1994-11-10,1994-11-10,OK
+p_tur_samet_akaydin_200fea99,Türkiye,Samet Akaydin,Samet Akaydin,exact,25,DF,False,19,1,Çaykur Rizespor,1994-03-13,1994-03-13,OK
+p_tur_can_uzun_0da356b2,Türkiye,Can Uzun,Can Uzun,exact,26,FW,False,6,1,Eintracht Frankfurt,2005-11-11,2005-11-11,OK
+p_tur_hakan_calhanoglou_7da5376a,Türkiye,Hakan Çalhanoğlu,Hakan Çalhanoğlu,fuzzy:0.97,10,MF,True,105,22,Inter Milan,1994-02-08,1994-02-08,OK
+p_tur_kenan_yildiz_e6a42419,Türkiye,Kenan Yildiz,Kenan Yıldız,fuzzy:0.95,11,FW,False,28,5,Juventus,2005-05-04,2005-05-04,OK
+p_tur_altay_bayindir_049824ee,Türkiye,Altay Bayindir,Altay Bayındır,fuzzy:0.95,12,GK,False,12,0,Manchester United,1998-04-14,1998-04-14,OK
+p_tur_eren_elmali_0edf1a93,Türkiye,Eren Elmali,Eren Elmalı,fuzzy:0.95,13,DF,False,23,0,Galatasaray,2000-07-07,2000-07-07,OK
+p_tur_abdulkerim_bardakci_b0c60d55,Türkiye,Abdulkerim Bardakci,Abdülkerim Bardakcı,fuzzy:0.97,14,DF,False,27,2,Galatasaray,1994-09-07,1994-09-07,OK
+p_tur_ferdi_kadioglu_79e2c5e3,Türkiye,Ferdi Kadioglu,Ferdi Kadıoğlu,fuzzy:0.96,20,DF,False,30,2,Brighton & Hove Albion,1999-10-07,1999-10-07,OK
+p_tur_baris_apler_yilmaz_d63c4e39,Türkiye,Barış Alper Yılmaz,Barış Alper Yılmaz,fuzzy:0.95,21,FW,False,35,4,Galatasaray,2000-05-23,2000-05-23,OK
+p_tur_ugurcan_cakir_92178001,Türkiye,Ugurcan Cakir,Uğurcan Çakır,fuzzy:0.96,23,GK,False,39,0,Galatasaray,1996-04-05,1996-04-05,OK
+p_tur_oguz_aydin_86168307,Türkiye,Oguz Aydin,Oğuz Aydın,fuzzy:0.95,24,FW,False,11,0,Fenerbahçe,2000-10-27,2000-10-27,OK
+p_usa_matt_turner_348f92d8,United States,Matt Turner,Matt Turner,exact,1,GK,False,54,0,New England Revolution,1994-06-24,1994-06-24,OK
+p_usa_sergino_dest_5cadecb3,United States,Sergiño Dest,Sergiño Dest,exact,2,DF,False,39,3,PSV Eindhoven,2000-11-03,2000-11-03,OK
+p_usa_chris_richards_d7a73544,United States,Chris Richards,Chris Richards,exact,3,DF,False,36,3,Crystal Palace,2000-03-28,2000-03-28,OK
+p_usa_tyler_adams_399cd4e4,United States,Tyler Adams,Tyler Adams,exact,4,MF,False,54,2,Bournemouth,1999-02-14,1999-02-14,OK
+p_usa_antonee_robinson_5fac462f,United States,Antonee Robinson,Antonee Robinson,exact,5,DF,False,54,5,Fulham,1997-08-08,1997-08-08,OK
+p_usa_auston_trusty_ca5567ba,United States,Auston Trusty,Auston Trusty,exact,6,DF,False,8,0,Celtic,1998-08-12,1998-08-12,OK
+p_usa_weston_mckennie_b8a1d469,United States,Weston McKennie,Weston McKennie,exact,8,MF,False,66,12,Juventus,1998-08-28,1998-08-28,OK
+p_usa_ricardo_pepi_ef1ca62a,United States,Ricardo Pepi,Ricardo Pepi,exact,9,FW,False,37,13,PSV Eindhoven,2003-01-09,2003-01-09,OK
+p_usa_christian_pulisic_6cb8700a,United States,Christian Pulisic,Christian Pulisic,exact,10,FW,False,86,33,Milan,1998-09-18,1998-09-18,OK
+p_usa_brenden_aaronson_2ed4cfa9,United States,Brenden Aaronson,Brenden Aaronson,exact,11,FW,False,58,9,Leeds United,2000-10-22,2000-10-22,OK
+p_usa_miles_robinson_b4b6ad87,United States,Miles Robinson,Miles Robinson,exact,12,DF,False,40,3,FC Cincinnati,1997-03-14,1997-03-14,OK
+p_usa_tim_ream_b9a4d665,United States,Tim Ream,Tim Ream,exact,13,DF,True,82,1,Charlotte FC,1987-10-05,1987-10-05,OK
+p_usa_sebastian_berhalter_98856966,United States,Sebastian Berhalter,Sebastian Berhalter,exact,14,MF,False,13,1,Vancouver Whitecaps FC,2001-05-10,2001-05-10,OK
+p_usa_cristian_roldan_19b483b9,United States,Cristian Roldan,Cristian Roldan,exact,15,MF,False,47,0,Seattle Sounders FC,1995-06-03,1995-06-03,OK
+p_usa_alex_freeman_859bf9a0,United States,Alex Freeman,Alex Freeman,exact,16,DF,False,17,2,Villarreal,2004-08-09,2004-08-09,OK
+p_usa_malik_tillman_28eb1a95,United States,Malik Tillman,Malik Tillman,exact,17,MF,False,30,3,Bayer Leverkusen,2002-05-28,2002-05-28,OK
+p_usa_max_arfsten_d1cf8510,United States,Max Arfsten,Max Arfsten,exact,18,DF,False,20,1,Columbus Crew,2001-04-19,2001-04-19,OK
+p_usa_haji_wright_fe98ed50,United States,Haji Wright,Haji Wright,exact,19,FW,False,20,7,Coventry City,1998-03-27,1998-03-27,OK
+p_usa_folarin_balogun_3e3f15dd,United States,Folarin Balogun,Folarin Balogun,exact,20,FW,False,27,9,Monaco,2001-07-03,2001-07-03,OK
+p_usa_mark_mckenzie_a1bff87c,United States,Mark McKenzie,Mark McKenzie,exact,22,DF,False,29,0,Toulouse,1999-02-25,1999-02-25,OK
+p_usa_joe_scally_08ae9c28,United States,Joe Scally,Joe Scally,exact,23,DF,False,26,0,Borussia Mönchengladbach,2002-12-31,2002-12-31,OK
+p_usa_matt_freese_e8fb1d12,United States,Matt Freese,Matt Freese,exact,24,GK,False,15,0,New York City FC,1998-09-02,1998-09-02,OK
+p_usa_chris_brady_c09c4f39,United States,Chris Brady,Chris Brady,exact,25,GK,False,1,0,Chicago Fire FC,2004-03-03,2004-03-03,OK
+p_usa_alejandro_zendejas_579e0cb7,United States,Alejandro Zendejas,Alejandro Zendejas,exact,26,FW,False,14,2,América,1998-02-07,1998-02-07,OK
+p_usa_gio_reyna_b8dd3aab,United States,Gio Reyna,Giovanni Reyna,fuzzy:0.95,7,MF,False,38,9,Borussia Mönchengladbach,2002-11-13,2002-11-13,OK
+p_usa_tim_weah_ec163b4c,United States,Tim Weah,Timothy Weah,fuzzy:0.95,21,FW,False,51,7,Marseille,2000-02-22,2000-02-22,OK
+p_uru_sergio_rochet_c189e500,Uruguay,Sergio Rochet,Sergio Rochet,exact,1,GK,False,35,0,Internacional,1993-03-23,1993-03-23,OK
+p_uru_jose_maria_gimenez_eafc45dd,Uruguay,José María Giménez,José María Giménez,exact,2,DF,True,99,8,Atlético Madrid,1995-01-20,1995-01-20,OK
+p_uru_sebastian_caceres_9b1bab1d,Uruguay,Sebastián Cáceres,Sebastián Cáceres,exact,3,DF,False,24,0,América,1999-08-18,1999-08-18,OK
+p_uru_ronald_araujo_00fc3f18,Uruguay,Ronald Araújo,Ronald Araújo,exact,4,DF,False,27,1,Barcelona,1999-03-07,1999-03-07,OK
+p_uru_manuel_ugarte_71c17777,Uruguay,Manuel Ugarte,Manuel Ugarte,exact,5,MF,False,36,1,Manchester United,2001-04-11,2001-04-11,OK
+p_uru_rodrigo_bentancur_ebe35639,Uruguay,Rodrigo Bentancur,Rodrigo Bentancur,exact,6,MF,False,74,3,Tottenham Hotspur,1997-06-25,1997-06-25,OK
+p_uru_nicolas_de_la_cruz_5cb19aa3,Uruguay,Nicolás De La Cruz,Nicolás de la Cruz,exact,7,MF,False,34,5,Flamengo,1997-06-01,1997-06-01,OK
+p_uru_federico_valverde_0bfec323,Uruguay,Federico Valverde,Federico Valverde,exact,8,MF,False,73,9,Real Madrid,1998-07-22,1998-07-22,OK
+p_uru_darwin_nunez_1a84e727,Uruguay,Darwin Núñez,Darwin Núñez,exact,9,FW,False,38,13,Al-Hilal,1999-06-24,1999-06-24,OK
+p_uru_giorgian_de_arrascaeta_4eee4008,Uruguay,Giorgian De Arrascaeta,Giorgian de Arrascaeta,exact,10,MF,False,60,13,Flamengo,1994-06-01,1994-06-01,OK
+p_uru_facundo_pellistri_4544f6de,Uruguay,Facundo Pellistri,Facundo Pellistri,exact,11,FW,False,39,2,Panathinaikos,2001-12-20,2001-12-20,OK
+p_uru_santiago_mele_214e0c93,Uruguay,Santiago Mele,Santiago Mele,exact,12,GK,False,8,0,Monterrey,1997-09-06,1997-09-06,OK
+p_uru_guillermo_varela_eaf90cb2,Uruguay,Guillermo Varela,Guillermo Varela,exact,13,DF,False,28,0,Flamengo,1993-03-24,1993-03-24,OK
+p_uru_agustin_canobbio_83fa6cbe,Uruguay,Agustín Canobbio,Agustín Canobbio,exact,14,MF,False,15,1,Fluminense,1998-10-01,1998-10-01,OK
+p_uru_emiliano_martinez_d355aea9,Uruguay,Emiliano Martínez,Emiliano Martínez,exact,15,MF,False,10,0,Palmeiras,1999-08-17,1999-08-17,OK
+p_uru_mathias_olivera_a22eab3e,Uruguay,Mathías Olivera,Mathías Olivera,exact,16,DF,False,35,2,Napoli,1997-10-31,1997-10-31,OK
+p_uru_matias_vina_f28ee795,Uruguay,Matías Viña,Matías Viña,exact,17,DF,False,43,1,River Plate,1997-11-09,1997-11-09,OK
+p_uru_brian_rodriguez_89827720,Uruguay,Brian Rodríguez,Brian Rodríguez,exact,18,FW,False,32,4,América,2000-05-20,2000-05-20,OK
+p_uru_rodrigo_aguirre_3ee44e98,Uruguay,Rodrigo Aguirre,Rodrigo Aguirre,exact,19,FW,False,10,3,Tigres UANL,1994-10-01,1994-10-01,OK
+p_uru_maximiliano_araujo_ab0bce05,Uruguay,Maximiliano Araújo,Maximiliano Araújo,exact,20,MF,False,28,3,Sporting CP,2000-02-15,2000-02-15,OK
+p_uru_federico_vinas_cb9dc0dd,Uruguay,Federico Viñas,Federico Viñas,exact,21,FW,False,11,2,Oviedo,1998-06-30,1998-06-30,OK
+p_uru_joaquin_piquerez_7e1e626a,Uruguay,Joaquín Piquerez,Joaquín Piquerez,exact,22,MF,False,19,0,Palmeiras,1998-08-24,1998-08-24,OK
+p_uru_fernando_muslera_496c516d,Uruguay,Fernando Muslera,Fernando Muslera,exact,23,GK,False,134,0,Estudiantes,1986-06-16,1986-06-16,OK
+p_uru_santiago_bueno_6eb1865b,Uruguay,Santiago Bueno,Santiago Bueno,exact,24,DF,False,8,0,Wolverhampton Wanderers,1998-11-09,1998-11-09,OK
+p_uru_juan_manuel_sanabria_208c9ccd,Uruguay,Juan Manuel Sanabria,Juan Manuel Sanabria,exact,25,MF,False,5,1,Real Salt Lake,2000-03-29,2000-03-29,OK
+p_uru_rodrigo_zalazar_78725bf0,Uruguay,Rodrigo Zalazar,Rodrigo Zalazar,exact,26,MF,False,8,2,Braga,1999-08-12,1999-08-12,OK
+p_uzb_utkir_yusupov_2a10db50,Uzbekistan,Utkir Yusupov,Utkir Yusupov,exact,1,GK,False,40,0,Navbahor Namangan,1991-01-04,1991-01-04,OK
+p_uzb_abdukodir_khusanov_99618853,Uzbekistan,Abdukodir Khusanov,Abdukodir Khusanov,exact,2,DF,False,27,0,Manchester City,2004-02-29,2004-02-29,OK
+p_uzb_khojiakbar_alijonov_49ddb978,Uzbekistan,Khojiakbar Alijonov,Khojiakbar Alijonov,exact,3,DF,False,40,2,Pakhtakor,1997-04-19,1997-04-19,OK
+p_uzb_farrukh_sayfiev_c014c3d9,Uzbekistan,Farrukh Sayfiev,Farrukh Sayfiev,exact,4,DF,False,46,1,Neftchi Fergana,1991-01-17,1991-01-17,OK
+p_uzb_akmal_mozgovoy_b9a8b87d,Uzbekistan,Akmal Mozgovoy,Akmal Mozgovoy,exact,6,MF,False,25,1,Pakhtakor,1999-04-02,1999-04-02,OK
+p_uzb_otabek_shukurov_081adf33,Uzbekistan,Otabek Shukurov,Otabek Shukurov,exact,7,MF,False,84,9,Baniyas,1996-06-22,1996-06-22,OK
+p_uzb_jamshid_iskanderov_f790406f,Uzbekistan,Jamshid Iskanderov,Jamshid Iskanderov,exact,8,MF,False,38,4,Neftchi Fergana,1993-10-16,1993-10-16,OK
+p_uzb_oston_urunov_0c3c92c5,Uzbekistan,Oston Urunov,Oston Urunov,exact,11,MF,False,42,10,Persepolis,2000-12-19,2000-12-19,OK
+p_uzb_sherzod_nasrullaev_ea287438,Uzbekistan,Sherzod Nasrullaev,Sherzod Nasrullaev,exact,13,DF,False,31,2,Nasaf,1998-07-23,1998-07-23,OK
+p_uzb_eldor_shomurodov_962d8f66,Uzbekistan,Eldor Shomurodov,Eldor Shomurodov,exact,14,FW,True,92,44,İstanbul Başakşehir,1995-06-29,1995-06-29,OK
+p_uzb_botirali_ergashev_bb23b2eb,Uzbekistan,Botirali Ergashev,Botirali Ergashev,exact,16,GK,False,2,0,Neftchi Fergana,1995-06-23,1995-06-23,OK
+p_uzb_dostonbek_khamdamov_da7c6654,Uzbekistan,Dostonbek Khamdamov,Dostonbek Khamdamov,exact,17,MF,False,34,5,Pakhtakor,1996-07-24,1996-07-24,OK
+p_uzb_abdulla_abdullaev_08bb762c,Uzbekistan,Abdulla Abdullaev,Abdulla Abdullaev,exact,18,DF,False,17,0,Dibba,1997-09-01,1997-09-01,OK
+p_uzb_azizjon_ganiev_4c92c41d,Uzbekistan,Azizjon Ganiev,Azizjon Ganiev,exact,19,MF,False,19,0,Al Bataeh,1998-02-22,1998-02-22,OK
+p_uzb_azizbek_amonov_8c6d0d93,Uzbekistan,Azizbek Amonov,Azizbek Amonov,exact,20,FW,False,12,2,Dinamo Samarqand,1997-10-30,1997-10-30,OK
+p_uzb_igor_sergeev_f553c9f7,Uzbekistan,Igor Sergeev,Igor Sergeev,exact,21,FW,False,83,25,Persepolis,1993-04-30,1993-04-30,OK
+p_uzb_sherzod_esanov_b867f0ba,Uzbekistan,Sherzod Esanov,Sherzod Esanov,exact,23,MF,False,1,0,Bukhara,2003-02-01,2003-02-01,OK
+p_uzb_avazbek_ulmasaliev_bdd127da,Uzbekistan,Avazbek Ulmasaliev,Avazbek Ulmasaliev,exact,25,DF,False,0,0,AGMK,2000-03-27,2000-03-27,OK
+p_uzb_jakhongir_urozov_24c7ed1b,Uzbekistan,Jakhongir Urozov,Jakhongir Urozov,exact,26,DF,False,4,0,Dinamo Samarqand,2004-01-18,2004-01-18,OK
+p_uzb_rustamjon_ashurmatov_5e5fc943,Uzbekistan,Rustamjon Ashurmatov,Rustam Ashurmatov,fuzzy:0.95,5,DF,False,49,1,Esteghlal,1996-07-07,1996-07-07,OK
+p_uzb_abduvokhid_nematov_fcf4ccf8,Uzbekistan,Abduvokhid Nematov,Abduvohid Nematov,fuzzy:0.97,12,GK,False,8,0,Nasaf,2001-03-20,2001-03-20,OK
+p_uzb_umarbek_eshmurodov_98c2b86e,Uzbekistan,Umarbek Eshmurodov,Umar Eshmurodov,fuzzy:0.95,15,DF,False,29,0,Nasaf,1992-11-30,1992-11-30,OK
+p_uzb_abbosek_fayzullaev_7c8d1f65,Uzbekistan,Abbosek Fayzullaev,Abbosbek Fayzullaev,fuzzy:0.97,22,MF,False,32,9,İstanbul Başakşehir,2003-10-03,2003-10-03,OK
+p_uzb_behruz_karimov_a874e9c9,Uzbekistan,Behruz Karimov,Bekhruz Karimov,fuzzy:0.97,24,DF,False,2,0,Surkhon Termiz,2007-08-07,2007-08-07,OK

@@ -1,0 +1,105 @@
+﻿match_id,tournament,match_date,stage,group,home_team,away_team,home_score,away_score,home_pens,away_pens,stadium,city,status,source_id
+m_wc2026_18285263,FIFA World Cup 2026,2026-06-11T00:00:00,First Stage,Group A,Mexico,South Africa,2,0,,,Mexico City Stadium,Mexico City,played,fifa_fixtures_2026
+m_wc2026_2ad2bf8c,FIFA World Cup 2026,2026-06-11T00:00:00,First Stage,Group A,South Korea,Czechia,2,1,,,Guadalajara Stadium,Guadalajara,played,fifa_fixtures_2026
+m_wc2026_45865923,FIFA World Cup 2026,2026-06-12T00:00:00,First Stage,Group B,Canada,Bosnia-Herzegovina,1,1,,,Toronto Stadium,Toronto,played,fifa_fixtures_2026
+m_wc2026_b150de75,FIFA World Cup 2026,2026-06-12T00:00:00,First Stage,Group D,United States,Paraguay,4,1,,,Los Angeles Stadium,Los Angeles,played,fifa_fixtures_2026
+m_wc2026_5d7577d6,FIFA World Cup 2026,2026-06-13T00:00:00,First Stage,Group B,Qatar,Switzerland,1,1,,,San Francisco Bay Area Stadium,San Francisco Bay Area,played,fifa_fixtures_2026
+m_wc2026_b49d7d9e,FIFA World Cup 2026,2026-06-13T00:00:00,First Stage,Group C,Brazil,Morocco,1,1,,,New York/New Jersey Stadium,New Jersey,played,fifa_fixtures_2026
+m_wc2026_57c1a83c,FIFA World Cup 2026,2026-06-13T00:00:00,First Stage,Group C,Haiti,Scotland,0,1,,,Boston Stadium,Boston,played,fifa_fixtures_2026
+m_wc2026_f226578d,FIFA World Cup 2026,2026-06-14T00:00:00,First Stage,Group D,Australia,Türkiye,2,0,,,BC Place Vancouver,Vancouver,played,fifa_fixtures_2026
+m_wc2026_9bd5c25d,FIFA World Cup 2026,2026-06-14T00:00:00,First Stage,Group E,Germany,Curacao,7,1,,,Houston Stadium,Houston,played,fifa_fixtures_2026
+m_wc2026_459376e1,FIFA World Cup 2026,2026-06-14T00:00:00,First Stage,Group F,Netherlands,Japan,2,2,,,Dallas Stadium,Dallas,played,fifa_fixtures_2026
+m_wc2026_6fe3c2fa,FIFA World Cup 2026,2026-06-14T00:00:00,First Stage,Group E,Ivory Coast,Ecuador,1,0,,,Philadelphia Stadium,Philadelphia,played,fifa_fixtures_2026
+m_wc2026_25ca8129,FIFA World Cup 2026,2026-06-14T00:00:00,First Stage,Group F,Sweden,Tunisia,5,1,,,Monterrey Stadium,Monterrey,played,fifa_fixtures_2026
+m_wc2026_29ba447d,FIFA World Cup 2026,2026-06-15T00:00:00,First Stage,Group H,Spain,Cape Verde,0,0,,,Atlanta Stadium,Atlanta,played,fifa_fixtures_2026
+m_wc2026_ca294fac,FIFA World Cup 2026,2026-06-15T00:00:00,First Stage,Group G,Belgium,Egypt,1,1,,,Seattle Stadium,Seattle,played,fifa_fixtures_2026
+m_wc2026_4ae3e6ef,FIFA World Cup 2026,2026-06-15T00:00:00,First Stage,Group H,Saudi Arabia,Uruguay,1,1,,,Miami Stadium,Miami,played,fifa_fixtures_2026
+m_wc2026_85efd9ef,FIFA World Cup 2026,2026-06-15T00:00:00,First Stage,Group G,Iran,New Zealand,2,2,,,Los Angeles Stadium,Los Angeles,played,fifa_fixtures_2026
+m_wc2026_334ba01a,FIFA World Cup 2026,2026-06-16T00:00:00,First Stage,Group I,France,Senegal,3,1,,,New York/New Jersey Stadium,New Jersey,played,fifa_fixtures_2026
+m_wc2026_3021a052,FIFA World Cup 2026,2026-06-16T00:00:00,First Stage,Group I,Iraq,Norway,1,4,,,Boston Stadium,Boston,played,fifa_fixtures_2026
+m_wc2026_af1bdea5,FIFA World Cup 2026,2026-06-16T00:00:00,First Stage,Group J,Argentina,Algeria,3,0,,,Kansas City Stadium,Kansas City,played,fifa_fixtures_2026
+m_wc2026_318f2563,FIFA World Cup 2026,2026-06-17T00:00:00,First Stage,Group J,Austria,Jordan,3,1,,,San Francisco Bay Area Stadium,San Francisco Bay Area,played,fifa_fixtures_2026
+m_wc2026_924d6473,FIFA World Cup 2026,2026-06-17T00:00:00,First Stage,Group K,Portugal,Congo DR,1,1,,,Houston Stadium,Houston,played,fifa_fixtures_2026
+m_wc2026_b4682695,FIFA World Cup 2026,2026-06-17T00:00:00,First Stage,Group L,England,Croatia,4,2,,,Dallas Stadium,Dallas,played,fifa_fixtures_2026
+m_wc2026_c59fdb38,FIFA World Cup 2026,2026-06-17T00:00:00,First Stage,Group L,Ghana,Panama,1,0,,,Toronto Stadium,Toronto,played,fifa_fixtures_2026
+m_wc2026_0707cf87,FIFA World Cup 2026,2026-06-17T00:00:00,First Stage,Group K,Uzbekistan,Colombia,1,3,,,Mexico City Stadium,Mexico City,played,fifa_fixtures_2026
+m_wc2026_a6d435f3,FIFA World Cup 2026,2026-06-18T00:00:00,First Stage,Group A,Czechia,South Africa,1,1,,,Atlanta Stadium,Atlanta,played,fifa_fixtures_2026
+m_wc2026_a8be0a2d,FIFA World Cup 2026,2026-06-18T00:00:00,First Stage,Group B,Switzerland,Bosnia-Herzegovina,4,1,,,Los Angeles Stadium,Los Angeles,played,fifa_fixtures_2026
+m_wc2026_ce3f30ac,FIFA World Cup 2026,2026-06-18T00:00:00,First Stage,Group B,Canada,Qatar,6,0,,,BC Place Vancouver,Vancouver,played,fifa_fixtures_2026
+m_wc2026_6986d4f5,FIFA World Cup 2026,2026-06-18T00:00:00,First Stage,Group A,Mexico,South Korea,1,0,,,Guadalajara Stadium,Guadalajara,played,fifa_fixtures_2026
+m_wc2026_4b784385,FIFA World Cup 2026,2026-06-19T00:00:00,First Stage,Group D,United States,Australia,2,0,,,Seattle Stadium,Seattle,played,fifa_fixtures_2026
+m_wc2026_83d40845,FIFA World Cup 2026,2026-06-19T00:00:00,First Stage,Group C,Scotland,Morocco,0,1,,,Boston Stadium,Boston,played,fifa_fixtures_2026
+m_wc2026_71ddda19,FIFA World Cup 2026,2026-06-19T00:00:00,First Stage,Group C,Brazil,Haiti,3,0,,,Philadelphia Stadium,Philadelphia,played,fifa_fixtures_2026
+m_wc2026_9f3be162,FIFA World Cup 2026,2026-06-19T00:00:00,First Stage,Group D,Türkiye,Paraguay,0,1,,,San Francisco Bay Area Stadium,San Francisco Bay Area,played,fifa_fixtures_2026
+m_wc2026_e90fc457,FIFA World Cup 2026,2026-06-20T00:00:00,First Stage,Group F,Netherlands,Sweden,5,1,,,Houston Stadium,Houston,played,fifa_fixtures_2026
+m_wc2026_993132c4,FIFA World Cup 2026,2026-06-20T00:00:00,First Stage,Group E,Germany,Ivory Coast,2,1,,,Toronto Stadium,Toronto,played,fifa_fixtures_2026
+m_wc2026_d794f3a4,FIFA World Cup 2026,2026-06-20T00:00:00,First Stage,Group E,Ecuador,Curacao,0,0,,,Kansas City Stadium,Kansas City,played,fifa_fixtures_2026
+m_wc2026_ab3d0172,FIFA World Cup 2026,2026-06-21T00:00:00,First Stage,Group F,Tunisia,Japan,0,4,,,Monterrey Stadium,Monterrey,played,fifa_fixtures_2026
+m_wc2026_bacb4e14,FIFA World Cup 2026,2026-06-21T00:00:00,First Stage,Group H,Spain,Saudi Arabia,4,0,,,Atlanta Stadium,Atlanta,played,fifa_fixtures_2026
+m_wc2026_1bc2db50,FIFA World Cup 2026,2026-06-21T00:00:00,First Stage,Group G,Belgium,Iran,0,0,,,Los Angeles Stadium,Los Angeles,played,fifa_fixtures_2026
+m_wc2026_4e9c0e69,FIFA World Cup 2026,2026-06-21T00:00:00,First Stage,Group H,Uruguay,Cape Verde,2,2,,,Miami Stadium,Miami,played,fifa_fixtures_2026
+m_wc2026_bbe5dbb9,FIFA World Cup 2026,2026-06-21T00:00:00,First Stage,Group G,New Zealand,Egypt,1,3,,,BC Place Vancouver,Vancouver,played,fifa_fixtures_2026
+m_wc2026_f1ea6de5,FIFA World Cup 2026,2026-06-22T00:00:00,First Stage,Group J,Argentina,Austria,2,0,,,Dallas Stadium,Dallas,played,fifa_fixtures_2026
+m_wc2026_28dfc7b7,FIFA World Cup 2026,2026-06-22T00:00:00,First Stage,Group I,France,Iraq,3,0,,,Philadelphia Stadium,Philadelphia,played,fifa_fixtures_2026
+m_wc2026_dbd09084,FIFA World Cup 2026,2026-06-22T00:00:00,First Stage,Group I,Norway,Senegal,3,2,,,New York/New Jersey Stadium,New Jersey,played,fifa_fixtures_2026
+m_wc2026_6274fdf4,FIFA World Cup 2026,2026-06-22T00:00:00,First Stage,Group J,Jordan,Algeria,1,2,,,San Francisco Bay Area Stadium,San Francisco Bay Area,played,fifa_fixtures_2026
+m_wc2026_896f74a6,FIFA World Cup 2026,2026-06-23T00:00:00,First Stage,Group K,Portugal,Uzbekistan,5,0,,,Houston Stadium,Houston,played,fifa_fixtures_2026
+m_wc2026_c1af2b6d,FIFA World Cup 2026,2026-06-23T00:00:00,First Stage,Group L,England,Ghana,0,0,,,Boston Stadium,Boston,played,fifa_fixtures_2026
+m_wc2026_f27fca00,FIFA World Cup 2026,2026-06-23T00:00:00,First Stage,Group L,Panama,Croatia,0,1,,,Toronto Stadium,Toronto,played,fifa_fixtures_2026
+m_wc2026_2d216a26,FIFA World Cup 2026,2026-06-23T00:00:00,First Stage,Group K,Colombia,Congo DR,1,0,,,Guadalajara Stadium,Guadalajara,played,fifa_fixtures_2026
+m_wc2026_4c8779dd,FIFA World Cup 2026,2026-06-24T00:00:00,First Stage,Group B,Switzerland,Canada,2,1,,,BC Place Vancouver,Vancouver,played,fifa_fixtures_2026
+m_wc2026_cc7c9014,FIFA World Cup 2026,2026-06-24T00:00:00,First Stage,Group B,Bosnia-Herzegovina,Qatar,3,1,,,Seattle Stadium,Seattle,played,fifa_fixtures_2026
+m_wc2026_85bbfa6b,FIFA World Cup 2026,2026-06-24T00:00:00,First Stage,Group C,Scotland,Brazil,0,3,,,Miami Stadium,Miami,played,fifa_fixtures_2026
+m_wc2026_c0855338,FIFA World Cup 2026,2026-06-24T00:00:00,First Stage,Group C,Morocco,Haiti,4,2,,,Atlanta Stadium,Atlanta,played,fifa_fixtures_2026
+m_wc2026_0b8429a9,FIFA World Cup 2026,2026-06-24T00:00:00,First Stage,Group A,Czechia,Mexico,0,3,,,Mexico City Stadium,Mexico City,played,fifa_fixtures_2026
+m_wc2026_b21ffde7,FIFA World Cup 2026,2026-06-24T00:00:00,First Stage,Group A,South Africa,South Korea,1,0,,,Monterrey Stadium,Monterrey,played,fifa_fixtures_2026
+m_wc2026_6b08c6e3,FIFA World Cup 2026,2026-06-25T00:00:00,First Stage,Group E,Curacao,Ivory Coast,0,2,,,Philadelphia Stadium,Philadelphia,played,fifa_fixtures_2026
+m_wc2026_2d97305c,FIFA World Cup 2026,2026-06-25T00:00:00,First Stage,Group E,Ecuador,Germany,2,1,,,New York/New Jersey Stadium,New Jersey,played,fifa_fixtures_2026
+m_wc2026_8fff615e,FIFA World Cup 2026,2026-06-25T00:00:00,First Stage,Group F,Japan,Sweden,1,1,,,Dallas Stadium,Dallas,played,fifa_fixtures_2026
+m_wc2026_a44bd770,FIFA World Cup 2026,2026-06-25T00:00:00,First Stage,Group F,Tunisia,Netherlands,1,3,,,Kansas City Stadium,Kansas City,played,fifa_fixtures_2026
+m_wc2026_6dff64ac,FIFA World Cup 2026,2026-06-25T00:00:00,First Stage,Group D,Türkiye,United States,3,2,,,Los Angeles Stadium,Los Angeles,played,fifa_fixtures_2026
+m_wc2026_422482fc,FIFA World Cup 2026,2026-06-25T00:00:00,First Stage,Group D,Paraguay,Australia,0,0,,,San Francisco Bay Area Stadium,San Francisco Bay Area,played,fifa_fixtures_2026
+m_wc2026_db91dd7d,FIFA World Cup 2026,2026-06-26T00:00:00,First Stage,Group I,Norway,France,1,4,,,Boston Stadium,Boston,played,fifa_fixtures_2026
+m_wc2026_b8bd508c,FIFA World Cup 2026,2026-06-26T00:00:00,First Stage,Group I,Senegal,Iraq,5,0,,,Toronto Stadium,Toronto,played,fifa_fixtures_2026
+m_wc2026_ca6beeb9,FIFA World Cup 2026,2026-06-26T00:00:00,First Stage,Group H,Cape Verde,Saudi Arabia,0,0,,,Houston Stadium,Houston,played,fifa_fixtures_2026
+m_wc2026_dbfff7ad,FIFA World Cup 2026,2026-06-26T00:00:00,First Stage,Group H,Uruguay,Spain,0,1,,,Guadalajara Stadium,Guadalajara,played,fifa_fixtures_2026
+m_wc2026_87b5e87c,FIFA World Cup 2026,2026-06-26T00:00:00,First Stage,Group G,Egypt,Iran,1,1,,,Seattle Stadium,Seattle,played,fifa_fixtures_2026
+m_wc2026_4a5663f4,FIFA World Cup 2026,2026-06-26T00:00:00,First Stage,Group G,New Zealand,Belgium,1,5,,,BC Place Vancouver,Vancouver,played,fifa_fixtures_2026
+m_wc2026_5fd28351,FIFA World Cup 2026,2026-06-27T00:00:00,First Stage,Group L,Panama,England,0,2,,,New York/New Jersey Stadium,New Jersey,played,fifa_fixtures_2026
+m_wc2026_722b2232,FIFA World Cup 2026,2026-06-27T00:00:00,First Stage,Group L,Croatia,Ghana,2,1,,,Philadelphia Stadium,Philadelphia,played,fifa_fixtures_2026
+m_wc2026_70f285fe,FIFA World Cup 2026,2026-06-27T00:00:00,First Stage,Group K,Colombia,Portugal,0,0,,,Miami Stadium,Miami,played,fifa_fixtures_2026
+m_wc2026_3c5a2c82,FIFA World Cup 2026,2026-06-27T00:00:00,First Stage,Group K,Congo DR,Uzbekistan,3,1,,,Atlanta Stadium,Atlanta,played,fifa_fixtures_2026
+m_wc2026_388c7888,FIFA World Cup 2026,2026-06-27T00:00:00,First Stage,Group J,Algeria,Austria,3,3,,,Kansas City Stadium,Kansas City,played,fifa_fixtures_2026
+m_wc2026_08fa1e54,FIFA World Cup 2026,2026-06-27T00:00:00,First Stage,Group J,Jordan,Argentina,1,3,,,Dallas Stadium,Dallas,played,fifa_fixtures_2026
+m_wc2026_cb1af719,FIFA World Cup 2026,2026-06-28T00:00:00,Round of 32,,South Africa,Canada,0,1,,,Los Angeles Stadium,Los Angeles,played,fifa_fixtures_2026
+m_wc2026_39269a6f,FIFA World Cup 2026,2026-06-29T00:00:00,Round of 32,,Brazil,Japan,2,1,,,Houston Stadium,Houston,played,fifa_fixtures_2026
+m_wc2026_b1b37c11,FIFA World Cup 2026,2026-06-29T00:00:00,Round of 32,,Germany,Paraguay,1,1,3,4,Boston Stadium,Boston,played,fifa_fixtures_2026
+m_wc2026_e6506fc6,FIFA World Cup 2026,2026-06-29T00:00:00,Round of 32,,Netherlands,Morocco,1,1,2,3,Monterrey Stadium,Monterrey,played,fifa_fixtures_2026
+m_wc2026_6bc757f7,FIFA World Cup 2026,2026-06-30T00:00:00,Round of 32,,Ivory Coast,Norway,1,2,,,Dallas Stadium,Dallas,played,fifa_fixtures_2026
+m_wc2026_ba995fca,FIFA World Cup 2026,2026-06-30T00:00:00,Round of 32,,France,Sweden,3,0,,,New York/New Jersey Stadium,New Jersey,played,fifa_fixtures_2026
+m_wc2026_5e2c4df4,FIFA World Cup 2026,2026-06-30T00:00:00,Round of 32,,Mexico,Ecuador,2,0,,,Mexico City Stadium,Mexico City,played,fifa_fixtures_2026
+m_wc2026_6adaa240,FIFA World Cup 2026,2026-07-01T00:00:00,Round of 32,,England,Congo DR,2,1,,,Atlanta Stadium,Atlanta,played,fifa_fixtures_2026
+m_wc2026_306b8b99,FIFA World Cup 2026,2026-07-01T00:00:00,Round of 32,,Belgium,Senegal,3,2,,,Seattle Stadium,Seattle,played,fifa_fixtures_2026
+m_wc2026_05ebc8bc,FIFA World Cup 2026,2026-07-01T00:00:00,Round of 32,,United States,Bosnia-Herzegovina,2,0,,,San Francisco Bay Area Stadium,San Francisco Bay Area,played,fifa_fixtures_2026
+m_wc2026_0a6689f1,FIFA World Cup 2026,2026-07-02T00:00:00,Round of 32,,Spain,Austria,3,0,,,Los Angeles Stadium,Los Angeles,played,fifa_fixtures_2026
+m_wc2026_a8069ba7,FIFA World Cup 2026,2026-07-02T00:00:00,Round of 32,,Portugal,Croatia,2,1,,,Toronto Stadium,Toronto,played,fifa_fixtures_2026
+m_wc2026_8b05bbd4,FIFA World Cup 2026,2026-07-02T00:00:00,Round of 32,,Switzerland,Algeria,2,0,,,BC Place Vancouver,Vancouver,played,fifa_fixtures_2026
+m_wc2026_bdc5d427,FIFA World Cup 2026,2026-07-03T00:00:00,Round of 32,,Australia,Egypt,1,1,2,4,Dallas Stadium,Dallas,played,fifa_fixtures_2026
+m_wc2026_d8c45671,FIFA World Cup 2026,2026-07-03T00:00:00,Round of 32,,Argentina,Cape Verde,3,2,,,Miami Stadium,Miami,played,fifa_fixtures_2026
+m_wc2026_05aa1067,FIFA World Cup 2026,2026-07-03T00:00:00,Round of 32,,Colombia,Ghana,1,0,,,Kansas City Stadium,Kansas City,played,fifa_fixtures_2026
+m_wc2026_b0eb0b5b,FIFA World Cup 2026,2026-07-04T00:00:00,Round of 16,,Canada,Morocco,0,3,,,Houston Stadium,Houston,played,fifa_fixtures_2026
+m_wc2026_290d781c,FIFA World Cup 2026,2026-07-04T00:00:00,Round of 16,,Paraguay,France,0,1,,,Philadelphia Stadium,Philadelphia,played,fifa_fixtures_2026
+m_wc2026_d270fbbd,FIFA World Cup 2026,2026-07-05T00:00:00,Round of 16,,Brazil,Norway,1,2,,,New York/New Jersey Stadium,New Jersey,played,fifa_fixtures_2026
+m_wc2026_49f958fc,FIFA World Cup 2026,2026-07-05T00:00:00,Round of 16,,Mexico,England,2,3,,,Mexico City Stadium,Mexico City,played,fifa_fixtures_2026
+m_wc2026_d80b6fab,FIFA World Cup 2026,2026-07-06T00:00:00,Round of 16,,Portugal,Spain,0,1,,,Dallas Stadium,Dallas,played,fifa_fixtures_2026
+m_wc2026_fcecb765,FIFA World Cup 2026,2026-07-06T00:00:00,Round of 16,,United States,Belgium,1,4,,,Seattle Stadium,Seattle,played,fifa_fixtures_2026
+m_wc2026_3d9ff254,FIFA World Cup 2026,2026-07-07T00:00:00,Round of 16,,Argentina,Egypt,3,2,,,Atlanta Stadium,Atlanta,played,fifa_fixtures_2026
+m_wc2026_412992ea,FIFA World Cup 2026,2026-07-07T00:00:00,Round of 16,,Switzerland,Colombia,0,0,4,3,BC Place Vancouver,Vancouver,played,fifa_fixtures_2026
+m_wc2026_3fac924b,FIFA World Cup 2026,2026-07-09T00:00:00,Quarter-final,,France,Morocco,2,0,,,Boston Stadium,Boston,played,fifa_fixtures_2026
+m_wc2026_324aabf1,FIFA World Cup 2026,2026-07-10T00:00:00,Quarter-final,,Spain,Belgium,2,1,,,Los Angeles Stadium,Los Angeles,played,fifa_fixtures_2026
+m_wc2026_f82a52f9,FIFA World Cup 2026,2026-07-11T00:00:00,Quarter-final,,Norway,England,1,2,,,Miami Stadium,Miami,played,fifa_fixtures_2026
+m_wc2026_50da604e,FIFA World Cup 2026,2026-07-11T00:00:00,Quarter-final,,Argentina,Switzerland,3,1,,,Kansas City Stadium,Kansas City,played,fifa_fixtures_2026
+m_wc2026_28367994,FIFA World Cup 2026,2026-07-14T00:00:00,Semi-final,,France,Spain,,,,,Dallas Stadium,Dallas,scheduled,fifa_fixtures_2026
+m_wc2026_92cce74c,FIFA World Cup 2026,2026-07-15T00:00:00,Semi-final,,England,Argentina,,,,,Atlanta Stadium,Atlanta,scheduled,fifa_fixtures_2026
+m_wc2026_1053c029,FIFA World Cup 2026,2026-07-18T00:00:00,Play-off for third place,,RU101,RU102,,,,,Miami Stadium,Miami,scheduled,fifa_fixtures_2026
+m_wc2026_d1a6f2af,FIFA World Cup 2026,2026-07-19T00:00:00,Final,,W101,W102,,,,,New York/New Jersey Stadium,New Jersey,scheduled,fifa_fixtures_2026

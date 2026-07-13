@@ -1,0 +1,28 @@
+﻿group,team,shirt_number,position,player_name,is_captain,date_of_birth,caps,goals,club,club_country,action_hint
+Group J,Argentina,2,DF,Marcos Senesi,False,1997-05-10,3,0,Bournemouth,The Football Association,new player: needs ingestion mini-pipeline
+Group J,Austria,19,MF,Dejan Ljubičić,False,1997-10-08,9,1,Schalke 04,German Football Association,new player: needs ingestion mini-pipeline
+Group B,Bosnia and Herzegovina,12,GK,Mladen Jurkas,False,2007-10-07,0,0,Borac Banja Luka,Football Association of Bosnia and Herzegovina,new player: needs ingestion mini-pipeline
+Group B,Bosnia and Herzegovina,24,DF,Arjan Malić,False,2005-08-28,8,0,Sturm Graz,Austrian Football Association,new player: needs ingestion mini-pipeline
+Group C,Brazil,2,MF,Éderson Silva,False,1999-07-07,3,0,Atalanta,Italian Football Federation,new player: needs ingestion mini-pipeline
+Group B,Canada,26,FW,Jayden Nelson,False,2002-09-26,14,3,Austin FC,United States Soccer Federation,new player: needs ingestion mini-pipeline
+Group A,Czech Republic,1,GK,Matěj Kovář,False,2000-05-17,20,0,PSV Eindhoven,Royal Dutch Football Association,new player: needs ingestion mini-pipeline
+Group A,Czech Republic,15,FW,Pavel Šulc,False,2000-12-29,21,5,Lyon,French Football Federation,new player: needs ingestion mini-pipeline
+Group L,England,12,DF,Trevoh Chalobah,False,1999-07-05,1,0,Chelsea,The Football Association,new player: needs ingestion mini-pipeline
+Group E,Germany,20,MF,Nadiem Amiri,False,1996-10-27,11,1,Mainz 05,German Football Association,new player: needs ingestion mini-pipeline
+Group E,Germany,25,MF,Assan Ouédraogo,False,2006-05-09,1,1,RB Leipzig,German Football Association,new player: needs ingestion mini-pipeline
+Group C,Haiti,14,DF,Garven Metusala,False,1999-12-31,16,0,Colorado Springs Switchbacks FC,United States Soccer Federation,new player: needs ingestion mini-pipeline
+Group G,Iran,20,FW,Shahriyar Moghanlou,False,1994-12-21,21,2,Kalba,United Arab Emirates Football Association,new player: needs ingestion mini-pipeline
+Group I,Iraq,15,DF,Ahmed Maknzi,False,2001-09-24,7,0,Al-Karma,Iraq Football Association,new player: needs ingestion mini-pipeline
+Group E,Ivory Coast,13,DF,Christopher Opéri,False,1997-04-29,12,0,İstanbul Başakşehir,Turkish Football Federation,new player: needs ingestion mini-pipeline
+Group F,Japan,6,FW,Shūto Machino,False,1999-09-30,14,5,Borussia Mönchengladbach,German Football Association,new player: needs ingestion mini-pipeline
+Group J,Jordan,18,MF,Mohammad Taha,False,2005-07-13,2,0,Al-Hussein,Jordan Football Association,new player: needs ingestion mini-pipeline
+Group C,Morocco,5,DF,Marwane Saâdane,False,1992-01-17,8,0,Al-Fateh,Saudi Arabian Football Federation,new player: needs ingestion mini-pipeline
+Group C,Morocco,17,FW,Amine Sbaï,False,2000-11-05,2,0,Angers,French Football Federation,new player: needs ingestion mini-pipeline
+Group F,Netherlands,2,DF,Lutsharel Geertruida,False,2000-07-18,21,0,Sunderland,The Football Association,new player: needs ingestion mini-pipeline
+Group G,New Zealand,7,FW,Logan Rogerson,False,1998-05-28,18,2,Auckland FC,New Zealand Football,new player: needs ingestion mini-pipeline
+Group H,Saudi Arabia,20,FW,Sultan Mandash,False,1994-10-17,7,2,Al-Hilal,Saudi Arabian Football Federation,new player: needs ingestion mini-pipeline
+Group C,Scotland,8,MF,Tyler Fletcher,False,2007-03-19,2,0,Manchester United,The Football Association,new player: needs ingestion mini-pipeline
+Group A,South Korea,14,DF,Cho Wi-je,False,2001-08-25,1,0,Jeonbuk Hyundai Motors,Korea Football Association,new player: needs ingestion mini-pipeline
+Group F,Sweden,6,DF,Herman Johansson,False,1997-10-16,3,0,FC Dallas,United States Soccer Federation,new player: needs ingestion mini-pipeline
+Group K,Uzbekistan,9,MF,Odiljon Hamrobekov,False,1996-02-13,72,1,Tractor,Football Federation Islamic Republic of Iran,new player: needs ingestion mini-pipeline
+Group K,Uzbekistan,10,MF,Ruslanbek Jiyanov,False,2001-06-05,5,0,Navbahor Namangan,Uzbekistan Football Association,new player: needs ingestion mini-pipeline

@@ -1,0 +1,14 @@
+metric,value
+review_rows,251
+triage_bucket__batch_approve_stadium_coords,97
+triage_bucket__coordinate_backfill_needed,13
+triage_bucket__hard_manual_match,2
+triage_bucket__manual_review_club_vs_place,11
+triage_bucket__manual_review_gender_team_mismatch,4
+triage_bucket__manual_review_low_context_candidate,3
+triage_bucket__manual_review_name_ambiguity,93
+triage_bucket__manual_search_alias_retry,8
+triage_bucket__retry_search_wrong_entity,20
+priority__high,14
+priority__low,188
+priority__medium,49

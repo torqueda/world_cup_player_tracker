@@ -1,0 +1,37 @@
+{
+  "source_workbook": "data/master/world_cup_2026_player_map_master.xlsx",
+  "clubs_source": "data/master/world_cup_2026_player_map_master.xlsx:clubs",
+  "sheet_names": [
+    "raw_roster_import",
+    "players",
+    "coaches",
+    "squad_entries",
+    "clubs",
+    "player_club_at_callup",
+    "referees",
+    "match_history",
+    "team_stats",
+    "player_stats",
+    "sources",
+    "change_log",
+    "manual_review_queue",
+    "data_dictionary"
+  ],
+  "counts": {
+    "clubs": 461,
+    "cities": 397,
+    "players": 1275,
+    "teams": 48,
+    "player_stats": 1231,
+    "team_stats": 48,
+    "coaches": 48,
+    "referees": 167,
+    "confederations": 6,
+    "squad_entries": 1275,
+    "player_club_at_callup": 1275,
+    "sources": 10,
+    "change_log": 8,
+    "world_cup_history": 104,
+    "manual_review_queue": 0
+  }
+}

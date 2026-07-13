@@ -1,0 +1,9 @@
+metric,value
+baseline_path,data/processed/club_geolocation_working/clubs_geocoded_reconciled.csv
+baseline_text_repairs,0
+global_league_replacements_applied,7
+dataset_manual_field_changes_applied,3
+canonical_name_changes_applied,2
+total_audit_rows,9
+unmatched_dataset_manual_lines,122
+unmatched_name_change_lines,0

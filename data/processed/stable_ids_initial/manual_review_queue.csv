@@ -1,0 +1,3 @@
+﻿review_id,entity_type,entity_id,issue_type,issue_detail,suggested_fix,source_url,priority,status,resolved_at,notes
+rev_00001,squad_entry,,team_count_exception,Germany has 25 imported roster rows rather than 26.,Confirm whether this is an intentional source/team exception or a roster issue.,,medium,deferred,,
+rev_00002,squad_entry,,team_count_exception,Portugal has 27 imported roster rows rather than 26.,Confirm whether this is an intentional source/team exception or a roster issue.,,medium,deferred,,

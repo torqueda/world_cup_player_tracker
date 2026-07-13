@@ -1,0 +1,15 @@
+check,status,value,notes
+players_row_count,PASS,1248,Expected one row per player.
+player_id_unique,PASS,1248,player_id should be stable and unique.
+duplicate_wikidata_id_except_blank,PASS,0,"Treating NO_QID as non-Wikidata placeholder, not a QID."
+date_of_birth_underlying_format,WARN,1248,Artifact inspection returned Excel serial values for DOB cells; CSV export or final sheet should normalize display/export to YYYY-MM-DD.
+birth_year_plausibility,PASS,0,Checked parsed DOB years within 1970-2010.
+tarik_muharemovic_unlicensed_image_cleared,PASS,,Expected all image fields blank if Commons license was missing.
+amirhossein_mahmoudi_no_wrong_qid,WARN,NO_QID,"Expected wikidata_id blank. Current file uses NO_QID placeholder, which should be converted to blank before final import."
+birth_country_united_kingdom_absent,PASS,0,Expected constituent countries rather than United Kingdom.
+image_rows_have_license_and_source,PASS,0 bad / 965 with image_url,Rows with image_url should also have image_license and image_source_url unless intentionally deferred.
+old_step2_join_to_current_players,WARN,1 old-only / 1 current-only,One Ali Yousef/Yousif player_id mismatch was repaired in normalized call-up/squad outputs.
+old_clubs_count,INFO,511,Old Step 2 clubs.csv rows before normalization.
+normalized_clubs_count,INFO,463,Canonical club rows after curated alias merges.
+auto_merged_alias_groups,INFO,45,Canonical club rows with two or more source-name variants.
+club_review_queue_count,INFO,18,Possible duplicates/name collisions left for manual review.

@@ -1,0 +1,203 @@
+{
+  "our_squad_entries": 1248,
+  "wikipedia_final_squad_rows": 1248,
+  "matched": 1221,
+  "matched_fuzzy": 67,
+  "cut_candidates": 27,
+  "new_players": 27,
+  "dob_mismatches": 32,
+  "teams": {
+    "Algeria": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Argentina": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Australia": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Austria": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Belgium": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Bosnia and Herzegovina": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Brazil": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Canada": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Cape Verde": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Colombia": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Croatia": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Curaçao": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Czech Republic": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "DR Congo": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Ecuador": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Egypt": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "England": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "France": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Germany": {
+      "ours": 25,
+      "wikipedia": 26
+    },
+    "Ghana": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Haiti": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Iran": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Iraq": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Ivory Coast": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Japan": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Jordan": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Mexico": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Morocco": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Netherlands": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "New Zealand": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Norway": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Panama": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Paraguay": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Portugal": {
+      "ours": 27,
+      "wikipedia": 26
+    },
+    "Qatar": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Saudi Arabia": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Scotland": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Senegal": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "South Africa": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "South Korea": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Spain": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Sweden": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Switzerland": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Tunisia": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Turkey": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "United States": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Uruguay": {
+      "ours": 26,
+      "wikipedia": 26
+    },
+    "Uzbekistan": {
+      "ours": 26,
+      "wikipedia": 26
+    }
+  }
+}

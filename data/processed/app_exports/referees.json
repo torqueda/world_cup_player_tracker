@@ -1,0 +1,1505 @@
+[
+  {
+    "official_id": "ref_wc2026_48aab2dc",
+    "name": "Omar Al Ali",
+    "country": "United Arab Emirates",
+    "role": "referee",
+    "confederation": "AFC",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_450ba358",
+    "name": "Mohamed Al-Hammadi",
+    "country": "United Arab Emirates",
+    "role": "assistant_referee",
+    "confederation": "AFC",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_699653a8",
+    "name": "Abdulrahman Al-Jassim",
+    "country": "Qatar",
+    "role": "referee",
+    "confederation": "AFC",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_c6e6fc22",
+    "name": "Taleb Al-Marri",
+    "country": "Qatar",
+    "role": "assistant_referee",
+    "confederation": "AFC",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_3af4eea5",
+    "name": "Saud Al-Maqaleh",
+    "country": "Qatar",
+    "role": "assistant_referee",
+    "confederation": "AFC",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_5f922334",
+    "name": "Khalid Al-Turais",
+    "country": "Saudi Arabia",
+    "role": "referee",
+    "confederation": "AFC",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_132a7f6c",
+    "name": "Mohammed Al-Bakry",
+    "country": "Saudi Arabia",
+    "role": "assistant_referee",
+    "confederation": "AFC",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_dfd8e15f",
+    "name": "Alireza Faghani",
+    "country": "Australia",
+    "role": "referee",
+    "confederation": "AFC",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_3ddf0866",
+    "name": "George Lakrindis",
+    "country": "Australia",
+    "role": "assistant_referee",
+    "confederation": "AFC",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_c24f7022",
+    "name": "James Lindsay",
+    "country": "Australia",
+    "role": "assistant_referee",
+    "confederation": "AFC",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_62d91993",
+    "name": "Ma Ning",
+    "country": "China",
+    "role": "referee",
+    "confederation": "AFC",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_f702d86f",
+    "name": "Zhou Fei",
+    "country": "China",
+    "role": "assistant_referee",
+    "confederation": "AFC",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_1a41c71f",
+    "name": "Adham Makhadmeh",
+    "country": "Jordan",
+    "role": "referee",
+    "confederation": "AFC",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_6a8d1db0",
+    "name": "Mohammad Al-Kalaf",
+    "country": "Jordan",
+    "role": "assistant_referee",
+    "confederation": "AFC",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_11aa9223",
+    "name": "Ahmad Al-Roalle",
+    "country": "Jordan",
+    "role": "assistant_referee",
+    "confederation": "AFC",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_62a7efc2",
+    "name": "Ilgiz Tantashev",
+    "country": "Uzbekistan",
+    "role": "referee",
+    "confederation": "AFC",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_54b2e887",
+    "name": "Timur Gaynullin",
+    "country": "Uzbekistan",
+    "role": "assistant_referee",
+    "confederation": "AFC",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_d7fb5264",
+    "name": "Andrey Tsapenko",
+    "country": "Uzbekistan",
+    "role": "assistant_referee",
+    "confederation": "AFC",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_ba8bc91e",
+    "name": "Yusuke Araki",
+    "country": "Japan",
+    "role": "referee",
+    "confederation": "AFC",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_ffed325e",
+    "name": "Jun Mihara",
+    "country": "Japan",
+    "role": "assistant_referee",
+    "confederation": "AFC",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_8b920a8e",
+    "name": "Pierre Atcho",
+    "country": "Gabon",
+    "role": "referee",
+    "confederation": "CAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_b102ab6e",
+    "name": "Boris Ditsoga",
+    "country": "Gabon",
+    "role": "assistant_referee",
+    "confederation": "CAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_b4a08c93",
+    "name": "Amos Abeigne Ndong",
+    "country": "Gabon",
+    "role": "assistant_referee",
+    "confederation": "CAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_da242078",
+    "name": "Dahane Beida",
+    "country": "Mauritania",
+    "role": "referee",
+    "confederation": "CAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_4b20d311",
+    "name": "Jerson Emiliano dos Santos",
+    "country": "Angola",
+    "role": "assistant_referee",
+    "confederation": "CAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_8ffe5164",
+    "name": "Elvis Noupue",
+    "country": "Cameroon",
+    "role": "assistant_referee",
+    "confederation": "CAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_f9c2a19e",
+    "name": "Mustapha Ghorbal",
+    "country": "Algeria",
+    "role": "referee",
+    "confederation": "CAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_2c3fda32",
+    "name": "Mokrane Gourari",
+    "country": "Algeria",
+    "role": "assistant_referee",
+    "confederation": "CAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_6ebe8cc2",
+    "name": "Abbes Akram Zerhouni",
+    "country": "Algeria",
+    "role": "assistant_referee",
+    "confederation": "CAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_899fdec7",
+    "name": "Jalal Jayed",
+    "country": "Morocco",
+    "role": "referee",
+    "confederation": "CAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_e8e33904",
+    "name": "Zakaria Brinsi",
+    "country": "Morocco",
+    "role": "assistant_referee",
+    "confederation": "CAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_b944cca9",
+    "name": "Mostafa Akarkad",
+    "country": "Morocco",
+    "role": "assistant_referee",
+    "confederation": "CAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_c96eae2b",
+    "name": "Amin Omar",
+    "country": "Egypt",
+    "role": "referee",
+    "confederation": "CAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_dd9f8892",
+    "name": "Mahmoud Abouregal",
+    "country": "Egypt",
+    "role": "assistant_referee",
+    "confederation": "CAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_a21a15e2",
+    "name": "Ahmed Hossam Taha",
+    "country": "Egypt",
+    "role": "assistant_referee",
+    "confederation": "CAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_6fc9bb98",
+    "name": "Abongile Tom",
+    "country": "South Africa",
+    "role": "referee",
+    "confederation": "CAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_8dee4855",
+    "name": "Zakhele Siwela",
+    "country": "South Africa",
+    "role": "assistant_referee",
+    "confederation": "CAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_527b1aad",
+    "name": "Iván Barton",
+    "country": "El Salvador",
+    "role": "referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_5465e8f3",
+    "name": "David Morán",
+    "country": "El Salvador",
+    "role": "assistant_referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_3b857105",
+    "name": "Henry Pupiro",
+    "country": "Nicaragua",
+    "role": "assistant_referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_aa246213",
+    "name": "Juan Gabriel Calderón",
+    "country": "Costa Rica",
+    "role": "referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_d1eec408",
+    "name": "Juan Carlos Mora",
+    "country": "Costa Rica",
+    "role": "assistant_referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_1dee27bd",
+    "name": "Ismail Elfath",
+    "country": "United States",
+    "role": "referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_4d4ec907",
+    "name": "Corey Parker",
+    "country": "United States",
+    "role": "assistant_referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_b4647e5d",
+    "name": "Kyle Atkins",
+    "country": "United States",
+    "role": "assistant_referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_7a1086e9",
+    "name": "Oshane Nation",
+    "country": "Jamaica",
+    "role": "referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_ea63049a",
+    "name": "Caleb Wales",
+    "country": "Trinidad and Tobago",
+    "role": "assistant_referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_70e67e11",
+    "name": "Drew Fischer",
+    "country": "Canada",
+    "role": "referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_bc6bb747",
+    "name": "Lyes Arfa",
+    "country": "Canada",
+    "role": "assistant_referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_7f09217c",
+    "name": "Micheal Barwegen",
+    "country": "Canada",
+    "role": "assistant_referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_45284e60",
+    "name": "Katia Itzel García",
+    "country": "Mexico",
+    "role": "referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_ff81dc56",
+    "name": "Sandra Ramírez",
+    "country": "Mexico",
+    "role": "assistant_referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_dc24c7e2",
+    "name": "Saíd Martínez",
+    "country": "Honduras",
+    "role": "referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_63faba13",
+    "name": "Walter López",
+    "country": "Honduras",
+    "role": "assistant_referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_a2ec41cc",
+    "name": "Christian Ramírez",
+    "country": "Honduras",
+    "role": "assistant_referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_2c25e742",
+    "name": "Tori Penso",
+    "country": "United States",
+    "role": "referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_1dc167bf",
+    "name": "Kathryn Nesbitt",
+    "country": "United States",
+    "role": "assistant_referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_7276d5e7",
+    "name": "Brooke Mayo",
+    "country": "United States",
+    "role": "assistant_referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_ce16bc02",
+    "name": "César Arturo Ramos",
+    "country": "Mexico",
+    "role": "referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_9a5c90ff",
+    "name": "Alberto Morín",
+    "country": "Mexico",
+    "role": "assistant_referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_8c209d09",
+    "name": "Marco Bisguerra",
+    "country": "Mexico",
+    "role": "assistant_referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_775db6cd",
+    "name": "Ramon Abatti",
+    "country": "Brazil",
+    "role": "referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_69d88f77",
+    "name": "Rafael Alves",
+    "country": "Brazil",
+    "role": "assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_416ad231",
+    "name": "Danilo Manis",
+    "country": "Brazil",
+    "role": "assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_d4f5c30a",
+    "name": "Juan Gabriel Benítez",
+    "country": "Paraguay",
+    "role": "referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_c8c90814",
+    "name": "Eduardo Cardozo",
+    "country": "Paraguay",
+    "role": "assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_bca868a4",
+    "name": "Milcíades Saldívar",
+    "country": "Paraguay",
+    "role": "assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_a5e93102",
+    "name": "Raphael Claus",
+    "country": "Brazil",
+    "role": "referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_f72910c0",
+    "name": "Rodrigo Figueiredo",
+    "country": "Brazil",
+    "role": "assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_b449e092",
+    "name": "Yael Falcón",
+    "country": "Argentina",
+    "role": "referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_12c9c4df",
+    "name": "Maximiliano Del Yesso",
+    "country": "Argentina",
+    "role": "assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_f2df31f3",
+    "name": "Facundo Rodríguez",
+    "country": "Argentina",
+    "role": "assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_cf404489",
+    "name": "Cristián Garay",
+    "country": "Chile",
+    "role": "referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_009995a3",
+    "name": "José Retamal",
+    "country": "Chile",
+    "role": "assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_79f22291",
+    "name": "Miguel Rocha",
+    "country": "Chile",
+    "role": "assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_135fa84a",
+    "name": "Darío Herrera",
+    "country": "Argentina",
+    "role": "referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_fb9e1248",
+    "name": "Cristian Navarro",
+    "country": "Argentina",
+    "role": "assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_1d5ec5cb",
+    "name": "Kevin Ortega",
+    "country": "Peru",
+    "role": "referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_87387386",
+    "name": "Michael Orué",
+    "country": "Peru",
+    "role": "assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_05ab6a99",
+    "name": "Andrés Rojas",
+    "country": "Colombia",
+    "role": "referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_2450a1b1",
+    "name": "Alexander Guzmán",
+    "country": "Colombia",
+    "role": "assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_9bd13333",
+    "name": "Wilton Sampaio",
+    "country": "Brazil",
+    "role": "referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_0a13da56",
+    "name": "Bruno Boschilia",
+    "country": "Brazil",
+    "role": "assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_25610fa9",
+    "name": "Bruno Pires",
+    "country": "Brazil",
+    "role": "assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_65243c73",
+    "name": "Gustavo Tejera",
+    "country": "Uruguay",
+    "role": "referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_8a94b855",
+    "name": "Nicolás Tarán",
+    "country": "Uruguay",
+    "role": "assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_6952b0ca",
+    "name": "Carlos Barreiro",
+    "country": "Uruguay",
+    "role": "assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_9cdc2b7a",
+    "name": "Facundo Tello",
+    "country": "Argentina",
+    "role": "referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_43820a60",
+    "name": "Juan Pablo Belatti",
+    "country": "Argentina",
+    "role": "assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_7c3f9116",
+    "name": "Gabriel Chade",
+    "country": "Argentina",
+    "role": "assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_324a924d",
+    "name": "Jesús Valenzuela",
+    "country": "Venezuela",
+    "role": "referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_d5d3394d",
+    "name": "Jorge Urrego",
+    "country": "Venezuela",
+    "role": "assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_8265746d",
+    "name": "Tulio Moreno",
+    "country": "Venezuela",
+    "role": "assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_6801e9b7",
+    "name": "Campbell-Kirk Kawana-Waugh",
+    "country": "New Zealand",
+    "role": "referee",
+    "confederation": "OFC",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_3b86cf00",
+    "name": "Isaac Trevis",
+    "country": "New Zealand",
+    "role": "assistant_referee",
+    "confederation": "OFC",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_e759b192",
+    "name": "Espen Eskås",
+    "country": "Norway",
+    "role": "referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_2260fad5",
+    "name": "Jan Erik Engan",
+    "country": "Norway",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_6995c911",
+    "name": "Isaak Bashevkin",
+    "country": "Norway",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_e3f12613",
+    "name": "Alejandro Hernández Hernández",
+    "country": "Spain",
+    "role": "referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_3912baba",
+    "name": "José Enrique Naranjo Pérez",
+    "country": "Spain",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_a30b635f",
+    "name": "Diego Sánchez Rojo",
+    "country": "Spain",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_19282cd9",
+    "name": "István Kovács",
+    "country": "Romania",
+    "role": "referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_0bada87f",
+    "name": "Mihai Marius Marica",
+    "country": "Romania",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_cfe5cef3",
+    "name": "Ferencz Tunyogi",
+    "country": "Romania",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_76a68507",
+    "name": "François Letexier",
+    "country": "France",
+    "role": "referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_ade70f32",
+    "name": "Cyril Mugnier",
+    "country": "France",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_a7659e64",
+    "name": "Mehdi Rahmouni",
+    "country": "France",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_0ac2ab0f",
+    "name": "Danny Makkelie",
+    "country": "Netherlands",
+    "role": "referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_131cf950",
+    "name": "Hessel Steegstra",
+    "country": "Netherlands",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_882c8922",
+    "name": "Jan de Vries",
+    "country": "Netherlands",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_d763d663",
+    "name": "Szymon Marciniak",
+    "country": "Poland",
+    "role": "referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_2132162f",
+    "name": "Tomasz Listkiewicz",
+    "country": "Poland",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_f6933486",
+    "name": "Adam Kupsik",
+    "country": "Poland",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_d00e962c",
+    "name": "Maurizio Mariani",
+    "country": "Italy",
+    "role": "referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_b2bc6499",
+    "name": "Daniele Bindoni",
+    "country": "Italy",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_8e67f386",
+    "name": "Alberto Tegoni",
+    "country": "Italy",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_c324eb42",
+    "name": "Glenn Nyberg",
+    "country": "Sweden",
+    "role": "referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_14f47caa",
+    "name": "Mahbod Beigi",
+    "country": "Sweden",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_6a9d7257",
+    "name": "Andreas Söderkvist",
+    "country": "Sweden",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_ed5c6978",
+    "name": "Michael Oliver",
+    "country": "England",
+    "role": "referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_5fb6df68",
+    "name": "Stuart Burt",
+    "country": "England",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_6f4c263f",
+    "name": "James Mainwaring",
+    "country": "England",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_5c3dbf3d",
+    "name": "João Pinheiro",
+    "country": "Portugal",
+    "role": "referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_e885496b",
+    "name": "Bruno Jesus",
+    "country": "Portugal",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_9ff82f04",
+    "name": "Luciano Maia",
+    "country": "Portugal",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_8ba9dc25",
+    "name": "Sandro Schärer",
+    "country": "Switzerland",
+    "role": "referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_110f1534",
+    "name": "Stéphane De Almeida",
+    "country": "Switzerland",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_e3fde271",
+    "name": "Anthony Taylor",
+    "country": "England",
+    "role": "referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_98fcb66e",
+    "name": "Gary Beswick",
+    "country": "England",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_fe9fbb61",
+    "name": "Adam Nunn",
+    "country": "England",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_b9eff6c0",
+    "name": "Clément Turpin",
+    "country": "France",
+    "role": "referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_2edf74ca",
+    "name": "Nicolas Danos",
+    "country": "France",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_7430fd6e",
+    "name": "Benjamin Pagès",
+    "country": "France",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_9b1cf4b2",
+    "name": "Slavko Vinčić",
+    "country": "Slovenia",
+    "role": "referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_64a9ba0b",
+    "name": "Tomaž Klančnik",
+    "country": "Slovenia",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_e075af79",
+    "name": "Andraž Kovačič",
+    "country": "Slovenia",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_4fbf3768",
+    "name": "Felix Zwayer",
+    "country": "Germany",
+    "role": "referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_662ff7fc",
+    "name": "Robert Kempter",
+    "country": "Germany",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_68fa3c1b",
+    "name": "Christian Dietz",
+    "country": "Germany",
+    "role": "assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_c37e2c59",
+    "name": "Khamis Al-Marri",
+    "country": "Qatar",
+    "role": "video_assistant_referee",
+    "confederation": "AFC",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_01586a19",
+    "name": "Abdullah Al-Shehri",
+    "country": "Saudi Arabia",
+    "role": "video_assistant_referee",
+    "confederation": "AFC",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_16f5b00a",
+    "name": "Shaun Evans",
+    "country": "Australia",
+    "role": "video_assistant_referee",
+    "confederation": "AFC",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_8605d472",
+    "name": "Fu Ming",
+    "country": "China",
+    "role": "video_assistant_referee",
+    "confederation": "AFC",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_6d5c54c5",
+    "name": "Mahmoud Ashour",
+    "country": "Egypt",
+    "role": "video_assistant_referee",
+    "confederation": "CAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_5bb117df",
+    "name": "Hamza El Fariq",
+    "country": "Morocco",
+    "role": "video_assistant_referee",
+    "confederation": "CAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_b2a69da3",
+    "name": "Joe Dickerson",
+    "country": "United States",
+    "role": "video_assistant_referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_7ba9f6f6",
+    "name": "Armando Villarreal",
+    "country": "United States",
+    "role": "video_assistant_referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_7e325202",
+    "name": "Erick Miranda",
+    "country": "Mexico",
+    "role": "video_assistant_referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_96d6141d",
+    "name": "Tatiana Guzmán",
+    "country": "Nicaragua",
+    "role": "video_assistant_referee",
+    "confederation": "CONCACAF",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_268ecb3e",
+    "name": "Juan Lara",
+    "country": "Chile",
+    "role": "video_assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_381fe7da",
+    "name": "Hernán Mastrángelo",
+    "country": "Argentina",
+    "role": "video_assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_e9c6815b",
+    "name": "Antonio García",
+    "country": "Uruguay",
+    "role": "video_assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_32d221b5",
+    "name": "Leodán González",
+    "country": "Uruguay",
+    "role": "video_assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_40f041da",
+    "name": "Juan Soto",
+    "country": "Venezuela",
+    "role": "video_assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_397ae818",
+    "name": "Nicolás Gallo",
+    "country": "Colombia",
+    "role": "video_assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_cdd0482b",
+    "name": "Rodolpho Toski",
+    "country": "Brazil",
+    "role": "video_assistant_referee",
+    "confederation": "CONMEBOL",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_dbe651c4",
+    "name": "Jérôme Brisard",
+    "country": "France",
+    "role": "video_assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_0a41befe",
+    "name": "Willy Delajod",
+    "country": "France",
+    "role": "video_assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_3ee651fb",
+    "name": "Bastian Dankert",
+    "country": "Germany",
+    "role": "video_assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_54353325",
+    "name": "Carlos del Cerro Grande",
+    "country": "Spain",
+    "role": "video_assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_8a444514",
+    "name": "Marco Di Bello",
+    "country": "Italy",
+    "role": "video_assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_4c2d5a27",
+    "name": "Ivan Bebek",
+    "country": "Croatia",
+    "role": "video_assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_e212d533",
+    "name": "Jarred Gillett",
+    "country": "England",
+    "role": "video_assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_ff19c415",
+    "name": "Dennis Higler",
+    "country": "Netherlands",
+    "role": "video_assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_7ebc921a",
+    "name": "Tomasz Kwiatkowski",
+    "country": "Poland",
+    "role": "video_assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_5073fe16",
+    "name": "Bram Van Driessche",
+    "country": "Belgium",
+    "role": "video_assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  },
+  {
+    "official_id": "ref_wc2026_1e2ecef9",
+    "name": "Fedayi San",
+    "country": "Switzerland",
+    "role": "video_assistant_referee",
+    "confederation": "UEFA",
+    "source_id": "wiki_officials_2026",
+    "retrieved_at": "2026-07-12T00:00:00"
+  }
+]

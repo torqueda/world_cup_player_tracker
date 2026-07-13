@@ -1,0 +1,457 @@
+club_id,club_name,club_name_ascii,league,country,city,stadium
+c_abha_a8d5b324,Abha Club,Abha Club,Saudi First Division League,Saudi Arabia,Abha,Prince Sultan bin Abdulaziz Sports City Stadium
+c_ac_milan_118eeb6e,AC Milan,AC Milan,Serie A,Italy,Milan,Giuseppe Meazza Stadium
+c_accra_hearts_of_oak_sc_5dd04a93,Accra Hearts of Oak S.C.,Accra Hearts of Oak S.C.,Ghana Premier League,Ghana,Accra,Accra Sports Stadium
+c_ae_kifisias_b52d38fc,A.E. Kifisia F.C.,A.E. Kifisia F.C.,Super League Greece,Greece,Nikaia,Neapoli Stadium
+c_aek_athens_72925ed6,AEK Athens,AEK Athens,Super League Greece,Greece,Nea Filadelfeia,Agia Sophia Stadium
+c_ael_431116e5,Athlitiki Enosi Larissa F.C.,Athlitiki Enosi Larissa F.C.,Super League Greece 2,Greece,Larissa,AEL FC Arena
+c_ael_limassol_2cf0940b,AEL Limassol,AEL Limassol,Cypriot First Division,Cyprus,Kolossi,Alphamega Stadium
+c_afc_bournemouth_61e18bcd,AFC Bournemouth,AFC Bournemouth,Premier League,England,Bournemouth,Dean Court
+c_agf_aarhus_255f8d4c,Aarhus Gymnastikforening,Aarhus Gymnastikforening,Danish Superliga,Denmark,Aarhus,Vejlby Stadium
+c_agmk_a616cb6f,AGMK,AGMK,Uzbekistan Super League,Uzbekistan,Olmaliq,AGMK Stadium
+c_aik_9fa4ead4,AIK Fotboll,AIK Fotboll,Allsvenskan,Sweden,Stockholm,Nationalarenan
+c_aj_auxerre_5c7942ef,AJ Auxerre,AJ Auxerre,Ligue 1,France,Auxerre,Stade de l'Abbé-Deschamps
+c_ajax_955fab76,AFC Ajax,AFC Ajax,Eredivisie,Netherlands,Amsterdam,Johan Cruyff Arena
+c_akron_tolyatti_7891723e,Akron Tolyatti,Akron Tolyatti,Russian Premier League,Russia,Samara,Samara Arena
+c_al_ahli_c686fb82,Al-Ahli Saudi FC,Al-Ahli Saudi FC,Saudi Pro League,Saudi Arabia,Jeddah,King Abdullah Sports City
+c_al_ahly_d8f224e8,Al Ahly SC,Al Ahly SC,Egyptian Premier League,Egypt,Cairo,Cairo International Stadium
+c_al_ain_c5137584,Al Ain FC,Al Ain FC,UAE Pro League,United Arab Emirates,Al Ain,Hazza bin Zayed Stadium
+c_al_arabi_aed4b46c,Al-Arabi SC (Qatar),Al-Arabi SC (Qatar),Qatar Stars League,Qatar,Doha,Grand Hamad Stadium
+c_al_bataeh_bbe9608c,Al Bataeh Club,Al Bataeh Club,UAE Pro League,United Arab Emirates,Al Bataeh,Al Bataeh Stadium
+c_al_duhail_917aca16,Al Duhail,Al Duhail,Qatar Stars League,Qatar,Doha,Lekhwiya Sports Stadium
+c_al_ettifaq_807c8264,Al-Ettifaq Club,Al-Ettifaq Club,Saudi Pro League,Saudi Arabia,Dammam,Al-Ettifaq Club Stadium
+c_al_faisaly_d08621cd,Al-Faisaly SC,Al-Faisaly SC,Jordanian Pro League,Jordan,Amman,Amman International Stadium
+c_al_fayha_22bab1f3,Al-Fayha Club,Al-Fayha Club,Saudi Pro League,Saudi Arabia,Al Majma'ah,Prince Salman Bin Abdulaziz Sport City Stadium
+c_al_gharafa_cf3f2df9,Al Gharafa,Al Gharafa,Qatar Stars League,Qatar,Doha,Thani bin Jassim Stadium
+c_al_hilal_67047244,Al Hilal SFC,Al Hilal SFC,Saudi Pro League,Saudi Arabia,Riyadh,Kingdom Arena
+c_al_hussein_1fe1435d,Al-Hussein SC (Irbid),Al-Hussein SC (Irbid),Jordanian Pro League,Jordan,Irbid,Al-Hassan Stadium
+c_al_ittihad_715274c9,Al-Ittihad Club,Al-Ittihad Club,Saudi Pro League,Saudi Arabia,Jeddah,King Abdullah Sports City Stadium
+c_al_jazira_3cf19a97,Al Jazira,Al Jazira,UAE Pro League,United Arab Emirates,Abu Dhabi,Mohammed Bin Zayed Stadium
+c_al_karma_f9b63d11,Al-Karma SC,Al-Karma SC,Iraqi First Division League,Iraq,Fallujah,Al-Fallujah Stadium
+c_al_najma_9b74810f,Al-Najma SC (Saudi Arabia),Al-Najma SC (Saudi Arabia),Saudi First Division League,Saudi Arabia,Unaizah,Al-Najma Club Stadium
+c_al_nasr_0bf2f525,Al-Nasr SC (Dubai),Al-Nasr SC (Dubai),UAE Pro League,United Arab Emirates,Dubai,Al-Maktoum Stadium
+c_al_nassr_4ed92392,Al-Nassr FC,Al-Nassr FC,Saudi Pro League,Saudi Arabia,Riyadh,King Saud University Stadium
+c_al_qadsiah_2c418904,Al Qadsiah FC,Al Qadsiah FC,Saudi Pro League,Saudi Arabia,Khobar,Prince Saud bin Jalawi Sports City Stadium
+c_al_quwa_al_jawiya_d23a171e,Al-Quwa Al-Jawiya,Al-Quwa Al-Jawiya,Iraq Stars League,Iraq,Baghdad,Al-Shaab Stadium
+c_al_rayyan_e5871040,Al-Rayyan SC,Al-Rayyan SC,Qatar Stars League,Qatar,Al Rayyan,Ahmad bin Ali Stadium
+c_al_riyadh_679deb94,Al-Riyadh SC,Al-Riyadh SC,Saudi Pro League,Saudi Arabia,Riyadh,Prince Turki bin Abdul Aziz Stadium
+c_al_sadd_a599a00e,Al Sadd SC,Al Sadd SC,Qatar Stars League,Qatar,Doha,Jassim Bin Hamad Stadium
+c_al_sailiaya_6158b2fd,Al-Sailiya SC,Al-Sailiya SC,Qatar Stars League,Qatar,Doha,Hamad bin Khalifa Stadium
+c_al_shabab_e27f5149,Al Shabab Club,Al Shabab Club,Saudi Pro League,Saudi Arabia,Riyadh,Al-Shabab Club Stadium
+c_al_shamal_91835f7b,Al-Shamal SC,Al-Shamal SC,Qatar Stars League 2,Qatar,Madinat ash Shamal,Al-Shamal SC Stadium
+c_al_shorta_03f6bef7,Al-Shorta SC,Al-Shorta SC,Syrian Premier League,Syria,Damascus,Abbasiyyin Stadium
+c_al_talaba_856167fb,Al-Talaba,Al-Talaba,Iraq Stars League,Iraq,Baghdad,Al Talaba Stadium
+c_al_ula_28613b64,Al-Ula FC,Al-Ula FC,Saudi First Division League,Saudi Arabia,Medina,Prince Mohammed bin Abdulaziz Stadium
+c_al_wahda_7ae987ab,Al Wahda FC,Al Wahda FC,UAE Pro League,Saudi Arabia,Abu Dhabi,Al Nahyan Stadium
+c_al_wakrah_abf60aa2,Al Wakrah,Al Wakrah,Qatar Stars League,Qatar,Al Wakrah,Al Janoub Stadium
+c_al_wehdat_2cc29034,Al-Wehdat SC,Al-Wehdat SC,Jordan Premier League,Jordan,Amman,King Abdullah II Stadium
+c_al_zawraa_7bba0fc0,Al-Zawraa,Al-Zawraa,Iraq Stars League,Iraq,Baghdad,Al-Zawraa Stadium
+c_alanyaspor_661d3784,Alanyaspor,Alanyaspor,Süper Lig,Turkey,Alanya,Alanya Oba Stadium
+c_albirex_niigata_cab00434,Albirex Niigata,Albirex Niigata,J2 League,Japan,Niigata,Denka Big Swan Stadium
+c_almere_11b3096f,Almere,Almere,Eerste Divisie,Netherlands,Almere,Yanmar Stadion
+c_anderlecht_b0025a96,Anderlecht,Anderlecht,Belgian Pro League,Belgium,Anderlecht,Lotto Park
+c_angers_df67ea45,Angers,Angers,Ligue 1,France,Angers,Stade Raymond Kopa
+c_antwerp_7961b08d,Antwerp,Antwerp,Belgian Pro League,Belgium,Antwerp,Stadion Broodstraat
+c_apoel_nicosia_af3c6796,APOEL FC,APOEL FC,Cypriot First Division,Cyprus,Nicosia,GSP Stadium
+c_apollon_limassol_b6137677,Apollon Limassol FC,Apollon Limassol FC,Cypriot First Division,Cyprus,Kolossi,Alphamega Stadium
+c_aris_limassol_d501bdb4,Aris Limassol FC,Aris Limassol FC,Cypriot First Division,Cyprus,Kolossi,Alphamega Stadium
+c_arsenal_93d10937,Arsenal F.C.,Arsenal F.C.,Premier League,England,London,Emirates Stadium
+c_as_far_8343a091,AS FAR,AS FAR,Botola Pro,Morocco,Rabat,Prince Moulay Abdellah Stadium
+c_as_monaco_6b2106c8,AS Monaco,AS Monaco,Ligue 1,Monaco,Fontvieille,Stade Louis II
+c_as_roma_2ecbf69f,AS Roma,AS Roma,Serie A,Italy,Rome,Stadio Olimpico
+c_astana_f8b0106f,Astana,Astana,Kazakhstan Premier League,Kazakhstan,Astana,Astana Arena
+c_aston_villa_2b918477,Aston Villa F.C.,Aston Villa F.C.,Premier League,England,Birmingham,Villa Park
+c_atalanta_f8d83567,Atalanta,Atalanta,Serie A,Italy,Bergamo,Stadio Atleti Azzurri d'Italia
+c_athletic_club_24c5af40,Athletic Bilbao,Athletic Bilbao,La Liga,Spain,Bilbao,San Mamés Stadium
+c_athletico_paranaense_2178bb1a,Club Athletico Paranaense,Club Athletico Paranaense,Campeonato Brasileiro Série A,Brazil,Curitiba,Arena da Baixada
+c_atlanta_united_43563fa4,Atlanta United,Atlanta United,Major League Soccer,United States,Atlanta,Mercedes-Benz Stadium
+c_atlas_292eeed6,Atlas F.C.,Atlas F.C.,Liga MX,Mexico,Guadalajara,Estadio Jalisco
+c_atletico_madrid_9b17a9e6,Atlético Madrid,Atletico Madrid,La Liga,Spain,Madrid,Metropolitano Stadium
+c_atletico_mineiro_a8379d4f,Atletico Mineiro,Atletico Mineiro,Campeonato Brasileiro Série A,Brazil,Belo Horizonte,Arena MRV
+c_atletico_nacional_4666103f,Atlético Nacional,Atletico Nacional,Liga DIMAYOR,Colombia,Medellín,Atanasio Girardot Stadium
+c_atromitos_ea5a8225,Atromitos F.C.,Atromitos F.C.,Super League Greece,Greece,Peristeri,Peristeri Stadium
+c_auckland_fc_a034ca43,Auckland FC,Auckland FC,A-League Men,New Zealand,Auckland,Mount Smart Stadium
+c_austria_vienna_84acf87e,Austria Vienna,Austria Vienna,Bundesliga,Austria,Vienna,Generali Arena
+c_az_alkmaar_6ec3c79a,AZ Alkmaar,AZ Alkmaar,Eredivisie,Netherlands,Alkmaar,AFAS Stadion
+c_baniyas_89e1539a,Baniyas,Baniyas,UAE Pro League,United Arab Emirates,Abu Dhabi,Baniyas Stadium
+c_barcelona_b_ef28ece1,FC Barcelona Atlètic,FC Barcelona Atletic,Primera Federación,Spain,Sant Joan Despí,Johan Cruijff Stadium
+c_barcelona_cb30c55c,FC Barcelona,FC Barcelona,La Liga,Spain,Barcelona,Camp Nou
+c_barnsley_4509838f,Barnsley F.C.,Barnsley F.C.,EFL League One,England,Barnsley,Oakwell
+c_bastia_1e5b7984,Bastia,Bastia,Ligue 3,France,Furiani,Stade Armand Cesari
+c_bayer_leverkusen_39ddc43b,Bayer 04 Leverkusen,Bayer 04 Leverkusen,Bundesliga,Germany,Leverkusen,BayArena
+c_bayern_munich_e963c2ea,FC Bayern Munich,FC Bayern Munich,Bundesliga,Germany,Munich,Allianz Arena
+c_benfica_5d914960,S.L. Benfica,S.L. Benfica,Primeira Liga,Portugal,Lisbon,Estádio da Luz
+c_besiktas_daeca9ad,Be_ikta_ J.K.,Besiktas JK,Süper Lig,Turkey,Be_ikta_,Be_ikta_ Stadium
+c_beveren_04c54466,SK Beveren,SK Beveren,Belgian Pro League,Belgium,Beveren,Freethiel Stadion
+c_birmingham_city_b5dc6570,Birmingham City F.C.,Birmingham City F.C.,EFL Championship,England,Birmingham,St Andrew's
+c_boca_juniors_6bfb0da4,Boca Juniors,Boca Juniors,Primera División de Argentina,Argentina,Buenos Aires,La Bombonera
+c_bod_glimt_b9be1ed7,FK Bodø/Glimt,FK Bodø/Glimt,Eliteserien,Norway,Bodø,Aspmyra Stadion
+c_bologna_1c61a9b1,Bologna,Bologna,Serie A,Italy,Bologna,Stadio Renato Dall'Ara
+c_borussia_dortmund_8a058a04,Borussia Dortmund,Borussia Dortmund,Bundesliga,Germany,Dortmund,Westfalenstadion
+c_borussia_monchengladbach_e9b82a3e,Borussia Mönchengladbach,Borussia Monchengladbach,Bundesliga,Germany,Mönchengladbach,Borussia-Park
+c_botafogo_99e3bf74,Botafogo FR,Botafogo FR,Campeonato Brasileiro Série A,Brazil,Rio de Janeiro,Estádio Olímpico Nilton Santos
+c_braga_f3599df6,Braga,Braga,Liga Portugal,Portugal,"Real, Dume e Semelhe",Estádio Municipal de Braga
+c_braintree_town_abe87f1e,Braintree Town F.C.,Braintree Town F.C.,National League South,England,Braintree,Cressing Road
+c_brentford_99ebeb82,Brentford F.C.,Brentford F.C.,Premier League,England,Brentford,Brentford Community Stadium
+c_brighton_hove_albion_5bfa8704,Brighton & Hove Albion F.C.,Brighton & Hove Albion F.C.,Premier League,England,Brighton and Hove,Falmer Stadium
+c_brondby_701a4084,Brøndby IF,Brondby IF,Danish Superliga,Denmark,Brøndbyvester,Brøndby Stadium
+c_burnley_b7c3fe1e,Burnley F.C.,Burnley F.C.,EFL Championship,England,Burnley,Turf Moor
+c_buxoro_ba979d39,Buxoro,Buxoro,Uzbekistan Super League,Uzbekistan,Bukhara,Buxoro Arena
+c_cagliari_b9017662,Cagliari,Cagliari,Serie A,Italy,Cagliari,Unipol Domus
+c_casa_pia_c00111a5,Casa Pia A.C.,Casa Pia A.C.,Primeira Liga,Portugal,Lisbon,Estádio Pina Manique
+c_castellon_8eebb754,CD Castellón,CD Castellon,Segunda División,Spain,Castellón de la Plana,Nou Estadi Castàlia
+c_caykur_rizespor_5d094b3b,Çaykur Rizespor,Caykur Rizespor,Süper Lig,Turkey,Rize,Rize City Stadium
+c_celta_vigo_d1c2cf8a,RC Celta de Vigo,RC Celta de Vigo,La Liga,Spain,Vigo,Balaídos Stadium
+c_celtic_a2eaecf1,Celtic F.C.,Celtic F.C.,Scottish Premiership,Scotland,Glasgow,Celtic Park
+c_cercle_brugge_02b4f133,Cercle Brugge KSV,Cercle Brugge KSV,Belgian Pro League,Belgium,Bruges,Jan Breydel Stadium
+c_cerro_porteno_cf028333,Club Cerro Porteño,Club Cerro Porteno,Primera División de Paraguay,Paraguay,Asunción,Estadio General Pablo Rojas
+c_charleroi_62356bf9,Royal Charleroi SC,Royal Charleroi SC,Belgian Pro League,Belgium,Charleroi,Stade du Pays de Charleroi
+c_charlotte_fc_f185ca79,Charlotte FC,Charlotte FC,Major League Soccer,United States,Charlotte,Bank of America Stadium
+c_charlton_athletic_f6926677,Charlton Athletic F.C.,Charlton Athletic F.C.,EFL Championship,England,London,The Valley
+c_chaves_de187007,G.D. Chaves,G.D. Chaves,Liga Portugal 2,Portugal,Chaves,Estádio Municipal Eng. Manuel Branco Teixeira
+c_chelsea_e655b01a,Chelsea F.C.,Chelsea F.C.,Premier League,England,London,Stamford Bridge
+c_chicago_fire_65c1a76f,Chicago Fire,Chicago Fire,Major League Soccer,United States,Chicago,Soldier Field
+c_chivas_d38ae426,Chivas,Chivas,Major League Soccer,United States,Carson,Dignity Health Sports Park
+c_club_africain_64656e78,Club Africain,Club Africain,Tunisian Ligue Professionnelle 1,Tunisia,Radès,Hammadi Agrebi Stadium
+c_club_america_49cadc66,Club América,Club America,Liga MX,Mexico,Coyoacán,Estadio Azteca
+c_club_brugge_ea2adfc5,Club Brugge KV,Club Brugge KV,Belgian Pro League,Belgium,Bruges,Jan Breydel Stadium
+c_club_tijuana_6e4baf66,Club Tijuana,Club Tijuana,Liga MX,Mexico,Tijuana,Estadio Caliente
+c_cobresal_8c0fe5bd,Cobresal,Cobresal,Chilean Primera División,Chile,El Salvador,Estadio El Cobre
+c_colorado_rapids_da865f5e,Colorado Rapids,Colorado Rapids,Major League Soccer,United States,Commerce City,Dick's Sporting Goods Park
+c_colorado_springs_switchbacks_a19366a9,Colorado Springs Switchbacks,Colorado Springs Switchbacks,USL Championship,United States,Colorado Springs,Switchbacks Training Stadium
+c_columbus_crew_7b68355a,Columbus Crew,Columbus Crew,Major League Soccer,United States,Columbus,ScottsMiracle-Gro Field
+c_como_e0ef6211,Como,Como,Serie A,Italy,Como,Stadio Giuseppe Sinigaglia
+c_copenhagen_7e10c652,F.C. Copenhagen,F.C. Copenhagen,Danish Superliga,Denmark,Copenhagen,Parken Stadium
+c_corinthians_276924f3,SC Corinthians Paulista,SC Corinthians Paulista,Campeonato Brasileiro Série A,Brazil,São Paulo,Arena Corinthians
+c_cosmos_koblenz_125995a0,FC Cosmos Koblenz,FC Cosmos Koblenz,Oberliga Rheinland-Pfalz/Saar,Germany,Koblenz,Stadion Oberwerth
+c_coventry_city_4bce22e1,Coventry City F.C.,Coventry City F.C.,Premier League,England,Coventry,Coventry Building Society Arena
+c_cracovia_5bed2b4b,KS Cracovia,KS Cracovia,Ekstraklasa,Poland,Kraków,Józef Pi_sudski Cracovia Stadium
+c_cremonese_7c9dcb3d,Cremonese,Cremonese,Serie A,Italy,Cremona,Stadio Giovanni Zini
+c_cruz_azul_71a31d4c,Cruz Azul,Cruz Azul,Liga MX,Mexico,Mexico City,Estadio Azteca
+c_crystal_palace_cd11ce68,Crystal Palace F.C.,Crystal Palace F.C.,Premier League,England,London,Selhurst Park
+c_cs_sfaxien_1128368b,CS Sfaxien,CS Sfaxien,Tunisian Ligue Professionnelle 1,Tunisia,Sfax,Taieb Mhiri Stadium
+c_cultural_leonesa_4479aa29,Cultural y Deportiva Leonesa,Cultural y Deportiva Leonesa,Primera Federación,Spain,León,Estadio Reino de León
+c_daejeon_hana_0cece60d,Daejeon Hana,Daejeon Hana,K League 1,South Korea,Daejeon,Daejeon World Cup Stadium
+c_den_bosch_bb7ad83e,FC Den Bosch,FC Den Bosch,Eerste Divisie,Netherlands,Den Bosch,De Vliert
+c_deportivo_la_guaira_c9679b6f,Deportivo La Guaira,Deportivo La Guaira,Venezuelan Primera División,Venezuela,Caracas,Estadio Olímpico
+c_derby_county_900d9adb,Derby County F.C.,Derby County F.C.,EFL Championship,England,Derby,Pride Park Stadium
+c_dibba_al_fujairah_06c16d12,Dibba FC,Dibba FC,UAE Pro League,United Arab Emirates,Emirate of Fujairah,Fujairah Club Stadium
+c_dinamo_samarqand_94368156,Dinamo Samarqand,Dinamo Samarqand,Uzbekistan Super League,Uzbekistan,Samarkand,Dynamo Samarkand Stadium
+c_dinamo_zagreb_d86806ac,Dinamo Zagreb,Dinamo Zagreb,Croatian Football League,Croatia,Maksimir,Stadion Maksimir
+c_dynamo_makhachkala_9cc503d9,FC Dynamo Makhachkala,FC Dynamo Makhachkala,Russian Premier League,Russia,Kaspiysk,Anzhi Arena
+c_dynamo_moscow_28a6f575,FC Dynamo Moscow,FC Dynamo Moscow,Russian Premier League,Russia,Moscow,VTB Arena
+c_eintracht_braunschweig_c967ead8,Eintracht Braunschweig,Eintracht Braunschweig,2. Bundesliga,Germany,Braunschweig,Eintracht-Stadion
+c_eintracht_frankfurt_52e79065,Eintracht Frankfurt,Eintracht Frankfurt,Bundesliga,Germany,Frankfurt,Waldstadion
+c_el_gouna_d2a63f6b,El Gouna,El Gouna,Egyptian Premier League,Egypt,El Gouna,Khaled Bichara Stadium
+c_el_paso_locomotive_18790af8,El Paso Locomotive,El Paso Locomotive,USL Championship,United States,El Paso,New El Paso Ballpark
+c_elche_e757517b,Elche,Elche,La Liga,Spain,Elche,Estadio Manuel Martínez Valero
+c_elfsborg_d22fb04b,IF Elfsborg,IF Elfsborg,Allsvenskan,Sweden,Borås,Borås Arena
+c_espanyol_b65db3d8,RCD Espanyol,RCD Espanyol,La Liga,Spain,Cornellà de Llobregat,RCDE Stadium
+c_esperance_de_tunis_bd3a1ae1,Espérance de Tunis,Esperance de Tunis,Tunisian Ligue Professionnelle 1,Tunisia,Radès,Hammadi Agrebi Stadium
+c_esteghlal_e23c4940,Esteghlal F.C.,Esteghlal F.C.,Persian Gulf Pro League,Iran,Tehran,Azadi Stadium
+c_estrela_amadora_ff8429b2,Estrela Amadora,Estrela Amadora,Liga Portugal,Portugal,Amadora,Estádio José Gomes
+c_estudiantes_de_la_plata_9139330d,Club Estudiantes de La Plata,Club Estudiantes de La Plata,Primera División de Argentina,Argentina,La Plata,Estadio Jorge Luis Hirschi
+c_etoile_du_sahel_57c67bcf,Étoile Sportive du Sahel,Etoile Sportive du Sahel,Tunisian Ligue Professionnelle 1,Tunisia,Sousse,Stade Olympique de Sousse
+c_everton_fd9ce394,Everton F.C.,Everton F.C.,Premier League,England,Liverpool,Hill Dickinson Stadium
+c_farense_d90822fe,Farense,Farense,Liga Portugal 2,Portugal,Faro,Estádio Algarve
+c_fc_augsburg_ae582369,FC Augsburg,FC Augsburg,Bundesliga,Germany,Augsburg,WWK Arena
+c_fc_cincinnati_d3ccf1dd,FC Cincinnati,FC Cincinnati,Major League Soccer,United States,Cincinnati,TQL Stadium
+c_fc_dallas_00dc1812,FC Dallas,FC Dallas,Major League Soccer,United States,Texas,Toyota Stadium
+c_fc_midtjylland_2f4e39b9,FC Midtjylland,FC Midtjylland,Danish Superliga,Denmark,Herning,MCH Arena
+c_fc_noah_5f5fceba,FC Noah,FC Noah,Armenian Premier League,Armenia,Yerevan,Mika Stadium
+c_fc_nordsjlland_ae9978cb,FC Nordsjælland,FC Nordsjaelland,Danish Superliga,Denmark,Farum,Right to Dream Park
+c_fc_seoul_8e133359,FC Seoul,FC Seoul,K League 1,South Korea,Dongan-gu,Anyang Sports Complex
+c_fc_tatran_presov_05bcf723,FC Tatran Pre_ov,FC Tatran Presov,Slovak First Football League,Slovakia,Pre_ov,Futbal Tatran Arena
+c_fc_tokyo_9926cea2,FC Tokyo,FC Tokyo,J1 League,Japan,Ch_fu,Ajinomoto Stadium
+c_fc_twente_dfc20881,FC Twente,FC Twente,Eredivisie,Netherlands,Enschede,De Grolsch Veste
+c_fc_utrecht_8e99a4a6,FC Utrecht,FC Utrecht,Eredivisie,Netherlands,Utrecht,Stadion Galgenwaard
+c_fcsb_dbba85ac,FCSB,FCSB,Liga I,Romania,Bucharest,Arena Na_ional_
+c_fcv_dender_decd464d,FCV Dender,FCV Dender,Belgian Pro League,Belgium,Denderleeuw,Florent Beeckmanstadion
+c_fenerbahce_58b3ec74,Fenerbahçe S.K.,Fenerbahce S.K.,Süper Lig,Turkey,Kadıköy,_ükrü Saraco_lu Stadium
+c_ferencvaros_b07d0cdc,Ferencvárosi TC,Ferencvarosi TC,Nemzeti Bajnokság I,Hungary,Budapest,Ferencváros Stadion
+c_feyenoord_c7797bfb,Feyenoord,Feyenoord,Eredivisie,Netherlands,Rotterdam,De Kuip
+c_fiorentina_69ff41f4,ACF Fiorentina,ACF Fiorentina,Serie A,Italy,Florence,Stadio Artemio Franchi
+c_flamengo_503b2587,CR Flamengo,CR Flamengo,Campeonato Brasileiro Série A,Brazil,Rio de Janeiro,Maracanã Stadium
+c_fluminense_86723454,Fluminense FC,Fluminense FC,Campeonato Brasileiro Série A,Brazil,Rio de Janeiro,Maracanã Stadium
+c_foolad_1a4bede8,Foolad F.C.,Foolad F.C.,Persian Gulf Pro League,Iran,Ahvaz,Foolad Arena
+c_fortuna_dusseldorf_78ca4c52,Fortuna Düsseldorf,Fortuna Dusseldorf,3. Liga,Germany,Düsseldorf,Merkur Spiel-Arena
+c_frosinone_ffb745d6,Frosinone,Frosinone,Serie B,Italy,Frosinone,Benito Stirpe Stadium
+c_fulham_385c468e,Fulham F.C.,Fulham F.C.,Premier League,England,London,Craven Cottage
+c_galatasaray_8f5e15dc,Galatasaray S.K.,Galatasaray S.K.,Süper Lig,Turkey,Sarıyer,Rams Park
+c_gangwon_fc_a8495ff5,Gangwon FC,Gangwon FC,K League 1,South Korea,Gangneung,Gangneung Stadium
+c_gaziantep_36de22a4,Gaziantep F.K.,Gaziantep F.K.,dissolution,Turkey,Gaziantep,Gaziantep Stadium
+c_genclerbirligi_22e3fae3,Gençlerbirli_i S.K.,Genclerbirligi S.K.,Süper Lig,Turkey,Etimesgut,Eryaman Stadium
+c_genk_8993c379,KRC Genk,KRC Genk,Belgian Pro League,Belgium,Genk,Cegeka Arena
+c_genoa_8456931a,Genoa,Genoa,Serie A,Italy,Genoa,Stadio Luigi Ferraris
+c_gent_2f000c7f,Gent,Gent,Belgian Pro League,Belgium,Ghent,Jules Ottenstadion
+c_gil_vicente_4e74984b,Gil Vicente,Gil Vicente,Liga Portugal,Portugal,Freguesia de Vila Boa,Estádio Cidade de Barcelos
+c_girona_2b73c591,Girona,Girona,La Liga,Spain,Girona,Montilivi Stadium
+c_granada_4af55cd4,Granada CF,Granada CF,Segunda División,Spain,Granada,Nuevo Estadio de Los Cármenes
+c_grazer_ak_845301c1,Grazer AK,Grazer AK,Bundesliga,Austria,Liebenau,Merkur Arena
+c_gremio_c49f51d7,Grêmio FBPA,Gremio FBPA,Campeonato Brasileiro Série A,Brazil,Porto Alegre,Arena do Grêmio
+c_gyori_eto_4f17868c,Gy_r ETO FC,Gyori ETO FC,Nemzeti Bajnokság I,Hungary,Gy_r,ETO Park
+c_hajduk_split_903c0454,Hajduk Split,Hajduk Split,Croatian Football League,Croatia,Split,Stadion Poljud
+c_hamburger_sv_bc4db90c,Hamburger SV,Hamburger SV,Bundesliga,Germany,Hamburg,Volksparkstadion
+c_hannover_96_f304aed3,Hannover 96,Hannover 96,Bundesliga,Germany,Hanover,Niedersachsenstadion
+c_hearts_422d35b1,Heart of Midlothian F.C.,Heart of Midlothian F.C.,Scottish Premiership,Scotland,Edinburgh,Tynecastle Park
+c_heracles_almelo_e3b803be,Heracles Almelo,Heracles Almelo,Eredivisie,Netherlands,Almelo,Asito Stadion
+c_hibernian_8382e8fd,Hibernian F.C.,Hibernian F.C.,Scottish Premiership,Scotland,Edinburgh,Easter Road
+c_holstein_kiel_1496d34f,Holstein Kiel,Holstein Kiel,2. Bundesliga,Germany,Kiel,Holstein-Stadion
+c_hradec_kralove_16ceb4be,FC Hradec Králové,FC Hradec Kralove,Czech First League,Czech Republic,Hradec Králové,Mal_ovická aréna
+c_hull_city_c960b36b,Hull City A.F.C.,Hull City A.F.C.,Premier League,England,Kingston upon Hull,MKM Stadium
+c_huracan_1cba27c3,Club Atlético Huracán,Club Atletico Huracan,Primera División de Argentina,Argentina,Buenos Aires,Estadio Tomás Adolfo Ducó
+c_ifk_norrkoping_3af5a7be,IFK Norrköping,IFK Norrkoping,Superettan,Sweden,Norrköping,Idrottsparken (Norrköping)
+c_igdir_afc03fda,I_dır F.K.,Igdir F.K.,TFF 1. Lig,Turkey,I_dır,I_dır City Stadium
+c_independiente_4f0bb709,Club Atlético Independiente,Club Atletico Independiente,Primera División de Argentina,Argentina,Avellaneda,Estadio Libertadores de América
+c_independiente_del_valle_02bf2082,Independiente del Valle,Independiente del Valle,Ecuador Serie A,Ecuador,Amaguaña,Estadio Banco Guayaquil
+c_independiente_rivadavia_c01b9f67,Independiente Rivadavia,Independiente Rivadavia,Primera División de Argentina,Argentina,Mendoza,Estadio Bautista Gargantini
+c_inter_miami_12316fb2,Inter Miami,Inter Miami,Major League Soccer,United States,Miami,Nu Stadium
+c_inter_milan_ec07dd66,Inter Milan,Inter Milan,Serie A,Italy,Milan,Giuseppe Meazza Stadium
+c_internacional_9f25f9e5,SC Internacional,SC Internacional,Campeonato Brasileiro Série A,Brazil,Porto Alegre,Estádio Beira-Rio
+c_ipswich_town_0526bcf8,Ipswich Town F.C.,Ipswich Town F.C.,Premier League,England,Ipswich,Portman Road
+c_ironi_kiryat_shmona_c6bc74ed,Ironi Kiryat Shmona,Ironi Kiryat Shmona,Israeli Premier League,Israel,Kiryat Shmona,Kiryat Shmona Municipal Stadium
+c_istanbul_basaksehir_eda9bc84,_stanbul Ba_ak_ehir F.K.,Istanbul Basaksehir,Süper Lig,Turkey,Ba_ak_ehir,Ba_ak_ehir Fatih Terim Stadium
+c_jagiellonia_bialystok_14ff40df,Jagiellonia Bia_ystok,Jagiellonia Bialystok,Ekstraklasa,Poland,Bia_ystok,Stadion Miejski (Bia_ystok)
+c_jeonbuk_hyundai_06657775,Jeonbuk Hyundai,Jeonbuk Hyundai,K League 1,South Korea,Jeonju,Jeonju World Cup Stadium
+c_js_kabylie_dbd91381,JS Kabylie,JS Kabylie,Algerian Ligue Professionnelle 1,Algeria,Tizi Ouzou,Hocine-Ait Ahmed Stadium
+c_juarez_7fd97eca,FC Juárez,FC Juarez,Liga MX,Mexico,Ciudad Juárez,Estadio Olímpico Benito Juárez
+c_juventus_57698fb8,Juventus FC,Juventus FC,Serie A,Italy,Turin,Juventus Stadium
+c_kaizer_chiefs_99debdde,Kaizer Chiefs F.C.,Kaizer Chiefs F.C.,South African Premiership,South Africa,Johannesburg,FNB Stadium
+c_kalba_cd0a6e06,Kalba FC,Kalba FC,UAE Pro League,United Arab Emirates,Kalba,Ittihad Kalba Stadium
+c_karlsruher_sc_de48b4d3,Karlsruher SC,Karlsruher SC,2. Bundesliga,Germany,Karlsruhe,Wildparkstadion
+c_kashima_antlers_e314a26b,Kashima Antlers,Kashima Antlers,J1 League,Japan,"Kashima, Ibaraki",Kashima Soccer Stadium
+c_kasmpasa_61344b51,Kasımpa_a S.K.,Kasimpasa S.K.,Süper Lig,Turkey,Istanbul,Recep Tayyip Erdo_an Stadium
+c_kayserispor_6364c552,Kayserispor,Kayserispor,Süper Lig,Turkey,Kayseri,Kadir Has Stadium
+c_kifisia_6c2ed07b,A.E. Kifisia F.C.,A.E. Kifisia F.C.,Super League Greece,Greece,Athens,Leoforos Alexandras Stadium
+c_kilmarnock_77ff2e4c,Kilmarnock F.C.,Kilmarnock F.C.,Scottish Premiership,Scotland,Kilmarnock,Rugby Park
+c_konyaspor_93c0af9a,Konyaspor,Konyaspor,Süper Lig,Turkey,Konya,Konya Metropolitan Municipality Stadium
+c_krasnodar_e8c3f037,Krasnodar,Krasnodar,Russian Premier League,Russia,Krasnodar,Krasnodar Stadium
+c_kv_mechelen_5d03665d,KV Mechelen,KV Mechelen,Belgian Pro League,Belgium,Mechelen,AFAS Stadion KV Mechelen
+c_lafc_42b75eaf,LAFC,LAFC,Major League Soccer,United States,Los Angeles,BMO Stadium
+c_lanus_7b7e52a5,Club Atlético Lanús,Club Atletico Lanus,Primera División de Argentina,Argentina,Lanús,Estadio Ciudad de Lanús Néstor Díaz Pérez
+c_lask_ec5e4ca0,LASK,LASK,Bundesliga,Austria,Linz,Linzer Stadion
+c_ldu_quito_c7b2d459,LDU Quito,LDU Quito,Ecuador Serie A,Ecuador,Cotocollao,Estadio Rodrigo Paz Delgado
+c_le_havre_ac_f11b1be2,Le Havre AC,Le Havre AC,Ligue 1,France,Le Havre,Stade Océane
+c_lechia_gdansk_6dd6ea20,Lechia Gda_sk,Lechia Gdansk,I liga,Poland,Gda_sk,Gda_sk Stadium
+c_leeds_united_4d0a095e,Leeds United F.C.,Leeds United F.C.,Premier League,England,Leeds,Elland Road
+c_leicester_city_1856e967,Leicester City F.C.,Leicester City F.C.,EFL League One,England,Leicester,King Power Stadium
+c_lens_d18e9fd2,Lens,Lens,Ligue 1,France,Lens,Stade Bollaert-Delelis
+c_leon_e09d3468,Club León,Club Leon,Liga MX,Mexico,León,Estadio León
+c_levante_1173db37,Levante UD,Levante UD,La Liga,Spain,Valencia,Estadi Ciutat de València
+c_lille_5e95484f,Lille,Lille,Ligue 1,France,Villeneuve-d'Ascq,Pierre Mauroy Stadium
+c_liverpool_53dacc53,Liverpool F.C.,Liverpool F.C.,Premier League,England,Liverpool,Anfield
+c_lokomotiv_moscow_d1e0d051,FC Lokomotiv Moscow,FC Lokomotiv Moscow,Russian Premier League,Russia,Moscow,RZD Arena
+c_lokomotiva_zagreb_5ede067f,Lokomotiva Zagreb,Lokomotiva Zagreb,Croatian Football League,Croatia,Maksimir,Stadion Maksimir
+c_lorient_1d133ad3,FC Lorient,FC Lorient,Ligue 1,France,Lorient,Stade du Moustoir
+c_ludogorets_razgrad_596a7c7c,Ludogorets Razgrad,Ludogorets Razgrad,First Professional Football League,Bulgaria,Razgrad,Huvepharma Arena
+c_lugano_b8a83086,FC Lugano,FC Lugano,Swiss Super League,Switzerland,Lugano,AIL Arena
+c_lyon_8ff8803d,Olympique Lyonnais,Olympique Lyonnais,Ligue 1,France,Décines-Charpieu,Parc Olympique Lyonnais
+c_maccabi_haifa_f1b6b507,Maccabi Haifa,Maccabi Haifa,Israeli Premier League,Israel,Haifa,Sammy Ofer Stadium
+c_maccabi_tel_aviv_8adccf32,Maccabi Tel Aviv F.C.,Maccabi Tel Aviv F.C.,Israeli Premier League,Israel,Tel Aviv,Bloomfield Stadium
+c_machida_zelvia_de40ad9f,Machida Zelvia,Machida Zelvia,J1 League,Japan,Machida,Machida Athletic Stadium
+c_mainz_05_a2ff4aed,1. FSV Mainz 05,1. FSV Mainz 05,Bundesliga,Germany,Mainz,Mewa Arena
+c_malavan_5031d9ab,Malavan,Malavan,Persian Gulf Pro League,Iran,Bandar-e Anzali,Sirous Ghayeghran Arena
+c_mallorca_283c2cf0,Mallorca,Mallorca,LaLiga 2,Spain,Palma,Estadi Mallorca Son Moix
+c_malmo_81e0c3a3,Malmo,Malmo,Allsvenskan,Sweden,Malmö Municipality,Eleda Stadion
+c_mamelodi_sundowns_5ad1de31,Mamelodi Sundowns,Mamelodi Sundowns,South African Premier Division,South Africa,Pretoria,Loftus Versfeld Stadium
+c_manchester_city_446c8158,Manchester City F.C.,Manchester City F.C.,Premier League,England,Manchester,City of Manchester Stadium
+c_manchester_united_f05b841f,Manchester United F.C.,Manchester United F.C.,Premier League,England,Trafford,Old Trafford
+c_marathon_947eb4c4,C.D. Marathón,C.D. Marathon,Liga Nacional de Fútbol de Honduras,Honduras,San Pedro Sula,Yankel Rosenthal Stadium
+c_marseille_8a6a0f84,Marseille,Marseille,Ligue 1,France,Marseille,Stade Vélodrome
+c_mazatlan_b76304f0,Mazatlán F.C.,Mazatlan F.C.,Liga MX,Mexico,Mazatlán,Estadio El Encanto
+c_melbourne_city_04bdf721,Melbourne City FC,Melbourne City FC,A-League Men,Australia,Melbourne,Melbourne Rectangular Stadium
+c_melbourne_victory_7173b295,Melbourne Victory FC,Melbourne Victory FC,A-League Men,Australia,Melbourne,Melbourne Rectangular Stadium
+c_miami_fc_86451741,Miami FC,Miami FC,USL Championship,United States,Miami,Pitbull Stadium
+c_middlesbrough_8a024275,Middlesbrough F.C.,Middlesbrough F.C.,EFL Championship,England,Middlesbrough,Riverside Stadium
+c_millwall_9ef52a13,Millwall F.C.,Millwall F.C.,EFL Championship,England,London,The Den
+c_minnesota_united_ec79d898,Minnesota United FC,Minnesota United FC,Major League Soccer,United States,Saint Paul,Allianz Field
+c_mjallby_ba532087,Mjallby,Mjallby,Allsvenskan,Sweden,Sölvesborg Municipality,Strandvallen
+c_molde_c258d39b,Molde,Molde,Eliteserien,Norway,Reknes,Aker Stadion
+c_montana_45e96443,PFC Montana,PFC Montana,Second Professional Football League (Bulgaria),Bulgaria,Montana,Stadion Ogosta
+c_monterrey_f10cf911,C.F. Monterrey,C.F. Monterrey,Liga MX,Mexico,Monterrey,Estadio BBVA
+c_montpellier_12bea8d1,Montpellier,Montpellier,Ligue 2,France,Montpellier,Stade de la Mosson
+c_motherwell_8b7b9d25,Motherwell F.C.,Motherwell F.C.,Scottish Premiership,Scotland,Motherwell,Fir Park
+c_nacional_2b4d3a11,Club Nacional de Football,Club Nacional de Football,Liga AUF Uruguaya,Uruguay,Montevideo,Estadio Gran Parque Central
+c_nancy_c55a4912,AS Nancy Lorraine,AS Nancy Lorraine,Ligue 2,France,Tomblaine,Stade Marcel Picot
+c_nantes_f85b493e,FC Nantes,FC Nantes,Ligue 2,France,Nantes,Stade de la Beaujoire
+c_napoli_48cfbfde,Napoli,Napoli,Serie A,Italy,Naples,Stadio Diego Armando Maradona
+c_nasaf_92f9d239,FC Nasaf,FC Nasaf,Uzbekistan Super League,Uzbekistan,Qarshi,Markaziy Stadium (Qarshi)
+c_navbahor_c6d5cb2a,PFC Navbahor Namangan,PFC Navbahor Namangan,Uzbekistan Super League,Uzbekistan,Namangan,Markaziy Stadium (Namangan)
+c_nec_nijmegen_5eeb954a,NEC Nijmegen,NEC Nijmegen,Eredivisie,Netherlands,Nijmegen,Stadion de Goffert
+c_neftchi_0cda2dd5,FC Neftchi Fergana,FC Neftchi Fergana,Uzbekistan Super League,Uzbekistan,Fergana,Istiqlol Stadium
+c_neom_dd0f566d,Neom FC,Neom FC,Saudi Pro League,Saudi Arabia,Tabuk,King Khalid Sports City Stadium
+c_new_england_revolution_d4ef9fc5,New England Revolution,New England Revolution,Major League Soccer,United States,Foxborough,Gillette Stadium
+c_new_york_city_fc_d53241ec,New York City FC,New York City FC,Major League Soccer,United States,New York,Yankee Stadium
+c_newcastle_jets_131175aa,Newcastle Jets FC,Newcastle Jets FC,A-League Men,Australia,Newcastle,Newcastle International Sports Centre
+c_newcastle_united_492af7e1,Newcastle United F.C.,Newcastle United F.C.,Premier League,England,Newcastle upon Tyne,St James' Park
+c_nice_a83a802d,OGC Nice,OGC Nice,Ligue 1,France,Nice,Allianz Riviera
+c_nk_maribor_feb9d4ad,NK Maribor,NK Maribor,Slovenian PrvaLiga,Slovenia,Maribor,Ljudski vrt
+c_nordsjaelland_485bda61,FC Nordsjaelland,FC Nordsjaelland,Danish Superliga,Denmark,Farum,Right to Dream Park
+c_norwich_city_9bfbedcc,Norwich City F.C.,Norwich City F.C.,EFL Championship,England,Norwich,Carrow Road
+c_nottingham_forest_a950aa00,Nottingham Forest F.C.,Nottingham Forest F.C.,Premier League,England,West Bridgford,City Ground
+c_olimpia_aed7596a,Club Olimpia,Club Olimpia,APF División de Honor,Paraguay,Asunción,Estadio Osvaldo Domínguez Dibb
+c_olympiacos_41b104a8,Olympiacos F.C.,Olympiacos F.C.,Super League Greece,Greece,Piraeus,Karaiskakis Stadium
+c_omonia_6a13a5a4,AC Omonia,AC Omonia,Cypriot First Division,Cyprus,Strovolos,GSP Stadium
+c_orlando_city_33cea553,Orlando City SC,Orlando City SC,Major League Soccer,United States,Orlando,Inter&Co Stadium
+c_orlando_pirates_1c8e17d1,Orlando Pirates,Orlando Pirates,South African Premier Division,South Africa,Orlando,Orlando Stadium
+c_osasuna_f20766a6,CA Osasuna,CA Osasuna,La Liga,Spain,Pamplona,El Sadar Stadium
+c_pachuca_a4c33119,Pachuca,Pachuca,Liga MX,Mexico,Pachuca,Estadio Hidalgo
+c_pafos_0aaaf55f,Pafos,Pafos,Cypriot First Division,Cyprus,Paphos,Pafiako Stadium
+c_pakhtakor_52dbbda0,Pakhtakor,Pakhtakor,Uzbekistan Super League,Uzbekistan,Tashkent,Pakhtakor Markaziy Stadium
+c_palmeiras_a7b8813c,SE Palmeiras,SE Palmeiras,Campeonato Brasileiro Série A,Brazil,São Paulo,Nubank Parque
+c_panathinaikos_36cb748c,Panathinaikos F.C.,Panathinaikos F.C.,Super League Greece,Greece,Athens,Olympic Stadium (Athens)
+c_paok_d88141c2,PAOK FC,PAOK FC,Super League Greece,Greece,Thessaloniki,Toumba Stadium
+c_pari_nizhny_novgorod_1b7306d2,FC Pari Nizhny Novgorod,FC Pari Nizhny Novgorod,Russian First League,Russia,Nizhny Novgorod,Nizhny Novgorod Stadium
+c_paris_fc_4acde809,Paris FC,Paris FC,Ligue 1,France,Paris,Stade Jean-Bouin (Paris)
+c_paris_saint_germain_e38062ac,Paris Saint-Germain FC,Paris Saint-Germain FC,Ligue 1,France,Paris,Parc des Princes
+c_parma_9553b2a1,Parma,Parma,Serie A,Italy,Parma,Stadio Ennio Tardini
+c_pec_zwolle_79d3df3c,PEC Zwolle,PEC Zwolle,Eredivisie,Netherlands,Zwolle,MAC3PARK stadion
+c_persepolis_5a29c9d4,Persepolis,Persepolis,Persian Gulf Pro League,Iran,Tehran,Azadi Stadium
+c_peterborough_united_fc1a3742,Peterborough United F.C.,Peterborough United F.C.,EFL League One,England,Peterborough,London Road Stadium
+c_philadelphia_union_e87259be,Philadelphia Union,Philadelphia Union,Major League Soccer,United States,Chester,Subaru Park
+c_pisa_758b9ea7,Pisa SC,Pisa SC,Serie B,Italy,Pisa,Arena Garibaldi – Stadio Romeo Anconetani
+c_plaza_amador_6faeaf34,Plaza Amador,Plaza Amador,Liga Panameña de Fútbol,Panama,Panama City,Estadio Rommel Fernández
+c_pogon_szczecin_1d372b0b,Pogo_ Szczecin,Pogon Szczecin,Ekstraklasa,Poland,Szczecin,Florian Krygier Municipal Stadium
+c_polokwane_city_006c1372,Polokwane City,Polokwane City,Premier Soccer League,South Africa,Polokwane,Peter Mokaba Stadium
+c_port_fc_fe67c888,Port FC,Port FC,Thai League 2,Thailand,Bangkok,PAT Stadium
+c_port_vale_8b7668ca,Port Vale F.C.,Port Vale F.C.,EFL League Two,England,Burslem,Vale Park
+c_portland_timbers_8e92581e,Portland Timbers,Portland Timbers,Major League Soccer,United States,Portland,Providence Park
+c_porto_09de765a,Porto,Porto,Liga Portugal,Portugal,Campanhã,Estádio do Dragão
+c_portsmouth_0f979b99,Portsmouth F.C.,Portsmouth F.C.,EFL Championship,England,Portsmouth,Fratton Park
+c_psv_eindhoven_143e5a85,PSV Eindhoven,PSV Eindhoven,Eredivisie,Netherlands,Eindhoven,Philips Stadion
+c_puerto_cabello_c8843033,Academia Puerto Cabello,Academia Puerto Cabello,Liga FUTVE,Venezuela,Puerto Cabello,Complejo Deportivo Socialista
+c_pumas_unam_e7fbb47a,Pumas UNAM,Pumas UNAM,Liga MX,Mexico,Ciudad Universitaria,Universitary Olympic Stadium
+c_puskas_akademia_2653805d,Puskás Akadémia FC,Puskas Akademia FC,Nemzeti Bajnokság I,Hungary,Felcsút,Pancho Aréna
+c_pyramids_fc_7ade8ddc,Pyramids FC,Pyramids FC,Egyptian Premier League,Egypt,Cairo,30 June Stadium
+c_qatar_sc_fd8bd006,Qatar SC,Qatar SC,Qatar Stars League,Qatar,Doha,Suheim bin Hamad Stadium
+c_racing_genk_584dd89f,Racing Genk,Racing Genk,Belgian Pro League,Belgium,Genk,Cegeka Arena
+c_racing_santander_99beb36e,Racing Santander,Racing Santander,La Liga,Spain,Santander,Campos de Sport de El Sardinero
+c_raja_casablanca_f3222cae,Raja CA,Raja CA,Botola Pro,Morocco,Casablanca,Stade Mohammed V
+c_randers_fc_3128e118,Randers FC,Randers FC,Danish Superliga,Denmark,Randers,Randers Stadium
+c_rangers_8ee581e0,Rangers F.C.,Rangers F.C.,Scottish Premiership,Scotland,Glasgow,Ibrox Stadium
+c_rayo_vallecano_bb03fdc6,Rayo Vallecano,Rayo Vallecano,La Liga,Spain,Madrid,Vallecas Stadium
+c_rb_leipzig_e10cc5a3,RB Leipzig,RB Leipzig,Bundesliga,Germany,Leipzig,Red Bull Arena (Leipzig)
+c_rb_salzburg_64bce3ab,RB Salzburg,RB Salzburg,Bundesliga,Austria,Wals-Siezenheim,Red Bull Arena
+c_real_betis_c81a1b80,Real Betis,Real Betis,La Liga,Spain,Seville,Estadio de La Cartuja
+c_real_madrid_abbd0333,Real Madrid,Real Madrid,La Liga,Spain,Madrid,Bernabéu
+c_real_oviedo_11854497,Real Oviedo,Real Oviedo,LaLiga 2,Spain,Oviedo,Carlos Tartiere Stadium
+c_real_salt_lake_59b0db81,Real Salt Lake,Real Salt Lake,Major League Soccer,United States,Sandy,America First Field
+c_real_sociedad_495967fa,Real Sociedad,Real Sociedad,La Liga,Spain,San Sebastián,Anoeta Stadium
+c_red_bull_bragantino_35c794b1,Red Bull Bragantino,Red Bull Bragantino,Campeonato Brasileiro Série A,Brazil,Bragança Paulista,Estádio Cícero de Souza Marques
+c_red_star_belgrade_ff44e45e,Red Star Belgrade,Red Star Belgrade,Serbian SuperLiga,Serbia,Belgrade,Rajko Mitiƒá Stadium
+c_reims_580a1e88,Stade de Reims,Stade de Reims,Ligue 2,France,Reims,Stade Auguste-Delaune
+c_rennes_2c434c1a,Rennes,Rennes,Ligue 1,France,Rennes,Roazhon Park
+c_rijeka_f02178d7,HNK Rijeka,HNK Rijeka,Croatian Football League,Croatia,Rijeka,Stadion Rujevica
+c_river_plate_6e5bb3c0,Club Atlético River Plate,Club Atletico River Plate,Primera División de Argentina,Argentina,Buenos Aires,Estadio Monumental
+c_rkc_waalwijk_6a7da517,RKC Waalwijk,RKC Waalwijk,Eerste Divisie,Netherlands,Waalwijk,Mandemakers Stadion
+c_rosario_central_d0d1a866,Rosario Central,Rosario Central,Primera División de Argentina,Argentina,Rosario,Estadio Gigante de Arroyito
+c_rostovv_302a24f4,FC Rostov,FC Rostov,Russian Premier League,Russia,Rostov-on-Don,Rostov Arena
+c_rotherham_united_58431265,Rotherham United F.C.,Rotherham United F.C.,EFL League Two,England,Rotherham,New York Stadium
+c_rs_berkane_416671b0,RS Berkane,RS Berkane,Botola Pro,Morocco,Berkane,Berkane Municipal Stadium
+c_sabah_53be0096,Sabah FK (Azerbaijan),Sabah FK (Azerbaijan),Azerbaijan Premier League,Azerbaijan,Masazir,Bank Respublika Arena
+c_saint_etienne_d88dbceb,AS Saint-Étienne,AS Saint-Etienne,Ligue 2,France,Saint-Étienne,Stade Geoffroy-Guichard
+c_sampdoria_044fe5ce,Sampdoria,Sampdoria,Serie B,Italy,Genoa,Stadio Luigi Ferraris
+c_samsunspor_f4b482dc,Samsunspor,Samsunspor,Süper Lig,Turkey,Tekkeköy,Samsun 19 Mayıs Stadium
+c_san_diego_fc_ee29e222,San Diego FC,San Diego FC,Major League Soccer,United States,San Diego,Snapdragon Stadium
+c_san_lorenzo_e834d80a,San Lorenzo de Almagro,San Lorenzo de Almagro,Primera División de Argentina,Argentina,Buenos Aires,Estadio Pedro Bidegain
+c_sanfrecce_hiroshima_aa29b48c,Sanfrecce Hiroshima,Sanfrecce Hiroshima,J1 League,Japan,Hiroshima,Edion Peace Wing Hiroshima
+c_santos_6c3780f0,Santos FC,Santos FC,Campeonato Brasileiro Série A,Brazil,Santos,Estádio Urbano Caldeira
+c_santos_laguna_ed9ddc90,Santos Laguna,Santos Laguna,Liga MX,Mexico,Torreón,Estadio Corona
+c_sao_paulo_512a018c,São Paulo,Sao Paulo,Campeonato Brasileiro Série A,Brazil,Morumbi,Estádio do Morumbi
+c_saprissa_cd3d610c,Saprissa,Saprissa,Liga FPD,Costa Rica,San Juan,Estadio Ricardo Saprissa Aymá
+c_sarpsborg_08_6a2fb396,Sarpsborg 08,Sarpsborg 08,Eliteserien,Norway,Sarpsborg,Sarpsborg Stadion
+c_sassuolo_3722fef4,US Sassuolo Calcio,US Sassuolo Calcio,Serie A,Italy,Reggio Emilia,Mapei Stadium - Città del Tricolore
+c_sc_freiburg_9f1ecdb8,SC Freiburg,SC Freiburg,Bundesliga,Germany,Freiburg im Breisgau,Europa-Park Stadion
+c_schalke_04_aa80f339,Schalke 04,Schalke 04,Bundesliga,Germany,Gelsenkirchen-Nord,Arena AufSchalke
+c_seattle_sounders_0333969a,Seattle Sounders FC,Seattle Sounders FC,Major League Soccer,United States,Seattle,Lumen Field
+c_selangor_87052893,Selangor F.C.,Selangor F.C.,Malaysia Super League,Malaysia,Petaling Jaya,Petaling Jaya Stadium
+c_sepahan_23598738,Sepahan S.C.,Sepahan S.C.,Persian Gulf Pro League,Iran,Isfahan,Naghsh-e-Jahan Stadium
+c_servette_d3e58f94,Servette,Servette,Swiss Super League,Switzerland,Canton of Geneva,Stade de Genève
+c_sevilla_199198e5,Sevilla FC,Sevilla FC,La Liga,Spain,Seville,Ramón Sánchez-Pizjuán Stadium
+c_shabab_al_ahli_7bfa5689,Shabab Al Ahli Club,Shabab Al Ahli Club,UAE Pro League,United Arab Emirates,Dubai,Rashid Stadium
+c_shamrock_rovers_2cdea59c,Shamrock Rovers F.C,Shamrock Rovers F.C,League of Ireland Premier Division,Ireland,Tallaght,Tallaght Stadium
+c_sharjah_dab7481c,Sharjah FC,Sharjah FC,UAE Pro League,United Arab Emirates,Sharjah,Sharjah Stadium (football)
+c_sheffield_united_03747276,Sheffield United F.C.,Sheffield United F.C.,EFL Championship,England,Sheffield,Bramall Lane
+c_sigma_olomouc_9866567d,Sigma Olomouc,Sigma Olomouc,Czech First League,Czech Republic,Olomouc,Andr_v stadion
+c_silkeborg_if_f15d8622,Silkeborg IF,Silkeborg IF,Danish Superliga,Denmark,Silkeborg Municipality,JYSK Park
+c_sint_truiden_eb30716d,Sint-Truiden,Sint-Truiden,Belgian Pro League,Belgium,Sint-Truiden,Stayen
+c_sjk_4111de11,Seinäjoen Jalkapallokerho,Seinäjoen Jalkapallokerho,Veikkausliiga,Finland,Seinäjoki,OmaSP Stadion
+c_slaven_belupo_a67f2dfc,Slaven Belupo,Slaven Belupo,Croatian Football League,Croatia,Koprivnica,Gradski stadion
+c_slavia_prague_6def6306,Slavia Prague,Slavia Prague,Czech First League,Czech Republic,Prague,Fortuna Arena
+c_slovan_bratislava_8e855156,_K Slovan Bratislava,SK Slovan Bratislava,Slovak First Football League,Slovakia,Bratislava,Tehelné pole
+c_slovan_liberec_d17c3872,Slovan Liberec,Slovan Liberec,Czech First League,Czech Republic,Liberec,Stadion u Nisy
+c_sochaux_ac407c94,FC Sochaux-Montbéliard,FC Sochaux-Montbeliard,Ligue 2,France,Montbéliard,Stade Auguste Bonal
+c_southampton_1d40f1fa,Southampton,Southampton,EFL Championship,England,Southampton,St Mary's Stadium
+c_sparta_prague_8236520c,AC Sparta Prague,AC Sparta Prague,Czech First League,Czech Republic,Prague,Stadion Letná
+c_sparta_rotterdam_15c16fb0,Sparta Rotterdam,Sparta Rotterdam,Eredivisie,Netherlands,Rotterdam,Sparta Stadion Het Kasteel
+c_spartak_moscow_24492656,FC Spartak Moscow,FC Spartak Moscow,Russian Premier League,Russia,Moscow,Lukoil Arena
+c_sporting_cp_68d8c4d1,Sporting CP,Sporting CP,Liga Portugal,Portugal,Lisbon,Estádio José Alvalade
+c_st_gallen_c9354c56,FC St. Gallen,FC St. Gallen,Swiss Super League,Switzerland,St. Gallen,Kybunpark
+c_st_patrick_s_athletic_b41b37bf,St Patrick's Athletic,St Patrick's Athletic,League of Ireland Premier Division,Ireland,Dublin,Richmond Park
+c_st_pauli_b81e5622,St. Pauli,St. Pauli,Bundesliga,Germany,Hamburg-Mitte,Millerntor-Stadion
+c_stade_nyonnaise_d6f19ad2,FC Stade Nyonnais,FC Stade Nyonnais,Swiss Challenge League,Switzerland,Nyon,Colovray Sports Centre
+c_stade_rennais_c98241a9,Stade Rennais,Stade Rennais,Ligue 1,France,Rennes,Roazhon Park
+c_standard_liege_3e26b5d7,Standard Liège,Standard Liege,Belgian Pro League,Belgium,Liège,Stade Maurice Dufrasne
+c_stoke_city_320b8e5a,Stoke City F.C.,Stoke City F.C.,EFL Championship,England,Stoke-on-Trent,Bet365 Stadium
+c_strasbourg_ec14fe17,Strasbourg,Strasbourg,Ligue 1,France,Strasbourg,Stade de la Meinau
+c_strmsgodset_8b9d1286,Strømsgodset Toppfotball,Stromsgodset Toppfotball,Norwegian First Division,Norway,Drammen,Marienlyst Stadion
+c_sunderland_4aa579a0,Sunderland A.F.C.,Sunderland A.F.C.,Premier League,England,Sunderland,Stadium of Light
+c_surkhon_b0fc6235,FC Surkhon,FC Surkhon,Uzbekistan Super League,Uzbekistan,Termez,Surkhon arena
+c_swansea_city_40d4171f,Swansea City,Swansea City,EFL Championship,Wales,Swansea,Swansea.com Stadium
+c_sydney_fc_46493459,Sydney FC,Sydney FC,A-League Men,Australia,Sydney,Sydney Football Stadium
+c_talleres_44a8f91d,Talleres,Talleres,Primera División de Argentina,Argentina,Córdoba,Estadio La Boutique
+c_telstar_e85327be,SC Telstar,SC Telstar,Eredivisie,Netherlands,Velsen-Zuid,BUKO Stadion
+c_terengganu_3785b314,Terengganu FC,Terengganu FC,Malaysia Super League,Malaysia,Kuala Nerus,Sultan Mizan Zainal Abidin Stadium
+c_tigres_uanl_6d3f0914,Tigres UANL,Tigres UANL,Liga MX,Mexico,San Nicolás de los Garza,Estadio Universitario (UANL)
+c_toluca_a5d0edbb,Toluca,Toluca,Liga MX,Mexico,Toluca de Lerdo,Nemesio Díez Stadium
+c_tondela_897c0be8,C.D. Tondela,C.D. Tondela,Liga Portugal 2,Portugal,Tondela,Estádio João Cardoso
+c_torino_3891b778,Torino,Torino,Serie A,Italy,Turin,Stadio Olimpico Grande Torino
+c_toronto_fc_801d96b3,Toronto FC,Toronto FC,Major League Soccer,Canada,Toronto,BMO Field
+c_torreense_d5f6f333,S.C.U. Torreense,S.C.U. Torreense,Liga Portugal 2,Portugal,Torres Vedras,Estádio Manuel Marques
+c_tottenham_hotspur_ef01ee61,Tottenham Hotspur F.C.,Tottenham Hotspur F.C.,Premier League,England,Tottenham,Tottenham Hotspur Stadium
+c_toulouse_68472eee,Toulouse FC,Toulouse FC,Ligue 1,France,Toulouse,Stadium de Toulouse
+c_trabzonspor_15246eeb,Trabzonspor,Trabzonspor,Süper Lig,Turkey,Trabzon,Papara Park
+c_tractor_b739a166,Tractor,Tractor,Persian Gulf Pro League,Iran,Tabriz,Yadegar-e Emam Stadium
+c_tsg_hoffenheim_7dd7fd83,TSG Hoffenheim,TSG Hoffenheim,Bundesliga,Germany,Sinsheim,PreZero-Arena
+c_turan_tovuz_b1656aa6,Turan Tovuz,Turan Tovuz,Azerbaijan Premier League,Azerbaijan,Tovuz,Tovuz City Stadium
+c_udinese_e4d6ce7e,Udinese,Udinese,Serie A,Italy,Udine,Stadio Friuli
+c_ulsan_hd_cd5a3dd8,Ulsan HD,Ulsan HD,K League 1,South Korea,Ulsan,Ulsan Munsu Football Stadium
+c_union_berlin_3b0a5205,Union Berlin,Union Berlin,Bundesliga,Germany,Treptow-Köpenick,Stadion An der Alten Försterei
+c_union_st_gilloise_b8dea71a,Union St.-Gilloise,Union St.-Gilloise,Belgian Pro League,Belgium,Forest,Joseph Marien Stadium
+c_universidad_catolica_f9dd891a,Universidad Católica,Universidad Catolica,Ecuador Serie A,Ecuador,Quito,Estadio Olímpico Atahualpa
+c_universidad_de_concepcion_56e01dcd,Universidad de Concepción,Universidad de Concepcion,Chilean First B Division,Chile,Concepción,Estadio Ester Roa Rebolledo
+c_universitatea_cluj_3ac82d3c,Universitatea Cluj,Universitatea Cluj,Liga I,Romania,Cluj-Napoca,Cluj Arena
+c_us_monastir_e0705e0c,US Monastir,US Monastir,Tunisian Ligue Professionnelle 1,Tunisia,Monastir,Mustapha Ben Jannet Stadium
+c_usm_alger_1a6b6d83,USM Alger,USM Alger,Algerian Ligue Professionnelle 1,Algeria,Bologhine,Omar Hamadi Stadium
+c_valencia_b00a061d,Valencia CF,Valencia CF,La Liga,Spain,Valencia,Mestalla Stadium
+c_vancouver_whitecaps_584ec8d5,Vancouver Whitecaps,Vancouver Whitecaps,Major League Soccer,Canada,Vancouver,BC Place
+c_vasco_da_gama_ebb987d1,CR Vasco da Gama,CR Vasco da Gama,Campeonato Brasileiro Série A,Brazil,Rio de Janeiro,São Januário
+c_velez_sarsfield_1118a976,Vélez Sarsfield,Velez Sarsfield,Primera División de Argentina,Argentina,Buenos Aires,José Amalfitani Stadium
+c_venezia_e31ee20d,Venezia,Venezia,Serie B,Italy,Venice,Stadio Pierluigi Penzo
+c_verona_28485fcd,Verona,Verona,Serie A,Italy,Verona,Stadio Marcantonio Bentegodi
+c_vfb_stuttgart_79e41bee,VfB Stuttgart,VfB Stuttgart,Bundesliga,Germany,Stuttgart,MHPArena
+c_vfl_wolfsburg_6bff9162,VfL Wolfsburg,VfL Wolfsburg,Bundesliga,Germany,Wolfsburg,Volkswagen Arena
+c_viking_fk_ff9c46f0,Viking FK,Viking FK,Eliteserien,Norway,Stavanger,Viking Stadion
+c_viktoria_plzen_c3cb1557,FC Viktoria Plze_,FC Viktoria Plzen,Czech First League,Czech Republic,Plze_,Doosan Arena
+c_villarreal_edfbe376,Villarreal CF,Villarreal CF,La Liga,Spain,Villarreal,Estadio de la Cerámica
+c_violette_080fcd22,Violette AC,Violette AC,Ligue Haïtienne,Haiti,Port-au-Prince,Stade Sylvio Cator
+c_vitoria_guimaraes_bdab72bf,Vitória S.C.,Vitoria S.C.,Primeira Liga,Portugal,Guimarães,Estádio D. Afonso Henriques
+c_vizela_63e8bfe2,F.C. Vizela,F.C. Vizela,Liga Portugal 2,Portugal,Vizela,Estádio do Futebol Clube de Vizela
+c_volendam_44039ff3,FC Volendam,FC Volendam,Eerste Divisie,Netherlands,Volendam,Kras Stadion
+c_vvv_venlo_83a25ec0,VVV-Venlo,VVV-Venlo,Eerste Divisie,Netherlands,Venlo,De Koel
+c_watford_149fe9eb,Watford F.C.,Watford F.C.,EFL Championship,England,Watford,Vicarage Road
+c_wellington_phoenix_dcacb02d,Wellington Phoenix FC,Wellington Phoenix FC,A-League Men,New Zealand,Wellington,Wellington Regional Stadium
+c_werder_bremen_a11ab9ed,SV Werder Bremen,SV Werder Bremen,Bundesliga,Germany,Bremen,Weserstadion
+c_west_ham_united_0b178664,West Ham United F.C.,West Ham United F.C.,EFL Championship,England,London,London Stadium
+c_western_sydney_wanderers_ad68f75f,Western Sydney Wanderers,Western Sydney Wanderers,A-League Men,Australia,Parramatta,Western Sydney Stadium
+c_widzew_odz_934a5145,Widzew _ód_,Widzew Lodz,Ekstraklasa,Poland,_ód_,Widzew _ód_ Stadium
+c_wolfsberger_ac_ca70d247,Wolfsberger AC,Wolfsberger AC,Bundesliga,Austria,Wolfsberg,Lavanttal-Arena
+c_wolverhampton_wanderers_1e3d8f9f,Wolverhampton Wanderers F.C.,Wolverhampton Wanderers F.C.,EFL Championship,England,Wolverhampton,Molineux Stadium
+c_wrexham_5a7883b4,Wrexham A.F.C.,Wrexham A.F.C.,EFL Championship,Wales,Wrexham,Racecourse Ground
+c_young_boys_d33c77d6,BSC Young Boys,BSC Young Boys,Swiss Super League,Switzerland,Bern,Stadion Wankdorf
+c_zamalek_b40573d7,Zamalek SC,Zamalek SC,Egyptian Premier League,Egypt,Cairo,Cairo International Stadium
+c_zed_2700337e,ZED FC,ZED FC,Egyptian Premier League,Egypt,Nasr City,Cairo International Stadium
+c_zenit_st_petersburg_0976e8e0,Zenit St. Petersburg,Zenit St. Petersburg,Russian Premier League,Russia,Saint Petersburg,Gazprom Arena
+c_zhejiang_fc_d944dab0,Zhejiang FC,Zhejiang FC,Chinese Super League,People's Republic of China,Hangzhou,Huanglong Sports Center
+c_zulte_waregem_051e6315,Zulte Waregem,Zulte Waregem,Belgian Pro League,Belgium,Waregem,Regenboogstadion
+c_zurich_d276e926,FC Zürich,FC Zurich,Swiss Super League,Switzerland,Zurich,Letzigrund

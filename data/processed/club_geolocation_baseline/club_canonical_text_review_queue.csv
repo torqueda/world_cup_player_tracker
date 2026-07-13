@@ -1,0 +1,20 @@
+﻿club_id,suspicious_fields,club_name_current,league_current,country_current,city_current,stadium_current,club_name_suggested,city_suggested,stadium_suggested
+c_besiktas_daeca9ad,club_name | city | stadium,Be_ikta_ J.K.,Süper Lig,Turkey,Be_ikta_,Be_ikta_ Stadium,Beşiktaş J.K.,Beşiktaş,Beşiktaş Stadium
+c_cracovia_5bed2b4b,stadium,KS Cracovia,Ekstraklasa,Poland,Kraków,Józef Pi_sudski Cracovia Stadium,,,Józef Piłsudski Cracovia Stadium
+c_fc_tatran_presov_05bcf723,club_name | city,FC Tatran Pre_ov,Slovak First Football League,Slovakia,Pre_ov,Futbal Tatran Arena,FC Tatran Prešov,Prešov,
+c_fc_tokyo_9926cea2,city,FC Tokyo,J1 League,Japan,Ch_fu,Ajinomoto Stadium,,Chōfu,
+c_fcsb_dbba85ac,stadium,FCSB,Liga I,Romania,Bucharest,Arena Na_ional_,,,Arena Națională
+c_fenerbahce_58b3ec74,stadium,Fenerbahçe S.K.,Süper Lig,Turkey,Kadıköy,_ükrü Saraco_lu Stadium,,,Şükrü Saracoğlu Stadium
+c_genclerbirligi_22e3fae3,club_name,Gençlerbirli_i S.K.,Süper Lig,Turkey,Etimesgut,Eryaman Stadium,Gençlerbirliği S.K.,,
+c_gyori_eto_4f17868c,club_name | city,Gy_r ETO FC,Nemzeti Bajnokság I,Hungary,Gy_r,ETO Park,Győri ETO FC,Győr,
+c_hradec_kralove_16ceb4be,stadium,FC Hradec Králové,Czech First League,Czech Republic,Hradec Králové,Mal_ovická aréna,,,Malšovická aréna
+c_igdir_afc03fda,club_name | city | stadium,I_dır F.K.,TFF 1. Lig,Turkey,I_dır,I_dır City Stadium,Iğdır F.K.,Iğdır,Iğdır City Stadium
+c_istanbul_basaksehir_eda9bc84,club_name | city | stadium,_stanbul Ba_ak_ehir F.K.,Süper Lig,Turkey,Ba_ak_ehir,Ba_ak_ehir Fatih Terim Stadium,İstanbul Başakşehir F.K.,Başakşehir,Başakşehir Fatih Terim Stadium
+c_jagiellonia_bialystok_14ff40df,club_name | city | stadium,Jagiellonia Bia_ystok,Ekstraklasa,Poland,Bia_ystok,Stadion Miejski (Bia_ystok),Jagiellonia Białystok,Białystok,Stadion Miejski (Białystok)
+c_kasmpasa_61344b51,club_name | stadium,Kasımpa_a S.K.,Süper Lig,Turkey,Istanbul,Recep Tayyip Erdo_an Stadium,Kasımpaşa S.K.,,Recep Tayyip Erdoğan Stadium
+c_lechia_gdansk_6dd6ea20,club_name | city | stadium,Lechia Gda_sk,I liga,Poland,Gda_sk,Gda_sk Stadium,Lechia Gdańsk,Gdańsk,Gdańsk Stadium
+c_pogon_szczecin_1d372b0b,club_name,Pogo_ Szczecin,Ekstraklasa,Poland,Szczecin,Florian Krygier Municipal Stadium,Pogoń Szczecin,,
+c_sigma_olomouc_9866567d,stadium,Sigma Olomouc,Czech First League,Czech Republic,Olomouc,Andr_v stadion,,,Andrův stadion
+c_slovan_bratislava_8e855156,club_name,_K Slovan Bratislava,Slovak First Football League,Slovakia,Bratislava,Tehelné pole,ŠK Slovan Bratislava,,
+c_viktoria_plzen_c3cb1557,club_name | city,FC Viktoria Plze_,Czech First League,Czech Republic,Plze_,Doosan Arena,FC Viktoria Plzeň,Plzeň,
+c_widzew_odz_934a5145,club_name | city | stadium,Widzew _ód_,Ekstraklasa,Poland,_ód_,Widzew _ód_ Stadium,Widzew Łódź,Łódź,Widzew Łódź Stadium

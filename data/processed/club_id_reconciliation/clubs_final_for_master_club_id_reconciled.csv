@@ -1,0 +1,458 @@
+club_id,wikidata_id,club_name,club_name_ascii,country,league,city,stadium,club_lat,club_lon,club_source_url,geo_source,manual_review_flag,notes
+c_ac_milan_118eeb6e,,AC Milan,AC Milan,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_ae_kifisias_b52d38fc,,AE Kifisias,AE Kifisias,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_aek_athens_72925ed6,,AEK Athens,AEK Athens,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_ael_431116e5,,AEL,AEL,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_ael_limassol_2cf0940b,,AEL Limassol,AEL Limassol,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_afc_bournemouth_61e18bcd,,AFC Bournemouth,AFC Bournemouth,,,,,,,,,FALSE,Merged aliases/source variants: AFC Bournemouth; Bournemouth. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_agf_aarhus_255f8d4c,,AGF Aarhus,AGF Aarhus,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_agmk_a616cb6f,,AGMK,AGMK,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_aik_9fa4ead4,,AIK,AIK,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_aj_auxerre_5c7942ef,,AJ Auxerre,AJ Auxerre,,,,,,,,,FALSE,Merged aliases/source variants: AJ Auxerre; Auxerre. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_as_far_8343a091,,AS Far,AS Far,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_as_monaco_6b2106c8,,AS Monaco,AS Monaco,,,,,,,,,FALSE,Merged aliases/source variants: AS Monaco; Monaco. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_as_roma_2ecbf69f,,AS Roma,AS Roma,,,,,,,,,FALSE,Merged aliases/source variants: AS Roma; Roma. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_az_alkmaar_6ec3c79a,,AZ Alkmaar,AZ Alkmaar,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_abha_a8d5b324,,Abha,Abha,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_accra_hearts_of_oak_sc_5dd04a93,,Accra Hearts of Oak S.C.,Accra Hearts of Oak S.C.,,,,,,,,,FALSE,Step 5 manual review canonical rename from 'Accra Hearts of Oak SC' to 'Accra Hearts of Oak S.C.'. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_ajax_955fab76,,Ajax,Ajax,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_akron_tolyatti_7891723e,,Akron Tolyatti,Akron Tolyatti,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_ahly_d8f224e8,,Al Ahly SC,Al Ahly SC,,,,,,,,,FALSE,Step 5 manual review canonical rename from 'Al Ahly' to 'Al Ahly SC'. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_ain_c5137584,,Al Ain FC,Al Ain FC,,,,,,,,,FALSE,Step 5 manual review canonical rename from 'Al Ain' to 'Al Ain FC'. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_bataeh_bbe9608c,,Al Bataeh,Al Bataeh,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_duhail_917aca16,,Al Duhail,Al Duhail,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_ettifaq_807c8264,,Al Ettifaq,Al Ettifaq,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_gharafa_cf3f2df9,,Al Gharafa,Al Gharafa,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_hilal_67047244,,Al Hilal,Al Hilal,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_ittihad_715274c9,,Al Ittihad,Al Ittihad,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_jazira_3cf19a97,,Al Jazira,Al Jazira,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_qadsiah_2c418904,,Al Qadsiah,Al Qadsiah,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_rayyan_e5871040,,Al Rayyan,Al Rayyan,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_sadd_a599a00e,,Al Sadd,Al Sadd,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_shabab_e27f5149,,Al Shabab Club,Al Shabab Club,,,,,,,,,FALSE,Step 5 manual review canonical rename from 'Al-Shabab' to 'Al Shabab Club'. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_ula_28613b64,,Al Ula,Al Ula,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_wahda_7ae987ab,,Al Wahda FC,Al Wahda FC,,,,,,,,,FALSE,Step 5 manual review canonical rename from 'Al-Wahda' to 'Al Wahda FC'. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_wakrah_abf60aa2,,Al Wakrah,Al Wakrah,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_ahli_c686fb82,,Al-Ahli Saudi FC,Al-Ahli Saudi FC,,,,,,,,,FALSE,Step 5 manual review canonical rename from 'Al Ahli' to 'Al-Ahli Saudi FC'. Merged aliases/source variants: Al Ahli; Al-Ahli. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_arabi_aed4b46c,,Al-Arabi SC (Qatar),Al-Arabi SC (Qatar),,,,,,,,,FALSE,Step 5 manual review canonical rename from 'Al Arabi' to 'Al-Arabi SC (Qatar)'. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_faisaly_d08621cd,,Al-Faisaly,Al-Faisaly,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_fayha_22bab1f3,,Al-Fayha Club,Al-Fayha Club,,,,,,,,,FALSE,Step 5 manual review canonical rename from 'Al Fayha' to 'Al-Fayha Club'. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_hussein_1fe1435d,,Al-Hussein,Al-Hussein,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_karma_f9b63d11,,Al-Karma SC,Al-Karma SC,,,,,,,,,FALSE,Step 5 manual correction: Aymen Hussein reassigned from source-listed Al-Khor to Al-Karma SC. Step 5 manual review canonical rename from 'Al-Karma' to 'Al-Karma SC'. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_najma_9b74810f,,Al-Najma SC (Saudi Arabia),Al-Najma SC (Saudi Arabia),,,,,,,,,FALSE,Step 5 manual review canonical rename from 'Al Najma' to 'Al-Najma SC (Saudi Arabia)'. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_nasr_0bf2f525,,Al-Nasr SC (Dubai),Al-Nasr SC (Dubai),,,,,,,,,FALSE,Step 5 manual review canonical rename from 'Al-Nasr' to 'Al-Nasr SC (Dubai)'. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_nassr_4ed92392,,Al-Nassr FC,Al-Nassr FC,,,,,,,,,FALSE,Step 5 manual review canonical rename from 'Al Nassr' to 'Al-Nassr FC'. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_quwa_al_jawiya_d23a171e,,Al-Quwa Al-Jawiya,Al-Quwa Al-Jawiya,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_riyadh_679deb94,,Al-Riyadh,Al-Riyadh,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_sailiaya_6158b2fd,,Al-Sailiaya,Al-Sailiaya,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_shamal_91835f7b,,Al-Shamal SC,Al-Shamal SC,,,,,,,,,FALSE,Step 5 manual review canonical rename from 'Al Shamal' to 'Al-Shamal SC'. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_shorta_03f6bef7,,Al-Shorta SC,Al-Shorta SC,,,,,,,,,FALSE,Step 5 manual review canonical rename from 'Al-Shorta' to 'Al-Shorta SC'. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_talaba_856167fb,,Al-Talaba,Al-Talaba,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_wehdat_2cc29034,,Al-Wehdat SC,Al-Wehdat SC,,,,,,,,,FALSE,Step 5 manual review canonical rename from 'Al-Wehdat' to 'Al-Wehdat SC'. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_al_zawraa_7bba0fc0,,Al-Zawraa,Al-Zawraa,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_alanyaspor_661d3784,,Alanyaspor,Alanyaspor,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_albirex_niigata_cab00434,,Albirex Niigata,Albirex Niigata,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_almere_11b3096f,,Almere,Almere,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_anderlecht_b0025a96,,Anderlecht,Anderlecht,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_angers_df67ea45,,Angers,Angers,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_antwerp_7961b08d,,Antwerp,Antwerp,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_apoel_nicosia_af3c6796,,Apoel Nicosia,Apoel Nicosia,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_apollon_limassol_b6137677,,Apollon Limassol,Apollon Limassol,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_aris_limassol_d501bdb4,,Aris Limassol,Aris Limassol,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_arsenal_93d10937,,Arsenal,Arsenal,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_astana_f8b0106f,,Astana,Astana,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_aston_villa_2b918477,,Aston Villa,Aston Villa,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_atalanta_f8d83567,,Atalanta,Atalanta,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_athletic_club_24c5af40,,Athletic Club,Athletic Club,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_athletico_paranaense_2178bb1a,,Athletico Paranaense,Athletico Paranaense,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_atlanta_united_43563fa4,,Atlanta United,Atlanta United,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_atlas_292eeed6,,Atlas,Atlas,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_atletico_madrid_9b17a9e6,,Atletico Madrid,Atletico Madrid,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_atletico_mineiro_a8379d4f,,Atletico Mineiro,Atletico Mineiro,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_atletico_nacional_4666103f,,Atlético Nacional,Atletico Nacional,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_atromitos_ea5a8225,,Atromitos,Atromitos,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_auckland_fc_a034ca43,,Auckland FC,Auckland FC,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_austria_vienna_84acf87e,,Austria Vienna,Austria Vienna,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_baniyas_89e1539a,,Baniyas,Baniyas,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_barnsley_4509838f,,Barnsley,Barnsley,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_bastia_1e5b7984,,Bastia,Bastia,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_bayer_leverkusen_39ddc43b,,Bayer Leverkusen,Bayer Leverkusen,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_bayern_munich_e963c2ea,,Bayern Munich,Bayern Munich,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_benfica_5d914960,,Benfica,Benfica,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_besiktas_daeca9ad,,Besiktas,Besiktas,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_beveren_04c54466,,Beveren,Beveren,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_birmingham_city_b5dc6570,,Birmingham City,Birmingham City,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_boca_juniors_6bfb0da4,,Boca Juniors,Boca Juniors,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_bod_glimt_b9be1ed7,,Bodø/Glimt,Bodo/Glimt,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_bologna_1c61a9b1,,Bologna,Bologna,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_borussia_dortmund_8a058a04,,Borussia Dortmund,Borussia Dortmund,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_borussia_monchengladbach_e9b82a3e,,Borussia Mönchengladbach,Borussia Monchengladbach,,,,,,,,,FALSE,Merged aliases/source variants: Borussia Mönchengladbach; Borussia Moenchengladbach. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_botafogo_99e3bf74,,Botafogo,Botafogo,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_braga_f3599df6,,Braga,Braga,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_braintree_town_abe87f1e,,Braintree Town,Braintree Town,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_brentford_99ebeb82,,Brentford,Brentford,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_brighton_hove_albion_5bfa8704,,Brighton & Hove Albion,Brighton & Hove Albion,,,,,,,,,FALSE,Merged aliases/source variants: Brighton & Hove Albion; Brighton. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_brondby_701a4084,,Brondby,Brondby,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_burnley_b7c3fe1e,,Burnley,Burnley,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_buxoro_ba979d39,,Buxoro,Buxoro,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_cs_sfaxien_1128368b,,CS Sfaxien,CS Sfaxien,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_cagliari_b9017662,,Cagliari,Cagliari,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_casa_pia_c00111a5,,Casa Pia,Casa Pia,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_castellon_8eebb754,,Castellón,Castellon,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_celta_vigo_d1c2cf8a,,Celta Vigo,Celta Vigo,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_celtic_a2eaecf1,,Celtic,Celtic,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_cercle_brugge_02b4f133,,Cercle Brugge KSV,Cercle Brugge KSV,,,,,,,,,FALSE,Step 5 manual review canonical rename from 'Cercle Brugge' to 'Cercle Brugge KSV'. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_cerro_porteno_cf028333,,Cerro Porteño,Cerro Porteno,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_charleroi_62356bf9,,Charleroi,Charleroi,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_charlotte_fc_f185ca79,,Charlotte FC,Charlotte FC,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_charlton_athletic_f6926677,,Charlton Athletic,Charlton Athletic,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_chaves_de187007,,Chaves,Chaves,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_chelsea_e655b01a,,Chelsea,Chelsea,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_chicago_fire_65c1a76f,,Chicago Fire,Chicago Fire,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_chivas_d38ae426,,Chivas,Chivas,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_club_africain_64656e78,,Club Africain,Club Africain,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_club_america_49cadc66,,Club América,Club America,,,,,,,,,FALSE,Merged aliases/source variants: Club América; América. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_independiente_4f0bb709,,Club Atlético Independiente,Club Atletico Independiente,,,,,,,,,FALSE,Step 5 manual review canonical rename from 'Independiente' to 'Club Atlético Independiente'. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_club_brugge_ea2adfc5,,Club Brugge KV,Club Brugge KV,,,,,,,,,FALSE,Step 5 manual review canonical rename from 'Club Brugge' to 'Club Brugge KV'. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_nacional_2b4d3a11,,Club Nacional de Football,Club Nacional de Football,,,,,,,,,FALSE,Step 5 manual review canonical rename from 'Nacional' to 'Club Nacional de Football'. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_club_tijuana_6e4baf66,,Club Tijuana,Club Tijuana,,,,,,,,,FALSE,Merged aliases/source variants: Club Tijuana; Tijuana. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_cobresal_8c0fe5bd,,Cobresal,Cobresal,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_colorado_rapids_da865f5e,,Colorado Rapids,Colorado Rapids,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_colorado_springs_switchbacks_a19366a9,,Colorado Springs Switchbacks,Colorado Springs Switchbacks,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_columbus_crew_7b68355a,,Columbus Crew,Columbus Crew,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_como_e0ef6211,,Como,Como,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_copenhagen_7e10c652,,Copenhagen,Copenhagen,,,,,,,,,FALSE,Merged aliases/source variants: Copenhagen; Kobenhavn. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_corinthians_276924f3,,Corinthians,Corinthians,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_cosmos_koblenz_125995a0,,Cosmos Koblenz,Cosmos Koblenz,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_coventry_city_4bce22e1,,Coventry City,Coventry City,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_cracovia_5bed2b4b,,Cracovia,Cracovia,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_cremonese_7c9dcb3d,,Cremonese,Cremonese,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_cruz_azul_71a31d4c,,Cruz Azul,Cruz Azul,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_crystal_palace_cd11ce68,,Crystal Palace,Crystal Palace,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_cultural_leonesa_4479aa29,,Cultural Leonesa,Cultural Leonesa,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_daejeon_hana_0cece60d,,Daejeon Hana,Daejeon Hana,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_den_bosch_bb7ad83e,,Den Bosch,Den Bosch,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_deportivo_la_guaira_c9679b6f,,Deportivo La Guaira,Deportivo La Guaira,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_derby_county_900d9adb,,Derby County,Derby County,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_dibba_al_fujairah_06c16d12,,Dibba FC,Dibba FC,,,,,,,,,FALSE,Step 5 manual correction: Mohanad Ali reassigned from source-listed Al-Shorta to Dibba FC; previous source variant was Dibba Al Fujairah. Step 5 manual review canonical rename from 'Dibba Al Fujairah' to 'Dibba FC'. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_dinamo_samarqand_94368156,,Dinamo Samarqand,Dinamo Samarqand,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_dinamo_zagreb_d86806ac,,Dinamo Zagreb,Dinamo Zagreb,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_dynamo_makhachkala_9cc503d9,,Dynamo Makhachkala,Dynamo Makhachkala,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_dynamo_moscow_28a6f575,,Dynamo Moscow,Dynamo Moscow,,,,,,,,,FALSE,Merged aliases/source variants: Dynamo Moscow; Dinamo Moscow. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_eintracht_braunschweig_c967ead8,,Eintracht Braunschweig,Eintracht Braunschweig,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_eintracht_frankfurt_52e79065,,Eintracht Frankfurt,Eintracht Frankfurt,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_el_gouna_d2a63f6b,,El Gouna,El Gouna,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_el_paso_locomotive_18790af8,,El Paso Locomotive,El Paso Locomotive,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_elche_e757517b,,Elche,Elche,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_elfsborg_d22fb04b,,Elfsborg,Elfsborg,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_espanyol_b65db3d8,,Espanyol,Espanyol,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_esperance_de_tunis_bd3a1ae1,,Espérance de Tunis,Esperance de Tunis,,,,,,,,,FALSE,Merged aliases/source variants: Espérance de Tunis; Esperance. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_esteghlal_e23c4940,,Esteghlal,Esteghlal,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_estrela_amadora_ff8429b2,,Estrela Amadora,Estrela Amadora,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_estudiantes_de_la_plata_9139330d,,Estudiantes de La Plata,Estudiantes de La Plata,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_everton_fd9ce394,,Everton,Everton,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_fc_augsburg_ae582369,,FC Augsburg,FC Augsburg,,,,,,,,,FALSE,Merged aliases/source variants: FC Augsburg; Augsburg. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_barcelona_cb30c55c,,FC Barcelona,FC Barcelona,,,,,,,,,FALSE,Step 5 manual review canonical rename from 'Barcelona' to 'FC Barcelona'. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_barcelona_b_ef28ece1,,FC Barcelona Atlètic,FC Barcelona Atletic,,,,,,,,,FALSE,Step 5 manual review canonical rename from 'Barcelona B' to 'FC Barcelona Atlètic'. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_fc_cincinnati_d3ccf1dd,,FC Cincinnati,FC Cincinnati,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_fc_dallas_00dc1812,,FC Dallas,FC Dallas,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_fc_midtjylland_2f4e39b9,,FC Midtjylland,FC Midtjylland,,,,,,,,,FALSE,Merged aliases/source variants: FC Midtjylland; Midtjylland. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_fc_noah_5f5fceba,,FC Noah,FC Noah,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_fc_nordsjlland_ae9978cb,,FC Nordsjælland,FC Nordsjaelland,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_fc_seoul_8e133359,,FC Seoul,FC Seoul,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_fc_tatran_presov_05bcf723,,FC Tatran Prešov,FC Tatran Presov,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_fc_tokyo_9926cea2,,FC Tokyo,FC Tokyo,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_fc_twente_dfc20881,,FC Twente,FC Twente,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_fc_utrecht_8e99a4a6,,FC Utrecht,FC Utrecht,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_fcsb_dbba85ac,,FCSB,FCSB,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_fcv_dender_decd464d,,FCV Dender,FCV Dender,,,,,,,,,FALSE,Merged aliases/source variants: FCV Dender; Dender. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_farense_d90822fe,,Farense,Farense,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_fenerbahce_58b3ec74,,Fenerbahce,Fenerbahce,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_ferencvaros_b07d0cdc,,Ferencváros,Ferencvaros,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_feyenoord_c7797bfb,,Feyenoord,Feyenoord,,,,,,,,,FALSE,Merged aliases/source variants: Feyenoord; Feyenoord Rotterdam. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_fiorentina_69ff41f4,,Fiorentina,Fiorentina,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_flamengo_503b2587,,Flamengo,Flamengo,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_fluminense_86723454,,Fluminense,Fluminense,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_foolad_1a4bede8,,Foolad,Foolad,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_fortuna_dusseldorf_78ca4c52,,Fortuna Dusseldorf,Fortuna Dusseldorf,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_frosinone_ffb745d6,,Frosinone,Frosinone,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_fulham_385c468e,,Fulham,Fulham,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_galatasaray_8f5e15dc,,Galatasaray,Galatasaray,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_gangwon_fc_a8495ff5,,Gangwon FC,Gangwon FC,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_gaziantep_36de22a4,,Gaziantep,Gaziantep,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_genk_8993c379,,Genk,Genk,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_genoa_8456931a,,Genoa,Genoa,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_gent_2f000c7f,,Gent,Gent,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_genclerbirligi_22e3fae3,,Gençlerbirliği,Genclerbirligi,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_gil_vicente_4e74984b,,Gil Vicente,Gil Vicente,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_girona_2b73c591,,Girona,Girona,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_granada_4af55cd4,,Granada,Granada,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_grazer_ak_845301c1,,Grazer AK,Grazer AK,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_gremio_c49f51d7,,Gremio,Gremio,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_gyori_eto_4f17868c,,Győri ETO,Gyori ETO,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_hajduk_split_903c0454,,Hajduk Split,Hajduk Split,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_hamburger_sv_bc4db90c,,Hamburger SV,Hamburger SV,,,,,,,,,FALSE,"Step 5 manual correction: raw/source variants 'Hamburg' and 'Hamburg SV' collapsed into Hamburger SV; Sander Tangvik, Miro Muheim, and Luka Vuskovic all mapped here. Wikidata/league/city/stadium pending Step 5b/Step 6."
+c_hannover_96_f304aed3,,Hannover 96,Hannover 96,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_hearts_422d35b1,,Heart of Midlothian F.C.,Heart of Midlothian F.C.,,,,,,,,,FALSE,Step 5 manual review canonical rename from 'Hearts' to 'Heart of Midlothian F.C.'. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_heracles_almelo_e3b803be,,Heracles Almelo,Heracles Almelo,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_hibernian_8382e8fd,,Hibernian,Hibernian,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_holstein_kiel_1496d34f,,Holstein Kiel,Holstein Kiel,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_hradec_kralove_16ceb4be,,Hradec Kralove,Hradec Kralove,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_hull_city_c960b36b,,Hull City,Hull City,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_huracan_1cba27c3,,Huracan,Huracan,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_ifk_norrkoping_3af5a7be,,IFK Norrköping,IFK Norrkoping,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_igdir_afc03fda,,Igdir,Igdir,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_independiente_rivadavia_c01b9f67,,Independiente Rivadavia,Independiente Rivadavia,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_independiente_del_valle_02bf2082,,Independiente del Valle,Independiente del Valle,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_inter_miami_12316fb2,,Inter Miami,Inter Miami,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_inter_milan_ec07dd66,,Inter Milan,Inter Milan,,,,,,,,,FALSE,Merged aliases/source variants: Inter Milan; Internazionale. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_internacional_9f25f9e5,,Internacional,Internacional,,,,,,,,,FALSE,Merged aliases/source variants: Internacional; Internacional de Porto Alegre. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_ipswich_town_0526bcf8,,Ipswich Town,Ipswich Town,,,,,,,,,FALSE,Merged aliases/source variants: Ipswich Town; Ipswich. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_ironi_kiryat_shmona_c6bc74ed,,Ironi Kiryat Shmona,Ironi Kiryat Shmona,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_istanbul_basaksehir_eda9bc84,,Istanbul Basaksehir,Istanbul Basaksehir,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_js_kabylie_dbd91381,,JS Kabylie,JS Kabylie,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_jagiellonia_bialystok_14ff40df,,Jagiellonia Bialystok,Jagiellonia Bialystok,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_jeonbuk_hyundai_06657775,,Jeonbuk Hyundai,Jeonbuk Hyundai,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_juventus_57698fb8,,Juventus,Juventus,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_juarez_7fd97eca,,Juárez,Juarez,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_kv_mechelen_5d03665d,,KV Mechelen,KV Mechelen,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_kaizer_chiefs_99debdde,,Kaizer Chiefs,Kaizer Chiefs,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_kalba_cd0a6e06,,Kalba,Kalba,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_karlsruher_sc_de48b4d3,,Karlsruher SC,Karlsruher SC,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_kashima_antlers_e314a26b,,Kashima Antlers,Kashima Antlers,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_kasmpasa_61344b51,,Kasımpaşa,Kasımpasa,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_kayserispor_6364c552,,Kayserispor,Kayserispor,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_kifisia_6c2ed07b,,Kifisia,Kifisia,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_kilmarnock_77ff2e4c,,Kilmarnock,Kilmarnock,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_konyaspor_93c0af9a,,Konyaspor,Konyaspor,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_krasnodar_e8c3f037,,Krasnodar,Krasnodar,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_lafc_42b75eaf,,LAFC,LAFC,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_lask_ec5e4ca0,,LASK,LASK,,,,,,,,,FALSE,Merged aliases/source variants: LASK; LASK Linz. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_ldu_quito_c7b2d459,,LDU Quito,LDU Quito,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_lanus_7b7e52a5,,Lanus,Lanus,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_le_havre_ac_f11b1be2,,Le Havre AC,Le Havre AC,,,,,,,,,FALSE,Merged aliases/source variants: Le Havre AC; Le Havre. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_lechia_gdansk_6dd6ea20,,Lechia Gdańsk,Lechia Gdansk,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_leeds_united_4d0a095e,,Leeds United,Leeds United,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_leicester_city_1856e967,,Leicester City,Leicester City,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_lens_d18e9fd2,,Lens,Lens,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_levante_1173db37,,Levante,Levante,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_leon_e09d3468,,León,Leon,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_lille_5e95484f,,Lille,Lille,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_liverpool_53dacc53,,Liverpool,Liverpool,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_lokomotiv_moscow_d1e0d051,,Lokomotiv Moscow,Lokomotiv Moscow,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_lokomotiva_zagreb_5ede067f,,Lokomotiva Zagreb,Lokomotiva Zagreb,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_lorient_1d133ad3,,Lorient,Lorient,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_ludogorets_razgrad_596a7c7c,,Ludogorets Razgrad,Ludogorets Razgrad,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_lugano_b8a83086,,Lugano,Lugano,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_lyon_8ff8803d,,Lyon,Lyon,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_maccabi_haifa_f1b6b507,,Maccabi Haifa,Maccabi Haifa,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_maccabi_tel_aviv_8adccf32,,Maccabi Tel Aviv,Maccabi Tel Aviv,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_machida_zelvia_de40ad9f,,Machida Zelvia,Machida Zelvia,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_mainz_05_a2ff4aed,,Mainz 05,Mainz 05,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_malavan_5031d9ab,,Malavan,Malavan,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_mallorca_283c2cf0,,Mallorca,Mallorca,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_malmo_81e0c3a3,,Malmo,Malmo,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_mamelodi_sundowns_5ad1de31,,Mamelodi Sundowns,Mamelodi Sundowns,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_manchester_city_446c8158,,Manchester City,Manchester City,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_manchester_united_f05b841f,,Manchester United,Manchester United,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_marathon_947eb4c4,,Marathón,Marathon,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_marseille_8a6a0f84,,Marseille,Marseille,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_mazatlan_b76304f0,,Mazatlán,Mazatlan,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_melbourne_city_04bdf721,,Melbourne City,Melbourne City,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_melbourne_victory_7173b295,,Melbourne Victory,Melbourne Victory,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_miami_fc_86451741,,Miami FC,Miami FC,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_middlesbrough_8a024275,,Middlesbrough,Middlesbrough,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_millwall_9ef52a13,,Millwall,Millwall,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_minnesota_united_ec79d898,,Minnesota United,Minnesota United,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_mjallby_ba532087,,Mjallby,Mjallby,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_molde_c258d39b,,Molde,Molde,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_montana_45e96443,,Montana,Montana,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_monterrey_f10cf911,,Monterrey,Monterrey,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_montpellier_12bea8d1,,Montpellier,Montpellier,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_motherwell_8b7b9d25,,Motherwell,Motherwell,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_nec_nijmegen_5eeb954a,,NEC Nijmegen,NEC Nijmegen,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_nk_maribor_feb9d4ad,,NK Maribor,NK Maribor,,,,,,,,,FALSE,Merged aliases/source variants: NK Maribor; Maribor. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_nancy_c55a4912,,Nancy,Nancy,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_nantes_f85b493e,,Nantes,Nantes,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_napoli_48cfbfde,,Napoli,Napoli,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_nasaf_92f9d239,,Nasaf,Nasaf,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_navbahor_c6d5cb2a,,Navbahor,Navbahor,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_neftchi_0cda2dd5,,Neftchi,Neftchi,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_neom_dd0f566d,,Neom,Neom,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_new_england_revolution_d4ef9fc5,,New England Revolution,New England Revolution,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_new_york_city_fc_d53241ec,,New York City FC,New York City FC,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_newcastle_jets_131175aa,,Newcastle Jets,Newcastle Jets,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_newcastle_united_492af7e1,,Newcastle United,Newcastle United,,,,,,,,,FALSE,Merged aliases/source variants: Newcastle United; Newcastle. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_nice_a83a802d,,Nice,Nice,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_nordsjaelland_485bda61,,Nordsjaelland,Nordsjaelland,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_norwich_city_9bfbedcc,,Norwich City,Norwich City,,,,,,,,,FALSE,Merged aliases/source variants: Norwich City; Norwich. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_nottingham_forest_a950aa00,,Nottingham Forest,Nottingham Forest,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_olimpia_aed7596a,,Olimpia,Olimpia,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_olympiacos_41b104a8,,Olympiacos,Olympiacos,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_omonia_6a13a5a4,,Omonia,Omonia,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_orlando_city_33cea553,,Orlando City,Orlando City,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_orlando_pirates_1c8e17d1,,Orlando Pirates,Orlando Pirates,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_osasuna_f20766a6,,Osasuna,Osasuna,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_paok_d88141c2,,PAOK,PAOK,,,,,,,,,FALSE,Merged aliases/source variants: PAOK; PAOK Salonika. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_pec_zwolle_79d3df3c,,PEC Zwolle,PEC Zwolle,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_psg_7fc479b7,,PSG,PSG,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_psv_eindhoven_143e5a85,,PSV Eindhoven,PSV Eindhoven,,,,,,,,,FALSE,Merged aliases/source variants: PSV Eindhoven; PSV. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_pachuca_a4c33119,,Pachuca,Pachuca,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_pafos_0aaaf55f,,Pafos,Pafos,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_pakhtakor_52dbbda0,,Pakhtakor,Pakhtakor,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_palmeiras_a7b8813c,,Palmeiras,Palmeiras,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_panathinaikos_36cb748c,,Panathinaikos,Panathinaikos,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_pari_nizhny_novgorod_1b7306d2,,Pari Nizhny Novgorod,Pari Nizhny Novgorod,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_paris_fc_4acde809,,Paris FC,Paris FC,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_paris_saint_germain_e38062ac,,Paris Saint-Germain,Paris Saint-Germain,,,,,,,,,FALSE,Merged aliases/source variants: Paris Saint-Germain; Paris Saint-Germian. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_parma_9553b2a1,,Parma,Parma,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_persepolis_5a29c9d4,,Persepolis,Persepolis,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_peterborough_united_fc1a3742,,Peterborough United,Peterborough United,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_philadelphia_union_e87259be,,Philadelphia Union,Philadelphia Union,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_pisa_758b9ea7,,Pisa,Pisa,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_plaza_amador_6faeaf34,,Plaza Amador,Plaza Amador,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_pogon_szczecin_1d372b0b,,Pogoń Szczecin,Pogon Szczecin,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_polokwane_city_006c1372,,Polokwane City,Polokwane City,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_port_fc_fe67c888,,Port FC,Port FC,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_port_vale_8b7668ca,,Port Vale,Port Vale,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_portland_timbers_8e92581e,,Portland Timbers,Portland Timbers,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_porto_09de765a,,Porto,Porto,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_portsmouth_0f979b99,,Portsmouth,Portsmouth,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_puerto_cabello_c8843033,,Puerto Cabello,Puerto Cabello,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_pumas_unam_e7fbb47a,,Pumas UNAM,Pumas UNAM,,,,,,,,,FALSE,Merged aliases/source variants: Pumas UNAM; Pumas. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_puskas_akademia_2653805d,,Puskas Akademia,Puskas Akademia,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_pyramids_fc_7ade8ddc,,Pyramids FC,Pyramids FC,,,,,,,,,FALSE,Merged aliases/source variants: Pyramids FC; Pyramids. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_qatar_sc_fd8bd006,,Qatar SC,Qatar SC,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_rb_leipzig_e10cc5a3,,RB Leipzig,RB Leipzig,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_rb_salzburg_64bce3ab,,RB Salzburg,RB Salzburg,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_rkc_waalwijk_6a7da517,,RKC Waalwijk,RKC Waalwijk,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_rs_berkane_416671b0,,RS Berkane,RS Berkane,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_racing_genk_584dd89f,,Racing Genk,Racing Genk,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_racing_santander_99beb36e,,Racing Santander,Racing Santander,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_raja_casablanca_f3222cae,,Raja Casablanca,Raja Casablanca,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_randers_fc_3128e118,,Randers FC,Randers FC,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_rangers_8ee581e0,,Rangers F.C.,Rangers F.C.,,,,,,,,,FALSE,Step 5 manual correction: Lawrence Shankland reassigned from source-listed Hearts to Rangers F.C. Step 5 manual review canonical rename from 'Rangers' to 'Rangers F.C.'. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_rayo_vallecano_bb03fdc6,,Rayo Vallecano,Rayo Vallecano,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_real_betis_c81a1b80,,Real Betis,Real Betis,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_real_madrid_abbd0333,,Real Madrid,Real Madrid,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_real_oviedo_11854497,,Real Oviedo,Real Oviedo,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_real_salt_lake_59b0db81,,Real Salt Lake,Real Salt Lake,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_real_sociedad_495967fa,,Real Sociedad,Real Sociedad,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_red_bull_bragantino_35c794b1,,Red Bull Bragantino,Red Bull Bragantino,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_red_star_belgrade_ff44e45e,,Red Star Belgrade,Red Star Belgrade,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_reims_580a1e88,,Reims,Reims,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_rennes_2c434c1a,,Rennes,Rennes,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_rijeka_f02178d7,,Rijeka,Rijeka,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_river_plate_6e5bb3c0,,River Plate,River Plate,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_rosario_central_d0d1a866,,Rosario Central,Rosario Central,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_rostovv_302a24f4,,Rostovv,Rostovv,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_rotherham_united_58431265,,Rotherham United,Rotherham United,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_sc_freiburg_9f1ecdb8,,SC Freiburg,SC Freiburg,,,,,,,,,FALSE,Merged aliases/source variants: SC Freiburg; Freiburg. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_sjk_4111de11,,SJK,SJK,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_sabah_53be0096,,Sabah,Sabah,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_saint_etienne_d88dbceb,,Saint-Étienne,Saint-Etienne,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_sampdoria_044fe5ce,,Sampdoria,Sampdoria,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_samsunspor_f4b482dc,,Samsunspor,Samsunspor,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_san_diego_fc_ee29e222,,San Diego FC,San Diego FC,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_san_lorenzo_e834d80a,,San Lorenzo,San Lorenzo,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_sanfrecce_hiroshima_aa29b48c,,Sanfrecce Hiroshima,Sanfrecce Hiroshima,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_santos_6c3780f0,,Santos FC,Santos FC,,,,,,,,,FALSE,Step 5 manual review canonical rename from 'Santos' to 'Santos FC'. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_santos_laguna_ed9ddc90,,Santos Laguna,Santos Laguna,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_saprissa_cd3d610c,,Saprissa,Saprissa,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_sarpsborg_08_6a2fb396,,Sarpsborg 08,Sarpsborg 08,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_sassuolo_3722fef4,,Sassuolo,Sassuolo,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_schalke_04_aa80f339,,Schalke 04,Schalke 04,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_seattle_sounders_0333969a,,Seattle Sounders,Seattle Sounders,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_selangor_87052893,,Selangor,Selangor,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_sepahan_23598738,,Sepahan,Sepahan,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_servette_d3e58f94,,Servette,Servette,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_sevilla_199198e5,,Sevilla,Sevilla,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_shabab_al_ahli_7bfa5689,,Shabab Al Ahli Club,Shabab Al Ahli Club,,,,,,,,,FALSE,Step 5 manual review canonical rename from 'Shabab Al-Ahli' to 'Shabab Al Ahli Club'. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_shamrock_rovers_2cdea59c,,Shamrock Rovers,Shamrock Rovers,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_sharjah_dab7481c,,Sharjah,Sharjah,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_sheffield_united_03747276,,Sheffield United,Sheffield United,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_sigma_olomouc_9866567d,,Sigma Olomouc,Sigma Olomouc,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_silkeborg_if_f15d8622,,Silkeborg IF,Silkeborg IF,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_sint_truiden_eb30716d,,Sint-Truiden,Sint-Truiden,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_slaven_belupo_a67f2dfc,,Slaven Belupo,Slaven Belupo,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_slavia_prague_6def6306,,Slavia Prague,Slavia Prague,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_slovan_bratislava_8e855156,,Slovan Bratislava,Slovan Bratislava,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_slovan_liberec_d17c3872,,Slovan Liberec,Slovan Liberec,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_sochaux_ac407c94,,Sochaux,Sochaux,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_southampton_1d40f1fa,,Southampton,Southampton,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_sparta_prague_8236520c,,Sparta Prague,Sparta Prague,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_sparta_rotterdam_15c16fb0,,Sparta Rotterdam,Sparta Rotterdam,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_spartak_moscow_24492656,,Spartak Moscow,Spartak Moscow,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_sporting_cp_68d8c4d1,,Sporting CP,Sporting CP,,,,,,,,,FALSE,Merged aliases/source variants: Sporting CP; Sporting Lisbon. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_st_gallen_c9354c56,,St Gallen,St Gallen,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_st_patrick_s_athletic_b41b37bf,,St Patrick's Athletic,St Patrick's Athletic,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_st_pauli_b81e5622,,St. Pauli,St. Pauli,,,,,,,,,FALSE,Merged aliases/source variants: St. Pauli; St Pauli. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_stade_nyonnaise_d6f19ad2,,Stade Nyonnaise,Stade Nyonnaise,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_stade_rennais_c98241a9,,Stade Rennais,Stade Rennais,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_standard_liege_3e26b5d7,,Standard Liege,Standard Liege,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_stoke_city_320b8e5a,,Stoke City,Stoke City,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_strasbourg_ec14fe17,,Strasbourg,Strasbourg,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_strmsgodset_8b9d1286,,Strømsgodset,Stromsgodset,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_sunderland_4aa579a0,,Sunderland,Sunderland,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_surkhon_b0fc6235,,Surkhon,Surkhon,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_swansea_city_40d4171f,,Swansea City,Swansea City,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_sydney_fc_46493459,,Sydney FC,Sydney FC,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_sao_paulo_512a018c,,São Paulo,Sao Paulo,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_tsg_hoffenheim_7dd7fd83,,TSG Hoffenheim,TSG Hoffenheim,,,,,,,,,FALSE,Merged aliases/source variants: TSG Hoffenheim; Hoffenheim. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_talleres_44a8f91d,,Talleres,Talleres,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_telstar_e85327be,,Telstar,Telstar,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_terengganu_3785b314,,Terengganu,Terengganu,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_tigres_uanl_6d3f0914,,Tigres UANL,Tigres UANL,,,,,,,,,FALSE,Merged aliases/source variants: Tigres UANL; Tigres. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_toluca_a5d0edbb,,Toluca,Toluca,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_tondela_897c0be8,,Tondela,Tondela,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_torino_3891b778,,Torino,Torino,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_toronto_fc_801d96b3,,Toronto FC,Toronto FC,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_torreense_d5f6f333,,Torreense,Torreense,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_tottenham_hotspur_ef01ee61,,Tottenham Hotspur,Tottenham Hotspur,,,,,,,,,FALSE,Merged aliases/source variants: Tottenham Hotspur; Tottenham. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_toulouse_68472eee,,Toulouse,Toulouse,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_trabzonspor_15246eeb,,Trabzonspor,Trabzonspor,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_tractor_b739a166,,Tractor,Tractor,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_turan_tovuz_b1656aa6,,Turan Tovuz,Turan Tovuz,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_us_monastir_e0705e0c,,US Monastir,US Monastir,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_usm_alger_1a6b6d83,,USM Alger,USM Alger,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_udinese_e4d6ce7e,,Udinese,Udinese,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_ulsan_hd_cd5a3dd8,,Ulsan HD,Ulsan HD,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_union_berlin_3b0a5205,,Union Berlin,Union Berlin,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_union_st_gilloise_b8dea71a,,Union St.-Gilloise,Union St.-Gilloise,,,,,,,,,FALSE,Merged aliases/source variants: Union St.-Gilloise; Royale-Union Saint Gilloise; Union St-Gilloise. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_universidad_catolica_f9dd891a,,Universidad Católica,Universidad Catolica,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_universidad_de_concepcion_56e01dcd,,Universidad de Concepción,Universidad de Concepcion,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_universitatea_cluj_3ac82d3c,,Universitatea Cluj,Universitatea Cluj,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_vvv_venlo_83a25ec0,,VVV Venlo,VVV Venlo,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_valencia_b00a061d,,Valencia,Valencia,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_vancouver_whitecaps_584ec8d5,,Vancouver Whitecaps,Vancouver Whitecaps,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_vasco_da_gama_ebb987d1,,Vasco da Gama,Vasco da Gama,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_venezia_e31ee20d,,Venezia,Venezia,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_verona_28485fcd,,Verona,Verona,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_vfb_stuttgart_79e41bee,,VfB Stuttgart,VfB Stuttgart,,,,,,,,,FALSE,Merged aliases/source variants: VfB Stuttgart; Stuttgart. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_vfl_wolfsburg_6bff9162,,VfL Wolfsburg,VfL Wolfsburg,,,,,,,,,FALSE,Merged aliases/source variants: VfL Wolfsburg; Wolfsburg. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_viking_fk_ff9c46f0,,Viking FK,Viking FK,,,,,,,,,FALSE,Merged aliases/source variants: Viking FK; Viking. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_viktoria_plzen_c3cb1557,,Viktoria Plzen,Viktoria Plzen,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_villarreal_edfbe376,,Villarreal,Villarreal,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_violette_080fcd22,,Violette,Violette,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_vitoria_guimaraes_bdab72bf,,Vitoria Guimaraes,Vitoria Guimaraes,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_vizela_63e8bfe2,,Vizela,Vizela,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_volendam_44039ff3,,Volendam,Volendam,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_velez_sarsfield_1118a976,,Vélez Sarsfield,Velez Sarsfield,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_watford_149fe9eb,,Watford,Watford,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_wellington_phoenix_dcacb02d,,Wellington Phoenix,Wellington Phoenix,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_werder_bremen_a11ab9ed,,Werder Bremen,Werder Bremen,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_west_ham_united_0b178664,,West Ham United,West Ham United,,,,,,,,,FALSE,Merged aliases/source variants: West Ham United; West Ham. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_western_sydney_wanderers_ad68f75f,,Western Sydney Wanderers,Western Sydney Wanderers,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_widzew_odz_934a5145,,Widzew Łódź,Widzew Lodz,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_wolfsberger_ac_ca70d247,,Wolfsberger AC,Wolfsberger AC,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_wolverhampton_wanderers_1e3d8f9f,,Wolverhampton Wanderers,Wolverhampton Wanderers,,,,,,,,,FALSE,Merged aliases/source variants: Wolverhampton Wanderers; Wolverhampton. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_wrexham_5a7883b4,,Wrexham,Wrexham,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_young_boys_d33c77d6,,Young Boys,Young Boys,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_zamalek_b40573d7,,Zamalek,Zamalek,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_zed_2700337e,,Zed,Zed,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_zenit_st_petersburg_0976e8e0,,Zenit St. Petersburg,Zenit St. Petersburg,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_zhejiang_fc_d944dab0,,Zhejiang FC,Zhejiang FC,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_zulte_waregem_051e6315,,Zulte Waregem,Zulte Waregem,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_zurich_d276e926,,Zurich,Zurich,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_caykur_rizespor_5d094b3b,,Çaykur Rizespor,Caykur Rizespor,,,,,,,,,FALSE,Merged aliases/source variants: Caykur Rizesport; Çaykur Rizespor; Rizespor. Wikidata/league/city/stadium pending Step 5b/Step 6.
+c_etoile_du_sahel_57c67bcf,,Étoile du Sahel,Etoile du Sahel,,,,,,,,,FALSE,Wikidata/league/city/stadium pending Step 5b/Step 6.

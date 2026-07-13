@@ -1,0 +1,49 @@
+﻿team,team_code,tournament,matches_played,wins,draws,losses,goals_for,goals_against,stage_reached,assists,xg,possession_pct,as_of_stage,source_id,retrieved_at
+Argentina,ARG,FIFA World Cup 2026,6,6,0,0,17,6,Semi-finals (in progress),10,13.9,55,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+France,FRA,FIFA World Cup 2026,6,6,0,0,16,2,Semi-finals (in progress),14,13.31,53,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Belgium,BEL,FIFA World Cup 2026,6,3,2,1,14,7,Quarter-finals,10,10.62,46,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+England,ENG,FIFA World Cup 2026,6,5,1,0,13,6,Semi-finals (in progress),10,12.23,52,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Norway,NOR,FIFA World Cup 2026,6,4,0,2,13,11,Quarter-finals,10,9.93,49,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Netherlands,NED,FIFA World Cup 2026,4,2,2,0,11,5,Round of 32,10,5,50,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+United States,USA,FIFA World Cup 2026,5,3,0,2,11,8,Round of 16,4,6.37,52,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Germany,GER,FIFA World Cup 2026,4,2,1,1,11,5,Round of 32,10,8.64,56,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Spain,ESP,FIFA World Cup 2026,6,5,1,0,11,1,Semi-finals (in progress),8,12.75,60,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Mexico,MEX,FIFA World Cup 2026,5,4,0,1,10,3,Round of 16,7,8.1,48,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Morocco,MAR,FIFA World Cup 2026,6,3,2,1,10,6,Quarter-finals,9,6.57,53,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Senegal,SEN,FIFA World Cup 2026,4,1,0,3,10,9,Round of 32,9,7.22,49,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Brazil,BRA,FIFA World Cup 2026,5,3,1,1,10,4,Round of 16,8,10.88,48,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Switzerland,SUI,FIFA World Cup 2026,6,3,2,1,10,6,Quarter-finals,6,9.59,49,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Canada,CAN,FIFA World Cup 2026,5,2,1,2,9,6,Round of 16,3,9.02,46,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Japan,JPN,FIFA World Cup 2026,4,1,2,1,8,5,Round of 32,7,3.17,42,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Egypt,EGY,FIFA World Cup 2026,5,1,3,1,8,7,Round of 16,8,5.75,46,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Portugal,POR,FIFA World Cup 2026,5,2,2,1,8,3,Round of 16,4,6.39,53,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Sweden,SWE,FIFA World Cup 2026,4,1,1,2,7,10,Round of 32,6,4.66,43,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Croatia,CRO,FIFA World Cup 2026,4,2,0,2,6,7,Round of 32,5,3.41,46,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Austria,AUT,FIFA World Cup 2026,4,1,1,2,6,9,Round of 32,4,3.88,41,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Algeria,ALG,FIFA World Cup 2026,4,1,1,2,5,9,Round of 32,3,4.73,56,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Bosnia-Herzegovina,BIH,FIFA World Cup 2026,4,1,1,2,5,8,Round of 32,3,2.04,40,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Ivory Coast,CIV,FIFA World Cup 2026,4,2,0,2,5,4,Round of 32,4,5.5,45,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Colombia,COL,FIFA World Cup 2026,5,3,2,0,5,1,Round of 16,5,7.32,53,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Congo DR,COD,FIFA World Cup 2026,4,1,1,2,5,5,Round of 32,3,3.71,37,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+New Zealand,NZL,FIFA World Cup 2026,3,0,1,2,4,10,Group stage,3,2.48,42,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Cape Verde,CPV,FIFA World Cup 2026,4,0,3,1,4,5,Round of 32,2,2.56,35,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Jordan,JOR,FIFA World Cup 2026,3,0,0,3,3,8,Group stage,3,1.87,29,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Paraguay,PAR,FIFA World Cup 2026,5,1,2,2,3,6,Round of 16,3,1.99,27,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Uruguay,URU,FIFA World Cup 2026,3,0,2,1,3,4,Group stage,1,3.95,51,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Iran,IRN,FIFA World Cup 2026,3,0,3,0,3,3,Group stage,1,4.57,37,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Türkiye,TUR,FIFA World Cup 2026,3,1,0,2,3,5,Group stage,2,5.5,58,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Australia,AUS,FIFA World Cup 2026,4,1,2,1,3,3,Round of 32,1,2.73,35,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+South Korea,KOR,FIFA World Cup 2026,3,1,0,2,2,3,Group stage,2,3.38,56,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+South Africa,RSA,FIFA World Cup 2026,4,1,1,2,2,4,Round of 32,1,2.48,46,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Tunisia,TUN,FIFA World Cup 2026,3,0,0,3,2,12,Group stage,2,1.12,36,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Ecuador,ECU,FIFA World Cup 2026,4,1,1,2,2,4,Round of 32,2,5.88,52,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Uzbekistan,UZB,FIFA World Cup 2026,3,0,0,3,2,11,Group stage,1,1.71,35,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Ghana,GHA,FIFA World Cup 2026,4,1,1,2,2,3,Round of 32,2,2.34,34,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Qatar,QAT,FIFA World Cup 2026,3,0,1,2,2,10,Group stage,1,1.88,31,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Haiti,HAI,FIFA World Cup 2026,3,0,0,3,2,8,Group stage,1,1.62,42,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Czechia,CZE,FIFA World Cup 2026,3,0,1,2,2,6,Group stage,2,2.44,37,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Curacao,CUW,FIFA World Cup 2026,3,0,1,2,1,9,Group stage,0,1.7,32,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Iraq,IRQ,FIFA World Cup 2026,3,0,0,3,1,12,Group stage,1,2.11,37,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Saudi Arabia,KSA,FIFA World Cup 2026,3,0,2,1,1,5,Group stage,0,1.52,33,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Scotland,SCO,FIFA World Cup 2026,3,1,0,2,1,4,Group stage,0,2.34,41,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00
+Panama,PAN,FIFA World Cup 2026,3,0,0,3,0,4,Group stage,0,2.19,42,through quarterfinals,fifa_team_stats_2026,2026-07-12T00:00:00

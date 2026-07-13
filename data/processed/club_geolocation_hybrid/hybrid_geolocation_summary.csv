@@ -1,0 +1,11 @@
+metric,value
+prepared_rows,253
+resolution_priority__high_review,11
+resolution_priority__manual_triage_followup,196
+resolution_priority__missing_coordinates,44
+resolution_priority__spotcheck,2
+resolver_status__resolved,32
+resolver_status__unresolved,221
+official_source_fallback_needed_rows,221
+run_interrupted,FALSE
+resolved_rows_saved,253

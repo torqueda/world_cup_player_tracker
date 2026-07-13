@@ -1,0 +1,112 @@
+[
+  {
+    "source_id": "club_corr_0001",
+    "source_type": "p_sco_lawrence_shankland_c03e8909",
+    "publisher": "Lawrence Shankland",
+    "url": "Scotland",
+    "title": "c_hearts_422d35b1",
+    "accessed_at": "Hearts",
+    "published_at": "c_rangers_8ee581e0",
+    "reliability_tier": "Rangers F.C.",
+    "notes": "player_club_source_error"
+  },
+  {
+    "source_id": "club_corr_0002",
+    "source_type": "p_irq_aymen_hussein_9b6a0747",
+    "publisher": "Aymen Hussein",
+    "url": "Iraq",
+    "title": "c_al_khor_f91729aa",
+    "accessed_at": "Al-Khor",
+    "published_at": "c_al_karma_f9b63d11",
+    "reliability_tier": "Al-Karma SC",
+    "notes": "player_club_source_error"
+  },
+  {
+    "source_id": "club_corr_0003",
+    "source_type": "p_irq_mohanad_ali_41068002",
+    "publisher": "Mohanad Ali",
+    "url": "Iraq",
+    "title": "c_al_shorta_03f6bef7",
+    "accessed_at": "Al-Shorta",
+    "published_at": "c_dibba_al_fujairah_06c16d12",
+    "reliability_tier": "Dibba FC",
+    "notes": "player_club_source_error"
+  },
+  {
+    "source_id": "club_corr_0004",
+    "source_type": "p_nor_sander_tangvik_493d3d56",
+    "publisher": "Sander Tangvik",
+    "url": "Norway",
+    "title": "c_hamburg_sv_8cb7fa56",
+    "accessed_at": "Hamburg SV",
+    "published_at": "c_hamburger_sv_bc4db90c",
+    "reliability_tier": "Hamburger SV",
+    "notes": "club_source_variant_or_typo"
+  },
+  {
+    "source_id": "club_corr_0005",
+    "source_type": "p_cro_luka_vuskovic_79fcb50b",
+    "publisher": "Luka Vuskovic",
+    "url": "Croatia",
+    "title": "c_hamburg_sv_8cb7fa56",
+    "accessed_at": "Hamburg SV",
+    "published_at": "c_hamburger_sv_bc4db90c",
+    "reliability_tier": "Hamburger SV",
+    "notes": "club_source_variant_or_typo"
+  },
+  {
+    "source_id": "wiki_squads_2026",
+    "source_type": "roster",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
+    "title": "2026 FIFA World Cup squads",
+    "accessed_at": "2026-07-12",
+    "published_at": null,
+    "reliability_tier": "secondary_verified",
+    "notes": "Final 26-man rosters, shirt numbers, coaches, replacements. Snapshot: data/raw/wikipedia_2026_squads_snapshot.html"
+  },
+  {
+    "source_id": "wiki_officials_2026",
+    "source_type": "officials",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_officials",
+    "title": "2026 FIFA World Cup officials",
+    "accessed_at": "2026-07-12",
+    "published_at": null,
+    "reliability_tier": "secondary_verified",
+    "notes": "Referees, assistants, VARs. Snapshot: data/raw/wikipedia_2026_officials_snapshot.html"
+  },
+  {
+    "source_id": "fifa_player_stats_2026",
+    "source_type": "stats",
+    "publisher": "FIFA",
+    "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/statistics/player-statistics",
+    "title": "FIFA.com player statistics (through quarterfinals)",
+    "accessed_at": "2026-07-12",
+    "published_at": null,
+    "reliability_tier": "primary_official",
+    "notes": "Goals/assists/minutes for all registered players; cards from Discipline tab."
+  },
+  {
+    "source_id": "fifa_team_stats_2026",
+    "source_type": "stats",
+    "publisher": "FIFA",
+    "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/statistics/team-statistics",
+    "title": "FIFA.com team statistics (through quarterfinals)",
+    "accessed_at": "2026-07-12",
+    "published_at": null,
+    "reliability_tier": "primary_official",
+    "notes": "Team goals, assists, xG, possession."
+  },
+  {
+    "source_id": "fifa_fixtures_2026",
+    "source_type": "matches",
+    "publisher": "FIFA",
+    "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "title": "FIFA.com scores & fixtures",
+    "accessed_at": "2026-07-12",
+    "published_at": null,
+    "reliability_tier": "primary_official",
+    "notes": "All match results through the quarterfinals plus remaining schedule. Snapshot: data/raw/fifa_scores_fixtures_snapshot.txt"
+  }
+]

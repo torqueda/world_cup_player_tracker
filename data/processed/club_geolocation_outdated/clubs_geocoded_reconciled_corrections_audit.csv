@@ -1,0 +1,10 @@
+club_id,field,old_value,new_value,change_source
+c_eintracht_braunschweig_c967ead8,league,Bundesliga,2. Bundesliga,dataset_manual_changes
+c_fc_nordsjlland_ae9978cb,club_name,FC Nordsj¾lland,FC Nordsjælland,special_club_fixes
+c_genclerbirligi_22e3fae3,club_name,Gençlerbirliği,Gençlerbirliği S.K.,name_changes
+c_genclerbirligi_22e3fae3,club_name,Gençlerbirli_i,Gençlerbirliği,special_club_fixes
+c_gyori_eto_4f17868c,club_name,Győri ETO,Győri ETO FC,name_changes
+c_gyori_eto_4f17868c,club_name,Gy_ri ETO,Győri ETO,special_club_fixes
+c_holstein_kiel_1496d34f,league,Bundesliga,2. Bundesliga,dataset_manual_changes
+c_karlsruher_sc_de48b4d3,league,Bundesliga,2. Bundesliga,dataset_manual_changes
+c_pogon_szczecin_1d372b0b,club_name,Pogo_ Szczecin,Pogoń Szczecin,special_club_fixes

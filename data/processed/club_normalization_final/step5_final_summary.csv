@@ -1,0 +1,14 @@
+metric,value,notes
+input_review_rows,18,Rows in user-completed club review queue.
+review_queue_merges_approved,0,User marked all review-queue candidate pairs as independent/keep separate.
+manual_canonical_renames_applied,26,Club display-name changes from completed review and follow-up notes.
+additional_non_review_source_variant_merge,1,Hamburg/Hamburg SV collapsed into Hamburger SV.
+player_club_source_corrections,3,"Lawrence Shankland, Aymen Hussein, Mohanad Ali."
+hamburger_sv_player_variant_corrections,2,Sander Tangvik and Luka Vuskovic mapped to Hamburger SV.
+clubs_before_final_review,466,Step 5 first-pass normalized club rows.
+clubs_after_final_review,464,Import-ready final clubs rows after removing zero-player/source-error clubs.
+player_club_at_callup_rows_final,1248,Should remain one row per squad player.
+squad_entries_rows_final,1248,Should remain one row per squad player.
+unique_player_ids_squad_entries,1248,Should equal squad_entries row count.
+unique_player_ids_player_club_at_callup,1248,Should equal player_club rows.
+missing_club_ids_after_final_review,0,Should be 0.

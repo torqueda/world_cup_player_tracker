@@ -1,0 +1,512 @@
+raw_club_id,raw_club_name,raw_club_name_ascii,canonical_club_id,canonical_club_name,alias_rule,merge_confidence,player_count_for_raw_club_id,teams_using_raw_club_id,normalization_notes,final_player_count_for_canonical_club_id,final_teams_using_canonical_club_id
+c_abha_a8d5b324,Abha,Abha,c_abha_a8d5b324,Abha,unchanged,not_applicable,1,Curacao:1,No normalization merge applied.,1,Curacao:1
+c_ac_milan_118eeb6e,AC Milan,AC Milan,c_ac_milan_118eeb6e,AC Milan,unchanged,not_applicable,10,Belgium:2; France:2; Mexico:1; Switzerland:1; United States:1; Ecuador:1; Portugal:1; Croatia:1,No normalization merge applied.,10,Belgium:2; Croatia:1; Ecuador:1; France:2; Mexico:1; Portugal:1; Switzerland:1; United States:1
+c_accra_hearts_of_oak_sc_5dd04a93,Accra Hearts of Oak SC,Accra Hearts of Oak SC,c_accra_hearts_of_oak_sc_5dd04a93,Accra Hearts of Oak S.C.,manual_canonical_rename,manual_verified,1,Ghana:1,Canonical name manually changed to 'Accra Hearts of Oak S.C.'. No normalization merge applied.,1,Ghana:1
+c_ae_kifisias_b52d38fc,AE Kifisias,AE Kifisias,c_ae_kifisias_b52d38fc,AE Kifisias,unchanged,not_applicable,1,Ecuador:1,No normalization merge applied.,1,Ecuador:1
+c_aek_athens_72925ed6,AEK Athens,AEK Athens,c_aek_athens_72925ed6,AEK Athens,unchanged,not_applicable,1,Mexico:1,No normalization merge applied.,1,Mexico:1
+c_ael_431116e5,AEL,AEL,c_ael_431116e5,AEL,unchanged,not_applicable,2,Congo DR:2,No normalization merge applied.,2,Congo DR:2
+c_ael_limassol_2cf0940b,AEL Limassol,AEL Limassol,c_ael_limassol_2cf0940b,AEL Limassol,unchanged,not_applicable,2,Mexico:1; South Africa:1,No normalization merge applied.,2,Mexico:1; South Africa:1
+c_afc_bournemouth_61e18bcd,AFC Bournemouth,AFC Bournemouth,c_afc_bournemouth_61e18bcd,AFC Bournemouth,auto_merge_curated_alias,high,1,United States:1,Collapsed source variant to canonical club 'AFC Bournemouth'.,5,Brazil:1; Netherlands:1; Scotland:2; United States:1
+c_agf_aarhus_255f8d4c,AGF Aarhus,AGF Aarhus,c_agf_aarhus_255f8d4c,AGF Aarhus,unchanged,not_applicable,1,Iraq:1,No normalization merge applied.,1,Iraq:1
+c_agmk_a616cb6f,AGMK,AGMK,c_agmk_a616cb6f,AGMK,unchanged,not_applicable,2,Uzbekistan:2,No normalization merge applied.,2,Uzbekistan:2
+c_aik_9fa4ead4,AIK,AIK,c_aik_9fa4ead4,AIK,unchanged,not_applicable,1,Sweden:1,No normalization merge applied.,1,Sweden:1
+c_aj_auxerre_5c7942ef,AJ Auxerre,AJ Auxerre,c_aj_auxerre_5c7942ef,AJ Auxerre,auto_merge_curated_alias,high,4,Ghana:3; Ivory Coast:1,Collapsed source variant to canonical club 'AJ Auxerre'.,5,Ghana:3; Haiti:1; Ivory Coast:1
+c_ajax_955fab76,Ajax,Ajax,c_ajax_955fab76,Ajax,unchanged,not_applicable,4,Japan:2; Netherlands:1; Croatia:1,No normalization merge applied.,4,Croatia:1; Japan:2; Netherlands:1
+c_akron_tolyatti_7891723e,Akron Tolyatti,Akron Tolyatti,c_akron_tolyatti_7891723e,Akron Tolyatti,unchanged,not_applicable,1,Cape Verde:1,No normalization merge applied.,1,Cape Verde:1
+c_al_ahli_c686fb82,Al Ahli,Al Ahli,c_al_ahli_c686fb82,Al-Ahli Saudi FC,auto_merge_curated_alias,high,7,Saudi Arabia:3; Brazil:1; Ivory Coast:1; Senegal:1; Algeria:1,Canonical name manually changed to 'Al-Ahli Saudi FC'. Collapsed source variant to canonical club 'Al Ahli'.,9,Algeria:1; Brazil:1; England:1; Ivory Coast:1; Saudi Arabia:3; Senegal:1; Türkiye:1
+c_al_ahli_2ee190b5,Al-Ahli,Al-Ahli,c_al_ahli_c686fb82,Al-Ahli Saudi FC,auto_merge_curated_alias,high,2,Türkiye:1; England:1,Canonical name manually changed to 'Al-Ahli Saudi FC'. Collapsed source variant to canonical club 'Al Ahli'.,9,Algeria:1; Brazil:1; England:1; Ivory Coast:1; Saudi Arabia:3; Senegal:1; Türkiye:1
+c_al_ahly_d8f224e8,Al Ahly,Al Ahly,c_al_ahly_d8f224e8,Al Ahly SC,manual_canonical_rename,manual_verified,9,Egypt:8; Morocco:1,Canonical name manually changed to 'Al Ahly SC'. No normalization merge applied.,9,Egypt:8; Morocco:1
+c_al_ain_c5137584,Al Ain,Al Ain,c_al_ain_c5137584,Al Ain FC,manual_canonical_rename,manual_verified,3,Morocco:1; Paraguay:1; Egypt:1,Canonical name manually changed to 'Al Ain FC'. No normalization merge applied.,3,Egypt:1; Morocco:1; Paraguay:1
+c_al_arabi_aed4b46c,Al Arabi,Al Arabi,c_al_arabi_aed4b46c,Al-Arabi SC (Qatar),manual_canonical_rename,manual_verified,3,Qatar:3,Canonical name manually changed to 'Al-Arabi SC (Qatar)'. No normalization merge applied.,3,Qatar:3
+c_al_bataeh_bbe9608c,Al Bataeh,Al Bataeh,c_al_bataeh_bbe9608c,Al Bataeh,unchanged,not_applicable,2,Cape Verde:1; Uzbekistan:1,No normalization merge applied.,2,Cape Verde:1; Uzbekistan:1
+c_al_duhail_917aca16,Al Duhail,Al Duhail,c_al_duhail_917aca16,Al Duhail,unchanged,not_applicable,7,Qatar:6; Algeria:1,No normalization merge applied.,7,Algeria:1; Qatar:6
+c_al_etiffaq_f2058dce,Al Etiffaq,Al Etiffaq,c_al_etiffaq_f2058dce,Al Etiffaq,unchanged,not_applicable,1,Scotland:1,No normalization merge applied.,1,Scotland:1
+c_al_ettifaq_807c8264,Al Ettifaq,Al Ettifaq,c_al_ettifaq_807c8264,Al Ettifaq,unchanged,not_applicable,1,Saudi Arabia:1,No normalization merge applied.,1,Saudi Arabia:1
+c_al_faisaly_d08621cd,Al-Faisaly,Al-Faisaly,c_al_faisaly_d08621cd,Al-Faisaly,unchanged,not_applicable,3,Jordan:3,No normalization merge applied.,3,Jordan:3
+c_al_fayha_22bab1f3,Al Fayha,Al Fayha,c_al_fayha_22bab1f3,Al-Fayha Club,manual_canonical_rename,manual_verified,1,Panama:1,Canonical name manually changed to 'Al-Fayha Club'. No normalization merge applied.,1,Panama:1
+c_al_gharafa_cf3f2df9,Al Gharafa,Al Gharafa,c_al_gharafa_cf3f2df9,Al Gharafa,unchanged,not_applicable,3,Qatar:3,No normalization merge applied.,3,Qatar:3
+c_al_hilal_67047244,Al Hilal,Al Hilal,c_al_hilal_67047244,Al Hilal,unchanged,not_applicable,11,Saudi Arabia:6; Morocco:1; Uruguay:1; France:1; Senegal:1; Portugal:1,No normalization merge applied.,11,France:1; Morocco:1; Portugal:1; Saudi Arabia:6; Senegal:1; Uruguay:1
+c_al_hussein_1fe1435d,Al-Hussein,Al-Hussein,c_al_hussein_1fe1435d,Al-Hussein,unchanged,not_applicable,6,Jordan:6,No normalization merge applied.,6,Jordan:6
+c_al_ittihad_715274c9,Al Ittihad,Al Ittihad,c_al_ittihad_715274c9,Al Ittihad,unchanged,not_applicable,4,Saudi Arabia:2; Brazil:1; Algeria:1,No normalization merge applied.,4,Algeria:1; Brazil:1; Saudi Arabia:2
+c_al_jazira_3cf19a97,Al Jazira,Al Jazira,c_al_jazira_3cf19a97,Al Jazira,unchanged,not_applicable,1,Congo DR:1,No normalization merge applied.,1,Congo DR:1
+c_al_karma_f9b63d11,Al-Karma,Al-Karma,c_al_karma_f9b63d11,Al-Karma SC,manual_canonical_rename,manual_verified,2,Jordan:2,Canonical name manually changed to 'Al-Karma SC'. No normalization merge applied.,3,Iraq:1; Jordan:2
+c_al_khor_f91729aa,Al-Khor,Al-Khor,c_al_karma_f9b63d11,Al-Karma SC,manual_player_club_source_error_reassigned,manual_verified,1,Iraq:1,"Not an alias merge. ESPN listed Aymen Hussein at Al-Khor; manual review corrected the player-club row to Al-Karma SC, leaving no final World Cup player attached to Al-Khor.",3,Iraq:1; Jordan:2
+c_al_najma_9b74810f,Al Najma,Al Najma,c_al_najma_9b74810f,Al-Najma SC (Saudi Arabia),manual_canonical_rename,manual_verified,1,Egypt:1,Canonical name manually changed to 'Al-Najma SC (Saudi Arabia)'. No normalization merge applied.,1,Egypt:1
+c_al_nasr_0bf2f525,Al-Nasr,Al-Nasr,c_al_nasr_0bf2f525,Al-Nasr SC (Dubai),manual_canonical_rename,manual_verified,1,Iran:1,Canonical name manually changed to 'Al-Nasr SC (Dubai)'. No normalization merge applied.,1,Iran:1
+c_al_nassr_4ed92392,Al Nassr,Al Nassr,c_al_nassr_4ed92392,Al-Nassr FC,manual_canonical_rename,manual_verified,10,Saudi Arabia:7; Portugal:2; Senegal:1,Canonical name manually changed to 'Al-Nassr FC'. No normalization merge applied.,10,Portugal:2; Saudi Arabia:7; Senegal:1
+c_al_qadsiah_2c418904,Al Qadsiah,Al Qadsiah,c_al_qadsiah_2c418904,Al Qadsiah,unchanged,not_applicable,6,Saudi Arabia:4; Mexico:1; Ghana:1,No normalization merge applied.,6,Ghana:1; Mexico:1; Saudi Arabia:4
+c_al_quwa_al_jawiya_d23a171e,Al-Quwa Al-Jawiya,Al-Quwa Al-Jawiya,c_al_quwa_al_jawiya_d23a171e,Al-Quwa Al-Jawiya,unchanged,not_applicable,1,Jordan:1,No normalization merge applied.,1,Jordan:1
+c_al_rayyan_e5871040,Al Rayyan,Al Rayyan,c_al_rayyan_e5871040,Al Rayyan,unchanged,not_applicable,4,Qatar:4,No normalization merge applied.,4,Qatar:4
+c_al_riyadh_679deb94,Al-Riyadh,Al-Riyadh,c_al_riyadh_679deb94,Al-Riyadh,unchanged,not_applicable,1,Iraq:1,No normalization merge applied.,1,Iraq:1
+c_al_sadd_a599a00e,Al Sadd,Al Sadd,c_al_sadd_a599a00e,Al Sadd,unchanged,not_applicable,5,Qatar:5,No normalization merge applied.,5,Qatar:5
+c_al_sailiaya_6158b2fd,Al-Sailiaya,Al-Sailiaya,c_al_sailiaya_6158b2fd,Al-Sailiaya,unchanged,not_applicable,1,Jordan:1,No normalization merge applied.,1,Jordan:1
+c_al_shabab_e27f5149,Al-Shabab,Al-Shabab,c_al_shabab_e27f5149,Al Shabab Club,manual_canonical_rename,manual_verified,1,Jordan:1,Canonical name manually changed to 'Al Shabab Club'. No normalization merge applied.,1,Jordan:1
+c_al_shamal_91835f7b,Al Shamal,Al Shamal,c_al_shamal_91835f7b,Al-Shamal SC,manual_canonical_rename,manual_verified,1,Qatar:1,Canonical name manually changed to 'Al-Shamal SC'. No normalization merge applied.,1,Qatar:1
+c_al_shorta_03f6bef7,Al-Shorta,Al-Shorta,c_al_shorta_03f6bef7,Al-Shorta SC,manual_canonical_rename,manual_verified,6,Iraq:6,Canonical name manually changed to 'Al-Shorta SC'. No normalization merge applied.,5,Iraq:5
+c_al_talaba_856167fb,Al-Talaba,Al-Talaba,c_al_talaba_856167fb,Al-Talaba,unchanged,not_applicable,2,Iraq:2,No normalization merge applied.,2,Iraq:2
+c_al_ula_28613b64,Al Ula,Al Ula,c_al_ula_28613b64,Al Ula,unchanged,not_applicable,1,Saudi Arabia:1,No normalization merge applied.,1,Saudi Arabia:1
+c_al_wahda_7ae987ab,Al-Wahda,Al-Wahda,c_al_wahda_7ae987ab,Al Wahda FC,manual_canonical_rename,manual_verified,1,Iran:1,Canonical name manually changed to 'Al Wahda FC'. No normalization merge applied.,1,Iran:1
+c_al_wakrah_abf60aa2,Al Wakrah,Al Wakrah,c_al_wakrah_abf60aa2,Al Wakrah,unchanged,not_applicable,4,Qatar:3; Egypt:1,No normalization merge applied.,4,Egypt:1; Qatar:3
+c_al_wehdat_2cc29034,Al-Wehdat,Al-Wehdat,c_al_wehdat_2cc29034,Al-Wehdat SC,manual_canonical_rename,manual_verified,2,Jordan:2,Canonical name manually changed to 'Al-Wehdat SC'. No normalization merge applied.,2,Jordan:2
+c_al_zawraa_7bba0fc0,Al-Zawraa,Al-Zawraa,c_al_zawraa_7bba0fc0,Al-Zawraa,unchanged,not_applicable,4,Iraq:2; Jordan:2,No normalization merge applied.,4,Iraq:2; Jordan:2
+c_alanyaspor_661d3784,Alanyaspor,Alanyaspor,c_alanyaspor_661d3784,Alanyaspor,unchanged,not_applicable,1,Congo DR:1,No normalization merge applied.,1,Congo DR:1
+c_albirex_niigata_cab00434,Albirex Niigata,Albirex Niigata,c_albirex_niigata_cab00434,Albirex Niigata,unchanged,not_applicable,1,Australia:1,No normalization merge applied.,1,Australia:1
+c_almere_11b3096f,Almere,Almere,c_almere_11b3096f,Almere,unchanged,not_applicable,1,Haiti:1,No normalization merge applied.,1,Haiti:1
+c_america_0ffdae40,América,America,c_club_america_49cadc66,Club América,auto_merge_curated_alias,high,3,Uruguay:2; Mexico:1,Collapsed source variant to canonical club 'Club América'.,4,Mexico:1; United States:1; Uruguay:2
+c_anderlecht_b0025a96,Anderlecht,Anderlecht,c_anderlecht_b0025a96,Anderlecht,unchanged,not_applicable,2,Mexico:1; Canada:1,No normalization merge applied.,2,Canada:1; Mexico:1
+c_angers_df67ea45,Angers,Angers,c_angers_df67ea45,Angers,unchanged,not_applicable,1,Haiti:1,No normalization merge applied.,1,Haiti:1
+c_antwerp_7961b08d,Antwerp,Antwerp,c_antwerp_7961b08d,Antwerp,unchanged,not_applicable,1,Ecuador:1,No normalization merge applied.,1,Ecuador:1
+c_apoel_nicosia_af3c6796,Apoel Nicosia,Apoel Nicosia,c_apoel_nicosia_af3c6796,Apoel Nicosia,unchanged,not_applicable,1,Australia:1,No normalization merge applied.,1,Australia:1
+c_apollon_limassol_b6137677,Apollon Limassol,Apollon Limassol,c_apollon_limassol_b6137677,Apollon Limassol,unchanged,not_applicable,1,Cape Verde:1,No normalization merge applied.,1,Cape Verde:1
+c_aris_limassol_d501bdb4,Aris Limassol,Aris Limassol,c_aris_limassol_d501bdb4,Aris Limassol,unchanged,not_applicable,1,Congo DR:1,No normalization merge applied.,1,Congo DR:1
+c_arsenal_93d10937,Arsenal,Arsenal,c_arsenal_93d10937,Arsenal,unchanged,not_applicable,16,England:4; Spain:3; Brazil:2; Germany:1; Ecuador:1; Netherlands:1; Sweden:1; Belgium:1; France:1; Norway:1,No normalization merge applied.,16,Belgium:1; Brazil:2; Ecuador:1; England:4; France:1; Germany:1; Netherlands:1; Norway:1; Spain:3; Sweden:1
+c_as_far_8343a091,AS Far,AS Far,c_as_far_8343a091,AS Far,unchanged,not_applicable,1,Morocco:1,No normalization merge applied.,1,Morocco:1
+c_as_monaco_6b2106c8,AS Monaco,AS Monaco,c_as_monaco_6b2106c8,AS Monaco,auto_merge_curated_alias,high,5,Senegal:2; United States:1; Ivory Coast:1; France:1,Collapsed source variant to canonical club 'AS Monaco'.,6,France:1; Ivory Coast:1; Senegal:2; Switzerland:1; United States:1
+c_as_roma_2ecbf69f,AS Roma,AS Roma,c_as_roma_2ecbf69f,AS Roma,auto_merge_curated_alias,high,5,Brazil:1; Morocco:1; Türkiye:1; Ivory Coast:1; France:1,Collapsed source variant to canonical club 'AS Roma'.,6,Brazil:1; France:1; Ivory Coast:1; Morocco:1; Netherlands:1; Türkiye:1
+c_astana_f8b0106f,Astana,Astana,c_astana_f8b0106f,Astana,unchanged,not_applicable,1,Bosnia-Herzegovina:1,No normalization merge applied.,1,Bosnia-Herzegovina:1
+c_aston_villa_2b918477,Aston Villa,Aston Villa,c_aston_villa_2b918477,Aston Villa,unchanged,not_applicable,10,England:3; Belgium:2; Scotland:1; Ivory Coast:1; Sweden:1; France:1; Argentina:1,No normalization merge applied.,10,Argentina:1; Belgium:2; England:3; France:1; Ivory Coast:1; Scotland:1; Sweden:1
+c_atalanta_f8d83567,Atalanta,Atalanta,c_atalanta_f8d83567,Atalanta,unchanged,not_applicable,7,Bosnia-Herzegovina:1; Ivory Coast:1; Netherlands:1; Sweden:1; Belgium:1; Croatia:1; Ghana:1,No normalization merge applied.,7,Belgium:1; Bosnia-Herzegovina:1; Croatia:1; Ghana:1; Ivory Coast:1; Netherlands:1; Sweden:1
+c_athletic_club_24c5af40,Athletic Club,Athletic Club,c_athletic_club_24c5af40,Athletic Club,unchanged,not_applicable,4,Spain:3; Ghana:1,No normalization merge applied.,4,Ghana:1; Spain:3
+c_athletico_paranaense_2178bb1a,Athletico Paranaense,Athletico Paranaense,c_athletico_paranaense_2178bb1a,Athletico Paranaense,unchanged,not_applicable,1,Colombia:1,No normalization merge applied.,1,Colombia:1
+c_atlanta_united_43563fa4,Atlanta United,Atlanta United,c_atlanta_united_43563fa4,Atlanta United,unchanged,not_applicable,2,Paraguay:2,No normalization merge applied.,2,Paraguay:2
+c_atlas_292eeed6,Atlas,Atlas,c_atlas_292eeed6,Atlas,unchanged,not_applicable,1,Colombia:1,No normalization merge applied.,1,Colombia:1
+c_atletico_madrid_9b17a9e6,Atletico Madrid,Atletico Madrid,c_atletico_madrid_9b17a9e6,Atletico Madrid,unchanged,not_applicable,12,Argentina:6; Spain:3; Mexico:1; Uruguay:1; Norway:1,No normalization merge applied.,12,Argentina:6; Mexico:1; Norway:1; Spain:3; Uruguay:1
+c_atletico_mineiro_a8379d4f,Atletico Mineiro,Atletico Mineiro,c_atletico_mineiro_a8379d4f,Atletico Mineiro,unchanged,not_applicable,4,Ecuador:3; Paraguay:1,No normalization merge applied.,4,Ecuador:3; Paraguay:1
+c_atletico_nacional_4666103f,Atlético Nacional,Atletico Nacional,c_atletico_nacional_4666103f,Atlético Nacional,unchanged,not_applicable,1,Colombia:1,No normalization merge applied.,1,Colombia:1
+c_atromitos_ea5a8225,Atromitos,Atromitos,c_atromitos_ea5a8225,Atromitos,unchanged,not_applicable,1,Congo DR:1,No normalization merge applied.,1,Congo DR:1
+c_auckland_fc_a034ca43,Auckland FC,Auckland FC,c_auckland_fc_a034ca43,Auckland FC,unchanged,not_applicable,5,New Zealand:5,No normalization merge applied.,5,New Zealand:5
+c_augsburg_eecde4b3,Augsburg,Augsburg,c_fc_augsburg_ae582369,FC Augsburg,auto_merge_curated_alias,high,3,Switzerland:1; Tunisia:1; Croatia:1,Collapsed source variant to canonical club 'FC Augsburg'.,4,Austria:1; Croatia:1; Switzerland:1; Tunisia:1
+c_austria_vienna_84acf87e,Austria Vienna,Austria Vienna,c_austria_vienna_84acf87e,Austria Vienna,unchanged,not_applicable,1,South Korea:1,No normalization merge applied.,1,South Korea:1
+c_auxerre_a2be9c4e,Auxerre,Auxerre,c_aj_auxerre_5c7942ef,AJ Auxerre,auto_merge_curated_alias,high,1,Haiti:1,Collapsed source variant to canonical club 'AJ Auxerre'.,5,Ghana:3; Haiti:1; Ivory Coast:1
+c_az_alkmaar_6ec3c79a,AZ Alkmaar,AZ Alkmaar,c_az_alkmaar_6ec3c79a,AZ Alkmaar,unchanged,not_applicable,1,Mexico:1,No normalization merge applied.,1,Mexico:1
+c_baniyas_89e1539a,Baniyas,Baniyas,c_baniyas_89e1539a,Baniyas,unchanged,not_applicable,1,Uzbekistan:1,No normalization merge applied.,1,Uzbekistan:1
+c_barcelona_cb30c55c,Barcelona,Barcelona,c_barcelona_cb30c55c,FC Barcelona,manual_canonical_rename,manual_verified,13,Spain:8; Brazil:1; Netherlands:1; Uruguay:1; France:1; Portugal:1,Canonical name manually changed to 'FC Barcelona'. No normalization merge applied.,13,Brazil:1; France:1; Netherlands:1; Portugal:1; Spain:8; Uruguay:1
+c_barcelona_b_ef28ece1,Barcelona B,Barcelona B,c_barcelona_b_ef28ece1,FC Barcelona Atlètic,manual_canonical_rename,manual_verified,1,Egypt:1,Canonical name manually changed to 'FC Barcelona Atlètic'. No normalization merge applied.,1,Egypt:1
+c_barnsley_4509838f,Barnsley,Barnsley,c_barnsley_4509838f,Barnsley,unchanged,not_applicable,1,Canada:1,No normalization merge applied.,1,Canada:1
+c_bastia_1e5b7984,Bastia,Bastia,c_bastia_1e5b7984,Bastia,unchanged,not_applicable,1,Haiti:1,No normalization merge applied.,1,Haiti:1
+c_bayer_leverkusen_39ddc43b,Bayer Leverkusen,Bayer Leverkusen,c_bayer_leverkusen_39ddc43b,Bayer Leverkusen,unchanged,not_applicable,7,Czechia:1; United States:1; Netherlands:1; Spain:1; Argentina:1; Algeria:1; England:1,No normalization merge applied.,7,Algeria:1; Argentina:1; Czechia:1; England:1; Netherlands:1; Spain:1; United States:1
+c_bayern_munich_e963c2ea,Bayern Munich,Bayern Munich,c_bayern_munich_e963c2ea,Bayern Munich,unchanged,not_applicable,17,Germany:7; France:2; South Korea:1; Canada:1; Japan:1; Senegal:1; Austria:1; Colombia:1; England:1; Croatia:1,No normalization merge applied.,17,Austria:1; Canada:1; Colombia:1; Croatia:1; England:1; France:2; Germany:7; Japan:1; Senegal:1; South Korea:1
+c_benfica_5d914960,Benfica,Benfica,c_benfica_5d914960,Benfica,unchanged,not_applicable,8,Norway:2; Bosnia-Herzegovina:1; Belgium:1; Cape Verde:1; Argentina:1; Portugal:1; Colombia:1,No normalization merge applied.,8,Argentina:1; Belgium:1; Bosnia-Herzegovina:1; Cape Verde:1; Colombia:1; Norway:2; Portugal:1
+c_besiktas_daeca9ad,Besiktas,Besiktas,c_besiktas_daeca9ad,Besiktas,unchanged,not_applicable,4,South Korea:1; Türkiye:1; Ivory Coast:1; Panama:1,No normalization merge applied.,4,Ivory Coast:1; Panama:1; South Korea:1; Türkiye:1
+c_beveren_04c54466,Beveren,Beveren,c_beveren_04c54466,Beveren,unchanged,not_applicable,1,Curacao:1,No normalization merge applied.,1,Curacao:1
+c_birmingham_city_b5dc6570,Birmingham City,Birmingham City,c_birmingham_city_b5dc6570,Birmingham City,unchanged,not_applicable,1,South Korea:1,No normalization merge applied.,1,South Korea:1
+c_boca_juniors_6bfb0da4,Boca Juniors,Boca Juniors,c_boca_juniors_6bfb0da4,Boca Juniors,unchanged,not_applicable,1,Argentina:1,No normalization merge applied.,1,Argentina:1
+c_bod_glimt_b9be1ed7,Bodø/Glimt,Bod/Glimt,c_bod_glimt_b9be1ed7,Bodø/Glimt,unchanged,not_applicable,3,Norway:3,No normalization merge applied.,3,Norway:3
+c_bologna_1c61a9b1,Bologna,Bologna,c_bologna_1c61a9b1,Bologna,unchanged,not_applicable,5,Switzerland:1; Scotland:1; Norway:1; Colombia:1; Croatia:1,No normalization merge applied.,5,Colombia:1; Croatia:1; Norway:1; Scotland:1; Switzerland:1
+c_borussia_dortmund_8a058a04,Borussia Dortmund,Borussia Dortmund,c_borussia_dortmund_8a058a04,Borussia Dortmund,unchanged,not_applicable,11,Germany:4; Austria:2; Switzerland:1; Türkiye:1; Sweden:1; Norway:1; Algeria:1,No normalization merge applied.,11,Algeria:1; Austria:2; Germany:4; Norway:1; Sweden:1; Switzerland:1; Türkiye:1
+c_borussia_moenchengladbach_43de423e,Borussia Moenchengladbach,Borussia Moenchengladbach,c_borussia_monchengladbach_e9b82a3e,Borussia Mönchengladbach,auto_merge_curated_alias,high,1,Bosnia-Herzegovina:1,Collapsed source variant to canonical club 'Borussia Mönchengladbach'.,5,Bosnia-Herzegovina:1; South Korea:1; Switzerland:1; United States:2
+c_borussia_monchengladbach_e9b82a3e,Borussia Mönchengladbach,Borussia Monchengladbach,c_borussia_monchengladbach_e9b82a3e,Borussia Mönchengladbach,auto_merge_curated_alias,high,4,United States:2; South Korea:1; Switzerland:1,Collapsed source variant to canonical club 'Borussia Mönchengladbach'.,5,Bosnia-Herzegovina:1; South Korea:1; Switzerland:1; United States:2
+c_botafogo_99e3bf74,Botafogo,Botafogo,c_botafogo_99e3bf74,Botafogo,unchanged,not_applicable,1,Brazil:1,No normalization merge applied.,1,Brazil:1
+c_bournemouth_423b488c,Bournemouth,Bournemouth,c_afc_bournemouth_61e18bcd,AFC Bournemouth,auto_merge_curated_alias,high,4,Scotland:2; Brazil:1; Netherlands:1,Collapsed source variant to canonical club 'AFC Bournemouth'.,5,Brazil:1; Netherlands:1; Scotland:2; United States:1
+c_braga_f3599df6,Braga,Braga,c_braga_f3599df6,Braga,unchanged,not_applicable,3,Czechia:1; Sweden:1; Austria:1,No normalization merge applied.,3,Austria:1; Czechia:1; Sweden:1
+c_braintree_town_abe87f1e,Braintree Town,Braintree Town,c_braintree_town_abe87f1e,Braintree Town,unchanged,not_applicable,1,New Zealand:1,No normalization merge applied.,1,New Zealand:1
+c_brentford_99ebeb82,Brentford,Brentford,c_brentford_99ebeb82,Brentford,unchanged,not_applicable,4,Brazil:1; Scotland:1; Norway:1; England:1,No normalization merge applied.,4,Brazil:1; England:1; Norway:1; Scotland:1
+c_brighton_a6652bc3,Brighton,Brighton,c_brighton_hove_albion_5bfa8704,Brighton & Hove Albion,auto_merge_curated_alias,high,5,Netherlands:3; Germany:1; Sweden:1,Collapsed source variant to canonical club 'Brighton & Hove Albion'.,8,Belgium:1; Germany:1; Netherlands:3; Paraguay:1; Sweden:1; Türkiye:1
+c_brighton_hove_albion_5bfa8704,Brighton & Hove Albion,Brighton & Hove Albion,c_brighton_hove_albion_5bfa8704,Brighton & Hove Albion,auto_merge_curated_alias,high,3,Paraguay:1; Türkiye:1; Belgium:1,Collapsed source variant to canonical club 'Brighton & Hove Albion'.,8,Belgium:1; Germany:1; Netherlands:3; Paraguay:1; Sweden:1; Türkiye:1
+c_brondby_701a4084,Brondby,Brondby,c_brondby_701a4084,Brondby,unchanged,not_applicable,2,Bosnia-Herzegovina:1; Austria:1,No normalization merge applied.,2,Austria:1; Bosnia-Herzegovina:1
+c_burnley_b7c3fe1e,Burnley,Burnley,c_burnley_b7c3fe1e,Burnley,unchanged,not_applicable,5,South Africa:1; Switzerland:1; Sweden:1; Tunisia:1; Congo DR:1,No normalization merge applied.,5,Congo DR:1; South Africa:1; Sweden:1; Switzerland:1; Tunisia:1
+c_buxoro_ba979d39,Buxoro,Buxoro,c_buxoro_ba979d39,Buxoro,unchanged,not_applicable,2,Uzbekistan:2,No normalization merge applied.,2,Uzbekistan:2
+c_cagliari_b9017662,Cagliari,Cagliari,c_cagliari_b9017662,Cagliari,unchanged,not_applicable,1,Colombia:1,No normalization merge applied.,1,Colombia:1
+c_casa_pia_c00111a5,Casa Pia,Casa Pia,c_casa_pia_c00111a5,Casa Pia,unchanged,not_applicable,1,Cape Verde:1,No normalization merge applied.,1,Cape Verde:1
+c_castellon_8eebb754,Castellón,Castellon,c_castellon_8eebb754,Castellón,unchanged,not_applicable,2,Australia:1; Congo DR:1,No normalization merge applied.,2,Australia:1; Congo DR:1
+c_caykur_rizespor_5d094b3b,Çaykur Rizespor,Caykur Rizespor,c_caykur_rizespor_5d094b3b,Çaykur Rizespor,auto_merge_curated_alias,high,1,Haiti:1,Collapsed source variant to canonical club 'Çaykur Rizespor'.,3,Haiti:1; Ivory Coast:1; Türkiye:1
+c_caykur_rizesport_14762bac,Caykur Rizesport,Caykur Rizesport,c_caykur_rizespor_5d094b3b,Çaykur Rizespor,auto_merge_curated_alias,high,1,Türkiye:1,Collapsed source variant to canonical club 'Çaykur Rizespor'.,3,Haiti:1; Ivory Coast:1; Türkiye:1
+c_celta_vigo_d1c2cf8a,Celta Vigo,Celta Vigo,c_celta_vigo_d1c2cf8a,Celta Vigo,unchanged,not_applicable,2,Sweden:1; Spain:1,No normalization merge applied.,2,Spain:1; Sweden:1
+c_celtic_a2eaecf1,Celtic,Celtic,c_celtic_a2eaecf1,Celtic,unchanged,not_applicable,8,Scotland:2; South Korea:1; Canada:1; United States:1; Japan:1; Sweden:1; Tunisia:1,No normalization merge applied.,8,Canada:1; Japan:1; Scotland:2; South Korea:1; Sweden:1; Tunisia:1; United States:1
+c_cercle_brugge_02b4f133,Cercle Brugge,Cercle Brugge,c_cercle_brugge_02b4f133,Cercle Brugge KSV,manual_canonical_rename,manual_verified,1,Ivory Coast:1,Canonical name manually changed to 'Cercle Brugge KSV'. No normalization merge applied.,1,Ivory Coast:1
+c_cerro_porteno_cf028333,Cerro Porteño,Cerro Porteno,c_cerro_porteno_cf028333,Cerro Porteño,unchanged,not_applicable,2,Paraguay:2,No normalization merge applied.,2,Paraguay:2
+c_charleroi_62356bf9,Charleroi,Charleroi,c_charleroi_62356bf9,Charleroi,unchanged,not_applicable,3,Ivory Coast:2; Algeria:1,No normalization merge applied.,3,Algeria:1; Ivory Coast:2
+c_charlotte_fc_f185ca79,Charlotte FC,Charlotte FC,c_charlotte_fc_f185ca79,Charlotte FC,unchanged,not_applicable,1,United States:1,No normalization merge applied.,1,United States:1
+c_charlton_athletic_f6926677,Charlton Athletic,Charlton Athletic,c_charlton_athletic_f6926677,Charlton Athletic,unchanged,not_applicable,1,Scotland:1,No normalization merge applied.,1,Scotland:1
+c_chaves_de187007,Chaves,Chaves,c_chaves_de187007,Chaves,unchanged,not_applicable,1,Cape Verde:1,No normalization merge applied.,1,Cape Verde:1
+c_chelsea_e655b01a,Chelsea,Chelsea,c_chelsea_e655b01a,Chelsea,unchanged,not_applicable,10,Senegal:2; Ecuador:1; Netherlands:1; Belgium:1; Spain:1; France:1; Argentina:1; Portugal:1; England:1,No normalization merge applied.,10,Argentina:1; Belgium:1; Ecuador:1; England:1; France:1; Netherlands:1; Portugal:1; Senegal:2; Spain:1
+c_chicago_fire_65c1a76f,Chicago Fire,Chicago Fire,c_chicago_fire_65c1a76f,Chicago Fire,unchanged,not_applicable,3,South Africa:1; Canada:1; United States:1,No normalization merge applied.,3,Canada:1; South Africa:1; United States:1
+c_chivas_d38ae426,Chivas,Chivas,c_chivas_d38ae426,Chivas,unchanged,not_applicable,5,Mexico:5,No normalization merge applied.,5,Mexico:5
+c_club_africain_64656e78,Club Africain,Club Africain,c_club_africain_64656e78,Club Africain,unchanged,not_applicable,2,Tunisia:2,No normalization merge applied.,2,Tunisia:2
+c_club_america_49cadc66,Club América,Club America,c_club_america_49cadc66,Club América,auto_merge_curated_alias,high,1,United States:1,Collapsed source variant to canonical club 'Club América'.,4,Mexico:1; United States:1; Uruguay:2
+c_club_brugge_ea2adfc5,Club Brugge,Club Brugge,c_club_brugge_ea2adfc5,Club Brugge KV,manual_canonical_rename,manual_verified,5,Belgium:3; Ecuador:1; Sweden:1,Canonical name manually changed to 'Club Brugge KV'. No normalization merge applied.,5,Belgium:3; Ecuador:1; Sweden:1
+c_club_tijuana_6e4baf66,Club Tijuana,Club Tijuana,c_club_tijuana_6e4baf66,Club Tijuana,auto_merge_curated_alias,high,1,Ecuador:1,Collapsed source variant to canonical club 'Club Tijuana'.,2,Ecuador:1; Mexico:1
+c_cobresal_8c0fe5bd,Cobresal,Cobresal,c_cobresal_8c0fe5bd,Cobresal,unchanged,not_applicable,1,Panama:1,No normalization merge applied.,1,Panama:1
+c_colorado_rapids_da865f5e,Colorado Rapids,Colorado Rapids,c_colorado_rapids_da865f5e,Colorado Rapids,unchanged,not_applicable,1,Australia:1,No normalization merge applied.,1,Australia:1
+c_colorado_springs_switchbacks_a19366a9,Colorado Springs Switchbacks,Colorado Springs Switchbacks,c_colorado_springs_switchbacks_a19366a9,Colorado Springs Switchbacks,unchanged,not_applicable,1,Haiti:1,No normalization merge applied.,1,Haiti:1
+c_columbus_crew_7b68355a,Columbus Crew,Columbus Crew,c_columbus_crew_7b68355a,Columbus Crew,unchanged,not_applicable,2,United States:1; Cape Verde:1,No normalization merge applied.,2,Cape Verde:1; United States:1
+c_como_e0ef6211,Como,Como,c_como_e0ef6211,Como,unchanged,not_applicable,4,Senegal:1; Iraq:1; Argentina:1; Croatia:1,No normalization merge applied.,4,Argentina:1; Croatia:1; Iraq:1; Senegal:1
+c_copenhagen_7e10c652,Copenhagen,Copenhagen,c_copenhagen_7e10c652,Copenhagen,auto_merge_curated_alias,high,2,Japan:1; Tunisia:1,Collapsed source variant to canonical club 'Copenhagen'.,3,Croatia:1; Japan:1; Tunisia:1
+c_corinthians_276924f3,Corinthians,Corinthians,c_corinthians_276924f3,Corinthians,unchanged,not_applicable,1,Netherlands:1,No normalization merge applied.,1,Netherlands:1
+c_cosmos_koblenz_125995a0,Cosmos Koblenz,Cosmos Koblenz,c_cosmos_koblenz_125995a0,Cosmos Koblenz,unchanged,not_applicable,1,Haiti:1,No normalization merge applied.,1,Haiti:1
+c_coventry_city_4bce22e1,Coventry City,Coventry City,c_coventry_city_4bce22e1,Coventry City,unchanged,not_applicable,2,United States:1; Ghana:1,No normalization merge applied.,2,Ghana:1; United States:1
+c_cracovia_5bed2b4b,Cracovia,Cracovia,c_cracovia_5bed2b4b,Cracovia,unchanged,not_applicable,1,Iraq:1,No normalization merge applied.,1,Iraq:1
+c_cremonese_7c9dcb3d,Cremonese,Cremonese,c_cremonese_7c9dcb3d,Cremonese,unchanged,not_applicable,2,Paraguay:1; Norway:1,No normalization merge applied.,2,Norway:1; Paraguay:1
+c_cruz_azul_71a31d4c,Cruz Azul,Cruz Azul,c_cruz_azul_71a31d4c,Cruz Azul,unchanged,not_applicable,2,Mexico:1; Colombia:1,No normalization merge applied.,2,Colombia:1; Mexico:1
+c_crystal_palace_cd11ce68,Crystal Palace,Crystal Palace,c_crystal_palace_cd11ce68,Crystal Palace,unchanged,not_applicable,11,France:2; Colombia:2; Morocco:1; United States:1; Japan:1; Spain:1; Senegal:1; Norway:1; England:1,No normalization merge applied.,11,Colombia:2; England:1; France:2; Japan:1; Morocco:1; Norway:1; Senegal:1; Spain:1; United States:1
+c_cs_sfaxien_1128368b,CS Sfaxien,CS Sfaxien,c_cs_sfaxien_1128368b,CS Sfaxien,unchanged,not_applicable,1,Tunisia:1,No normalization merge applied.,1,Tunisia:1
+c_cultural_leonesa_4479aa29,Cultural Leonesa,Cultural Leonesa,c_cultural_leonesa_4479aa29,Cultural Leonesa,unchanged,not_applicable,1,Qatar:1,No normalization merge applied.,1,Qatar:1
+c_daejeon_hana_0cece60d,Daejeon Hana,Daejeon Hana,c_daejeon_hana_0cece60d,Daejeon Hana,unchanged,not_applicable,1,South Korea:1,No normalization merge applied.,1,South Korea:1
+c_den_bosch_bb7ad83e,Den Bosch,Den Bosch,c_den_bosch_bb7ad83e,Den Bosch,unchanged,not_applicable,1,Curacao:1,No normalization merge applied.,1,Curacao:1
+c_dender_59951657,Dender,Dender,c_fcv_dender_decd464d,FCV Dender,auto_merge_curated_alias,high,1,Iran:1,Collapsed source variant to canonical club 'FCV Dender'.,2,Canada:1; Iran:1
+c_deportivo_la_guaira_c9679b6f,Deportivo La Guaira,Deportivo La Guaira,c_deportivo_la_guaira_c9679b6f,Deportivo La Guaira,unchanged,not_applicable,1,Panama:1,No normalization merge applied.,1,Panama:1
+c_derby_county_900d9adb,Derby County,Derby County,c_derby_county_900d9adb,Derby County,unchanged,not_applicable,2,Sweden:1; Norway:1,No normalization merge applied.,2,Norway:1; Sweden:1
+c_dibba_al_fujairah_06c16d12,Dibba Al Fujairah,Dibba Al Fujairah,c_dibba_al_fujairah_06c16d12,Dibba FC,manual_canonical_rename,manual_verified,1,Uzbekistan:1,Canonical name manually changed to 'Dibba FC'. No normalization merge applied.,2,Iraq:1; Uzbekistan:1
+c_dinamo_moscow_065752cd,Dinamo Moscow,Dinamo Moscow,c_dynamo_moscow_28a6f575,Dynamo Moscow,auto_merge_curated_alias,high,1,Mexico:1,Collapsed source variant to canonical club 'Dynamo Moscow'.,2,Mexico:1; Paraguay:1
+c_dinamo_samarqand_94368156,Dinamo Samarqand,Dinamo Samarqand,c_dinamo_samarqand_94368156,Dinamo Samarqand,unchanged,not_applicable,1,Uzbekistan:1,No normalization merge applied.,1,Uzbekistan:1
+c_dinamo_zagreb_d86806ac,Dinamo Zagreb,Dinamo Zagreb,c_dinamo_zagreb_d86806ac,Dinamo Zagreb,unchanged,not_applicable,2,Scotland:1; Croatia:1,No normalization merge applied.,2,Croatia:1; Scotland:1
+c_dynamo_makhachkala_9cc503d9,Dynamo Makhachkala,Dynamo Makhachkala,c_dynamo_makhachkala_9cc503d9,Dynamo Makhachkala,unchanged,not_applicable,1,Tunisia:1,No normalization merge applied.,1,Tunisia:1
+c_dynamo_moscow_28a6f575,Dynamo Moscow,Dynamo Moscow,c_dynamo_moscow_28a6f575,Dynamo Moscow,auto_merge_curated_alias,high,1,Paraguay:1,Collapsed source variant to canonical club 'Dynamo Moscow'.,2,Mexico:1; Paraguay:1
+c_eintracht_braunschweig_c967ead8,Eintracht Braunschweig,Eintracht Braunschweig,c_eintracht_braunschweig_c967ead8,Eintracht Braunschweig,unchanged,not_applicable,1,Iraq:1,No normalization merge applied.,1,Iraq:1
+c_eintracht_frankfurt_52e79065,Eintracht Frankfurt,Eintracht Frankfurt,c_eintracht_frankfurt_52e79065,Eintracht Frankfurt,unchanged,not_applicable,8,Switzerland:1; Morocco:1; Türkiye:1; Germany:1; Japan:1; Tunisia:1; Belgium:1; Algeria:1,No normalization merge applied.,8,Algeria:1; Belgium:1; Germany:1; Japan:1; Morocco:1; Switzerland:1; Tunisia:1; Türkiye:1
+c_el_gouna_d2a63f6b,El Gouna,El Gouna,c_el_gouna_d2a63f6b,El Gouna,unchanged,not_applicable,1,Egypt:1,No normalization merge applied.,1,Egypt:1
+c_el_paso_locomotive_18790af8,El Paso Locomotive,El Paso Locomotive,c_el_paso_locomotive_18790af8,El Paso Locomotive,unchanged,not_applicable,1,Haiti:1,No normalization merge applied.,1,Haiti:1
+c_elche_e757517b,Elche,Elche,c_elche_e757517b,Elche,unchanged,not_applicable,1,Austria:1,No normalization merge applied.,1,Austria:1
+c_elfsborg_d22fb04b,Elfsborg,Elfsborg,c_elfsborg_d22fb04b,Elfsborg,unchanged,not_applicable,1,Iraq:1,No normalization merge applied.,1,Iraq:1
+c_espanyol_b65db3d8,Espanyol,Espanyol,c_espanyol_b65db3d8,Espanyol,unchanged,not_applicable,1,Congo DR:1,No normalization merge applied.,1,Congo DR:1
+c_esperance_e3a8f140,Esperance,Esperance,c_esperance_de_tunis_bd3a1ae1,Espérance de Tunis,auto_merge_curated_alias,high,1,Algeria:1,Collapsed source variant to canonical club 'Espérance de Tunis'.,2,Algeria:1; Tunisia:1
+c_esperance_de_tunis_bd3a1ae1,Espérance de Tunis,Esperance de Tunis,c_esperance_de_tunis_bd3a1ae1,Espérance de Tunis,auto_merge_curated_alias,high,1,Tunisia:1,Collapsed source variant to canonical club 'Espérance de Tunis'.,2,Algeria:1; Tunisia:1
+c_esteghlal_e23c4940,Esteghlal,Esteghlal,c_esteghlal_e23c4940,Esteghlal,unchanged,not_applicable,6,Iran:3; Uzbekistan:2; Haiti:1,No normalization merge applied.,6,Haiti:1; Iran:3; Uzbekistan:2
+c_estrela_amadora_ff8429b2,Estrela Amadora,Estrela Amadora,c_estrela_amadora_ff8429b2,Estrela Amadora,unchanged,not_applicable,1,Cape Verde:1,No normalization merge applied.,1,Cape Verde:1
+c_estudiantes_de_la_plata_9139330d,Estudiantes de La Plata,Estudiantes de La Plata,c_estudiantes_de_la_plata_9139330d,Estudiantes de La Plata,unchanged,not_applicable,1,Uruguay:1,No normalization merge applied.,1,Uruguay:1
+c_etoile_du_sahel_57c67bcf,Étoile du Sahel,Etoile du Sahel,c_etoile_du_sahel_57c67bcf,Étoile du Sahel,unchanged,not_applicable,1,Tunisia:1,No normalization merge applied.,1,Tunisia:1
+c_everton_fd9ce394,Everton,Everton,c_everton_fd9ce394,Everton,unchanged,not_applicable,4,Senegal:2; Scotland:1; England:1,No normalization merge applied.,4,England:1; Scotland:1; Senegal:2
+c_farense_d90822fe,Farense,Farense,c_farense_d90822fe,Farense,unchanged,not_applicable,1,Cape Verde:1,No normalization merge applied.,1,Cape Verde:1
+c_fc_augsburg_ae582369,FC Augsburg,FC Augsburg,c_fc_augsburg_ae582369,FC Augsburg,auto_merge_curated_alias,high,1,Austria:1,Collapsed source variant to canonical club 'FC Augsburg'.,4,Austria:1; Croatia:1; Switzerland:1; Tunisia:1
+c_fc_cincinnati_d3ccf1dd,FC Cincinnati,FC Cincinnati,c_fc_cincinnati_d3ccf1dd,FC Cincinnati,unchanged,not_applicable,1,United States:1,No normalization merge applied.,1,United States:1
+c_fc_dallas_00dc1812,FC Dallas,FC Dallas,c_fc_dallas_00dc1812,FC Dallas,unchanged,not_applicable,2,Haiti:1; Croatia:1,No normalization merge applied.,2,Croatia:1; Haiti:1
+c_fc_midtjylland_2f4e39b9,FC Midtjylland,FC Midtjylland,c_fc_midtjylland_2f4e39b9,FC Midtjylland,auto_merge_curated_alias,high,1,Ecuador:1,Collapsed source variant to canonical club 'FC Midtjylland'.,4,Croatia:1; Ecuador:1; South Korea:2
+c_fc_noah_5f5fceba,FC Noah,FC Noah,c_fc_noah_5f5fceba,FC Noah,unchanged,not_applicable,1,Congo DR:1,No normalization merge applied.,1,Congo DR:1
+c_fc_nordsjlland_ae9978cb,FC Nordsjælland,FC Nordsjlland,c_fc_nordsjlland_ae9978cb,FC Nordsjælland,unchanged,not_applicable,1,Ghana:1,No normalization merge applied.,1,Ghana:1
+c_fc_seoul_8e133359,FC Seoul,FC Seoul,c_fc_seoul_8e133359,FC Seoul,unchanged,not_applicable,1,Jordan:1,No normalization merge applied.,1,Jordan:1
+c_fc_tatran_presov_05bcf723,FC Tatran Prešov,FC Tatran Presov,c_fc_tatran_presov_05bcf723,FC Tatran Prešov,unchanged,not_applicable,1,Haiti:1,No normalization merge applied.,1,Haiti:1
+c_fc_tokyo_9926cea2,FC Tokyo,FC Tokyo,c_fc_tokyo_9926cea2,FC Tokyo,unchanged,not_applicable,2,South Korea:1; Japan:1,No normalization merge applied.,2,Japan:1; South Korea:1
+c_fc_twente_dfc20881,FC Twente,FC Twente,c_fc_twente_dfc20881,FC Twente,unchanged,not_applicable,1,Algeria:1,No normalization merge applied.,1,Algeria:1
+c_fc_utrecht_8e99a4a6,FC Utrecht,FC Utrecht,c_fc_utrecht_8e99a4a6,FC Utrecht,unchanged,not_applicable,1,Iraq:1,No normalization merge applied.,1,Iraq:1
+c_fcsb_dbba85ac,FCSB,FCSB,c_fcsb_dbba85ac,FCSB,unchanged,not_applicable,1,Cape Verde:1,No normalization merge applied.,1,Cape Verde:1
+c_fcv_dender_decd464d,FCV Dender,FCV Dender,c_fcv_dender_decd464d,FCV Dender,auto_merge_curated_alias,high,1,Canada:1,Collapsed source variant to canonical club 'FCV Dender'.,2,Canada:1; Iran:1
+c_fenerbahce_58b3ec74,Fenerbahce,Fenerbahce,c_fenerbahce_58b3ec74,Fenerbahce,unchanged,not_applicable,10,Türkiye:6; Mexico:1; Brazil:1; France:1; Portugal:1,No normalization merge applied.,10,Brazil:1; France:1; Mexico:1; Portugal:1; Türkiye:6
+c_ferencvaros_b07d0cdc,Ferencváros,Ferencvaros,c_ferencvaros_b07d0cdc,Ferencváros,unchanged,not_applicable,1,Haiti:1,No normalization merge applied.,1,Haiti:1
+c_feyenoord_c7797bfb,Feyenoord,Feyenoord,c_feyenoord_c7797bfb,Feyenoord,auto_merge_curated_alias,high,4,Japan:2; South Korea:1; Algeria:1,Collapsed source variant to canonical club 'Feyenoord'.,5,Algeria:1; Australia:1; Japan:2; South Korea:1
+c_feyenoord_rotterdam_84f24d24,Feyenoord Rotterdam,Feyenoord Rotterdam,c_feyenoord_c7797bfb,Feyenoord,auto_merge_curated_alias,high,1,Australia:1,Collapsed source variant to canonical club 'Feyenoord'.,5,Algeria:1; Australia:1; Japan:2; South Korea:1
+c_fiorentina_69ff41f4,Fiorentina,Fiorentina,c_fiorentina_69ff41f4,Fiorentina,unchanged,not_applicable,1,Croatia:1,No normalization merge applied.,1,Croatia:1
+c_flamengo_503b2587,Flamengo,Flamengo,c_flamengo_503b2587,Flamengo,unchanged,not_applicable,9,Brazil:4; Uruguay:3; Ecuador:1; Colombia:1,No normalization merge applied.,9,Brazil:4; Colombia:1; Ecuador:1; Uruguay:3
+c_fluminense_86723454,Fluminense,Fluminense,c_fluminense_86723454,Fluminense,unchanged,not_applicable,1,Uruguay:1,No normalization merge applied.,1,Uruguay:1
+c_foolad_1a4bede8,Foolad,Foolad,c_foolad_1a4bede8,Foolad,unchanged,not_applicable,2,Iran:2,No normalization merge applied.,2,Iran:2
+c_fortuna_dusseldorf_78ca4c52,Fortuna Dusseldorf,Fortuna Dusseldorf,c_fortuna_dusseldorf_78ca4c52,Fortuna Dusseldorf,unchanged,not_applicable,1,Switzerland:1,No normalization merge applied.,1,Switzerland:1
+c_freiburg_185994b9,Freiburg,Freiburg,c_sc_freiburg_9f1ecdb8,SC Freiburg,auto_merge_curated_alias,high,3,Switzerland:1; Japan:1; Croatia:1,Collapsed source variant to canonical club 'SC Freiburg'.,4,Austria:1; Croatia:1; Japan:1; Switzerland:1
+c_frosinone_ffb745d6,Frosinone,Frosinone,c_frosinone_ffb745d6,Frosinone,unchanged,not_applicable,1,Algeria:1,No normalization merge applied.,1,Algeria:1
+c_fulham_385c468e,Fulham,Fulham,c_fulham_385c468e,Fulham,unchanged,not_applicable,6,Norway:2; Mexico:1; Morocco:1; United States:1; Belgium:1,No normalization merge applied.,6,Belgium:1; Mexico:1; Morocco:1; Norway:2; United States:1
+c_galatasaray_8f5e15dc,Galatasaray,Galatasaray,c_galatasaray_8f5e15dc,Galatasaray,unchanged,not_applicable,11,Türkiye:6; Germany:1; Ivory Coast:1; Netherlands:1; Senegal:1; Colombia:1,No normalization merge applied.,11,Colombia:1; Germany:1; Ivory Coast:1; Netherlands:1; Senegal:1; Türkiye:6
+c_gangwon_fc_a8495ff5,Gangwon FC,Gangwon FC,c_gangwon_fc_a8495ff5,Gangwon FC,unchanged,not_applicable,1,South Korea:1,No normalization merge applied.,1,South Korea:1
+c_gaziantep_36de22a4,Gaziantep,Gaziantep,c_gaziantep_36de22a4,Gaziantep,unchanged,not_applicable,1,Bosnia-Herzegovina:1,No normalization merge applied.,1,Bosnia-Herzegovina:1
+c_genclerbirligi_22e3fae3,Gençlerbirliği,Genclerbirligi,c_genclerbirligi_22e3fae3,Gençlerbirliği,unchanged,not_applicable,1,Portugal:1,No normalization merge applied.,1,Portugal:1
+c_genk_8993c379,Genk,Genk,c_genk_8993c379,Genk,unchanged,not_applicable,2,Japan:1; Congo DR:1,No normalization merge applied.,2,Congo DR:1; Japan:1
+c_genoa_8456931a,Genoa,Genoa,c_genoa_8456931a,Genoa,unchanged,not_applicable,2,Mexico:1; Norway:1,No normalization merge applied.,2,Mexico:1; Norway:1
+c_gent_2f000c7f,Gent,Gent,c_gent_2f000c7f,Gent,unchanged,not_applicable,1,Haiti:1,No normalization merge applied.,1,Haiti:1
+c_gil_vicente_4e74984b,Gil Vicente,Gil Vicente,c_gil_vicente_4e74984b,Gil Vicente,unchanged,not_applicable,1,Ivory Coast:1,No normalization merge applied.,1,Ivory Coast:1
+c_girona_2b73c591,Girona,Girona,c_girona_2b73c591,Girona,unchanged,not_applicable,2,Morocco:1; Belgium:1,No normalization merge applied.,2,Belgium:1; Morocco:1
+c_granada_4af55cd4,Granada,Granada,c_granada_4af55cd4,Granada,unchanged,not_applicable,1,Algeria:1,No normalization merge applied.,1,Algeria:1
+c_grazer_ak_845301c1,Grazer AK,Grazer AK,c_grazer_ak_845301c1,Grazer AK,unchanged,not_applicable,1,Australia:1,No normalization merge applied.,1,Australia:1
+c_gremio_c49f51d7,Gremio,Gremio,c_gremio_c49f51d7,Gremio,unchanged,not_applicable,2,Brazil:1; Paraguay:1,No normalization merge applied.,2,Brazil:1; Paraguay:1
+c_gyori_eto_4f17868c,Győri ETO,Gyori ETO,c_gyori_eto_4f17868c,Győri ETO,unchanged,not_applicable,1,Algeria:1,No normalization merge applied.,1,Algeria:1
+c_hajduk_split_903c0454,Hajduk Split,Hajduk Split,c_hajduk_split_903c0454,Hajduk Split,unchanged,not_applicable,1,Canada:1,No normalization merge applied.,1,Canada:1
+c_hamburg_a1d99583,Hamburg,Hamburg,c_hamburger_sv_bc4db90c,Hamburger SV,manual_source_variant_merge,manual_verified,1,Croatia:1,Source variant/typo collapsed into Hamburger SV based on user review.,3,Croatia:1; Norway:1; Switzerland:1
+c_hamburg_sv_8cb7fa56,Hamburg SV,Hamburg SV,c_hamburger_sv_bc4db90c,Hamburger SV,manual_source_variant_merge,manual_verified,1,Norway:1,Source variant/typo collapsed into Hamburger SV based on user review.,3,Croatia:1; Norway:1; Switzerland:1
+c_hamburger_sv_bc4db90c,Hamburger SV,Hamburger SV,c_hamburger_sv_bc4db90c,Hamburger SV,manual_canonical_rename,manual_verified,1,Switzerland:1,Canonical name manually changed to 'Hamburger SV'. No normalization merge applied.,3,Croatia:1; Norway:1; Switzerland:1
+c_hannover_96_f304aed3,Hannover 96,Hannover 96,c_hannover_96_f304aed3,Hannover 96,unchanged,not_applicable,2,South Africa:1; Tunisia:1,No normalization merge applied.,2,South Africa:1; Tunisia:1
+c_heart_of_midlothian_d14abfe8,Heart of Midlothian,Heart of Midlothian,c_heart_of_midlothian_d14abfe8,Heart of Midlothian,unchanged,not_applicable,1,Australia:1,No normalization merge applied.,1,Australia:1
+c_hearts_422d35b1,Hearts,Hearts,c_hearts_422d35b1,Heart of Midlothian F.C.,manual_canonical_rename,manual_verified,2,Scotland:2,Canonical name manually changed to 'Heart of Midlothian F.C.'. No normalization merge applied.,1,Scotland:1
+c_heracles_almelo_e3b803be,Heracles Almelo,Heracles Almelo,c_heracles_almelo_e3b803be,Heracles Almelo,unchanged,not_applicable,1,Australia:1,No normalization merge applied.,1,Australia:1
+c_hibernian_8382e8fd,Hibernian,Hibernian,c_hibernian_8382e8fd,Hibernian,unchanged,not_applicable,1,Scotland:1,No normalization merge applied.,1,Scotland:1
+c_hoffenheim_afe46f8f,Hoffenheim,Hoffenheim,c_tsg_hoffenheim_7dd7fd83,TSG Hoffenheim,auto_merge_curated_alias,high,3,Germany:1; Ivory Coast:1; Croatia:1,Collapsed source variant to canonical club 'TSG Hoffenheim'.,8,Austria:1; Croatia:1; Czechia:3; Germany:1; Ivory Coast:1; Türkiye:1
+c_holstein_kiel_1496d34f,Holstein Kiel,Holstein Kiel,c_holstein_kiel_1496d34f,Holstein Kiel,unchanged,not_applicable,1,Sweden:1,No normalization merge applied.,1,Sweden:1
+c_hradec_kralove_16ceb4be,Hradec Kralove,Hradec Kralove,c_hradec_kralove_16ceb4be,Hradec Kralove,unchanged,not_applicable,1,Czechia:1,No normalization merge applied.,1,Czechia:1
+c_hull_city_c960b36b,Hull City,Hull City,c_hull_city_c960b36b,Hull City,unchanged,not_applicable,3,Canada:1; Bosnia-Herzegovina:1; Croatia:1,No normalization merge applied.,3,Bosnia-Herzegovina:1; Canada:1; Croatia:1
+c_huracan_1cba27c3,Huracan,Huracan,c_huracan_1cba27c3,Huracan,unchanged,not_applicable,2,Ecuador:2,No normalization merge applied.,2,Ecuador:2
+c_ifk_norrkoping_3af5a7be,IFK Norrköping,IFK Norrkoping,c_ifk_norrkoping_3af5a7be,IFK Norrköping,unchanged,not_applicable,1,Tunisia:1,No normalization merge applied.,1,Tunisia:1
+c_igdir_afc03fda,Igdir,Igdir,c_igdir_afc03fda,Igdir,unchanged,not_applicable,2,Curacao:1; Cape Verde:1,No normalization merge applied.,2,Cape Verde:1; Curacao:1
+c_independiente_4f0bb709,Independiente,Independiente,c_independiente_4f0bb709,Club Atlético Independiente,manual_canonical_rename,manual_verified,2,Paraguay:1; Colombia:1,Canonical name manually changed to 'Club Atlético Independiente'. No normalization merge applied.,2,Colombia:1; Paraguay:1
+c_independiente_del_valle_02bf2082,Independiente del Valle,Independiente del Valle,c_independiente_del_valle_02bf2082,Independiente del Valle,unchanged,not_applicable,1,Ecuador:1,No normalization merge applied.,1,Ecuador:1
+c_independiente_rivadavia_c01b9f67,Independiente Rivadavia,Independiente Rivadavia,c_independiente_rivadavia_c01b9f67,Independiente Rivadavia,unchanged,not_applicable,1,Paraguay:1,No normalization merge applied.,1,Paraguay:1
+c_inter_miami_12316fb2,Inter Miami,Inter Miami,c_inter_miami_12316fb2,Inter Miami,unchanged,not_applicable,3,Argentina:2; Canada:1,No normalization merge applied.,3,Argentina:2; Canada:1
+c_inter_milan_ec07dd66,Inter Milan,Inter Milan,c_inter_milan_ec07dd66,Inter Milan,auto_merge_curated_alias,high,4,Switzerland:1; Türkiye:1; Netherlands:1; Croatia:1,Collapsed source variant to canonical club 'Inter Milan'.,7,Argentina:1; Croatia:1; France:1; Ivory Coast:1; Netherlands:1; Switzerland:1; Türkiye:1
+c_internacional_9f25f9e5,Internacional,Internacional,c_internacional_9f25f9e5,Internacional,auto_merge_curated_alias,high,1,Ecuador:1,Collapsed source variant to canonical club 'Internacional'.,2,Ecuador:1; Uruguay:1
+c_internacional_de_porto_alegre_2cd531d7,Internacional de Porto Alegre,Internacional de Porto Alegre,c_internacional_9f25f9e5,Internacional,auto_merge_curated_alias,high,1,Uruguay:1,Collapsed source variant to canonical club 'Internacional'.,2,Ecuador:1; Uruguay:1
+c_internazionale_aa241403,Internazionale,Internazionale,c_inter_milan_ec07dd66,Inter Milan,auto_merge_curated_alias,high,3,Ivory Coast:1; France:1; Argentina:1,Collapsed source variant to canonical club 'Inter Milan'.,7,Argentina:1; Croatia:1; France:1; Ivory Coast:1; Netherlands:1; Switzerland:1; Türkiye:1
+c_ipswich_b59d5dc9,Ipswich,Ipswich,c_ipswich_town_0526bcf8,Ipswich Town,auto_merge_curated_alias,high,1,Scotland:1,Collapsed source variant to canonical club 'Ipswich Town'.,2,Iraq:1; Scotland:1
+c_ipswich_town_0526bcf8,Ipswich Town,Ipswich Town,c_ipswich_town_0526bcf8,Ipswich Town,auto_merge_curated_alias,high,1,Iraq:1,Collapsed source variant to canonical club 'Ipswich Town'.,2,Iraq:1; Scotland:1
+c_ironi_kiryat_shmona_c6bc74ed,Ironi Kiryat Shmona,Ironi Kiryat Shmona,c_ironi_kiryat_shmona_c6bc74ed,Ironi Kiryat Shmona,unchanged,not_applicable,1,Panama:1,No normalization merge applied.,1,Panama:1
+c_istanbul_basaksehir_eda9bc84,Istanbul Basaksehir,Istanbul Basaksehir,c_istanbul_basaksehir_eda9bc84,Istanbul Basaksehir,unchanged,not_applicable,4,Uzbekistan:2; Cape Verde:1; Ghana:1,No normalization merge applied.,4,Cape Verde:1; Ghana:1; Uzbekistan:2
+c_jagiellonia_bialystok_14ff40df,Jagiellonia Bialystok,Jagiellonia Bialystok,c_jagiellonia_bialystok_14ff40df,Jagiellonia Bialystok,unchanged,not_applicable,1,Bosnia-Herzegovina:1,No normalization merge applied.,1,Bosnia-Herzegovina:1
+c_jeonbuk_hyundai_06657775,Jeonbuk Hyundai,Jeonbuk Hyundai,c_jeonbuk_hyundai_06657775,Jeonbuk Hyundai,unchanged,not_applicable,2,South Korea:2,No normalization merge applied.,2,South Korea:2
+c_js_kabylie_dbd91381,JS Kabylie,JS Kabylie,c_js_kabylie_dbd91381,JS Kabylie,unchanged,not_applicable,1,Algeria:1,No normalization merge applied.,1,Algeria:1
+c_juarez_7fd97eca,Juárez,Juarez,c_juarez_7fd97eca,Juárez,unchanged,not_applicable,1,Panama:1,No normalization merge applied.,1,Panama:1
+c_juventus_57698fb8,Juventus,Juventus,c_juventus_57698fb8,Juventus,unchanged,not_applicable,7,Canada:1; Brazil:1; United States:1; Türkiye:1; Netherlands:1; Sweden:1; Portugal:1,No normalization merge applied.,7,Brazil:1; Canada:1; Netherlands:1; Portugal:1; Sweden:1; Türkiye:1; United States:1
+c_kaizer_chiefs_99debdde,Kaizer Chiefs,Kaizer Chiefs,c_kaizer_chiefs_99debdde,Kaizer Chiefs,unchanged,not_applicable,1,South Africa:1,No normalization merge applied.,1,South Africa:1
+c_kalba_cd0a6e06,Kalba,Kalba,c_kalba_cd0a6e06,Kalba,unchanged,not_applicable,1,Iran:1,No normalization merge applied.,1,Iran:1
+c_karlsruher_sc_de48b4d3,Karlsruher SC,Karlsruher SC,c_karlsruher_sc_de48b4d3,Karlsruher SC,unchanged,not_applicable,1,Bosnia-Herzegovina:1,No normalization merge applied.,1,Bosnia-Herzegovina:1
+c_kasmpasa_61344b51,Kasımpaşa,Kasmpasa,c_kasmpasa_61344b51,Kasımpaşa,unchanged,not_applicable,2,Tunisia:2,No normalization merge applied.,2,Tunisia:2
+c_kashima_antlers_e314a26b,Kashima Antlers,Kashima Antlers,c_kashima_antlers_e314a26b,Kashima Antlers,unchanged,not_applicable,2,South Korea:1; Japan:1,No normalization merge applied.,2,Japan:1; South Korea:1
+c_kasimpasa_520d5e13,Kasimpasa,Kasimpasa,c_kasimpasa_520d5e13,Kasimpasa,unchanged,not_applicable,1,Türkiye:1,No normalization merge applied.,1,Türkiye:1
+c_kayserispor_6364c552,Kayserispor,Kayserispor,c_kayserispor_6364c552,Kayserispor,unchanged,not_applicable,1,Curacao:1,No normalization merge applied.,1,Curacao:1
+c_kifisia_6c2ed07b,Kifisia,Kifisia,c_kifisia_6c2ed07b,Kifisia,unchanged,not_applicable,1,Curacao:1,No normalization merge applied.,1,Curacao:1
+c_kilmarnock_77ff2e4c,Kilmarnock,Kilmarnock,c_kilmarnock_77ff2e4c,Kilmarnock,unchanged,not_applicable,2,Scotland:1; Congo DR:1,No normalization merge applied.,2,Congo DR:1; Scotland:1
+c_kobenhavn_f37ec8f7,Kobenhavn,Kobenhavn,c_copenhagen_7e10c652,Copenhagen,auto_merge_curated_alias,high,1,Croatia:1,Collapsed source variant to canonical club 'Copenhagen'.,3,Croatia:1; Japan:1; Tunisia:1
+c_konyaspor_93c0af9a,Konyaspor,Konyaspor,c_konyaspor_93c0af9a,Konyaspor,unchanged,not_applicable,1,Curacao:1,No normalization merge applied.,1,Curacao:1
+c_krasnodar_e8c3f037,Krasnodar,Krasnodar,c_krasnodar_e8c3f037,Krasnodar,unchanged,not_applicable,2,Cape Verde:1; Colombia:1,No normalization merge applied.,2,Cape Verde:1; Colombia:1
+c_kv_mechelen_5d03665d,KV Mechelen,KV Mechelen,c_kv_mechelen_5d03665d,KV Mechelen,unchanged,not_applicable,1,Morocco:1,No normalization merge applied.,1,Morocco:1
+c_lafc_42b75eaf,LAFC,LAFC,c_lafc_42b75eaf,LAFC,unchanged,not_applicable,4,Canada:3; South Korea:1,No normalization merge applied.,4,Canada:3; South Korea:1
+c_lanus_7b7e52a5,Lanus,Lanus,c_lanus_7b7e52a5,Lanus,unchanged,not_applicable,1,Paraguay:1,No normalization merge applied.,1,Paraguay:1
+c_lask_ec5e4ca0,LASK,LASK,c_lask_ec5e4ca0,LASK,auto_merge_curated_alias,high,1,Panama:1,Collapsed source variant to canonical club 'LASK'.,2,Austria:1; Panama:1
+c_lask_linz_e868dff4,LASK Linz,LASK Linz,c_lask_ec5e4ca0,LASK,auto_merge_curated_alias,high,1,Austria:1,Collapsed source variant to canonical club 'LASK'.,2,Austria:1; Panama:1
+c_ldu_quito_c7b2d459,LDU Quito,LDU Quito,c_ldu_quito_c7b2d459,LDU Quito,unchanged,not_applicable,2,Haiti:1; Ecuador:1,No normalization merge applied.,2,Ecuador:1; Haiti:1
+c_le_havre_e4b47f0b,Le Havre,Le Havre,c_le_havre_ac_f11b1be2,Le Havre AC,auto_merge_curated_alias,high,2,Japan:1; Congo DR:1,Collapsed source variant to canonical club 'Le Havre AC'.,3,Congo DR:1; Japan:1; Senegal:1
+c_le_havre_ac_f11b1be2,Le Havre AC,Le Havre AC,c_le_havre_ac_f11b1be2,Le Havre AC,auto_merge_curated_alias,high,1,Senegal:1,Collapsed source variant to canonical club 'Le Havre AC'.,3,Congo DR:1; Japan:1; Senegal:1
+c_lechia_gdansk_6dd6ea20,Lechia Gdańsk,Lechia Gdansk,c_lechia_gdansk_6dd6ea20,Lechia Gdańsk,unchanged,not_applicable,1,New Zealand:1,No normalization merge applied.,1,New Zealand:1
+c_leeds_d537b1a4,Leeds,Leeds,c_leeds_d537b1a4,Leeds,unchanged,not_applicable,1,Switzerland:1,No normalization merge applied.,1,Switzerland:1
+c_leeds_united_4d0a095e,Leeds United,Leeds United,c_leeds_united_4d0a095e,Leeds United,unchanged,not_applicable,3,United States:1; Japan:1; Sweden:1,No normalization merge applied.,3,Japan:1; Sweden:1; United States:1
+c_leicester_city_1856e967,Leicester City,Leicester City,c_leicester_city_1856e967,Leicester City,unchanged,not_applicable,3,Ghana:2; Australia:1,No normalization merge applied.,3,Australia:1; Ghana:2
+c_lens_d18e9fd2,Lens,Lens,c_lens_d18e9fd2,Lens,unchanged,not_applicable,4,Bosnia-Herzegovina:1; Saudi Arabia:1; France:1; Congo DR:1,No normalization merge applied.,4,Bosnia-Herzegovina:1; Congo DR:1; France:1; Saudi Arabia:1
+c_leon_e09d3468,León,Leon,c_leon_e09d3468,León,unchanged,not_applicable,1,Panama:1,No normalization merge applied.,1,Panama:1
+c_levante_1173db37,Levante,Levante,c_levante_1173db37,Levante,unchanged,not_applicable,1,Australia:1,No normalization merge applied.,1,Australia:1
+c_lille_5e95484f,Lille,Lille,c_lille_5e95484f,Lille,unchanged,not_applicable,8,Belgium:3; Algeria:2; Congo DR:2; Morocco:1,No normalization merge applied.,8,Algeria:2; Belgium:3; Congo DR:2; Morocco:1
+c_liverpool_53dacc53,Liverpool,Liverpool,c_liverpool_53dacc53,Liverpool,unchanged,not_applicable,11,Netherlands:3; Brazil:1; Scotland:1; Germany:1; Japan:1; Sweden:1; Egypt:1; France:1; Argentina:1,No normalization merge applied.,11,Argentina:1; Brazil:1; Egypt:1; France:1; Germany:1; Japan:1; Netherlands:3; Scotland:1; Sweden:1
+c_lokomotiv_moscow_d1e0d051,Lokomotiv Moscow,Lokomotiv Moscow,c_lokomotiv_moscow_d1e0d051,Lokomotiv Moscow,unchanged,not_applicable,1,Mexico:1,No normalization merge applied.,1,Mexico:1
+c_lokomotiva_zagreb_5ede067f,Lokomotiva Zagreb,Lokomotiva Zagreb,c_lokomotiva_zagreb_5ede067f,Lokomotiva Zagreb,unchanged,not_applicable,1,Jordan:1,No normalization merge applied.,1,Jordan:1
+c_lorient_1d133ad3,Lorient,Lorient,c_lorient_1d133ad3,Lorient,unchanged,not_applicable,3,Switzerland:1; Tunisia:1; Senegal:1,No normalization merge applied.,3,Senegal:1; Switzerland:1; Tunisia:1
+c_ludogorets_razgrad_596a7c7c,Ludogorets Razgrad,Ludogorets Razgrad,c_ludogorets_razgrad_596a7c7c,Ludogorets Razgrad,unchanged,not_applicable,1,Cape Verde:1,No normalization merge applied.,1,Cape Verde:1
+c_lugano_b8a83086,Lugano,Lugano,c_lugano_b8a83086,Lugano,unchanged,not_applicable,2,Haiti:1; Tunisia:1,No normalization merge applied.,2,Haiti:1; Tunisia:1
+c_lyon_8ff8803d,Lyon,Lyon,c_lyon_8ff8803d,Lyon,unchanged,not_applicable,4,Brazil:1; Senegal:1; Argentina:1; Ghana:1,No normalization merge applied.,4,Argentina:1; Brazil:1; Ghana:1; Senegal:1
+c_maccabi_haifa_f1b6b507,Maccabi Haifa,Maccabi Haifa,c_maccabi_haifa_f1b6b507,Maccabi Haifa,unchanged,not_applicable,2,Curacao:1; Senegal:1,No normalization merge applied.,2,Curacao:1; Senegal:1
+c_maccabi_tel_aviv_8adccf32,Maccabi Tel Aviv,Maccabi Tel Aviv,c_maccabi_tel_aviv_8adccf32,Maccabi Tel Aviv,unchanged,not_applicable,1,Cape Verde:1,No normalization merge applied.,1,Cape Verde:1
+c_machida_zelvia_de40ad9f,Machida Zelvia,Machida Zelvia,c_machida_zelvia_de40ad9f,Machida Zelvia,unchanged,not_applicable,1,Australia:1,No normalization merge applied.,1,Australia:1
+c_mainz_0f856462,Mainz,Mainz,c_mainz_0f856462,Mainz,unchanged,not_applicable,3,South Korea:1; Switzerland:1; Japan:1,No normalization merge applied.,3,Japan:1; South Korea:1; Switzerland:1
+c_mainz_05_a2ff4aed,Mainz 05,Mainz 05,c_mainz_05_a2ff4aed,Mainz 05,unchanged,not_applicable,2,Austria:2,No normalization merge applied.,2,Austria:2
+c_malavan_5031d9ab,Malavan,Malavan,c_malavan_5031d9ab,Malavan,unchanged,not_applicable,1,Iran:1,No normalization merge applied.,1,Iran:1
+c_mallorca_283c2cf0,Mallorca,Mallorca,c_mallorca_283c2cf0,Mallorca,unchanged,not_applicable,2,Portugal:1; Colombia:1,No normalization merge applied.,2,Colombia:1; Portugal:1
+c_malmo_81e0c3a3,Malmo,Malmo,c_malmo_81e0c3a3,Malmo,unchanged,not_applicable,1,Sweden:1,No normalization merge applied.,1,Sweden:1
+c_mamelodi_sundowns_5ad1de31,Mamelodi Sundowns,Mamelodi Sundowns,c_mamelodi_sundowns_5ad1de31,Mamelodi Sundowns,unchanged,not_applicable,9,South Africa:9,No normalization merge applied.,9,South Africa:9
+c_man_united_e54449db,Man United,Man United,c_man_united_e54449db,Man United,unchanged,not_applicable,1,Türkiye:1,No normalization merge applied.,1,Türkiye:1
+c_manchester_city_446c8158,Manchester City,Manchester City,c_manchester_city_446c8158,Manchester City,unchanged,not_applicable,19,England:4; Portugal:3; Netherlands:2; Croatia:2; Belgium:1; Egypt:1; Spain:1; France:1; Norway:1; Algeria:1; Uzbekistan:1; Ghana:1,No normalization merge applied.,19,Algeria:1; Belgium:1; Croatia:2; Egypt:1; England:4; France:1; Ghana:1; Netherlands:2; Norway:1; Portugal:3; Spain:1; Uzbekistan:1
+c_manchester_united_f05b841f,Manchester United,Manchester United,c_manchester_united_f05b841f,Manchester United,unchanged,not_applicable,11,Brazil:2; Portugal:2; England:2; Morocco:1; Ivory Coast:1; Belgium:1; Uruguay:1; Argentina:1,No normalization merge applied.,11,Argentina:1; Belgium:1; Brazil:2; England:2; Ivory Coast:1; Morocco:1; Portugal:2; Uruguay:1
+c_marathon_947eb4c4,Marathón,Marathon,c_marathon_947eb4c4,Marathón,unchanged,not_applicable,1,Panama:1,No normalization merge applied.,1,Panama:1
+c_maribor_c1138f0c,Maribor,Maribor,c_nk_maribor_feb9d4ad,NK Maribor,auto_merge_curated_alias,high,1,Tunisia:1,Collapsed source variant to canonical club 'NK Maribor'.,2,Ivory Coast:1; Tunisia:1
+c_marseille_8a6a0f84,Marseille,Marseille,c_marseille_8a6a0f84,Marseille,unchanged,not_applicable,7,Argentina:3; Morocco:1; United States:1; Netherlands:1; Algeria:1,No normalization merge applied.,7,Algeria:1; Argentina:3; Morocco:1; Netherlands:1; United States:1
+c_mazatlan_b76304f0,Mazatlán,Mazatlan,c_mazatlan_b76304f0,Mazatlán,unchanged,not_applicable,1,Panama:1,No normalization merge applied.,1,Panama:1
+c_melbourne_city_04bdf721,Melbourne City,Melbourne City,c_melbourne_city_04bdf721,Melbourne City,unchanged,not_applicable,3,Australia:3,No normalization merge applied.,3,Australia:3
+c_melbourne_victory_7173b295,Melbourne Victory,Melbourne Victory,c_melbourne_victory_7173b295,Melbourne Victory,unchanged,not_applicable,1,Australia:1,No normalization merge applied.,1,Australia:1
+c_miami_fc_86451741,Miami FC,Miami FC,c_miami_fc_86451741,Miami FC,unchanged,not_applicable,2,Curacao:2,No normalization merge applied.,2,Curacao:2
+c_middlesbrough_8a024275,Middlesbrough,Middlesbrough,c_middlesbrough_8a024275,Middlesbrough,unchanged,not_applicable,2,Canada:1; Curacao:1,No normalization merge applied.,2,Canada:1; Curacao:1
+c_midtjylland_dbf5237c,Midtjylland,Midtjylland,c_fc_midtjylland_2f4e39b9,FC Midtjylland,auto_merge_curated_alias,high,3,South Korea:2; Croatia:1,Collapsed source variant to canonical club 'FC Midtjylland'.,4,Croatia:1; Ecuador:1; South Korea:2
+c_millwall_9ef52a13,Millwall,Millwall,c_millwall_9ef52a13,Millwall,unchanged,not_applicable,1,New Zealand:1,No normalization merge applied.,1,New Zealand:1
+c_minnesota_united_ec79d898,Minnesota United,Minnesota United,c_minnesota_united_ec79d898,Minnesota United,unchanged,not_applicable,3,New Zealand:1; Colombia:1; Panama:1,No normalization merge applied.,3,Colombia:1; New Zealand:1; Panama:1
+c_mjallby_ba532087,Mjallby,Mjallby,c_mjallby_ba532087,Mjallby,unchanged,not_applicable,1,Sweden:1,No normalization merge applied.,1,Sweden:1
+c_molde_c258d39b,Molde,Molde,c_molde_c258d39b,Molde,unchanged,not_applicable,1,South Africa:1,No normalization merge applied.,1,South Africa:1
+c_monaco_2c8eb35b,Monaco,Monaco,c_as_monaco_6b2106c8,AS Monaco,auto_merge_curated_alias,high,1,Switzerland:1,Collapsed source variant to canonical club 'AS Monaco'.,6,France:1; Ivory Coast:1; Senegal:2; Switzerland:1; United States:1
+c_montana_45e96443,Montana,Montana,c_montana_45e96443,Montana,unchanged,not_applicable,1,Cape Verde:1,No normalization merge applied.,1,Cape Verde:1
+c_monterrey_f10cf911,Monterrey,Monterrey,c_monterrey_f10cf911,Monterrey,unchanged,not_applicable,1,Uruguay:1,No normalization merge applied.,1,Uruguay:1
+c_montpellier_12bea8d1,Montpellier,Montpellier,c_montpellier_12bea8d1,Montpellier,unchanged,not_applicable,1,Congo DR:1,No normalization merge applied.,1,Congo DR:1
+c_motherwell_8b7b9d25,Motherwell,Motherwell,c_motherwell_8b7b9d25,Motherwell,unchanged,not_applicable,1,New Zealand:1,No normalization merge applied.,1,New Zealand:1
+c_nacional_2b4d3a11,Nacional,Nacional,c_nacional_2b4d3a11,Club Nacional de Football,manual_canonical_rename,manual_verified,1,Panama:1,Canonical name manually changed to 'Club Nacional de Football'. No normalization merge applied.,1,Panama:1
+c_nancy_c55a4912,Nancy,Nancy,c_nancy_c55a4912,Nancy,unchanged,not_applicable,1,Haiti:1,No normalization merge applied.,1,Haiti:1
+c_nantes_f85b493e,Nantes,Nantes,c_nantes_f85b493e,Nantes,unchanged,not_applicable,1,Colombia:1,No normalization merge applied.,1,Colombia:1
+c_napoli_48cfbfde,Napoli,Napoli,c_napoli_48cfbfde,Napoli,unchanged,not_applicable,5,Scotland:2; Belgium:2; Uruguay:1,No normalization merge applied.,5,Belgium:2; Scotland:2; Uruguay:1
+c_nasaf_92f9d239,Nasaf,Nasaf,c_nasaf_92f9d239,Nasaf,unchanged,not_applicable,3,Uzbekistan:3,No normalization merge applied.,3,Uzbekistan:3
+c_navbahor_c6d5cb2a,Navbahor,Navbahor,c_navbahor_c6d5cb2a,Navbahor,unchanged,not_applicable,1,Uzbekistan:1,No normalization merge applied.,1,Uzbekistan:1
+c_nec_nijmegen_5eeb954a,NEC Nijmegen,NEC Nijmegen,c_nec_nijmegen_5eeb954a,NEC Nijmegen,unchanged,not_applicable,2,Curacao:1; Japan:1,No normalization merge applied.,2,Curacao:1; Japan:1
+c_neftchi_0cda2dd5,Neftchi,Neftchi,c_neftchi_0cda2dd5,Neftchi,unchanged,not_applicable,2,Uzbekistan:2,No normalization merge applied.,2,Uzbekistan:2
+c_neom_dd0f566d,Neom,Neom,c_neom_dd0f566d,Neom,unchanged,not_applicable,1,Saudi Arabia:1,No normalization merge applied.,1,Saudi Arabia:1
+c_new_england_revolution_d4ef9fc5,New England Revolution,New England Revolution,c_new_england_revolution_d4ef9fc5,New England Revolution,unchanged,not_applicable,1,United States:1,No normalization merge applied.,1,United States:1
+c_new_york_city_fc_d53241ec,New York City FC,New York City FC,c_new_york_city_fc_d53241ec,New York City FC,unchanged,not_applicable,3,Australia:2; United States:1,No normalization merge applied.,3,Australia:2; United States:1
+c_newcastle_12703e8b,Newcastle,Newcastle,c_newcastle_united_492af7e1,Newcastle United,auto_merge_curated_alias,high,2,Germany:2,Collapsed source variant to canonical club 'Newcastle United'.,8,Brazil:1; Congo DR:1; England:3; Germany:2; Sweden:1
+c_newcastle_jets_131175aa,Newcastle Jets,Newcastle Jets,c_newcastle_jets_131175aa,Newcastle Jets,unchanged,not_applicable,1,New Zealand:1,No normalization merge applied.,1,New Zealand:1
+c_newcastle_united_492af7e1,Newcastle United,Newcastle United,c_newcastle_united_492af7e1,Newcastle United,auto_merge_curated_alias,high,6,England:3; Brazil:1; Sweden:1; Congo DR:1,Collapsed source variant to canonical club 'Newcastle United'.,8,Brazil:1; Congo DR:1; England:3; Germany:2; Sweden:1
+c_nice_a83a802d,Nice,Nice,c_nice_a83a802d,Nice,unchanged,not_applicable,8,Senegal:2; Canada:1; Ivory Coast:1; Tunisia:1; Egypt:1; Algeria:1; Ghana:1,No normalization merge applied.,8,Algeria:1; Canada:1; Egypt:1; Ghana:1; Ivory Coast:1; Senegal:2; Tunisia:1
+c_nk_maribor_feb9d4ad,NK Maribor,NK Maribor,c_nk_maribor_feb9d4ad,NK Maribor,auto_merge_curated_alias,high,1,Ivory Coast:1,Collapsed source variant to canonical club 'NK Maribor'.,2,Ivory Coast:1; Tunisia:1
+c_nordsjaelland_485bda61,Nordsjaelland,Nordsjaelland,c_nordsjaelland_485bda61,Nordsjaelland,unchanged,not_applicable,1,Egypt:1,No normalization merge applied.,1,Egypt:1
+c_norwich_0fd7ee1d,Norwich,Norwich,c_norwich_city_9bfbedcc,Norwich City,auto_merge_curated_alias,high,1,Scotland:1,Collapsed source variant to canonical club 'Norwich City'.,5,Australia:1; Canada:1; Panama:1; Scotland:1; Tunisia:1
+c_norwich_city_9bfbedcc,Norwich City,Norwich City,c_norwich_city_9bfbedcc,Norwich City,auto_merge_curated_alias,high,4,Canada:1; Australia:1; Tunisia:1; Panama:1,Collapsed source variant to canonical club 'Norwich City'.,5,Australia:1; Canada:1; Panama:1; Scotland:1; Tunisia:1
+c_nottingham_forest_a950aa00,Nottingham Forest,Nottingham Forest,c_nottingham_forest_a950aa00,Nottingham Forest,unchanged,not_applicable,6,New Zealand:2; Switzerland:1; Scotland:1; Ivory Coast:1; England:1,No normalization merge applied.,6,England:1; Ivory Coast:1; New Zealand:2; Scotland:1; Switzerland:1
+c_olimpia_aed7596a,Olimpia,Olimpia,c_olimpia_aed7596a,Olimpia,unchanged,not_applicable,1,Paraguay:1,No normalization merge applied.,1,Paraguay:1
+c_olympiacos_41b104a8,Olympiacos,Olympiacos,c_olympiacos_41b104a8,Olympiacos,unchanged,not_applicable,2,Morocco:1; Iran:1,No normalization merge applied.,2,Iran:1; Morocco:1
+c_omonia_6a13a5a4,Omonia,Omonia,c_omonia_6a13a5a4,Omonia,unchanged,not_applicable,1,Cape Verde:1,No normalization merge applied.,1,Cape Verde:1
+c_orlando_city_33cea553,Orlando City,Orlando City,c_orlando_city_33cea553,Orlando City,unchanged,not_applicable,3,Canada:1; Paraguay:1; Croatia:1,No normalization merge applied.,3,Canada:1; Croatia:1; Paraguay:1
+c_orlando_pirates_1c8e17d1,Orlando Pirates,Orlando Pirates,c_orlando_pirates_1c8e17d1,Orlando Pirates,unchanged,not_applicable,8,South Africa:8,No normalization merge applied.,8,South Africa:8
+c_osasuna_f20766a6,Osasuna,Osasuna,c_osasuna_f20766a6,Osasuna,unchanged,not_applicable,2,Spain:1; Croatia:1,No normalization merge applied.,2,Croatia:1; Spain:1
+c_pachuca_a4c33119,Pachuca,Pachuca,c_pachuca_a4c33119,Pachuca,unchanged,not_applicable,1,Ecuador:1,No normalization merge applied.,1,Ecuador:1
+c_pafos_0aaaf55f,Pafos,Pafos,c_pafos_0aaaf55f,Pafos,unchanged,not_applicable,3,Bosnia-Herzegovina:1; Sweden:1; Ghana:1,No normalization merge applied.,3,Bosnia-Herzegovina:1; Ghana:1; Sweden:1
+c_pakhtakor_52dbbda0,Pakhtakor,Pakhtakor,c_pakhtakor_52dbbda0,Pakhtakor,unchanged,not_applicable,4,Uzbekistan:3; Iraq:1,No normalization merge applied.,4,Iraq:1; Uzbekistan:3
+c_palmeiras_a7b8813c,Palmeiras,Palmeiras,c_palmeiras_a7b8813c,Palmeiras,unchanged,not_applicable,7,Paraguay:3; Uruguay:2; Argentina:1; Colombia:1,No normalization merge applied.,7,Argentina:1; Colombia:1; Paraguay:3; Uruguay:2
+c_panathinaikos_36cb748c,Panathinaikos,Panathinaikos,c_panathinaikos_36cb748c,Panathinaikos,unchanged,not_applicable,2,Ivory Coast:1; Uruguay:1,No normalization merge applied.,2,Ivory Coast:1; Uruguay:1
+c_paok_d88141c2,PAOK,PAOK,c_paok_d88141c2,PAOK,auto_merge_curated_alias,high,1,Mexico:1,Collapsed source variant to canonical club 'PAOK'.,2,Ghana:1; Mexico:1
+c_paok_salonika_f8af5c0c,PAOK Salonika,PAOK Salonika,c_paok_d88141c2,PAOK,auto_merge_curated_alias,high,1,Ghana:1,Collapsed source variant to canonical club 'PAOK'.,2,Ghana:1; Mexico:1
+c_pari_nizhny_novgorod_1b7306d2,Pari Nizhny Novgorod,Pari Nizhny Novgorod,c_pari_nizhny_novgorod_1b7306d2,Pari Nizhny Novgorod,unchanged,not_applicable,1,Panama:1,No normalization merge applied.,1,Panama:1
+c_paris_fc_4acde809,Paris FC,Paris FC,c_paris_fc_4acde809,Paris FC,unchanged,not_applicable,1,Algeria:1,No normalization merge applied.,1,Algeria:1
+c_paris_saint_germain_e38062ac,Paris Saint-Germain,Paris Saint-Germain,c_paris_saint_germain_e38062ac,Paris Saint-Germain,auto_merge_curated_alias,high,11,France:5; South Korea:1; Brazil:1; Morocco:1; Ecuador:1; Tunisia:1; Portugal:1,Collapsed source variant to canonical club 'Paris Saint-Germain'.,12,Brazil:1; Ecuador:1; France:5; Morocco:1; Portugal:1; Senegal:1; South Korea:1; Tunisia:1
+c_paris_saint_germian_5c4474af,Paris Saint-Germian,Paris Saint-Germian,c_paris_saint_germain_e38062ac,Paris Saint-Germain,auto_merge_curated_alias,high,1,Senegal:1,Collapsed source variant to canonical club 'Paris Saint-Germain'.,12,Brazil:1; Ecuador:1; France:5; Morocco:1; Portugal:1; Senegal:1; South Korea:1; Tunisia:1
+c_parma_9553b2a1,Parma,Parma,c_parma_9553b2a1,Parma,unchanged,not_applicable,2,Australia:1; Japan:1,No normalization merge applied.,2,Australia:1; Japan:1
+c_pec_zwolle_79d3df3c,PEC Zwolle,PEC Zwolle,c_pec_zwolle_79d3df3c,PEC Zwolle,unchanged,not_applicable,3,Curacao:1; New Zealand:1; Cape Verde:1,No normalization merge applied.,3,Cape Verde:1; Curacao:1; New Zealand:1
+c_persepolis_5a29c9d4,Persepolis,Persepolis,c_persepolis_5a29c9d4,Persepolis,unchanged,not_applicable,7,Iran:5; Uzbekistan:2,No normalization merge applied.,7,Iran:5; Uzbekistan:2
+c_peterborough_united_fc1a3742,Peterborough United,Peterborough United,c_peterborough_united_fc1a3742,Peterborough United,unchanged,not_applicable,1,New Zealand:1,No normalization merge applied.,1,New Zealand:1
+c_philadelphia_union_e87259be,Philadelphia Union,Philadelphia Union,c_philadelphia_union_e87259be,Philadelphia Union,unchanged,not_applicable,2,South Africa:1; Haiti:1,No normalization merge applied.,2,Haiti:1; South Africa:1
+c_pisa_758b9ea7,Pisa,Pisa,c_pisa_758b9ea7,Pisa,unchanged,not_applicable,1,Switzerland:1,No normalization merge applied.,1,Switzerland:1
+c_plaza_amador_6faeaf34,Plaza Amador,Plaza Amador,c_plaza_amador_6faeaf34,Plaza Amador,unchanged,not_applicable,2,Panama:2,No normalization merge applied.,2,Panama:2
+c_pogon_szczecin_1d372b0b,Pogoń Szczecin,Pogon Szczecin,c_pogon_szczecin_1d372b0b,Pogoń Szczecin,unchanged,not_applicable,1,Iraq:1,No normalization merge applied.,1,Iraq:1
+c_polokwane_city_006c1372,Polokwane City,Polokwane City,c_polokwane_city_006c1372,Polokwane City,unchanged,not_applicable,1,South Africa:1,No normalization merge applied.,1,South Africa:1
+c_port_fc_fe67c888,Port FC,Port FC,c_port_fc_fe67c888,Port FC,unchanged,not_applicable,2,Iraq:2,No normalization merge applied.,2,Iraq:2
+c_port_vale_8b7668ca,Port Vale,Port Vale,c_port_vale_8b7668ca,Port Vale,unchanged,not_applicable,1,New Zealand:1,No normalization merge applied.,1,New Zealand:1
+c_portland_timbers_8e92581e,Portland Timbers,Portland Timbers,c_portland_timbers_8e92581e,Portland Timbers,unchanged,not_applicable,1,New Zealand:1,No normalization merge applied.,1,New Zealand:1
+c_porto_09de765a,Porto,Porto,c_porto_09de765a,Porto,unchanged,not_applicable,3,Türkiye:1; Ivory Coast:1; Portugal:1,No normalization merge applied.,3,Ivory Coast:1; Portugal:1; Türkiye:1
+c_portsmouth_0f979b99,Portsmouth,Portsmouth,c_portsmouth_0f979b99,Portsmouth,unchanged,not_applicable,1,Paraguay:1,No normalization merge applied.,1,Paraguay:1
+c_psg_7fc479b7,PSG,PSG,c_psg_7fc479b7,PSG,unchanged,not_applicable,4,Portugal:3; Spain:1,No normalization merge applied.,4,Portugal:3; Spain:1
+c_psv_cba0ce05,PSV,PSV,c_psv_eindhoven_143e5a85,PSV Eindhoven,auto_merge_curated_alias,high,1,Netherlands:1,Collapsed source variant to canonical club 'PSV Eindhoven'.,9,Austria:1; Bosnia-Herzegovina:1; Croatia:1; Curacao:1; Morocco:2; Netherlands:1; United States:2
+c_psv_eindhoven_143e5a85,PSV Eindhoven,PSV Eindhoven,c_psv_eindhoven_143e5a85,PSV Eindhoven,auto_merge_curated_alias,high,8,Morocco:2; United States:2; Bosnia-Herzegovina:1; Curacao:1; Austria:1; Croatia:1,Collapsed source variant to canonical club 'PSV Eindhoven'.,9,Austria:1; Bosnia-Herzegovina:1; Croatia:1; Curacao:1; Morocco:2; Netherlands:1; United States:2
+c_puerto_cabello_c8843033,Puerto Cabello,Puerto Cabello,c_puerto_cabello_c8843033,Puerto Cabello,unchanged,not_applicable,1,Panama:1,No normalization merge applied.,1,Panama:1
+c_pumas_1ebc527b,Pumas,Pumas,c_pumas_unam_e7fbb47a,Pumas UNAM,auto_merge_curated_alias,high,1,Mexico:1,Collapsed source variant to canonical club 'Pumas UNAM'.,3,Ecuador:1; Mexico:1; Panama:1
+c_pumas_unam_e7fbb47a,Pumas UNAM,Pumas UNAM,c_pumas_unam_e7fbb47a,Pumas UNAM,auto_merge_curated_alias,high,2,Ecuador:1; Panama:1,Collapsed source variant to canonical club 'Pumas UNAM'.,3,Ecuador:1; Mexico:1; Panama:1
+c_puskas_akademia_2653805d,Puskas Akademia,Puskas Akademia,c_puskas_akademia_2653805d,Puskas Akademia,unchanged,not_applicable,1,Cape Verde:1,No normalization merge applied.,1,Cape Verde:1
+c_pyramids_7d59fa3f,Pyramids,Pyramids,c_pyramids_fc_7ade8ddc,Pyramids FC,auto_merge_curated_alias,high,4,Egypt:3; Jordan:1,Collapsed source variant to canonical club 'Pyramids FC'.,5,Congo DR:1; Egypt:3; Jordan:1
+c_pyramids_fc_7ade8ddc,Pyramids FC,Pyramids FC,c_pyramids_fc_7ade8ddc,Pyramids FC,auto_merge_curated_alias,high,1,Congo DR:1,Collapsed source variant to canonical club 'Pyramids FC'.,5,Congo DR:1; Egypt:3; Jordan:1
+c_qatar_sc_fd8bd006,Qatar SC,Qatar SC,c_qatar_sc_fd8bd006,Qatar SC,unchanged,not_applicable,1,Jordan:1,No normalization merge applied.,1,Jordan:1
+c_racing_genk_584dd89f,Racing Genk,Racing Genk,c_racing_genk_584dd89f,Racing Genk,unchanged,not_applicable,2,Morocco:1; Ecuador:1,No normalization merge applied.,2,Ecuador:1; Morocco:1
+c_racing_santander_99beb36e,Racing Santander,Racing Santander,c_racing_santander_99beb36e,Racing Santander,unchanged,not_applicable,1,Colombia:1,No normalization merge applied.,1,Colombia:1
+c_raja_casablanca_f3222cae,Raja Casablanca,Raja Casablanca,c_raja_casablanca_f3222cae,Raja Casablanca,unchanged,not_applicable,1,Jordan:1,No normalization merge applied.,1,Jordan:1
+c_randers_fc_3128e118,Randers FC,Randers FC,c_randers_fc_3128e118,Randers FC,unchanged,not_applicable,1,Australia:1,No normalization merge applied.,1,Australia:1
+c_rangers_8ee581e0,Rangers,Rangers,c_rangers_8ee581e0,Rangers F.C.,manual_canonical_rename,manual_verified,5,Scotland:2; Canada:1; Belgium:1; Norway:1,Canonical name manually changed to 'Rangers F.C.'. No normalization merge applied.,6,Belgium:1; Canada:1; Norway:1; Scotland:3
+c_rayo_vallecano_bb03fdc6,Rayo Vallecano,Rayo Vallecano,c_rayo_vallecano_bb03fdc6,Rayo Vallecano,unchanged,not_applicable,2,Senegal:1; Ghana:1,No normalization merge applied.,2,Ghana:1; Senegal:1
+c_rb_leipzig_e10cc5a3,RB Leipzig,RB Leipzig,c_rb_leipzig_e10cc5a3,RB Leipzig,unchanged,not_applicable,6,Austria:3; Germany:1; Ivory Coast:1; Norway:1,No normalization merge applied.,6,Austria:3; Germany:1; Ivory Coast:1; Norway:1
+c_rb_salzburg_64bce3ab,RB Salzburg,RB Salzburg,c_rb_salzburg_64bce3ab,RB Salzburg,unchanged,not_applicable,2,Bosnia-Herzegovina:1; Austria:1,No normalization merge applied.,2,Austria:1; Bosnia-Herzegovina:1
+c_real_betis_c81a1b80,Real Betis,Real Betis,c_real_betis_c81a1b80,Real Betis,unchanged,not_applicable,7,Morocco:2; Mexico:1; Switzerland:1; Argentina:1; Congo DR:1; Colombia:1,No normalization merge applied.,7,Argentina:1; Colombia:1; Congo DR:1; Mexico:1; Morocco:2; Switzerland:1
+c_real_madrid_abbd0333,Real Madrid,Real Madrid,c_real_madrid_abbd0333,Real Madrid,unchanged,not_applicable,10,France:2; Brazil:1; Morocco:1; Türkiye:1; Germany:1; Belgium:1; Uruguay:1; Austria:1; England:1,No normalization merge applied.,10,Austria:1; Belgium:1; Brazil:1; England:1; France:2; Germany:1; Morocco:1; Türkiye:1; Uruguay:1
+c_real_oviedo_11854497,Real Oviedo,Real Oviedo,c_real_oviedo_11854497,Real Oviedo,unchanged,not_applicable,3,Egypt:1; Uruguay:1; Ghana:1,No normalization merge applied.,3,Egypt:1; Ghana:1; Uruguay:1
+c_real_salt_lake_59b0db81,Real Salt Lake,Real Salt Lake,c_real_salt_lake_59b0db81,Real Salt Lake,unchanged,not_applicable,1,Uruguay:1,No normalization merge applied.,1,Uruguay:1
+c_real_sociedad_495967fa,Real Sociedad,Real Sociedad,c_real_sociedad_495967fa,Real Sociedad,unchanged,not_applicable,5,Croatia:2; Japan:1; Spain:1; Portugal:1,No normalization merge applied.,5,Croatia:2; Japan:1; Portugal:1; Spain:1
+c_red_bull_bragantino_35c794b1,Red Bull Bragantino,Red Bull Bragantino,c_red_bull_bragantino_35c794b1,Red Bull Bragantino,unchanged,not_applicable,1,Paraguay:1,No normalization merge applied.,1,Paraguay:1
+c_red_star_belgrade_ff44e45e,Red Star Belgrade,Red Star Belgrade,c_red_star_belgrade_ff44e45e,Red Star Belgrade,unchanged,not_applicable,2,South Korea:1; Austria:1,No normalization merge applied.,2,Austria:1; South Korea:1
+c_reims_580a1e88,Reims,Reims,c_reims_580a1e88,Reims,unchanged,not_applicable,1,Japan:1,No normalization merge applied.,1,Japan:1
+c_rennes_2c434c1a,Rennes,Rennes,c_rennes_2c434c1a,Rennes,unchanged,not_applicable,3,Switzerland:1; France:1; Jordan:1,No normalization merge applied.,3,France:1; Jordan:1; Switzerland:1
+c_rijeka_f02178d7,Rijeka,Rijeka,c_rijeka_f02178d7,Rijeka,unchanged,not_applicable,3,Bosnia-Herzegovina:2; Croatia:1,No normalization merge applied.,3,Bosnia-Herzegovina:2; Croatia:1
+c_river_plate_6e5bb3c0,River Plate,River Plate,c_river_plate_6e5bb3c0,River Plate,unchanged,not_applicable,5,Colombia:2; Ecuador:1; Uruguay:1; Argentina:1,No normalization merge applied.,5,Argentina:1; Colombia:2; Ecuador:1; Uruguay:1
+c_rizespor_d9c5d82e,Rizespor,Rizespor,c_caykur_rizespor_5d094b3b,Çaykur Rizespor,auto_merge_curated_alias,high,1,Ivory Coast:1,Collapsed source variant to canonical club 'Çaykur Rizespor'.,3,Haiti:1; Ivory Coast:1; Türkiye:1
+c_rkc_waalwijk_6a7da517,RKC Waalwijk,RKC Waalwijk,c_rkc_waalwijk_6a7da517,RKC Waalwijk,unchanged,not_applicable,2,Curacao:2,No normalization merge applied.,2,Curacao:2
+c_roma_3090f438,Roma,Roma,c_as_roma_2ecbf69f,AS Roma,auto_merge_curated_alias,high,1,Netherlands:1,Collapsed source variant to canonical club 'AS Roma'.,6,Brazil:1; France:1; Ivory Coast:1; Morocco:1; Netherlands:1; Türkiye:1
+c_rosario_central_d0d1a866,Rosario Central,Rosario Central,c_rosario_central_d0d1a866,Rosario Central,unchanged,not_applicable,1,Colombia:1,No normalization merge applied.,1,Colombia:1
+c_rostovv_302a24f4,Rostovv,Rostovv,c_rostovv_302a24f4,Rostovv,unchanged,not_applicable,1,Iran:1,No normalization merge applied.,1,Iran:1
+c_rotherham_united_58431265,Rotherham United,Rotherham United,c_rotherham_united_58431265,Rotherham United,unchanged,not_applicable,1,Curacao:1,No normalization merge applied.,1,Curacao:1
+c_royale_union_saint_gilloise_0606b5f0,Royale-Union Saint Gilloise,Royale-Union Saint Gilloise,c_union_st_gilloise_b8dea71a,Union St.-Gilloise,auto_merge_curated_alias,high,1,Canada:1,Collapsed source variant to canonical club 'Union St.-Gilloise'.,3,Canada:1; Ecuador:1; Sweden:1
+c_rs_berkane_416671b0,RS Berkane,RS Berkane,c_rs_berkane_416671b0,RS Berkane,unchanged,not_applicable,1,Morocco:1,No normalization merge applied.,1,Morocco:1
+c_sabah_53be0096,Sabah,Sabah,c_sabah_53be0096,Sabah,unchanged,not_applicable,1,Uzbekistan:1,No normalization merge applied.,1,Uzbekistan:1
+c_saint_etienne_d88dbceb,Saint-Étienne,Saint-Etienne,c_saint_etienne_d88dbceb,Saint-Étienne,unchanged,not_applicable,2,New Zealand:1; Ghana:1,No normalization merge applied.,2,Ghana:1; New Zealand:1
+c_sampdoria_044fe5ce,Sampdoria,Sampdoria,c_sampdoria_044fe5ce,Sampdoria,unchanged,not_applicable,1,Bosnia-Herzegovina:1,No normalization merge applied.,1,Bosnia-Herzegovina:1
+c_samsunspor_f4b482dc,Samsunspor,Samsunspor,c_samsunspor_f4b482dc,Samsunspor,unchanged,not_applicable,1,Senegal:1,No normalization merge applied.,1,Senegal:1
+c_san_diego_fc_ee29e222,San Diego FC,San Diego FC,c_san_diego_fc_ee29e222,San Diego FC,unchanged,not_applicable,2,Cape Verde:1; Panama:1,No normalization merge applied.,2,Cape Verde:1; Panama:1
+c_san_lorenzo_e834d80a,San Lorenzo,San Lorenzo,c_san_lorenzo_e834d80a,San Lorenzo,unchanged,not_applicable,1,Paraguay:1,No normalization merge applied.,1,Paraguay:1
+c_sanfrecce_hiroshima_aa29b48c,Sanfrecce Hiroshima,Sanfrecce Hiroshima,c_sanfrecce_hiroshima_aa29b48c,Sanfrecce Hiroshima,unchanged,not_applicable,1,Japan:1,No normalization merge applied.,1,Japan:1
+c_santos_6c3780f0,Santos,Santos,c_santos_6c3780f0,Santos FC,manual_canonical_rename,manual_verified,1,Brazil:1,Canonical name manually changed to 'Santos FC'. No normalization merge applied.,1,Brazil:1
+c_santos_laguna_ed9ddc90,Santos Laguna,Santos Laguna,c_santos_laguna_ed9ddc90,Santos Laguna,unchanged,not_applicable,1,Mexico:1,No normalization merge applied.,1,Mexico:1
+c_sao_paulo_512a018c,São Paulo,Sao Paulo,c_sao_paulo_512a018c,São Paulo,unchanged,not_applicable,1,Paraguay:1,No normalization merge applied.,1,Paraguay:1
+c_saprissa_cd3d610c,Saprissa,Saprissa,c_saprissa_cd3d610c,Saprissa,unchanged,not_applicable,2,Panama:2,No normalization merge applied.,2,Panama:2
+c_sarpsborg_08_6a2fb396,Sarpsborg 08,Sarpsborg 08,c_sarpsborg_08_6a2fb396,Sarpsborg 08,unchanged,not_applicable,1,Iraq:1,No normalization merge applied.,1,Iraq:1
+c_sassuolo_3722fef4,Sassuolo,Sassuolo,c_sassuolo_3722fef4,Sassuolo,unchanged,not_applicable,4,Canada:1; Bosnia-Herzegovina:1; Australia:1; Norway:1,No normalization merge applied.,4,Australia:1; Bosnia-Herzegovina:1; Canada:1; Norway:1
+c_sc_freiburg_9f1ecdb8,SC Freiburg,SC Freiburg,c_sc_freiburg_9f1ecdb8,SC Freiburg,auto_merge_curated_alias,high,1,Austria:1,Collapsed source variant to canonical club 'SC Freiburg'.,4,Austria:1; Croatia:1; Japan:1; Switzerland:1
+c_schalke_04_aa80f339,Schalke 04,Schalke 04,c_schalke_04_aa80f339,Schalke 04,unchanged,not_applicable,2,Bosnia-Herzegovina:2,No normalization merge applied.,2,Bosnia-Herzegovina:2
+c_seattle_sounders_0333969a,Seattle Sounders,Seattle Sounders,c_seattle_sounders_0333969a,Seattle Sounders,unchanged,not_applicable,1,United States:1,No normalization merge applied.,1,United States:1
+c_selangor_87052893,Selangor,Selangor,c_selangor_87052893,Selangor,unchanged,not_applicable,2,Jordan:2,No normalization merge applied.,2,Jordan:2
+c_sepahan_23598738,Sepahan,Sepahan,c_sepahan_23598738,Sepahan,unchanged,not_applicable,3,Iran:3,No normalization merge applied.,3,Iran:3
+c_servette_d3e58f94,Servette,Servette,c_servette_d3e58f94,Servette,unchanged,not_applicable,1,Tunisia:1,No normalization merge applied.,1,Tunisia:1
+c_sevilla_199198e5,Sevilla,Sevilla,c_sevilla_199198e5,Sevilla,unchanged,not_applicable,3,Switzerland:2; Norway:1,No normalization merge applied.,3,Norway:1; Switzerland:2
+c_shabab_al_ahli_7bfa5689,Shabab Al-Ahli,Shabab Al-Ahli,c_shabab_al_ahli_7bfa5689,Shabab Al Ahli Club,manual_canonical_rename,manual_verified,1,Iran:1,Canonical name manually changed to 'Shabab Al Ahli Club'. No normalization merge applied.,1,Iran:1
+c_shamrock_rovers_2cdea59c,Shamrock Rovers,Shamrock Rovers,c_shamrock_rovers_2cdea59c,Shamrock Rovers,unchanged,not_applicable,1,Cape Verde:1,No normalization merge applied.,1,Cape Verde:1
+c_sharjah_dab7481c,Sharjah,Sharjah,c_sharjah_dab7481c,Sharjah,unchanged,not_applicable,1,South Korea:1,No normalization merge applied.,1,South Korea:1
+c_sheffield_united_03747276,Sheffield United,Sheffield United,c_sheffield_united_03747276,Sheffield United,unchanged,not_applicable,1,Curacao:1,No normalization merge applied.,1,Curacao:1
+c_sigma_olomouc_9866567d,Sigma Olomouc,Sigma Olomouc,c_sigma_olomouc_9866567d,Sigma Olomouc,unchanged,not_applicable,1,Czechia:1,No normalization merge applied.,1,Czechia:1
+c_silkeborg_if_f15d8622,Silkeborg IF,Silkeborg IF,c_silkeborg_if_f15d8622,Silkeborg IF,unchanged,not_applicable,1,New Zealand:1,No normalization merge applied.,1,New Zealand:1
+c_sint_truiden_eb30716d,Sint-Truiden,Sint-Truiden,c_sint_truiden_eb30716d,Sint-Truiden,unchanged,not_applicable,2,Japan:2,No normalization merge applied.,2,Japan:2
+c_sjk_4111de11,SJK,SJK,c_sjk_4111de11,SJK,unchanged,not_applicable,1,Cape Verde:1,No normalization merge applied.,1,Cape Verde:1
+c_slaven_belupo_a67f2dfc,Slaven Belupo,Slaven Belupo,c_slaven_belupo_a67f2dfc,Slaven Belupo,unchanged,not_applicable,1,Bosnia-Herzegovina:1,No normalization merge applied.,1,Bosnia-Herzegovina:1
+c_slavia_prague_6def6306,Slavia Prague,Slavia Prague,c_slavia_prague_6def6306,Slavia Prague,unchanged,not_applicable,10,Czechia:10,No normalization merge applied.,10,Czechia:10
+c_slovan_bratislava_8e855156,Slovan Bratislava,Slovan Bratislava,c_slovan_bratislava_8e855156,Slovan Bratislava,unchanged,not_applicable,1,Panama:1,No normalization merge applied.,1,Panama:1
+c_slovan_liberec_d17c3872,Slovan Liberec,Slovan Liberec,c_slovan_liberec_d17c3872,Slovan Liberec,unchanged,not_applicable,1,Bosnia-Herzegovina:1,No normalization merge applied.,1,Bosnia-Herzegovina:1
+c_sochaux_ac407c94,Sochaux,Sochaux,c_sochaux_ac407c94,Sochaux,unchanged,not_applicable,1,Haiti:1,No normalization merge applied.,1,Haiti:1
+c_southampton_1d40f1fa,Southampton,Southampton,c_southampton_1d40f1fa,Southampton,unchanged,not_applicable,2,Canada:1; Scotland:1,No normalization merge applied.,2,Canada:1; Scotland:1
+c_sparta_prague_8236520c,Sparta Prague,Sparta Prague,c_sparta_prague_8236520c,Sparta Prague,unchanged,not_applicable,3,Czechia:3,No normalization merge applied.,3,Czechia:3
+c_sparta_rotterdam_15c16fb0,Sparta Rotterdam,Sparta Rotterdam,c_sparta_rotterdam_15c16fb0,Sparta Rotterdam,unchanged,not_applicable,1,Curacao:1,No normalization merge applied.,1,Curacao:1
+c_spartak_moscow_24492656,Spartak Moscow,Spartak Moscow,c_spartak_moscow_24492656,Spartak Moscow,unchanged,not_applicable,1,Congo DR:1,No normalization merge applied.,1,Congo DR:1
+c_sporting_cp_68d8c4d1,Sporting CP,Sporting CP,c_sporting_cp_68d8c4d1,Sporting CP,auto_merge_curated_alias,high,5,Uruguay:2; Ivory Coast:1; Belgium:1; Colombia:1,Collapsed source variant to canonical club 'Sporting CP'.,8,Belgium:1; Colombia:1; Ivory Coast:1; Portugal:3; Uruguay:2
+c_sporting_lisbon_1fe809e1,Sporting Lisbon,Sporting Lisbon,c_sporting_cp_68d8c4d1,Sporting CP,auto_merge_curated_alias,high,3,Portugal:3,Collapsed source variant to canonical club 'Sporting CP'.,8,Belgium:1; Colombia:1; Ivory Coast:1; Portugal:3; Uruguay:2
+c_st_gallen_c9354c56,St Gallen,St Gallen,c_st_gallen_c9354c56,St Gallen,unchanged,not_applicable,1,Ghana:1,No normalization merge applied.,1,Ghana:1
+c_st_patrick_s_athletic_b41b37bf,St Patrick's Athletic,St Patrick's Athletic,c_st_patrick_s_athletic_b41b37bf,St Patrick's Athletic,unchanged,not_applicable,1,Ghana:1,No normalization merge applied.,1,Ghana:1
+c_st_pauli_35932192,St Pauli,St Pauli,c_st_pauli_b81e5622,St. Pauli,auto_merge_curated_alias,high,1,Bosnia-Herzegovina:1,Collapsed source variant to canonical club 'St. Pauli'.,4,Australia:2; Bosnia-Herzegovina:1; Sweden:1
+c_st_pauli_b81e5622,St. Pauli,St. Pauli,c_st_pauli_b81e5622,St. Pauli,auto_merge_curated_alias,high,3,Australia:2; Sweden:1,Collapsed source variant to canonical club 'St. Pauli'.,4,Australia:2; Bosnia-Herzegovina:1; Sweden:1
+c_stade_nyonnaise_d6f19ad2,Stade Nyonnaise,Stade Nyonnaise,c_stade_nyonnaise_d6f19ad2,Stade Nyonnaise,unchanged,not_applicable,1,Algeria:1,No normalization merge applied.,1,Algeria:1
+c_stade_rennais_c98241a9,Stade Rennais,Stade Rennais,c_stade_rennais_c98241a9,Stade Rennais,unchanged,not_applicable,1,Ghana:1,No normalization merge applied.,1,Ghana:1
+c_standard_liege_3e26b5d7,Standard Liege,Standard Liege,c_standard_liege_3e26b5d7,Standard Liege,unchanged,not_applicable,2,Iran:1; Congo DR:1,No normalization merge applied.,2,Congo DR:1; Iran:1
+c_stoke_city_320b8e5a,Stoke City,Stoke City,c_stoke_city_320b8e5a,Stoke City,unchanged,not_applicable,2,South Korea:1; Sweden:1,No normalization merge applied.,2,South Korea:1; Sweden:1
+c_strasbourg_ec14fe17,Strasbourg,Strasbourg,c_strasbourg_ec14fe17,Strasbourg,unchanged,not_applicable,6,Morocco:2; Paraguay:1; Ivory Coast:1; Belgium:1; Argentina:1,No normalization merge applied.,6,Argentina:1; Belgium:1; Ivory Coast:1; Morocco:2; Paraguay:1
+c_strmsgodset_8b9d1286,Strømsgodset,Strmsgodset,c_strmsgodset_8b9d1286,Strømsgodset,unchanged,not_applicable,1,Iraq:1,No normalization merge applied.,1,Iraq:1
+c_stuttgart_3e7544cc,Stuttgart,Stuttgart,c_vfb_stuttgart_79e41bee,VfB Stuttgart,auto_merge_curated_alias,high,6,Germany:4; Switzerland:1; Morocco:1,Collapsed source variant to canonical club 'VfB Stuttgart'.,8,Bosnia-Herzegovina:1; Ecuador:1; Germany:4; Morocco:1; Switzerland:1
+c_sunderland_4aa579a0,Sunderland,Sunderland,c_sunderland_4aa579a0,Sunderland,unchanged,not_applicable,9,Netherlands:2; Switzerland:1; Morocco:1; Haiti:1; Paraguay:1; Ecuador:1; Senegal:1; Congo DR:1,No normalization merge applied.,9,Congo DR:1; Ecuador:1; Haiti:1; Morocco:1; Netherlands:2; Paraguay:1; Senegal:1; Switzerland:1
+c_surkhon_b0fc6235,Surkhon,Surkhon,c_surkhon_b0fc6235,Surkhon,unchanged,not_applicable,1,Uzbekistan:1,No normalization merge applied.,1,Uzbekistan:1
+c_swansea_city_40d4171f,Swansea City,Swansea City,c_swansea_city_40d4171f,Swansea City,unchanged,not_applicable,3,South Korea:1; Australia:1; New Zealand:1,No normalization merge applied.,3,Australia:1; New Zealand:1; South Korea:1
+c_sydney_fc_46493459,Sydney FC,Sydney FC,c_sydney_fc_46493459,Sydney FC,unchanged,not_applicable,1,Australia:1,No normalization merge applied.,1,Australia:1
+c_talleres_44a8f91d,Talleres,Talleres,c_talleres_44a8f91d,Talleres,unchanged,not_applicable,1,Paraguay:1,No normalization merge applied.,1,Paraguay:1
+c_telstar_e85327be,Telstar,Telstar,c_telstar_e85327be,Telstar,unchanged,not_applicable,2,Curacao:2,No normalization merge applied.,2,Curacao:2
+c_terengganu_3785b314,Terengganu,Terengganu,c_terengganu_3785b314,Terengganu,unchanged,not_applicable,1,Curacao:1,No normalization merge applied.,1,Curacao:1
+c_tigres_0c053175,Tigres,Tigres,c_tigres_uanl_6d3f0914,Tigres UANL,auto_merge_curated_alias,high,1,Uruguay:1,Collapsed source variant to canonical club 'Tigres UANL'.,2,Canada:1; Uruguay:1
+c_tigres_uanl_6d3f0914,Tigres UANL,Tigres UANL,c_tigres_uanl_6d3f0914,Tigres UANL,auto_merge_curated_alias,high,1,Canada:1,Collapsed source variant to canonical club 'Tigres UANL'.,2,Canada:1; Uruguay:1
+c_tijuana_2510ee6e,Tijuana,Tijuana,c_club_tijuana_6e4baf66,Club Tijuana,auto_merge_curated_alias,high,1,Mexico:1,Collapsed source variant to canonical club 'Club Tijuana'.,2,Ecuador:1; Mexico:1
+c_toluca_a5d0edbb,Toluca,Toluca,c_toluca_a5d0edbb,Toluca,unchanged,not_applicable,2,Mexico:2,No normalization merge applied.,2,Mexico:2
+c_tondela_897c0be8,Tondela,Tondela,c_tondela_897c0be8,Tondela,unchanged,not_applicable,1,South Africa:1,No normalization merge applied.,1,South Africa:1
+c_torino_3891b778,Torino,Torino,c_torino_3891b778,Torino,unchanged,not_applicable,3,Scotland:1; Norway:1; Croatia:1,No normalization merge applied.,3,Croatia:1; Norway:1; Scotland:1
+c_toronto_fc_801d96b3,Toronto FC,Toronto FC,c_toronto_fc_801d96b3,Toronto FC,unchanged,not_applicable,3,Canada:2; Haiti:1,No normalization merge applied.,3,Canada:2; Haiti:1
+c_torreense_d5f6f333,Torreense,Torreense,c_torreense_d5f6f333,Torreense,unchanged,not_applicable,1,Cape Verde:1,No normalization merge applied.,1,Cape Verde:1
+c_tottehham_6d832957,Tottehham,Tottehham,c_tottehham_6d832957,Tottehham,unchanged,not_applicable,1,Austria:1,No normalization merge applied.,1,Austria:1
+c_tottenham_a4c1f181,Tottenham,Tottenham,c_tottenham_hotspur_ef01ee61,Tottenham Hotspur,auto_merge_curated_alias,high,3,Netherlands:1; Sweden:1; Argentina:1,Collapsed source variant to canonical club 'Tottenham Hotspur'.,7,Argentina:1; England:1; Netherlands:1; Senegal:1; Spain:1; Sweden:1; Uruguay:1
+c_tottenham_hotspur_ef01ee61,Tottenham Hotspur,Tottenham Hotspur,c_tottenham_hotspur_ef01ee61,Tottenham Hotspur,auto_merge_curated_alias,high,4,Spain:1; Uruguay:1; Senegal:1; England:1,Collapsed source variant to canonical club 'Tottenham Hotspur'.,7,Argentina:1; England:1; Netherlands:1; Senegal:1; Spain:1; Sweden:1; Uruguay:1
+c_toulouse_68472eee,Toulouse,Toulouse,c_toulouse_68472eee,Toulouse,unchanged,not_applicable,1,United States:1,No normalization merge applied.,1,United States:1
+c_trabzonspor_15246eeb,Trabzonspor,Trabzonspor,c_trabzonspor_15246eeb,Trabzonspor,unchanged,not_applicable,2,Ivory Coast:1; Cape Verde:1,No normalization merge applied.,2,Cape Verde:1; Ivory Coast:1
+c_tractor_b739a166,Tractor,Tractor,c_tractor_b739a166,Tractor,unchanged,not_applicable,4,Iran:4,No normalization merge applied.,4,Iran:4
+c_tsg_hoffenheim_7dd7fd83,TSG Hoffenheim,TSG Hoffenheim,c_tsg_hoffenheim_7dd7fd83,TSG Hoffenheim,auto_merge_curated_alias,high,5,Czechia:3; Türkiye:1; Austria:1,Collapsed source variant to canonical club 'TSG Hoffenheim'.,8,Austria:1; Croatia:1; Czechia:3; Germany:1; Ivory Coast:1; Türkiye:1
+c_turan_tovuz_b1656aa6,Turan Tovuz,Turan Tovuz,c_turan_tovuz_b1656aa6,Turan Tovuz,unchanged,not_applicable,1,Panama:1,No normalization merge applied.,1,Panama:1
+c_udinese_e4d6ce7e,Udinese,Udinese,c_udinese_e4d6ce7e,Udinese,unchanged,not_applicable,1,Sweden:1,No normalization merge applied.,1,Sweden:1
+c_ulsan_hd_cd5a3dd8,Ulsan HD,Ulsan HD,c_ulsan_hd_cd5a3dd8,Ulsan HD,unchanged,not_applicable,2,South Korea:2,No normalization merge applied.,2,South Korea:2
+c_union_berlin_3b0a5205,Union Berlin,Union Berlin,c_union_berlin_3b0a5205,Union Berlin,unchanged,not_applicable,1,Tunisia:1,No normalization merge applied.,1,Tunisia:1
+c_union_st_gilloise_575f870b,Union St-Gilloise,Union St-Gilloise,c_union_st_gilloise_b8dea71a,Union St.-Gilloise,auto_merge_curated_alias,high,1,Sweden:1,Collapsed source variant to canonical club 'Union St.-Gilloise'.,3,Canada:1; Ecuador:1; Sweden:1
+c_union_st_gilloise_b8dea71a,Union St.-Gilloise,Union St.-Gilloise,c_union_st_gilloise_b8dea71a,Union St.-Gilloise,auto_merge_curated_alias,high,1,Ecuador:1,Collapsed source variant to canonical club 'Union St.-Gilloise'.,3,Canada:1; Ecuador:1; Sweden:1
+c_universidad_catolica_f9dd891a,Universidad Católica,Universidad Catolica,c_universidad_catolica_f9dd891a,Universidad Católica,unchanged,not_applicable,2,Panama:2,No normalization merge applied.,2,Panama:2
+c_universidad_de_concepcion_56e01dcd,Universidad de Concepción,Universidad de Concepcion,c_universidad_de_concepcion_56e01dcd,Universidad de Concepción,unchanged,not_applicable,1,Panama:1,No normalization merge applied.,1,Panama:1
+c_universitatea_cluj_3ac82d3c,Universitatea Cluj,Universitatea Cluj,c_universitatea_cluj_3ac82d3c,Universitatea Cluj,unchanged,not_applicable,1,Bosnia-Herzegovina:1,No normalization merge applied.,1,Bosnia-Herzegovina:1
+c_us_monastir_e0705e0c,US Monastir,US Monastir,c_us_monastir_e0705e0c,US Monastir,unchanged,not_applicable,1,Tunisia:1,No normalization merge applied.,1,Tunisia:1
+c_usm_alger_1a6b6d83,USM Alger,USM Alger,c_usm_alger_1a6b6d83,USM Alger,unchanged,not_applicable,2,Algeria:2,No normalization merge applied.,2,Algeria:2
+c_valencia_b00a061d,Valencia,Valencia,c_valencia_b00a061d,Valencia,unchanged,not_applicable,1,Switzerland:1,No normalization merge applied.,1,Switzerland:1
+c_vancouver_whitecaps_584ec8d5,Vancouver Whitecaps,Vancouver Whitecaps,c_vancouver_whitecaps_584ec8d5,Vancouver Whitecaps,unchanged,not_applicable,3,United States:1; Paraguay:1; Tunisia:1,No normalization merge applied.,3,Paraguay:1; Tunisia:1; United States:1
+c_vasco_da_gama_ebb987d1,Vasco da Gama,Vasco da Gama,c_vasco_da_gama_ebb987d1,Vasco da Gama,unchanged,not_applicable,1,Colombia:1,No normalization merge applied.,1,Colombia:1
+c_velez_sarsfield_1118a976,Vélez Sarsfield,Velez Sarsfield,c_velez_sarsfield_1118a976,Vélez Sarsfield,unchanged,not_applicable,1,Colombia:1,No normalization merge applied.,1,Colombia:1
+c_venezia_e31ee20d,Venezia,Venezia,c_venezia_e31ee20d,Venezia,unchanged,not_applicable,2,Ecuador:1; Austria:1,No normalization merge applied.,2,Austria:1; Ecuador:1
+c_verona_28485fcd,Verona,Verona,c_verona_28485fcd,Verona,unchanged,not_applicable,1,Algeria:1,No normalization merge applied.,1,Algeria:1
+c_vfb_stuttgart_79e41bee,VfB Stuttgart,VfB Stuttgart,c_vfb_stuttgart_79e41bee,VfB Stuttgart,auto_merge_curated_alias,high,2,Bosnia-Herzegovina:1; Ecuador:1,Collapsed source variant to canonical club 'VfB Stuttgart'.,8,Bosnia-Herzegovina:1; Ecuador:1; Germany:4; Morocco:1; Switzerland:1
+c_vfl_wolfsburg_6bff9162,VfL Wolfsburg,VfL Wolfsburg,c_vfl_wolfsburg_6bff9162,VfL Wolfsburg,auto_merge_curated_alias,high,3,Japan:1; Algeria:1; Ghana:1,Collapsed source variant to canonical club 'VfL Wolfsburg'.,5,Algeria:1; Austria:1; Ghana:1; Japan:1; Sweden:1
+c_viking_26af2e99,Viking,Viking,c_viking_fk_ff9c46f0,Viking FK,auto_merge_curated_alias,high,1,Norway:1,Collapsed source variant to canonical club 'Viking FK'.,2,New Zealand:1; Norway:1
+c_viking_fk_ff9c46f0,Viking FK,Viking FK,c_viking_fk_ff9c46f0,Viking FK,auto_merge_curated_alias,high,1,New Zealand:1,Collapsed source variant to canonical club 'Viking FK'.,2,New Zealand:1; Norway:1
+c_viktoria_plzen_c3cb1557,Viktoria Plzen,Viktoria Plzen,c_viktoria_plzen_c3cb1557,Viktoria Plzen,unchanged,not_applicable,8,Czechia:4; Bosnia-Herzegovina:1; Iraq:1; Austria:1; Ghana:1,No normalization merge applied.,8,Austria:1; Bosnia-Herzegovina:1; Czechia:4; Ghana:1; Iraq:1
+c_villarreal_edfbe376,Villarreal,Villarreal,c_villarreal_edfbe376,Villarreal,unchanged,not_applicable,8,Canada:2; United States:1; Ivory Coast:1; Cape Verde:1; Senegal:1; Portugal:1; Ghana:1,No normalization merge applied.,8,Canada:2; Cape Verde:1; Ghana:1; Ivory Coast:1; Portugal:1; Senegal:1; United States:1
+c_violette_080fcd22,Violette,Violette,c_violette_080fcd22,Violette,unchanged,not_applicable,1,Haiti:1,No normalization merge applied.,1,Haiti:1
+c_vitoria_guimaraes_bdab72bf,Vitoria Guimaraes,Vitoria Guimaraes,c_vitoria_guimaraes_bdab72bf,Vitoria Guimaraes,unchanged,not_applicable,1,Cape Verde:1,No normalization merge applied.,1,Cape Verde:1
+c_vizela_63e8bfe2,Vizela,Vizela,c_vizela_63e8bfe2,Vizela,unchanged,not_applicable,2,Haiti:2,No normalization merge applied.,2,Haiti:2
+c_volendam_44039ff3,Volendam,Volendam,c_volendam_44039ff3,Volendam,unchanged,not_applicable,2,Curacao:2,No normalization merge applied.,2,Curacao:2
+c_vvv_venlo_83a25ec0,VVV Venlo,VVV Venlo,c_vvv_venlo_83a25ec0,VVV Venlo,unchanged,not_applicable,1,Curacao:1,No normalization merge applied.,1,Curacao:1
+c_watford_149fe9eb,Watford,Watford,c_watford_149fe9eb,Watford,unchanged,not_applicable,3,Australia:1; Norway:1; Congo DR:1,No normalization merge applied.,3,Australia:1; Congo DR:1; Norway:1
+c_wellington_phoenix_dcacb02d,Wellington Phoenix,Wellington Phoenix,c_wellington_phoenix_dcacb02d,Wellington Phoenix,unchanged,not_applicable,3,New Zealand:3,No normalization merge applied.,3,New Zealand:3
+c_werder_bremen_a11ab9ed,Werder Bremen,Werder Bremen,c_werder_bremen_a11ab9ed,Werder Bremen,unchanged,not_applicable,3,Austria:2; Japan:1,No normalization merge applied.,3,Austria:2; Japan:1
+c_west_ham_88fd71ee,West Ham,West Ham,c_west_ham_united_0b178664,West Ham United,auto_merge_curated_alias,high,2,Czechia:1; Netherlands:1,Collapsed source variant to canonical club 'West Ham United'.,4,Congo DR:1; Czechia:1; Netherlands:1; Senegal:1
+c_west_ham_united_0b178664,West Ham United,West Ham United,c_west_ham_united_0b178664,West Ham United,auto_merge_curated_alias,high,2,Senegal:1; Congo DR:1,Collapsed source variant to canonical club 'West Ham United'.,4,Congo DR:1; Czechia:1; Netherlands:1; Senegal:1
+c_western_sydney_wanderers_ad68f75f,Western Sydney Wanderers,Western Sydney Wanderers,c_western_sydney_wanderers_ad68f75f,Western Sydney Wanderers,unchanged,not_applicable,1,New Zealand:1,No normalization merge applied.,1,New Zealand:1
+c_widzew_odz_934a5145,Widzew Łódź,Widzew odz,c_widzew_odz_934a5145,Widzew Łódź,unchanged,not_applicable,1,Congo DR:1,No normalization merge applied.,1,Congo DR:1
+c_wolfsberger_ac_ca70d247,Wolfsberger AC,Wolfsberger AC,c_wolfsberger_ac_ca70d247,Wolfsberger AC,unchanged,not_applicable,1,Austria:1,No normalization merge applied.,1,Austria:1
+c_wolfsburg_3d0f829f,Wolfsburg,Wolfsburg,c_vfl_wolfsburg_6bff9162,VfL Wolfsburg,auto_merge_curated_alias,high,2,Sweden:1; Austria:1,Collapsed source variant to canonical club 'VfL Wolfsburg'.,5,Algeria:1; Austria:1; Ghana:1; Japan:1; Sweden:1
+c_wolverhampton_cf275480,Wolverhampton,Wolverhampton,c_wolverhampton_wanderers_1e3d8f9f,Wolverhampton Wanderers,auto_merge_curated_alias,high,1,South Korea:1,Collapsed source variant to canonical club 'Wolverhampton Wanderers'.,6,Czechia:1; Haiti:1; Norway:1; Portugal:1; South Korea:1; Uruguay:1
+c_wolverhampton_wanderers_1e3d8f9f,Wolverhampton Wanderers,Wolverhampton Wanderers,c_wolverhampton_wanderers_1e3d8f9f,Wolverhampton Wanderers,auto_merge_curated_alias,high,5,Czechia:1; Haiti:1; Uruguay:1; Norway:1; Portugal:1,Collapsed source variant to canonical club 'Wolverhampton Wanderers'.,6,Czechia:1; Haiti:1; Norway:1; Portugal:1; South Korea:1; Uruguay:1
+c_wrexham_5a7883b4,Wrexham,Wrexham,c_wrexham_5a7883b4,Wrexham,unchanged,not_applicable,2,Scotland:1; New Zealand:1,No normalization merge applied.,2,New Zealand:1; Scotland:1
+c_young_boys_d33c77d6,Young Boys,Young Boys,c_young_boys_d33c77d6,Young Boys,unchanged,not_applicable,6,Switzerland:2; Bosnia-Herzegovina:1; Haiti:1; Tunisia:1; Algeria:1,No normalization merge applied.,6,Algeria:1; Bosnia-Herzegovina:1; Haiti:1; Switzerland:2; Tunisia:1
+c_zamalek_b40573d7,Zamalek,Zamalek,c_zamalek_b40573d7,Zamalek,unchanged,not_applicable,4,Egypt:4,No normalization merge applied.,4,Egypt:4
+c_zed_2700337e,Zed,Zed,c_zed_2700337e,Zed,unchanged,not_applicable,1,Egypt:1,No normalization merge applied.,1,Egypt:1
+c_zenit_st_petersburg_0976e8e0,Zenit St. Petersburg,Zenit St. Petersburg,c_zenit_st_petersburg_0976e8e0,Zenit St. Petersburg,unchanged,not_applicable,2,Brazil:2,No normalization merge applied.,2,Brazil:2
+c_zhejiang_fc_d944dab0,Zhejiang FC,Zhejiang FC,c_zhejiang_fc_d944dab0,Zhejiang FC,unchanged,not_applicable,1,South Korea:1,No normalization merge applied.,1,South Korea:1
+c_zulte_waregem_051e6315,Zulte Waregem,Zulte Waregem,c_zulte_waregem_051e6315,Zulte Waregem,unchanged,not_applicable,1,Haiti:1,No normalization merge applied.,1,Haiti:1
+c_zurich_d276e926,Zurich,Zurich,c_zurich_d276e926,Zurich,unchanged,not_applicable,1,Curacao:1,No normalization merge applied.,1,Curacao:1
