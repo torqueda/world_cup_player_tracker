@@ -11,6 +11,8 @@ interface TreemapProps {
   /** Aspect ratio of the drawing area (width / height). */
   aspect?: number;
   valueSuffix?: string;
+  onSelect?: (item: TreemapItem) => void;
+  selectedKey?: string | null;
 }
 
 interface Rect {
@@ -101,7 +103,7 @@ function worstAspect(items: TreemapItem[], side: number, scale: number): number 
 
 const TILE_CLASSES = ["treemap-tile-a", "treemap-tile-b", "treemap-tile-c", "treemap-tile-d"];
 
-export function Treemap({ items, aspect = 1.9, valueSuffix = "" }: TreemapProps) {
+export function Treemap({ items, aspect = 1.9, valueSuffix = "", onSelect, selectedKey }: TreemapProps) {
   const height = WIDTH / aspect;
   const rects = layout(items, WIDTH, height);
 
@@ -114,23 +116,37 @@ export function Treemap({ items, aspect = 1.9, valueSuffix = "" }: TreemapProps)
       preserveAspectRatio="xMidYMid meet"
     >
       {rects.map((rect, index) => {
-        const showLabel = rect.w > 13 && rect.h > 7;
-        const showValue = rect.w > 13 && rect.h > 11;
-        const fontSize = Math.min(3.2, Math.max(2.1, rect.w / 9));
+        // Every tile gets its full label, shrinking the font as far as needed;
+        // clicking a tile is the reliable way to read the small ones.
+        const fitByWidth = (rect.w - 2) / (rect.item.label.length * 0.52);
+        const fitByHeight = rect.h / 2.4;
+        const fontSize = Math.max(0.9, Math.min(3.2, fitByWidth, fitByHeight));
+        const showValue = rect.h > fontSize * 2.6 + 4;
+        const isSelected = selectedKey != null && rect.item.key === selectedKey;
         return (
-          <g key={rect.item.key} className={TILE_CLASSES[index % TILE_CLASSES.length]}>
+          <g
+            key={rect.item.key}
+            className={`${TILE_CLASSES[index % TILE_CLASSES.length]}${isSelected ? " treemap-selected" : ""}${onSelect ? " treemap-clickable" : ""}`}
+            onClick={onSelect ? () => onSelect(rect.item) : undefined}
+          >
             <rect x={rect.x} y={rect.y} width={rect.w} height={rect.h} rx={0.7} className="treemap-rect">
               <title>{rect.item.title ?? `${rect.item.label}: ${rect.item.value}${valueSuffix}`}</title>
             </rect>
-            {showLabel ? (
-              <text x={rect.x + 1.4} y={rect.y + 3.4} fontSize={fontSize} className="treemap-label">
-                {rect.item.label.length > rect.w / 1.8
-                  ? `${rect.item.label.slice(0, Math.max(3, Math.floor(rect.w / 1.8)))}…`
-                  : rect.item.label}
-              </text>
-            ) : null}
+            <text
+              x={rect.x + 1.2}
+              y={rect.y + fontSize + 0.8}
+              fontSize={fontSize}
+              className="treemap-label"
+            >
+              {rect.item.label}
+            </text>
             {showValue ? (
-              <text x={rect.x + 1.4} y={rect.y + 7.2} fontSize={fontSize * 0.9} className="treemap-value">
+              <text
+                x={rect.x + 1.2}
+                y={rect.y + fontSize * 2.2 + 1.6}
+                fontSize={fontSize * 0.9}
+                className="treemap-value"
+              >
                 {rect.item.value}
                 {valueSuffix}
               </text>

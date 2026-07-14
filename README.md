@@ -4,7 +4,7 @@ This repository is building a structured dataset and eventual interactive dashbo
 
 ## Current Phase
 
-The dataset is final-roster verified and tournament-ready: all 48 final squads cross-checked against FIFA's lists (with cut players kept as `removed` and late replacements ingested and Wikidata-enriched), official player/team statistics and all match results through the quarterfinals, plus coaches and match officials. The site has grown into a seven-route dashboard (Overview, Players & Clubs, National Teams, Matches, Stats, Insights, Data & Sources). The remaining push is the pre-semifinal deploy: replicate local workbook fixes into the Google Sheets master, refresh stats after the semifinals if desired, and pick the hosting target (see `docs/roadmap_to_deployment.md`).
+The dataset is final-roster verified and tournament-ready: all 48 final squads cross-checked against FIFA's lists (with cut players kept as `removed` and late replacements ingested and Wikidata-enriched), official player/team statistics and all match results through the quarterfinals, plus coaches, match officials, and confederations. **As of 2026-07-13, the version-controlled local workbook (`data/master/world_cup_2026_player_map_master.xlsx`) is the canonical Master List** — the former Google Sheets copy is retired. The site is a seven-route dashboard (Overview, Players & Clubs, National Teams, Matches, Stats, Insights, Data & Sources), and the repo is public at https://github.com/torqueda/world_cup_player_tracker. What remains before v1: connect the static host and smoke-test the live URL (`docs/launch_guide.md`), then one post-final data refresh after July 19.
 
 ## Running The Prototype Locally
 
@@ -38,7 +38,7 @@ If the dataset changes (`data/processed/app_exports/*.json` regenerated from the
 .
 |-- data/
 |   |-- raw/                               # Original roster scrape outputs and source HTML
-|   |-- master/                            # Current workbook snapshot from Google Sheets
+|   |-- master/                            # THE canonical master workbook (version-controlled)
 |   `-- processed/
 |       |-- stable_ids_initial/            # Historical initial relational exports
 |       |-- player_wikidata_matching/      # Player Wikidata matching outputs
@@ -108,7 +108,7 @@ Stable internal IDs are the join keys. Do not replace them with external IDs suc
    - `Insights`: home-grown-vs-diaspora donuts for all 48 squads with sorting, birthplace charts with hover detail, squad-age list, club/league rankings, and a team-explorer sidebar;
    - `Data & Sources`: statement-style attributions, change log, and method notes;
    - plus a live-metric `Overview`.
-5. Remaining before deploy: replicate local workbook fixes to the Google Sheets master, optionally refresh stats after the semifinals, and execute the hosting decision (`docs/roadmap_to_deployment.md`).
+5. The local workbook is the canonical Master List (Google Sheets retired 2026-07-13) and the repo is pushed to GitHub. Remaining before v1: connect the host + live smoke test (`docs/launch_guide.md`), then the post-final data refresh.
 
 ## Important Notes
 
@@ -149,7 +149,7 @@ Tournament-data collection and reconciliation (July 2026 finalization run):
 - `scripts/data_ingestion/scrape_wikipedia_officials.py`: referees, assistants, and VARs with match assignments
 - `scripts/data_pipeline/reconcile_final_rosters.py`: diffs scraped final squads against the dataset (confirmed / cut / new players)
 - `scripts/data_pipeline/build_workbook_import_sheets.py`: merges all collected data into import-ready workbook sheets
-- `scripts/data_pipeline/apply_post_import_fixes.py` and `scripts/data_pipeline/enrich_new_players_from_wikidata.py`: post-import corrections and Wikidata birthplace enrichment, applied to the local xlsx with backups plus replication CSVs for Google Sheets
+- `scripts/data_pipeline/apply_post_import_fixes.py` and `scripts/data_pipeline/enrich_new_players_from_wikidata.py`: post-import corrections and Wikidata birthplace enrichment, applied to the canonical xlsx with timestamped backups
 - `scripts/geolocation/build_city_country_lookup_from_clubs.py`: deduplicates club cities
 - `scripts/geolocation/build_city_geocoding_workfile.py`: builds the city-level geocoding workfile
 - `scripts/geolocation/apply_city_geocoding_results.py`: reapplies reviewed city geocoding decisions
@@ -158,8 +158,7 @@ Tournament-data collection and reconciliation (July 2026 finalization run):
 
 Launch. The delivery decision is made and documented in `docs/launch_guide.md`: the site
 ships as a free static website (Netlify or Cloudflare Pages), not a downloadable program.
-The remaining launch blockers are listed at the top of
-`docs/current_work_dashboard_prototype_checklist.md` — in short: sync the local workbook
-fixes back to the Google Sheets master, make the first git commit and push to GitHub,
-connect the host (~15 minutes), and smoke-test the live URL. After the tournament ends,
-one final data refresh locks the dataset.
+The repo is already on GitHub; the remaining launch blockers (listed in
+`docs/current_work_dashboard_prototype_checklist.md`) are connecting the host
+(~15 minutes) and smoke-testing the live URL. After the tournament ends, one final data
+refresh locks the dataset.

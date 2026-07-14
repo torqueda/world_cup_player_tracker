@@ -18,8 +18,17 @@ function teamName(stat: PlayerStat): string {
   return getTeamByCode(stat.team_code)?.team ?? stat.team_code;
 }
 
-function topWithTies(metric: (stat: PlayerStat) => number, count: number): PlayerStat[] {
-  const sorted = [...playerStats].filter((stat) => metric(stat) > 0).sort((a, b) => metric(b) - metric(a));
+function isGoalkeeper(stat: PlayerStat): boolean {
+  return getPlayerById(stat.player_id)?.primary_position === "goalkeeper";
+}
+
+function topWithTies(
+  metric: (stat: PlayerStat) => number,
+  count: number,
+  filter?: (stat: PlayerStat) => boolean,
+): PlayerStat[] {
+  const pool = filter ? playerStats.filter(filter) : playerStats;
+  const sorted = [...pool].filter((stat) => metric(stat) > 0).sort((a, b) => metric(b) - metric(a));
   if (sorted.length === 0) {
     return [];
   }
@@ -35,9 +44,9 @@ interface PictoRow {
   title?: string;
 }
 
-function PictoList({ rows }: { rows: PictoRow[] }) {
+function PictoList({ rows, columns = false }: { rows: PictoRow[]; columns?: boolean }) {
   return (
-    <div className="picto-list">
+    <div className={columns ? "picto-list picto-list-columns" : "picto-list"}>
       {rows.map((row) => (
         <div key={row.key} className="picto-row" title={row.title ?? `${row.label}: ${row.value}`}>
           <span className="picto-label">{row.label}</span>
@@ -64,12 +73,14 @@ const assistRows: PictoRow[] = topWithTies((s) => s.assists, 10).map((s) => ({
   value: String(s.assists),
 }));
 
-const minuteRows: PictoRow[] = topWithTies((s) => s.minutes_played, 10).map((s) => ({
-  key: `${s.team_code}-${s.fifa_listed_name}`,
-  label: `${displayName(s)} (${teamName(s)})`,
-  picto: "🏃",
-  value: `${s.minutes_played.toLocaleString()} min`,
-}));
+const minuteRows: PictoRow[] = topWithTies((s) => s.minutes_played, 10, (s) => !isGoalkeeper(s)).map(
+  (s) => ({
+    key: `${s.team_code}-${s.fifa_listed_name}`,
+    label: `${displayName(s)} (${teamName(s)})`,
+    picto: "🏃",
+    value: `${s.minutes_played.toLocaleString()} min`,
+  }),
+);
 
 const saveRows: PictoRow[] = topWithTies((s) => s.gk_saves ?? 0, 10).map((s) => ({
   key: `${s.team_code}-${s.fifa_listed_name}`,
@@ -78,19 +89,21 @@ const saveRows: PictoRow[] = topWithTies((s) => s.gk_saves ?? 0, 10).map((s) => 
   value: `${s.gk_saves} saves`,
 }));
 
-const cardRows: PictoRow[] = topWithTies(
-  (s) => s.yellow_cards + 3 * (s.red_cards + s.indirect_red_cards),
-  10,
-).map((s) => {
-  const reds = s.red_cards + s.indirect_red_cards;
-  return {
-    key: `${s.team_code}-${s.fifa_listed_name}`,
-    label: `${displayName(s)} (${teamName(s)})`,
-    picto: "🟨".repeat(s.yellow_cards) + "🟥".repeat(reds),
-    value: `${s.yellow_cards + 3 * reds} pts`,
-    title: `${displayName(s)}: ${s.yellow_cards} yellow, ${reds} red`,
-  };
-});
+// Fair Play: every player who has been carded, worst record first.
+const fairPlayScore = (s: PlayerStat) => s.yellow_cards + 3 * (s.red_cards + s.indirect_red_cards);
+const fairPlayRows: PictoRow[] = [...playerStats]
+  .filter((s) => fairPlayScore(s) > 0)
+  .sort((a, b) => fairPlayScore(b) - fairPlayScore(a) || displayName(a).localeCompare(displayName(b)))
+  .map((s) => {
+    const reds = s.red_cards + s.indirect_red_cards;
+    return {
+      key: `${s.team_code}-${s.fifa_listed_name}`,
+      label: `${displayName(s)} (${teamName(s)})`,
+      picto: "🟨".repeat(s.yellow_cards) + "🟥".repeat(reds),
+      value: `${fairPlayScore(s)} pts`,
+      title: `${displayName(s)}: ${s.yellow_cards} yellow, ${reds} red`,
+    };
+  });
 
 type TeamSortKey =
   | "team"
@@ -180,7 +193,7 @@ export function StatsRoute() {
         </p>
       </section>
 
-      <div className="content-grid reveal">
+      <div className="content-grid stats-leaders-grid reveal">
         <section className="content-panel">
           <h3 className="section-heading">Golden Boot race</h3>
           <p className="insight-note">One ball per goal.</p>
@@ -192,6 +205,7 @@ export function StatsRoute() {
         <section className="content-panel">
           <h3 className="section-heading">Workhorses &amp; walls</h3>
           <h4 className="subsection-heading">Most minutes played</h4>
+          <p className="insight-note">Outfield players only — goalkeepers are excluded.</p>
           <PictoList rows={minuteRows} />
           <h4 className="subsection-heading">Most goalkeeper saves</h4>
           {saveRows.length > 0 ? (
@@ -199,14 +213,18 @@ export function StatsRoute() {
           ) : (
             <p className="insight-note">Goalkeeping columns land with the next dataset refresh.</p>
           )}
-          <h4 className="subsection-heading">Fair Play</h4>
-          <p className="insight-note">
-            Cards collected so far — each yellow card counts 1 point and each red card counts
-            3, so a higher total means a worse disciplinary record.
-          </p>
-          <PictoList rows={cardRows} />
         </section>
       </div>
+
+      <section className="content-panel reveal">
+        <h3 className="section-heading">Fair Play</h3>
+        <p className="insight-note">
+          Every player carded so far ({fairPlayRows.length} in all), worst record first. Each
+          yellow card counts 1 point and each red card counts 3, so a higher total means a
+          worse disciplinary record.
+        </p>
+        <PictoList rows={fairPlayRows} columns />
+      </section>
 
       <section className="content-panel reveal">
         <h3 className="section-heading">Team table</h3>

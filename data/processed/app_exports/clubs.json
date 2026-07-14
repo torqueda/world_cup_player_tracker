@@ -3243,7 +3243,7 @@
     "club_id": "c_gaziantep_36de22a4",
     "club_name": "Gaziantep F.K.",
     "club_name_ascii": "Gaziantep F.K.",
-    "league": "dissolution",
+    "league": "Süper Lig",
     "country": "Turkey",
     "city": "Gaziantep",
     "stadium": "Gaziantep Stadium",
@@ -3253,7 +3253,7 @@
     "city_geo_source": "geonames_searchJSON",
     "city_match_confidence": "high",
     "manual_review_flag": false,
-    "notes": null,
+    "notes": "league corrected from erroneous 'dissolution' to Süper Lig on 2026-07-13; the dissolution note belonged to Mazatlán F.C. (see club_triage_manual_checks.md)",
     "city_key": "turkey__gaziantep__147a5f50",
     "city_review_notes": "GeoNames name_equals match; selected 'Gaziantep'; admin 'Gaziantep'; feature PPLA; population 2130432; 1.0 km from trusted local centroid; HTTP fallback was used because the GeoNames HTTPS certificate failed verification."
   },

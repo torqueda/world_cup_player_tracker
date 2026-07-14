@@ -16,6 +16,7 @@ import json
 import re
 import unicodedata
 from collections import defaultdict
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -328,6 +329,7 @@ def main() -> None:
         "matches.json": world_cup_history,
         "manual_review_queue.json": manual_review_queue,
         "meta.json": {
+            "exported_at": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
             "source_workbook": repo_relative(workbook_path),
             "clubs_source": clubs_source,
             "sheet_names": sheet_names,

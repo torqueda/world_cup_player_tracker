@@ -1,11 +1,26 @@
 import { useMemo, useState } from "react";
+import { BarList } from "@/components/bar-list";
 import {
   getCoachForTeam,
   getConfederationForCountry,
   getSquadRosterForTeam,
   getTeamStat,
   teams,
+  TEAM_COUNTRY_ALIASES,
 } from "@/lib/data";
+
+const TOURNAMENT_START = new Date("2026-06-11T00:00:00Z");
+
+function kickoffAge(dateOfBirth: string | null): number | null {
+  if (!dateOfBirth) {
+    return null;
+  }
+  const dob = new Date(dateOfBirth);
+  if (Number.isNaN(dob.getTime())) {
+    return null;
+  }
+  return (TOURNAMENT_START.getTime() - dob.getTime()) / (1000 * 60 * 60 * 24 * 365.25);
+}
 
 const ALL_CONFEDS = "all";
 const CONFED_CODES = Array.from(
@@ -28,12 +43,23 @@ function formatPosition(position: string | null): string {
 
 type RosterRow = ReturnType<typeof getSquadRosterForTeam>[number];
 
-type SortKey = "player" | "position" | "shirt" | "caps" | "club" | "league" | "country";
+type SortKey =
+  | "player"
+  | "position"
+  | "shirt"
+  | "born"
+  | "age"
+  | "caps"
+  | "club"
+  | "league"
+  | "country";
 
 const SORT_ACCESSORS: Record<SortKey, (row: RosterRow) => string | number> = {
   player: (row) => row.player?.display_name ?? row.entry.display_name_at_source,
   position: (row) => POSITION_ORDER[row.entry.position_group ?? ""] ?? 99,
   shirt: (row) => row.entry.shirt_number ?? 999,
+  born: (row) => row.player?.birth_country ?? "",
+  age: (row) => kickoffAge(row.player?.date_of_birth ?? null) ?? -1,
   caps: (row) => row.entry.caps_pre_tournament ?? -1,
   club: (row) => row.club?.club_name ?? "",
   league: (row) => row.club?.league ?? "",
@@ -44,6 +70,8 @@ const COLUMNS: { key: SortKey; label: string }[] = [
   { key: "player", label: "Player" },
   { key: "position", label: "Position" },
   { key: "shirt", label: "#" },
+  { key: "born", label: "Born" },
+  { key: "age", label: "Age" },
   { key: "caps", label: "Caps" },
   { key: "club", label: "Club" },
   { key: "league", label: "League" },
@@ -104,6 +132,26 @@ export function NationalTeamsRoute() {
     }
   }
 
+  const clubCountryBreakdown = useMemo(() => {
+    if (!selectedTeam) {
+      return [];
+    }
+    const counts = new Map<string, number>();
+    for (const row of roster) {
+      const country = row.club?.country ?? "Unknown club location";
+      counts.set(country, (counts.get(country) ?? 0) + 1);
+    }
+    const aliases = new Set([selectedTeam.team, ...(TEAM_COUNTRY_ALIASES[selectedTeam.team] ?? [])]);
+    return Array.from(counts.entries())
+      .map(([country, count]) => ({
+        key: country,
+        label: country,
+        value: count,
+        emphasized: aliases.has(country),
+      }))
+      .sort((a, b) => b.value - a.value);
+  }, [roster, selectedTeam]);
+
   const clubCount = useMemo(
     () => new Set(roster.map((row) => row.club?.club_id).filter(Boolean)).size,
     [roster],
@@ -126,62 +174,71 @@ export function NationalTeamsRoute() {
         </p>
       </section>
 
-      <div className="national-teams-grid reveal">
-        <article className="content-panel compact-panel">
+      <section className="content-panel reveal">
+        <div className="team-picker-header">
           <div className="panel-heading">
             <p className="eyebrow">{teams.length} squads</p>
             <h3>Choose a team</h3>
           </div>
-          <input
-            type="text"
-            className="team-search"
-            value={teamQuery}
-            onChange={(event) => setTeamQuery(event.target.value)}
-            placeholder="Search teams…"
-          />
-          <label className="filter-field confed-filter">
-            <span>Confederation</span>
-            <select value={confedFilter} onChange={(event) => setConfedFilter(event.target.value)}>
-              <option value={ALL_CONFEDS}>All confederations</option>
-              {CONFED_CODES.map((code) => (
-                <option key={code} value={code}>
-                  {code}
-                </option>
-              ))}
-            </select>
-          </label>
-          <div className="team-list team-list-full">
-            {filteredTeams.length === 0 ? (
-              <p className="city-detail-empty">No teams match your search.</p>
-            ) : (
-              filteredTeams.map((team) => (
-                <button
-                  key={team.team_code}
-                  type="button"
-                  className={
-                    team.team_code === selectedTeamCode ? "team-button team-button-active" : "team-button"
-                  }
-                  onClick={() => setSelectedTeamCode(team.team_code)}
-                >
-                  <span>{team.team}</span>
-                  <span className="team-button-code">{team.team_code}</span>
-                </button>
-              ))
-            )}
+          <div className="team-picker-controls">
+            <label className="filter-field">
+              <span>Search</span>
+              <input
+                type="text"
+                value={teamQuery}
+                onChange={(event) => setTeamQuery(event.target.value)}
+                placeholder="Search teams…"
+              />
+            </label>
+            <label className="filter-field">
+              <span>Confederation</span>
+              <select value={confedFilter} onChange={(event) => setConfedFilter(event.target.value)}>
+                <option value={ALL_CONFEDS}>All confederations</option>
+                {CONFED_CODES.map((code) => (
+                  <option key={code} value={code}>
+                    {code}
+                  </option>
+                ))}
+              </select>
+            </label>
           </div>
-        </article>
+        </div>
+        <div className="team-list team-list-horizontal">
+          {filteredTeams.length === 0 ? (
+            <p className="city-detail-empty">No teams match your search.</p>
+          ) : (
+            filteredTeams.map((team) => (
+              <button
+                key={team.team_code}
+                type="button"
+                className={
+                  team.team_code === selectedTeamCode ? "team-button team-button-active" : "team-button"
+                }
+                onClick={() => setSelectedTeamCode(team.team_code)}
+              >
+                <span>{team.team}</span>
+                <span className="team-button-code">{team.team_code}</span>
+              </button>
+            ))
+          )}
+        </div>
+      </section>
 
-        <article className="content-panel">
-          {selectedTeam ? (
-            <>
-              <div className="panel-heading">
-                <p className="eyebrow">Squad</p>
-                <h3>
-                  {selectedTeam.team} <span className="team-button-code">{selectedTeam.team_code}</span>
-                </h3>
+      {selectedTeam ? (
+        <>
+          <section className="content-panel reveal">
+            <div className="panel-heading">
+              <p className="eyebrow">Selected squad</p>
+              <h3>
+                {selectedTeam.team} <span className="team-button-code">{selectedTeam.team_code}</span>
+              </h3>
+            </div>
+            <div className="team-info-row">
+              <div className="team-info-facts">
                 {selectedCoach ? (
                   <p className="insight-note">
-                    Coach: <strong>{selectedCoach.coach_name}</strong>
+                    Coach:{" "}
+                    <strong>{selectedCoach.coach_name}</strong>
                     {selectedCoach.coach_nationality &&
                     selectedCoach.coach_nationality !== selectedTeam.team
                       ? ` (${selectedCoach.coach_nationality})`
@@ -195,12 +252,7 @@ export function NationalTeamsRoute() {
                   </p>
                 ) : null}
               </div>
-
-              <div className="metrics-grid metrics-grid-centered">
-                <article className="metric-card">
-                  <p className="metric-label">Squad size</p>
-                  <p className="metric-value">{roster.length}</p>
-                </article>
+              <div className="team-info-metrics">
                 <article className="metric-card">
                   <p className="metric-label">Clubs represented</p>
                   <p className="metric-value">{clubCount}</p>
@@ -210,29 +262,35 @@ export function NationalTeamsRoute() {
                   <p className="metric-value">{countryCount}</p>
                 </article>
               </div>
+            </div>
+          </section>
 
-              <div className="data-table-wrap">
-                <table className="data-table">
-                  <thead>
-                    <tr>
-                      {COLUMNS.map((column) => (
-                        <th key={column.key}>
-                          <button
-                            type="button"
-                            className={
-                              column.key === sortKey ? "table-sort table-sort-active" : "table-sort"
-                            }
-                            onClick={() => toggleSort(column.key)}
-                          >
-                            {column.label}
-                            {column.key === sortKey ? (sortAsc ? " ↑" : " ↓") : ""}
-                          </button>
-                        </th>
-                      ))}
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {roster.map(({ entry, player, club }) => (
+          <section className="content-panel reveal">
+            <h3 className="section-heading">Full roster</h3>
+            <div className="data-table-wrap squad-table">
+              <table className="data-table">
+                <thead>
+                  <tr>
+                    {COLUMNS.map((column) => (
+                      <th key={column.key}>
+                        <button
+                          type="button"
+                          className={
+                            column.key === sortKey ? "table-sort table-sort-active" : "table-sort"
+                          }
+                          onClick={() => toggleSort(column.key)}
+                        >
+                          {column.label}
+                          {column.key === sortKey ? (sortAsc ? " ↑" : " ↓") : ""}
+                        </button>
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {roster.map(({ entry, player, club }) => {
+                    const age = kickoffAge(player?.date_of_birth ?? null);
+                    return (
                       <tr key={entry.squad_entry_id}>
                         <td>
                           {player?.display_name ?? entry.display_name_at_source}
@@ -240,21 +298,33 @@ export function NationalTeamsRoute() {
                         </td>
                         <td>{formatPosition(entry.position_group)}</td>
                         <td>{entry.shirt_number ?? "—"}</td>
+                        <td>{player?.birth_country ?? "—"}</td>
+                        <td title={player?.date_of_birth ? `Born ${String(player.date_of_birth).slice(0, 10)}` : undefined}>
+                          {age !== null ? Math.floor(age) : "—"}
+                        </td>
                         <td>{entry.caps_pre_tournament ?? "—"}</td>
                         <td>{club?.club_name ?? "Unknown"}</td>
                         <td>{club?.league ?? "—"}</td>
                         <td>{club?.country ?? "—"}</td>
                       </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            </>
-          ) : (
-            <p className="city-detail-empty">Choose a team to see its squad.</p>
-          )}
-        </article>
-      </div>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+
+            <h4 className="subsection-heading">Where this squad plays club football</h4>
+            <p className="insight-note">
+              {selectedTeam.team} in the accent color, every other club country in gray.
+            </p>
+            <BarList items={clubCountryBreakdown} mode="emphasis" />
+          </section>
+        </>
+      ) : (
+        <section className="content-panel reveal">
+          <p className="city-detail-empty">Choose a team to see its squad.</p>
+        </section>
+      )}
     </div>
   );
 }

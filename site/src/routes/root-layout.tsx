@@ -1,4 +1,10 @@
 import { NavLink, Outlet } from "react-router-dom";
+import metaJson from "@data/meta.json";
+import { playerStats } from "@/lib/data";
+
+const exportedAt = (metaJson as { exported_at?: string }).exported_at;
+const asOfStage = playerStats[0]?.as_of_stage ?? "through quarterfinals";
+const statusText = `Data ${asOfStage}${exportedAt ? ` · updated ${exportedAt}` : ""}`;
 
 const navItems = [
   { to: "/", label: "Overview", end: true },
@@ -25,7 +31,7 @@ export function RootLayout() {
               every match result — with the sources behind each number one tab away.
             </p>
           </div>
-          <div className="status-pill">Data through the quarterfinals · updated 2026-07-12</div>
+          <div className="status-pill">{statusText}</div>
         </div>
         <nav className="site-nav" aria-label="Primary">
           {navItems.map((item) => (

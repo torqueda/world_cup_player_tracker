@@ -88,7 +88,7 @@ around the final.
 
 ## How updates work after launch
 
-1. Edit the master workbook (Google Sheets), download to `data/master/`.
+1. Edit the canonical master workbook directly: `data/master/world_cup_2026_player_map_master.xlsx` (since 2026-07-13 the local xlsx IS the Master List; the old Google Sheets copy is retired).
 2. `python scripts/export/refresh_all_exports.py` (strict audit gate).
 3. `git commit` + `git push` → the host rebuilds and the public site updates in ~1 minute.
 
@@ -97,7 +97,7 @@ them how fresh it is.
 
 ## Pre-launch checklist (technical)
 
-- [ ] First commit + push to GitHub (commands above).
+- [x] First commit + push to GitHub — done: https://github.com/torqueda/world_cup_player_tracker
 - [ ] Connect Netlify or Cloudflare Pages with the settings above.
 - [ ] Click through all seven routes on the live URL (especially deep links like
       `/stats` and `/insights`, which exercise the SPA fallback).

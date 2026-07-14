@@ -92,7 +92,7 @@ export function MatchesRoute() {
 
       {upcoming.length > 0 ? (
         <section className="content-panel reveal">
-          <h3 className="section-heading">Coming up</h3>
+          <h3 className="section-heading stage-heading">Coming up</h3>
           <div className="match-list">
             {upcoming.map((match) => (
               <article key={match.match_id} className="match-row match-row-upcoming">
@@ -150,10 +150,10 @@ export function MatchesRoute() {
               ];
         return (
           <section key={stage} className="content-panel reveal">
-            <h3 className="section-heading">{STAGE_LABELS[stage] ?? stage}</h3>
+            <h3 className="section-heading stage-heading">{STAGE_LABELS[stage] ?? stage}</h3>
             {sections.map((section) => (
               <div key={section.title ?? stage}>
-                {section.title ? <h4 className="subsection-heading">{section.title}</h4> : null}
+                {section.title ? <h4 className="match-group-heading">{section.title}</h4> : null}
                 <div className="match-list">
                   {section.matches.map((match) => {
                     const winner = winnerSide(match);

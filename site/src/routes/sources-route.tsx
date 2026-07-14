@@ -12,7 +12,9 @@ interface ChangeLogRow {
 }
 
 const changeLog = changeLogJson as unknown as ChangeLogRow[];
-const meta = metaJson as { counts: Record<string, number> };
+const meta = metaJson as { counts: Record<string, number>; exported_at?: string };
+
+const REPO_URL = "https://github.com/torqueda/world_cup_player_tracker";
 
 // Statement-style attributions: one line per kind of data, linking to the
 // general site or the specific pages that hold the bulk of it.
@@ -92,6 +94,15 @@ export function SourcesRoute() {
                 .map(([role, count]) => `${count} ${role.replace(/_/g, " ")}s`)
                 .join(", ")})`
             : ""}
+          .
+        </p>
+        <p className="insight-note note-spaced">
+          {meta.exported_at ? <>Data last regenerated on {meta.exported_at}. </> : null}
+          The canonical dataset is a versioned workbook; the full pipeline, collection
+          scripts, and change history are public at{" "}
+          <a className="table-link" href={REPO_URL} target="_blank" rel="noreferrer">
+            github.com/torqueda/world_cup_player_tracker
+          </a>
           .
         </p>
       </section>

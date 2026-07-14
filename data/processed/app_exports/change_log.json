@@ -102,5 +102,18 @@
     "source_url": "https://www.wikidata.org/",
     "reviewed_by": "claude",
     "notes": "Wikidata DOB-confirmed birthplace enrichment for 27 late replacements (0 to manual review); goalkeeper stat columns imported for 60 keepers."
+  },
+  {
+    "change_id": "chg_2026-07-13_gaziantep_league",
+    "changed_at": "2026-07-13",
+    "team": null,
+    "player_id": null,
+    "change_type": "correction",
+    "field_changed": "clubs.league",
+    "old_value": "dissolution",
+    "new_value": "Süper Lig",
+    "source_url": "https://en.wikipedia.org/wiki/Gaziantep_F.K.",
+    "reviewed_by": "claude",
+    "notes": "Gaziantep F.K. league value was the stray 'dissolution' note; corrected to Süper Lig."
   }
 ]

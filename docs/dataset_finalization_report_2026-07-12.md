@@ -60,3 +60,7 @@ The export pipeline (`refresh_all_exports.py`) already emits `player_stats.json`
 ## Decision record
 
 Scraping approach approved 2026-07-12: hybrid (Python scrapers for Wikipedia's static pages; browser-pane collection from fifa.com's rendered pages, stopping rather than evading if blocked; sofifa skipped). This supersedes the earlier "ask FIFA before any automated collection" note in `docs/deferred_dataset_and_prototype_todo.md` — rationale: non-commercial factual-data use, robots.txt does not disallow these pages, and collection was human-paced from rendered pages only.
+
+---
+
+**Addendum 2026-07-13:** the local `data/master/world_cup_2026_player_map_master.xlsx` is now the **canonical Master List**; the Google Sheets copy is retired and the "replicate to Sheets" instructions above are obsolete (kept for history). The repo is public at https://github.com/torqueda/world_cup_player_tracker, so the workbook is version-controlled. All remaining review items from this report were resolved directly in the canonical workbook (birthplaces incl. Taha/Cho Wi-je, GK columns, club fills, Gaziantep league fix); confederations were added via `data/raw/confederations.md`.
