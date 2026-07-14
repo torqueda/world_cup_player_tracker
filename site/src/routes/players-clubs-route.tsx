@@ -1,7 +1,23 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import Fuse from "fuse.js";
-import { PlayersClubsMap, boundsForCities, type MapFocus } from "@/components/players-clubs-map";
+import {
+  PlayersClubsMap,
+  boundsForCities,
+  MAP_COUNTRY_COLOR,
+  MAP_CITY_COLOR,
+  MAP_ACTIVE_COLOR,
+  type MapFocus,
+} from "@/components/players-clubs-map";
 import { PlayerLink } from "@/components/player-detail";
+import { CountryFlag } from "@/components/country-flag";
+import {
+  ChartLegend,
+  EmptyState,
+  Expandable,
+  FilterGroup,
+  PageHeader,
+  SummaryRow,
+} from "@/components/ui";
 import {
   activePlayers,
   cities,
@@ -65,6 +81,7 @@ export function PlayersClubsRoute() {
   const focusId = useRef(0);
   const searchWrapRef = useRef<HTMLDivElement>(null);
   const [suggestionsOpen, setSuggestionsOpen] = useState(false);
+  const [filtersOpen, setFiltersOpen] = useState(false);
 
   // --- club predicate builders (each can exclude one dimension so dropdown
   // options cascade off the *other* active filters) ---
@@ -292,201 +309,281 @@ export function PlayersClubsRoute() {
     })),
   ];
 
+  const cityDrawer = selectedCity ? (
+    <aside
+      className="map-drawer"
+      role="dialog"
+      aria-label={`Clubs and players in ${selectedCity.city}, ${selectedCity.country}`}
+    >
+      <header className="map-drawer-head">
+        <div>
+          <p className="eyebrow">Selected city</p>
+          <p className="map-drawer-title">
+            <CountryFlag country={selectedCity.country} /> {selectedCity.city}
+          </p>
+          <p className="map-drawer-sub">
+            {selectedClubs.length} club{selectedClubs.length === 1 ? "" : "s"} shown
+          </p>
+        </div>
+        <button
+          type="button"
+          className="map-drawer-close"
+          onClick={() => setSelectedCityKey(null)}
+          aria-label="Close city details"
+        >
+          ×
+        </button>
+      </header>
+      <div className="map-drawer-body">
+        {selectedClubs.map((club) => {
+          const clubPlayers = getPlayersForClub(club.club_id).filter(
+            (player) => team === ALL || getTeamForPlayer(player.player_id)?.team === team,
+          );
+          return (
+            <article key={club.club_id} className="club-card">
+              <h4>{club.club_name}</h4>
+              <p className="club-card-meta">
+                {club.league ?? "League pending"} &middot; {club.country ?? "—"}
+                {club.stadium ? ` · ${club.stadium}` : ""}
+              </p>
+              {clubPlayers.length > 0 ? (
+                <div className="player-chip-list">
+                  {clubPlayers.map((player) => {
+                    const playerTeam = getTeamForPlayer(player.player_id);
+                    return (
+                      <PlayerLink key={player.player_id} playerId={player.player_id} className="player-chip">
+                        {player.display_name}
+                        {playerTeam ? ` · ${playerTeam.team}` : ""}
+                      </PlayerLink>
+                    );
+                  })}
+                </div>
+              ) : (
+                <p className="city-detail-empty">
+                  No players here match the current national-team filter.
+                </p>
+              )}
+            </article>
+          );
+        })}
+      </div>
+    </aside>
+  ) : null;
+
   return (
     <div className="page-stack">
-      <section className="content-panel centered-panel reveal">
-        <div className="panel-heading">
-          <p className="eyebrow">Players &amp; clubs</p>
-          <h2>The club map</h2>
-        </div>
-        <p className="panel-intro">
-          The world view shows one bubble per country — click a bubble or zoom (buttons or
-          mouse wheel) to reveal club cities, then click a city dot to see who plays there.
-          Filters and search narrow the map and zoom it to the matching region.
-        </p>
-      </section>
+      <PageHeader
+        eyebrow="Players & clubs"
+        title="The club map"
+        intro="One bubble per country in the world view — click a bubble or zoom in to reveal club cities, then pick a city to see who plays there. Filters and search narrow the map and zoom it to the matching region."
+      />
 
-      <section className="metrics-grid reveal">
-        <article className="metric-card">
-          <p className="metric-label">Players loaded</p>
-          <p className="metric-value">{activePlayers.length}</p>
-        </article>
-        <article className="metric-card">
-          <p className="metric-label">Clubs loaded</p>
-          <p className="metric-value">{clubs.length}</p>
-        </article>
-        <article className="metric-card">
-          <p className="metric-label">Cities loaded</p>
-          <p className="metric-value">{cities.length}</p>
-        </article>
-        <article className="metric-card">
-          <p className="metric-label">Teams loaded</p>
-          <p className="metric-value">{teams.length}</p>
-        </article>
-      </section>
+      <SummaryRow
+        items={[
+          { key: "players", label: "Players", value: activePlayers.length.toLocaleString() },
+          { key: "clubs", label: "Clubs", value: clubs.length },
+          { key: "cities", label: "Cities", value: cities.length },
+          { key: "teams", label: "Teams", value: teams.length },
+        ]}
+      />
 
-      <section className="content-panel reveal">
-        <div className="panel-heading">
-          <p className="eyebrow">Filters</p>
-          <h3>Narrow the map</h3>
-        </div>
-        <div className="filter-bar">
-          <label className="filter-field">
-            <span>National team</span>
-            <select value={team} onChange={(event) => setTeam(event.target.value)}>
-              <option value={ALL}>All teams</option>
-              {teamOptions.map((name) => (
-                <option key={name} value={name}>
-                  {name}
-                </option>
-              ))}
-            </select>
-          </label>
-          <label className="filter-field">
-            <span>Club country</span>
-            <select value={country} onChange={(event) => setCountry(event.target.value)}>
-              <option value={ALL}>All countries</option>
-              {countryOptions.map((name) => (
-                <option key={name} value={name}>
-                  {name}
-                </option>
-              ))}
-            </select>
-          </label>
-          <label className="filter-field">
-            <span>League</span>
-            <select value={league} onChange={(event) => setLeague(event.target.value)}>
-              <option value={ALL}>All leagues</option>
-              {leagueOptions.map((name) => (
-                <option key={name} value={name}>
-                  {name}
-                </option>
-              ))}
-            </select>
-          </label>
-          <div className="filter-field search-field" ref={searchWrapRef}>
-            <span>Club or player search</span>
-            <input
-              type="text"
-              value={searchText}
-              onChange={(event) => {
-                setSearchText(event.target.value);
-                setSuggestionsOpen(true);
-              }}
-              onFocus={() => setSuggestionsOpen(true)}
-              onKeyDown={(event) => {
-                if (event.key === "Enter" && suggestions.length > 0) {
-                  event.preventDefault();
-                  addSelection(suggestions[0]);
-                }
-              }}
-              placeholder="e.g. Real Madrid or Mbappe"
-            />
-            {suggestionsOpen && suggestions.length > 0 ? (
-              <ul className="suggestion-list">
-                {suggestions.map((suggestion, index) => (
-                  <li key={`${suggestion.type}-${suggestion.id}`}>
-                    <button
-                      type="button"
-                      className={index === 0 ? "suggestion suggestion-top" : "suggestion"}
-                      onClick={() => addSelection(suggestion)}
-                    >
-                      <span>{suggestion.label}</span>
-                      <span className="suggestion-hint">
-                        {suggestion.type === "club" ? "Club" : "Player"} · {suggestion.hint}
-                      </span>
-                    </button>
-                  </li>
-                ))}
-              </ul>
-            ) : null}
-          </div>
-        </div>
-
-        {activeChips.length > 0 ? (
-          <div className="active-filter-row">
-            {activeChips.map((chip) => (
-              <span key={chip.key} className="filter-chip">
-                {chip.label}
-                <button type="button" className="filter-chip-remove" onClick={chip.onRemove} aria-label={`Remove ${chip.label}`}>
-                  ×
-                </button>
-              </span>
-            ))}
-            <button type="button" className="link-button" onClick={clearFilters}>
-              Clear all
+      <div className="club-map-layout reveal">
+        <aside className="club-map-sidebar">
+          <div className="club-map-sidebar-head">
+            <h2 className="section-heading">Filters</h2>
+            <button
+              type="button"
+              className="filter-toggle"
+              aria-expanded={filtersOpen}
+              aria-controls="club-map-filters"
+              onClick={() => setFiltersOpen((open) => !open)}
+            >
+              {filtersOpen ? "Hide" : "Show"} filters
+              {activeChips.length > 0 ? <span className="filter-toggle-count">{activeChips.length}</span> : null}
             </button>
           </div>
-        ) : null}
-
-        <p className="results-summary">
-          Showing {filteredCities.length} of {cities.length} city markers.
-        </p>
-      </section>
-
-      <section className="content-panel reveal">
-        <div className="panel-heading">
-          <p className="eyebrow">Club map</p>
-          <h3>
-            {filteredCities.length} cit{filteredCities.length === 1 ? "y" : "ies"} on the map
-          </h3>
-        </div>
-
-        <div className="map-frame">
-          <PlayersClubsMap
-            cities={filteredCities}
-            selectedCityKey={selectedCityKey}
-            onSelectCity={setSelectedCityKey}
-            focus={focus}
-          />
-        </div>
-        {filteredCities.length === 0 ? (
-          <p className="city-detail-empty">
-            No cities match the current filters — remove one or two chips above to widen the search.
-          </p>
-        ) : null}
-
-        {selectedCity ? (
-          <div className="club-card-list">
-            <p className="selected-city-label">
-              {selectedCity.city}, {selectedCity.country}
-            </p>
-            {selectedClubs.map((club) => {
-              const clubPlayers = getPlayersForClub(club.club_id).filter(
-                (player) => team === ALL || getTeamForPlayer(player.player_id)?.team === team,
-              );
-              return (
-                <article key={club.club_id} className="club-card">
-                  <h4>{club.club_name}</h4>
-                  <p className="club-card-meta">
-                    {club.league ?? "League pending"} &middot; {club.country ?? "—"}
-                    {club.stadium ? ` · ${club.stadium}` : ""}
-                  </p>
-                  {clubPlayers.length > 0 ? (
-                    <div className="player-chip-list">
-                      {clubPlayers.map((player) => {
-                        const playerTeam = getTeamForPlayer(player.player_id);
-                        return (
-                          <PlayerLink key={player.player_id} playerId={player.player_id} className="player-chip">
-                            {player.display_name}
-                            {playerTeam ? ` · ${playerTeam.team}` : ""}
-                          </PlayerLink>
-                        );
-                      })}
-                    </div>
-                  ) : (
-                    <p className="city-detail-empty">
-                      No players here match the current national-team filter.
-                    </p>
-                  )}
-                </article>
-              );
-            })}
+          <div
+            id="club-map-filters"
+            className={filtersOpen ? "club-map-filters club-map-filters-open" : "club-map-filters"}
+          >
+            <FilterGroup label="National team">
+              <select value={team} onChange={(event) => setTeam(event.target.value)}>
+                <option value={ALL}>All teams</option>
+                {teamOptions.map((name) => (
+                  <option key={name} value={name}>
+                    {name}
+                  </option>
+                ))}
+              </select>
+            </FilterGroup>
+            <FilterGroup label="Club country">
+              <select value={country} onChange={(event) => setCountry(event.target.value)}>
+                <option value={ALL}>All countries</option>
+                {countryOptions.map((name) => (
+                  <option key={name} value={name}>
+                    {name}
+                  </option>
+                ))}
+              </select>
+            </FilterGroup>
+            <FilterGroup label="League">
+              <select value={league} onChange={(event) => setLeague(event.target.value)}>
+                <option value={ALL}>All leagues</option>
+                {leagueOptions.map((name) => (
+                  <option key={name} value={name}>
+                    {name}
+                  </option>
+                ))}
+              </select>
+            </FilterGroup>
+            <div className="filter-field search-field" ref={searchWrapRef}>
+              <span>Club or player search</span>
+              <input
+                type="text"
+                value={searchText}
+                onChange={(event) => {
+                  setSearchText(event.target.value);
+                  setSuggestionsOpen(true);
+                }}
+                onFocus={() => setSuggestionsOpen(true)}
+                onKeyDown={(event) => {
+                  if (event.key === "Enter" && suggestions.length > 0) {
+                    event.preventDefault();
+                    addSelection(suggestions[0]);
+                  }
+                }}
+                placeholder="e.g. Real Madrid or Mbappe"
+              />
+              {suggestionsOpen && suggestions.length > 0 ? (
+                <ul className="suggestion-list">
+                  {suggestions.map((suggestion, index) => (
+                    <li key={`${suggestion.type}-${suggestion.id}`}>
+                      <button
+                        type="button"
+                        className={index === 0 ? "suggestion suggestion-top" : "suggestion"}
+                        onClick={() => addSelection(suggestion)}
+                      >
+                        <span>{suggestion.label}</span>
+                        <span className="suggestion-hint">
+                          {suggestion.type === "club" ? "Club" : "Player"} · {suggestion.hint}
+                        </span>
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              ) : null}
+            </div>
           </div>
-        ) : filteredCities.length > 0 ? (
-          <p className="city-detail-empty">Click a marker to see its clubs and players.</p>
-        ) : null}
-      </section>
+        </aside>
+
+        <div className="club-map-main">
+          <div className="club-map-bar">
+            <div className="active-filter-row">
+              {activeChips.length > 0 ? (
+                activeChips.map((chip) => (
+                  <span key={chip.key} className="filter-chip">
+                    {chip.label}
+                    <button
+                      type="button"
+                      className="filter-chip-remove"
+                      onClick={chip.onRemove}
+                      aria-label={`Remove ${chip.label}`}
+                    >
+                      ×
+                    </button>
+                  </span>
+                ))
+              ) : (
+                <span className="results-summary">
+                  Showing all {cities.length} city markers.
+                </span>
+              )}
+            </div>
+            {hasActiveFilters ? (
+              <button type="button" className="button-secondary map-reset" onClick={clearFilters}>
+                Reset filters
+              </button>
+            ) : null}
+          </div>
+
+          {activeChips.length > 0 ? (
+            <p className="results-summary map-showing">
+              Showing {filteredCities.length} of {cities.length} city markers.
+            </p>
+          ) : null}
+
+          <div className="club-map-stage">
+            <div className="map-frame club-map-frame">
+              <PlayersClubsMap
+                cities={filteredCities}
+                selectedCityKey={selectedCityKey}
+                onSelectCity={setSelectedCityKey}
+                focus={focus}
+              />
+            </div>
+            {cityDrawer}
+          </div>
+
+          <div className="map-legend">
+            <ChartLegend
+              items={[
+                { key: "country", color: MAP_COUNTRY_COLOR, label: "Country bubble (zoomed out)", shape: "dot" },
+                { key: "city", color: MAP_CITY_COLOR, label: "Club city (zoomed in)", shape: "dot" },
+                { key: "active", color: MAP_ACTIVE_COLOR, label: "Selected city", shape: "dot" },
+              ]}
+            />
+            <p className="map-legend-note">Marker size grows with the number of clubs in that country or city.</p>
+          </div>
+
+          {filteredCities.length === 0 ? (
+            <EmptyState>
+              No cities match the current filters — remove one or two chips to widen the search.
+            </EmptyState>
+          ) : null}
+
+          <Expandable
+            summary={`Browse the ${filteredCities.length} matching cities as a list`}
+            className="map-list-alt"
+          >
+            <div className="data-table-wrap">
+              <table className="data-table">
+                <thead>
+                  <tr>
+                    <th>City</th>
+                    <th>Country</th>
+                    <th style={{ textAlign: "right" }}>Clubs</th>
+                    <th>Open</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[...filteredCities]
+                    .sort((a, b) => b.club_count - a.club_count || a.city.localeCompare(b.city))
+                    .map((city) => (
+                      <tr key={city.city_key}>
+                        <td>{city.city}</td>
+                        <td>
+                          <CountryFlag country={city.country} showName />
+                        </td>
+                        <td style={{ textAlign: "right", fontVariantNumeric: "tabular-nums" }}>
+                          {city.club_count}
+                        </td>
+                        <td>
+                          <button
+                            type="button"
+                            className="link-button"
+                            onClick={() => setSelectedCityKey(city.city_key)}
+                          >
+                            View clubs
+                          </button>
+                        </td>
+                      </tr>
+                    ))}
+                </tbody>
+              </table>
+            </div>
+          </Expandable>
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,9 +1,11 @@
 import { useMemo, useState } from "react";
 import { BarList, type BarListItem } from "@/components/bar-list";
+import { CountryFlag } from "@/components/country-flag";
 import { DonutGauge } from "@/components/donut-gauge";
 import { PlayerLink } from "@/components/player-detail";
 import { Treemap, type TreemapItem } from "@/components/treemap";
 import { XgScatter } from "@/components/xg-scatter";
+import { PageHeader, ChartLegend, FilterGroup } from "@/components/ui";
 import {
   activePlayers,
   coaches,
@@ -103,7 +105,6 @@ const maxBirthCityCount = Math.max(...Array.from(birthCityGroups.values()).map((
 const topBirthCities = Array.from(birthCityGroups.values()).filter(
   (group) => group.players.length === maxBirthCityCount,
 );
-
 
 // --- Home-grown vs diaspora, all 48 teams, sortable ---
 
@@ -216,8 +217,6 @@ const leagueItems: BarListItem[] = Array.from(leagueCallupCounts.entries())
   .map(([league, count]) => ({ key: league, label: league, value: count }))
   .sort((a, b) => b.value - a.value);
 
-// Podium (top clubs, ties included) + long-tail frequency for everything the
-// podium does NOT already show, so the two visuals never repeat information.
 const clubPodium = rankWithTies(clubItems, (item) => item.value, 5);
 const clubTail = clubItems.slice(clubPodium.length);
 const clubTailFrequency = (() => {
@@ -228,8 +227,6 @@ const clubTailFrequency = (() => {
   return Array.from(freq.entries()).sort((a, b) => b[0] - a[0]);
 })();
 
-// League treemap: every league that sent at least `leagueTileCutoff` players
-// gets its own tile; the rest fold into one block.
 const LEAGUE_TILE_COUNT = 14;
 const leagueTileCutoff = leagueItems[Math.min(LEAGUE_TILE_COUNT, leagueItems.length) - 1]?.value ?? 0;
 const leagueTreemapItems: TreemapItem[] = (() => {
@@ -260,7 +257,6 @@ const xgRanked = [...teamStats]
 const xgStats = xgRanked.map((row) => row.stat);
 const topOverPerformers = xgRanked.slice(0, 3);
 const topUnderPerformers = [...xgRanked].reverse().slice(0, 3);
-// Label the two biggest movers on each end directly; the rest use hover.
 const xgLabelled = new Set<string>([
   ...topOverPerformers.slice(0, 2).map((row) => row.stat.team),
   ...topUnderPerformers.slice(0, 2).map((row) => row.stat.team),
@@ -404,6 +400,14 @@ const nonCompetingContributors = Array.from(officialOrCoachCountries)
     return { country, detail: parts.join(", ") };
   });
 
+const SECTIONS = [
+  { id: "composition", label: "Squad composition" },
+  { id: "birthplaces", label: "Birthplaces" },
+  { id: "clubs-leagues", label: "Clubs & leagues" },
+  { id: "performance", label: "Tournament performance" },
+  { id: "people", label: "Coaches & officials" },
+];
+
 // --- clickable country chips ---
 
 function CountryChipList({
@@ -433,6 +437,7 @@ function CountryChipList({
             title={countryTooltip(item.label)}
             onClick={() => onSelect(item.key === selected ? null : item.key)}
           >
+            <CountryFlag country={item.label} />
             {item.chipText}
           </button>
         ))}
@@ -464,21 +469,105 @@ export function InsightsRoute() {
 
   return (
     <div className="page-stack">
-      <section className="content-panel centered-panel reveal">
-        <div className="panel-heading">
-          <p className="eyebrow">Insights</p>
-          <h2>Cross-squad insights</h2>
+      <PageHeader
+        eyebrow="Analysis"
+        title="Cross-squad analysis"
+        intro="Patterns drawn from where World Cup 2026 players were born, which clubs and leagues they play in, how the confederations fared, and the people on the touchline and with the whistle."
+      />
+
+      <nav className="section-nav reveal" aria-label="Analysis sections">
+        {SECTIONS.map((section) => (
+          <a key={section.id} href={`#${section.id}`} className="section-nav-link">
+            {section.label}
+          </a>
+        ))}
+      </nav>
+
+      {/* 1. SQUAD COMPOSITION */}
+      <section id="composition" className="content-panel reveal">
+        <h2 className="section-heading">Squad composition</h2>
+        <div className="analysis-cols">
+          <div>
+            <h3 className="subsection-heading">Average squad age</h3>
+            <p className="insight-note">Mean age in years, measured at the 2026-06-11 kickoff.</p>
+            <div className="metrics-grid">
+              <article className="metric-card">
+                <p className="metric-label">Youngest squad</p>
+                <p className="metric-value">{youngestSquad.averageAge.toFixed(1)}</p>
+                <p className="metric-note">{youngestSquad.team}</p>
+              </article>
+              <article className="metric-card">
+                <p className="metric-label">Oldest squad</p>
+                <p className="metric-value">{oldestSquad.averageAge.toFixed(1)}</p>
+                <p className="metric-note">{oldestSquad.team}</p>
+              </article>
+              <article className="metric-card">
+                <p className="metric-label">All-squad average</p>
+                <p className="metric-value">{overallAverageAge.toFixed(1)}</p>
+                <p className="metric-note">years old</p>
+              </article>
+            </div>
+            <h4 className="subsection-heading">Every squad, oldest to youngest</h4>
+            <div className="age-pair-list">
+              {teamAgeStats.map((stat) => (
+                <div key={stat.team} className="age-pair">
+                  <span className="age-pair-team">
+                    {stat.team}
+                    <CountryFlag country={stat.team} />
+                  </span>
+                  <span className="age-pair-value">{stat.averageAge.toFixed(1)}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h3 className="subsection-heading">Home-grown vs diaspora</h3>
+            <p className="insight-note">
+              Each donut fills with the share of the squad born in the country it represents; the
+              rest were born abroad. Focus or hover a donut for the exact split.
+            </p>
+            <FilterGroup label="Sort squads" className="donut-sort-field">
+              <select
+                value={homegrownSort}
+                onChange={(event) => setHomegrownSort(event.target.value as HomegrownSort)}
+              >
+                <option value="most-homegrown">Most home-grown players</option>
+                <option value="most-diaspora">Most diaspora players</option>
+                <option value="alphabetical">Alphabetical</option>
+                <option value="confederation">By confederation</option>
+              </select>
+            </FilterGroup>
+            <ChartLegend
+              items={[
+                { key: "home", color: "#145b3d", label: "Born in-country", shape: "dot" },
+                { key: "abroad", color: "#e8eee8", label: "Born abroad (unfilled)", shape: "dot" },
+              ]}
+            />
+            <div className="donut-grid">
+              {sortedHomegrown.map((stat, index) => (
+                <DonutGauge
+                  key={stat.teamCode}
+                  label={stat.team}
+                  value={stat.bornIn}
+                  total={stat.squadSize}
+                  tone={index % 2 === 0 ? "a" : "b"}
+                  sublabel={`${stat.bornIn} home · ${stat.bornOut} abroad`}
+                  title={`${stat.team}: ${stat.bornIn} born in-country, ${stat.bornOut} born abroad (squad of ${stat.squadSize})`}
+                />
+              ))}
+            </div>
+          </div>
         </div>
-        <p className="panel-intro">
-          Cross-squad facts drawn from where World Cup 2026 players were born, which clubs
-          and leagues they play in, how the confederations fared, and the people on the
-          touchline and with the whistle.
+        <p className="source-note">
+          Source: birthplaces from Wikidata (manually reviewed); squad membership from the final
+          roster export.
         </p>
       </section>
 
-      <section className="content-panel reveal">
-        <h3 className="section-heading">Country of birth</h3>
-
+      {/* 2. BIRTHPLACES */}
+      <section id="birthplaces" className="content-panel reveal">
+        <h2 className="section-heading">Birthplaces</h2>
         <div className="metrics-grid">
           <article className="metric-card">
             <p className="metric-label">Most players born in one country</p>
@@ -499,57 +588,66 @@ export function InsightsRoute() {
         {playersMissingBirthData > 0 ? (
           <p className="insight-note note-spaced">
             {playersMissingBirthData} late squad addition
-            {playersMissingBirthData === 1 ? "" : "s"} still awaiting birthplace data are
-            excluded from these breakdowns.
+            {playersMissingBirthData === 1 ? "" : "s"} still awaiting birthplace data are excluded
+            from these breakdowns.
           </p>
         ) : null}
 
-        <h4 className="subsection-heading">All countries represented, by player birthplace</h4>
-        <p className="insight-note">Hover a bar to see who was born there, and where.</p>
+        <h3 className="subsection-heading">Players by country of birth</h3>
+        <p className="insight-note">
+          Count of players (bar length). Focus or hover a bar to see who was born there.
+        </p>
         <BarList
           items={birthCountryItems.map((item) => ({
             ...item,
+            flagCountry: item.label,
             title: `${item.label} (${item.value}): ${countryTooltip(item.label)}`,
           }))}
-          scrollable
+          initialVisible={15}
+          itemsLabel="birth countries"
         />
 
-        <h4 className="subsection-heading">Least-represented birth countries</h4>
-        <p className="insight-note">
-          {minBirthCount} player{minBirthCount === 1 ? "" : "s"} each, tied across{" "}
-          {leastBirthCountries.length} countries. Click a country to see the player and their
-          birth city.
-        </p>
-        <CountryChipList
-          items={leastBirthCountries.map((item) => ({ key: item.key, label: item.label, chipText: item.label }))}
-          selected={selectedLeastCountry}
-          onSelect={setSelectedLeastCountry}
-        />
+        <div className="analysis-cols">
+          <div>
+            <h4 className="subsection-heading">Least-represented birth countries</h4>
+            <p className="insight-note">
+              {minBirthCount} player{minBirthCount === 1 ? "" : "s"} each, tied across{" "}
+              {leastBirthCountries.length} countries. Click a country for the player and their birth
+              city.
+            </p>
+            <CountryChipList
+              items={leastBirthCountries.map((item) => ({ key: item.key, label: item.label, chipText: item.label }))}
+              selected={selectedLeastCountry}
+              onSelect={setSelectedLeastCountry}
+            />
+          </div>
+          <div>
+            <h4 className="subsection-heading">Player diaspora</h4>
+            <p className="insight-note">
+              {diasporaCountries.length} countries not competing in 2026 still produced at least one
+              player. Click a country for details.
+            </p>
+            <CountryChipList
+              items={diasporaCountries.map((item) => ({
+                key: item.key,
+                label: item.label,
+                chipText: `${item.label} (${item.value})`,
+              }))}
+              selected={selectedDiasporaCountry}
+              onSelect={setSelectedDiasporaCountry}
+            />
+          </div>
+        </div>
 
-        <h4 className="subsection-heading">Player diaspora</h4>
-        <p className="insight-note">
-          {diasporaCountries.length} countries not competing in the 2026 World Cup still
-          produced at least one World Cup 2026 player. Click for details:
-        </p>
-        <CountryChipList
-          items={diasporaCountries.map((item) => ({
-            key: item.key,
-            label: item.label,
-            chipText: `${item.label} (${item.value})`,
-          }))}
-          selected={selectedDiasporaCountry}
-          onSelect={setSelectedDiasporaCountry}
-        />
-
-        <h4 className="subsection-heading">City spotlight</h4>
+        <h3 className="subsection-heading">City spotlight</h3>
         {topBirthCities.map((group) => (
           <div key={`${group.city}-${group.country}`}>
             <p className="insight-note">
               <strong>
                 {group.city}, {group.country}
               </strong>{" "}
-              is the birthplace of {group.players.length} World Cup 2026 players. Hover a
-              name for their team and club, or click for the full profile:
+              is the birthplace of {group.players.length} World Cup 2026 players. Click a name for the
+              full profile.
             </p>
             <div className="chip-list">
               {group.players.map((entry, index) => (
@@ -564,145 +662,136 @@ export function InsightsRoute() {
             </div>
           </div>
         ))}
-
-        <h4 className="subsection-heading">Home-grown vs diaspora, all 48 squads</h4>
-        <p className="insight-note">
-          Each donut fills with the share of the squad born in the country it represents; the
-          rest were born abroad. Hover for the split.
-        </p>
-        <label className="filter-field donut-sort-field">
-          <span>Sort squads</span>
-          <select
-            value={homegrownSort}
-            onChange={(event) => setHomegrownSort(event.target.value as HomegrownSort)}
-          >
-            <option value="most-homegrown">Most home-grown players</option>
-            <option value="most-diaspora">Most diaspora players</option>
-            <option value="alphabetical">Alphabetical</option>
-            <option value="confederation">By confederation</option>
-          </select>
-        </label>
-        <div className="donut-grid">
-          {sortedHomegrown.map((stat, index) => (
-            <DonutGauge
-              key={stat.teamCode}
-              label={stat.team}
-              value={stat.bornIn}
-              total={stat.squadSize}
-              tone={index % 2 === 0 ? "a" : "b"}
-              sublabel={`${stat.bornIn} home · ${stat.bornOut} abroad`}
-              title={`${stat.team}: ${stat.bornIn} born in-country, ${stat.bornOut} born abroad (squad of ${stat.squadSize})`}
-            />
-          ))}
-        </div>
+        <p className="source-note">Source: birthplaces from Wikidata, manually reviewed.</p>
       </section>
 
-      <div className="content-grid insights-columns reveal">
-        <section className="content-panel">
-          <h3 className="section-heading">Average squad age</h3>
-          <p className="insight-note">Measured as of the 2026-06-11 tournament kickoff.</p>
-          <div className="metrics-grid">
-            <article className="metric-card">
-              <p className="metric-label">Youngest squad</p>
-              <p className="metric-value">{youngestSquad.averageAge.toFixed(1)}</p>
-              <p className="metric-note">{youngestSquad.team}</p>
-            </article>
-            <article className="metric-card">
-              <p className="metric-label">Oldest squad</p>
-              <p className="metric-value">{oldestSquad.averageAge.toFixed(1)}</p>
-              <p className="metric-note">{oldestSquad.team}</p>
-            </article>
-            <article className="metric-card">
-              <p className="metric-label">All-squad average</p>
-              <p className="metric-value">{overallAverageAge.toFixed(1)}</p>
-              <p className="metric-note">years old</p>
-            </article>
-          </div>
-          <h4 className="subsection-heading">Every squad, oldest to youngest</h4>
-          <div className="age-pair-list">
-            {teamAgeStats.map((stat) => (
-              <div key={stat.team} className="age-pair">
-                <span>{stat.team}</span>
-                <span className="age-pair-value">{stat.averageAge.toFixed(1)}</span>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        <section className="content-panel">
-          <h3 className="section-heading">Club at call-up</h3>
-          <div className="metrics-grid">
-            <article className="metric-card">
-              <p className="metric-label">Clubs represented</p>
-              <p className="metric-value">{clubItems.length}</p>
-              <p className="metric-note">
-                supplying all {activePlayers.length.toLocaleString()} players
-              </p>
-            </article>
-            <article className="metric-card">
-              <p className="metric-label">Top club by players sent</p>
-              <p className="metric-value">{clubItems[0].value}</p>
-              <p className="metric-note">{clubItems[0].label}</p>
-            </article>
-          </div>
-
-          <h4 className="subsection-heading">The podium — top clubs by players sent</h4>
-          <div className="podium-list">
-            {clubPodium.map((item, index) => (
-              <article key={item.key} className="podium-card">
-                <span className="podium-rank">
-                  {index === 0 ? "🥇" : index === 1 ? "🥈" : index === 2 ? "🥉" : `#${index + 1}`}
-                </span>
-                <span className="podium-club">{item.label}</span>
-                <span className="podium-count">{item.value} players</span>
+      {/* 3. CLUBS & LEAGUES */}
+      <section id="clubs-leagues" className="content-panel reveal">
+        <h2 className="section-heading">Clubs &amp; leagues</h2>
+        <p className="insight-note">
+          Where the {activePlayers.length.toLocaleString()} players were playing club football when
+          they were called up.
+        </p>
+        <div className="analysis-cols">
+          <div>
+            <h3 className="subsection-heading">Clubs by players sent</h3>
+            <div className="metrics-grid">
+              <article className="metric-card">
+                <p className="metric-label">Clubs represented</p>
+                <p className="metric-value">{clubItems.length}</p>
               </article>
-            ))}
-          </div>
-
-          <h4 className="subsection-heading">…and the long tail</h4>
-          <p className="insight-note">
-            The remaining {clubTail.length} clubs (everything below the podium):
-          </p>
-          <div className="tail-list">
-            {clubTailFrequency.map(([playersSent, clubCount]) => (
-              <div key={playersSent} className="tail-row">
-                <span className="tail-count">{clubCount}</span>
-                <span>
-                  club{clubCount === 1 ? "" : "s"} sent {playersSent} player
-                  {playersSent === 1 ? "" : "s"}
-                </span>
-              </div>
-            ))}
-          </div>
-
-          <h4 className="subsection-heading">Leagues, sized by players sent</h4>
-          <p className="insight-note">
-            {leagueItems.length} leagues in total. Every league that sent at least{" "}
-            {leagueTileCutoff} players gets its own tile; the rest fold into one block. Click a
-            tile for its full name and count.
-          </p>
-          <Treemap
-            items={leagueTreemapItems}
-            valueSuffix=" players"
-            selectedKey={selectedLeague?.key ?? null}
-            onSelect={(item) => setSelectedLeague(item.key === selectedLeague?.key ? null : item)}
-          />
-          {selectedLeague ? (
-            <div className="chip-detail">
-              <strong>{selectedLeague.label}</strong> — {selectedLeague.value} players at the
-              World Cup
+              <article className="metric-card">
+                <p className="metric-label">Top club</p>
+                <p className="metric-value">{clubItems[0].value}</p>
+                <p className="metric-note">{clubItems[0].label}</p>
+              </article>
             </div>
-          ) : null}
-        </section>
-      </div>
+            <h4 className="subsection-heading">The podium</h4>
+            <div className="podium-list">
+              {clubPodium.map((item, index) => (
+                <article key={item.key} className="podium-card">
+                  <span className="podium-rank">
+                    {index === 0 ? "🥇" : index === 1 ? "🥈" : index === 2 ? "🥉" : `#${index + 1}`}
+                  </span>
+                  <span className="podium-club">{item.label}</span>
+                  <span className="podium-count">{item.value} players</span>
+                </article>
+              ))}
+            </div>
+            <h4 className="subsection-heading">…and the long tail</h4>
+            <p className="insight-note">The remaining {clubTail.length} clubs below the podium:</p>
+            <div className="tail-list">
+              {clubTailFrequency.map(([playersSent, clubCount]) => (
+                <div key={playersSent} className="tail-row">
+                  <span className="tail-count">{clubCount}</span>
+                  <span>
+                    club{clubCount === 1 ? "" : "s"} sent {playersSent} player
+                    {playersSent === 1 ? "" : "s"}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
 
-      <section className="content-panel reveal">
-        <h3 className="section-heading">Confederations</h3>
-        <div className="confed-layout">
+          <div>
+            <h3 className="subsection-heading">Leagues, sized by players sent</h3>
+            <p className="insight-note">
+              {leagueItems.length} leagues in all (unit: players). Every league that sent at least{" "}
+              {leagueTileCutoff} players gets its own tile; the rest fold into one block. Click a tile
+              for its full name and count.
+            </p>
+            <Treemap
+              items={leagueTreemapItems}
+              valueSuffix=" players"
+              selectedKey={selectedLeague?.key ?? null}
+              onSelect={(item) => setSelectedLeague(item.key === selectedLeague?.key ? null : item)}
+            />
+            {selectedLeague ? (
+              <div className="chip-detail">
+                <strong>{selectedLeague.label}</strong> — {selectedLeague.value} players at the World
+                Cup
+              </div>
+            ) : null}
+          </div>
+        </div>
+        <p className="source-note">
+          Source: club-at-call-up assignments normalized against Wikipedia and official club sites.
+        </p>
+      </section>
+
+      {/* 4. TOURNAMENT PERFORMANCE */}
+      <section id="performance" className="content-panel reveal">
+        <h2 className="section-heading">Tournament performance</h2>
+
+        <h3 className="subsection-heading">Goals vs expected goals (xG)</h3>
+        <p className="insight-note">
+          Each dot is a team: expected goals (xG, horizontal, in goals) against goals actually scored
+          (vertical, in goals). Dots above the dashed line out-scored their chances; dots below left
+          goals on the pitch. Focus or hover a dot for the exact figures.
+        </p>
+        <ChartLegend
+          items={[
+            { key: "over", color: "#145b3d", label: "Out-scored xG", shape: "dot" },
+            { key: "under", color: "#b0542b", label: "Under-scored xG", shape: "dot" },
+            { key: "par", color: "#59655e", label: "About level", shape: "dot" },
+            { key: "line", color: "#59655e", label: "goals = xG", shape: "line" },
+          ]}
+        />
+        <div className="metrics-grid">
+          <article className="metric-card">
+            <p className="metric-label">Biggest over-performance</p>
+            <p className="metric-value">+{topOverPerformers[0].delta.toFixed(1)}</p>
+            <p className="metric-note">
+              {topOverPerformers[0].stat.team} — {topOverPerformers[0].stat.goals_for} goals from{" "}
+              {topOverPerformers[0].stat.xg.toFixed(1)} xG
+            </p>
+          </article>
+          <article className="metric-card">
+            <p className="metric-label">Biggest under-performance</p>
+            <p className="metric-value">{topUnderPerformers[0].delta.toFixed(1)}</p>
+            <p className="metric-note">
+              {topUnderPerformers[0].stat.team} — {topUnderPerformers[0].stat.goals_for} goals from{" "}
+              {topUnderPerformers[0].stat.xg.toFixed(1)} xG
+            </p>
+          </article>
+          <article className="metric-card">
+            <p className="metric-label">All teams combined</p>
+            <p className="metric-value">{totalGoals}</p>
+            <p className="metric-note">goals from {totalXg.toFixed(1)} total xG</p>
+          </article>
+        </div>
+        <XgScatter stats={xgStats} labelled={xgLabelled} />
+
+        <h3 className="subsection-heading">Confederations</h3>
+        <p className="insight-note">
+          <strong>Definitions:</strong> R32/R16/QF/SF are the last-32, last-16, quarter-final, and
+          semi-final rounds; "survivors" counts how many of a confederation's teams were still alive
+          at each stage.
+        </p>
+        <div className="analysis-cols">
           <div>
             <h4 className="subsection-heading">Explore a confederation</h4>
-            <label className="filter-field donut-sort-field">
-              <span>Confederation</span>
+            <FilterGroup label="Confederation" className="donut-sort-field">
               <select value={selectedConfed} onChange={(event) => setSelectedConfed(event.target.value)}>
                 {confedFunnel.map((row) => (
                   <option key={row.code} value={row.code}>
@@ -710,12 +799,12 @@ export function InsightsRoute() {
                   </option>
                 ))}
               </select>
-            </label>
+            </FilterGroup>
             {selectedConfedRow ? (
               <>
                 <p className="insight-note">
                   {selectedConfedInfo?.name ?? selectedConfed}: {selectedConfedRow.starters} of{" "}
-                  {selectedConfedInfo?.members.length ?? "?"} member nations qualified for the Cup.
+                  {selectedConfedInfo?.members.length ?? "?"} member nations qualified.
                 </p>
                 <div className="chip-list">
                   {[...selectedConfedRow.teams]
@@ -730,6 +819,7 @@ export function InsightsRoute() {
                         className={index % 2 === 0 ? "player-chip" : "player-chip player-chip-alt"}
                         title={`${entry.team} — ${entry.stage}`}
                       >
+                        <CountryFlag country={entry.team} />
                         {entry.team} · {STAGE_COLUMN_LABELS[entry.stage] ?? "Groups"}
                       </span>
                     ))}
@@ -737,10 +827,9 @@ export function InsightsRoute() {
               </>
             ) : null}
           </div>
-
           <div>
             <h4 className="subsection-heading">How each confederation's teams progressed</h4>
-            <p className="insight-note">Starters, then how many were still alive at each stage.</p>
+            <p className="insight-note">Starters, then survivors at each stage.</p>
             <div className="data-table-wrap">
               <table className="data-table">
                 <thead>
@@ -770,8 +859,8 @@ export function InsightsRoute() {
 
         <h4 className="subsection-heading">Cross-confederation wins</h4>
         <p className="insight-note">
-          Decided matches (including penalty shootouts) between teams from different
-          confederations. Rows win, columns lose.
+          Decided matches (including shootouts) between different confederations. Rows win, columns
+          lose.
         </p>
         <div className="data-table-wrap">
           <table className="data-table confed-matrix">
@@ -803,57 +892,15 @@ export function InsightsRoute() {
             </tbody>
           </table>
         </div>
-      </section>
-
-      <section className="content-panel reveal">
-        <h3 className="section-heading">Goals vs expected goals (xG)</h3>
-        <p className="insight-note">
-          Each dot is a team: the chances it created (expected goals, xG) on the horizontal
-          axis against the goals it actually scored on the vertical axis. Dots above the
-          diagonal out-scored their chances (clinical finishing or good fortune); dots below
-          it left goals on the pitch. Hover any dot for the exact figures.
-        </p>
-        <div className="metrics-grid">
-          <article className="metric-card">
-            <p className="metric-label">Biggest over-performance</p>
-            <p className="metric-value">+{topOverPerformers[0].delta.toFixed(1)}</p>
-            <p className="metric-note">
-              {topOverPerformers[0].stat.team} — {topOverPerformers[0].stat.goals_for} goals from{" "}
-              {topOverPerformers[0].stat.xg.toFixed(1)} xG
-            </p>
-          </article>
-          <article className="metric-card">
-            <p className="metric-label">Biggest under-performance</p>
-            <p className="metric-value">{topUnderPerformers[0].delta.toFixed(1)}</p>
-            <p className="metric-note">
-              {topUnderPerformers[0].stat.team} — {topUnderPerformers[0].stat.goals_for} goals from{" "}
-              {topUnderPerformers[0].stat.xg.toFixed(1)} xG
-            </p>
-          </article>
-          <article className="metric-card">
-            <p className="metric-label">All teams combined</p>
-            <p className="metric-value">{totalGoals}</p>
-            <p className="metric-note">goals from {totalXg.toFixed(1)} total xG</p>
-          </article>
-        </div>
-        <XgScatter stats={xgStats} labelled={xgLabelled} />
-        <p className="insight-note note-spaced">
-          {topOverPerformers[0].stat.team}, {topOverPerformers[1].stat.team} and{" "}
-          {topOverPerformers[2].stat.team} have been the tournament's most clinical finishers,
-          each scoring well above what their chances were worth. At the other end,{" "}
-          {topUnderPerformers[0].stat.team}, {topUnderPerformers[1].stat.team} and{" "}
-          {topUnderPerformers[2].stat.team} created more than the scoreboard shows —{" "}
-          {topUnderPerformers[0].stat.team} most of all, sitting{" "}
-          {Math.abs(topUnderPerformers[0].delta).toFixed(1)} goals below its xG.{" "}
-          {totalGoals >= totalXg
-            ? `Across all 48 teams, finishing has slightly beaten the model (${totalGoals} goals from ${totalXg.toFixed(1)} xG).`
-            : `Across all 48 teams, xG has slightly outrun the goals actually scored (${totalGoals} goals from ${totalXg.toFixed(1)} xG).`}
+        <p className="source-note">
+          Source: match results and team xG from FIFA's official tournament pages.
         </p>
       </section>
 
-      <section className="content-panel reveal">
-        <h3 className="section-heading">Coaches &amp; referees</h3>
-        <div className="coaches-refs-layout">
+      {/* 5. COACHES & OFFICIALS */}
+      <section id="people" className="content-panel reveal">
+        <h2 className="section-heading">Coaches &amp; officials</h2>
+        <div className="analysis-cols">
           <div>
             <div className="metrics-grid">
               <article className="metric-card">
@@ -864,22 +911,17 @@ export function InsightsRoute() {
               <article className="metric-card">
                 <p className="metric-label">Referee nations</p>
                 <p className="metric-value">{refCountryCounts.size}</p>
-                <p className="metric-note">countries supplied the {refereeOnly.length} on-field referees</p>
+                <p className="metric-note">supplied the {refereeOnly.length} on-field referees</p>
               </article>
             </div>
-
-            <h4 className="subsection-heading">Countries supplying the most coaches</h4>
+            <h3 className="subsection-heading">Countries supplying the most coaches</h3>
             <BarList items={topCoachCountries} />
-
-            <h4 className="subsection-heading">Countries supplying the most referees</h4>
-            <p className="insight-note">
-              On-field referees only; each country also sends assistants and VARs.
-            </p>
+            <h3 className="subsection-heading">Countries supplying the most referees</h3>
+            <p className="insight-note">On-field referees only; each country also sends assistants and VARs.</p>
             <BarList items={topRefCountries} />
           </div>
-
           <div>
-            <h4 className="subsection-heading">Teams coached by a foreign coach</h4>
+            <h3 className="subsection-heading">Teams with a foreign coach</h3>
             <div className="chip-list">
               {foreignCoached
                 .sort((a, b) => a.team.localeCompare(b.team))
@@ -889,15 +931,15 @@ export function InsightsRoute() {
                     className={index % 2 === 0 ? "player-chip" : "player-chip player-chip-alt"}
                     title={`${entry.coach} (${entry.nationality}) coaches ${entry.team}`}
                   >
+                    <CountryFlag country={entry.team} />
                     {entry.team} · {entry.nationality}
                   </span>
                 ))}
             </div>
-
-            <h4 className="subsection-heading">At the Cup without a team</h4>
+            <h3 className="subsection-heading">At the Cup without a team</h3>
             <p className="insight-note">
-              {nonCompetingContributors.length} countries have no squad in the tournament but are
-              represented by match officials or coaches. Hover for the breakdown.
+              {nonCompetingContributors.length} countries have no squad but are represented by
+              officials or coaches. Hover for the breakdown.
             </p>
             <div className="chip-list">
               {nonCompetingContributors.map((entry, index) => (
@@ -906,12 +948,14 @@ export function InsightsRoute() {
                   className={index % 2 === 0 ? "player-chip" : "player-chip player-chip-alt"}
                   title={`${entry.country}: ${entry.detail}`}
                 >
+                  <CountryFlag country={entry.country} />
                   {entry.country}
                 </span>
               ))}
             </div>
           </div>
         </div>
+        <p className="source-note">Source: coaches and match officials from Wikipedia.</p>
       </section>
     </div>
   );

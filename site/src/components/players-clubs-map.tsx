@@ -16,9 +16,13 @@ const VERTICAL_MAX_BOUNDS: LatLngBoundsExpression = [
 // Below this zoom the map shows one bubble per country; at or above it the
 // individual city dots appear.
 const CITY_ZOOM_THRESHOLD = 4;
-const ACTIVE_COLOR = "#b3541e";
-const DEFAULT_COLOR = "#c96f33";
-const COUNTRY_COLOR = "#1f6f43";
+// Kept in sync with the map legend on the Club Map route.
+export const MAP_ACTIVE_COLOR = "#8a3f1e";
+export const MAP_CITY_COLOR = "#b0542b";
+export const MAP_COUNTRY_COLOR = "#145b3d";
+const ACTIVE_COLOR = MAP_ACTIVE_COLOR;
+const DEFAULT_COLOR = MAP_CITY_COLOR;
+const COUNTRY_COLOR = MAP_COUNTRY_COLOR;
 
 export interface MapFocus {
   /** Monotonic id so the same bounds can be re-applied. */

@@ -14,6 +14,7 @@ import {
   getSquadEntryForPlayer,
   getTeamForPlayer,
 } from "@/lib/data";
+import { CountryFlag } from "@/components/country-flag";
 
 const TOURNAMENT_START = new Date("2026-06-11T00:00:00Z");
 
@@ -138,7 +139,6 @@ function PlayerDetailPanel({ playerId, onClose }: { playerId: string; onClose: (
           : "—",
     },
     { label: "Birthplace", value: birthplace },
-    { label: "Height", value: player.height_cm ? `${player.height_cm} cm` : "—" },
     {
       label: "Club at call-up",
       value: club
@@ -192,8 +192,14 @@ function PlayerDetailPanel({ playerId, onClose }: { playerId: string; onClose: (
                 width={360}
               />
             ) : (
-              <div className="player-detail-photo-empty" aria-hidden="true">
-                <span>No licensed photo yet</span>
+              <div
+                className="player-detail-photo-empty"
+                role="img"
+                aria-label={team ? `${team.team} flag` : "National team flag pending"}
+              >
+                {team ? (
+                  <CountryFlag country={team.team} className="player-detail-photo-flag" />
+                ) : null}
               </div>
             )}
             {player.image_url ? (
@@ -210,7 +216,7 @@ function PlayerDetailPanel({ playerId, onClose }: { playerId: string; onClose: (
               </figcaption>
             ) : (
               <figcaption className="player-detail-credit player-detail-credit-muted">
-                Framed for a license-free photo
+                {team ? team.team : "National team pending"}
               </figcaption>
             )}
           </figure>

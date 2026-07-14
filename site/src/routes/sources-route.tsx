@@ -1,6 +1,7 @@
 import changeLogJson from "@data/change_log.json";
 import metaJson from "@data/meta.json";
 import { coaches, referees } from "@/lib/data";
+import { PageHeader, MetricCard, Expandable } from "@/components/ui";
 
 interface ChangeLogRow {
   change_id: string;
@@ -15,9 +16,8 @@ const changeLog = changeLogJson as unknown as ChangeLogRow[];
 const meta = metaJson as { counts: Record<string, number>; exported_at?: string };
 
 const REPO_URL = "https://github.com/torqueda/world_cup_player_tracker";
+const DATA_URL = "https://github.com/torqueda/world_cup_player_tracker/tree/main/data/processed/app_exports";
 
-// Statement-style attributions: one line per kind of data, linking to the
-// general site or the specific pages that hold the bulk of it.
 const ATTRIBUTIONS: { statement: string; links: { label: string; url: string }[] }[] = [
   {
     statement:
@@ -68,6 +68,41 @@ const ATTRIBUTIONS: { statement: string; links: { label: string; url: string }[]
   },
 ];
 
+const DEFINITIONS: { term: string; definition: string }[] = [
+  {
+    term: "Active",
+    definition:
+      "A player on a current final squad. Only active players are counted in the site's totals and visualizations.",
+  },
+  {
+    term: "Removed",
+    definition:
+      "A player cut from an announced squad. Removed records stay in the dataset for history but are excluded from live counts.",
+  },
+  {
+    term: "Registered",
+    definition:
+      "An entity (player, club, coach, official) that has a canonical record with a stable ID in the master workbook.",
+  },
+  {
+    term: "Geocoded",
+    definition:
+      "A club city whose latitude/longitude were resolved from GeoNames/Wikimedia and manually confirmed where needed.",
+  },
+  {
+    term: "Mapped",
+    definition: "A club placed on the club map via its geocoded city, so its players appear at that location.",
+  },
+];
+
+const LINEAGE = [
+  { key: "sources", label: "Public sources", note: "ESPN · Wikipedia · Wikidata · FIFA · GeoNames" },
+  { key: "workbook", label: "Master workbook", note: "versioned canonical .xlsx" },
+  { key: "audit", label: "Integrity audit", note: "referential + identity checks" },
+  { key: "exports", label: "App exports", note: "typed JSON per table" },
+  { key: "site", label: "Website", note: "this app" },
+];
+
 const refereeCounts = referees.reduce(
   (acc, official) => {
     acc[official.role] = (acc[official.role] ?? 0) + 1;
@@ -76,39 +111,137 @@ const refereeCounts = referees.reduce(
   {} as Record<string, number>,
 );
 
+const coverageCards = [
+  { key: "players", label: "Players", value: meta.counts.players, note: "final-squad + removed records" },
+  { key: "teams", label: "Final squads", value: meta.counts.teams },
+  { key: "clubs", label: "Clubs", value: meta.counts.clubs, note: "registered & mapped" },
+  { key: "cities", label: "Club cities", value: meta.counts.cities, note: "geocoded" },
+  { key: "matches", label: "Matches", value: meta.counts.world_cup_history },
+  { key: "coaches", label: "Coaches", value: coaches.length },
+  { key: "officials", label: "Match officials", value: referees.length },
+  { key: "sources", label: "Cited sources", value: meta.counts.sources },
+];
+
+// Recent corrections shown by default; older ones collapse behind a disclosure.
+const RECENT_CHANGES = 6;
+const changeLogDesc = [...changeLog].reverse();
+const recentChanges = changeLogDesc.slice(0, RECENT_CHANGES);
+const olderChanges = changeLogDesc.slice(RECENT_CHANGES);
+
+function ChangeRow({ change }: { change: ChangeLogRow }) {
+  return (
+    <article className="change-row">
+      <span className="change-date">{String(change.changed_at ?? "—").slice(0, 10)}</span>
+      <span>
+        <strong>{change.change_type ?? "change"}</strong>
+        {change.team && change.team !== "ALL" ? ` · ${change.team}` : ""}
+        {change.field_changed ? ` · ${change.field_changed}` : ""}
+        {change.notes ? <span className="change-notes"> — {change.notes}</span> : null}
+      </span>
+    </article>
+  );
+}
+
 export function SourcesRoute() {
   return (
     <div className="page-stack">
-      <section className="content-panel reveal">
-        <div className="panel-heading">
-          <p className="eyebrow">Data &amp; sources</p>
-          <h2>Where this data comes from</h2>
-        </div>
-        <p className="panel-intro">
-          Every number on this site traces back to a public source, and every correction is
-          logged. The dataset currently holds {meta.counts.players?.toLocaleString()} players,{" "}
-          {meta.counts.clubs} clubs, {meta.counts.world_cup_history} matches, {coaches.length} coaches,
-          and {referees.length} match officials
+      <PageHeader
+        eyebrow="Methodology"
+        title="Data & sources"
+        intro="Every number on this site traces back to a public source, and every correction is logged. Here is what the dataset covers, how it is built and checked, where it comes from, and how it has changed."
+        actions={
+          <>
+            <a className="button-primary" href={REPO_URL} target="_blank" rel="noreferrer noopener">
+              View the repository
+            </a>
+            <a className="button-secondary" href={DATA_URL} target="_blank" rel="noreferrer noopener">
+              Browse the data exports
+            </a>
+          </>
+        }
+      />
+
+      {/* 1. DATASET COVERAGE */}
+      <section id="coverage" className="content-panel reveal">
+        <h2 className="section-heading">Dataset coverage</h2>
+        <p className="insight-note">
+          {meta.exported_at ? <>Regenerated {meta.exported_at}. </> : null}
+          Counts come straight from the current app exports.
           {Object.entries(refereeCounts).length > 0
-            ? ` (${Object.entries(refereeCounts)
+            ? ` Officials break down as ${Object.entries(refereeCounts)
                 .map(([role, count]) => `${count} ${role.replace(/_/g, " ")}s`)
-                .join(", ")})`
+                .join(", ")}.`
             : ""}
-          .
         </p>
-        <p className="insight-note note-spaced">
-          {meta.exported_at ? <>Data last regenerated on {meta.exported_at}. </> : null}
-          The canonical dataset is a versioned workbook; the full pipeline, collection
-          scripts, and change history are public at{" "}
-          <a className="table-link" href={REPO_URL} target="_blank" rel="noreferrer">
-            github.com/torqueda/world_cup_player_tracker
-          </a>
-          .
-        </p>
+        <div className="metrics-grid">
+          {coverageCards.map((card) => (
+            <MetricCard
+              key={card.key}
+              label={card.label}
+              value={(card.value ?? 0).toLocaleString()}
+              note={card.note}
+            />
+          ))}
+        </div>
+
+        <h3 className="subsection-heading">Definitions</h3>
+        <dl className="definition-list">
+          {DEFINITIONS.map((item) => (
+            <div key={item.term} className="definition-item">
+              <dt>{item.term}</dt>
+              <dd>{item.definition}</dd>
+            </div>
+          ))}
+        </dl>
       </section>
 
-      <section className="content-panel reveal">
-        <h3 className="section-heading">Attributions</h3>
+      {/* 2. PIPELINE AND QUALITY CHECKS */}
+      <section id="pipeline" className="content-panel reveal">
+        <h2 className="section-heading">Pipeline &amp; quality checks</h2>
+        <p className="insight-note">
+          Data flows one way, from public sources into a versioned workbook, through an integrity
+          audit, out to typed exports, and finally into this site.
+        </p>
+        <ol className="lineage" aria-label="Data lineage from public sources to website">
+          {LINEAGE.map((step, index) => (
+            <li key={step.key} className="lineage-step">
+              <div className="lineage-box">
+                <span className="lineage-label">{step.label}</span>
+                <span className="lineage-note">{step.note}</span>
+              </div>
+              {index < LINEAGE.length - 1 ? (
+                <span className="lineage-arrow" aria-hidden="true">
+                  →
+                </span>
+              ) : null}
+            </li>
+          ))}
+        </ol>
+
+        <h3 className="subsection-heading">Method notes</h3>
+        <ul className="detail-list">
+          <li>
+            Players cut from the announced squads stay in the dataset with a removed status for
+            history; only active final-squad players are counted on this site.
+          </li>
+          <li>
+            Manually verified values outrank automated matches; identity matches are only
+            auto-accepted when the date of birth confirms them.
+          </li>
+          <li>
+            Tournament statistics are collected at stage checkpoints (currently through the
+            quarterfinals) and refreshed with each dataset update.
+          </li>
+          <li>
+            Exports pass referential-integrity and identity checks before they reach the site, and
+            club cities are geocoded then manually confirmed where automated matches were ambiguous.
+          </li>
+        </ul>
+      </section>
+
+      {/* 3. SOURCES AND ATTRIBUTION */}
+      <section id="attribution" className="content-panel reveal">
+        <h2 className="section-heading">Sources &amp; attribution</h2>
         <ul className="attribution-list">
           {ATTRIBUTIONS.map((item) => (
             <li key={item.statement}>
@@ -126,44 +259,34 @@ export function SourcesRoute() {
             </li>
           ))}
         </ul>
+        <p className="source-note">
+          Player photos are used under their individual Wikimedia Commons licenses; each photo's
+          author and license are shown in that player's detail panel. Where no license-free photo
+          exists, the player's national-team flag is shown instead.
+        </p>
       </section>
 
-      <section className="content-panel reveal">
-        <h3 className="section-heading">Change log</h3>
+      {/* 4. CORRECTIONS AND CHANGE HISTORY */}
+      <section id="changes" className="content-panel reveal">
+        <h2 className="section-heading">Corrections &amp; change history</h2>
         <p className="insight-note">
-          Corrections and bulk updates applied to the dataset, most recent first.
+          Corrections and bulk updates applied to the dataset, most recent first. Older entries are
+          collapsed.
         </p>
         <div className="change-list">
-          {[...changeLog].reverse().map((change) => (
-            <article key={change.change_id} className="change-row">
-              <span className="change-date">{String(change.changed_at ?? "—").slice(0, 10)}</span>
-              <span>
-                <strong>{change.change_type ?? "change"}</strong>
-                {change.team && change.team !== "ALL" ? ` · ${change.team}` : ""}
-                {change.field_changed ? ` · ${change.field_changed}` : ""}
-                {change.notes ? <span className="change-notes"> — {change.notes}</span> : null}
-              </span>
-            </article>
+          {recentChanges.map((change) => (
+            <ChangeRow key={change.change_id} change={change} />
           ))}
         </div>
-      </section>
-
-      <section className="content-panel reveal">
-        <h3 className="section-heading">Method notes</h3>
-        <ul className="detail-list">
-          <li>
-            Players cut from the announced squads stay in the dataset with a removed status
-            for history; only final-squad players are counted on this site.
-          </li>
-          <li>
-            Manually verified values outrank automated matches; identity matches are only
-            auto-accepted when the date of birth confirms them.
-          </li>
-          <li>
-            Tournament statistics are collected at stage checkpoints (currently: through the
-            quarterfinals) and refreshed with each dataset update.
-          </li>
-        </ul>
+        {olderChanges.length > 0 ? (
+          <Expandable summary={`${olderChanges.length} older correction${olderChanges.length === 1 ? "" : "s"}`}>
+            <div className="change-list">
+              {olderChanges.map((change) => (
+                <ChangeRow key={change.change_id} change={change} />
+              ))}
+            </div>
+          </Expandable>
+        ) : null}
       </section>
     </div>
   );

@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { CountryFlag } from "@/components/country-flag";
 import type { Match } from "@/lib/data";
 
 // Knockout rounds, leaves → root. The data carries no explicit bracket
@@ -186,6 +187,7 @@ function MatchBox({
         return row.own ? (
           <button key={row.team} type="button" className={className} onClick={() => onSelectTeam(row.team)}>
             <span className="bracket-team-name">{row.team}</span>
+            <CountryFlag country={row.team} className="bracket-team-flag" />
             {scoreLabel ? <span className="bracket-team-score">{scoreLabel}</span> : null}
           </button>
         ) : (
