@@ -11,7 +11,7 @@ The dataset is final-roster verified and tournament-ready: all 48 final squads c
 The prototype lives in `site/` and reads directly from `data/processed/app_exports/` through Vite's `@data` alias, so no separate data setup is needed — just install and run.
 
 **Prerequisites:**
-- Node.js 20 or later (developed and tested with Node 26)
+- Node.js 24 or later (the pinned pnpm 11.x requires Node 22.13+; CI uses Node 24)
 - [pnpm](https://pnpm.io) — the project pins `pnpm@11.7.0` via `packageManager` in `site/package.json`. If you don't already have pnpm, either run `corepack enable` (Node ships `corepack`) or `npm install -g pnpm`.
 
 **Steps:**
