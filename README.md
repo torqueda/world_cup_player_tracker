@@ -4,7 +4,7 @@ This repository is building a structured dataset and eventual interactive dashbo
 
 ## Current Phase
 
-The dataset is final-roster verified and tournament-ready: all 48 final squads cross-checked against FIFA's lists (with cut players kept as `removed` and late replacements ingested and Wikidata-enriched), official player/team statistics and all match results through the quarterfinals, plus coaches, match officials, and confederations. **As of 2026-07-13, the version-controlled local workbook (`data/master/world_cup_2026_player_map_master.xlsx`) is the canonical Master List** — the former Google Sheets copy is retired. The site is a seven-route dashboard (Overview, Players & Clubs, National Teams, Matches, Stats, Insights, Data & Sources), the repo is public at https://github.com/torqueda/world_cup_player_tracker, and it is **publicly live at https://verdant-cactus-1e0657.netlify.app** (Netlify, auto-deploying on push). The only launch item that remains is one post-final data refresh after the July 19 final.
+The dataset is final-roster verified and tournament-ready: all 48 final squads cross-checked against FIFA's lists (with cut players kept as `removed` and late replacements ingested and Wikidata-enriched), official player/team statistics and all match results through the quarterfinals, plus coaches, match officials, and confederations. **As of 2026-07-13, the version-controlled local workbook (`data/master/world_cup_2026_player_map_master.xlsx`) is the canonical Master List** — the former Google Sheets copy is retired. The site is a seven-route dashboard (Overview, Players & Clubs, National Teams, Matches, Stats, Insights, Data & Sources), the repo is public at https://github.com/torqueda/world_cup_player_tracker, and it is **publicly live at https://worldcupplayertracker.netlify.app/** (Netlify, auto-deploying on push). The only launch item that remains is one post-final data refresh after the July 19 final.
 
 ## Running The Prototype Locally
 
@@ -126,7 +126,7 @@ Stable internal IDs are the join keys. Do not replace them with external IDs suc
    - `Data & Sources`: statement-style attributions, change log, and method notes;
    - plus a live-metric `Overview`;
    - clicking any player name (rosters, leaderboards, club cards, birthplace chips) opens a detail panel with their photo + attribution, bio, club, pre-tournament caps/goals, and tournament stat line.
-5. The local workbook is the canonical Master List (Google Sheets retired 2026-07-13), the repo is pushed to GitHub, and the site is live on Netlify (https://verdant-cactus-1e0657.netlify.app) — host connected and smoke-tested (2026-07-13). The only remaining launch item is the post-final data refresh after July 19.
+5. The local workbook is the canonical Master List (Google Sheets retired 2026-07-13), the repo is pushed to GitHub, and the site is live on Netlify (https://worldcupplayertracker.netlify.app/) — host connected and smoke-tested (2026-07-13). The only remaining launch item is the post-final data refresh after July 19.
 
 ## Important Notes
 
@@ -186,7 +186,7 @@ Tournament-data collection and reconciliation (July 2026 finalization run):
 ## Next Step
 
 The site is launched — it ships as a free static website on Netlify
-(https://verdant-cactus-1e0657.netlify.app), auto-deploying on every push, exactly as the
+(https://worldcupplayertracker.netlify.app/), auto-deploying on every push, exactly as the
 delivery decision in `docs/launch_guide.md` describes. The one remaining launch blocker
 (listed in `docs/current_work_dashboard_prototype_checklist.md`) is the post-final data
 refresh after the July 19 final, which locks the dataset. Everything else is enhancement.
