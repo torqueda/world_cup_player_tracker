@@ -5,6 +5,7 @@
 __pycache__/
 *.pyc
 .venv/
+.pytest_cache/
 
 # Node / frontend (site/ has its own .gitignore too)
 node_modules/

@@ -1808,3 +1808,141 @@ h4,
   font-size: 12px;
   font-weight: 600;
 }
+
+/* --- Knockout bracket --- */
+
+.bracket-wrap {
+  margin-top: 1rem;
+}
+
+.bracket-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.bracket-toolbar .insight-note {
+  margin: 0;
+  max-width: 60ch;
+}
+
+.bracket-scroll {
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+}
+
+.bracket-round-label {
+  fill: var(--text-muted);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.bracket-link {
+  stroke: var(--surface-border);
+  stroke-width: 1.5;
+}
+
+.bracket-link-active {
+  stroke: var(--accent);
+  stroke-width: 2.5;
+}
+
+.bracket-match {
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1px;
+  border: 1px solid var(--surface-border);
+  border-radius: 0.5rem;
+  background: var(--surface-strong);
+  overflow: hidden;
+  position: relative;
+}
+
+.bracket-team {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.4rem;
+  width: 100%;
+  padding: 0.2rem 0.5rem;
+  border: none;
+  background: none;
+  font: inherit;
+  font-size: 0.78rem;
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+}
+
+button.bracket-team:hover {
+  background: var(--accent-soft);
+}
+
+.bracket-team-placeholder {
+  color: var(--text-muted);
+  font-style: italic;
+  cursor: default;
+}
+
+.bracket-team-winner {
+  font-weight: 700;
+}
+
+.bracket-team-active {
+  background: var(--gold-soft);
+  color: var(--gold-deep);
+}
+
+button.bracket-team-active:hover {
+  background: var(--gold-soft);
+}
+
+.bracket-team-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bracket-team-score {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.bracket-pens {
+  position: absolute;
+  right: 0.4rem;
+  bottom: 1px;
+  font-size: 0.6rem;
+  color: var(--text-muted);
+  pointer-events: none;
+}
+
+.bracket-thirdplace {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.bracket-thirdplace-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+
+.bracket-thirdplace .bracket-match {
+  width: 200px;
+  height: 48px;
+}

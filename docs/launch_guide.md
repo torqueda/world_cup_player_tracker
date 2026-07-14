@@ -98,7 +98,11 @@ them how fresh it is.
 ## Pre-launch checklist (technical)
 
 - [x] First commit + push to GitHub — done: https://github.com/torqueda/world_cup_player_tracker
-- [ ] Connect Netlify or Cloudflare Pages with the settings above.
-- [ ] Click through all seven routes on the live URL (especially deep links like
-      `/stats` and `/insights`, which exercise the SPA fallback).
+- [x] Connect Netlify or Cloudflare Pages with the settings above — **done: live on Netlify at https://verdant-cactus-1e0657.netlify.app** (2026-07-13).
+- [x] Click through all seven routes on the live URL (especially deep links like
+      `/stats` and `/insights`, which exercise the SPA fallback) — done; the site has run
+      for several hours and been tested by other users, and `/` and `/stats` return HTTP 200.
 - [ ] Optional: custom domain + check the OpenStreetMap attribution is visible on the map.
+
+**Status: the site is publicly live.** The only remaining launch item is the one-time
+post-final data refresh after the July 19 final (see the roadmap / prototype checklist).

@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-07-13",
+  "exported_at": "2026-07-14",
   "source_workbook": "data/master/world_cup_2026_player_map_master.xlsx",
   "clubs_source": "data/master/world_cup_2026_player_map_master.xlsx:clubs",
   "sheet_names": [
@@ -28,6 +28,7 @@
     "coaches": 48,
     "referees": 167,
     "confederations": 6,
+    "club_aliases": 49,
     "squad_entries": 1275,
     "player_club_at_callup": 1275,
     "sources": 10,

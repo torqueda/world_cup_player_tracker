@@ -1,0 +1,247 @@
+[
+  {
+    "alias": "Bournemouth",
+    "alias_ascii": "Bournemouth",
+    "canonical_club_id": "c_afc_bournemouth_61e18bcd"
+  },
+  {
+    "alias": "Auxerre",
+    "alias_ascii": "Auxerre",
+    "canonical_club_id": "c_aj_auxerre_5c7942ef"
+  },
+  {
+    "alias": "Al-Ahli",
+    "alias_ascii": "Al-Ahli",
+    "canonical_club_id": "c_al_ahli_c686fb82"
+  },
+  {
+    "alias": "Al Etiffaq",
+    "alias_ascii": "Al Etiffaq",
+    "canonical_club_id": "c_al_ettifaq_807c8264"
+  },
+  {
+    "alias": "Monaco",
+    "alias_ascii": "Monaco",
+    "canonical_club_id": "c_as_monaco_6b2106c8"
+  },
+  {
+    "alias": "Roma",
+    "alias_ascii": "Roma",
+    "canonical_club_id": "c_as_roma_2ecbf69f"
+  },
+  {
+    "alias": "Borussia Moenchengladbach",
+    "alias_ascii": "Borussia Moenchengladbach",
+    "canonical_club_id": "c_borussia_monchengladbach_e9b82a3e"
+  },
+  {
+    "alias": "Brighton",
+    "alias_ascii": "Brighton",
+    "canonical_club_id": "c_brighton_hove_albion_5bfa8704"
+  },
+  {
+    "alias": "Caykur Rizesport",
+    "alias_ascii": "Caykur Rizesport",
+    "canonical_club_id": "c_caykur_rizespor_5d094b3b"
+  },
+  {
+    "alias": "Çaykur Rizespor",
+    "alias_ascii": "Caykur Rizespor",
+    "canonical_club_id": "c_caykur_rizespor_5d094b3b"
+  },
+  {
+    "alias": "Rizespor",
+    "alias_ascii": "Rizespor",
+    "canonical_club_id": "c_caykur_rizespor_5d094b3b"
+  },
+  {
+    "alias": "América",
+    "alias_ascii": "America",
+    "canonical_club_id": "c_club_america_49cadc66"
+  },
+  {
+    "alias": "Tijuana",
+    "alias_ascii": "Tijuana",
+    "canonical_club_id": "c_club_tijuana_6e4baf66"
+  },
+  {
+    "alias": "Kobenhavn",
+    "alias_ascii": "Kobenhavn",
+    "canonical_club_id": "c_copenhagen_7e10c652"
+  },
+  {
+    "alias": "Dinamo Moscow",
+    "alias_ascii": "Dinamo Moscow",
+    "canonical_club_id": "c_dynamo_moscow_28a6f575"
+  },
+  {
+    "alias": "Esperance",
+    "alias_ascii": "Esperance",
+    "canonical_club_id": "c_esperance_de_tunis_bd3a1ae1"
+  },
+  {
+    "alias": "Augsburg",
+    "alias_ascii": "Augsburg",
+    "canonical_club_id": "c_fc_augsburg_ae582369"
+  },
+  {
+    "alias": "Midtjylland",
+    "alias_ascii": "Midtjylland",
+    "canonical_club_id": "c_fc_midtjylland_2f4e39b9"
+  },
+  {
+    "alias": "Nordsjaelland",
+    "alias_ascii": "Nordsjaelland",
+    "canonical_club_id": "c_fc_nordsjlland_ae9978cb"
+  },
+  {
+    "alias": "Dender",
+    "alias_ascii": "Dender",
+    "canonical_club_id": "c_fcv_dender_decd464d"
+  },
+  {
+    "alias": "Feyenoord Rotterdam",
+    "alias_ascii": "Feyenoord Rotterdam",
+    "canonical_club_id": "c_feyenoord_c7797bfb"
+  },
+  {
+    "alias": "Hamburg",
+    "alias_ascii": "Hamburg",
+    "canonical_club_id": "c_hamburger_sv_bc4db90c"
+  },
+  {
+    "alias": "Hamburg SV",
+    "alias_ascii": "Hamburg SV",
+    "canonical_club_id": "c_hamburger_sv_bc4db90c"
+  },
+  {
+    "alias": "Internazionale",
+    "alias_ascii": "Internazionale",
+    "canonical_club_id": "c_inter_milan_ec07dd66"
+  },
+  {
+    "alias": "Internacional de Porto Alegre",
+    "alias_ascii": "Internacional de Porto Alegre",
+    "canonical_club_id": "c_internacional_9f25f9e5"
+  },
+  {
+    "alias": "Ipswich",
+    "alias_ascii": "Ipswich",
+    "canonical_club_id": "c_ipswich_town_0526bcf8"
+  },
+  {
+    "alias": "LASK Linz",
+    "alias_ascii": "LASK Linz",
+    "canonical_club_id": "c_lask_ec5e4ca0"
+  },
+  {
+    "alias": "Le Havre",
+    "alias_ascii": "Le Havre",
+    "canonical_club_id": "c_le_havre_ac_f11b1be2"
+  },
+  {
+    "alias": "Newcastle",
+    "alias_ascii": "Newcastle",
+    "canonical_club_id": "c_newcastle_united_492af7e1"
+  },
+  {
+    "alias": "Maribor",
+    "alias_ascii": "Maribor",
+    "canonical_club_id": "c_nk_maribor_feb9d4ad"
+  },
+  {
+    "alias": "Norwich",
+    "alias_ascii": "Norwich",
+    "canonical_club_id": "c_norwich_city_9bfbedcc"
+  },
+  {
+    "alias": "PAOK Salonika",
+    "alias_ascii": "PAOK Salonika",
+    "canonical_club_id": "c_paok_d88141c2"
+  },
+  {
+    "alias": "Paris Saint-Germian",
+    "alias_ascii": "Paris Saint-Germian",
+    "canonical_club_id": "c_paris_saint_germain_e38062ac"
+  },
+  {
+    "alias": "PSV",
+    "alias_ascii": "PSV",
+    "canonical_club_id": "c_psv_eindhoven_143e5a85"
+  },
+  {
+    "alias": "Pumas",
+    "alias_ascii": "Pumas",
+    "canonical_club_id": "c_pumas_unam_e7fbb47a"
+  },
+  {
+    "alias": "Pyramids",
+    "alias_ascii": "Pyramids",
+    "canonical_club_id": "c_pyramids_fc_7ade8ddc"
+  },
+  {
+    "alias": "Freiburg",
+    "alias_ascii": "Freiburg",
+    "canonical_club_id": "c_sc_freiburg_9f1ecdb8"
+  },
+  {
+    "alias": "Sporting Lisbon",
+    "alias_ascii": "Sporting Lisbon",
+    "canonical_club_id": "c_sporting_cp_68d8c4d1"
+  },
+  {
+    "alias": "St Pauli",
+    "alias_ascii": "St Pauli",
+    "canonical_club_id": "c_st_pauli_b81e5622"
+  },
+  {
+    "alias": "Tigres",
+    "alias_ascii": "Tigres",
+    "canonical_club_id": "c_tigres_uanl_6d3f0914"
+  },
+  {
+    "alias": "Tottenham",
+    "alias_ascii": "Tottenham",
+    "canonical_club_id": "c_tottenham_hotspur_ef01ee61"
+  },
+  {
+    "alias": "Hoffenheim",
+    "alias_ascii": "Hoffenheim",
+    "canonical_club_id": "c_tsg_hoffenheim_7dd7fd83"
+  },
+  {
+    "alias": "Royale-Union Saint Gilloise",
+    "alias_ascii": "Royale-Union Saint Gilloise",
+    "canonical_club_id": "c_union_st_gilloise_b8dea71a"
+  },
+  {
+    "alias": "Union St-Gilloise",
+    "alias_ascii": "Union St-Gilloise",
+    "canonical_club_id": "c_union_st_gilloise_b8dea71a"
+  },
+  {
+    "alias": "Stuttgart",
+    "alias_ascii": "Stuttgart",
+    "canonical_club_id": "c_vfb_stuttgart_79e41bee"
+  },
+  {
+    "alias": "Wolfsburg",
+    "alias_ascii": "Wolfsburg",
+    "canonical_club_id": "c_vfl_wolfsburg_6bff9162"
+  },
+  {
+    "alias": "Viking",
+    "alias_ascii": "Viking",
+    "canonical_club_id": "c_viking_fk_ff9c46f0"
+  },
+  {
+    "alias": "West Ham",
+    "alias_ascii": "West Ham",
+    "canonical_club_id": "c_west_ham_united_0b178664"
+  },
+  {
+    "alias": "Wolverhampton",
+    "alias_ascii": "Wolverhampton",
+    "canonical_club_id": "c_wolverhampton_wanderers_1e3d8f9f"
+  }
+]

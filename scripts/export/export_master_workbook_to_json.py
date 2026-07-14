@@ -264,6 +264,45 @@ def workbook_clubs_are_dashboard_ready(clubs: list[dict[str, Any]]) -> bool:
     )
 
 
+def build_club_aliases(alias_map_path: Path, clubs: list[dict[str, Any]]) -> list[dict[str, str]]:
+    """Curated alternate club names for typo/alias-tolerant search.
+
+    Reads the club-normalization alias map and keeps only rows whose raw
+    (as-scraped) name differs from the canonical name and whose canonical
+    club_id is present in the current clubs export. Each row becomes an
+    additional searchable label pointing at the canonical club.
+    """
+    if not alias_map_path.exists():
+        return []
+    valid_ids = {str(club.get("club_id")) for club in clubs}
+    aliases: list[dict[str, str]] = []
+    seen: set[tuple[str, str]] = set()
+    for row in read_csv_rows(alias_map_path):
+        canonical_id = (row.get("canonical_club_id") or "").strip()
+        raw_name = (row.get("raw_club_name") or "").strip()
+        canonical_name = (row.get("canonical_club_name") or "").strip()
+        if not canonical_id or not raw_name or canonical_id not in valid_ids:
+            continue
+        # Only surface names that actually differ from the canonical one; an
+        # identical alias adds nothing over the existing name match.
+        if raw_name.casefold() == canonical_name.casefold():
+            continue
+        key = (raw_name.casefold(), canonical_id)
+        if key in seen:
+            continue
+        seen.add(key)
+        raw_ascii = (row.get("raw_club_name_ascii") or "").strip() or ascii_fold(raw_name)
+        aliases.append(
+            {
+                "alias": raw_name,
+                "alias_ascii": raw_ascii,
+                "canonical_club_id": canonical_id,
+            }
+        )
+    aliases.sort(key=lambda item: (item["canonical_club_id"], item["alias"].casefold()))
+    return aliases
+
+
 def write_json(path: Path, payload: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
@@ -310,9 +349,13 @@ def main() -> None:
     coaches = read_optional_sheet(workbook_path, sheet_names, "coaches")
     referees = read_optional_sheet(workbook_path, sheet_names, "referees")
     confederations = parse_confederations_md(REPO_ROOT / "data/raw/confederations.md")
+    club_aliases = build_club_aliases(
+        REPO_ROOT / "data/processed/club_normalization_working/club_alias_map.csv", clubs
+    )
 
     exports = {
         "clubs.json": clubs,
+        "club_aliases.json": club_aliases,
         "cities.json": cities,
         "players.json": players,
         "teams.json": teams,
@@ -343,6 +386,7 @@ def main() -> None:
                 "coaches": len(coaches),
                 "referees": len(referees),
                 "confederations": len(confederations),
+                "club_aliases": len(club_aliases),
                 "squad_entries": len(squad_entries),
                 "player_club_at_callup": len(player_club_at_callup),
                 "sources": len(sources),

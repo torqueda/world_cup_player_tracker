@@ -1,3 +1,4 @@
+import { KnockoutBracket } from "@/components/knockout-bracket";
 import { matches, type Match } from "@/lib/data";
 
 const STAGE_ORDER = [
@@ -88,6 +89,11 @@ export function MatchesRoute() {
           Every World Cup 2026 match from the group stage through the knockout rounds —{" "}
           {playedCount} played so far, {upcoming.length} still to come.
         </p>
+      </section>
+
+      <section className="content-panel reveal">
+        <h3 className="section-heading stage-heading">Knockout bracket</h3>
+        <KnockoutBracket matches={matches} />
       </section>
 
       {upcoming.length > 0 ? (

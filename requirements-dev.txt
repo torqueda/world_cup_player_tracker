@@ -1,0 +1,4 @@
+# Dev/test dependencies (pipeline deps + the test runner).
+# Install:  .venv/bin/pip install -r requirements-dev.txt
+-r requirements.txt
+pytest>=8.0

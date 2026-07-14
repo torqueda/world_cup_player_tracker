@@ -50,10 +50,12 @@ Ordered by value-per-effort:
 
 Goal: a public URL with a repeatable update path.
 
-**Update 2026-07-13:** the concrete how-to now lives in `docs/launch_guide.md` — decision
-made there: static website on Netlify/Cloudflare Pages (free), no downloadable app. The
-SPA fallback file (`site/public/_redirects`) is already in the repo. What remains of this
-phase is the first git commit/push and the 15-minute host connection.
+**Update 2026-07-13:** the concrete how-to lives in `docs/launch_guide.md` — decision made
+there: static website on Netlify/Cloudflare Pages (free), no downloadable app. This phase
+is now **complete**: the repo is on GitHub, the site is live on Netlify at
+https://verdant-cactus-1e0657.netlify.app (auto-deploy on push, `site/public/_redirects`
+SPA fallback in place), and it has been smoke-tested and used by other testers. The only
+remaining launch item is the post-final data refresh after the July 19 final.
 
 1. **Hosting choice.** The app is a pure static site (no backend, data baked in at build time). Any of GitHub Pages / Netlify / Cloudflare Pages / Vercel works free-tier. Recommendation: **GitHub Pages via GitHub Actions**, since the repo is heading to GitHub anyway and the update story becomes "push → deploy".
 2. **Deployment checklist:**
@@ -83,6 +85,14 @@ One-liner once approved:
 find . -name .DS_Store -not -path "./site/node_modules/*" -delete && \
 rm -rf archive .pnpm-store docs/.Rhistory scripts/geolocation/__pycache__ scripts/export/__pycache__
 ```
+
+Workbook cleanup (manual, user-side — like the other direct workbook edits): the
+`manual_review_queue` sheet in `data/master/world_cup_2026_player_map_master.xlsx` is
+**marked for deletion** (2026-07-13). It is empty (0 rows), read by nothing in the app, and
+was never the source of user-facing provenance (the `Data & Sources` page + public repo
+cover that). The export pipeline already tolerates its absence, so deleting the sheet needs
+no code change. See `docs/deferred_dataset_and_prototype_todo.md` → "Provenance and
+review-history follow-ups".
 
 Keep (provenance, per README policy): `data/processed/club_geolocation_outdated/`, `club_normalization_*`, `stable_ids_initial/`, the dated backup CSVs in `club_geolocation_baseline/`, `data/raw/`.
 

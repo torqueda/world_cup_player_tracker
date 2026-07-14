@@ -4,7 +4,7 @@ This repository is building a structured dataset and eventual interactive dashbo
 
 ## Current Phase
 
-The dataset is final-roster verified and tournament-ready: all 48 final squads cross-checked against FIFA's lists (with cut players kept as `removed` and late replacements ingested and Wikidata-enriched), official player/team statistics and all match results through the quarterfinals, plus coaches, match officials, and confederations. **As of 2026-07-13, the version-controlled local workbook (`data/master/world_cup_2026_player_map_master.xlsx`) is the canonical Master List** — the former Google Sheets copy is retired. The site is a seven-route dashboard (Overview, Players & Clubs, National Teams, Matches, Stats, Insights, Data & Sources), and the repo is public at https://github.com/torqueda/world_cup_player_tracker. What remains before v1: connect the static host and smoke-test the live URL (`docs/launch_guide.md`), then one post-final data refresh after July 19.
+The dataset is final-roster verified and tournament-ready: all 48 final squads cross-checked against FIFA's lists (with cut players kept as `removed` and late replacements ingested and Wikidata-enriched), official player/team statistics and all match results through the quarterfinals, plus coaches, match officials, and confederations. **As of 2026-07-13, the version-controlled local workbook (`data/master/world_cup_2026_player_map_master.xlsx`) is the canonical Master List** — the former Google Sheets copy is retired. The site is a seven-route dashboard (Overview, Players & Clubs, National Teams, Matches, Stats, Insights, Data & Sources), the repo is public at https://github.com/torqueda/world_cup_player_tracker, and it is **publicly live at https://verdant-cactus-1e0657.netlify.app** (Netlify, auto-deploying on push). The only launch item that remains is one post-final data refresh after the July 19 final.
 
 ## Running The Prototype Locally
 
@@ -73,7 +73,7 @@ The master workbook is treated like a small relational database:
 - `player_club_at_callup`: join table connecting players to clubs
 - `sources`: source registry
 - `change_log`: tracked corrections and changes
-- `manual_review_queue`: review items that still need to be brought forward if desired
+- `manual_review_queue`: *(empty; slated for deletion — see `docs/deferred_dataset_and_prototype_todo.md`)* it was never used for user-facing provenance (the `Data & Sources` page and the public repo cover that) and is read by nothing in the app; the export pipeline tolerates its absence
 - `world_cup_history`: future expansion sheet
 
 Stable internal IDs are the join keys. Do not replace them with external IDs such as Wikidata QIDs.
@@ -103,12 +103,13 @@ Stable internal IDs are the join keys. Do not replace them with external IDs suc
 4. The site (`site/`, React + TypeScript + Vite) is a seven-route dashboard:
    - `Players & Clubs`: country-bubble world map that reveals city dots on zoom/selection, cascading filters with removable chips, club/player autocomplete, auto-zoom to filtered regions;
    - `National Teams`: sortable rosters with coach, captain, caps, and stage reached;
-   - `Matches`: all results grouped by stage (and by group within the group stage) plus the remaining schedule;
+   - `Matches`: an interactive knockout bracket (Round of 32 → Final, click a team to trace its path) plus all results grouped by stage (and by group within the group stage) and the remaining schedule;
    - `Stats`: pictogram leaderboards (Golden Boot, assists, minutes, saves, Fair Play) and a sortable team table;
-   - `Insights`: home-grown-vs-diaspora donuts for all 48 squads with sorting, birthplace charts with hover detail, squad-age list, club/league rankings, and a team-explorer sidebar;
+   - `Insights`: home-grown-vs-diaspora donuts for all 48 squads with sorting, birthplace charts with hover detail, squad-age list, club/league rankings, a goals-vs-xG over/under-performance scatter, and a team-explorer sidebar;
    - `Data & Sources`: statement-style attributions, change log, and method notes;
-   - plus a live-metric `Overview`.
-5. The local workbook is the canonical Master List (Google Sheets retired 2026-07-13) and the repo is pushed to GitHub. Remaining before v1: connect the host + live smoke test (`docs/launch_guide.md`), then the post-final data refresh.
+   - plus a live-metric `Overview`;
+   - clicking any player name (rosters, leaderboards, club cards, birthplace chips) opens a detail panel with their photo + attribution, bio, club, pre-tournament caps/goals, and tournament stat line.
+5. The local workbook is the canonical Master List (Google Sheets retired 2026-07-13), the repo is pushed to GitHub, and the site is live on Netlify (https://verdant-cactus-1e0657.netlify.app) — host connected and smoke-tested (2026-07-13). The only remaining launch item is the post-final data refresh after July 19.
 
 ## Important Notes
 
@@ -134,6 +135,17 @@ To refresh everything from the master workbook in one command (CSV snapshots →
 
 The audit step runs with `--strict`, so the pipeline stops before writing app JSON if any integrity check fails (duplicate player IDs, club-ID joins missing, club-baseline drift, or lingering old club IDs).
 
+## Tests And CI
+
+Export-invariant tests live in `tests/` (pytest): unique IDs, cross-table referential integrity, the 48×26 active-roster shape, and `meta.json` counts matching every file. Run them with:
+
+```bash
+.venv/bin/pip install -r requirements-dev.txt   # once (adds pytest)
+.venv/bin/python -m pytest
+```
+
+`.github/workflows/ci.yml` runs on every push to `main` and on pull requests: a **data** job (`pytest` + the strict export audit) and a **site** job (`pnpm typecheck` + `pnpm build`). The build step also guards the deploy — a missing imported `@data/*.json` fails CI rather than silently breaking the Netlify build.
+
 ## Current Scripts
 
 Export pipeline:
@@ -156,9 +168,8 @@ Tournament-data collection and reconciliation (July 2026 finalization run):
 
 ## Next Step
 
-Launch. The delivery decision is made and documented in `docs/launch_guide.md`: the site
-ships as a free static website (Netlify or Cloudflare Pages), not a downloadable program.
-The repo is already on GitHub; the remaining launch blockers (listed in
-`docs/current_work_dashboard_prototype_checklist.md`) are connecting the host
-(~15 minutes) and smoke-testing the live URL. After the tournament ends, one final data
-refresh locks the dataset.
+The site is launched — it ships as a free static website on Netlify
+(https://verdant-cactus-1e0657.netlify.app), auto-deploying on every push, exactly as the
+delivery decision in `docs/launch_guide.md` describes. The one remaining launch blocker
+(listed in `docs/current_work_dashboard_prototype_checklist.md`) is the post-final data
+refresh after the July 19 final, which locks the dataset. Everything else is enhancement.
