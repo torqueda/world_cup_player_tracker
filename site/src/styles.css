@@ -3656,6 +3656,51 @@ textarea:focus-visible,
   font-size: 1rem;
 }
 
+.method-note-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 0 0 1rem;
+}
+
+.method-note-grid .insight-note {
+  margin: 0;
+  padding: 0.75rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface-muted);
+}
+
+.discipline-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.card-markers {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.16rem;
+}
+
+.card-marker {
+  display: inline-block;
+  width: 0.62rem;
+  height: 0.9rem;
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 1px rgba(20, 32, 25, 0.16);
+  transform: rotate(4deg);
+}
+
+.card-marker-red {
+  background: var(--danger);
+  transform: rotate(-5deg);
+}
+
+.card-marker-yellow {
+  background: #f0c43c;
+}
+
 .quality-pill {
   display: inline-flex;
   align-items: center;
@@ -3691,6 +3736,10 @@ textarea:focus-visible,
 
 @media (max-width: 760px) {
   .comparison-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .method-note-grid {
     grid-template-columns: 1fr;
   }
 

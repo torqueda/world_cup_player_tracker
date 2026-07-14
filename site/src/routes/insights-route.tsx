@@ -109,10 +109,6 @@ function formatPct(value: number | null | undefined, digits = 0): string {
   return value === null || value === undefined ? "N/A" : `${(value * 100).toFixed(digits)}%`;
 }
 
-function denominator(row: { count: number; total: number }): string {
-  return `${row.count}/${row.total}`;
-}
-
 function csvEscape(value: unknown): string {
   const text = value === null || value === undefined ? "" : String(value);
   return /[",\n]/.test(text) ? `"${text.replace(/"/g, '""')}"` : text;
@@ -262,7 +258,7 @@ const scorecardColumns: Column<SquadScorecard>[] = [
     align: "right",
     initialAsc: false,
     sortValue: (row) => row.domesticLeaguePct ?? -1,
-    render: (row) => `${formatPct(row.domesticLeaguePct)} (${denominator(row.domesticLeagueKnown)})`,
+    render: (row) => `${formatPct(row.domesticLeaguePct)} (${row.domesticLeaguePlayers}/${row.domesticLeagueKnown.count})`,
   },
   {
     key: "diversity",
@@ -278,7 +274,7 @@ const scorecardColumns: Column<SquadScorecard>[] = [
     align: "right",
     initialAsc: false,
     sortValue: (row) => row.homegrownBirthShare ?? -1,
-    render: (row) => `${formatPct(row.homegrownBirthShare)} (${denominator(row.birthCountryKnown)})`,
+    render: (row) => `${formatPct(row.homegrownBirthShare)} (${row.homegrownBirthPlayers}/${row.birthCountryKnown.count})`,
   },
   {
     key: "stage",
@@ -418,6 +414,16 @@ export function InsightsRoute() {
             value={formatNumber(mostConcentrated?.clubHhi, 3)}
             note={mostConcentrated?.team}
           />
+        </div>
+        <div className="method-note-grid">
+          <p className="insight-note">
+            <strong>Domestic</strong> means the player&apos;s club-at-call-up country matches the national team country
+            or a documented country-name alias. It is not a nationality, birthplace, or eligibility measure.
+          </p>
+          <p className="insight-note">
+            <strong>Birth home-grown</strong> means the player&apos;s exported birth country matches the national team
+            country or alias. It is not a statement about development pathway, citizenship, or eligibility history.
+          </p>
         </div>
         <SortableTable
           rows={squadScorecards}
@@ -667,7 +673,6 @@ export function InsightsRoute() {
                     <ComparisonValue label="Goals for" a={statA?.goals_for ?? null} b={statB?.goals_for ?? null} formatter={(v) => formatNumber(v)} />
                     <ComparisonValue label="Goals against" a={statA?.goals_against ?? null} b={statB?.goals_against ?? null} formatter={(v) => formatNumber(v)} />
                     <ComparisonValue label="xG" a={statA?.xg ?? null} b={statB?.xg ?? null} />
-                    <ComparisonValue label="xGA" a={null} b={null} />
                   </tbody>
                 </table>
               </div>
@@ -706,7 +711,7 @@ export function InsightsRoute() {
         ) : (
           <EmptyState>Choose two teams with available squad scorecards.</EmptyState>
         )}
-        {sourceNote("Side-by-side descriptive comparison using synchronized per-row bar scales.", "Selected teams from active squads and team stats.", "xGA unavailable in current exports")}
+        {sourceNote("Side-by-side descriptive comparison using synchronized per-row bar scales.", "Selected teams from active squads and team stats.", "xG included where exported; xGA and team-card totals are not exported")}
       </section>
 
       <section id="efficiency" className="content-panel reveal">

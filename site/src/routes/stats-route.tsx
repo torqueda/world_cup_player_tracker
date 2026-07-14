@@ -259,7 +259,13 @@ export function StatsRoute() {
       </div>
 
       <section className="content-panel reveal">
-        <h2 className="section-heading">Discipline</h2>
+        <h2 className="section-heading discipline-heading">
+          Discipline
+          <span className="card-markers" aria-label="yellow and red cards">
+            <span className="card-marker card-marker-yellow" aria-hidden="true" />
+            <span className="card-marker card-marker-red" aria-hidden="true" />
+          </span>
+        </h2>
         <p className="insight-note">
           Fair-play points: each yellow counts 1 and each red counts 3, worst record first.
         </p>
