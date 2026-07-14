@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { PlayerLink } from "@/components/player-detail";
 import {
   getPlayerById,
   getTeamByCode,
@@ -42,6 +43,7 @@ interface PictoRow {
   picto: string;
   value: string;
   title?: string;
+  playerId?: string;
 }
 
 function PictoList({ rows, columns = false }: { rows: PictoRow[]; columns?: boolean }) {
@@ -49,7 +51,9 @@ function PictoList({ rows, columns = false }: { rows: PictoRow[]; columns?: bool
     <div className={columns ? "picto-list picto-list-columns" : "picto-list"}>
       {rows.map((row) => (
         <div key={row.key} className="picto-row" title={row.title ?? `${row.label}: ${row.value}`}>
-          <span className="picto-label">{row.label}</span>
+          <span className="picto-label">
+            {row.playerId ? <PlayerLink playerId={row.playerId}>{row.label}</PlayerLink> : row.label}
+          </span>
           <span className="picto-icons">{row.picto}</span>
           <span className="picto-value">{row.value}</span>
         </div>
@@ -60,6 +64,7 @@ function PictoList({ rows, columns = false }: { rows: PictoRow[]; columns?: bool
 
 const goalRows: PictoRow[] = topWithTies((s) => s.goals, 10).map((s) => ({
   key: `${s.team_code}-${s.fifa_listed_name}`,
+  playerId: s.player_id,
   label: `${displayName(s)} (${teamName(s)})`,
   picto: "⚽".repeat(s.goals),
   value: String(s.goals),
@@ -68,6 +73,7 @@ const goalRows: PictoRow[] = topWithTies((s) => s.goals, 10).map((s) => ({
 
 const assistRows: PictoRow[] = topWithTies((s) => s.assists, 10).map((s) => ({
   key: `${s.team_code}-${s.fifa_listed_name}`,
+  playerId: s.player_id,
   label: `${displayName(s)} (${teamName(s)})`,
   picto: "🤝".repeat(s.assists),
   value: String(s.assists),
@@ -76,6 +82,7 @@ const assistRows: PictoRow[] = topWithTies((s) => s.assists, 10).map((s) => ({
 const minuteRows: PictoRow[] = topWithTies((s) => s.minutes_played, 10, (s) => !isGoalkeeper(s)).map(
   (s) => ({
     key: `${s.team_code}-${s.fifa_listed_name}`,
+    playerId: s.player_id,
     label: `${displayName(s)} (${teamName(s)})`,
     picto: "🏃",
     value: `${s.minutes_played.toLocaleString()} min`,
@@ -84,6 +91,7 @@ const minuteRows: PictoRow[] = topWithTies((s) => s.minutes_played, 10, (s) => !
 
 const saveRows: PictoRow[] = topWithTies((s) => s.gk_saves ?? 0, 10).map((s) => ({
   key: `${s.team_code}-${s.fifa_listed_name}`,
+  playerId: s.player_id,
   label: `${displayName(s)} (${teamName(s)})`,
   picto: "🧤",
   value: `${s.gk_saves} saves`,
@@ -98,6 +106,7 @@ const fairPlayRows: PictoRow[] = [...playerStats]
     const reds = s.red_cards + s.indirect_red_cards;
     return {
       key: `${s.team_code}-${s.fifa_listed_name}`,
+      playerId: s.player_id,
       label: `${displayName(s)} (${teamName(s)})`,
       picto: "🟨".repeat(s.yellow_cards) + "🟥".repeat(reds),
       value: `${fairPlayScore(s)} pts`,

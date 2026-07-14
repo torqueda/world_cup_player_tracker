@@ -1,6 +1,7 @@
 import { NavLink, Outlet } from "react-router-dom";
 import metaJson from "@data/meta.json";
 import { playerStats } from "@/lib/data";
+import { PlayerDetailProvider } from "@/components/player-detail";
 
 const exportedAt = (metaJson as { exported_at?: string }).exported_at;
 const asOfStage = playerStats[0]?.as_of_stage ?? "through quarterfinals";
@@ -49,7 +50,9 @@ export function RootLayout() {
         </nav>
       </header>
       <main className="page-wrap">
-        <Outlet />
+        <PlayerDetailProvider>
+          <Outlet />
+        </PlayerDetailProvider>
       </main>
     </div>
   );

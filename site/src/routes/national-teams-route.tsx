@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import { BarList } from "@/components/bar-list";
+import { PlayerLink } from "@/components/player-detail";
 import {
   getCoachForTeam,
   getConfederationForCountry,
@@ -293,7 +294,11 @@ export function NationalTeamsRoute() {
                     return (
                       <tr key={entry.squad_entry_id}>
                         <td>
-                          {player?.display_name ?? entry.display_name_at_source}
+                          {player ? (
+                            <PlayerLink playerId={player.player_id}>{player.display_name}</PlayerLink>
+                          ) : (
+                            entry.display_name_at_source
+                          )}
                           {entry.is_captain ? <span className="captain-badge"> C</span> : null}
                         </td>
                         <td>{formatPosition(entry.position_group)}</td>

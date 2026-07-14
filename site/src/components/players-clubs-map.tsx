@@ -6,6 +6,13 @@ import type { City } from "@/lib/data";
 
 const WORLD_CENTER: [number, number] = [24, 10];
 const WORLD_ZOOM = 2;
+// Latitude clamped to the Web-Mercator limits; longitude spans many world
+// copies so horizontal looping (worldCopyJump) stays effectively unbounded
+// while vertical panning is walled in. Used on mobile only.
+const VERTICAL_MAX_BOUNDS: LatLngBoundsExpression = [
+  [-85, -100000],
+  [85, 100000],
+];
 // Below this zoom the map shows one bubble per country; at or above it the
 // individual city dots appear.
 const CITY_ZOOM_THRESHOLD = 4;
@@ -122,9 +129,98 @@ function CountryZoom({ bounds }: { bounds: LatLngBoundsExpression | null }) {
   return null;
 }
 
+// Toggle the map's interaction model imperatively rather than by remounting the
+// MapContainer. Remounting on the mobile/desktop switch both reset the user's
+// view and could crash Leaflet's drag handler mid-cleanup; driving the handlers
+// on the live map instance avoids all of that.
+//   Mobile: pan (drag) + pinch-zoom on, mouse-wheel zoom off, and a
+//   latitude-only maxBounds so up/down panning can't drift into empty space
+//   (longitude stays unbounded, so worldCopyJump still loops left/right).
+//   Desktop: panning off (page scroll isn't hijacked; navigation stays on the
+//   zoom buttons / country bubbles), mouse-wheel zoom on, no bounds.
+// Shape of the Leaflet internals we defensively touch (not in the public types).
+type DraggableHandler = (this: unknown, ...args: unknown[]) => unknown;
+
+// The drag lifecycle methods that read the (possibly detached) drag target via
+// Leaflet's className helpers. Wrapping these makes teardown crash-proof.
+const GUARDED_DRAG_METHODS = ["finishDrag", "_onMove", "_onUp"];
+
+function MapInteractionMode({ isMobile }: { isMobile: boolean }) {
+  const map = useMap();
+  useEffect(() => {
+    if (isMobile) {
+      map.dragging.enable();
+      map.touchZoom.enable();
+      map.scrollWheelZoom.disable();
+      map.options.maxBoundsViscosity = 1;
+      map.setMaxBounds(VERTICAL_MAX_BOUNDS);
+    } else {
+      map.dragging.disable();
+      map.touchZoom.disable();
+      map.scrollWheelZoom.enable();
+      map.options.maxBoundsViscosity = 0;
+      map.setMaxBounds(null as unknown as LatLngBoundsExpression);
+    }
+
+    // Enabling dragging means Leaflet holds an internal Draggable with document
+    // -level mouse/touch handlers. When the map unmounts after the user has
+    // panned (e.g. they drag the map, then tap a nav link), Leaflet's teardown
+    // and any late pointer event run those handlers against a now-detached drag
+    // target, and its className helpers throw "Cannot read properties of
+    // undefined (reading 'baseVal')" — enough to trip React Router's error
+    // boundary and blank the app. Wrap the drag lifecycle methods so a
+    // mid-teardown failure is swallowed instead of crashing. This only guards
+    // cleanup; a live, on-screen drag has a stable target and never throws.
+    const draggable = (map.dragging as unknown as { _draggable?: Record<string, unknown> })._draggable;
+    if (draggable && !draggable.__safeFinish) {
+      for (const name of GUARDED_DRAG_METHODS) {
+        const original = draggable[name];
+        if (typeof original === "function") {
+          const originalFn = original as DraggableHandler;
+          draggable[name] = function guardedDragHandler(this: unknown, ...args: unknown[]) {
+            try {
+              return originalFn.apply(this, args);
+            } catch {
+              return undefined; // torn down mid-gesture; nothing to clean up
+            }
+          };
+        }
+      }
+      draggable.__safeFinish = true;
+    }
+  }, [isMobile, map]);
+
+  return null;
+}
+
+// Touch devices (phones) can't lean on the mouse-wheel zoom or the hover
+// tooltips the desktop layout relies on, so there we make the map pannable and
+// let it wrap continuously — see `MapInteractionMode` above.
+function useIsMobile(query = "(max-width: 767px)"): boolean {
+  const [isMobile, setIsMobile] = useState(
+    () => typeof window !== "undefined" && window.matchMedia(query).matches,
+  );
+  useEffect(() => {
+    const mql = window.matchMedia(query);
+    const onChange = () => setIsMobile(mql.matches);
+    onChange();
+    mql.addEventListener("change", onChange);
+    // `resize` is a belt-and-suspenders fallback: some environments don't fire
+    // the media-query `change` event on a viewport change, but always fire
+    // `resize`, so this keeps the mobile/desktop switch reliable.
+    window.addEventListener("resize", onChange);
+    return () => {
+      mql.removeEventListener("change", onChange);
+      window.removeEventListener("resize", onChange);
+    };
+  }, [query]);
+  return isMobile;
+}
+
 export function PlayersClubsMap({ cities, selectedCityKey, onSelectCity, focus }: PlayersClubsMapProps) {
   const [zoom, setZoom] = useState(WORLD_ZOOM);
   const [pendingBounds, setPendingBounds] = useState<LatLngBoundsExpression | null>(null);
+  const isMobile = useIsMobile();
 
   const countryBubbles = useMemo(() => buildCountryBubbles(cities), [cities]);
   const showCities = zoom >= CITY_ZOOM_THRESHOLD;
@@ -134,6 +230,11 @@ export function PlayersClubsMap({ cities, selectedCityKey, onSelectCity, focus }
       center={WORLD_CENTER}
       zoom={WORLD_ZOOM}
       minZoom={WORLD_ZOOM}
+      // Interaction defaults here are the desktop model; MapInteractionMode
+      // below switches the live map to the mobile model when needed, without a
+      // remount. worldCopyJump is an init-only option, so it stays here — it
+      // makes markers reappear on the copy of the world nearest the view, so
+      // panning all the way left/right keeps showing them.
       dragging={false}
       scrollWheelZoom
       worldCopyJump
@@ -142,6 +243,7 @@ export function PlayersClubsMap({ cities, selectedCityKey, onSelectCity, focus }
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
+      <MapInteractionMode isMobile={isMobile} />
       <ZoomTracker onZoom={(next) => { setZoom(next); setPendingBounds(null); }} />
       <FocusController focus={focus} />
       <CountryZoom bounds={pendingBounds} />

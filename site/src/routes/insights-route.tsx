@@ -1,16 +1,16 @@
 import { useMemo, useState } from "react";
 import { BarList, type BarListItem } from "@/components/bar-list";
 import { DonutGauge } from "@/components/donut-gauge";
+import { PlayerLink } from "@/components/player-detail";
 import { Treemap, type TreemapItem } from "@/components/treemap";
+import { XgScatter } from "@/components/xg-scatter";
 import {
   activePlayers,
   coaches,
   confederations,
   getClubById,
-  getClubForPlayer,
   getConfederationForCountry,
   getSquadRosterForTeam,
-  getTeamForPlayer,
   matches,
   playerClubAtCallup,
   referees,
@@ -79,7 +79,7 @@ const leastBirthCountries = birthCountryItems
 interface BirthCityGroup {
   city: string;
   country: string;
-  playerNames: string[];
+  players: { id: string; name: string }[];
 }
 
 const birthCityGroups = new Map<string, BirthCityGroup>();
@@ -90,29 +90,20 @@ for (const player of playersWithBirthData) {
   const key = `${player.place_of_birth}__${player.birth_country}`;
   const group = birthCityGroups.get(key);
   if (group) {
-    group.playerNames.push(player.display_name);
+    group.players.push({ id: player.player_id, name: player.display_name });
   } else {
     birthCityGroups.set(key, {
       city: player.place_of_birth,
       country: player.birth_country as string,
-      playerNames: [player.display_name],
+      players: [{ id: player.player_id, name: player.display_name }],
     });
   }
 }
-const maxBirthCityCount = Math.max(...Array.from(birthCityGroups.values()).map((g) => g.playerNames.length));
+const maxBirthCityCount = Math.max(...Array.from(birthCityGroups.values()).map((g) => g.players.length));
 const topBirthCities = Array.from(birthCityGroups.values()).filter(
-  (group) => group.playerNames.length === maxBirthCityCount,
+  (group) => group.players.length === maxBirthCityCount,
 );
 
-const playerContextByName = new Map<string, string>();
-for (const player of activePlayers) {
-  const team = getTeamForPlayer(player.player_id);
-  const club = getClubForPlayer(player.player_id);
-  playerContextByName.set(
-    player.display_name,
-    `${team?.team ?? "Unknown team"} · ${club?.club_name ?? "Unknown club"}`,
-  );
-}
 
 // --- Home-grown vs diaspora, all 48 teams, sortable ---
 
@@ -260,6 +251,22 @@ const leagueTreemapItems: TreemapItem[] = (() => {
   }
   return top;
 })();
+
+// --- xG over/under-performance (team_stats) ---
+
+const xgRanked = [...teamStats]
+  .map((stat) => ({ stat, delta: stat.goals_for - stat.xg }))
+  .sort((a, b) => b.delta - a.delta);
+const xgStats = xgRanked.map((row) => row.stat);
+const topOverPerformers = xgRanked.slice(0, 3);
+const topUnderPerformers = [...xgRanked].reverse().slice(0, 3);
+// Label the two biggest movers on each end directly; the rest use hover.
+const xgLabelled = new Set<string>([
+  ...topOverPerformers.slice(0, 2).map((row) => row.stat.team),
+  ...topUnderPerformers.slice(0, 2).map((row) => row.stat.team),
+]);
+const totalGoals = teamStats.reduce((sum, stat) => sum + stat.goals_for, 0);
+const totalXg = teamStats.reduce((sum, stat) => sum + stat.xg, 0);
 
 // --- Confederation aggregates ---
 
@@ -541,18 +548,18 @@ export function InsightsRoute() {
               <strong>
                 {group.city}, {group.country}
               </strong>{" "}
-              is the birthplace of {group.playerNames.length} World Cup 2026 players. Hover a
-              name for their team and club:
+              is the birthplace of {group.players.length} World Cup 2026 players. Hover a
+              name for their team and club, or click for the full profile:
             </p>
             <div className="chip-list">
-              {group.playerNames.map((name, index) => (
-                <span
-                  key={name}
+              {group.players.map((entry, index) => (
+                <PlayerLink
+                  key={entry.id}
+                  playerId={entry.id}
                   className={index % 2 === 0 ? "player-chip" : "player-chip player-chip-alt"}
-                  title={playerContextByName.get(name) ?? name}
                 >
-                  {name}
-                </span>
+                  {entry.name}
+                </PlayerLink>
               ))}
             </div>
           </div>
@@ -796,6 +803,52 @@ export function InsightsRoute() {
             </tbody>
           </table>
         </div>
+      </section>
+
+      <section className="content-panel reveal">
+        <h3 className="section-heading">Goals vs expected goals (xG)</h3>
+        <p className="insight-note">
+          Each dot is a team: the chances it created (expected goals, xG) on the horizontal
+          axis against the goals it actually scored on the vertical axis. Dots above the
+          diagonal out-scored their chances (clinical finishing or good fortune); dots below
+          it left goals on the pitch. Hover any dot for the exact figures.
+        </p>
+        <div className="metrics-grid">
+          <article className="metric-card">
+            <p className="metric-label">Biggest over-performance</p>
+            <p className="metric-value">+{topOverPerformers[0].delta.toFixed(1)}</p>
+            <p className="metric-note">
+              {topOverPerformers[0].stat.team} — {topOverPerformers[0].stat.goals_for} goals from{" "}
+              {topOverPerformers[0].stat.xg.toFixed(1)} xG
+            </p>
+          </article>
+          <article className="metric-card">
+            <p className="metric-label">Biggest under-performance</p>
+            <p className="metric-value">{topUnderPerformers[0].delta.toFixed(1)}</p>
+            <p className="metric-note">
+              {topUnderPerformers[0].stat.team} — {topUnderPerformers[0].stat.goals_for} goals from{" "}
+              {topUnderPerformers[0].stat.xg.toFixed(1)} xG
+            </p>
+          </article>
+          <article className="metric-card">
+            <p className="metric-label">All teams combined</p>
+            <p className="metric-value">{totalGoals}</p>
+            <p className="metric-note">goals from {totalXg.toFixed(1)} total xG</p>
+          </article>
+        </div>
+        <XgScatter stats={xgStats} labelled={xgLabelled} />
+        <p className="insight-note note-spaced">
+          {topOverPerformers[0].stat.team}, {topOverPerformers[1].stat.team} and{" "}
+          {topOverPerformers[2].stat.team} have been the tournament's most clinical finishers,
+          each scoring well above what their chances were worth. At the other end,{" "}
+          {topUnderPerformers[0].stat.team}, {topUnderPerformers[1].stat.team} and{" "}
+          {topUnderPerformers[2].stat.team} created more than the scoreboard shows —{" "}
+          {topUnderPerformers[0].stat.team} most of all, sitting{" "}
+          {Math.abs(topUnderPerformers[0].delta).toFixed(1)} goals below its xG.{" "}
+          {totalGoals >= totalXg
+            ? `Across all 48 teams, finishing has slightly beaten the model (${totalGoals} goals from ${totalXg.toFixed(1)} xG).`
+            : `Across all 48 teams, xG has slightly outrun the goals actually scored (${totalGoals} goals from ${totalXg.toFixed(1)} xG).`}
+        </p>
       </section>
 
       <section className="content-panel reveal">

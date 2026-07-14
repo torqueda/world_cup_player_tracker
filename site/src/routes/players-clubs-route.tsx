@@ -1,9 +1,13 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import Fuse from "fuse.js";
 import { PlayersClubsMap, boundsForCities, type MapFocus } from "@/components/players-clubs-map";
+import { PlayerLink } from "@/components/player-detail";
 import {
   activePlayers,
   cities,
+  clubAliases,
   clubs,
+  getClubById,
   getClubsForCity,
   getPlayersForClub,
   getTeamForPlayer,
@@ -13,6 +17,23 @@ import {
 } from "@/lib/data";
 
 const ALL = "all";
+const MAX_SUGGESTIONS = 8;
+
+// Fuzzy indices for typo tolerance, built once. These only ever *add* matches
+// after the exact substring matches below, so existing search behaviour is
+// unchanged — fuzzy results are a fallback, never a replacement.
+const clubFuse = new Fuse(clubs, {
+  keys: ["club_name", "club_name_ascii"],
+  threshold: 0.3,
+  ignoreLocation: true,
+  minMatchCharLength: 2,
+});
+const playerFuse = new Fuse(activePlayers, {
+  keys: ["display_name", "name_ascii"],
+  threshold: 0.3,
+  ignoreLocation: true,
+  minMatchCharLength: 2,
+});
 
 interface SearchSelection {
   type: "club" | "player";
@@ -132,38 +153,71 @@ export function PlayersClubsRoute() {
   }, [league, leagueOptions]);
 
   // --- search suggestions ---
+  // Layered so current behaviour is preserved and only extended: exact
+  // substring matches first (clubs → curated aliases → players), then a
+  // fuzzy fallback for typos, appended only while there is room and never
+  // duplicating an already-listed result.
   const suggestions = useMemo<Suggestion[]>(() => {
     const query = searchText.trim().toLowerCase();
     if (query.length < 2) {
       return [];
     }
     const out: Suggestion[] = [];
+    const seen = new Set<string>();
+
+    function pushClub(club: Club, hint?: string): boolean {
+      const key = `club:${club.club_id}`;
+      if (seen.has(key)) {
+        return out.length >= MAX_SUGGESTIONS;
+      }
+      seen.add(key);
+      out.push({ type: "club", id: club.club_id, label: club.club_name, hint: hint ?? club.country ?? "club" });
+      return out.length >= MAX_SUGGESTIONS;
+    }
+
+    function pushPlayer(playerId: string, label: string): boolean {
+      const key = `player:${playerId}`;
+      if (seen.has(key)) {
+        return out.length >= MAX_SUGGESTIONS;
+      }
+      seen.add(key);
+      const playerTeam = getTeamForPlayer(playerId);
+      out.push({ type: "player", id: playerId, label, hint: playerTeam?.team ?? "player" });
+      return out.length >= MAX_SUGGESTIONS;
+    }
+
+    // 1. Exact substring — clubs by canonical name (unchanged).
     for (const club of clubs) {
-      if (
-        club.club_name.toLowerCase().includes(query) ||
-        club.club_name_ascii.toLowerCase().includes(query)
-      ) {
-        out.push({ type: "club", id: club.club_id, label: club.club_name, hint: club.country ?? "club" });
-        if (out.length >= 8) {
-          return out;
-        }
+      if (club.club_name.toLowerCase().includes(query) || club.club_name_ascii.toLowerCase().includes(query)) {
+        if (pushClub(club)) return out;
       }
     }
+    // 2. Exact substring — curated aliases resolving to their canonical club
+    //    (e.g. "Monaco" → AS Monaco, "Roma" → AS Roma).
+    for (const alias of clubAliases) {
+      if (alias.alias.toLowerCase().includes(query) || alias.alias_ascii.toLowerCase().includes(query)) {
+        const club = getClubById(alias.canonical_club_id);
+        if (club && pushClub(club, `also “${alias.alias}” · ${club.country ?? "club"}`)) return out;
+      }
+    }
+    // 3. Exact substring — players (unchanged).
     for (const player of activePlayers) {
       if (
         player.display_name.toLowerCase().includes(query) ||
         player.name_ascii.toLowerCase().includes(query)
       ) {
-        const playerTeam = getTeamForPlayer(player.player_id);
-        out.push({
-          type: "player",
-          id: player.player_id,
-          label: player.display_name,
-          hint: playerTeam?.team ?? "player",
-        });
-        if (out.length >= 8) {
-          return out;
-        }
+        if (pushPlayer(player.player_id, player.display_name)) return out;
+      }
+    }
+    // 4. Fuzzy fallback for typos, only if the exact passes left room.
+    if (out.length < MAX_SUGGESTIONS) {
+      for (const result of clubFuse.search(query, { limit: MAX_SUGGESTIONS })) {
+        if (pushClub(result.item)) return out;
+      }
+    }
+    if (out.length < MAX_SUGGESTIONS) {
+      for (const result of playerFuse.search(query, { limit: MAX_SUGGESTIONS })) {
+        if (pushPlayer(result.item.player_id, result.item.display_name)) return out;
       }
     }
     return out;
@@ -413,10 +467,10 @@ export function PlayersClubsRoute() {
                       {clubPlayers.map((player) => {
                         const playerTeam = getTeamForPlayer(player.player_id);
                         return (
-                          <span key={player.player_id} className="player-chip">
+                          <PlayerLink key={player.player_id} playerId={player.player_id} className="player-chip">
                             {player.display_name}
                             {playerTeam ? ` · ${playerTeam.team}` : ""}
-                          </span>
+                          </PlayerLink>
                         );
                       })}
                     </div>

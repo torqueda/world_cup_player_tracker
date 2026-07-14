@@ -20,6 +20,14 @@ export interface Club {
   city_review_notes: string | null;
 }
 
+export interface ClubAlias {
+  // An alternate (as-scraped) club name that differs from the canonical one,
+  // surfaced as an extra searchable label pointing at the canonical club.
+  alias: string;
+  alias_ascii: string;
+  canonical_club_id: string;
+}
+
 export interface City {
   city_key: string;
   country: string;

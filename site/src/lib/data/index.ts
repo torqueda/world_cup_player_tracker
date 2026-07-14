@@ -10,9 +10,11 @@ import teamStatsJson from "@data/team_stats.json";
 import coachesJson from "@data/coaches.json";
 import refereesJson from "@data/referees.json";
 import confederationsJson from "@data/confederations.json";
+import clubAliasesJson from "@data/club_aliases.json";
 
 import type {
   Club,
+  ClubAlias,
   City,
   Player,
   Team,
@@ -28,6 +30,7 @@ import type {
 
 export type {
   Club,
+  ClubAlias,
   City,
   Player,
   Team,
@@ -56,6 +59,7 @@ export const teamStats = teamStatsJson as TeamStat[];
 export const coaches = coachesJson as Coach[];
 export const referees = refereesJson as Referee[];
 export const confederations = confederationsJson as Confederation[];
+export const clubAliases = clubAliasesJson as ClubAlias[];
 
 // Team names whose dataset spelling differs from the country spelling used in
 // birth_country values and the confederation member lists.
