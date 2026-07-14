@@ -3602,6 +3602,104 @@ textarea:focus-visible,
 }
 
 /* ============================================================
+   Analysis route additions
+   ============================================================ */
+
+.comparison-table td strong {
+  display: inline-block;
+  min-width: 4.5rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.comparison-bar {
+  display: block;
+  width: 100%;
+  height: 0.42rem;
+  margin-top: 0.35rem;
+  overflow: hidden;
+  border-radius: 999px;
+  background: var(--surface-muted);
+}
+
+.comparison-bar-fill {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.comparison-bar-a {
+  background: var(--accent);
+}
+
+.comparison-bar-b {
+  background: var(--clay);
+}
+
+.comparison-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.comparison-card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.85rem;
+  background: var(--surface);
+}
+
+.comparison-card h4 {
+  margin: 0 0 0.35rem;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 1rem;
+}
+
+.quality-pill {
+  display: inline-flex;
+  align-items: center;
+  min-width: max-content;
+  padding: 0.16rem 0.45rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface-muted);
+  color: var(--text);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.quality-available {
+  border-color: rgba(20, 91, 61, 0.32);
+  background: rgba(20, 91, 61, 0.1);
+  color: var(--accent-deep);
+}
+
+.quality-missing,
+.quality-not_yet_collected {
+  border-color: rgba(180, 134, 34, 0.36);
+  background: rgba(180, 134, 34, 0.13);
+  color: var(--gold-deep);
+}
+
+.quality-failed_validation {
+  border-color: rgba(178, 59, 47, 0.32);
+  background: rgba(178, 59, 47, 0.09);
+  color: var(--danger);
+}
+
+@media (max-width: 760px) {
+  .comparison-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .comparison-table td strong {
+    min-width: 0;
+  }
+}
+
+/* ============================================================
    Print
    ============================================================ */
 @media print {

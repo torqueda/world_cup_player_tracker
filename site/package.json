@@ -8,6 +8,7 @@
     "dev": "vite",
     "build": "pnpm typecheck && vite build",
     "preview": "vite preview",
+    "test": "tsc -p tsconfig.analytics-tests.json && node --test ../.tmp/site-analytics-tests/**/*.test.js",
     "typecheck": "tsc --noEmit -p tsconfig.app.json && tsc --noEmit -p tsconfig.node.json"
   },
   "dependencies": {

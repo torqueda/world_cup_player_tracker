@@ -15,6 +15,7 @@ site/dist/
 # Editor / temp
 *.swp
 ~$*
+.tmp/
 
 # Timestamped workbook backups (git history is the real backup now)
 data/master/*.backup_*.xlsx

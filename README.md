@@ -27,10 +27,27 @@ Then open the URL Vite prints (defaults to `http://localhost:5173`) in a browser
 **Other useful commands, run from `site/`:**
 
 - `pnpm build` — type-checks (`tsc --noEmit`) and then produces a production build in `site/dist/`
+- `pnpm test` — compiles and runs the TypeScript unit tests for shared analytical selectors
 - `pnpm typecheck` — type-checks only, no build
 - `pnpm preview` — serves the last production build locally, to sanity-check the built output
 
 If the dataset changes (`data/processed/app_exports/*.json` regenerated from the master workbook), just refresh the dev server — no rebuild step is required to pick up new data while `pnpm dev` is running.
+
+## Analytical Layer
+
+The `Analysis` route now uses shared selectors in `site/src/lib/analytics/` instead of embedding calculations directly in JSX. Those selectors are documented, typed, deterministic, and covered by unit tests. The UI states the definition, population, thresholds, and export timestamp for derived charts and tables, and offers CSV downloads for the squad scorecard and club/league impact tables.
+
+Current derived metrics include:
+
+- Squad composition: average and median age as of `2026-06-11`, under-23 and age-30-plus counts, total and median pre-tournament caps, domestic-club share, clubs/countries/leagues represented, birthplace home-grown share, and stage reached.
+- Club and league impact: players sent, teams represented, tournament minutes, goals, assists, goal contributions, and players with meaningful minutes. The optional impact index is a published weighted formula, not an official ranking.
+- Concentration and diversity: largest-club share, largest-club-country share, club HHI, club-country HHI, effective clubs, and normalized effective clubs. Higher HHI means concentration in fewer clubs.
+- Team comparison: shareable `teamA` and `teamB` query parameters compare roster profile, experience, domestic/foreign mix, club diversity, record, goals, xG, and top performers.
+- Player efficiency: goals, assists, goal contributions, and cards per 90, with an adjustable minimum-minutes threshold and separate goalkeeper/outfield views.
+- Match and venue analysis: goals per match by stage and venue, score-margin distribution, draws, penalty shootouts, team records by stage, and confederation-vs-confederation results.
+- Data quality dashboard: row counts, active-player image coverage, player-stat coverage, club coordinate coverage, source coverage, latest export date, validation status, and unresolved field categories.
+
+Limitations are explicit in the UI and selectors: no values are fabricated or inferred from unavailable fields. The current app exports include xG but not xGA; player starts are not exported, so the impact view uses a transparent meaningful-minutes threshold instead. Missing values are excluded from metric-specific denominators rather than imputed.
 
 ## Repository Layout
 

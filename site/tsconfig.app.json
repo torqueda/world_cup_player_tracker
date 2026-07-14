@@ -24,5 +24,6 @@
       "@data/*": ["../data/processed/app_exports/*"]
     }
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["src/**/*.test.ts"]
 }
