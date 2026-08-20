@@ -20,7 +20,7 @@ import {
   type TeamStat,
 } from "@/lib/data";
 
-const AS_OF = playerStats[0]?.as_of_stage ?? "through quarterfinals";
+const AS_OF = playerStats[0]?.as_of_stage ?? "final";
 // Per-90 rankings only make sense above a sample-size floor, otherwise a single
 // cameo appearance tops every list.
 const MIN_MINUTES_PER90 = 270;
@@ -53,7 +53,10 @@ const STAGE_RANK: Record<string, number> = {
   "Round of 32": 1,
   "Round of 16": 2,
   "Quarter-finals": 3,
-  "Semi-finals (in progress)": 4,
+  "Fourth place": 4,
+  "Third place": 5,
+  "Runners-up": 6,
+  "Champions": 7,
 };
 
 const TEAM_COLUMNS: Column<TeamStat>[] = [
@@ -279,7 +282,7 @@ export function StatsRoute() {
       <section className="content-panel reveal">
         <h2 className="section-heading">Team table</h2>
         <p className="insight-note">
-          Every recorded match (group stage plus knockouts, through the quarterfinals). Click any
+          Every match of the tournament, group stage through the final. Click any
           column to sort.
         </p>
         <SortableTable

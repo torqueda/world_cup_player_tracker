@@ -1,10 +1,10 @@
 {
-  "our_squad_entries": 1248,
+  "our_squad_entries": 1275,
   "wikipedia_final_squad_rows": 1248,
-  "matched": 1221,
-  "matched_fuzzy": 67,
+  "matched": 1248,
+  "matched_fuzzy": 68,
   "cut_candidates": 27,
-  "new_players": 27,
+  "new_players": 0,
   "dob_mismatches": 32,
   "teams": {
     "Algeria": {
@@ -12,7 +12,7 @@
       "wikipedia": 26
     },
     "Argentina": {
-      "ours": 26,
+      "ours": 27,
       "wikipedia": 26
     },
     "Australia": {
@@ -20,7 +20,7 @@
       "wikipedia": 26
     },
     "Austria": {
-      "ours": 26,
+      "ours": 27,
       "wikipedia": 26
     },
     "Belgium": {
@@ -28,15 +28,15 @@
       "wikipedia": 26
     },
     "Bosnia and Herzegovina": {
-      "ours": 26,
+      "ours": 28,
       "wikipedia": 26
     },
     "Brazil": {
-      "ours": 26,
+      "ours": 27,
       "wikipedia": 26
     },
     "Canada": {
-      "ours": 26,
+      "ours": 27,
       "wikipedia": 26
     },
     "Cape Verde": {
@@ -56,7 +56,7 @@
       "wikipedia": 26
     },
     "Czech Republic": {
-      "ours": 26,
+      "ours": 28,
       "wikipedia": 26
     },
     "DR Congo": {
@@ -72,7 +72,7 @@
       "wikipedia": 26
     },
     "England": {
-      "ours": 26,
+      "ours": 27,
       "wikipedia": 26
     },
     "France": {
@@ -80,7 +80,7 @@
       "wikipedia": 26
     },
     "Germany": {
-      "ours": 25,
+      "ours": 27,
       "wikipedia": 26
     },
     "Ghana": {
@@ -88,27 +88,27 @@
       "wikipedia": 26
     },
     "Haiti": {
-      "ours": 26,
+      "ours": 27,
       "wikipedia": 26
     },
     "Iran": {
-      "ours": 26,
+      "ours": 27,
       "wikipedia": 26
     },
     "Iraq": {
-      "ours": 26,
+      "ours": 27,
       "wikipedia": 26
     },
     "Ivory Coast": {
-      "ours": 26,
+      "ours": 27,
       "wikipedia": 26
     },
     "Japan": {
-      "ours": 26,
+      "ours": 27,
       "wikipedia": 26
     },
     "Jordan": {
-      "ours": 26,
+      "ours": 27,
       "wikipedia": 26
     },
     "Mexico": {
@@ -116,15 +116,15 @@
       "wikipedia": 26
     },
     "Morocco": {
-      "ours": 26,
+      "ours": 28,
       "wikipedia": 26
     },
     "Netherlands": {
-      "ours": 26,
+      "ours": 27,
       "wikipedia": 26
     },
     "New Zealand": {
-      "ours": 26,
+      "ours": 27,
       "wikipedia": 26
     },
     "Norway": {
@@ -148,11 +148,11 @@
       "wikipedia": 26
     },
     "Saudi Arabia": {
-      "ours": 26,
+      "ours": 27,
       "wikipedia": 26
     },
     "Scotland": {
-      "ours": 26,
+      "ours": 27,
       "wikipedia": 26
     },
     "Senegal": {
@@ -164,7 +164,7 @@
       "wikipedia": 26
     },
     "South Korea": {
-      "ours": 26,
+      "ours": 27,
       "wikipedia": 26
     },
     "Spain": {
@@ -172,7 +172,7 @@
       "wikipedia": 26
     },
     "Sweden": {
-      "ours": 26,
+      "ours": 27,
       "wikipedia": 26
     },
     "Switzerland": {
@@ -196,7 +196,7 @@
       "wikipedia": 26
     },
     "Uzbekistan": {
-      "ours": 26,
+      "ours": 28,
       "wikipedia": 26
     }
   }

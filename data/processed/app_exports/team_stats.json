@@ -3,37 +3,37 @@
     "team": "Argentina",
     "team_code": "ARG",
     "tournament": "FIFA World Cup 2026",
-    "matches_played": 6,
-    "wins": 6,
+    "matches_played": 8,
+    "wins": 7,
     "draws": 0,
-    "losses": 0,
-    "goals_for": 17,
-    "goals_against": 6,
-    "stage_reached": "Semi-finals (in progress)",
-    "assists": 10,
-    "xg": 13.9,
-    "possession_pct": 55,
-    "as_of_stage": "through quarterfinals",
+    "losses": 1,
+    "goals_for": 19,
+    "goals_against": 8,
+    "stage_reached": "Runners-up",
+    "assists": 12,
+    "xg": 15.45,
+    "possession_pct": 53,
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "France",
     "team_code": "FRA",
     "tournament": "FIFA World Cup 2026",
-    "matches_played": 6,
+    "matches_played": 8,
     "wins": 6,
     "draws": 0,
-    "losses": 0,
-    "goals_for": 16,
-    "goals_against": 2,
-    "stage_reached": "Semi-finals (in progress)",
-    "assists": 14,
-    "xg": 13.31,
-    "possession_pct": 53,
-    "as_of_stage": "through quarterfinals",
+    "losses": 2,
+    "goals_for": 20,
+    "goals_against": 10,
+    "stage_reached": "Fourth place",
+    "assists": 18,
+    "xg": 16.78,
+    "possession_pct": 51,
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Belgium",
@@ -49,27 +49,27 @@
     "assists": 10,
     "xg": 10.62,
     "possession_pct": 46,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "England",
     "team_code": "ENG",
     "tournament": "FIFA World Cup 2026",
-    "matches_played": 6,
-    "wins": 5,
+    "matches_played": 8,
+    "wins": 6,
     "draws": 1,
-    "losses": 0,
-    "goals_for": 13,
-    "goals_against": 6,
-    "stage_reached": "Semi-finals (in progress)",
-    "assists": 10,
-    "xg": 12.23,
-    "possession_pct": 52,
-    "as_of_stage": "through quarterfinals",
+    "losses": 1,
+    "goals_for": 20,
+    "goals_against": 12,
+    "stage_reached": "Third place",
+    "assists": 14,
+    "xg": 15.03,
+    "possession_pct": 50,
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Norway",
@@ -85,9 +85,9 @@
     "assists": 10,
     "xg": 9.93,
     "possession_pct": 49,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Netherlands",
@@ -103,9 +103,9 @@
     "assists": 10,
     "xg": 5,
     "possession_pct": 50,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "United States",
@@ -121,9 +121,9 @@
     "assists": 4,
     "xg": 6.37,
     "possession_pct": 52,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Germany",
@@ -139,27 +139,27 @@
     "assists": 10,
     "xg": 8.64,
     "possession_pct": 56,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Spain",
     "team_code": "ESP",
     "tournament": "FIFA World Cup 2026",
-    "matches_played": 6,
-    "wins": 5,
+    "matches_played": 8,
+    "wins": 7,
     "draws": 1,
     "losses": 0,
-    "goals_for": 11,
+    "goals_for": 14,
     "goals_against": 1,
-    "stage_reached": "Semi-finals (in progress)",
-    "assists": 8,
-    "xg": 12.75,
-    "possession_pct": 60,
-    "as_of_stage": "through quarterfinals",
+    "stage_reached": "Champions",
+    "assists": 10,
+    "xg": 17.48,
+    "possession_pct": 58,
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Mexico",
@@ -175,9 +175,9 @@
     "assists": 7,
     "xg": 8.1,
     "possession_pct": 48,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Morocco",
@@ -193,9 +193,9 @@
     "assists": 9,
     "xg": 6.57,
     "possession_pct": 53,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Senegal",
@@ -211,9 +211,9 @@
     "assists": 9,
     "xg": 7.22,
     "possession_pct": 49,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Brazil",
@@ -229,9 +229,9 @@
     "assists": 8,
     "xg": 10.88,
     "possession_pct": 48,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Switzerland",
@@ -247,9 +247,9 @@
     "assists": 6,
     "xg": 9.59,
     "possession_pct": 49,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Canada",
@@ -265,9 +265,9 @@
     "assists": 3,
     "xg": 9.02,
     "possession_pct": 46,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Japan",
@@ -283,9 +283,9 @@
     "assists": 7,
     "xg": 3.17,
     "possession_pct": 42,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Egypt",
@@ -301,9 +301,9 @@
     "assists": 8,
     "xg": 5.75,
     "possession_pct": 46,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Portugal",
@@ -319,9 +319,9 @@
     "assists": 4,
     "xg": 6.39,
     "possession_pct": 53,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Sweden",
@@ -337,9 +337,9 @@
     "assists": 6,
     "xg": 4.66,
     "possession_pct": 43,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Croatia",
@@ -355,9 +355,9 @@
     "assists": 5,
     "xg": 3.41,
     "possession_pct": 46,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Austria",
@@ -373,9 +373,9 @@
     "assists": 4,
     "xg": 3.88,
     "possession_pct": 41,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Algeria",
@@ -391,9 +391,9 @@
     "assists": 3,
     "xg": 4.73,
     "possession_pct": 56,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Bosnia-Herzegovina",
@@ -409,9 +409,9 @@
     "assists": 3,
     "xg": 2.04,
     "possession_pct": 40,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Ivory Coast",
@@ -427,9 +427,9 @@
     "assists": 4,
     "xg": 5.5,
     "possession_pct": 45,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Colombia",
@@ -445,9 +445,9 @@
     "assists": 5,
     "xg": 7.32,
     "possession_pct": 53,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Congo DR",
@@ -463,9 +463,9 @@
     "assists": 3,
     "xg": 3.71,
     "possession_pct": 37,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "New Zealand",
@@ -481,9 +481,9 @@
     "assists": 3,
     "xg": 2.48,
     "possession_pct": 42,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Cape Verde",
@@ -499,9 +499,9 @@
     "assists": 2,
     "xg": 2.56,
     "possession_pct": 35,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Jordan",
@@ -517,9 +517,9 @@
     "assists": 3,
     "xg": 1.87,
     "possession_pct": 29,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Paraguay",
@@ -535,9 +535,9 @@
     "assists": 3,
     "xg": 1.99,
     "possession_pct": 27,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Uruguay",
@@ -553,9 +553,9 @@
     "assists": 1,
     "xg": 3.95,
     "possession_pct": 51,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Iran",
@@ -571,9 +571,9 @@
     "assists": 1,
     "xg": 4.57,
     "possession_pct": 37,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Türkiye",
@@ -589,9 +589,9 @@
     "assists": 2,
     "xg": 5.5,
     "possession_pct": 58,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Australia",
@@ -607,9 +607,9 @@
     "assists": 1,
     "xg": 2.73,
     "possession_pct": 35,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "South Korea",
@@ -625,9 +625,9 @@
     "assists": 2,
     "xg": 3.38,
     "possession_pct": 56,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "South Africa",
@@ -643,9 +643,9 @@
     "assists": 1,
     "xg": 2.48,
     "possession_pct": 46,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Tunisia",
@@ -661,9 +661,9 @@
     "assists": 2,
     "xg": 1.12,
     "possession_pct": 36,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Ecuador",
@@ -679,9 +679,9 @@
     "assists": 2,
     "xg": 5.88,
     "possession_pct": 52,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Uzbekistan",
@@ -697,9 +697,9 @@
     "assists": 1,
     "xg": 1.71,
     "possession_pct": 35,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Ghana",
@@ -715,9 +715,9 @@
     "assists": 2,
     "xg": 2.34,
     "possession_pct": 34,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Qatar",
@@ -733,9 +733,9 @@
     "assists": 1,
     "xg": 1.88,
     "possession_pct": 31,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Haiti",
@@ -751,9 +751,9 @@
     "assists": 1,
     "xg": 1.62,
     "possession_pct": 42,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Czechia",
@@ -769,9 +769,9 @@
     "assists": 2,
     "xg": 2.44,
     "possession_pct": 37,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Curacao",
@@ -787,9 +787,9 @@
     "assists": 0,
     "xg": 1.7,
     "possession_pct": 32,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Iraq",
@@ -805,9 +805,9 @@
     "assists": 1,
     "xg": 2.11,
     "possession_pct": 37,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Saudi Arabia",
@@ -823,9 +823,9 @@
     "assists": 0,
     "xg": 1.52,
     "possession_pct": 33,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Scotland",
@@ -841,9 +841,9 @@
     "assists": 0,
     "xg": 2.34,
     "possession_pct": 41,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   },
   {
     "team": "Panama",
@@ -859,8 +859,8 @@
     "assists": 0,
     "xg": 2.19,
     "possession_pct": 42,
-    "as_of_stage": "through quarterfinals",
+    "as_of_stage": "final",
     "source_id": "fifa_team_stats_2026",
-    "retrieved_at": "2026-07-12T00:00:00"
+    "retrieved_at": "2026-08-19"
   }
 ]

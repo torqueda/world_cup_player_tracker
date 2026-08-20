@@ -35,7 +35,7 @@ Group A,Mexico,7,MF,Luis Romo,False,1995-06-05,63,4,Guadalajara,Mexican Football
 Group A,Mexico,8,MF,Álvaro Fidalgo,False,1997-04-09,4,0,Real Betis,Royal Spanish Football Federation
 Group A,Mexico,9,FW,Raúl Jiménez,False,1991-05-05,124,44,Fulham,The Football Association
 Group A,Mexico,10,FW,Alexis Vega,False,1997-11-25,52,7,Toluca,Mexican Football Federation
-Group A,Mexico,11,FW,Santiago Giménez,False,2001-04-18,47,6,Milan,Italian Football Federation
+Group A,Mexico,11,FW,Santiago Giménez,False,2001-04-18,47,6,AC Milan,Italian Football Federation
 Group A,Mexico,12,GK,Carlos Acevedo,False,1996-04-19,7,0,Santos Laguna,Mexican Football Federation
 Group A,Mexico,13,GK,Guillermo Ochoa,False,1985-07-13,152,0,AEL Limassol,Cyprus Football Association
 Group A,Mexico,14,FW,Armando González,False,2003-04-20,7,1,Guadalajara,Mexican Football Federation
@@ -73,7 +73,7 @@ Group A,South Africa,19,DF,Nkosinathi Sibisi,False,1995-09-22,20,0,Orlando Pirat
 Group A,South Africa,20,DF,Khuliso Mudau,False,1995-04-26,32,1,Mamelodi Sundowns,South African Football Association
 Group A,South Africa,21,DF,Ime Okon,False,2004-02-20,8,1,Hannover 96,German Football Association
 Group A,South Africa,22,GK,Ricardo Goss,False,1994-04-02,5,0,Siwelele,South African Football Association
-Group A,South Africa,23,MF,Jayden Adams,False,2001-05-05,5,0,Mamelodi Sundowns,South African Football Association
+Group A,South Africa,23,MF,Jayden Adams,False,2001-05-05,9,1,Mamelodi Sundowns,South African Football Association
 Group A,South Africa,24,DF,Olwethu Makhanya,False,2004-04-30,1,0,Philadelphia Union,United States Soccer Federation
 Group A,South Africa,25,FW,Kamogelo Sebelebele,False,2002-07-21,3,0,Orlando Pirates,South African Football Association
 Group A,South Africa,26,DF,Bradley Cross,False,2001-01-30,1,0,Kaizer Chiefs,South African Football Association
@@ -194,7 +194,7 @@ Group B,Switzerland,10,MF,Granit Xhaka,True,1992-09-27,146,17,Sunderland,The Foo
 Group B,Switzerland,11,FW,Dan Ndoye,False,2000-10-25,31,8,Nottingham Forest,The Football Association
 Group B,Switzerland,12,GK,Yvon Mvogo,False,1994-06-06,13,0,Lorient,French Football Federation
 Group B,Switzerland,13,DF,Ricardo Rodriguez,False,1992-08-25,138,9,Real Betis,Royal Spanish Football Federation
-Group B,Switzerland,14,MF,Ardon Jashari,False,2002-07-30,8,0,Milan,Italian Football Federation
+Group B,Switzerland,14,MF,Ardon Jashari,False,2002-07-30,8,0,AC Milan,Italian Football Federation
 Group B,Switzerland,15,MF,Djibril Sow,False,1997-02-06,52,0,Sevilla,Royal Spanish Football Federation
 Group B,Switzerland,16,FW,Christian Fassnacht,False,1993-11-11,23,5,Young Boys,Swiss Football Association
 Group B,Switzerland,17,FW,Rubén Vargas,False,1998-08-05,61,11,Sevilla,Royal Spanish Football Federation
@@ -398,7 +398,7 @@ Group D,United States,6,DF,Auston Trusty,False,1998-08-12,8,0,Celtic,Scottish Fo
 Group D,United States,7,MF,Giovanni Reyna,False,2002-11-13,38,9,Borussia Mönchengladbach,German Football Association
 Group D,United States,8,MF,Weston McKennie,False,1998-08-28,66,12,Juventus,Italian Football Federation
 Group D,United States,9,FW,Ricardo Pepi,False,2003-01-09,37,13,PSV Eindhoven,Royal Dutch Football Association
-Group D,United States,10,FW,Christian Pulisic,False,1998-09-18,86,33,Milan,Italian Football Federation
+Group D,United States,10,FW,Christian Pulisic,False,1998-09-18,86,33,AC Milan,Italian Football Federation
 Group D,United States,11,FW,Brenden Aaronson,False,2000-10-22,58,9,Leeds United,The Football Association
 Group D,United States,12,DF,Miles Robinson,False,1997-03-14,40,3,FC Cincinnati,United States Soccer Federation
 Group D,United States,13,DF,Tim Ream,True,1987-10-05,82,1,Charlotte FC,United States Soccer Federation
@@ -447,7 +447,7 @@ Group E,Ecuador,3,DF,Piero Hincapié,False,2002-01-09,52,3,Arsenal,The Football 
 Group E,Ecuador,4,DF,Joel Ordóñez,False,2004-04-21,17,0,Club Brugge,Royal Belgian Football Association
 Group E,Ecuador,5,MF,Jordy Alcívar,False,1999-08-05,11,1,Independiente del Valle,Ecuadorian Football Federation
 Group E,Ecuador,6,DF,Willian Pacho,False,2001-10-16,34,2,Paris Saint-Germain,French Football Federation
-Group E,Ecuador,7,DF,Pervis Estupiñán,False,1998-01-21,54,5,Milan,Italian Football Federation
+Group E,Ecuador,7,DF,Pervis Estupiñán,False,1998-01-21,54,5,AC Milan,Italian Football Federation
 Group E,Ecuador,8,MF,Anthony Valencia,False,2003-07-21,3,1,Antwerp,Royal Belgian Football Association
 Group E,Ecuador,9,FW,John Yeboah,False,2000-06-23,23,3,Venezia,Italian Football Federation
 Group E,Ecuador,10,MF,Kendry Páez,False,2007-05-04,26,2,River Plate,Argentine Football Association
@@ -611,7 +611,7 @@ Group F,Tunisia,11,MF,Ismaël Gharbi,False,2004-04-10,17,2,FC Augsburg,German Fo
 Group F,Tunisia,12,DF,Mortadha Ben Ouanes,False,1994-07-02,18,0,Kasımpaşa,Turkish Football Federation
 Group F,Tunisia,13,MF,Rani Khedira,False,1994-01-27,3,0,Union Berlin,German Football Association
 Group F,Tunisia,14,MF,Khalil Ayari,False,2005-02-02,4,0,Paris Saint-Germain,French Football Federation
-Group F,Tunisia,15,MF,Hadj Mahmoud,False,2000-04-24,9,0,Lugano,Swiss Football Association
+Group F,Tunisia,15,MF,Mohamed Belhadj Mahmoud,False,2000-04-24,9,0,Lugano,Swiss Football Association
 Group F,Tunisia,16,GK,Aymen Dahmen,False,1997-01-28,37,0,CS Sfaxien,Tunisian Football Federation
 Group F,Tunisia,17,MF,Ellyes Skhiri,True,1995-05-10,83,4,Eintracht Frankfurt,German Football Association
 Group F,Tunisia,18,FW,Rayan Elloumi,False,2007-09-17,4,0,Vancouver Whitecaps FC,Canadian Soccer Association
@@ -638,13 +638,13 @@ Group G,Belgium,12,GK,Senne Lammens,False,2002-07-07,2,0,Manchester United,The F
 Group G,Belgium,13,GK,Mike Penders,False,2005-07-31,0,0,Strasbourg,French Football Federation
 Group G,Belgium,14,FW,Dodi Lukébakio,False,1997-09-24,30,6,Benfica,Portuguese Football Federation
 Group G,Belgium,15,DF,Thomas Meunier,False,1991-09-12,80,10,Lille,French Football Federation
-Group G,Belgium,16,DF,Koni De Winter,False,2002-06-12,8,0,Milan,Italian Football Federation
+Group G,Belgium,16,DF,Koni De Winter,False,2002-06-12,8,0,AC Milan,Italian Football Federation
 Group G,Belgium,17,FW,Charles De Ketelaere,False,2001-03-10,30,6,Atalanta,Italian Football Federation
 Group G,Belgium,18,DF,Joaquin Seys,False,2005-03-28,5,0,Club Brugge,Royal Belgian Football Association
 Group G,Belgium,19,MF,Diego Moreira,False,2004-08-06,3,0,Strasbourg,French Football Federation
 Group G,Belgium,20,MF,Hans Vanaken,False,1992-08-24,34,7,Club Brugge,Royal Belgian Football Association
 Group G,Belgium,21,DF,Timothy Castagne,False,1995-12-05,63,2,Fulham,The Football Association
-Group G,Belgium,22,MF,Alexis Saelemaekers,False,1999-06-27,24,2,Milan,Italian Football Federation
+Group G,Belgium,22,MF,Alexis Saelemaekers,False,1999-06-27,24,2,AC Milan,Italian Football Federation
 Group G,Belgium,23,MF,Nicolas Raskin,False,2001-02-23,13,2,Rangers,Scottish Football Association
 Group G,Belgium,24,MF,Amadou Onana,False,2001-08-16,29,1,Aston Villa,The Football Association
 Group G,Belgium,25,DF,Nathan Ngoy,False,2003-06-10,4,0,Lille,French Football Federation
@@ -844,9 +844,9 @@ Group I,France,10,FW,Kylian Mbappé,True,1998-12-20,98,56,Real Madrid,Royal Span
 Group I,France,11,FW,Michael Olise,False,2001-12-12,17,7,Bayern Munich,German Football Association
 Group I,France,12,FW,Bradley Barcola,False,2002-09-02,20,3,Paris Saint-Germain,French Football Federation
 Group I,France,13,MF,N'Golo Kanté,False,1991-03-29,69,2,Fenerbahçe,Turkish Football Federation
-Group I,France,14,MF,Adrien Rabiot,False,1995-04-03,59,7,Milan,Italian Football Federation
+Group I,France,14,MF,Adrien Rabiot,False,1995-04-03,59,7,AC Milan,Italian Football Federation
 Group I,France,15,DF,Ibrahima Konaté,False,1999-05-25,28,0,Liverpool,The Football Association
-Group I,France,16,GK,Mike Maignan,False,1995-07-03,40,0,Milan,Italian Football Federation
+Group I,France,16,GK,Mike Maignan,False,1995-07-03,40,0,AC Milan,Italian Football Federation
 Group I,France,17,DF,William Saliba,False,2001-03-24,32,0,Arsenal,The Football Association
 Group I,France,18,MF,Warren Zaïre-Emery,False,2006-03-08,11,1,Paris Saint-Germain,French Football Federation
 Group I,France,19,DF,Théo Hernandez,False,1997-10-06,44,2,Al-Hilal,Saudi Arabian Football Federation
@@ -1107,7 +1107,7 @@ Group K,Portugal,13,DF,Renato Veiga,False,2003-07-29,13,1,Villarreal,Royal Spani
 Group K,Portugal,14,DF,Gonçalo Inácio,False,2001-08-25,22,2,Sporting CP,Portuguese Football Federation
 Group K,Portugal,15,MF,João Neves,False,2004-09-27,22,3,Paris Saint-Germain,French Football Federation
 Group K,Portugal,16,FW,Francisco Trincão,False,1999-12-29,18,3,Sporting CP,Portuguese Football Federation
-Group K,Portugal,17,FW,Rafael Leão,False,1999-06-10,44,5,Milan,Italian Football Federation
+Group K,Portugal,17,FW,Rafael Leão,False,1999-06-10,44,5,AC Milan,Italian Football Federation
 Group K,Portugal,18,FW,Pedro Neto,False,2000-03-09,25,3,Chelsea,The Football Association
 Group K,Portugal,19,FW,Gonçalo Guedes,False,1996-11-29,34,8,Real Sociedad,Royal Spanish Football Federation
 Group K,Portugal,20,DF,João Cancelo,False,1994-05-27,68,12,Barcelona,Royal Spanish Football Federation
@@ -1152,7 +1152,7 @@ Group L,Croatia,6,DF,Josip Šutalo,False,2000-02-28,33,0,Ajax,Royal Dutch Footba
 Group L,Croatia,7,MF,Nikola Moro,False,1998-03-12,10,0,Bologna,Italian Football Federation
 Group L,Croatia,8,MF,Mateo Kovačić,False,1994-05-06,113,5,Manchester City,The Football Association
 Group L,Croatia,9,FW,Andrej Kramarić,False,1991-06-19,116,36,TSG Hoffenheim,German Football Association
-Group L,Croatia,10,MF,Luka Modrić,True,1985-09-09,198,29,Milan,Italian Football Federation
+Group L,Croatia,10,MF,Luka Modrić,True,1985-09-09,198,29,AC Milan,Italian Football Federation
 Group L,Croatia,11,FW,Ante Budimir,False,1991-07-22,38,6,Osasuna,Royal Spanish Football Federation
 Group L,Croatia,12,GK,Ivor Pandur,False,2000-03-25,0,0,Hull City,The Football Association
 Group L,Croatia,13,MF,Nikola Vlašić,False,1997-10-04,63,10,Torino,Italian Football Federation

@@ -75,14 +75,14 @@ NEW_SOURCES = [
     },
     {
         "source_id": "fifa_player_stats_2026",
-        "source_name": "FIFA.com player statistics (through quarterfinals)",
+        "source_name": "FIFA.com player statistics (final)",
         "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/statistics/player-statistics",
         "retrieved_at": TODAY,
         "notes": "Goals/assists/minutes for all registered players; cards from Discipline tab. Collected from rendered pages.",
     },
     {
         "source_id": "fifa_team_stats_2026",
-        "source_name": "FIFA.com team statistics (through quarterfinals)",
+        "source_name": "FIFA.com team statistics (final)",
         "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/statistics/team-statistics",
         "retrieved_at": TODAY,
         "notes": "Team goals, assists, xG, possession. Collected from rendered pages.",
@@ -92,7 +92,7 @@ NEW_SOURCES = [
         "source_name": "FIFA.com scores & fixtures",
         "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
         "retrieved_at": TODAY,
-        "notes": "All match results through the quarterfinals plus remaining schedule. Snapshot: data/raw/fifa_scores_fixtures_snapshot.txt",
+        "notes": "All 104 match results, including the semifinals, third-place playoff, and final. Snapshot: data/raw/fifa_scores_fixtures_snapshot.txt",
     },
 ]
 
@@ -350,7 +350,7 @@ def main() -> None:
             "yellow_cards": card.get("yellow_cards") or "0",
             "red_cards": card.get("red_cards") or "0",
             "indirect_red_cards": card.get("indirect_red_cards") or "0",
-            "as_of_stage": "through quarterfinals",
+            "as_of_stage": "final",
             "source_id": "fifa_player_stats_2026",
             "retrieved_at": TODAY,
         }
@@ -404,11 +404,17 @@ def main() -> None:
     tallies: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
     stage_reached: dict[str, str] = {}
     stage_rank = {"First Stage": 1, "Round of 32": 2, "Round of 16": 3, "Quarter-final": 4, "Semi-final": 5}
+    stage_label = {"First Stage": "Group stage", "Round of 32": "Round of 32", "Round of 16": "Round of 16", "Quarter-final": "Quarter-finals", "Semi-final": "Semi-finals"}
+    best_rank_by_label = {"Group stage": 1, "Round of 32": 2, "Round of 16": 3, "Quarter-finals": 4, "Semi-finals": 5}
+
+    def winner_and_loser(m: dict) -> tuple[str, str]:
+        hs, as_ = int(m["home_score"]), int(m["away_score"])
+        hp, ap = int(m["home_pens"] or 0), int(m["away_pens"] or 0)
+        home_won = hs > as_ or (hs == as_ and hp > ap)
+        return (m["home_team"], m["away_team"]) if home_won else (m["away_team"], m["home_team"])
+
     for m in matches:
         if m["status"] != "played":
-            if m["stage"] == "Semi-final":
-                for team in (m["home_team"], m["away_team"]):
-                    stage_reached[team] = "Semi-finals (in progress)"
             continue
         home, away = m["home_team"], m["away_team"]
         hs, as_ = int(m["home_score"]), int(m["away_score"])
@@ -425,13 +431,24 @@ def main() -> None:
         else:
             tallies[home]["drawn"] += 1
             tallies[away]["drawn"] += 1
-        # record the deepest stage each team has played in
+
+        # the final and third-place playoff resolve each team's final standing directly
+        if m["stage"] == "Final":
+            winner, loser = winner_and_loser(m)
+            stage_reached[winner] = "Champions"
+            stage_reached[loser] = "Runners-up"
+            continue
+        if m["stage"] == "Play-off for third place":
+            winner, loser = winner_and_loser(m)
+            stage_reached[winner] = "Third place"
+            stage_reached[loser] = "Fourth place"
+            continue
+
+        # otherwise record the deepest stage each team has played in
         for team in (home, away):
             best = stage_reached.get(team)
-            if best == "Semi-finals (in progress)":
-                continue
-            best_rank = {"Group stage": 1, "Round of 32": 2, "Round of 16": 3, "Quarter-finals": 4}.get(best or "", 0)
-            label = {"First Stage": "Group stage", "Round of 32": "Round of 32", "Round of 16": "Round of 16", "Quarter-final": "Quarter-finals"}.get(m["stage"], m["stage"])
+            best_rank = best_rank_by_label.get(best or "", 0)
+            label = stage_label.get(m["stage"], m["stage"])
             if stage_rank.get(m["stage"], 0) >= best_rank:
                 stage_reached[team] = label
 
@@ -454,7 +471,7 @@ def main() -> None:
                 "assists": row["assists"],
                 "xg": row["xg"],
                 "possession_pct": row["possession_pct"],
-                "as_of_stage": "through quarterfinals",
+                "as_of_stage": "final",
                 "source_id": "fifa_team_stats_2026",
                 "retrieved_at": TODAY,
             }

@@ -7,7 +7,7 @@ import { PlayerDetailProvider } from "@/components/player-detail";
 const REPO_URL = "https://github.com/torqueda/world_cup_player_tracker";
 
 const exportedAt = (metaJson as { exported_at?: string }).exported_at;
-const asOfStage = playerStats[0]?.as_of_stage ?? "through quarterfinals";
+const asOfStage = playerStats[0]?.as_of_stage ?? "final";
 const statusText = `Data ${asOfStage}${exportedAt ? ` · updated ${exportedAt}` : ""}`;
 
 // Visible labels changed for the redesign; URLs preserved so external links keep

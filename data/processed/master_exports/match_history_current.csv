@@ -99,7 +99,7 @@ m_wc2026_3fac924b,FIFA World Cup 2026,2026-07-09T00:00:00,Quarter-final,,France,
 m_wc2026_324aabf1,FIFA World Cup 2026,2026-07-10T00:00:00,Quarter-final,,Spain,Belgium,2,1,,,Los Angeles Stadium,Los Angeles,played,fifa_fixtures_2026
 m_wc2026_f82a52f9,FIFA World Cup 2026,2026-07-11T00:00:00,Quarter-final,,Norway,England,1,2,,,Miami Stadium,Miami,played,fifa_fixtures_2026
 m_wc2026_50da604e,FIFA World Cup 2026,2026-07-11T00:00:00,Quarter-final,,Argentina,Switzerland,3,1,,,Kansas City Stadium,Kansas City,played,fifa_fixtures_2026
-m_wc2026_28367994,FIFA World Cup 2026,2026-07-14T00:00:00,Semi-final,,France,Spain,,,,,Dallas Stadium,Dallas,scheduled,fifa_fixtures_2026
-m_wc2026_92cce74c,FIFA World Cup 2026,2026-07-15T00:00:00,Semi-final,,England,Argentina,,,,,Atlanta Stadium,Atlanta,scheduled,fifa_fixtures_2026
-m_wc2026_1053c029,FIFA World Cup 2026,2026-07-18T00:00:00,Play-off for third place,,RU101,RU102,,,,,Miami Stadium,Miami,scheduled,fifa_fixtures_2026
-m_wc2026_d1a6f2af,FIFA World Cup 2026,2026-07-19T00:00:00,Final,,W101,W102,,,,,New York/New Jersey Stadium,New Jersey,scheduled,fifa_fixtures_2026
+m_wc2026_28367994,FIFA World Cup 2026,2026-07-14T00:00:00,Semi-final,,France,Spain,0,2,,,Dallas Stadium,Dallas,played,fifa_fixtures_2026
+m_wc2026_92cce74c,FIFA World Cup 2026,2026-07-15T00:00:00,Semi-final,,England,Argentina,1,2,,,Atlanta Stadium,Atlanta,played,fifa_fixtures_2026
+m_wc2026_7ff3ff59,FIFA World Cup 2026,2026-07-18T00:00:00,Play-off for third place,,France,England,4,6,,,Miami Stadium,Miami,played,fifa_fixtures_2026
+m_wc2026_3405e67b,FIFA World Cup 2026,2026-07-19T00:00:00,Final,,Spain,Argentina,1,0,,,New York/New Jersey Stadium,New Jersey,played,fifa_fixtures_2026

@@ -115,5 +115,31 @@
     "source_url": "https://en.wikipedia.org/wiki/Gaziantep_F.K.",
     "reviewed_by": "claude",
     "notes": "Gaziantep F.K. league value was the stray 'dissolution' note; corrected to Süper Lig."
+  },
+  {
+    "change_id": "chg_2026-08-19_post_final_refresh",
+    "changed_at": "2026-08-19",
+    "team": "ALL",
+    "player_id": null,
+    "change_type": "bulk_update",
+    "field_changed": "player_stats, team_stats, match_history (semis/3rd-place/final), squad_entries verification, coaches, referees, sources",
+    "old_value": "through quarterfinals",
+    "new_value": "final",
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "reviewed_by": "user+claude",
+    "notes": "Post-tournament refresh: re-ran the two Wikipedia scrapers and re-collected the three FIFA stat surfaces plus scores-fixtures from the browser pane. Resolved the semifinals (France 0-2 Spain, England 1-2 Argentina), third-place playoff (France 4-6 England), and final (Spain 1-0 Argentina aet). Rosters were unchanged since the pre-semifinal import (0 new players/clubs). Goalkeeping stats (gk_saves etc.) were not refreshed in this pass and remain at their through-quarterfinals values."
+  },
+  {
+    "change_id": "chg_2026-08-19_gk_stats_refresh",
+    "changed_at": "2026-08-19",
+    "team": "ALL",
+    "player_id": null,
+    "change_type": "bulk_update",
+    "field_changed": "player_stats.gk_saves, gk_actions_inside_box, gk_actions_outside_box",
+    "old_value": "through quarterfinals",
+    "new_value": "final",
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/statistics/player-statistics",
+    "reviewed_by": "user+claude",
+    "notes": "Refreshed goalkeeping stats (Goalkeeping tab) to final-tournament totals; 61 keepers updated, 0 unmatched."
   }
 ]

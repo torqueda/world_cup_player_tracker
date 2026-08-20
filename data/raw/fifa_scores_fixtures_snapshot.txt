@@ -129,10 +129,10 @@ Saturday 11 July 2026
 Norway|1|2|England|Quarter-final||Miami Stadium|Miami
 Argentina|3|1|Switzerland|Quarter-final||Kansas City Stadium|Kansas City
 Tuesday 14 July 2026
-France|-|-|Spain|Semi-final||Dallas Stadium|Dallas
+France|0|2|Spain|Semi-final||Dallas Stadium|Dallas
 Wednesday 15 July 2026
-England|-|-|Argentina|Semi-final||Atlanta Stadium|Atlanta
+England|1|2|Argentina|Semi-final||Atlanta Stadium|Atlanta
 Saturday 18 July 2026
-RU101|-|-|RU102|Play-off for third place||Miami Stadium|Miami
+France|4|6|England|Play-off for third place||Miami Stadium|Miami
 Sunday 19 July 2026
-W101|-|-|W102|Final||New York/New Jersey Stadium|New Jersey
+Spain|1|0|Argentina|Final||New York/New Jersey Stadium|New Jersey

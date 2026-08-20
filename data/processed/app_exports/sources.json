@@ -59,44 +59,44 @@
     "source_type": "roster",
     "publisher": "Wikipedia",
     "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
-    "title": "2026 FIFA World Cup squads",
-    "accessed_at": "2026-07-12",
+    "title": "Wikipedia: 2026 FIFA World Cup squads",
+    "accessed_at": "2026-08-19",
     "published_at": null,
     "reliability_tier": "secondary_verified",
-    "notes": "Final 26-man rosters, shirt numbers, coaches, replacements. Snapshot: data/raw/wikipedia_2026_squads_snapshot.html"
+    "notes": "Final 26-man rosters, shirt numbers, coaches, replacement notes. Snapshot: data/raw/wikipedia_2026_squads_snapshot.html"
   },
   {
     "source_id": "wiki_officials_2026",
     "source_type": "officials",
     "publisher": "Wikipedia",
     "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_officials",
-    "title": "2026 FIFA World Cup officials",
-    "accessed_at": "2026-07-12",
+    "title": "Wikipedia: 2026 FIFA World Cup officials",
+    "accessed_at": "2026-08-19",
     "published_at": null,
     "reliability_tier": "secondary_verified",
-    "notes": "Referees, assistants, VARs. Snapshot: data/raw/wikipedia_2026_officials_snapshot.html"
+    "notes": "Referees, assistants, VARs with match assignments. Snapshot: data/raw/wikipedia_2026_officials_snapshot.html"
   },
   {
     "source_id": "fifa_player_stats_2026",
     "source_type": "stats",
     "publisher": "FIFA",
     "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/statistics/player-statistics",
-    "title": "FIFA.com player statistics (through quarterfinals)",
-    "accessed_at": "2026-07-12",
+    "title": "FIFA.com player statistics (final)",
+    "accessed_at": "2026-08-19",
     "published_at": null,
     "reliability_tier": "primary_official",
-    "notes": "Goals/assists/minutes for all registered players; cards from Discipline tab."
+    "notes": "Goals/assists/minutes for all registered players; cards from Discipline tab. Collected from rendered pages."
   },
   {
     "source_id": "fifa_team_stats_2026",
     "source_type": "stats",
     "publisher": "FIFA",
     "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/statistics/team-statistics",
-    "title": "FIFA.com team statistics (through quarterfinals)",
-    "accessed_at": "2026-07-12",
+    "title": "FIFA.com team statistics (final)",
+    "accessed_at": "2026-08-19",
     "published_at": null,
     "reliability_tier": "primary_official",
-    "notes": "Team goals, assists, xG, possession."
+    "notes": "Team goals, assists, xG, possession. Collected from rendered pages."
   },
   {
     "source_id": "fifa_fixtures_2026",
@@ -104,9 +104,9 @@
     "publisher": "FIFA",
     "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
     "title": "FIFA.com scores & fixtures",
-    "accessed_at": "2026-07-12",
+    "accessed_at": "2026-08-19",
     "published_at": null,
     "reliability_tier": "primary_official",
-    "notes": "All match results through the quarterfinals plus remaining schedule. Snapshot: data/raw/fifa_scores_fixtures_snapshot.txt"
+    "notes": "All 104 match results, including the semifinals, third-place playoff, and final. Snapshot: data/raw/fifa_scores_fixtures_snapshot.txt"
   }
 ]
