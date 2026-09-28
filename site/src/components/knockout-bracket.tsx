@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { CountryFlag } from "@/components/country-flag";
 import type { Match } from "@/lib/data";
 
@@ -46,11 +46,12 @@ function winnerOf(match: Match): string | null {
 }
 
 // --- layout constants (SVG units) ---
-const COL_W = 210;
+const MIN_WIDTH = 1050;
 const BOX_W = 180;
 const BOX_H = 48;
 const ROW_H = 60;
 const PAD_TOP = 10;
+const HEADER_H = 48;
 
 interface BracketNode {
   match: Match;
@@ -68,7 +69,8 @@ interface BuiltBracket {
   height: number;
 }
 
-function buildBracket(all: Match[]): BuiltBracket {
+function buildBracket(all: Match[], width: number): BuiltBracket {
+  const columnWidth = (width - BOX_W) / (ROUNDS.length - 1);
   const byStage = new Map<string, Match[]>();
   for (const stage of ROUNDS) {
     byStage.set(
@@ -114,7 +116,7 @@ function buildBracket(all: Match[]): BuiltBracket {
         : (feeders.get(match.match_id) ?? [])
             .filter((m): m is Match => Boolean(m))
             .map((feeder) => build(feeder, round - 1));
-    const node: BracketNode = { match, round, children, x: round * COL_W, y: 0 };
+    const node: BracketNode = { match, round, children, x: round * columnWidth, y: 0 };
     if (children.length === 0) {
       node.y = PAD_TOP + leafIndex * ROW_H + ROW_H / 2;
       leafIndex += 1;
@@ -135,7 +137,6 @@ function buildBracket(all: Match[]): BuiltBracket {
 
   const thirdPlace = all.find((m) => m.stage === "Play-off for third place") ?? null;
   const height = PAD_TOP * 2 + Math.max(leafIndex, 1) * ROW_H;
-  const width = ROUNDS.length * COL_W;
   return { nodes, connectors, thirdPlace, width, height };
 }
 
@@ -202,7 +203,23 @@ function MatchBox({
 
 export function KnockoutBracket({ matches }: { matches: Match[] }) {
   const [selectedTeam, setSelectedTeam] = useState<string | null>(null);
-  const { nodes, connectors, thirdPlace, width, height } = useMemo(() => buildBracket(matches), [matches]);
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const [availableWidth, setAvailableWidth] = useState(MIN_WIDTH);
+  useEffect(() => {
+    const container = scrollRef.current;
+    if (!container) return;
+    const observer = new ResizeObserver(([entry]) => {
+      setAvailableWidth(Math.max(MIN_WIDTH, Math.floor(entry.contentRect.width)));
+    });
+    observer.observe(container);
+    return () => observer.disconnect();
+  }, []);
+  const { nodes, connectors, thirdPlace, width, height } = useMemo(
+    () => buildBracket(matches, availableWidth), [matches, availableWidth],
+  );
+  const columnWidth = (width - BOX_W) / (ROUNDS.length - 1);
+  // Align the playoff with the lower quarter-final, beneath the final.
+  const thirdPlaceY = Math.max(...nodes.filter((node) => node.round === 2).map((node) => node.y), PAD_TOP);
 
   if (nodes.length === 0) {
     return <p className="insight-note">The bracket appears once knockout fixtures are scheduled.</p>;
@@ -213,14 +230,13 @@ export function KnockoutBracket({ matches }: { matches: Match[] }) {
   }
 
   // Column headers positioned over each round.
-  const headers = ROUNDS.map((round, index) => ({ round, x: index * COL_W + BOX_W / 2 }));
+  const headers = ROUNDS.map((round, index) => ({ round, x: index * columnWidth + BOX_W / 2 }));
 
   return (
     <div className="bracket-wrap">
       <div className="bracket-toolbar">
         <p className="insight-note">
-          The full knockout tree, Round of 32 to the Final. Click any team to trace its path; the
-          semifinals, third-place playoff, and Final fill in as those matches are played.
+          Follow the knockout rounds from the Round of 32 to the Final. Click a team to highlight its path.
         </p>
         {selectedTeam ? (
           <button type="button" className="link-button" onClick={() => setSelectedTeam(null)}>
@@ -228,10 +244,10 @@ export function KnockoutBracket({ matches }: { matches: Match[] }) {
           </button>
         ) : null}
       </div>
-      <div className="bracket-scroll">
+      <div className="bracket-scroll" ref={scrollRef}>
         <svg
-          viewBox={`0 0 ${width} ${height + 34}`}
-          style={{ width: Math.max(width, 320), height: height + 34 }}
+          viewBox={`0 0 ${width} ${height + HEADER_H}`}
+          style={{ width: Math.max(width, 320), height: height + HEADER_H }}
           role="img"
           aria-label="World Cup 2026 knockout bracket"
         >
@@ -240,7 +256,9 @@ export function KnockoutBracket({ matches }: { matches: Match[] }) {
               {ROUND_LABELS[header.round]}
             </text>
           ))}
-          <g transform="translate(0, 28)">
+          {/* Use absolute coordinates for HTML boxes and SVG lines alike.
+              Translated foreignObjects can render at different offsets in WebKit. */}
+          <g>
             {connectors.map(({ from, to }, index) => {
               const startX = from.x + BOX_W;
               const endX = to.x;
@@ -254,7 +272,7 @@ export function KnockoutBracket({ matches }: { matches: Match[] }) {
               return (
                 <path
                   key={index}
-                  d={`M ${startX} ${from.y} H ${midX} V ${to.y} H ${endX}`}
+                  d={`M ${startX} ${from.y + HEADER_H} H ${midX} V ${to.y + HEADER_H} H ${endX}`}
                   className={onPath ? "bracket-link bracket-link-active" : "bracket-link"}
                   fill="none"
                 />
@@ -264,7 +282,7 @@ export function KnockoutBracket({ matches }: { matches: Match[] }) {
               <foreignObject
                 key={node.match.match_id}
                 x={node.x}
-                y={node.y - BOX_H / 2}
+                y={node.y + HEADER_H - BOX_H / 2}
                 width={BOX_W}
                 height={BOX_H}
               >
@@ -272,14 +290,29 @@ export function KnockoutBracket({ matches }: { matches: Match[] }) {
               </foreignObject>
             ))}
           </g>
+          {thirdPlace ? (
+            <g>
+              <text
+                x={3.5 * columnWidth + BOX_W / 2}
+                y={thirdPlaceY + HEADER_H - BOX_H / 2 - 14}
+                className="bracket-round-label"
+                textAnchor="middle"
+              >
+                Third-place playoff
+              </text>
+              <foreignObject
+                x={3.5 * columnWidth}
+                y={thirdPlaceY + HEADER_H - BOX_H / 2}
+                width={BOX_W}
+                height={BOX_H}
+              >
+                <MatchBox match={thirdPlace} selectedTeam={selectedTeam} onSelectTeam={onSelectTeam} />
+              </foreignObject>
+            </g>
+          ) : null}
         </svg>
       </div>
-      {thirdPlace ? (
-        <div className="bracket-thirdplace">
-          <span className="bracket-thirdplace-label">Third-place playoff</span>
-          <MatchBox match={thirdPlace} selectedTeam={selectedTeam} onSelectTeam={onSelectTeam} />
-        </div>
-      ) : null}
+
     </div>
   );
 }

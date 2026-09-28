@@ -4,7 +4,6 @@ import { CountryFlag } from "@/components/country-flag";
 import {
   PageHeader,
   SegmentedControl,
-  Expandable,
   EmptyState,
   FilterGroup,
   cx,
@@ -20,7 +19,7 @@ const KNOCKOUT_STAGES = [
   "Final",
 ];
 
-// Deepest → shallowest, for grouping the "All" and "Knockout" views.
+// Deepest → shallowest, for grouping the All Matches view.
 const STAGE_ORDER = [
   "Final",
   "Play-off for third place",
@@ -140,7 +139,7 @@ function byDateAsc(a: Match, b: Match): number {
   return new Date(a.match_date).getTime() - new Date(b.match_date).getTime();
 }
 
-type View = "upcoming" | "knockout" | "groups" | "all";
+type View = "knockout" | "groups" | "all";
 
 const ALL = "all";
 
@@ -161,7 +160,7 @@ const knockoutCount = matches.filter((m) => KNOCKOUT_STAGES.includes(m.stage)).l
 const groupCount = matches.filter((m) => m.stage === "First Stage").length;
 
 export function MatchesRoute() {
-  const [view, setView] = useState<View>(scheduledCount > 0 ? "upcoming" : "all");
+  const [view, setView] = useState<View>("all");
   const [teamFilter, setTeamFilter] = useState(ALL);
   const [venueFilter, setVenueFilter] = useState(ALL);
   const [dateFilter, setDateFilter] = useState(ALL);
@@ -171,8 +170,6 @@ export function MatchesRoute() {
   // date with nothing behind it.
   const baseForView = useMemo(() => {
     switch (view) {
-      case "upcoming":
-        return matches.filter((m) => m.status === "scheduled");
       case "knockout":
         return matches.filter((m) => KNOCKOUT_STAGES.includes(m.stage));
       case "groups":
@@ -219,7 +216,8 @@ export function MatchesRoute() {
   const byGroup = useMemo(() => {
     const map = new Map<string, Match[]>();
     for (const m of filtered) {
-      const key = m.group ?? "Group ?";
+      if (m.stage !== "First Stage") continue;
+      const key = m.group ?? "Unassigned group";
       (map.get(key) ?? map.set(key, []).get(key)!).push(m);
     }
     return Array.from(map.entries()).sort(([a], [b]) => a.localeCompare(b));
@@ -253,63 +251,64 @@ export function MatchesRoute() {
             setDateFilter(ALL);
           }}
           options={[
-            { value: "upcoming", label: "Upcoming", count: scheduledCount },
-            { value: "knockout", label: "Knockout", count: knockoutCount },
+            { value: "all", label: "All Matches", count: matches.length },
             { value: "groups", label: "Groups", count: groupCount },
-            { value: "all", label: "All matches", count: matches.length },
+            { value: "knockout", label: "Knockout", count: knockoutCount },
           ]}
         />
       </div>
 
-      <section className="content-panel reveal">
-        <div className="matches-filters">
-          <FilterGroup label="Team">
-            <select value={teamFilter} onChange={(e) => setTeamFilter(e.target.value)}>
-              <option value={ALL}>All teams</option>
-              {realTeamNames.map((name) => (
-                <option key={name} value={name}>
-                  {name}
-                </option>
-              ))}
-            </select>
-          </FilterGroup>
-          <FilterGroup label="Venue (city)">
-            <select value={venueFilter} onChange={(e) => setVenueFilter(e.target.value)}>
-              <option value={ALL}>All venues</option>
-              {cityNames.map((city) => (
-                <option key={city} value={city}>
-                  {city}
-                </option>
-              ))}
-            </select>
-          </FilterGroup>
-          <FilterGroup label="Date">
-            <select value={dateFilter} onChange={(e) => setDateFilter(e.target.value)}>
-              <option value={ALL}>All dates</option>
-              {dateOptions.map((date) => (
-                <option key={date} value={date}>
-                  {formatDate(date)}
-                </option>
-              ))}
-            </select>
-          </FilterGroup>
-          <FilterGroup label="Status">
-            <select value={statusFilter} onChange={(e) => setStatusFilter(e.target.value)}>
-              <option value={ALL}>Any status</option>
-              <option value="played">Played</option>
-              <option value="scheduled">Scheduled</option>
-            </select>
-          </FilterGroup>
-          {hasFilters ? (
-            <button type="button" className="link-button matches-reset" onClick={resetFilters}>
-              Clear filters
-            </button>
-          ) : null}
-        </div>
-        <p className="results-summary">
-          {filtered.length} match{filtered.length === 1 ? "" : "es"} shown.
-        </p>
-      </section>
+      {view !== "knockout" ? (
+        <section className="content-panel reveal">
+          <div className="matches-filters">
+            <FilterGroup label="Team">
+              <select value={teamFilter} onChange={(e) => setTeamFilter(e.target.value)}>
+                <option value={ALL}>All teams</option>
+                {realTeamNames.map((name) => (
+                  <option key={name} value={name}>
+                    {name}
+                  </option>
+                ))}
+              </select>
+            </FilterGroup>
+            <FilterGroup label="Venue (city)">
+              <select value={venueFilter} onChange={(e) => setVenueFilter(e.target.value)}>
+                <option value={ALL}>All venues</option>
+                {cityNames.map((city) => (
+                  <option key={city} value={city}>
+                    {city}
+                  </option>
+                ))}
+              </select>
+            </FilterGroup>
+            <FilterGroup label="Date">
+              <select value={dateFilter} onChange={(e) => setDateFilter(e.target.value)}>
+                <option value={ALL}>All dates</option>
+                {dateOptions.map((date) => (
+                  <option key={date} value={date}>
+                    {formatDate(date)}
+                  </option>
+                ))}
+              </select>
+            </FilterGroup>
+            <FilterGroup label="Status">
+              <select value={statusFilter} onChange={(e) => setStatusFilter(e.target.value)}>
+                <option value={ALL}>Any status</option>
+                <option value="played">Played</option>
+                <option value="scheduled">Scheduled</option>
+              </select>
+            </FilterGroup>
+            {hasFilters ? (
+              <button type="button" className="link-button matches-reset" onClick={resetFilters}>
+                Clear filters
+              </button>
+            ) : null}
+          </div>
+          <p className="results-summary">
+            {filtered.length} match{filtered.length === 1 ? "" : "es"} shown.
+          </p>
+        </section>
+      ) : null}
 
       {view === "knockout" ? (
         <section className="content-panel reveal">
@@ -318,46 +317,34 @@ export function MatchesRoute() {
         </section>
       ) : null}
 
-      {filtered.length === 0 ? (
+      {view === "knockout" ? null : filtered.length === 0 ? (
         <section className="content-panel reveal">
-          <EmptyState>No matches match the current filters.</EmptyState>
-        </section>
-      ) : view === "groups" ? (
-        <section className="content-panel reveal">
-          <h2 className="section-heading stage-heading">Group stage</h2>
-          <p className="insight-note">Each group is collapsed — expand to see its matches.</p>
-          {byGroup.map(([group, groupMatches]) => (
-            <Expandable
-              key={group}
-              summary={`${group} · ${groupMatches.length} match${groupMatches.length === 1 ? "" : "es"}`}
-            >
-              <div className="score-list">
-                {[...groupMatches].sort(byDateAsc).map((m) => (
-                  <MatchRow key={m.match_id} match={m} />
-                ))}
-              </div>
-            </Expandable>
-          ))}
-        </section>
-      ) : view === "upcoming" ? (
-        <section className="content-panel reveal">
-          <h2 className="section-heading stage-heading">Coming up</h2>
-          <div className="score-list">
-            {[...filtered].sort(byDateAsc).map((m) => (
-              <MatchRow key={m.match_id} match={m} />
-            ))}
-          </div>
+          <EmptyState>No matches found. Try clearing a filter.</EmptyState>
         </section>
       ) : (
-        // knockout + all: grouped by stage
         byStage.map(({ stage, matches: stageMatches }) => (
           <section key={stage} className="content-panel reveal">
             <h2 className="section-heading stage-heading">{stageLabel(stage)}</h2>
-            <div className="score-list">
-              {stageMatches.map((m) => (
-                <MatchRow key={m.match_id} match={m} />
-              ))}
-            </div>
+            {stage === "First Stage" ? (
+              <div className="match-groups-grid">
+                {byGroup.map(([group, groupMatches]) => (
+                  <section key={group}>
+                    <h3 className="subsection-heading">{group}</h3>
+                    <div className="score-list">
+                      {[...groupMatches].sort(byDateAsc).map((match) => (
+                        <MatchRow key={match.match_id} match={match} />
+                      ))}
+                    </div>
+                  </section>
+                ))}
+              </div>
+            ) : (
+              <div className="score-list">
+                {stageMatches.map((match) => (
+                  <MatchRow key={match.match_id} match={match} />
+                ))}
+              </div>
+            )}
           </section>
         ))
       )}

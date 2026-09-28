@@ -138,10 +138,6 @@ export function NationalTeamsRoute() {
     () => new Set(roster.map((row) => row.club?.country).filter(Boolean)).size,
     [roster],
   );
-  const totalCaps = useMemo(
-    () => roster.reduce((sum, row) => sum + (row.entry.caps_pre_tournament ?? 0), 0),
-    [roster],
-  );
   const totalMinutes = useMemo(
     () => roster.reduce((sum, row) => sum + (rosterMinutes(row) ?? 0), 0),
     [roster],
@@ -361,7 +357,6 @@ export function NationalTeamsRoute() {
                     label: "Avg age",
                     value: averageAge !== null ? averageAge.toFixed(1) : "—",
                   },
-                  { key: "caps", label: "Total caps", value: totalCaps.toLocaleString() },
                   {
                     key: "minutes",
                     label: "Squad minutes",

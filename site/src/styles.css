@@ -35,9 +35,9 @@
 
   /* Subtle elevation instead of large diffuse shadows. */
   --shadow: 0 1px 2px rgba(20, 32, 25, 0.05), 0 1px 3px rgba(20, 32, 25, 0.07);
-  --radius-card: 14px;
-  --radius-control: 10px;
-  --content-max: 1200px;
+  --radius-card: 0;
+  --radius-control: 0;
+  --content-max: 1600px;
 
   --font-display: "Archivo", "Avenir Next", "Segoe UI", sans-serif;
   --font-body: "Inter", "Avenir Next", "Segoe UI", sans-serif;
@@ -54,6 +54,10 @@
 
 * {
   box-sizing: border-box;
+}
+
+html {
+  scrollbar-gutter: stable;
 }
 
 html,
@@ -239,7 +243,7 @@ h4,
 
 .app-more-menu a {
   padding: 0.5rem 0.6rem;
-  border-radius: 8px;
+  border-radius: 0;
   color: var(--text);
   font-size: 0.92rem;
 }
@@ -571,8 +575,18 @@ h4,
 
 .data-table th,
 .data-table td {
-  padding: 0.7rem 0.9rem;
+  padding: 0.6rem 0.65rem;
   text-align: left;
+  white-space: normal;
+  overflow-wrap: break-word;
+  vertical-align: top;
+}
+
+.data-table td {
+  font-variant-numeric: tabular-nums;
+}
+
+.data-table td.table-cell-numeric {
   white-space: nowrap;
 }
 
@@ -752,7 +766,7 @@ h4,
 
 .bar-track {
   height: 12px;
-  border-radius: 4px;
+  border-radius: 0;
   background: rgba(49, 95, 74, 0.1);
   overflow: hidden;
 }
@@ -760,7 +774,7 @@ h4,
 .bar-fill {
   display: block;
   height: 100%;
-  border-radius: 0 4px 4px 0;
+  border-radius: 0;
 }
 
 .bar-fill-accent {
@@ -891,10 +905,6 @@ h4,
 }
 
 @media (min-width: 768px) {
-  .app-shell {
-    padding: 2.4rem 1.75rem 4.5rem;
-  }
-
   .header-row {
     grid-template-columns: minmax(0, 1fr) auto;
   }
@@ -1013,7 +1023,7 @@ h4,
   gap: 0.3rem;
   padding: 0.75rem 1rem;
   border: 1px solid var(--surface-border);
-  border-radius: 1rem;
+  border-radius: 0;
   background: var(--surface-muted);
 }
 
@@ -1095,7 +1105,7 @@ h4,
   display: inline-block;
   margin-left: 0.35rem;
   padding: 0 0.4rem;
-  border-radius: 0.4rem;
+  border-radius: 0;
   background: var(--accent);
   color: #fff5ef;
   font-size: 0.7rem;
@@ -1177,8 +1187,9 @@ h4,
   font-weight: 700;
   letter-spacing: inherit;
   text-transform: inherit;
+  text-align: inherit;
   cursor: pointer;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .table-sort:hover {
@@ -1363,7 +1374,7 @@ h4,
   justify-content: space-between;
   gap: 0.75rem;
   padding: 0.35rem 0.6rem;
-  border-radius: 0.6rem;
+  border-radius: 0;
   font-size: 0.88rem;
   break-inside: avoid;
 }
@@ -1436,7 +1447,7 @@ h4,
   width: 100%;
   padding: 0.5rem 0.65rem;
   border: none;
-  border-radius: 0.6rem;
+  border-radius: 0;
   background: none;
   color: var(--text);
   font: inherit;
@@ -1542,7 +1553,7 @@ h4,
   align-items: baseline;
   gap: 0.5rem;
   padding: 0.3rem 0.55rem;
-  border-radius: 0.6rem;
+  border-radius: 0;
   font-size: 0.88rem;
   color: var(--text-muted);
   break-inside: avoid;
@@ -1646,7 +1657,7 @@ h4,
   padding: 0.75rem 1rem;
   border: 1px solid var(--surface-border);
   border-left: 4px solid var(--accent);
-  border-radius: 0.75rem;
+  border-radius: 0;
   background: var(--surface-muted);
   font-size: 0.9rem;
   line-height: 1.6;
@@ -1679,7 +1690,7 @@ h4,
   cursor: pointer;
   text-align: inherit;
   font-weight: 600;
-  border-radius: 4px;
+  border-radius: 0;
 }
 
 .player-link:hover {
@@ -1896,7 +1907,7 @@ h4,
   align-items: center;
   gap: 0.15rem;
   padding: 0.6rem 0.4rem;
-  border-radius: 0.7rem;
+  border-radius: 0;
   background: var(--accent-soft);
 }
 
@@ -2006,7 +2017,7 @@ h4,
   align-items: center;
   justify-content: space-between;
   gap: 0.5rem 1rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .bracket-toolbar .insight-note {
@@ -2045,7 +2056,7 @@ h4,
   justify-content: center;
   gap: 1px;
   border: 1px solid var(--surface-border);
-  border-radius: 0.5rem;
+  border-radius: 0;
   background: var(--surface-strong);
   overflow: hidden;
   position: relative;
@@ -2109,27 +2120,6 @@ button.bracket-team-active:hover {
   font-size: 0.6rem;
   color: var(--text-muted);
   pointer-events: none;
-}
-
-.bracket-thirdplace {
-  margin-top: 1rem;
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  flex-wrap: wrap;
-}
-
-.bracket-thirdplace-label {
-  font-size: 0.8rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--text-muted);
-}
-
-.bracket-thirdplace .bracket-match {
-  width: 200px;
-  height: 48px;
 }
 
 /* ============================================================
@@ -2202,7 +2192,7 @@ button.bracket-team-active:hover {
   gap: 1px;
   background: var(--surface-border);
   border: 1px solid var(--surface-border);
-  border-radius: 1rem;
+  border-radius: 0;
   overflow: hidden;
 }
 
@@ -2429,7 +2419,7 @@ button.bracket-team-active:hover {
 .country-flag-fallback {
   display: inline-block;
   padding: 0 0.3rem;
-  border-radius: 4px;
+  border-radius: 0;
   background: var(--surface-muted);
   border: 1px solid var(--border);
   font-size: 0.7em;
@@ -2678,7 +2668,7 @@ button.bracket-team-active:hover {
   display: block;
   height: 8px;
   margin-top: 0.3rem;
-  border-radius: 4px;
+  border-radius: 0;
   background: var(--surface-muted);
   overflow: hidden;
 }
@@ -2686,7 +2676,7 @@ button.bracket-team-active:hover {
 .ranked-fill {
   display: block;
   height: 100%;
-  border-radius: 4px;
+  border-radius: 0;
   background: var(--accent);
 }
 
@@ -2780,7 +2770,7 @@ button.bracket-team-active:hover {
 .chart-legend-swatch {
   width: 0.85rem;
   height: 0.85rem;
-  border-radius: 3px;
+  border-radius: 0;
   border: 1px solid transparent;
 }
 
@@ -2813,7 +2803,7 @@ button.bracket-team-active:hover {
   gap: 0.4rem;
   padding: 0.4rem 0.8rem;
   border: none;
-  border-radius: 7px;
+  border-radius: 0;
   background: transparent;
   color: var(--text-secondary);
   font: inherit;
@@ -2992,7 +2982,7 @@ button.bracket-team-active:hover {
   flex-direction: column;
   background: var(--surface);
   border: 1px solid var(--surface-border);
-  border-radius: 16px 16px 0 0;
+  border-radius: 0;
   box-shadow: 0 -8px 30px rgba(16, 32, 25, 0.18);
 }
 
@@ -3157,12 +3147,11 @@ button.bracket-team-active:hover {
   color: var(--accent-deep);
 }
 
-/* Roster table (desktop): compact; wrap only at spaces so single words like
-   "Switzerland" are never broken mid-word. A min-width keeps columns legible and
-   lets the wrapper scroll horizontally instead of cramping cells. */
+/* Roster columns use the available width and wrap names at word boundaries.
+   Small screens use player cards; the wrapper still handles genuine overflow. */
 .squad-roster .data-table {
   font-size: 0.9rem;
-  min-width: 860px;
+  min-width: 0;
 }
 
 .squad-roster .data-table th,
@@ -3397,7 +3386,7 @@ button.bracket-team-active:hover {
 
 .section-nav-link {
   padding: 0.4rem 0.7rem;
-  border-radius: 7px;
+  border-radius: 0;
   color: var(--text-secondary);
   font-weight: 600;
   font-size: 0.88rem;
@@ -3575,7 +3564,7 @@ textarea:focus-visible,
 .team-button:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
-  border-radius: 6px;
+  border-radius: 0;
 }
 
 /* Keep the descriptive ring color on dark CTAs and links */
@@ -3586,7 +3575,7 @@ textarea:focus-visible,
 .landing-disclaimer a:focus-visible {
   outline: 2px solid var(--accent-deep);
   outline-offset: 3px;
-  border-radius: 8px;
+  border-radius: 0;
 }
 
 /* Respect reduced-motion site-wide */
@@ -3643,7 +3632,7 @@ textarea:focus-visible,
 
 .comparison-card {
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: 0;
   padding: 0.85rem;
   background: var(--surface);
 }
@@ -3667,7 +3656,7 @@ textarea:focus-visible,
   margin: 0;
   padding: 0.75rem 0.85rem;
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: 0;
   background: var(--surface-muted);
 }
 
@@ -3687,7 +3676,7 @@ textarea:focus-visible,
   display: inline-block;
   width: 0.62rem;
   height: 0.9rem;
-  border-radius: 2px;
+  border-radius: 0;
   box-shadow: inset 0 0 0 1px rgba(20, 32, 25, 0.16);
   transform: rotate(4deg);
 }
@@ -3821,4 +3810,43 @@ textarea:focus-visible,
     max-height: none !important;
     overflow: visible !important;
   }
+}
+
+/* Keep group order row-major: A/B, C/D, and so on. */
+.match-groups-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.5rem;
+}
+
+@media (min-width: 900px) {
+  .match-groups-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.impact-toolbar {
+  justify-content: center;
+  align-items: center;
+  margin: 1.25rem 0 2rem;
+}
+
+.analysis-impact-cols > div {
+  min-width: 0;
+}
+
+@media (min-width: 1100px) {
+  .analysis-impact-cols {
+    grid-template-columns: minmax(0, 0.65fr) minmax(0, 1.35fr);
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1099px) {
+  .analysis-impact-cols {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.bracket-scroll svg {
+  display: block;
 }

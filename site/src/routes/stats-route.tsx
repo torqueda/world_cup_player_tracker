@@ -151,6 +151,7 @@ export function StatsRoute() {
 
   const goals = useMemo(() => ranking((s) => s.goals, { perMin: true }), [scopedStats, mode]);
   const assists = useMemo(() => ranking((s) => s.assists, { perMin: true }), [scopedStats, mode]);
+  const contributions = useMemo(() => ranking((s) => s.goals + s.assists, { perMin: true }), [scopedStats, mode]);
   const minutes = useMemo(() => ranking((s) => s.minutes_played, { perMin: false, unit: "min" }), [scopedStats]);
   const saves = useMemo(() => ranking((s) => s.gk_saves ?? 0, { perMin: true }), [scopedStats, mode]);
 
@@ -244,11 +245,37 @@ export function StatsRoute() {
           )}
         </section>
         <section className="content-panel">
+          <h2 className="section-heading">Goals + assists{perNote}</h2>
+          {contributions.length > 0 ? (
+            <RankedList items={contributions} />
+          ) : (
+            <EmptyState>No players with goals or assists match these filters.</EmptyState>
+          )}
+        </section>
+        <section className="content-panel">
+          <h2 className="section-heading discipline-heading">
+            Discipline
+            <span className="card-markers" aria-label="yellow and red cards">
+              <span className="card-marker card-marker-yellow" aria-hidden="true" />
+              <span className="card-marker card-marker-red" aria-hidden="true" />
+            </span>
+          </h2>
+          <p className="insight-note">
+            Fair-play points: each yellow counts 1 and each red counts 3, worst record first.
+          </p>
+          {discipline.length > 0 ? (
+            <RankedList items={discipline} initialVisible={10} itemsLabel="carded players" />
+          ) : (
+            <EmptyState>No cards recorded for these filters.</EmptyState>
+          )}
+        </section>
+
+        <section className="content-panel">
           <h2 className="section-heading">Minutes played</h2>
           {minutes.length > 0 ? (
             <RankedList items={minutes} />
           ) : (
-            <EmptyState>No minutes match these filters.</EmptyState>
+            <EmptyState>No players with recorded minutes match these filters.</EmptyState>
           )}
         </section>
         <section className="content-panel">
@@ -256,28 +283,11 @@ export function StatsRoute() {
           {saves.length > 0 ? (
             <RankedList items={saves} />
           ) : (
-            <EmptyState>Goalkeeping data lands with the next dataset refresh.</EmptyState>
+            <EmptyState>No players with recorded saves match these filters.</EmptyState>
           )}
         </section>
-      </div>
 
-      <section className="content-panel reveal">
-        <h2 className="section-heading discipline-heading">
-          Discipline
-          <span className="card-markers" aria-label="yellow and red cards">
-            <span className="card-marker card-marker-yellow" aria-hidden="true" />
-            <span className="card-marker card-marker-red" aria-hidden="true" />
-          </span>
-        </h2>
-        <p className="insight-note">
-          Fair-play points: each yellow counts 1 and each red counts 3, worst record first.
-        </p>
-        {discipline.length > 0 ? (
-          <RankedList items={discipline} initialVisible={10} itemsLabel="carded players" />
-        ) : (
-          <EmptyState>No cards recorded for these filters.</EmptyState>
-        )}
-      </section>
+      </div>
 
       <section className="content-panel reveal">
         <h2 className="section-heading">Team table</h2>

@@ -82,7 +82,7 @@ const SECTIONS = [
 ];
 
 const IMPACT_METRIC_LABELS: Record<ImpactMetric, string> = {
-  playersSent: "Headcount",
+  playersSent: "Players",
   teamsRepresented: "Teams represented",
   totalMinutes: "Minutes",
   goals: "Goals",
@@ -193,6 +193,7 @@ function ComparisonValue({
   b: number | null;
   formatter?: (value: number | null) => string;
 }) {
+  if (a === null && b === null) return null;
   const max = Math.max(a ?? 0, b ?? 0, 1);
   const diff = a !== null && b !== null ? a - b : null;
   return (
@@ -245,14 +246,6 @@ const scorecardColumns: Column<SquadScorecard>[] = [
     render: (row) => `${row.under23Count} / ${row.age30PlusCount}`,
   },
   {
-    key: "caps",
-    label: "Caps total / median",
-    align: "right",
-    initialAsc: false,
-    sortValue: (row) => row.totalCaps ?? -1,
-    render: (row) => `${formatNumber(row.totalCaps)} / ${formatNumber(row.medianCaps, 0)}`,
-  },
-  {
     key: "domestic",
     label: "Domestic",
     align: "right",
@@ -270,7 +263,7 @@ const scorecardColumns: Column<SquadScorecard>[] = [
   },
   {
     key: "birth",
-    label: "Birth home-grown",
+    label: "Born in represented country",
     align: "right",
     initialAsc: false,
     sortValue: (row) => row.homegrownBirthShare ?? -1,
@@ -286,16 +279,16 @@ const scorecardColumns: Column<SquadScorecard>[] = [
 
 const impactColumns: Column<ImpactRow>[] = [
   { key: "label", label: "Entity", width: "24%", sortValue: (row) => row.label, render: (row) => row.label },
-  { key: "players", label: "Players", align: "right", initialAsc: false, sortValue: (row) => row.playersSent, render: (row) => row.playersSent },
-  { key: "teams", label: "Teams", align: "right", initialAsc: false, sortValue: (row) => row.teamsRepresented, render: (row) => row.teamsRepresented },
-  { key: "minutes", label: "Minutes", align: "right", initialAsc: false, sortValue: (row) => row.totalMinutes, render: (row) => row.totalMinutes.toLocaleString() },
-  { key: "goals", label: "G", align: "right", initialAsc: false, sortValue: (row) => row.goals, render: (row) => row.goals },
-  { key: "assists", label: "A", align: "right", initialAsc: false, sortValue: (row) => row.assists, render: (row) => row.assists },
-  { key: "gc", label: "G+A", align: "right", initialAsc: false, sortValue: (row) => row.goalContributions, render: (row) => row.goalContributions },
+  { key: "players", label: "Players", align: "center", initialAsc: false, sortValue: (row) => row.playersSent, render: (row) => row.playersSent },
+  { key: "teams", label: "Teams", align: "center", initialAsc: false, sortValue: (row) => row.teamsRepresented, render: (row) => row.teamsRepresented },
+  { key: "minutes", label: "Minutes", align: "center", initialAsc: false, sortValue: (row) => row.totalMinutes, render: (row) => row.totalMinutes.toLocaleString() },
+  { key: "goals", label: "G", align: "center", initialAsc: false, sortValue: (row) => row.goals, render: (row) => row.goals },
+  { key: "assists", label: "A", align: "center", initialAsc: false, sortValue: (row) => row.assists, render: (row) => row.assists },
+  { key: "gc", label: "G+A", align: "center", initialAsc: false, sortValue: (row) => row.goalContributions, render: (row) => row.goalContributions },
   {
     key: "meaningful",
     label: "Meaningful min",
-    align: "right",
+    align: "center",
     initialAsc: false,
     sortValue: (row) => row.meaningfulMinutesPlayers,
     render: (row) => row.meaningfulMinutesPlayers,
@@ -303,7 +296,7 @@ const impactColumns: Column<ImpactRow>[] = [
   {
     key: "impact",
     label: "Index",
-    align: "right",
+    align: "center",
     initialAsc: false,
     sortValue: (row) => row.impactIndex,
     render: (row) => row.impactIndex.toFixed(1),
@@ -354,8 +347,6 @@ export function InsightsRoute() {
     { label: "median_age", value: (row) => row.medianAge },
     { label: "under_23_count", value: (row) => row.under23Count },
     { label: "age_30_plus_count", value: (row) => row.age30PlusCount },
-    { label: "total_caps", value: (row) => row.totalCaps },
-    { label: "median_caps", value: (row) => row.medianCaps },
     { label: "domestic_league_pct", value: (row) => row.domesticLeaguePct },
     { label: "clubs_represented", value: (row) => row.clubsRepresented },
     { label: "club_countries_represented", value: (row) => row.clubCountriesRepresented },
@@ -379,8 +370,8 @@ export function InsightsRoute() {
     <div className="page-stack">
       <PageHeader
         eyebrow="Analysis"
-        title="Analytical layer"
-        intro={`Portfolio-grade cuts of the World Cup 2026 dataset: squad construction, club and league impact, concentration, comparison, player efficiency, match context, and data quality. Calculations use current app exports only, ${AS_OF}.`}
+        title="Tournament analysis"
+        intro={`Compare squad composition, club contributions, and player performance at World Cup 2026. Data through the ${AS_OF} stage.`}
       />
 
       <nav className="section-nav reveal" aria-label="Analysis sections">
@@ -394,7 +385,7 @@ export function InsightsRoute() {
       <section id="scorecard" className="content-panel reveal">
         <SectionHeader
           title="Squad composition scorecard"
-          note="Every row is one active national-team squad. Null ages, caps, club countries, and birth countries stay out of their respective denominators."
+          note="Compare every national-team squad. Each metric uses players with available data; missing values are excluded."
           actions={
             <a className="button-secondary" href={scorecardCsv} download="world-cup-2026-squad-scorecard.csv">
               Download CSV
@@ -421,7 +412,7 @@ export function InsightsRoute() {
             or a documented country-name alias. It is not a nationality, birthplace, or eligibility measure.
           </p>
           <p className="insight-note">
-            <strong>Birth home-grown</strong> means the player&apos;s exported birth country matches the national team
+            <strong>Born in represented country</strong> means the player&apos;s exported birth country matches the national team
             country or alias. It is not a statement about development pathway, citizenship, or eligibility history.
           </p>
         </div>
@@ -440,10 +431,6 @@ export function InsightsRoute() {
                 Age is measured on {TOURNAMENT_START_DATE}. Average and median use players with valid dates of birth.
                 Under-23 means age below 23. Age-30-plus means age at least 30.
               </dd>
-            </div>
-            <div className="definition-item">
-              <dt>Experience</dt>
-              <dd>Total and median caps use `caps_pre_tournament` only where exported on squad-entry rows.</dd>
             </div>
             <div className="definition-item">
               <dt>Domestic league share</dt>
@@ -467,14 +454,14 @@ export function InsightsRoute() {
       <section id="impact" className="content-panel reveal">
         <SectionHeader
           title="Club and league impact"
-          note="Headcount, national-team reach, minutes, goals, assists, and goal contributions are separate components. The optional index is analytical, not an official ranking."
+          note="Players, national-team reach, minutes, goals, assists, and goal contributions are separate components. The optional index is analytical, not an official ranking."
           actions={
             <a className="button-secondary" href={impactCsv} download={`world-cup-2026-${impactKind}-impact.csv`}>
               Download CSV
             </a>
           }
         />
-        <div className="leaders-toolbar">
+        <div className="leaders-toolbar impact-toolbar">
           <SegmentedControl
             ariaLabel="Impact entity"
             value={impactKind}
@@ -489,7 +476,7 @@ export function InsightsRoute() {
             value={impactMetric}
             onChange={setImpactMetric}
             options={[
-              { value: "playersSent", label: "Headcount" },
+              { value: "playersSent", label: "Players" },
               { value: "totalMinutes", label: "Minutes" },
               { value: "goals", label: "Goals" },
               { value: "assists", label: "Assists" },
@@ -499,7 +486,7 @@ export function InsightsRoute() {
             ]}
           />
         </div>
-        <div className="analysis-cols">
+        <div className="analysis-cols analysis-impact-cols">
           <div>
             <h3 className="subsection-heading">Top {impactKind}s by {IMPACT_METRIC_LABELS[impactMetric].toLowerCase()}</h3>
             <RankedList
@@ -664,8 +651,6 @@ export function InsightsRoute() {
                   <tbody>
                     <ComparisonValue label="Average age" a={scoreA.averageAge} b={scoreB.averageAge} />
                     <ComparisonValue label="Median age" a={scoreA.medianAge} b={scoreB.medianAge} />
-                    <ComparisonValue label="Total caps" a={scoreA.totalCaps} b={scoreB.totalCaps} formatter={(v) => formatNumber(v)} />
-                    <ComparisonValue label="Median caps" a={scoreA.medianCaps} b={scoreB.medianCaps} formatter={(v) => formatNumber(v)} />
                     <ComparisonValue label="Domestic share" a={scoreA.domesticLeaguePct} b={scoreB.domesticLeaguePct} formatter={(v) => formatPct(v)} />
                     <ComparisonValue label="Clubs represented" a={scoreA.clubsRepresented} b={scoreB.clubsRepresented} formatter={(v) => formatNumber(v)} />
                     <ComparisonValue label="League count" a={scoreA.leaguesRepresented} b={scoreB.leaguesRepresented} formatter={(v) => formatNumber(v)} />
@@ -881,7 +866,7 @@ export function InsightsRoute() {
           note="Quality rows distinguish available coverage, missing values, not-applicable fields, not-yet-collected fields, and validation status."
         />
         <div className="metrics-grid">
-          <MetricCard label="Latest export" value={dataQuality.latestExportDate ?? "N/A"} />
+          {dataQuality.latestExportDate ? <MetricCard label="Latest export" value={dataQuality.latestExportDate} /> : null}
           <MetricCard label="Active players" value={activePlayers.length.toLocaleString()} />
           <MetricCard label="Exported entities" value={dataQuality.rowCounts.length} />
         </div>
@@ -910,7 +895,7 @@ export function InsightsRoute() {
               columns={[
                 { key: "label", label: "Check", sortValue: (row) => row.label, render: (row) => row.label },
                 { key: "status", label: "Status", sortValue: (row) => row.status, render: (row) => <span className={`quality-pill quality-${row.status}`}>{qualityStatusLabel(row.status)}</span> },
-                { key: "coverage", label: "Coverage", align: "right", initialAsc: false, sortValue: (row) => row.pct ?? -1, render: (row) => row.pct === null ? "N/A" : `${formatPct(row.pct)} (${row.count}/${row.total})` },
+                { key: "coverage", label: "Coverage", align: "right", initialAsc: false, sortValue: (row) => row.pct ?? -1, render: (row) => row.pct === null ? null : `${formatPct(row.pct)} (${row.count}/${row.total})` },
                 { key: "note", label: "Interpretation", render: (row) => row.note },
               ]}
             />

@@ -429,7 +429,11 @@ export function SortableTable<T>({
           {sorted.map((row) => (
             <tr key={getRowKey(row)}>
               {columns.map((column) => (
-                <td key={column.key} style={{ textAlign: column.align ?? "left" }}>
+                <td
+                  key={column.key}
+                  className={column.align === "right" ? "table-cell-numeric" : undefined}
+                  style={{ textAlign: column.align ?? "left" }}
+                >
                   {column.render(row)}
                 </td>
               ))}

@@ -129,7 +129,7 @@ export function Treemap({ items, aspect = 1.9, valueSuffix = "", onSelect, selec
             className={`${TILE_CLASSES[index % TILE_CLASSES.length]}${isSelected ? " treemap-selected" : ""}${onSelect ? " treemap-clickable" : ""}`}
             onClick={onSelect ? () => onSelect(rect.item) : undefined}
           >
-            <rect x={rect.x} y={rect.y} width={rect.w} height={rect.h} rx={0.7} className="treemap-rect">
+            <rect x={rect.x} y={rect.y} width={rect.w} height={rect.h} className="treemap-rect">
               <title>{rect.item.title ?? `${rect.item.label}: ${rect.item.value}${valueSuffix}`}</title>
             </rect>
             <text
