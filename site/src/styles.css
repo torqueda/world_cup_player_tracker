@@ -1111,7 +1111,7 @@ h4,
 .change-row {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr);
-  gap: 0.75rem;
+  gap: 0.25rem 0.75rem;
   padding: 0.65rem 0.9rem;
   border: 1px solid var(--surface-border);
   border-radius: var(--radius-control);
@@ -1128,7 +1128,33 @@ h4,
 }
 
 .change-notes {
+  grid-column: 2;
+  max-width: var(--measure);
   color: var(--text-muted);
+}
+
+/* Wide panels: the note gets its own column at reading width, so the row is
+   not a single line running the full panel width. */
+@media (min-width: 64rem) {
+  .change-row {
+    grid-template-columns: auto minmax(0, 1fr) minmax(0, var(--measure));
+    column-gap: 1.5rem;
+  }
+
+  .change-notes {
+    grid-column: auto;
+  }
+}
+
+/* Phones: date, what changed and the note stacked, each at full width. */
+@media (max-width: 560px) {
+  .change-row {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .change-notes {
+    grid-column: 1;
+  }
 }
 
 /* --- Roster extras --- */
@@ -1446,6 +1472,24 @@ h4,
 
 .attribution-links {
   white-space: normal;
+}
+
+/* Wide panels: short lists of separate notes flow into two columns of
+   reading width instead of one column with empty space beside it. */
+@media (min-width: 64rem) {
+  .detail-list,
+  .attribution-list {
+    display: block;
+    columns: 2;
+    column-gap: 3rem;
+    max-width: calc(2 * var(--measure) + 3rem);
+  }
+
+  .detail-list > li,
+  .attribution-list > li {
+    break-inside: avoid;
+    margin-bottom: 0.75rem;
+  }
 }
 
 /* --- Search suggestions + filter chips (Players & Clubs) --- */
@@ -2320,6 +2364,36 @@ button.bracket-team-active:hover {
 
 .landing-prose .landing-actions {
   margin-top: 1.75rem;
+}
+
+/* Wide screens: the heading takes the left half of the four-column grid the
+   cards use, and the text the right half, so a capped column of text does
+   not leave half the page empty beside it. */
+@media (min-width: 1080px) {
+  .landing-split {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    column-gap: 1rem;
+    align-items: start;
+    max-width: none;
+  }
+
+  .landing-split > .eyebrow {
+    grid-column: 1 / -1;
+  }
+
+  .landing-split > h2 {
+    grid-column: 1 / 3;
+    margin-top: 0;
+  }
+
+  .landing-split-body {
+    grid-column: 3 / 5;
+  }
+
+  .landing-split-body > :first-child {
+    margin-top: 0;
+  }
 }
 
 /* 4. Explore cards */
@@ -3510,13 +3584,40 @@ button.bracket-team-active:hover {
   color: var(--text-secondary);
 }
 
+/* Definition, population, threshold and date as a strip of short facts:
+   side by side on wide panels, one per line on phones. */
+.source-note-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1.75rem;
+  max-width: none;
+  font-style: normal;
+}
+
+.source-note-facts > div {
+  max-width: var(--measure);
+}
+
+.source-note-facts dt {
+  display: inline;
+  margin-right: 0.35em;
+  font-weight: 700;
+}
+
+.source-note-facts dd {
+  display: inline;
+  margin: 0;
+}
+
 /* ============================================================
    Methodology route — definitions + data-lineage diagram
    ============================================================ */
 
 .definition-list {
   display: grid;
-  gap: 0.6rem;
+  /* Two definitions to a row once the panel is wide enough. */
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 36rem), 1fr));
+  gap: 0.6rem 2.5rem;
   margin: 0.75rem 0 0;
 }
 
@@ -3733,22 +3834,17 @@ textarea:focus-visible,
   font-size: 1rem;
 }
 
+/* Two definitions under the metric cards, one under each half of the card
+   row. Plain text at the measure, so no box is drawn wider than its text. */
 .method-note-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.75rem;
-  margin: 0 0 1rem;
+  gap: 0.75rem 1rem;
+  margin: 1rem 0 1.25rem;
 }
 
-/* The boxes line up with the metric cards above, so they keep the full
-   column (about 80 characters a line). */
 .method-note-grid .insight-note {
   margin: 0;
-  max-width: none;
-  padding: 0.75rem 0.85rem;
-  border: 1px solid var(--border);
-  border-radius: 0;
-  background: var(--surface-muted);
 }
 
 .discipline-heading {

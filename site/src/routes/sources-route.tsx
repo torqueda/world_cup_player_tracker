@@ -136,8 +136,8 @@ function ChangeRow({ change }: { change: ChangeLogRow }) {
         <strong>{change.change_type ?? "change"}</strong>
         {change.team && change.team !== "ALL" ? ` · ${change.team}` : ""}
         {change.field_changed ? ` · ${change.field_changed}` : ""}
-        {change.notes ? <span className="change-notes"> — {change.notes}</span> : null}
       </span>
+      {change.notes ? <span className="change-notes">{change.notes}</span> : null}
     </article>
   );
 }

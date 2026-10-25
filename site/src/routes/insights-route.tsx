@@ -121,11 +121,26 @@ function csvDataUri<T>(rows: T[], columns: { label: string; value: (row: T) => u
 }
 
 function sourceNote(definition: ReactNode, population: ReactNode, thresholds: ReactNode = "None") {
+  // Four short facts side by side, not one line that runs the full panel width.
   return (
-    <p className="source-note">
-      <strong>Definition:</strong> {definition} <strong>Population:</strong> {population}{" "}
-      <strong>Minimum threshold:</strong> {thresholds}. <strong>Updated:</strong> {UPDATE_LABEL}.
-    </p>
+    <dl className="source-note source-note-facts">
+      <div>
+        <dt>Definition</dt>
+        <dd>{definition}</dd>
+      </div>
+      <div>
+        <dt>Population</dt>
+        <dd>{population}</dd>
+      </div>
+      <div>
+        <dt>Minimum threshold</dt>
+        <dd>{thresholds}</dd>
+      </div>
+      <div>
+        <dt>Updated</dt>
+        <dd>{UPDATE_LABEL}</dd>
+      </div>
+    </dl>
   );
 }
 
