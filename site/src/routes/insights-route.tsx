@@ -783,7 +783,7 @@ export function InsightsRoute() {
                 name: row.stage,
                 value: row.goalsPerMatch,
                 valueLabel: row.goalsPerMatch.toFixed(2),
-                meta: `${row.goals} goals in ${row.matches} matches`,
+                meta: `${row.goals} goal${row.goals === 1 ? "" : "s"} in ${row.matches} match${row.matches === 1 ? "" : "es"}`,
               }))}
               initialVisible={8}
             />
@@ -819,7 +819,7 @@ export function InsightsRoute() {
                 name: `${row.venue}, ${row.city}`,
                 value: row.goalsPerMatch,
                 valueLabel: row.goalsPerMatch.toFixed(2),
-                meta: `${row.goals} goals in ${row.matches} matches`,
+                meta: `${row.goals} goal${row.goals === 1 ? "" : "s"} in ${row.matches} match${row.matches === 1 ? "" : "es"}`,
               }))}
               initialVisible={10}
               itemsLabel="venues"
@@ -839,7 +839,7 @@ export function InsightsRoute() {
             {
               key: "record",
               label: "Record",
-              render: (row) => `${row.confedA} ${row.confedAWins}-${row.confedBWins} ${row.confedB}, ${row.draws} draws`,
+              render: (row) => `${row.confedA} ${row.confedAWins}-${row.confedBWins} ${row.confedB}, ${row.draws} draw${row.draws === 1 ? "" : "s"}`,
             },
             { key: "shootouts", label: "Shootouts", align: "right", initialAsc: false, sortValue: (row) => row.shootouts, render: (row) => row.shootouts },
             { key: "goals", label: "Goals", align: "right", initialAsc: false, sortValue: (row) => row.goals, render: (row) => row.goals },
