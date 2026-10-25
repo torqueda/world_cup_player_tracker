@@ -21,7 +21,7 @@ const navItems = [
   { to: "/insights", label: "Analysis" },
 ];
 
-// Methodology / Data & Sources stays reachable via the secondary menu + footer.
+// Methodology (the Data & Sources page) stays reachable via the secondary menu + footer.
 const secondaryItems = [{ to: "/sources", label: "Methodology" }];
 
 function navLinkClass({ isActive }: { isActive: boolean }): string {
@@ -127,7 +127,6 @@ export function RootLayout() {
         <div className="site-footer-inner">
           <nav className="site-footer-nav" aria-label="Secondary">
             <Link to="/sources">Methodology</Link>
-            <Link to="/sources">Data &amp; Sources</Link>
             <a href={REPO_URL} target="_blank" rel="noreferrer noopener">
               Repository
             </a>
