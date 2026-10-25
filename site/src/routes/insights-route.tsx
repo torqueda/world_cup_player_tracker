@@ -638,7 +638,13 @@ export function InsightsRoute() {
                   { key: "b", label: "Team B", value: <><CountryFlag country={scoreB.team} /> {scoreB.team}</> },
                 ]}
               />
-              <div className="data-table-wrap">
+              {/* Focusable so keyboard users can scroll the table sideways on small screens. */}
+              <div
+                className="data-table-wrap"
+                tabIndex={0}
+                role="region"
+                aria-label="Two-team comparison table"
+              >
                 <table className="data-table comparison-table">
                   <thead>
                     <tr>
