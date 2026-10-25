@@ -28,6 +28,11 @@
   --accent-soft: rgba(20, 91, 61, 0.1);
   --gold: var(--highlight);
   --gold-deep: #8a6519; /* darkened for AA text contrast on light surfaces */
+  /* Text on tinted status fills (pills): 4.5:1 or better on the tint, not just on white. */
+  --gold-text: #755512;
+  --danger-text: #9c3328;
+  /* Boundary of form controls: 3:1 against surfaces (WCAG 1.4.11). */
+  --border-control: #7c8780;
   --gold-soft: rgba(180, 134, 34, 0.14);
   --clay: #b0542b;
   --field: var(--accent-canonical);
@@ -629,7 +634,7 @@ h4,
   min-width: 0;
   padding: 0.65rem 0.85rem;
   border-radius: var(--radius-control);
-  border: 1px solid var(--surface-border);
+  border: 1px solid var(--border-control);
   background: var(--surface);
   color: var(--text);
 }
@@ -3714,13 +3719,13 @@ textarea:focus-visible,
 .quality-not_yet_collected {
   border-color: rgba(180, 134, 34, 0.36);
   background: rgba(180, 134, 34, 0.13);
-  color: var(--gold-deep);
+  color: var(--gold-text);
 }
 
 .quality-failed_validation {
   border-color: rgba(178, 59, 47, 0.32);
   background: rgba(178, 59, 47, 0.09);
-  color: var(--danger);
+  color: var(--danger-text);
 }
 
 @media (max-width: 760px) {
