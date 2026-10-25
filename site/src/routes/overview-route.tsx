@@ -124,9 +124,9 @@ export function OverviewRoute() {
       {/* 1. HERO */}
       <section className="landing-hero reveal" aria-labelledby="landing-hero-title">
         <p className="eyebrow">World Cup 2026 · Data Explorer</p>
-        <h2 id="landing-hero-title" className="landing-hero-title">
+        <h1 id="landing-hero-title" className="landing-hero-title">
           {activePlayers.length.toLocaleString()} players, traced from birthplace to club to World Cup.
-        </h2>
+        </h1>
         <p className="landing-hero-lead">
           Explore where every final-squad player at the 2026 World Cup was born, which club and
           league they represented at call-up, how all {teams.length} squads were assembled, and
