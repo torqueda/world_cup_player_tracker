@@ -171,6 +171,15 @@ test("player efficiency filters low-minute players and separates goalkeepers", (
   assert.equal(rows.find((row) => row.playerId === "p4")?.goalContributionsPer90, 1.5);
 });
 
+test("player efficiency counts a second-yellow sending-off once", () => {
+  // FIFA's red_cards already includes indirect (second-yellow) reds.
+  const rows = buildPlayerEfficiencyRows(
+    { ...input, playerStats: [stat("p4", "BET", 1, 2, 180, 2, 1, 1)] },
+    180,
+  );
+  assert.equal(rows.find((row) => row.playerId === "p4")?.cards, 3);
+});
+
 test("match analysis summarizes goals, margins, venues, records, and confederations", () => {
   const analysis = buildMatchAnalysis(input);
   assert.equal(analysis.goalsByStage.find((row) => row.stage === "First Stage")?.goalsPerMatch, 3);

@@ -471,7 +471,7 @@ export function buildPlayerEfficiencyRows(input: AnalyticsInput, minMinutes: num
       const entry = entriesByPlayerId.get(stat.player_id);
       const position = player?.primary_position ?? entry?.position_group ?? "unknown";
       const bucket: PlayerEfficiencyRow["bucket"] = position === "goalkeeper" ? "goalkeeper" : "outfield";
-      const cards = stat.yellow_cards + stat.red_cards + stat.indirect_red_cards;
+      const cards = stat.yellow_cards + stat.red_cards;
       const per90 = (value: number) => (value / stat.minutes_played) * 90;
       return {
         playerId: stat.player_id,

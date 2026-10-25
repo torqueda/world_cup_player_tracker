@@ -156,12 +156,12 @@ export function StatsRoute() {
   const saves = useMemo(() => ranking((s) => s.gk_saves ?? 0, { perMin: true }), [scopedStats, mode]);
 
   const discipline = useMemo<RankedItem[]>(() => {
-    const fair = (s: PlayerStat) => s.yellow_cards + 3 * (s.red_cards + s.indirect_red_cards);
+    const fair = (s: PlayerStat) => s.yellow_cards + 3 * s.red_cards;
     return scopedStats
       .filter((s) => fair(s) > 0)
       .sort((a, b) => fair(b) - fair(a) || displayName(a).localeCompare(displayName(b)))
       .map((s) => {
-        const reds = s.red_cards + s.indirect_red_cards;
+        const reds = s.red_cards;
         return toItem(
           s,
           fair(s),

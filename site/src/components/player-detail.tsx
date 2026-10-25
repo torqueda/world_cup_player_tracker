@@ -160,7 +160,7 @@ function PlayerDetailPanel({ playerId, onClose }: { playerId: string; onClose: (
         { label: "Goals", value: String(stat.goals) },
         { label: "Assists", value: String(stat.assists) },
         { label: "Yellow", value: String(stat.yellow_cards) },
-        { label: "Red", value: String(stat.red_cards + stat.indirect_red_cards) },
+        { label: "Red", value: String(stat.red_cards) },
         ...(isGoalkeeper || (stat.gk_saves ?? 0) > 0
           ? [{ label: "Saves", value: String(stat.gk_saves ?? 0) }]
           : []),
