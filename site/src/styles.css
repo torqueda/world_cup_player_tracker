@@ -63,6 +63,14 @@
 
 html {
   scrollbar-gutter: stable;
+  /* In-page jumps and keyboard focus stop below the sticky header instead of
+     underneath it (WCAG 2.4.11). */
+  scroll-padding-top: 4.5rem;
+}
+
+/* The Analysis page adds a sticky row of section links under the header. */
+html:has(.section-nav) {
+  scroll-padding-top: 7rem;
 }
 
 html,
@@ -3389,6 +3397,14 @@ button.bracket-team-active:hover {
   overflow-x: auto;
 }
 
+/* Phones: one row that scrolls sideways. Wrapped, the seven links took four
+   rows and the sticky bars covered a quarter of the screen. */
+@media (max-width: 760px) {
+  .section-nav {
+    flex-wrap: nowrap;
+  }
+}
+
 .section-nav-link {
   padding: 0.4rem 0.7rem;
   border-radius: 0;
@@ -3403,10 +3419,6 @@ button.bracket-team-active:hover {
   color: var(--text);
 }
 
-/* Anchor jumps clear the sticky app header + subnav. */
-.page-stack section[id] {
-  scroll-margin-top: 6.75rem;
-}
 
 .analysis-cols {
   display: grid;
