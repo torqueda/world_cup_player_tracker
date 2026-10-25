@@ -3336,6 +3336,41 @@ button.bracket-team-active:hover {
   color: var(--text-secondary);
 }
 
+/* Phones: the two teams stacked with the score on the right. Side by side,
+   most names were cut to a few letters ("Arge…", "Switz…"). */
+@media (max-width: 560px) {
+  .score-line {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      "home score"
+      "away score";
+    row-gap: 0.2rem;
+  }
+
+  .score-team-home {
+    grid-area: home;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    text-align: left;
+  }
+
+  .score-team-away {
+    grid-area: away;
+  }
+
+  .score-mid {
+    grid-area: score;
+  }
+
+  .score-team-name {
+    white-space: normal;
+  }
+
+  .score-meta {
+    text-align: left;
+  }
+}
+
 /* ============================================================
    Leaders route — filters, ranked bars, two-column grid
    ============================================================ */
