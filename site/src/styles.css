@@ -43,6 +43,10 @@
   --radius-card: 0;
   --radius-control: 0;
   --content-max: 1600px;
+  /* Reading measure for running text. 1ch is the width of "0", which in
+     Inter is wider than the average letter, so 52ch holds about 66
+     characters a line. The old 62-68ch caps held 78 to 87. */
+  --measure: 52ch;
 
   --font-display: "Archivo", "Avenir Next", "Segoe UI", sans-serif;
   --font-body: "Inter", "Avenir Next", "Segoe UI", sans-serif;
@@ -94,6 +98,15 @@ input,
 textarea,
 select {
   font: inherit;
+}
+
+/* Avoid a one-word last line in running text (ignored where unsupported). */
+p,
+li,
+dd,
+blockquote,
+figcaption {
+  text-wrap: pretty;
 }
 
 .app-shell {
@@ -542,6 +555,11 @@ h4,
   margin: 1rem 0 0;
 }
 
+.detail-list > li,
+.attribution-list > li {
+  max-width: var(--measure);
+}
+
 .screen-list {
   display: grid;
   gap: 0.9rem;
@@ -747,6 +765,7 @@ h4,
 
 .insight-note {
   margin: 0 0 0.85rem;
+  max-width: var(--measure);
   color: var(--text-muted);
   font-size: 0.92rem;
 }
@@ -2035,7 +2054,6 @@ h4,
 
 .bracket-toolbar .insight-note {
   margin: 0;
-  max-width: 60ch;
 }
 
 .bracket-scroll {
@@ -2165,7 +2183,7 @@ button.bracket-team-active:hover {
 
 .landing-hero-lead {
   margin: 0.9rem 0 0;
-  max-width: 62ch;
+  max-width: var(--measure);
   font-size: 1.02rem;
   line-height: 1.65;
   color: var(--text-muted);
@@ -2274,7 +2292,7 @@ button.bracket-team-active:hover {
 }
 
 .landing-prose p {
-  max-width: 68ch;
+  max-width: var(--measure);
   margin: 1rem 0 0;
   line-height: 1.75;
   color: var(--text);
@@ -2382,7 +2400,7 @@ button.bracket-team-active:hover {
 
 .landing-final p {
   margin: 0.75rem 0 0;
-  max-width: 60ch;
+  max-width: var(--measure);
   line-height: 1.7;
   color: var(--text-muted);
 }
@@ -2394,7 +2412,7 @@ button.bracket-team-active:hover {
 
 .landing-disclaimer p {
   margin: 0;
-  max-width: 74ch;
+  max-width: var(--measure);
   font-size: 0.82rem;
   line-height: 1.65;
   color: var(--text-muted);
@@ -2543,10 +2561,11 @@ button.bracket-team-active:hover {
 
 .page-header-intro {
   margin: 0.85rem 0 0;
-  max-width: 65ch;
+  max-width: var(--measure);
   font-size: 1rem;
   line-height: 1.7;
   color: var(--text-secondary);
+  text-wrap: balance;
 }
 
 .page-header-center .page-header-intro {
@@ -3485,6 +3504,7 @@ button.bracket-team-active:hover {
 
 .source-note {
   margin: 1.1rem 0 0;
+  max-width: var(--measure);
   font-size: 0.8rem;
   font-style: italic;
   color: var(--text-secondary);
@@ -3515,6 +3535,7 @@ button.bracket-team-active:hover {
 
 .definition-item dd {
   margin: 0;
+  max-width: var(--measure);
   color: var(--text-secondary);
   line-height: 1.6;
 }
@@ -3719,8 +3740,11 @@ textarea:focus-visible,
   margin: 0 0 1rem;
 }
 
+/* The boxes line up with the metric cards above, so they keep the full
+   column (about 80 characters a line). */
 .method-note-grid .insight-note {
   margin: 0;
+  max-width: none;
   padding: 0.75rem 0.85rem;
   border: 1px solid var(--border);
   border-radius: 0;
