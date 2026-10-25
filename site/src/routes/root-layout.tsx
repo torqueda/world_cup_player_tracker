@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
+import { Link, NavLink, Outlet, ScrollRestoration, useLocation } from "react-router-dom";
 import metaJson from "@data/meta.json";
 import { playerStats } from "@/lib/data";
 import { PlayerDetailProvider } from "@/components/player-detail";
@@ -151,6 +151,9 @@ export function RootLayout() {
           </span>
         </div>
       </footer>
+
+      {/* A new page opens at the top; Back returns to where you were. */}
+      <ScrollRestoration />
     </div>
   );
 }
