@@ -3084,7 +3084,9 @@ button.bracket-team-active:hover {
   margin: 0.75rem 0 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(158px, 1fr));
+  /* Wide enough for "United States" next to its flag and code; at 158px,
+     13 of the 48 names were cut off. */
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 12.5rem), 1fr));
   gap: 0.5rem;
 }
 
@@ -3123,9 +3125,8 @@ button.bracket-team-active:hover {
 .team-card-name {
   flex: 1;
   min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  /* Wrap rather than cut: "Bosnia-Herzegovina" breaks at its hyphen. */
+  overflow-wrap: break-word;
 }
 
 .team-card-code {
