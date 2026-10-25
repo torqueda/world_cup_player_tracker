@@ -184,6 +184,10 @@ test("match analysis summarizes goals, margins, venues, records, and confederati
   const analysis = buildMatchAnalysis(input);
   assert.equal(analysis.goalsByStage.find((row) => row.stage === "First Stage")?.goalsPerMatch, 3);
   assert.equal(analysis.draws, 1);
+  assert.deepEqual(
+    analysis.marginDistribution.map((row) => row.margin),
+    ["Draw after 90/120", "1 goal"],
+  );
   assert.equal(analysis.penaltyShootouts, 1);
   assert.equal(analysis.goalsByVenue[0].goals, 5);
   assert.equal(analysis.teamRecordsByStage.find((row) => row.team === "Alpha" && row.stage === "Round of 32")?.wins, 1);

@@ -2646,6 +2646,12 @@ button.bracket-team-active:hover {
   gap: 0.75rem;
 }
 
+/* Without the rank number the label and bar take the whole row, not the
+   1.6rem rank column. */
+.ranked-row-no-rank {
+  grid-template-columns: minmax(0, 1fr);
+}
+
 .ranked-rank {
   font-variant-numeric: tabular-nums;
   font-weight: 700;

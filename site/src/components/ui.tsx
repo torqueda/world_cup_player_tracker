@@ -180,7 +180,7 @@ export function RankedList({
         {visible.map((item, index) => {
           const pct = Math.max((item.value / max) * 100, 1.5);
           return (
-            <li key={item.key} className="ranked-row" title={item.title}>
+            <li key={item.key} className={cx("ranked-row", !showRank && "ranked-row-no-rank")} title={item.title}>
               {showRank ? <span className="ranked-rank">{index + 1}</span> : null}
               <div className="ranked-body">
                 <div className="ranked-line">

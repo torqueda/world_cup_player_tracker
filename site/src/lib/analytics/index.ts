@@ -525,12 +525,18 @@ export function buildMatchAnalysis(input: AnalyticsInput): MatchAnalysis {
     })
     .sort((a, b) => b.goalsPerMatch - a.goalsPerMatch || a.stage.localeCompare(b.stage));
 
-  const margins = new Map<string, number>();
+  const margins = new Map<number, number>();
   for (const match of played) {
     const margin = Math.abs((match.home_score ?? 0) - (match.away_score ?? 0));
-    const key = margin === 0 ? "Draw after 90/120" : `${margin} goal${margin === 1 ? "" : "s"}`;
-    margins.set(key, (margins.get(key) ?? 0) + 1);
+    margins.set(margin, (margins.get(margin) ?? 0) + 1);
   }
+  // Draws first, then 1 goal, 2 goals, ...: the order a distribution reads in.
+  const marginDistribution = Array.from(margins.entries())
+    .sort(([a], [b]) => a - b)
+    .map(([margin, matches]) => ({
+      margin: margin === 0 ? "Draw after 90/120" : `${margin} goal${margin === 1 ? "" : "s"}`,
+      matches,
+    }));
 
   const venueRows = Array.from(groupBy(played, (match) => `${match.stadium}__${match.city}`).entries())
     .map(([key, rows]) => {
@@ -609,7 +615,7 @@ export function buildMatchAnalysis(input: AnalyticsInput): MatchAnalysis {
 
   return {
     goalsByStage,
-    marginDistribution: Array.from(margins.entries()).map(([margin, matches]) => ({ margin, matches })),
+    marginDistribution,
     draws: played.filter((match) => match.home_score === match.away_score).length,
     penaltyShootouts: played.filter((match) => match.home_pens !== null && match.away_pens !== null).length,
     goalsByVenue: venueRows,
