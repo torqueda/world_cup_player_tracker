@@ -255,9 +255,9 @@ export function StatsRoute() {
         <section className="content-panel">
           <h2 className="section-heading discipline-heading">
             Discipline
-            <span className="card-markers" aria-label="yellow and red cards">
-              <span className="card-marker card-marker-yellow" aria-hidden="true" />
-              <span className="card-marker card-marker-red" aria-hidden="true" />
+            <span className="card-markers" aria-hidden="true">
+              <span className="card-marker card-marker-yellow" />
+              <span className="card-marker card-marker-red" />
             </span>
           </h2>
           <p className="insight-note">
