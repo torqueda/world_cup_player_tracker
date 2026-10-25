@@ -24,6 +24,17 @@ const navItems = [
 // Methodology (the Data & Sources page) stays reachable via the secondary menu + footer.
 const secondaryItems = [{ to: "/sources", label: "Methodology" }];
 
+const SITE_TITLE = "World Cup 2026 Player Tracker";
+
+// Browser-tab title for each page (WCAG 2.4.2): the nav label, then the site name.
+function pageTitle(pathname: string): string {
+  if (pathname === "/") {
+    return SITE_TITLE;
+  }
+  const page = [...navItems, ...secondaryItems].find((item) => item.to === pathname.replace(/\/$/, ""));
+  return `${page ? page.label : "Page not found"} · ${SITE_TITLE}`;
+}
+
 function navLinkClass({ isActive }: { isActive: boolean }): string {
   return isActive ? "nav-link nav-link-active" : "nav-link";
 }
@@ -39,6 +50,10 @@ export function RootLayout() {
     if (moreRef.current) {
       moreRef.current.open = false;
     }
+  }, [location.pathname]);
+
+  useEffect(() => {
+    document.title = pageTitle(location.pathname);
   }, [location.pathname]);
 
   return (
