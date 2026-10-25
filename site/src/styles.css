@@ -2671,6 +2671,14 @@ button.bracket-team-active:hover {
   white-space: nowrap;
 }
 
+/* Phones: long club, stage and venue names wrap instead of ending in "…". */
+@media (max-width: 560px) {
+  .ranked-name {
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+}
+
 .ranked-value {
   flex-shrink: 0;
   font-weight: 700;
