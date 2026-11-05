@@ -10,5 +10,5 @@
     "rootDir": "src/lib",
     "outDir": "../.tmp/site-analytics-tests"
   },
-  "include": ["src/lib/analytics/**/*.ts"]
+  "include": ["src/lib/analytics/**/*.ts", "src/lib/routing/**/*.ts"]
 }
