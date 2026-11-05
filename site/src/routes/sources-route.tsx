@@ -34,7 +34,7 @@ const ATTRIBUTIONS: { statement: string; links: { label: string; url: string }[]
   },
   {
     statement:
-      "Player identity data — dates of birth, birthplaces, and cross-references — is sourced from Wikidata, with manual review.",
+      "Player identity data (dates of birth, birthplaces, and cross-references) is sourced from Wikidata, with manual review.",
     links: [{ label: "Wikidata", url: "https://www.wikidata.org/" }],
   },
   {
@@ -136,8 +136,8 @@ function ChangeRow({ change }: { change: ChangeLogRow }) {
         <strong>{change.change_type ?? "change"}</strong>
         {change.team && change.team !== "ALL" ? ` · ${change.team}` : ""}
         {change.field_changed ? ` · ${change.field_changed}` : ""}
-        {change.notes ? <span className="change-notes"> — {change.notes}</span> : null}
       </span>
+      {change.notes ? <span className="change-notes">{change.notes}</span> : null}
     </article>
   );
 }
@@ -148,7 +148,7 @@ export function SourcesRoute() {
       <PageHeader
         eyebrow="Methodology"
         title="Data & sources"
-        intro="Every number on this site traces back to a public source, and every correction is logged. Here is what the dataset covers, how it is built and checked, where it comes from, and how it has changed."
+        intro="Every number on this site traces back to a public source. Here is what the dataset covers, how it is built and checked, where it comes from, and the main corrections and updates."
         actions={
           <>
             <a className="button-primary" href={REPO_URL} target="_blank" rel="noreferrer noopener">
@@ -225,12 +225,17 @@ export function SourcesRoute() {
             history; only active final-squad players are counted on this site.
           </li>
           <li>
-            Manually verified values outrank automated matches; identity matches are only
-            auto-accepted when the date of birth confirms them.
+            Manually verified values outrank automated matches. Most player identities were
+            matched to Wikidata automatically, accepting a candidate only when it scored high on
+            name, sport, nationality, national-team and position evidence and clearly beat the next
+            one. Late replacements were matched only when Wikidata&apos;s date of birth equalled the
+            squad list&apos;s, and players the rules could not settle were matched by hand. Birth
+            dates were then compared with Wikipedia&apos;s final squad lists, and mismatches are
+            flagged for review.
           </li>
           <li>
-            Tournament statistics are collected at stage checkpoints (currently through the
-            quarterfinals) and refreshed with each dataset update.
+            Tournament statistics were collected at stage checkpoints, and the last refresh covers
+            every match through the final.
           </li>
           <li>
             Exports pass referential-integrity and identity checks before they reach the site, and

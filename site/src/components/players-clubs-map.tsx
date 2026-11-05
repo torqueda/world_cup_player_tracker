@@ -245,7 +245,7 @@ export function PlayersClubsMap({ cities, selectedCityKey, onSelectCity, focus }
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
       <MapInteractionMode isMobile={isMobile} />
       <ZoomTracker onZoom={(next) => { setZoom(next); setPendingBounds(null); }} />
