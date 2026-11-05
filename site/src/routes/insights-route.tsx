@@ -30,6 +30,7 @@ import {
   teamStats,
   TEAM_COUNTRY_ALIASES,
 } from "@/lib/data";
+import { stageLabel, stageRank } from "@/lib/data/stages";
 import {
   DEFAULT_MEANINGFUL_MINUTES,
   TOURNAMENT_START_DATE,
@@ -47,8 +48,8 @@ import {
 } from "@/lib/analytics";
 
 const meta = metaJson as { counts?: Record<string, number>; exported_at?: string };
-const AS_OF = playerStats[0]?.as_of_stage ?? teamStats[0]?.as_of_stage ?? "current export";
-const UPDATE_LABEL = meta.exported_at ?? "current export";
+const AS_OF = playerStats[0]?.as_of_stage ?? teamStats[0]?.as_of_stage ?? "latest";
+const UPDATE_LABEL = meta.exported_at ?? "Not recorded";
 const ANALYTICS_INPUT = {
   teams,
   players,
@@ -107,6 +108,11 @@ function formatNumber(value: number | null | undefined, digits = 0): string {
 
 function formatPct(value: number | null | undefined, digits = 0): string {
   return value === null || value === undefined ? "N/A" : `${(value * 100).toFixed(digits)}%`;
+}
+
+// A difference between two percentages is in percentage points, not percent.
+function formatPoints(value: number | null | undefined, digits = 0): string {
+  return value === null || value === undefined ? "N/A" : `${(value * 100).toFixed(digits)} pts`;
 }
 
 function csvEscape(value: unknown): string {
@@ -202,11 +208,13 @@ function ComparisonValue({
   a,
   b,
   formatter = (value) => formatNumber(value, 1),
+  diffFormatter = formatter,
 }: {
   label: string;
   a: number | null;
   b: number | null;
   formatter?: (value: number | null) => string;
+  diffFormatter?: (value: number | null) => string;
 }) {
   if (a === null && b === null) return null;
   const max = Math.max(a ?? 0, b ?? 0, 1);
@@ -222,7 +230,7 @@ function ComparisonValue({
         <strong>{formatter(b)}</strong>
         <ComparisonBar value={b} max={max} tone="b" />
       </td>
-      <td>{diff === null ? "N/A" : diff === 0 ? "Even" : `${diff > 0 ? "+" : ""}${formatter(diff)}`}</td>
+      <td>{diff === null ? "N/A" : diff === 0 ? "Even" : `${diff > 0 ? "+" : ""}${diffFormatter(diff)}`}</td>
     </tr>
   );
 }
@@ -427,7 +435,7 @@ export function InsightsRoute() {
             or a documented country-name alias. It is not a nationality, birthplace, or eligibility measure.
           </p>
           <p className="insight-note">
-            <strong>Born in represented country</strong> means the player&apos;s exported birth country matches the national team
+            <strong>Born in represented country</strong> means the player&apos;s recorded birth country matches the national team
             country or alias. It is not a statement about development pathway, citizenship, or eligibility history.
           </p>
         </div>
@@ -532,7 +540,7 @@ export function InsightsRoute() {
         {sourceNote(
           "Club or league totals aggregate active players' official goals, assists, and minutes.",
           "Active final-squad players with club-at-call-up records.",
-          `${DEFAULT_MEANINGFUL_MINUTES} minutes for meaningful-minutes counts; starts are not exported`,
+          `${DEFAULT_MEANINGFUL_MINUTES} minutes for meaningful-minutes counts; the data has no starts`,
         )}
       </section>
 
@@ -622,7 +630,7 @@ export function InsightsRoute() {
       <section id="compare" className="content-panel reveal">
         <SectionHeader
           title="Two-team comparison"
-          note="Selections are stored in URL query parameters (`teamA` and `teamB`) so a comparison can be shared."
+          note="Your choice of teams is saved in the page address, so you can share the comparison."
         />
         <div className="leaders-toolbar">
           <FilterGroup label="Team A">
@@ -672,7 +680,13 @@ export function InsightsRoute() {
                   <tbody>
                     <ComparisonValue label="Average age" a={scoreA.averageAge} b={scoreB.averageAge} />
                     <ComparisonValue label="Median age" a={scoreA.medianAge} b={scoreB.medianAge} />
-                    <ComparisonValue label="Domestic share" a={scoreA.domesticLeaguePct} b={scoreB.domesticLeaguePct} formatter={(v) => formatPct(v)} />
+                    <ComparisonValue
+                      label="Domestic share"
+                      a={scoreA.domesticLeaguePct}
+                      b={scoreB.domesticLeaguePct}
+                      formatter={(v) => formatPct(v)}
+                      diffFormatter={(v) => formatPoints(v)}
+                    />
                     <ComparisonValue label="Clubs represented" a={scoreA.clubsRepresented} b={scoreB.clubsRepresented} formatter={(v) => formatNumber(v)} />
                     <ComparisonValue label="League count" a={scoreA.leaguesRepresented} b={scoreB.leaguesRepresented} formatter={(v) => formatNumber(v)} />
                     <ComparisonValue label="Club HHI" a={concA?.clubHhi ?? null} b={concB?.clubHhi ?? null} formatter={(v) => formatNumber(v, 3)} />
@@ -710,14 +724,14 @@ export function InsightsRoute() {
               </div>
               <p className="insight-note note-spaced">
                 Differences are descriptive only. They highlight scale and roster profile gaps without declaring causation.
-                Cards are not compared because team-card totals are not exported as a team table.
+                Cards are not compared because the data has no team card totals.
               </p>
             </div>
           </div>
         ) : (
           <EmptyState>Choose two teams with available squad scorecards.</EmptyState>
         )}
-        {sourceNote("Side-by-side descriptive comparison using synchronized per-row bar scales.", "Selected teams from active squads and team stats.", "xG included where exported; xGA and team-card totals are not exported")}
+        {sourceNote("Side-by-side descriptive comparison using synchronized per-row bar scales.", "Selected teams from active squads and team stats.", "xG where available; the data has no xGA or team card totals")}
       </section>
 
       <section id="efficiency" className="content-panel reveal">
@@ -782,7 +796,7 @@ export function InsightsRoute() {
       <section id="matches" className="content-panel reveal">
         <SectionHeader
           title="Match and venue analysis"
-          note="All match summaries come from played matches with exported scores. Penalty shootouts are counted separately from regulation score draws."
+          note="All match summaries use played matches with a recorded score. Penalty shootouts are counted separately from draws after 90 or 120 minutes."
         />
         <div className="metrics-grid">
           <MetricCard label="Played matches" value={matches.filter((match) => match.status === "played").length} />
@@ -795,11 +809,12 @@ export function InsightsRoute() {
             <RankedList
               items={matchAnalysis.goalsByStage.map((row) => ({
                 key: row.stage,
-                name: row.stage,
+                name: stageLabel(row.stage),
                 value: row.goalsPerMatch,
                 valueLabel: row.goalsPerMatch.toFixed(2),
                 meta: `${row.goals} goal${row.goals === 1 ? "" : "s"} in ${row.matches} match${row.matches === 1 ? "" : "es"}`,
               }))}
+              showRank={false}
               initialVisible={8}
             />
             <h3 className="subsection-heading">Score margin distribution</h3>
@@ -868,7 +883,7 @@ export function InsightsRoute() {
             caption="Team records by stage"
             columns={[
               { key: "team", label: "Team", sortValue: (row) => row.team, render: (row) => row.team },
-              { key: "stage", label: "Stage", sortValue: (row) => row.stage, render: (row) => row.stage },
+              { key: "stage", label: "Stage", sortValue: (row) => stageRank(row.stage), render: (row) => stageLabel(row.stage) },
               { key: "played", label: "P", align: "right", sortValue: (row) => row.played, render: (row) => row.played },
               { key: "wins", label: "W", align: "right", initialAsc: false, sortValue: (row) => row.wins, render: (row) => row.wins },
               { key: "draws", label: "D", align: "right", initialAsc: false, sortValue: (row) => row.draws, render: (row) => row.draws },
@@ -887,21 +902,21 @@ export function InsightsRoute() {
           note="Quality rows distinguish available coverage, missing values, not-applicable fields, not-yet-collected fields, and validation status."
         />
         <div className="metrics-grid">
-          {dataQuality.latestExportDate ? <MetricCard label="Latest export" value={dataQuality.latestExportDate} /> : null}
+          {dataQuality.latestExportDate ? <MetricCard label="Data updated" value={dataQuality.latestExportDate} /> : null}
           <MetricCard label="Active players" value={activePlayers.length.toLocaleString()} />
-          <MetricCard label="Exported entities" value={dataQuality.rowCounts.length} />
+          <MetricCard label="Data tables" value={dataQuality.rowCounts.length} />
         </div>
         <div className="analysis-cols">
           <div>
-            <h3 className="subsection-heading">Row counts by entity</h3>
+            <h3 className="subsection-heading">Rows per table</h3>
             <SortableTable
               rows={dataQuality.rowCounts}
               getRowKey={(row) => row.entity}
               initialSortKey="rows"
               initialSortAsc={false}
-              caption="Export row counts"
+              caption="Rows per table"
               columns={[
-                { key: "entity", label: "Entity", sortValue: (row) => row.entity, render: (row) => row.entity },
+                { key: "entity", label: "Table", sortValue: (row) => row.label, render: (row) => row.label },
                 { key: "rows", label: "Rows", align: "right", initialAsc: false, sortValue: (row) => row.rows, render: (row) => row.rows.toLocaleString() },
               ]}
             />
@@ -934,15 +949,15 @@ export function InsightsRoute() {
             </div>
             <div className="definition-item">
               <dt>Not yet collected</dt>
-              <dd>The metric is useful but no current app-export field supports it, such as xGA or player starts.</dd>
+              <dd>The measure would be useful, but the data does not have it yet, such as xGA or player starts.</dd>
             </div>
             <div className="definition-item">
               <dt>Failed validation</dt>
-              <dd>Strict audit failures stop app-export generation. No failed-validation row list is bundled in the current app exports.</dd>
+              <dd>The site&apos;s data is rebuilt only when every audit rule passes, so a failing row never reaches the site and the count is always 0.</dd>
             </div>
           </dl>
         </Expandable>
-        {sourceNote("Coverage checks and unresolved-field inventory from app-export rows and meta counts.", "Current JSON exports.", "No imputation")}
+        {sourceNote("Coverage checks and the fields not yet collected, counted from the site's data tables.", "Every table on the site.", "No imputation")}
       </section>
     </div>
   );

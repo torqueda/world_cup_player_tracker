@@ -8,6 +8,7 @@ import type {
   Team,
   TeamStat,
 } from "../data/types.js";
+import { stageRank } from "../data/stages.js";
 
 export const TOURNAMENT_START_DATE = "2026-06-11";
 export const DEFAULT_MEANINGFUL_MINUTES = 180;
@@ -182,7 +183,7 @@ export interface DataQualityRow {
 }
 
 export interface DataQualitySummary {
-  rowCounts: { entity: string; rows: number }[];
+  rowCounts: { entity: string; label: string; rows: number }[];
   latestExportDate: string | null;
   sourceCoverage: DataQualityRow[];
   fieldStatus: DataQualityRow[];
@@ -523,7 +524,8 @@ export function buildMatchAnalysis(input: AnalyticsInput): MatchAnalysis {
       const goals = rows.reduce((sum, match) => sum + (matchGoals(match) ?? 0), 0);
       return { stage, matches: rows.length, goals, goalsPerMatch: goals / rows.length };
     })
-    .sort((a, b) => b.goalsPerMatch - a.goalsPerMatch || a.stage.localeCompare(b.stage));
+    // Tournament order: ranked by rate, the one third-place match came first.
+    .sort((a, b) => stageRank(a.stage) - stageRank(b.stage));
 
   const margins = new Map<number, number>();
   for (const match of played) {
@@ -620,7 +622,7 @@ export function buildMatchAnalysis(input: AnalyticsInput): MatchAnalysis {
     penaltyShootouts: played.filter((match) => match.home_pens !== null && match.away_pens !== null).length,
     goalsByVenue: venueRows,
     teamRecordsByStage: Array.from(teamStageRecords.values()).sort(
-      (a, b) => a.stage.localeCompare(b.stage) || a.team.localeCompare(b.team),
+      (a, b) => stageRank(a.stage) - stageRank(b.stage) || a.team.localeCompare(b.team),
     ),
     confederationMatchups: Array.from(matchupRows.values()).sort((a, b) => b.matches - a.matches || a.key.localeCompare(b.key)),
   };
@@ -641,6 +643,22 @@ function qualityPct(count: number, total: number): number {
   return total > 0 ? count / total : 0;
 }
 
+// Readers see these names, not the file names.
+const TABLE_LABELS: Record<string, string> = {
+  change_log: "Change log",
+  cities: "Club cities",
+  club_aliases: "Club name aliases",
+  player_club_at_callup: "Clubs at call-up",
+  player_stats: "Player statistics",
+  team_stats: "Team statistics",
+  world_cup_history: "Match history",
+};
+
+export function tableLabel(table: string): string {
+  const label = TABLE_LABELS[table] ?? table.replace(/_/g, " ");
+  return label.charAt(0).toUpperCase() + label.slice(1);
+}
+
 export function buildDataQualitySummary(
   input: AnalyticsInput,
   meta: { counts?: Record<string, number>; exported_at?: string } | null,
@@ -658,28 +676,28 @@ export function buildDataQualitySummary(
       label: "Squad roster source URLs",
       count: input.squadEntries.filter((entry) => hasSource(entry, ["official_roster_source_url"])).length,
       total: input.squadEntries.length,
-      note: "Official roster source URL present on squad-entry rows.",
+      note: "Each squad entry links to an official squad list.",
     },
     {
       key: "player_bio_sources",
       label: "Player bio source URLs",
       count: input.players.filter((player) => hasSource(player, ["bio_source_url"])).length,
       total: input.players.length,
-      note: "Wikidata or reviewed bio source URL present on player rows.",
+      note: "Each player links to Wikidata or a reviewed biography source.",
     },
     {
       key: "club_sources",
       label: "Club coordinate sources",
       count: input.clubs.filter((club) => hasSource(club, ["city_source_url", "city_geo_source"])).length,
       total: input.clubs.length,
-      note: "City coordinate provenance present on club rows.",
+      note: "Each club's city coordinates name their source.",
     },
     {
       key: "match_sources",
       label: "Match source IDs",
       count: input.matches.filter((match) => hasSource(match, ["source_id"])).length,
       total: input.matches.length,
-      note: "FIFA fixture source ID present on match rows.",
+      note: "Each match carries its FIFA fixture ID.",
     },
   ];
 
@@ -691,7 +709,7 @@ export function buildDataQualitySummary(
       count: activePlayers.filter((player) => Boolean(player.image_url)).length,
       total: activePlayers.length,
       pct: qualityPct(activePlayers.filter((player) => Boolean(player.image_url)).length, activePlayers.length),
-      note: "Missing means no reviewed Commons image is exported for that player.",
+      note: "Missing means no reviewed Wikimedia Commons photo was found for that player.",
     },
     {
       key: "active_player_stats",
@@ -700,7 +718,7 @@ export function buildDataQualitySummary(
       count: activePlayers.filter((player) => statPlayerIds.has(player.player_id)).length,
       total: activePlayers.length,
       pct: qualityPct(activePlayers.filter((player) => statPlayerIds.has(player.player_id)).length, activePlayers.length),
-      note: "Player-stat coverage comes from the current FIFA stats export.",
+      note: "Player statistics come from FIFA's tournament statistics.",
     },
     {
       key: "club_coordinates",
@@ -709,7 +727,7 @@ export function buildDataQualitySummary(
       count: validClubCoords,
       total: input.clubs.length,
       pct: qualityPct(validClubCoords, input.clubs.length),
-      note: "Missing means the club has no exported city latitude/longitude yet.",
+      note: "Missing means the club's city has no coordinates yet.",
     },
     {
       key: "birth_country_missing",
@@ -727,7 +745,7 @@ export function buildDataQualitySummary(
       count: null,
       total: null,
       pct: null,
-      note: "The current team_stats export has xG but no xGA field, so comparison views label xGA unavailable.",
+      note: "The team statistics have xG but not xGA, so comparisons show xGA as unavailable.",
     },
     {
       key: "starts_unavailable",
@@ -736,7 +754,7 @@ export function buildDataQualitySummary(
       count: null,
       total: null,
       pct: null,
-      note: "The current player_stats export has minutes but no starts. Impact views use meaningful-minutes counts instead.",
+      note: "The player statistics have minutes but not starts, so the impact views count players with meaningful minutes instead.",
     },
     {
       key: "goalkeeper_stats",
@@ -745,7 +763,7 @@ export function buildDataQualitySummary(
       count: null,
       total: null,
       pct: null,
-      note: "Goalkeeper-specific stat fields are intentionally not applicable to outfield-player rows.",
+      note: "Goalkeeping statistics do not apply to outfield players.",
     },
     {
       key: "validation_failures",
@@ -754,12 +772,12 @@ export function buildDataQualitySummary(
       count: 0,
       total: input.players.length + input.clubs.length + input.squadEntries.length,
       pct: 0,
-      note: "No failed-validation rows are bundled in app exports; strict audit failures stop JSON export generation.",
+      note: "Always 0: the site's data is rebuilt only when every audit rule passes, so a failing row never reaches the site.",
     },
   ];
 
   return {
-    rowCounts: Object.entries(meta?.counts ?? {}).map(([entity, rows]) => ({ entity, rows })),
+    rowCounts: Object.entries(meta?.counts ?? {}).map(([entity, rows]) => ({ entity, label: tableLabel(entity), rows })),
     latestExportDate: meta?.exported_at ?? null,
     sourceCoverage: coverage.map((row) => ({
       ...row,

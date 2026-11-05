@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import metaJson from "@data/meta.json";
 import { activePlayers, clubs, matches, teams } from "@/lib/data";
+import { stageRank } from "@/lib/data/stages";
 
 const REPO_URL = "https://github.com/torqueda/world_cup_player_tracker";
 
@@ -8,15 +9,6 @@ const REPO_URL = "https://github.com/torqueda/world_cup_player_tracker";
 
 const playedMatches = matches.filter((match) => match.status === "played").length;
 
-const STAGE_ORDER = [
-  "First Stage",
-  "Round of 32",
-  "Round of 16",
-  "Quarter-final",
-  "Semi-final",
-  "Play-off for third place",
-  "Final",
-];
 const STAGE_LABEL: Record<string, string> = {
   "First Stage": "the group stage",
   "Round of 32": "the round of 32",
@@ -33,7 +25,7 @@ function currentStageLabel(): string {
     return "the group stage";
   }
   const deepest = playedStages.reduce((best, stage) =>
-    STAGE_ORDER.indexOf(stage) > STAGE_ORDER.indexOf(best) ? stage : best,
+    stageRank(stage) > stageRank(best) ? stage : best,
   );
   return STAGE_LABEL[deepest] ?? deepest;
 }
@@ -104,7 +96,7 @@ const entryCards: EntryCard[] = [
   {
     eyebrow: "Matches & Leaderboards",
     heading: "Follow what happened on the pitch.",
-    body: "Browse every result and upcoming fixture, then explore the leading scorers, creators, goalkeepers, and team statistics.",
+    body: "Browse every result, then explore the leading scorers, creators, goalkeepers, and team statistics.",
     links: [
       { to: "/matches", label: "View matches" },
       { to: "/stats", label: "See leaderboards" },
@@ -113,7 +105,7 @@ const entryCards: EntryCard[] = [
   {
     eyebrow: "Analysis",
     heading: "Beyond the headline numbers.",
-    body: "Compare birthplace patterns, home-grown and diaspora squads, club and league influence, squad ages, confederation performance, coaches, officials, and expected-goals results.",
+    body: "Compare squad ages, birthplace and home-grown shares, club and league influence, player efficiency, confederation results, and goals by stage and venue.",
     links: [{ to: "/insights", label: "Open the analysis" }],
   },
 ];
@@ -130,7 +122,7 @@ export function OverviewRoute() {
         <p className="landing-hero-lead">
           Explore where every final-squad player at the 2026 World Cup was born, which club and
           league they represented at call-up, how all {teams.length} squads were assembled, and
-          what happened across the tournament — all thanks to publicly sourced data.
+          what happened across the tournament, all from public sources.
         </p>
         <div className="landing-actions">
           <Link className="button-primary" to="/players-clubs">
@@ -230,13 +222,16 @@ export function OverviewRoute() {
           </p>
           <p>Automation handled the repetitive work. Manual research handled the ambiguity.</p>
           <p>
-            Roughly 500 player records had to be researched and entered directly. About 300 more
-            were spot-checked and corrected as testing and early visualizations exposed
-            inconsistencies. Club and location data required another substantial review, including
-            the manual verification of names and/or coordinates for about 300 club cities.
+            Of the 1,248 players in the squad lists, 394 were sent for manual review at least once,
+            some for more than one reason: 96 Wikidata matches the matcher could not settle, 35
+            automatic matches missing a birth date or birthplace, 87 players flagged by the identity
+            checks, and 282 players with no photo on Wikidata. Club data needed the same care: 251
+            clubs had their location checked by hand, and the review notes record 194 corrections to
+            a club&apos;s city and 209 club name changes.
           </p>
           <blockquote className="landing-quote">
-            Every public-facing number has a source trail. Every correction is logged.
+            Every number on the site traces back to a public source, and the main corrections are
+            logged.
           </blockquote>
           <p>
             The project combines data from official tournament pages and public sources including

@@ -9,30 +9,10 @@ import {
   cx,
 } from "@/components/ui";
 import { matches, type Match } from "@/lib/data";
-
-const KNOCKOUT_STAGES = [
-  "Round of 32",
-  "Round of 16",
-  "Quarter-final",
-  "Semi-final",
-  "Play-off for third place",
-  "Final",
-];
+import { KNOCKOUT_STAGES, MATCH_STAGES, stageLabel } from "@/lib/data/stages";
 
 // Deepest → shallowest, for grouping the All Matches view.
-const STAGE_ORDER = [
-  "Final",
-  "Play-off for third place",
-  "Semi-final",
-  "Quarter-final",
-  "Round of 16",
-  "Round of 32",
-  "First Stage",
-];
-
-const STAGE_LABELS: Record<string, string> = {
-  "First Stage": "Group stage",
-};
+const STAGE_ORDER = [...MATCH_STAGES].reverse();
 
 const TEAM_PLACEHOLDERS: Record<string, string> = {
   W101: "Winner SF1",
@@ -47,10 +27,6 @@ function teamLabel(name: string): string {
 
 function isPlaceholder(name: string): boolean {
   return name in TEAM_PLACEHOLDERS;
-}
-
-function stageLabel(stage: string): string {
-  return STAGE_LABELS[stage] ?? stage;
 }
 
 function formatDate(value: string): string {
@@ -156,6 +132,11 @@ const cityNames = Array.from(new Set(matches.map((m) => m.city))).sort((a, b) =>
 
 const playedCount = matches.filter((m) => m.status === "played").length;
 const scheduledCount = matches.filter((m) => m.status === "scheduled").length;
+// Once every match is played, "0 still to come" reads as stale.
+const MATCHES_INTRO =
+  scheduledCount === 0
+    ? `All ${playedCount} matches of the 2026 World Cup, from the group stage to the final.`
+    : `Every World Cup 2026 match from the group stage through the knockout rounds: ${playedCount} played, ${scheduledCount} still to come.`;
 const knockoutCount = matches.filter((m) => KNOCKOUT_STAGES.includes(m.stage)).length;
 const groupCount = matches.filter((m) => m.stage === "First Stage").length;
 
@@ -239,7 +220,7 @@ export function MatchesRoute() {
       <PageHeader
         eyebrow="Matches"
         title="Results & schedule"
-        intro={`Every World Cup 2026 match from the group stage through the knockout rounds — ${playedCount} played, ${scheduledCount} still to come.`}
+        intro={MATCHES_INTRO}
       />
 
       <div className="matches-toolbar reveal">

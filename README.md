@@ -1,14 +1,16 @@
 # World Cup 2026 Player Tracker
 
-This repository is building a structured dataset and eventual interactive dashboard for the 2026 FIFA World Cup. The project tracks players, national teams, clubs at call-up, club geolocation, source metadata, and change history so the data can power a public-facing map and analytics site later on.
+This repository holds a structured dataset of the 2026 FIFA World Cup and the public site built on it, https://worldcupplayertracker.netlify.app/. The dataset tracks players, national teams, clubs at call-up, club locations, matches, statistics, coaches, match officials, sources, and change history.
 
-## Current Phase
+## Current State
 
-The dataset is final-roster verified and tournament-ready: all 48 final squads cross-checked against FIFA's lists (with cut players kept as `removed` and late replacements ingested and Wikidata-enriched), official player/team statistics and all match results through the quarterfinals, plus coaches, match officials, and confederations. **As of 2026-07-13, the version-controlled local workbook (`data/master/world_cup_2026_player_map_master.xlsx`) is the canonical Master List** — the former Google Sheets copy is retired. The site is a seven-route dashboard (Overview, Players & Clubs, National Teams, Matches, Stats, Insights, Data & Sources), the repo is public at https://github.com/torqueda/world_cup_player_tracker, and it is **publicly live at https://worldcupplayertracker.netlify.app/** (Netlify, auto-deploying on push). The only launch item that remains is one post-final data refresh after the July 19 final.
+The dataset is final. All 48 final squads were cross-checked against FIFA's lists: cut players are kept as `removed`, and the 27 late replacements were added and matched to Wikidata. Official player and team statistics and all 104 results run through the final on 2026-07-19; the last refresh was on 2026-08-19. **The version-controlled workbook `data/master/world_cup_2026_player_map_master.xlsx` is the canonical master list**; the Google Sheets copy was retired on 2026-07-13.
 
-## Running The Prototype Locally
+The site has seven pages: Home, Club Map, Squads, Matches, Leaders, Analysis, and Methodology. Netlify builds the site and deploys `main`. The repository is public at https://github.com/torqueda/world_cup_player_tracker.
 
-The prototype lives in `site/` and reads directly from `data/processed/app_exports/` through Vite's `@data` alias, so no separate data setup is needed — just install and run.
+## Running The Site Locally
+
+The site lives in `site/` and reads `data/processed/app_exports/` directly through Vite's `@data` alias, so there is no separate data setup: install and run.
 
 **Prerequisites:**
 - Node.js 24 or later (the pinned pnpm 11.x requires Node 22.13+; CI uses Node 24)
@@ -97,7 +99,7 @@ The forecasts are a model's, not betting odds or an official rating, and the oth
 |   |-- validation/
 |   `-- geolocation/
 |-- scripts/export/                        # Workbook sync, audit, and app-export scripts
-|-- site/                                  # React + TypeScript + React Router + Vite prototype
+|-- site/                                  # The site: React + TypeScript + React Router + Vite
 |-- docs/                                  # Status docs, handoff, and current-work checklist
 `-- archive/local_artifacts/               # Local temp/cache artifacts, not pipeline inputs
 ```
@@ -110,10 +112,13 @@ The master workbook is treated like a small relational database:
 - `squad_entries`: one row per player’s 2026 World Cup squad inclusion
 - `clubs`: one row per canonical club
 - `player_club_at_callup`: join table connecting players to clubs
+- `coaches` and `referees`: one row per head coach and per match official
+- `match_history`: one row per match, with scores and venues
+- `player_stats` and `team_stats`: FIFA's tournament statistics
 - `sources`: source registry
-- `change_log`: tracked corrections and changes
-- `manual_review_queue`: *(empty; slated for deletion — see `docs/deferred_dataset_and_prototype_todo.md`)* it was never used for user-facing provenance (the `Data & Sources` page and the public repo cover that) and is read by nothing in the app; the export pipeline tolerates its absence
-- `world_cup_history`: future expansion sheet
+- `change_log`: the main corrections and updates
+- `data_dictionary`: field notes for some of the sheets
+- `raw_roster_import`: the original ESPN squad lists, kept for provenance
 
 Stable internal IDs are the join keys. Do not replace them with external IDs such as Wikidata QIDs.
 
@@ -128,7 +133,6 @@ Stable internal IDs are the join keys. Do not replace them with external IDs suc
 - Deferred follow-ups list: `docs/deferred_dataset_and_prototype_todo.md`
 - Roadmap to the deployed v1: `docs/roadmap_to_deployment.md`
 - Launch guide (hosting decision, costs, exact steps): `docs/launch_guide.md`
-- How to publish it for non-technical users (hosting, costs, steps): `docs/launch_guide.md`
 
 ## Current Status
 
@@ -139,16 +143,16 @@ Stable internal IDs are the join keys. Do not replace them with external IDs suc
    - official FIFA stats (goals/assists/minutes/cards/goalkeeping) for all 1,231 registered players, team stats with computed W/D/L and stage reached, and all 104 matches;
    - coaches (48) and match officials (167) collected with sources registered.
 3. The export pipeline (`refresh_all_exports.py`) regenerates everything from the workbook in one command with a strict integrity audit.
-4. The site (`site/`, React + TypeScript + Vite) is a seven-route dashboard:
-   - `Players & Clubs`: country-bubble world map that reveals city dots on zoom/selection, cascading filters with removable chips, club/player autocomplete, auto-zoom to filtered regions;
-   - `National Teams`: sortable rosters with coach, captain, caps, and stage reached;
-   - `Matches`: an interactive knockout bracket (Round of 32 → Final, click a team to trace its path) plus all results grouped by stage (and by group within the group stage) and the remaining schedule;
-   - `Stats`: pictogram leaderboards (Golden Boot, assists, minutes, saves, Fair Play) and a sortable team table;
-   - `Insights`: home-grown-vs-diaspora donuts for all 48 squads with sorting, birthplace charts with hover detail, squad-age list, club/league rankings, a goals-vs-xG over/under-performance scatter, and a team-explorer sidebar;
-   - `Data & Sources`: statement-style attributions, change log, and method notes;
-   - plus a live-metric `Overview`;
-   - clicking any player name (rosters, leaderboards, club cards, birthplace chips) opens a detail panel with their photo + attribution, bio, club, pre-tournament caps/goals, and tournament stat line.
-5. The local workbook is the canonical Master List (Google Sheets retired 2026-07-13), the repo is pushed to GitHub, and the site is live on Netlify (https://worldcupplayertracker.netlify.app/) — host connected and smoke-tested (2026-07-13). The only remaining launch item is the post-final data refresh after July 19.
+4. The site (`site/`, React + TypeScript + Vite) has seven pages. The navigation labels differ from the addresses, which are kept so old links work:
+   - `Home` (`/`): what the dataset is, how it was built, and counts computed from the data;
+   - `Club Map` (`/players-clubs`): a country-bubble world map that reveals club cities on zoom or selection, with cascading filters, club and player search, and auto-zoom to the filtered region;
+   - `Squads` (`/national-teams`): sortable rosters with coach, captain, caps, and stage reached;
+   - `Matches` (`/matches`): an interactive knockout bracket (click a team to trace its path) and every result grouped by stage, and by group within the group stage;
+   - `Leaders` (`/stats`): leaderboards for goals, assists, goals plus assists, discipline, minutes, and goalkeeper saves, in totals or per 90, and a sortable team table;
+   - `Analysis` (`/insights`): the squad composition scorecard, club and league impact, squad concentration, a two-team comparison, player efficiency, match and venue analysis, and a data-quality dashboard;
+   - `Methodology` (`/sources`, under More): source attributions, how the dataset is built and checked, coverage counts, and the change log;
+   - clicking any player name opens a detail panel with their photo and its attribution, bio, club, pre-tournament caps and goals, and tournament statistics.
+5. The site is live on Netlify (https://worldcupplayertracker.netlify.app/). The post-final refresh ran on 2026-08-19, so the dataset covers the whole tournament.
 
 ## Important Notes
 
@@ -209,8 +213,6 @@ Tournament-data collection and reconciliation (July 2026 finalization run):
 
 ## Next Step
 
-The site is launched — it ships as a free static website on Netlify
-(https://worldcupplayertracker.netlify.app/), auto-deploying on every push, exactly as the
-delivery decision in `docs/launch_guide.md` describes. The one remaining launch blocker
-(listed in `docs/current_work_dashboard_prototype_checklist.md`) is the post-final data
-refresh after the July 19 final, which locks the dataset. Everything else is enhancement.
+The site is launched as a free static website on Netlify, as `docs/launch_guide.md`
+describes, and the dataset is final. Follow-up work is listed in
+`docs/deferred_dataset_and_prototype_todo.md`.
