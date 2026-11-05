@@ -195,6 +195,25 @@ test("match analysis summarizes goals, margins, venues, records, and confederati
   assert.equal(analysis.confederationMatchups[0].shootouts, 1);
 });
 
+test("match analysis lists stages in tournament order", () => {
+  // By rate, the one high-scoring third-place match came first; by name,
+  // "Final" came before "First Stage".
+  const analysis = buildMatchAnalysis({
+    ...input,
+    matches: [
+      ...matches,
+      match("m3", "Final", "Alpha", "Beta", 1, 0, null, null, "South Stadium", "South City"),
+      match("m4", "Play-off for third place", "Alpha", "Beta", 6, 4, null, null, "South Stadium", "South City"),
+    ],
+  });
+  const order = ["First Stage", "Round of 32", "Play-off for third place", "Final"];
+  assert.deepEqual(analysis.goalsByStage.map((row) => row.stage), order);
+  assert.deepEqual(
+    analysis.teamRecordsByStage.filter((row) => row.team === "Alpha").map((row) => row.stage),
+    order,
+  );
+});
+
 test("data quality distinguishes missing, not applicable, deferred, and validation statuses", () => {
   const quality = buildDataQualitySummary(input, { counts: { players: players.length }, exported_at: "2026-07-14" });
   assert.equal(quality.latestExportDate, "2026-07-14");

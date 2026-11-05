@@ -9,30 +9,10 @@ import {
   cx,
 } from "@/components/ui";
 import { matches, type Match } from "@/lib/data";
-
-const KNOCKOUT_STAGES = [
-  "Round of 32",
-  "Round of 16",
-  "Quarter-final",
-  "Semi-final",
-  "Play-off for third place",
-  "Final",
-];
+import { KNOCKOUT_STAGES, MATCH_STAGES, stageLabel } from "@/lib/data/stages";
 
 // Deepest → shallowest, for grouping the All Matches view.
-const STAGE_ORDER = [
-  "Final",
-  "Play-off for third place",
-  "Semi-final",
-  "Quarter-final",
-  "Round of 16",
-  "Round of 32",
-  "First Stage",
-];
-
-const STAGE_LABELS: Record<string, string> = {
-  "First Stage": "Group stage",
-};
+const STAGE_ORDER = [...MATCH_STAGES].reverse();
 
 const TEAM_PLACEHOLDERS: Record<string, string> = {
   W101: "Winner SF1",
@@ -47,10 +27,6 @@ function teamLabel(name: string): string {
 
 function isPlaceholder(name: string): boolean {
   return name in TEAM_PLACEHOLDERS;
-}
-
-function stageLabel(stage: string): string {
-  return STAGE_LABELS[stage] ?? stage;
 }
 
 function formatDate(value: string): string {

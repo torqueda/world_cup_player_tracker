@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import metaJson from "@data/meta.json";
 import { activePlayers, clubs, matches, teams } from "@/lib/data";
+import { stageRank } from "@/lib/data/stages";
 
 const REPO_URL = "https://github.com/torqueda/world_cup_player_tracker";
 
@@ -8,15 +9,6 @@ const REPO_URL = "https://github.com/torqueda/world_cup_player_tracker";
 
 const playedMatches = matches.filter((match) => match.status === "played").length;
 
-const STAGE_ORDER = [
-  "First Stage",
-  "Round of 32",
-  "Round of 16",
-  "Quarter-final",
-  "Semi-final",
-  "Play-off for third place",
-  "Final",
-];
 const STAGE_LABEL: Record<string, string> = {
   "First Stage": "the group stage",
   "Round of 32": "the round of 32",
@@ -33,7 +25,7 @@ function currentStageLabel(): string {
     return "the group stage";
   }
   const deepest = playedStages.reduce((best, stage) =>
-    STAGE_ORDER.indexOf(stage) > STAGE_ORDER.indexOf(best) ? stage : best,
+    stageRank(stage) > stageRank(best) ? stage : best,
   );
   return STAGE_LABEL[deepest] ?? deepest;
 }

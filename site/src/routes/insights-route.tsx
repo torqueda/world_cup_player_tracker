@@ -30,6 +30,7 @@ import {
   teamStats,
   TEAM_COUNTRY_ALIASES,
 } from "@/lib/data";
+import { stageLabel, stageRank } from "@/lib/data/stages";
 import {
   DEFAULT_MEANINGFUL_MINUTES,
   TOURNAMENT_START_DATE,
@@ -808,11 +809,12 @@ export function InsightsRoute() {
             <RankedList
               items={matchAnalysis.goalsByStage.map((row) => ({
                 key: row.stage,
-                name: row.stage,
+                name: stageLabel(row.stage),
                 value: row.goalsPerMatch,
                 valueLabel: row.goalsPerMatch.toFixed(2),
                 meta: `${row.goals} goal${row.goals === 1 ? "" : "s"} in ${row.matches} match${row.matches === 1 ? "" : "es"}`,
               }))}
+              showRank={false}
               initialVisible={8}
             />
             <h3 className="subsection-heading">Score margin distribution</h3>
@@ -881,7 +883,7 @@ export function InsightsRoute() {
             caption="Team records by stage"
             columns={[
               { key: "team", label: "Team", sortValue: (row) => row.team, render: (row) => row.team },
-              { key: "stage", label: "Stage", sortValue: (row) => row.stage, render: (row) => row.stage },
+              { key: "stage", label: "Stage", sortValue: (row) => stageRank(row.stage), render: (row) => stageLabel(row.stage) },
               { key: "played", label: "P", align: "right", sortValue: (row) => row.played, render: (row) => row.played },
               { key: "wins", label: "W", align: "right", initialAsc: false, sortValue: (row) => row.wins, render: (row) => row.wins },
               { key: "draws", label: "D", align: "right", initialAsc: false, sortValue: (row) => row.draws, render: (row) => row.draws },

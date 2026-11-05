@@ -8,6 +8,7 @@ import type {
   Team,
   TeamStat,
 } from "../data/types.js";
+import { stageRank } from "../data/stages.js";
 
 export const TOURNAMENT_START_DATE = "2026-06-11";
 export const DEFAULT_MEANINGFUL_MINUTES = 180;
@@ -523,7 +524,8 @@ export function buildMatchAnalysis(input: AnalyticsInput): MatchAnalysis {
       const goals = rows.reduce((sum, match) => sum + (matchGoals(match) ?? 0), 0);
       return { stage, matches: rows.length, goals, goalsPerMatch: goals / rows.length };
     })
-    .sort((a, b) => b.goalsPerMatch - a.goalsPerMatch || a.stage.localeCompare(b.stage));
+    // Tournament order: ranked by rate, the one third-place match came first.
+    .sort((a, b) => stageRank(a.stage) - stageRank(b.stage));
 
   const margins = new Map<number, number>();
   for (const match of played) {
@@ -620,7 +622,7 @@ export function buildMatchAnalysis(input: AnalyticsInput): MatchAnalysis {
     penaltyShootouts: played.filter((match) => match.home_pens !== null && match.away_pens !== null).length,
     goalsByVenue: venueRows,
     teamRecordsByStage: Array.from(teamStageRecords.values()).sort(
-      (a, b) => a.stage.localeCompare(b.stage) || a.team.localeCompare(b.team),
+      (a, b) => stageRank(a.stage) - stageRank(b.stage) || a.team.localeCompare(b.team),
     ),
     confederationMatchups: Array.from(matchupRows.values()).sort((a, b) => b.matches - a.matches || a.key.localeCompare(b.key)),
   };
