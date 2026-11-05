@@ -105,7 +105,7 @@ const entryCards: EntryCard[] = [
   {
     eyebrow: "Analysis",
     heading: "Beyond the headline numbers.",
-    body: "Compare birthplace patterns, home-grown and diaspora squads, club and league influence, squad ages, confederation performance, coaches, officials, and expected-goals results.",
+    body: "Compare squad ages, birthplace and home-grown shares, club and league influence, player efficiency, confederation results, and goals by stage and venue.",
     links: [{ to: "/insights", label: "Open the analysis" }],
   },
 ];
