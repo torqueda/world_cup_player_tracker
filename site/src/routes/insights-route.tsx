@@ -109,6 +109,11 @@ function formatPct(value: number | null | undefined, digits = 0): string {
   return value === null || value === undefined ? "N/A" : `${(value * 100).toFixed(digits)}%`;
 }
 
+// A difference between two percentages is in percentage points, not percent.
+function formatPoints(value: number | null | undefined, digits = 0): string {
+  return value === null || value === undefined ? "N/A" : `${(value * 100).toFixed(digits)} pts`;
+}
+
 function csvEscape(value: unknown): string {
   const text = value === null || value === undefined ? "" : String(value);
   return /[",\n]/.test(text) ? `"${text.replace(/"/g, '""')}"` : text;
@@ -202,11 +207,13 @@ function ComparisonValue({
   a,
   b,
   formatter = (value) => formatNumber(value, 1),
+  diffFormatter = formatter,
 }: {
   label: string;
   a: number | null;
   b: number | null;
   formatter?: (value: number | null) => string;
+  diffFormatter?: (value: number | null) => string;
 }) {
   if (a === null && b === null) return null;
   const max = Math.max(a ?? 0, b ?? 0, 1);
@@ -222,7 +229,7 @@ function ComparisonValue({
         <strong>{formatter(b)}</strong>
         <ComparisonBar value={b} max={max} tone="b" />
       </td>
-      <td>{diff === null ? "N/A" : diff === 0 ? "Even" : `${diff > 0 ? "+" : ""}${formatter(diff)}`}</td>
+      <td>{diff === null ? "N/A" : diff === 0 ? "Even" : `${diff > 0 ? "+" : ""}${diffFormatter(diff)}`}</td>
     </tr>
   );
 }
@@ -672,7 +679,13 @@ export function InsightsRoute() {
                   <tbody>
                     <ComparisonValue label="Average age" a={scoreA.averageAge} b={scoreB.averageAge} />
                     <ComparisonValue label="Median age" a={scoreA.medianAge} b={scoreB.medianAge} />
-                    <ComparisonValue label="Domestic share" a={scoreA.domesticLeaguePct} b={scoreB.domesticLeaguePct} formatter={(v) => formatPct(v)} />
+                    <ComparisonValue
+                      label="Domestic share"
+                      a={scoreA.domesticLeaguePct}
+                      b={scoreB.domesticLeaguePct}
+                      formatter={(v) => formatPct(v)}
+                      diffFormatter={(v) => formatPoints(v)}
+                    />
                     <ComparisonValue label="Clubs represented" a={scoreA.clubsRepresented} b={scoreB.clubsRepresented} formatter={(v) => formatNumber(v)} />
                     <ComparisonValue label="League count" a={scoreA.leaguesRepresented} b={scoreB.leaguesRepresented} formatter={(v) => formatNumber(v)} />
                     <ComparisonValue label="Club HHI" a={concA?.clubHhi ?? null} b={concB?.clubHhi ?? null} formatter={(v) => formatNumber(v, 3)} />
