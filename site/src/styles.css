@@ -961,56 +961,6 @@ h4,
   max-height: 240px;
 }
 
-/* --- Donut gauges --- */
-
-.donut-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  gap: 1rem;
-  margin: 0.5rem 0 0.5rem;
-}
-
-.donut-gauge {
-  display: grid;
-  justify-items: center;
-  gap: 0.4rem;
-  margin: 0;
-  text-align: center;
-}
-
-.donut-gauge svg {
-  width: 84px;
-  height: 84px;
-}
-
-.donut-track {
-  stroke: rgba(49, 95, 74, 0.14);
-}
-
-.donut-fill {
-  stroke: var(--accent);
-}
-
-.donut-center {
-  font-family: var(--font-display);
-  font-size: 1.3rem;
-  font-weight: 700;
-  fill: var(--text);
-}
-
-.donut-label {
-  display: block;
-  font-size: 0.82rem;
-  font-weight: 600;
-  color: var(--text);
-}
-
-.donut-sublabel {
-  display: block;
-  font-size: 0.76rem;
-  color: var(--text-muted);
-}
-
 /* --- Matches route --- */
 
 .match-list {
@@ -1286,22 +1236,6 @@ h4,
   min-width: 170px;
 }
 
-.team-list-horizontal {
-  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-  gap: 0.5rem;
-  margin-top: 1.25rem;
-  max-height: none;
-  overflow: visible;
-}
-
-/* Squads "Choose a team": a fixed 8-column grid (6 rows × 8 = 48) on wide
-   viewports, collapsing to auto-fill below. */
-@media (min-width: 1024px) {
-  .team-list-horizontal {
-    grid-template-columns: repeat(8, minmax(0, 1fr));
-  }
-}
-
 .team-info-row {
   display: flex;
   flex-wrap: wrap;
@@ -1348,15 +1282,6 @@ h4,
 .player-chip-alt {
   background: var(--gold-soft);
   color: var(--gold-deep);
-}
-
-.donut-fill-b {
-  stroke: var(--gold);
-}
-
-.donut-sort-field {
-  max-width: 320px;
-  margin-bottom: 1rem;
 }
 
 /* --- Average squad age pairs --- */
@@ -1571,36 +1496,6 @@ h4,
   text-align: right;
 }
 
-/* --- Treemap --- */
-
-.treemap {
-  width: 100%;
-  height: auto;
-  margin-top: 0.5rem;
-}
-
-.treemap-rect {
-  stroke: var(--surface);
-  stroke-width: 0.4;
-}
-
-.treemap-tile-a .treemap-rect { fill: #2a7a4d; }
-.treemap-tile-b .treemap-rect { fill: #c9971c; }
-.treemap-tile-c .treemap-rect { fill: #5a9c74; }
-.treemap-tile-d .treemap-rect { fill: #e0b95c; }
-
-.treemap-label,
-.treemap-value {
-  fill: #ffffff;
-  font-family: var(--font-body);
-  font-weight: 600;
-  pointer-events: none;
-}
-
-.treemap-value {
-  opacity: 0.85;
-}
-
 /* --- Confederation matrix + filter --- */
 
 .confed-matrix td,
@@ -1661,21 +1556,6 @@ h4,
   background: var(--surface-muted);
   font-size: 0.9rem;
   line-height: 1.6;
-}
-
-/* --- Treemap selection --- */
-
-.treemap-clickable {
-  cursor: pointer;
-}
-
-.treemap-clickable:hover .treemap-rect {
-  filter: brightness(1.08);
-}
-
-.treemap-selected .treemap-rect {
-  stroke: var(--text);
-  stroke-width: 0.9;
 }
 
 /* --- Clickable player names --- */
@@ -1938,71 +1818,6 @@ h4,
     grid-template-columns: 1fr;
     gap: 0.15rem;
   }
-}
-
-/* --- xG scatter --- */
-
-.xg-scatter {
-  margin-top: 1rem;
-  overflow-x: auto;
-}
-
-.xg-scatter svg {
-  width: 100%;
-  min-width: 340px;
-  height: auto;
-}
-
-.xg-grid {
-  stroke: var(--surface-border);
-  stroke-width: 1;
-}
-
-.xg-par-line {
-  stroke: var(--text-muted);
-  stroke-width: 1.5;
-  stroke-dasharray: 5 5;
-  opacity: 0.7;
-}
-
-.xg-par-label {
-  fill: var(--text-muted);
-  font-size: 12px;
-  font-style: italic;
-}
-
-.xg-axis-tick {
-  fill: var(--text-muted);
-  font-size: 12px;
-}
-
-.xg-axis-title {
-  fill: var(--text);
-  font-size: 13px;
-  font-weight: 600;
-}
-
-.xg-dot {
-  stroke: var(--surface-strong);
-  stroke-width: 1;
-}
-
-.xg-dot-over {
-  fill: var(--accent);
-}
-
-.xg-dot-under {
-  fill: var(--clay);
-}
-
-.xg-dot-par {
-  fill: var(--text-muted);
-}
-
-.xg-point-label {
-  fill: var(--text);
-  font-size: 12px;
-  font-weight: 600;
 }
 
 /* --- Knockout bracket --- */
@@ -2467,12 +2282,6 @@ button.bracket-team-active:hover {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-
-/* The 8-column picker is tight — drop the redundant code chip there (the code
-   still shows on the selected-squad header). */
-.team-list-horizontal .team-button-code {
-  display: none;
 }
 
 .bracket-team-name {
