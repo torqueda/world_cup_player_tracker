@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-08-20",
+  "exported_at": "2026-11-05",
   "source_workbook": "data/master/world_cup_2026_player_map_master.xlsx",
   "clubs_source": "data/master/world_cup_2026_player_map_master.xlsx:clubs",
   "sheet_names": [
@@ -30,8 +30,8 @@
     "club_aliases": 49,
     "squad_entries": 1275,
     "player_club_at_callup": 1275,
-    "sources": 10,
-    "change_log": 11,
+    "sources": 12,
+    "change_log": 20,
     "matches": 104
   }
 }

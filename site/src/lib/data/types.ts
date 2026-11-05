@@ -63,7 +63,10 @@ export interface Player {
   image_license: string | null;
   image_source_url: string | null;
   bio_source_url: string | null;
+  /** The Wikidata matcher's first verdict, kept as history. Read match_method for how the match was settled. */
   data_confidence: string | null;
+  /** auto: the matcher's pick, unchanged. dob: matched by name and birth date. manual: settled by hand. */
+  match_method?: "auto" | "dob" | "manual";
   manual_review_flag: boolean;
   notes: string | null;
 }
