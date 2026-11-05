@@ -35,7 +35,7 @@ function kickoffAge(dateOfBirth: string | null): number | null {
 }
 
 const ALL_CONFEDS = "all";
-const CONFED_NAME = new Map(confederations.map((confed) => [confed.code, confed.name]));
+const CONFED_NAME = new Map<string, string>(confederations.map((confed) => [confed.code, confed.name]));
 const CONFED_CODES = Array.from(
   new Set(teams.map((team) => getConfederationForCountry(team.team)).filter((code): code is string => Boolean(code))),
 ).sort((a, b) => a.localeCompare(b));

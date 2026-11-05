@@ -2,17 +2,9 @@ import changeLogJson from "@data/change_log.json";
 import metaJson from "@data/meta.json";
 import { coaches, referees } from "@/lib/data";
 import { PageHeader, MetricCard, Expandable } from "@/components/ui";
+import type { ChangeLogRow } from "@/lib/data/types";
 
-interface ChangeLogRow {
-  change_id: string;
-  changed_at: string | null;
-  team: string | null;
-  change_type: string | null;
-  field_changed: string | null;
-  notes: string | null;
-}
-
-const changeLog = changeLogJson as unknown as ChangeLogRow[];
+const changeLog = changeLogJson as ChangeLogRow[];
 const meta = metaJson as { counts: Record<string, number>; exported_at?: string };
 
 const REPO_URL = "https://github.com/torqueda/world_cup_player_tracker";

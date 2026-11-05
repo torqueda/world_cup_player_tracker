@@ -24,14 +24,15 @@ import type {
 } from "../data/types.js";
 
 const teams: Team[] = [
-  { team: "Alpha", team_code: "ALP", tournament: "FIFA World Cup 2026", squad_size: 3, replacement_count: 0, players: [] },
-  { team: "Beta", team_code: "BET", tournament: "FIFA World Cup 2026", squad_size: 2, replacement_count: 0, players: [] },
+  { team: "Alpha", team_code: "ALP", tournament: "fifa_world_cup_2026", squad_size: 3, replacement_count: 0, players: [] },
+  { team: "Beta", team_code: "BET", tournament: "fifa_world_cup_2026", squad_size: 2, replacement_count: 0, players: [] },
 ];
 
 const players: Player[] = [
   player("p1", "A One", "2004-06-11", "Alpha", "forward", "img"),
   player("p2", "A Two", "1990-01-01", "Gamma", "midfielder", null),
-  player("p3", "A Three", "1998-01-01", null, "goalkeeper", null),
+  // The contract requires a birth country; the analytics still handle a missing one.
+  { ...player("p3", "A Three", "1998-01-01", "", "goalkeeper", null), birth_country: null } as unknown as Player,
   player("p4", "B One", "2000-01-01", "Beta", "forward", "img"),
   player("p5", "B Two", "1988-01-01", "Beta", "defender", null),
 ];
@@ -48,7 +49,8 @@ const squadEntries: SquadEntry[] = [
 const clubs: Club[] = [
   club("c1", "Alpha FC", "Alpha League", "Alpha", 1, 1),
   club("c2", "Gamma FC", "Gamma League", "Gamma", 2, 2),
-  club("c3", "Beta FC", "Beta League", "Beta", null, null),
+  // The contract requires coordinates; the analytics still handle a club without them.
+  { ...club("c3", "Beta FC", "Beta League", "Beta", 0, 0), city_lat: null, city_lon: null } as unknown as Club,
 ];
 
 const callups: PlayerClubAtCallup[] = [
@@ -82,7 +84,9 @@ const teamStats: TeamStat[] = [
     assists: 1,
     xg: 2.4,
     possession_pct: 52,
-    as_of_stage: "test",
+    as_of_stage: "final",
+    source_id: "fifa_team_stats_2026",
+    retrieved_at: "2026-08-19",
   },
   {
     team: "Beta",
@@ -98,7 +102,9 @@ const teamStats: TeamStat[] = [
     assists: 2,
     xg: 1.8,
     possession_pct: 48,
-    as_of_stage: "test",
+    as_of_stage: "final",
+    source_id: "fifa_team_stats_2026",
+    retrieved_at: "2026-08-19",
   },
 ];
 
@@ -230,9 +236,9 @@ test("data quality distinguishes missing, not applicable, deferred, and validati
 function player(
   playerId: string,
   displayName: string,
-  dob: string | null,
-  birthCountry: string | null,
-  position: string,
+  dob: string,
+  birthCountry: string,
+  position: Player["primary_position"],
   imageUrl: string | null,
 ): Player {
   return {
@@ -242,8 +248,8 @@ function player(
     espn_id: null,
     display_name: displayName,
     name_ascii: displayName,
-    date_of_birth: dob,
-    place_of_birth: null,
+    date_of_birth: `${dob}T00:00:00`,
+    place_of_birth: "Somewhere",
     birth_country: birthCountry,
     birth_lat: null,
     birth_lon: null,
@@ -254,10 +260,11 @@ function player(
     image_author: null,
     image_license: null,
     image_source_url: null,
-    bio_source_url: null,
-    data_confidence: null,
+    bio_source_url: "https://example.com",
+    data_confidence: "wikidata_auto_match_high",
     manual_review_flag: false,
-    notes: null,
+    notes: "",
+    match_method: "auto",
   };
 }
 
@@ -269,38 +276,39 @@ function entry(id: string, teamCode: string, team: string, playerId: string, cap
     team_code: teamCode,
     player_id: playerId,
     display_name_at_source: playerId,
-    position_group: null,
+    position_group: "forward",
     shirt_number: null,
     squad_status: "active",
+    is_captain: false,
     caps_pre_tournament: caps,
     goals_pre_tournament: null,
     is_replacement: false,
     replaced_player_id: null,
     replacement_reason: null,
     official_roster_source_url: "https://example.com",
-    verified_at: null,
+    verified_at: "2026-08-19",
+    notes: "",
   };
 }
 
-function club(id: string, name: string, league: string, country: string, lat: number | null, lon: number | null): Club {
+function club(id: string, name: string, league: string, country: string, lat: number, lon: number): Club {
   return {
     club_id: id,
-    wikidata_id: null,
     club_name: name,
     club_name_ascii: name,
     league,
     country,
-    city: null,
-    stadium: null,
+    city: `${name} City`,
+    stadium: `${name} Ground`,
     city_lat: lat,
     city_lon: lon,
-    city_source_url: lat === null ? null : "https://example.com",
-    city_geo_source: lat === null ? null : "manual",
-    city_match_confidence: null,
+    city_source_url: "https://example.com",
+    city_geo_source: "geonames_searchJSON",
+    city_match_confidence: "high",
     manual_review_flag: false,
     notes: null,
-    city_key: null,
-    city_review_notes: null,
+    city_key: `${id}-city`,
+    city_review_notes: "",
   };
 }
 
@@ -310,9 +318,9 @@ function callup(playerId: string, clubId: string, team: string): PlayerClubAtCal
     player_id: playerId,
     club_id: clubId,
     team,
-    club_name_at_source: null,
-    club_rule: null,
-    is_on_loan: "false",
+    club_name_at_source: clubId,
+    club_rule: "source_listed_club",
+    is_on_loan: "unknown",
     parent_club_id: null,
     loan_club_id: null,
     club_source_url: "https://example.com",
@@ -343,14 +351,18 @@ function stat(
     yellow_cards: yellow,
     red_cards: red,
     indirect_red_cards: indirectRed,
-    as_of_stage: "test",
-    gk_saves: saves,
+    as_of_stage: "final",
+    source_id: "fifa_player_stats_2026",
+    retrieved_at: "2026-08-19",
+    gk_saves: saves ?? null,
+    gk_actions_inside_box: null,
+    gk_actions_outside_box: null,
   };
 }
 
 function match(
   id: string,
-  stage: string,
+  stage: Match["stage"],
   home: string,
   away: string,
   homeScore: number,
@@ -375,5 +387,6 @@ function match(
     stadium,
     city,
     status: "played",
+    source_id: "fifa_fixtures_2026",
   };
 }

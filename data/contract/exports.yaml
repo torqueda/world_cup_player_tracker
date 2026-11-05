@@ -1,0 +1,800 @@
+# The data contract: what each JSON export in data/processed/app_exports/
+# holds, and what the site may rely on.
+#
+# tests/test_data_contract.py checks every row of every export against this
+# file. scripts/export/generate_from_contract.py writes the site's TypeScript
+# types (site/src/lib/data/types.ts) and the data dictionary
+# (docs/data_dictionary.md) from it, and the same test fails when either
+# committed file differs from what the script writes.
+#
+# Each table:
+#   file         the export, in data/processed/app_exports/
+#   type_name    the TypeScript interface the site uses for one row
+#   key          the field that identifies a row: unique and never empty
+#   read_by      the site files that import the export ([] if none)
+#   description  what one row is
+#   fields       every field, in export order. Every row has every field.
+#
+# Each field:
+#   type         string, integer, number, boolean or list (of strings)
+#   nullable     true if the value may be null (default false)
+#   values       the allowed values (an enum)
+#   format       date (YYYY-MM-DD), datetime (YYYY-MM-DDT00:00:00) or url
+#   pattern      a regular expression the whole value must match
+#   references   table.field that every value (or list item) must exist in
+#   description  what the field means
+#
+# Rules (also in docs/data_contract.md):
+# - A change to an export changes this file in the same pull request.
+# - A new field starts with nullable: true. It loses it once every row has a value.
+# - Removing a field or narrowing its allowed values needs a line in
+#   docs/decision_log.md.
+
+players:
+  file: players.json
+  type_name: Player
+  key: player_id
+  read_by: [site/src/lib/data/index.ts]
+  description: >-
+    One player who was in a 2026 World Cup squad at any point, including the 27
+    who were dropped before the final squads. Biographical facts come from the
+    player's Wikidata record unless a note says otherwise.
+  fields:
+    player_id:
+      type: string
+      pattern: "^p_[a-z]{3}_[a-z0-9_]+_[0-9a-f]{8}$"
+      description: Stable ID. The team code, the name as first imported, and a hash. It does not change when the name is corrected.
+    wikidata_id:
+      type: string
+      nullable: true
+      pattern: "^Q[0-9]+$"
+      description: The player's Wikidata item. Null for one dropped player who has none.
+    fifa_id:
+      type: string
+      nullable: true
+      description: Always empty. Planned and never collected.
+    espn_id:
+      type: string
+      nullable: true
+      description: Always empty. Planned and never collected.
+    display_name:
+      type: string
+      description: The name the site shows.
+    name_ascii:
+      type: string
+      description: The display name without accents, for search.
+    date_of_birth:
+      type: string
+      format: datetime
+      description: Birth date, with a midnight time the workbook export adds.
+    place_of_birth:
+      type: string
+      description: Birthplace as Wikidata names it.
+    birth_country:
+      type: string
+      description: The country of the birthplace, which is not always the team the player represents.
+    birth_lat:
+      type: number
+      nullable: true
+      description: Always empty. Planned and never collected.
+    birth_lon:
+      type: number
+      nullable: true
+      description: Always empty. Planned and never collected.
+    height_cm:
+      type: number
+      nullable: true
+      description: Always empty. Planned and never collected.
+    primary_position:
+      type: string
+      values: [goalkeeper, defender, midfielder, forward]
+      description: Position group, from the squad list.
+    image_commons_title:
+      type: string
+      nullable: true
+      description: The photo's file on Wikimedia Commons, such as "File:Name 2024.jpg". Null when the player has no photo.
+    image_url:
+      type: string
+      nullable: true
+      format: url
+      description: Direct link to the photo on Wikimedia Commons.
+    image_author:
+      type: string
+      nullable: true
+      description: The photo's author, for attribution.
+    image_license:
+      type: string
+      nullable: true
+      description: The photo's licence, such as CC BY-SA 4.0.
+    image_source_url:
+      type: string
+      nullable: true
+      format: url
+      description: The photo's page on Wikimedia Commons, with its licence.
+    bio_source_url:
+      type: string
+      format: url
+      description: Where the biographical facts come from, usually the Wikidata page.
+    data_confidence:
+      type: string
+      values: [wikidata_auto_match_high, wikidata_dob_match, wikidata_match_needs_review, wikidata_no_match, verified_non_wikidata_source]
+      description: The Wikidata matcher's first verdict, kept as history. Read match_method for how the match was settled.
+    manual_review_flag:
+      type: boolean
+      description: True if the record was flagged for a manual check.
+    notes:
+      type: string
+      description: Working notes on how the record was matched and corrected.
+    match_method:
+      type: string
+      values: [auto, dob, manual]
+      description: "How the match to Wikidata was settled. auto: the matcher's pick, unchanged. dob: matched by name and birth date. manual: settled by hand."
+
+squad_entries:
+  file: squad_entries.json
+  type_name: SquadEntry
+  key: squad_entry_id
+  read_by: [site/src/lib/data/index.ts]
+  description: >-
+    One player's place in a team's squad. Active entries are the 48 final
+    squads of 26; removed entries are the players dropped before them.
+  fields:
+    squad_entry_id:
+      type: string
+      pattern: "^se_wc2026_[a-z]{3}_[0-9a-f]{8}$"
+      description: Stable ID.
+    tournament:
+      type: string
+      values: [FIFA World Cup 2026, fifa_world_cup_2026]
+      description: The tournament. Two spellings are in use (a known gap); both mean the 2026 World Cup.
+    team:
+      type: string
+      references: teams.team
+      description: The national team.
+    team_code:
+      type: string
+      pattern: "^[A-Z]{3}$"
+      references: teams.team_code
+      description: Three-letter team code.
+    player_id:
+      type: string
+      references: players.player_id
+      description: The player.
+    display_name_at_source:
+      type: string
+      description: The name as the squad list printed it, kept for checking.
+    position_group:
+      type: string
+      values: [goalkeeper, defender, midfielder, forward]
+      description: Position group in the squad list.
+    shirt_number:
+      type: integer
+      nullable: true
+      description: Shirt number in the final squad. Null for removed players.
+    squad_status:
+      type: string
+      values: [active, removed]
+      description: "active: in the final squad. removed: dropped before it, kept for history."
+    is_captain:
+      type: boolean
+      nullable: true
+      description: True for the team captain. Null for removed players.
+    caps_pre_tournament:
+      type: integer
+      nullable: true
+      description: International caps before the tournament, from the final squad list. Null for removed players.
+    goals_pre_tournament:
+      type: integer
+      nullable: true
+      description: International goals before the tournament. Null for removed players.
+    is_replacement:
+      type: boolean
+      description: True for the 27 players who joined after the first squad lists.
+    replaced_player_id:
+      type: string
+      nullable: true
+      description: Always empty. The squad lists do not say who each replacement replaced.
+    replacement_reason:
+      type: string
+      nullable: true
+      description: Why the player joined late, for replacements.
+    official_roster_source_url:
+      type: string
+      format: url
+      description: The squad list the entry was checked against.
+    verified_at:
+      type: string
+      format: date
+      description: When the entry was last checked against that list.
+    notes:
+      type: string
+      description: Whether the player is on FIFA's final squad list.
+
+player_club_at_callup:
+  file: player_club_at_callup.json
+  type_name: PlayerClubAtCallup
+  key: player_club_callup_id
+  read_by: [site/src/lib/data/index.ts]
+  description: The club each player was with when called up, which places them on the map.
+  fields:
+    player_club_callup_id:
+      type: string
+      pattern: "^pc_wc2026_[0-9a-f]{8}$"
+      description: Stable ID.
+    player_id:
+      type: string
+      references: players.player_id
+      description: The player.
+    club_id:
+      type: string
+      references: clubs.club_id
+      description: The club.
+    team:
+      type: string
+      references: teams.team
+      description: The national team.
+    club_name_at_source:
+      type: string
+      description: The club's name as the squad list printed it.
+    club_rule:
+      type: string
+      values: [source_listed_club, club at final-squad announcement (Wikipedia), manual_player_club_correction, manual_source_variant_normalization]
+      description: How the club was chosen. Corrections and spelling fixes are in the change log.
+    is_on_loan:
+      type: string
+      values: [unknown]
+      description: Always unknown. Loans were not collected.
+    parent_club_id:
+      type: string
+      nullable: true
+      description: Always empty. Loans were not collected.
+    loan_club_id:
+      type: string
+      nullable: true
+      description: Always empty. Loans were not collected.
+    club_source_url:
+      type: string
+      format: url
+      description: Where the club comes from.
+    confidence:
+      type: string
+      nullable: true
+      values: [manual_verified, provisional_raw_import]
+      description: How the club was checked. Null for the 27 late replacements, whose club comes from the final squad list.
+    notes:
+      type: string
+      nullable: true
+      description: Working notes on corrections.
+
+player_stats:
+  file: player_stats.json
+  type_name: PlayerStat
+  key: player_id
+  read_by: [site/src/lib/data/index.ts]
+  description: One player's totals for the tournament, from FIFA. Players who did not play have no row.
+  fields:
+    player_id:
+      type: string
+      references: players.player_id
+      description: The player.
+    tournament:
+      type: string
+      values: [FIFA World Cup 2026]
+      description: The tournament.
+    team_code:
+      type: string
+      references: teams.team_code
+      description: Three-letter team code.
+    fifa_listed_name:
+      type: string
+      description: The name on FIFA's statistics pages, which the stats were matched on.
+    goals:
+      type: integer
+      description: Goals, not counting penalty shoot-outs.
+    assists:
+      type: integer
+      description: Assists, as FIFA counts them.
+    minutes_played:
+      type: integer
+      description: Minutes played.
+    yellow_cards:
+      type: integer
+      description: Yellow cards.
+    red_cards:
+      type: integer
+      description: Every sending-off, including second-yellow (indirect) reds.
+    indirect_red_cards:
+      type: integer
+      description: The subset of red_cards that came from a second yellow. Never add it to red_cards.
+    as_of_stage:
+      type: string
+      values: [final]
+      description: The last stage the totals include.
+    source_id:
+      type: string
+      references: sources.source_id
+      description: The source.
+    retrieved_at:
+      type: string
+      format: date
+      description: When the totals were collected.
+    gk_saves:
+      type: integer
+      nullable: true
+      description: Saves. Goalkeepers only.
+    gk_actions_inside_box:
+      type: integer
+      nullable: true
+      description: Actions inside the penalty area. Goalkeepers only.
+    gk_actions_outside_box:
+      type: integer
+      nullable: true
+      description: Actions outside the penalty area. Goalkeepers only.
+
+clubs:
+  file: clubs.json
+  type_name: Club
+  key: club_id
+  read_by: [site/src/lib/data/index.ts]
+  description: A club that at least one player was with when called up, with its city for the map.
+  fields:
+    club_id:
+      type: string
+      pattern: "^c_[a-z0-9_]+_[0-9a-f]{8}$"
+      description: Stable ID.
+    club_name:
+      type: string
+      description: The club's name as the site shows it.
+    club_name_ascii:
+      type: string
+      description: The name without accents, for search.
+    league:
+      type: string
+      description: The club's league.
+    country:
+      type: string
+      description: The country the club is in.
+    city:
+      type: string
+      description: The city the club plays in.
+    stadium:
+      type: string
+      description: The club's home ground.
+    city_lat:
+      type: number
+      description: The city's latitude, in decimal degrees.
+    city_lon:
+      type: number
+      description: The city's longitude, in decimal degrees.
+    city_source_url:
+      type: string
+      format: url
+      description: Where the coordinates come from.
+    city_geo_source:
+      type: string
+      values: [geonames_searchJSON, geohack]
+      description: How the coordinates were found.
+    city_match_confidence:
+      type: string
+      values: [high, medium, low]
+      description: How sure the city match is.
+    manual_review_flag:
+      type: boolean
+      description: True if the club was flagged for a manual check.
+    notes:
+      type: string
+      nullable: true
+      description: Working notes on corrections.
+    city_key:
+      type: string
+      references: cities.city_key
+      description: The city, as a row of cities.
+    city_review_notes:
+      type: string
+      description: How the city was checked.
+
+cities:
+  file: cities.json
+  type_name: City
+  key: city_key
+  read_by: [site/src/lib/data/index.ts]
+  description: A city with at least one club, for the map.
+  fields:
+    city_key:
+      type: string
+      pattern: "^[a-z0-9-]+__[a-z0-9-]+__[0-9a-f]{8}$"
+      description: Stable ID. The country, the city and a hash.
+    country:
+      type: string
+      description: The country.
+    city:
+      type: string
+      description: The city's name.
+    city_ascii:
+      type: string
+      description: The name without accents, for search.
+    city_lat:
+      type: number
+      description: Latitude, in decimal degrees.
+    city_lon:
+      type: number
+      description: Longitude, in decimal degrees.
+    city_source_url:
+      type: string
+      format: url
+      description: Where the coordinates come from.
+    city_geo_source:
+      type: string
+      values: [geonames_searchJSON, geohack]
+      description: How the coordinates were found.
+    city_match_confidence:
+      type: string
+      values: [high, medium, low]
+      description: How sure the city match is.
+    city_review_notes:
+      type: string
+      description: How the city was checked.
+    club_count:
+      type: integer
+      description: How many clubs are in the city.
+    club_ids:
+      type: list
+      references: clubs.club_id
+      description: The clubs in the city.
+
+club_aliases:
+  file: club_aliases.json
+  type_name: ClubAlias
+  key: alias
+  read_by: [site/src/lib/data/index.ts]
+  description: Another name for a club, as a squad list printed it, so a search for it finds the club.
+  fields:
+    alias:
+      type: string
+      description: The other name.
+    alias_ascii:
+      type: string
+      description: The other name without accents.
+    canonical_club_id:
+      type: string
+      references: clubs.club_id
+      description: The club it names.
+
+teams:
+  file: teams.json
+  type_name: Team
+  key: team_code
+  read_by: [site/src/lib/data/index.ts]
+  description: One of the 48 national teams, with its final squad.
+  fields:
+    team:
+      type: string
+      description: The team's name as the site shows it.
+    team_code:
+      type: string
+      pattern: "^[A-Z]{3}$"
+      description: Three-letter team code.
+    tournament:
+      type: string
+      values: [fifa_world_cup_2026]
+      description: The tournament.
+    squad_size:
+      type: integer
+      description: Players in the final squad (26 for every team).
+    replacement_count:
+      type: integer
+      description: Players who joined after the first squad list.
+    players:
+      type: list
+      references: players.player_id
+      description: The final squad.
+
+team_stats:
+  file: team_stats.json
+  type_name: TeamStat
+  key: team_code
+  read_by: [site/src/lib/data/index.ts]
+  description: One team's totals for the tournament, from FIFA.
+  fields:
+    team:
+      type: string
+      references: teams.team
+      description: The team.
+    team_code:
+      type: string
+      references: teams.team_code
+      description: Three-letter team code.
+    tournament:
+      type: string
+      values: [FIFA World Cup 2026]
+      description: The tournament.
+    matches_played:
+      type: integer
+      description: Matches played.
+    wins:
+      type: integer
+      description: Wins, counting a shoot-out win as a draw.
+    draws:
+      type: integer
+      description: Draws, including matches settled on penalties.
+    losses:
+      type: integer
+      description: Losses.
+    goals_for:
+      type: integer
+      description: Goals scored, not counting shoot-outs.
+    goals_against:
+      type: integer
+      description: Goals conceded, not counting shoot-outs.
+    stage_reached:
+      type: string
+      values: [Group stage, Round of 32, Round of 16, Quarter-finals, Fourth place, Third place, Runners-up, Champions]
+      description: How far the team went.
+    assists:
+      type: integer
+      description: Assists, as FIFA counts them.
+    xg:
+      type: number
+      description: Expected goals, from FIFA.
+    possession_pct:
+      type: integer
+      description: Share of possession, in percent, from FIFA.
+    as_of_stage:
+      type: string
+      values: [final]
+      description: The last stage the totals include.
+    source_id:
+      type: string
+      references: sources.source_id
+      description: The source.
+    retrieved_at:
+      type: string
+      format: date
+      description: When the totals were collected.
+
+matches:
+  file: matches.json
+  type_name: Match
+  key: match_id
+  read_by: [site/src/lib/data/index.ts]
+  description: One of the 104 matches, with its result.
+  fields:
+    match_id:
+      type: string
+      pattern: "^m_wc2026_[0-9a-f]{8}$"
+      description: Stable ID.
+    tournament:
+      type: string
+      values: [FIFA World Cup 2026]
+      description: The tournament.
+    match_date:
+      type: string
+      format: datetime
+      description: The match date, with a midnight time the workbook export adds.
+    stage:
+      type: string
+      values: [First Stage, Round of 32, Round of 16, Quarter-final, Semi-final, Play-off for third place, Final]
+      description: The stage, in FIFA's words.
+    group:
+      type: string
+      nullable: true
+      pattern: "^Group [A-L]$"
+      description: The group, for First Stage matches.
+    home_team:
+      type: string
+      references: teams.team
+      description: The team listed first.
+    away_team:
+      type: string
+      references: teams.team
+      description: The team listed second.
+    home_score:
+      type: integer
+      description: Goals by the first team, including extra time.
+    away_score:
+      type: integer
+      description: Goals by the second team, including extra time.
+    home_pens:
+      type: integer
+      nullable: true
+      description: Penalty shoot-out goals by the first team, when there was a shoot-out.
+    away_pens:
+      type: integer
+      nullable: true
+      description: Penalty shoot-out goals by the second team, when there was a shoot-out.
+    stadium:
+      type: string
+      description: The stadium, by FIFA's tournament name for it.
+    city:
+      type: string
+      description: The host city.
+    status:
+      type: string
+      values: [scheduled, played]
+      description: Whether the match has been played. The site can show scheduled matches; every match is played now.
+    source_id:
+      type: string
+      references: sources.source_id
+      description: The source.
+
+coaches:
+  file: coaches.json
+  type_name: Coach
+  key: coach_id
+  read_by: [site/src/lib/data/index.ts]
+  description: Each team's head coach.
+  fields:
+    coach_id:
+      type: string
+      pattern: "^co_wc2026_[a-z]{3}_[0-9a-f]{8}$"
+      description: Stable ID.
+    team:
+      type: string
+      description: The team.
+    team_code:
+      type: string
+      references: teams.team_code
+      description: Three-letter team code.
+    coach_name:
+      type: string
+      description: The coach's name.
+    coach_nationality:
+      type: string
+      description: The coach's nationality.
+    source_id:
+      type: string
+      references: sources.source_id
+      description: The source.
+    retrieved_at:
+      type: string
+      format: date
+      description: When the row was collected.
+
+referees:
+  file: referees.json
+  type_name: Referee
+  key: official_id
+  read_by: [site/src/lib/data/index.ts]
+  description: A match official appointed for the tournament.
+  fields:
+    official_id:
+      type: string
+      pattern: "^ref_wc2026_[0-9a-f]{8}$"
+      description: Stable ID.
+    name:
+      type: string
+      description: The official's name.
+    country:
+      type: string
+      description: The official's country.
+    role:
+      type: string
+      values: [referee, assistant_referee, video_assistant_referee]
+      description: The role.
+    confederation:
+      type: string
+      references: confederations.code
+      description: The official's confederation.
+    source_id:
+      type: string
+      references: sources.source_id
+      description: The source.
+    retrieved_at:
+      type: string
+      format: date
+      description: When the row was collected.
+
+confederations:
+  file: confederations.json
+  type_name: Confederation
+  key: code
+  read_by: [site/src/lib/data/index.ts]
+  description: One of FIFA's six confederations, with its member associations.
+  fields:
+    code:
+      type: string
+      values: [AFC, CAF, CONCACAF, CONMEBOL, OFC, UEFA]
+      description: The confederation's short name.
+    name:
+      type: string
+      description: The full name.
+    source_url:
+      type: string
+      format: url
+      description: Where the member list comes from.
+    members:
+      type: list
+      description: The member associations, by the names the dataset uses.
+
+change_log:
+  file: change_log.json
+  type_name: ChangeLogRow
+  key: change_id
+  read_by: [site/src/routes/sources-route.tsx]
+  description: One correction or update to the data. The Methodology page shows the notes as written.
+  fields:
+    change_id:
+      type: string
+      description: Stable ID.
+    changed_at:
+      type: string
+      pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}(T00:00:00)?$"
+      description: When the change was made. One row still has a midnight time (a known gap).
+    team:
+      type: string
+      nullable: true
+      description: The team the change is about, or ALL.
+    player_id:
+      type: string
+      nullable: true
+      references: players.player_id
+      description: The player the change is about, if one.
+    change_type:
+      type: string
+      values: [bulk_import, bulk_enrichment, bulk_update, correction, identity_correction, player_club_source_error, club_source_variant_or_typo]
+      description: The kind of change.
+    field_changed:
+      type: string
+      description: The workbook columns that changed.
+    old_value:
+      type: string
+      nullable: true
+      description: The value before, or a summary of it.
+    new_value:
+      type: string
+      nullable: true
+      description: The value after, or a summary of it.
+    source_url:
+      type: string
+      nullable: true
+      format: url
+      description: The evidence for the change.
+    reviewed_by:
+      type: string
+      values: [claude, user+claude, user_manual_review]
+      description: Who made or confirmed the change.
+    notes:
+      type: string
+      description: What changed and why, in plain words. tests/test_change_log.py checks them.
+
+sources:
+  file: sources.json
+  type_name: Source
+  key: source_id
+  read_by: []
+  description: A source the data comes from.
+  fields:
+    source_id:
+      type: string
+      description: Stable ID.
+    source_type:
+      type: string
+      values: [roster, biography, image, club_location, stats, matches, officials, manual_verification]
+      description: What the source was used for.
+    publisher:
+      type: string
+      description: Who publishes it.
+    url:
+      type: string
+      format: url
+      description: Where it is.
+    title:
+      type: string
+      description: Its title.
+    accessed_at:
+      type: string
+      nullable: true
+      format: date
+      description: When it was last read.
+    published_at:
+      type: string
+      nullable: true
+      format: date
+      description: When it was published, if dated.
+    reliability_tier:
+      type: string
+      values: [primary_official, secondary_verified, secondary]
+      description: How much the source is trusted when sources disagree.
+    notes:
+      type: string
+      description: What was taken from it.
