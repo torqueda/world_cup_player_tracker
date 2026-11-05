@@ -21,7 +21,8 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "@data/*": ["../data/processed/app_exports/*"]
+      "@data/*": ["../data/processed/app_exports/*"],
+      "@analysis/*": ["../data/processed/analysis/*"]
     }
   },
   "include": ["src"],

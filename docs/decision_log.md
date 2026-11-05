@@ -49,3 +49,9 @@ Newest first. Each entry gives the date, the decision, the options that were on 
 - **Decision:** the project will not support betting, and the site and pipeline will not be packaged or sold as a product. It also shows no live or post-tournament data, and no forecast as fact.
 - **Options:** leave the scope open, or state it.
 - **Why:** the project is a free public reference built from public sources (see Problem and readers in [prd.md](prd.md)), and stating the scope keeps later additions inside it.
+
+## 2026-11-05: Load the two new Analysis pages on first visit
+
+- **Decision:** "What goes with winning" and "Who has a photo" load their code and analysis files when someone first opens them. Every other page still loads the whole dataset up front.
+- **Options:** add the analysis files to the bundle every page downloads, or load them with their pages.
+- **Why:** only those two pages read the files. Per-page loading for the rest of the site stays on hold.

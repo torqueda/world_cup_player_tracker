@@ -3863,3 +3863,87 @@ textarea:focus-visible,
 .bracket-scroll svg {
   display: block;
 }
+
+/* The Analysis sub-page links: the current page is marked like the main nav. */
+.section-nav-link-active {
+  background: var(--surface-muted);
+  color: var(--text);
+  box-shadow: inset 0 -2px 0 var(--accent);
+}
+
+/* Analysis index: one card per page. */
+.analysis-index {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (min-width: 768px) {
+  .analysis-index {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .analysis-index {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.analysis-index-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  height: 100%;
+  padding: 1.1rem 1.2rem;
+  background: var(--surface);
+  border: 1px solid var(--surface-border);
+  border-radius: var(--radius-control);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.analysis-index-card:hover,
+.analysis-index-card:focus-visible {
+  border-color: var(--accent);
+}
+
+.analysis-index-title {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.analysis-index-title::after {
+  content: " →";
+  color: var(--accent);
+}
+
+.analysis-index-question {
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+/* A second, smaller line in a table cell, such as the unit of a factor. */
+.table-cell-note {
+  display: block;
+  margin-top: 0.15rem;
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+}
+
+/* A segmented control right under a row of metric cards. */
+.metrics-grid + .leaders-toolbar {
+  margin-top: 1rem;
+}
+
+/* Analysis tables with many columns scroll sideways on phones instead of
+   squeezing the first column to a word per line. */
+@media (max-width: 767px) {
+  .wide-table .data-table {
+    min-width: 36rem;
+  }
+}

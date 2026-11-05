@@ -105,7 +105,7 @@ const entryCards: EntryCard[] = [
   {
     eyebrow: "Analysis",
     heading: "Beyond the headline numbers.",
-    body: "Compare squad ages, birthplace and home-grown shares, club and league influence, player efficiency, confederation results, and goals by stage and venue.",
+    body: "One page per question: squad make-up, clubs and leagues, player efficiency, matches and venues, a two-team comparison, what goes with winning, and which players have a photo.",
     links: [{ to: "/insights", label: "Open the analysis" }],
   },
 ];
@@ -117,7 +117,7 @@ export function OverviewRoute() {
       <section className="landing-hero reveal" aria-labelledby="landing-hero-title">
         <p className="eyebrow">World Cup 2026 · Data Explorer</p>
         <h1 id="landing-hero-title" className="landing-hero-title">
-          {activePlayers.length.toLocaleString()} players, traced from birthplace to club to World Cup.
+          {activePlayers.length.toLocaleString()} players, traced from their clubs to the World Cup.
         </h1>
         <p className="landing-hero-lead">
           Explore where every final-squad player at the 2026 World Cup was born, which club and

@@ -395,7 +395,7 @@ export interface Source {
   /** Stable ID. */
   source_id: string;
   /** What the source was used for. */
-  source_type: "roster" | "biography" | "image" | "club_location" | "stats" | "matches" | "officials" | "manual_verification";
+  source_type: "roster" | "biography" | "image" | "club_location" | "stats" | "matches" | "officials" | "manual_verification" | "historical_results" | "market_values";
   /** Who publishes it. */
   publisher: string;
   /** Where it is. */

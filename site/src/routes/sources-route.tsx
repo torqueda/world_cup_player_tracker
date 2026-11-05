@@ -1,11 +1,21 @@
 import changeLogJson from "@data/change_log.json";
 import metaJson from "@data/meta.json";
-import { coaches, referees } from "@/lib/data";
-import { PageHeader, MetricCard, Expandable } from "@/components/ui";
+import { SourceNote } from "@/components/source-note";
+import { activePlayers, coaches, referees } from "@/lib/data";
+import { PageHeader, MetricCard, Expandable, SortableTable } from "@/components/ui";
+import { ANALYTICS_INPUT } from "@/lib/data/analytics-input";
 import type { ChangeLogRow } from "@/lib/data/types";
+import { buildDataQualitySummary, type DataQualityRow } from "@/lib/analytics";
+import { formatPct } from "@/lib/format";
 
 const changeLog = changeLogJson as ChangeLogRow[];
 const meta = metaJson as { counts: Record<string, number>; exported_at?: string };
+
+const dataQuality = buildDataQualitySummary(ANALYTICS_INPUT, meta);
+
+function qualityStatusLabel(status: DataQualityRow["status"]): string {
+  return status.replace(/_/g, " ");
+}
 
 const REPO_URL = "https://github.com/torqueda/world_cup_player_tracker";
 const DATA_URL = "https://github.com/torqueda/world_cup_player_tracker/tree/main/data/processed/app_exports";
@@ -53,6 +63,16 @@ const ATTRIBUTIONS: { statement: string; links: { label: string; url: string }[]
       { label: "GeoNames", url: "https://www.geonames.org/" },
       { label: "Wikimedia", url: "https://www.wikimedia.org/" },
     ],
+  },
+  {
+    statement:
+      "The Elo ratings on the Analysis page about winning are built from every international result since 1872, from martj42's international results dataset (CC0).",
+    links: [{ label: "International results", url: "https://github.com/martj42/international_results" }],
+  },
+  {
+    statement:
+      "Squad market values on the Analysis pages come from the transfermarkt-datasets project (CC0), using values set in the 12 months before the tournament.",
+    links: [{ label: "transfermarkt-datasets", url: "https://github.com/dcaribou/transfermarkt-datasets" }],
   },
   {
     statement: "Club identities and league assignments were normalized against Wikipedia and official club sites.",
@@ -242,7 +262,76 @@ export function SourcesRoute() {
         </ul>
       </section>
 
-      {/* 3. SOURCES AND ATTRIBUTION */}
+      {/* 3. DATA QUALITY */}
+      <section id="quality" className="content-panel reveal">
+        <h2 className="section-heading">Data quality</h2>
+        <p className="insight-note">
+          How complete each table is, and which fields are missing, not applicable or not yet collected.
+        </p>
+        <div className="metrics-grid">
+          {dataQuality.latestExportDate ? <MetricCard label="Data updated" value={dataQuality.latestExportDate} /> : null}
+          <MetricCard label="Active players" value={activePlayers.length.toLocaleString()} />
+          <MetricCard label="Data tables" value={dataQuality.rowCounts.length} />
+        </div>
+        <div className="analysis-cols">
+          <div>
+            <h3 className="subsection-heading">Rows per table</h3>
+            <SortableTable
+              rows={dataQuality.rowCounts}
+              getRowKey={(row) => row.entity}
+              initialSortKey="rows"
+              initialSortAsc={false}
+              caption="Rows per table"
+              columns={[
+                { key: "entity", label: "Table", sortValue: (row) => row.label, render: (row) => row.label },
+                { key: "rows", label: "Rows", align: "right", initialAsc: false, sortValue: (row) => row.rows, render: (row) => row.rows.toLocaleString() },
+              ]}
+            />
+          </div>
+          <div>
+            <h3 className="subsection-heading">Coverage and field status</h3>
+            <SortableTable
+              rows={[...dataQuality.sourceCoverage, ...dataQuality.fieldStatus]}
+              getRowKey={(row) => row.key}
+              initialSortKey="status"
+              caption="Data quality status"
+              columns={[
+                { key: "label", label: "Check", sortValue: (row) => row.label, render: (row) => row.label },
+                { key: "status", label: "Status", sortValue: (row) => row.status, render: (row) => <span className={`quality-pill quality-${row.status}`}>{qualityStatusLabel(row.status)}</span> },
+                { key: "coverage", label: "Coverage", align: "right", initialAsc: false, sortValue: (row) => row.pct ?? -1, render: (row) => row.pct === null ? null : `${formatPct(row.pct)} (${row.count}/${row.total})` },
+                { key: "note", label: "Interpretation", render: (row) => row.note },
+              ]}
+            />
+          </div>
+        </div>
+        <Expandable summary="How to read this dashboard">
+          <dl className="definition-list">
+            <div className="definition-item">
+              <dt>Missing</dt>
+              <dd>A field is expected for the population but absent in one or more rows, so analyses use explicit denominators.</dd>
+            </div>
+            <div className="definition-item">
+              <dt>Not applicable</dt>
+              <dd>The field is intentionally irrelevant for that population, such as goalkeeper stat fields for outfield players.</dd>
+            </div>
+            <div className="definition-item">
+              <dt>Not yet collected</dt>
+              <dd>The measure would be useful, but the data does not have it yet, such as xGA or player starts.</dd>
+            </div>
+            <div className="definition-item">
+              <dt>Failed validation</dt>
+              <dd>The site&apos;s data is rebuilt only when every audit rule passes, so a failing row never reaches the site and the count is always 0.</dd>
+            </div>
+          </dl>
+        </Expandable>
+        <SourceNote
+          definition="Coverage checks and the fields not yet collected, counted from the site's data tables."
+          population="Every table on the site."
+          threshold="No imputation"
+        />
+      </section>
+
+      {/* 4. SOURCES AND ATTRIBUTION */}
       <section id="attribution" className="content-panel reveal">
         <h2 className="section-heading">Sources &amp; attribution</h2>
         <ul className="attribution-list">
@@ -269,7 +358,7 @@ export function SourcesRoute() {
         </p>
       </section>
 
-      {/* 4. CORRECTIONS AND CHANGE HISTORY */}
+      {/* 5. CORRECTIONS AND CHANGE HISTORY */}
       <section id="changes" className="content-panel reveal">
         <h2 className="section-heading">Corrections &amp; change history</h2>
         <p className="insight-note">

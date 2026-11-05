@@ -149,8 +149,8 @@ Stable internal IDs are the join keys. Do not replace them with external IDs suc
    - `Squads` (`/national-teams`): sortable rosters with coach, captain, caps, and stage reached;
    - `Matches` (`/matches`): an interactive knockout bracket (click a team to trace its path) and every result grouped by stage, and by group within the group stage;
    - `Leaders` (`/stats`): leaderboards for goals, assists, goals plus assists, discipline, minutes, and goalkeeper saves, in totals or per 90, and a sortable team table;
-   - `Analysis` (`/insights`): the squad composition scorecard, club and league impact, squad concentration, a two-team comparison, player efficiency, match and venue analysis, and a data-quality dashboard;
-   - `Methodology` (`/sources`, under More): source attributions, how the dataset is built and checked, coverage counts, and the change log;
+   - `Analysis` (`/insights`): an index of seven pages, one per question: squad make-up, clubs and leagues, player efficiency, matches and venues, a two-team comparison, what goes with winning, and who has a photo. The last two read the files in `data/processed/analysis/` written by `scripts/analysis/`;
+   - `Methodology` (`/sources`, under More): source attributions, how the dataset is built and checked, coverage counts, the data-quality dashboard, and the change log;
    - clicking any player name opens a detail panel with their photo and its attribution, bio, club, pre-tournament caps and goals, and tournament statistics.
 5. The site is live on Netlify (https://worldcupplayertracker.netlify.app/). The post-final refresh ran on 2026-08-19, so the dataset covers the whole tournament.
 

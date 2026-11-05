@@ -284,5 +284,18 @@
     "source_url": null,
     "reviewed_by": "user+claude",
     "notes": "Reworded the notes in this log in plain words, and wrote scores with an en dash. What each entry records is unchanged."
+  },
+  {
+    "change_id": "chg_2026-11-05_analysis_sources",
+    "changed_at": "2026-11-05",
+    "team": "ALL",
+    "player_id": null,
+    "change_type": "bulk_update",
+    "field_changed": "sources rows",
+    "old_value": null,
+    "new_value": "added: martj42_international_results, transfermarkt_datasets",
+    "source_url": null,
+    "reviewed_by": "user+claude",
+    "notes": "Registered the two datasets behind the new Analysis pages: martj42's international results, for the Elo ratings, and transfermarkt-datasets, for squad market values. Both are CC0."
   }
 ]

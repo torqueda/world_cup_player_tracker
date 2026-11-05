@@ -352,6 +352,7 @@ export function SortableTable<T>({
   initialSortAsc = true,
   caption,
   className,
+  focusable = false,
 }: {
   columns: Column<T>[];
   rows: T[];
@@ -360,6 +361,9 @@ export function SortableTable<T>({
   initialSortAsc?: boolean;
   caption?: string;
   className?: string;
+  /** For a table wide enough to scroll sideways on phones: keyboard users can
+   * focus it and scroll with the arrow keys. */
+  focusable?: boolean;
 }) {
   const [sortKey, setSortKey] = useState<string | undefined>(initialSortKey);
   const [asc, setAsc] = useState(initialSortAsc);
@@ -394,7 +398,10 @@ export function SortableTable<T>({
   }
 
   return (
-    <div className={cx("data-table-wrap sticky-table-wrap", className)}>
+    <div
+      className={cx("data-table-wrap sticky-table-wrap", className)}
+      {...(focusable ? { tabIndex: 0, role: "region", "aria-label": caption } : {})}
+    >
       <table className="data-table">
         {caption ? <caption className="sr-only">{caption}</caption> : null}
         <colgroup>
