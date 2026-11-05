@@ -123,7 +123,7 @@ def test_meta_counts_match_files(data: dict) -> None:
     for key, expected in counts.items():
         path = EXPORT_DIR / f"{key}.json"
         if not path.exists():
-            # A retired sheet (e.g. manual_review_queue) may report 0 with no file.
+            # A retired sheet may report 0 with no file.
             assert expected == 0, f"meta counts {key}={expected} but {key}.json is missing"
             continue
         actual = len(json.loads(path.read_text(encoding="utf-8")))

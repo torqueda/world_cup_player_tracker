@@ -4,6 +4,7 @@ import {
   useContext,
   useEffect,
   useMemo,
+  useRef,
   useState,
   type ReactNode,
 } from "react";
@@ -105,12 +106,29 @@ function PlayerDetailPanel({ playerId, onClose }: { playerId: string; onClose: (
   const team = getTeamForPlayer(playerId);
   const club = getClubForPlayer(playerId);
   const stat = getPlayerStat(playerId);
+  const panelRef = useRef<HTMLDivElement>(null);
 
-  // Close on Escape and lock body scroll while the overlay is open.
+  // Close on Escape and lock body scroll while the overlay is open. Keyboard
+  // focus moves to the close button, Tab stays inside the panel, and closing
+  // returns focus to the control that opened it.
   useEffect(() => {
+    const opener = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+    panelRef.current?.querySelector<HTMLElement>(".player-detail-close")?.focus();
     function onKey(event: KeyboardEvent) {
       if (event.key === "Escape") {
         onClose();
+      } else if (event.key === "Tab" && panelRef.current) {
+        const focusable = panelRef.current.querySelectorAll<HTMLElement>("a[href], button");
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+        const inside = panelRef.current.contains(document.activeElement);
+        if (event.shiftKey && (!inside || document.activeElement === first)) {
+          event.preventDefault();
+          last.focus();
+        } else if (!event.shiftKey && (!inside || document.activeElement === last)) {
+          event.preventDefault();
+          first.focus();
+        }
       }
     }
     document.addEventListener("keydown", onKey);
@@ -119,6 +137,7 @@ function PlayerDetailPanel({ playerId, onClose }: { playerId: string; onClose: (
     return () => {
       document.removeEventListener("keydown", onKey);
       document.body.style.overflow = previousOverflow;
+      opener?.focus();
     };
   }, [onClose]);
 
@@ -160,7 +179,7 @@ function PlayerDetailPanel({ playerId, onClose }: { playerId: string; onClose: (
         { label: "Goals", value: String(stat.goals) },
         { label: "Assists", value: String(stat.assists) },
         { label: "Yellow", value: String(stat.yellow_cards) },
-        { label: "Red", value: String(stat.red_cards + stat.indirect_red_cards) },
+        { label: "Red", value: String(stat.red_cards) },
         ...(isGoalkeeper || (stat.gk_saves ?? 0) > 0
           ? [{ label: "Saves", value: String(stat.gk_saves ?? 0) }]
           : []),
@@ -177,7 +196,13 @@ function PlayerDetailPanel({ playerId, onClose }: { playerId: string; onClose: (
         }
       }}
     >
-      <div className="player-detail-panel" role="dialog" aria-modal="true" aria-label={player.display_name}>
+      <div
+        ref={panelRef}
+        className="player-detail-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-label={player.display_name}
+      >
         <button type="button" className="player-detail-close" onClick={onClose} aria-label="Close">
           ×
         </button>

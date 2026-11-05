@@ -323,10 +323,9 @@ def main() -> None:
     change_log = read_optional_sheet(workbook_path, sheet_names, "change_log")
     # The match-results sheet was renamed from world_cup_history to
     # match_history during the 2026-07 final-dataset import; accept either.
-    world_cup_history = read_optional_sheet(workbook_path, sheet_names, "match_history") or read_optional_sheet(
+    matches = read_optional_sheet(workbook_path, sheet_names, "match_history") or read_optional_sheet(
         workbook_path, sheet_names, "world_cup_history"
     )
-    manual_review_queue = read_optional_sheet(workbook_path, sheet_names, "manual_review_queue")
     workbook_clubs = [normalize_row(row) for row in read_sheet_rows(workbook_path, "clubs")]
 
     overlay_path = Path(args.club_geodata_overlay)
@@ -370,9 +369,7 @@ def main() -> None:
         "player_club_at_callup.json": player_club_at_callup,
         "sources.json": sources,
         "change_log.json": change_log,
-        "world_cup_history.json": world_cup_history,
-        "matches.json": world_cup_history,
-        "manual_review_queue.json": manual_review_queue,
+        "matches.json": matches,
         "meta.json": {
             "exported_at": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
             "source_workbook": repo_relative(workbook_path),
@@ -393,8 +390,7 @@ def main() -> None:
                 "player_club_at_callup": len(player_club_at_callup),
                 "sources": len(sources),
                 "change_log": len(change_log),
-                "world_cup_history": len(world_cup_history),
-                "manual_review_queue": len(manual_review_queue),
+                "matches": len(matches),
             },
         },
     }

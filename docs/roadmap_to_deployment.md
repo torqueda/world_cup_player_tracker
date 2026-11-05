@@ -6,7 +6,7 @@ Created 2026-07-12. This is the framework for the remaining life of the project,
 
 The prototype is real: four working routes, a typed data layer over `data/processed/app_exports/`, and a one-command refresh pipeline (`scripts/export/refresh_all_exports.py`) with a strict integrity audit. The repo is now under git. What's left is (A) QA and provenance polish, (B) locking the definitive dataset and adding stats, (C) the features that need that data, and (D) deployment.
 
-**Reordered 2026-07-12: Phase B runs before Phase A** (dataset finalization first, then QA — QA needs the final data in hand). Phase B's collection is now DONE: see `docs/dataset_finalization_report_2026-07-12.md` for what was collected and the workbook import order. The FIFA permission-email step was superseded by the decision to collect from rendered pages directly. Commons player images are dropped in favor of manually sourced license-free per-country images (Phase C item 1 changes accordingly).
+**Reordered 2026-07-12: Phase B runs before Phase A** (dataset finalization first, then QA — QA needs the final data in hand). Phase B's collection is now DONE: see `docs/dataset_finalization_report_2026-07-12.md` for what was collected and the workbook import order. The FIFA permission-email step was superseded by the decision to collect from rendered pages directly. Commons player images are dropped in favor of manually sourced license-free per-country images (Phase C item 1 changes accordingly). **Corrected 2026-11-05:** this was reversed. The site shows Wikimedia Commons photos, with author, licence and source link, for the 965 of 1,275 players who have one; see `docs/decision_log.md`.
 
 ## Phase A — QA and provenance (current phase)
 
