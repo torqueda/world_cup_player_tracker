@@ -1,12 +1,13 @@
 {
   "about": {
-    "what": "How squad age, caps, big-five league players, Elo rating and playing at home went with results at the 2026 World Cup. Associations on one tournament, not causes.",
+    "what": "How squad age, caps, big-five league players, squad market value, Elo rating and playing at home went with results at the 2026 World Cup. Associations on one tournament, not causes.",
     "matches": 104,
     "teams": 48,
     "squads": "Final squads (26 players). Age on 2026-06-11; caps before the tournament; big-five clubs are those in the Premier League, La Liga, Bundesliga, Serie A or Ligue 1 at call-up.",
     "results": "Win, draw or loss after extra time; a shootout counts as a draw.",
     "model": "Symmetric ordered logit on the differences between the two teams (scripts/analysis/ordered_logit.py). Odds ratios are per the unit given, for the first team doing better (a win rather than a draw, or a draw rather than a loss); odds_ratio_per_sd is per standard deviation of the match-level difference. leave_one_out_rps forecasts each match from a model fitted to the other 103 (lower is better); *_minus_elo_only below zero means better forecasts than elo_only, with a 95% bootstrap interval over matches.",
-    "factors_fixed_in_advance": "The factor list was fixed before the models were fitted. Squad market value is not included yet.",
+    "factors_fixed_in_advance": "The factor list was fixed before the models were fitted. Squad market value was on it from the start and was added when its data arrived.",
+    "market_value": "Transfermarkt values set in the 12 months before the tournament (data/raw/transfermarkt_wc2026_snapshot.csv, from market_values.py). The factor is the combined value of each team's 11 most valuable players, on a log2 scale, so its odds ratio is per doubling. players_valued counts the players with a recent value; Iran has 9, so its figure is low.",
     "team_level": "Spearman correlations over the 48 teams with 95% bootstrap intervals.",
     "limits": "One World Cup is 104 matches, so only strong effects can show, and the factors overlap (see factor_overlap). In all_factors, age and caps move together, so their separate coefficients are not reliable."
   },
@@ -18,6 +19,10 @@
       "mean_age": 26.857,
       "mean_caps": 29.92,
       "big_five_share": 0.4231,
+      "players_valued": 23,
+      "squad_value_eur": 247950000,
+      "top11_value_eur": 212000000,
+      "log2_top11_value": 27.6595,
       "elo_before": 1876.3,
       "host": false,
       "matches": 4,
@@ -31,6 +36,10 @@
       "mean_age": 29.118,
       "mean_caps": 48.12,
       "big_five_share": 0.7692,
+      "players_valued": 26,
+      "squad_value_eur": 807500000,
+      "top11_value_eur": 640000000,
+      "log2_top11_value": 29.2535,
       "elo_before": 2181.2,
       "host": false,
       "matches": 8,
@@ -44,6 +53,10 @@
       "mean_age": 27.359,
       "mean_caps": 28.23,
       "big_five_share": 0.1923,
+      "players_valued": 25,
+      "squad_value_eur": 79450000,
+      "top11_value_eur": 69100000,
+      "log2_top11_value": 26.0422,
       "elo_before": 1886.9,
       "host": false,
       "matches": 4,
@@ -57,6 +70,10 @@
       "mean_age": 28.611,
       "mean_caps": 38.58,
       "big_five_share": 0.6538,
+      "players_valued": 24,
+      "squad_value_eur": 238700000,
+      "top11_value_eur": 196000000,
+      "log2_top11_value": 27.5463,
       "elo_before": 1880.9,
       "host": false,
       "matches": 4,
@@ -70,6 +87,10 @@
       "mean_age": 27.614,
       "mean_caps": 41.73,
       "big_five_share": 0.7692,
+      "players_valued": 26,
+      "squad_value_eur": 547500000,
+      "top11_value_eur": 376000000,
+      "log2_top11_value": 28.4862,
       "elo_before": 1946.6,
       "host": false,
       "matches": 6,
@@ -83,6 +104,10 @@
       "mean_age": 26.456,
       "mean_caps": 22.96,
       "big_five_share": 0.3077,
+      "players_valued": 25,
+      "squad_value_eur": 145700000,
+      "top11_value_eur": 119500000,
+      "log2_top11_value": 26.8324,
       "elo_before": 1641.9,
       "host": false,
       "matches": 4,
@@ -96,6 +121,10 @@
       "mean_age": 29.363,
       "mean_caps": 35.23,
       "big_five_share": 0.5385,
+      "players_valued": 26,
+      "squad_value_eur": 928200000,
+      "top11_value_eur": 720000000,
+      "log2_top11_value": 29.4234,
       "elo_before": 2059.3,
       "host": false,
       "matches": 5,
@@ -109,6 +138,10 @@
       "mean_age": 26.951,
       "mean_caps": 36.65,
       "big_five_share": 0.2692,
+      "players_valued": 24,
+      "squad_value_eur": 191650000,
+      "top11_value_eur": 165500000,
+      "log2_top11_value": 27.3023,
       "elo_before": 1884.1,
       "host": true,
       "matches": 5,
@@ -122,6 +155,10 @@
       "mean_age": 29.676,
       "mean_caps": 31.65,
       "big_five_share": 0.0385,
+      "players_valued": 16,
+      "squad_value_eur": 47975000,
+      "top11_value_eur": 44900000,
+      "log2_top11_value": 25.4202,
       "elo_before": 1645.9,
       "host": false,
       "matches": 4,
@@ -135,6 +172,10 @@
       "mean_age": 30.128,
       "mean_caps": 40.08,
       "big_five_share": 0.2692,
+      "players_valued": 26,
+      "squad_value_eur": 302350000,
+      "top11_value_eur": 252000000,
+      "log2_top11_value": 27.9088,
       "elo_before": 2052.5,
       "host": false,
       "matches": 5,
@@ -148,6 +189,10 @@
       "mean_age": 29.062,
       "mean_caps": 30.62,
       "big_five_share": 0.3077,
+      "players_valued": 20,
+      "squad_value_eur": 133300000,
+      "top11_value_eur": 124000000,
+      "log2_top11_value": 26.8858,
       "elo_before": 1756.3,
       "host": false,
       "matches": 4,
@@ -161,6 +206,10 @@
       "mean_age": 28.329,
       "mean_caps": 44.62,
       "big_five_share": 0.6923,
+      "players_valued": 26,
+      "squad_value_eur": 387300000,
+      "top11_value_eur": 316000000,
+      "log2_top11_value": 28.2353,
       "elo_before": 1959.9,
       "host": false,
       "matches": 4,
@@ -174,6 +223,10 @@
       "mean_age": 28.021,
       "mean_caps": 23.77,
       "big_five_share": 0.0,
+      "players_valued": 16,
+      "squad_value_eur": 15450000,
+      "top11_value_eur": 14250000,
+      "log2_top11_value": 23.7645,
       "elo_before": 1574.4,
       "host": false,
       "matches": 3,
@@ -187,6 +240,10 @@
       "mean_age": 27.621,
       "mean_caps": 27.81,
       "big_five_share": 0.1923,
+      "players_valued": 26,
+      "squad_value_eur": 188175000,
+      "top11_value_eur": 142000000,
+      "log2_top11_value": 27.0813,
       "elo_before": 1791.1,
       "host": false,
       "matches": 3,
@@ -200,6 +257,10 @@
       "mean_age": 26.078,
       "mean_caps": 29.65,
       "big_five_share": 0.2308,
+      "players_valued": 23,
+      "squad_value_eur": 359400000,
+      "top11_value_eur": 329000000,
+      "log2_top11_value": 28.2935,
       "elo_before": 2016.5,
       "host": false,
       "matches": 4,
@@ -213,6 +274,10 @@
       "mean_age": 29.08,
       "mean_caps": 31.58,
       "big_five_share": 0.1154,
+      "players_valued": 16,
+      "squad_value_eur": 96375000,
+      "top11_value_eur": 93000000,
+      "log2_top11_value": 26.4707,
       "elo_before": 1803.7,
       "host": false,
       "matches": 5,
@@ -226,6 +291,10 @@
       "mean_age": 27.273,
       "mean_caps": 32.19,
       "big_five_share": 0.9615,
+      "players_valued": 26,
+      "squad_value_eur": 1358200000,
+      "top11_value_eur": 925000000,
+      "log2_top11_value": 29.7849,
       "elo_before": 2080.7,
       "host": false,
       "matches": 8,
@@ -239,6 +308,10 @@
       "mean_age": 27.001,
       "mean_caps": 30.88,
       "big_five_share": 0.9231,
+      "players_valued": 26,
+      "squad_value_eur": 1523000000,
+      "top11_value_eur": 1090000000,
+      "log2_top11_value": 30.0217,
       "elo_before": 2115.7,
       "host": false,
       "matches": 8,
@@ -252,6 +325,10 @@
       "mean_age": 28.047,
       "mean_caps": 32.46,
       "big_five_share": 0.9615,
+      "players_valued": 26,
+      "squad_value_eur": 947000000,
+      "top11_value_eur": 675000000,
+      "log2_top11_value": 29.3303,
       "elo_before": 1994.7,
       "host": false,
       "matches": 4,
@@ -265,6 +342,10 @@
       "mean_age": 26.957,
       "mean_caps": 21.58,
       "big_five_share": 0.5,
+      "players_valued": 23,
+      "squad_value_eur": 216050000,
+      "top11_value_eur": 186000000,
+      "log2_top11_value": 27.4707,
       "elo_before": 1617.4,
       "host": false,
       "matches": 4,
@@ -278,6 +359,10 @@
       "mean_age": 27.547,
       "mean_caps": 24.0,
       "big_five_share": 0.1154,
+      "players_valued": 12,
+      "squad_value_eur": 50400000,
+      "top11_value_eur": 50100000,
+      "log2_top11_value": 25.5783,
       "elo_before": 1677.5,
       "host": false,
       "matches": 3,
@@ -291,6 +376,10 @@
       "mean_age": 30.42,
       "mean_caps": 45.0,
       "big_five_share": 0.0,
+      "players_valued": 9,
+      "squad_value_eur": 15925000,
+      "top11_value_eur": 15925000,
+      "log2_top11_value": 23.9248,
       "elo_before": 1894.8,
       "host": false,
       "matches": 3,
@@ -304,6 +393,10 @@
       "mean_age": 26.91,
       "mean_caps": 31.81,
       "big_five_share": 0.0769,
+      "players_valued": 25,
+      "squad_value_eur": 20750000,
+      "top11_value_eur": 15450000,
+      "log2_top11_value": 23.8811,
       "elo_before": 1725.7,
       "host": false,
       "matches": 3,
@@ -317,6 +410,10 @@
       "mean_age": 25.849,
       "mean_caps": 27.04,
       "big_five_share": 0.4615,
+      "players_valued": 25,
+      "squad_value_eur": 522000000,
+      "top11_value_eur": 400000000,
+      "log2_top11_value": 28.5754,
       "elo_before": 1809.1,
       "host": false,
       "matches": 4,
@@ -330,6 +427,10 @@
       "mean_age": 27.495,
       "mean_caps": 30.62,
       "big_five_share": 0.4615,
+      "players_valued": 26,
+      "squad_value_eur": 270850000,
+      "top11_value_eur": 202000000,
+      "log2_top11_value": 27.5898,
       "elo_before": 1980.9,
       "host": false,
       "matches": 4,
@@ -343,6 +444,10 @@
       "mean_age": 28.462,
       "mean_caps": 40.88,
       "big_five_share": 0.0385,
+      "players_valued": 21,
+      "squad_value_eur": 18700000,
+      "top11_value_eur": 15700000,
+      "log2_top11_value": 23.9043,
       "elo_before": 1761.5,
       "host": false,
       "matches": 3,
@@ -356,6 +461,10 @@
       "mean_age": 27.901,
       "mean_caps": 46.73,
       "big_five_share": 0.1923,
+      "players_valued": 26,
+      "squad_value_eur": 191850000,
+      "top11_value_eur": 129500000,
+      "log2_top11_value": 26.9484,
       "elo_before": 1959.6,
       "host": true,
       "matches": 5,
@@ -369,6 +478,10 @@
       "mean_age": 26.599,
       "mean_caps": 26.85,
       "big_five_share": 0.5769,
+      "players_valued": 25,
+      "squad_value_eur": 446700000,
+      "top11_value_eur": 360000000,
+      "log2_top11_value": 28.4234,
       "elo_before": 1977.9,
       "host": false,
       "matches": 6,
@@ -382,6 +495,10 @@
       "mean_age": 27.774,
       "mean_caps": 33.12,
       "big_five_share": 0.8077,
+      "players_valued": 26,
+      "squad_value_eur": 754200000,
+      "top11_value_eur": 510000000,
+      "log2_top11_value": 28.9259,
       "elo_before": 2001.4,
       "host": false,
       "matches": 4,
@@ -395,6 +512,10 @@
       "mean_age": 28.267,
       "mean_caps": 31.73,
       "big_five_share": 0.0769,
+      "players_valued": 26,
+      "squad_value_eur": 34300000,
+      "top11_value_eur": 28000000,
+      "log2_top11_value": 24.7389,
       "elo_before": 1704.8,
       "host": false,
       "matches": 3,
@@ -408,6 +529,10 @@
       "mean_age": 26.804,
       "mean_caps": 30.81,
       "big_five_share": 0.6154,
+      "players_valued": 26,
+      "squad_value_eur": 589900000,
+      "top11_value_eur": 496000000,
+      "log2_top11_value": 28.8858,
       "elo_before": 1962.2,
       "host": false,
       "matches": 6,
@@ -421,6 +546,10 @@
       "mean_age": 30.433,
       "mean_caps": 59.27,
       "big_five_share": 0.0,
+      "players_valued": 21,
+      "squad_value_eur": 33175000,
+      "top11_value_eur": 29000000,
+      "log2_top11_value": 24.7895,
       "elo_before": 1815.5,
       "host": false,
       "matches": 3,
@@ -434,6 +563,10 @@
       "mean_age": 29.027,
       "mean_caps": 26.54,
       "big_five_share": 0.1538,
+      "players_valued": 22,
+      "squad_value_eur": 147250000,
+      "top11_value_eur": 124000000,
+      "log2_top11_value": 26.8858,
       "elo_before": 1908.5,
       "host": false,
       "matches": 5,
@@ -447,6 +580,10 @@
       "mean_age": 28.035,
       "mean_caps": 44.62,
       "big_five_share": 0.5769,
+      "players_valued": 26,
+      "squad_value_eur": 1005500000,
+      "top11_value_eur": 730000000,
+      "log2_top11_value": 29.4433,
       "elo_before": 2036.7,
       "host": false,
       "matches": 5,
@@ -460,6 +597,10 @@
       "mean_age": 29.476,
       "mean_caps": 54.81,
       "big_five_share": 0.0,
+      "players_valued": 26,
+      "squad_value_eur": 19925000,
+      "top11_value_eur": 16175000,
+      "log2_top11_value": 23.9473,
       "elo_before": 1553.0,
       "host": false,
       "matches": 3,
@@ -473,6 +614,10 @@
       "mean_age": 28.516,
       "mean_caps": 35.65,
       "big_five_share": 0.0385,
+      "players_valued": 25,
+      "squad_value_eur": 40400000,
+      "top11_value_eur": 31400000,
+      "log2_top11_value": 24.9043,
       "elo_before": 1679.1,
       "host": false,
       "matches": 3,
@@ -486,6 +631,10 @@
       "mean_age": 29.202,
       "mean_caps": 37.42,
       "big_five_share": 0.4615,
+      "players_valued": 24,
+      "squad_value_eur": 167050000,
+      "top11_value_eur": 146000000,
+      "log2_top11_value": 27.1214,
       "elo_before": 1834.2,
       "host": false,
       "matches": 3,
@@ -499,6 +648,10 @@
       "mean_age": 27.087,
       "mean_caps": 38.81,
       "big_five_share": 0.7308,
+      "players_valued": 26,
+      "squad_value_eur": 478100000,
+      "top11_value_eur": 390000000,
+      "log2_top11_value": 28.5389,
       "elo_before": 1907.6,
       "host": false,
       "matches": 4,
@@ -512,6 +665,10 @@
       "mean_age": 26.821,
       "mean_caps": 18.73,
       "big_five_share": 0.0385,
+      "players_valued": 22,
+      "squad_value_eur": 45250000,
+      "top11_value_eur": 32700000,
+      "log2_top11_value": 24.9628,
       "elo_before": 1655.7,
       "host": false,
       "matches": 4,
@@ -525,6 +682,10 @@
       "mean_age": 28.21,
       "mean_caps": 36.85,
       "big_five_share": 0.1538,
+      "players_valued": 25,
+      "squad_value_eur": 137850000,
+      "top11_value_eur": 119500000,
+      "log2_top11_value": 26.8324,
       "elo_before": 1867.5,
       "host": false,
       "matches": 3,
@@ -538,6 +699,10 @@
       "mean_age": 26.747,
       "mean_caps": 28.58,
       "big_five_share": 1.0,
+      "players_valued": 26,
+      "squad_value_eur": 1222800000,
+      "top11_value_eur": 840000000,
+      "log2_top11_value": 29.6458,
       "elo_before": 2209.3,
       "host": false,
       "matches": 8,
@@ -551,6 +716,10 @@
       "mean_age": 27.557,
       "mean_caps": 19.96,
       "big_five_share": 0.5,
+      "players_valued": 26,
+      "squad_value_eur": 406075000,
+      "top11_value_eur": 352000000,
+      "log2_top11_value": 28.391,
       "elo_before": 1761.2,
       "host": false,
       "matches": 4,
@@ -564,6 +733,10 @@
       "mean_age": 28.307,
       "mean_caps": 43.54,
       "big_five_share": 0.8077,
+      "players_valued": 26,
+      "squad_value_eur": 332500000,
+      "top11_value_eur": 263000000,
+      "log2_top11_value": 27.9705,
       "elo_before": 1946.0,
       "host": false,
       "matches": 6,
@@ -577,6 +750,10 @@
       "mean_age": 26.645,
       "mean_caps": 22.38,
       "big_five_share": 0.2692,
+      "players_valued": 17,
+      "squad_value_eur": 57650000,
+      "top11_value_eur": 52500000,
+      "log2_top11_value": 25.6458,
       "elo_before": 1730.5,
       "host": false,
       "matches": 3,
@@ -590,6 +767,10 @@
       "mean_age": 27.672,
       "mean_caps": 37.31,
       "big_five_share": 0.3462,
+      "players_valued": 26,
+      "squad_value_eur": 473700000,
+      "top11_value_eur": 384000000,
+      "log2_top11_value": 28.5165,
       "elo_before": 1959.7,
       "host": false,
       "matches": 3,
@@ -603,6 +784,10 @@
       "mean_age": 26.905,
       "mean_caps": 37.0,
       "big_five_share": 0.5385,
+      "players_valued": 26,
+      "squad_value_eur": 385650000,
+      "top11_value_eur": 305000000,
+      "log2_top11_value": 28.1842,
       "elo_before": 1808.1,
       "host": true,
       "matches": 5,
@@ -616,6 +801,10 @@
       "mean_age": 28.742,
       "mean_caps": 35.88,
       "big_five_share": 0.2308,
+      "players_valued": 26,
+      "squad_value_eur": 359300000,
+      "top11_value_eur": 291000000,
+      "log2_top11_value": 28.1164,
       "elo_before": 1965.9,
       "host": false,
       "matches": 3,
@@ -629,6 +818,10 @@
       "mean_age": 28.213,
       "mean_caps": 32.08,
       "big_five_share": 0.0385,
+      "players_valued": 23,
+      "squad_value_eur": 83825000,
+      "top11_value_eur": 76100000,
+      "log2_top11_value": 26.1814,
       "elo_before": 1810.8,
       "host": false,
       "matches": 3,
@@ -930,79 +1123,177 @@
       ]
     },
     {
+      "model": "value_gap_per_doubling_alone",
+      "features": [
+        "value_gap_per_doubling",
+        "home"
+      ],
+      "coefficients": [
+        {
+          "feature": "value_gap_per_doubling",
+          "per": "a doubling of the market value of the 11 most valuable players",
+          "odds_ratio": 1.8274,
+          "odds_ratio_ci95": [
+            1.4743,
+            2.2652
+          ],
+          "odds_ratio_per_sd": 4.2416,
+          "p_value": 0.0
+        },
+        {
+          "feature": "home",
+          "per": "playing at home",
+          "odds_ratio": 1.8491,
+          "odds_ratio_ci95": [
+            0.5742,
+            5.9552
+          ],
+          "odds_ratio_per_sd": null,
+          "p_value": 0.3029
+        }
+      ],
+      "loglike": -88.7701,
+      "aic": 183.5402,
+      "leave_one_out_rps": 0.168
+    },
+    {
+      "model": "elo_plus_value_gap_per_doubling",
+      "features": [
+        "elo_gap_per_100",
+        "home",
+        "value_gap_per_doubling"
+      ],
+      "coefficients": [
+        {
+          "feature": "elo_gap_per_100",
+          "per": "100 Elo points",
+          "odds_ratio": 1.4992,
+          "odds_ratio_ci95": [
+            1.1016,
+            2.0405
+          ],
+          "odds_ratio_per_sd": 2.4749,
+          "p_value": 0.01
+        },
+        {
+          "feature": "home",
+          "per": "playing at home",
+          "odds_ratio": 1.5312,
+          "odds_ratio_ci95": [
+            0.473,
+            4.9569
+          ],
+          "odds_ratio_per_sd": null,
+          "p_value": 0.4771
+        },
+        {
+          "feature": "value_gap_per_doubling",
+          "per": "a doubling of the market value of the 11 most valuable players",
+          "odds_ratio": 1.3953,
+          "odds_ratio_ci95": [
+            1.048,
+            1.8577
+          ],
+          "odds_ratio_per_sd": 2.2219,
+          "p_value": 0.0225
+        }
+      ],
+      "loglike": -85.2438,
+      "aic": 178.4876,
+      "leave_one_out_rps": 0.1578,
+      "lr_test_p_vs_elo_only": 0.0194,
+      "leave_one_out_rps_minus_elo_only": -0.0057,
+      "leave_one_out_rps_minus_elo_only_ci95": [
+        -0.0183,
+        0.0059
+      ]
+    },
+    {
       "model": "all_factors",
       "features": [
         "elo_gap_per_100",
         "home",
         "age_gap",
         "caps_gap_per_10",
-        "big_five_gap_per_10pts"
+        "big_five_gap_per_10pts",
+        "value_gap_per_doubling"
       ],
       "coefficients": [
         {
           "feature": "elo_gap_per_100",
           "per": "100 Elo points",
-          "odds_ratio": 1.5959,
+          "odds_ratio": 1.5671,
           "odds_ratio_ci95": [
-            1.172,
-            2.173
+            1.0804,
+            2.2732
           ],
-          "odds_ratio_per_sd": 2.8462,
-          "p_value": 0.003
+          "odds_ratio_per_sd": 2.7328,
+          "p_value": 0.0179
         },
         {
           "feature": "home",
           "per": "playing at home",
-          "odds_ratio": 3.2213,
+          "odds_ratio": 3.1842,
           "odds_ratio_ci95": [
-            0.8519,
-            12.181
+            0.8378,
+            12.1014
           ],
           "odds_ratio_per_sd": null,
-          "p_value": 0.0848
+          "p_value": 0.0891
         },
         {
           "feature": "age_gap",
           "per": "1 year of average age",
-          "odds_ratio": 1.5618,
+          "odds_ratio": 1.5662,
           "odds_ratio_ci95": [
-            1.0404,
-            2.3446
+            1.0413,
+            2.3556
           ],
-          "odds_ratio_per_sd": 1.931,
-          "p_value": 0.0315
+          "odds_ratio_per_sd": 1.939,
+          "p_value": 0.0312
         },
         {
           "feature": "caps_gap_per_10",
           "per": "10 caps of average experience",
-          "odds_ratio": 0.5646,
+          "odds_ratio": 0.5709,
           "odds_ratio_ci95": [
-            0.3271,
-            0.9745
+            0.3262,
+            0.9993
           ],
-          "odds_ratio_per_sd": 0.5163,
-          "p_value": 0.0401
+          "odds_ratio_per_sd": 0.523,
+          "p_value": 0.0497
         },
         {
           "feature": "big_five_gap_per_10pts",
           "per": "10 percentage points of the squad at big-five clubs",
-          "odds_ratio": 1.3274,
+          "odds_ratio": 1.3117,
           "odds_ratio_ci95": [
-            1.1195,
-            1.5739
+            1.0551,
+            1.6308
           ],
-          "odds_ratio_per_sd": 3.3296,
-          "p_value": 0.0011
+          "odds_ratio_per_sd": 3.166,
+          "p_value": 0.0146
+        },
+        {
+          "feature": "value_gap_per_doubling",
+          "per": "a doubling of the market value of the 11 most valuable players",
+          "odds_ratio": 1.0373,
+          "odds_ratio_ci95": [
+            0.6812,
+            1.5795
+          ],
+          "odds_ratio_per_sd": 1.0916,
+          "p_value": 0.8646
         }
       ],
-      "loglike": -80.6897,
-      "aic": 173.3794,
-      "leave_one_out_rps": 0.1477,
-      "lr_test_p_vs_elo_only": 0.0022,
-      "leave_one_out_rps_minus_elo_only": -0.0158,
+      "loglike": -80.6751,
+      "aic": 175.3503,
+      "leave_one_out_rps": 0.1504,
+      "lr_test_p_vs_elo_only": 0.0056,
+      "leave_one_out_rps_minus_elo_only": -0.0131,
       "leave_one_out_rps_minus_elo_only_ci95": [
-        -0.0369,
-        0.0052
+        -0.0342,
+        0.008
       ]
     },
     {
@@ -1133,6 +1424,24 @@
         0.5778,
         0.85
       ]
+    },
+    {
+      "factor": "top11_value_eur",
+      "outcome": "points_per_match",
+      "spearman": 0.7589,
+      "spearman_ci95": [
+        0.5859,
+        0.8663
+      ]
+    },
+    {
+      "factor": "top11_value_eur",
+      "outcome": "elo_change",
+      "spearman": 0.4093,
+      "spearman_ci95": [
+        0.1489,
+        0.6083
+      ]
     }
   ],
   "factor_overlap": [
@@ -1159,6 +1468,13 @@
     },
     {
       "factors": [
+        "mean_age",
+        "top11_value_eur"
+      ],
+      "spearman": -0.2813
+    },
+    {
+      "factors": [
         "mean_caps",
         "big_five_share"
       ],
@@ -1173,10 +1489,31 @@
     },
     {
       "factors": [
+        "mean_caps",
+        "top11_value_eur"
+      ],
+      "spearman": 0.0727
+    },
+    {
+      "factors": [
         "big_five_share",
         "elo_before"
       ],
       "spearman": 0.6582
+    },
+    {
+      "factors": [
+        "big_five_share",
+        "top11_value_eur"
+      ],
+      "spearman": 0.8992
+    },
+    {
+      "factors": [
+        "elo_before",
+        "top11_value_eur"
+      ],
+      "spearman": 0.7871
     }
   ]
 }

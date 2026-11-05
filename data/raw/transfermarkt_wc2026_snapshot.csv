@@ -1,0 +1,1249 @@
+player_id,team,display_name,date_of_birth,tm_player_id,tm_name,tm_date_of_birth,tm_citizenship,tm_club,link_method,market_value_eur,valuation_date
+p_alg_achraf_abada_19289ff4,Algeria,Achraf Abada,1999-06-15,949929,Achref Abada,1999-06-15,Algeria,,dob_and_name,1000000,2026-06-05
+p_alg_adil_boulbina_d1bb01d8,Algeria,Adil Boulbina,2003-05-02,748443,Adil Boulbina,2003-05-02,Algeria,,dob_and_name,3000000,2026-05-14
+p_alg_aissa_mandi_18ff426e,Algeria,Aissa Mandi,1991-10-22,80293,Aïssa Mandi,1991-10-22,Algeria,LOSC Lille,dob_and_name,1000000,2026-06-01
+p_alg_amine_gouiri_e78ccbec,Algeria,Amine Gouiri,2000-02-16,418659,Amine Gouiri,2000-02-16,Algeria,Olympique Marseille,dob_and_name,28000000,2026-06-01
+p_alg_anis_hadj_moussa_ad8afb91,Algeria,Anis Hadj Moussa,2002-02-11,917911,Anis Hadj Moussa,2002-02-11,Algeria,Feyenoord Rotterdam,dob_and_name,23000000,2026-05-28
+p_alg_fares_chaibi_7363c3a0,Algeria,Fares Chaibi,2002-11-28,855015,Farès Chaïbi,2002-11-28,Algeria,Eintracht Frankfurt,dob_and_name,15000000,2026-05-27
+p_alg_fares_ghedjemis_fe617a47,Algeria,Fares Ghedjemis,2002-09-06,888738,Farès Ghedjemis,2002-09-06,France,Frosinone Calcio,dob_and_name,600000,2024-06-05
+p_alg_hicham_boudaoui_0c0f5c95,Algeria,Hicham Boudaoui,1999-09-23,560593,Hicham Boudaoui,1999-09-23,Algeria,OGC Nice,dob_and_name,12000000,2026-06-01
+p_alg_houssem_aouar_4b886415,Algeria,Houssem Aouar,1998-06-30,395693,Houssem Aouar,1998-06-30,Algeria,Al-Ittihad Football Club,dob_and_name,8000000,2026-06-04
+p_alg_ibrahim_maza_9745cb11,Algeria,Ibrahim Maza,2005-11-24,905011,Ibrahim Maza,2005-11-24,Algeria,Bayer 04 Leverkusen,dob_and_name,45000000,2026-05-27
+p_alg_jaouen_hadjam_0bd5d114,Algeria,Jaouen Hadjam,2003-03-26,750903,Jaouen Hadjam,2003-03-26,Algeria,BSC Young Boys,dob_and_name,7000000,2026-06-02
+p_alg_luca_zidane_9bb39f36,Algeria,Luca Zidane,1998-05-13,283489,Luca Zidane,1998-05-13,Algeria,Granada CF,dob_and_name,1000000,2026-06-05
+p_alg_melvin_masstil_9362665c,Algeria,Melvin Masstil,2000-02-19,,,,,,none,,
+p_alg_mohamed_amine_amoura_56f3780c,Algeria,Mohamed Amine Amoura,2000-05-09,746910,Mohamed Amoura,2000-05-09,Algeria,VfL Wolfsburg,dob_and_name,20000000,2026-05-27
+p_alg_mohamed_amine_tougai_d2bbe8d2,Algeria,Mohamed Amine Tougai,2000-01-22,592396,Mohamed Amine Tougai,2000-01-22,Algeria,,dob_and_name,1300000,2026-06-02
+p_alg_nabil_bentaleb_b4544369,Algeria,Nabil Bentaleb,1994-11-24,245537,Nabil Bentaleb,1994-11-24,Algeria,LOSC Lille,dob_and_name,4500000,2026-06-01
+p_alg_nadir_benbouali_bb5a8a6a,Algeria,Nadir Benbouali,2000-04-17,840254,Nadhir Benbouali,2000-04-17,Algeria,Royal Charleroi Sporting Club,dob_and_name,600000,2024-06-04
+p_alg_oussama_benbot_899e999e,Algeria,Oussama Benbot,1994-10-11,437982,Oussama Benbout,1994-10-11,Algeria,,dob_and_name,850000,2026-06-05
+p_alg_rafik_belghali_e4487e93,Algeria,Rafik Belghali,2002-06-07,864306,Rafik Belghali,2002-06-07,Algeria,KV Mechelen,dob_and_name,7000000,2026-05-29
+p_alg_ramiz_zerrouki_365c4fe7,Algeria,Ramiz Zerrouki,1998-05-26,416660,Ramiz Zerrouki,1998-05-26,Algeria,FC Twente Enschede,dob_and_name,6500000,2026-05-28
+p_alg_ramy_bensebaini_3cd59af9,Algeria,Ramy Bensebaini,1995-04-16,284732,Ramy Bensebaini,1995-04-16,Algeria,Borussia Dortmund,dob_and_name,7000000,2026-05-27
+p_alg_rayan_ait_nouri_5cb1bf64,Algeria,Rayan Ait Nouri,2001-06-06,578391,Rayan Aït-Nouri,2001-06-06,Algeria,Manchester City,dob_and_name,40000000,2026-06-03
+p_alg_riyad_mahrez_cf3747ad,Algeria,Riyad Mahrez,1991-02-21,171424,Riyad Mahrez,1991-02-21,Algeria,Al-Ahli Saudi Football Club,dob_and_name,5000000,2026-06-04
+p_alg_samir_chergui_ab6dd360,Algeria,Samir Chergui,1999-02-06,668167,Samir Chergui,1999-02-06,Algeria,Paris FC,dob_and_name,3000000,2026-06-01
+p_alg_yassine_titraoui_dce1a510,Algeria,Yassine Titraoui,2003-07-26,748445,Yassine Titraoui,2003-07-26,Algeria,Royal Charleroi Sporting Club,dob_and_name,7000000,2026-06-04
+p_alg_zinedine_belaid_80b40d09,Algeria,Zinedine Belaid,1999-03-20,625142,Zineddine Belaid,1999-03-20,Algeria,,dob_and_name,1800000,2026-06-05
+p_arg_alexis_mac_allister_5fb6c1df,Argentina,Alexis Mac Allister,1998-12-24,534033,Alexis Mac Allister,1998-12-24,Argentina,Liverpool FC,dob_and_name,70000000,2026-06-03
+p_arg_cristian_romero_8fab5f9e,Argentina,Cristian Romero,1998-04-27,355915,Cristian Romero,1998-04-27,Argentina,Tottenham Hotspur,dob_and_name,45000000,2026-06-03
+p_arg_emiliano_martinez_c1a843dd,Argentina,Emiliano Martínez,1992-09-02,111873,Emiliano Martínez,1992-09-02,Argentina,Aston Villa,dob_and_name,12000000,2026-06-03
+p_arg_enzo_fernandez_0572786a,Argentina,Enzo Fernández,2001-01-17,648195,Enzo Fernández,2001-01-17,Argentina,Chelsea FC,dob_and_name,90000000,2026-06-03
+p_arg_exequiel_palacios_caaa7c6d,Argentina,Exequiel Palacios,1998-10-05,401578,Exequiel Palacios,1998-10-05,Argentina,Bayer 04 Leverkusen,dob_and_name,25000000,2026-05-27
+p_arg_facundo_medina_5f424a87,Argentina,Facundo Medina,1999-05-28,474800,Facundo Medina,1999-05-28,Argentina,Olympique Marseille,dob_and_name,18000000,2026-06-01
+p_arg_geronimo_rulli_1f840d31,Argentina,Gerónimo Rulli,1992-05-20,229604,Gerónimo Rulli,1992-05-20,Argentina,Olympique Marseille,dob_and_name,6000000,2026-06-01
+p_arg_giovani_lo_celso_5503c556,Argentina,Giovani Lo Celso,1996-04-09,348795,Giovani Lo Celso,1996-04-09,Argentina,Real Betis Balompié,dob_and_name,8000000,2026-06-05
+p_arg_giuliano_simeone_9c448df8,Argentina,Giuliano Simeone,2002-12-18,742201,Giuliano Simeone,2002-12-18,Argentina,Atlético de Madrid,dob_and_name,40000000,2026-06-05
+p_arg_gonzalo_montiel_aef86bee,Argentina,Gonzalo Montiel,1997-01-01,402733,Gonzalo Montiel,1997-01-01,Argentina,Club Atlético River Plate,dob_and_name,4500000,2026-05-22
+p_arg_jose_manuel_lopez_6501b924,Argentina,Jose Manuel López,2000-12-06,844797,Flaco López,2000-12-06,Argentina,Sociedade Esportiva Palmeiras,dob_citizenship_and_club,25000000,2026-05-26
+p_arg_juan_musso_67aa6620,Argentina,Juan Musso,1994-05-06,242359,Juan Musso,1994-05-06,Argentina,Atlético de Madrid,dob_and_name,3000000,2026-06-05
+p_arg_julian_alvarez_797f95f2,Argentina,Julián Álvarez,2000-01-31,576024,Julián Alvarez,2000-01-31,Argentina,Atlético de Madrid,dob_and_name,100000000,2026-06-05
+p_arg_lautaro_martinez_6a845476,Argentina,Lautaro Martínez,1997-08-22,406625,Lautaro Martínez,1997-08-22,Argentina,Inter Milan,dob_and_name,85000000,2026-05-29
+p_arg_leandro_paredes_03c0d6ce,Argentina,Leandro Paredes,1994-06-29,166237,Leandro Paredes,1994-06-29,Argentina,Club Atlético Boca Juniors,dob_and_name,5000000,2026-05-22
+p_arg_lionel_messi_a65fe07a,Argentina,Lionel Messi,1987-06-24,28003,Lionel Messi,1987-06-24,Argentina,Club Internacional de Fútbol Miami,dob_and_name,15000000,2026-06-02
+p_arg_lisandro_martinez_3b573d93,Argentina,Lisandro Martínez,1998-01-18,480762,Lisandro Martínez,1998-01-18,Argentina,Manchester United,dob_and_name,40000000,2026-06-03
+p_arg_nahuel_molina_7f1b1e08,Argentina,Nahuel Molina,1998-04-06,424042,Nahuel Molina,1998-04-06,Argentina,Atlético de Madrid,dob_and_name,15000000,2026-06-05
+p_arg_nico_paz_80721f86,Argentina,Nico Paz,2004-09-08,948294,Nico Paz,2004-09-08,Argentina,Como 1907,dob_and_name,80000000,2026-05-29
+p_arg_nicolas_gonzalez_fbfd120f,Argentina,Nicolás González,1998-04-06,486031,Nico González,1998-04-06,Argentina,Juventus FC,dob_and_name,22000000,2026-06-05
+p_arg_nicolas_otamendi_3a1c796d,Argentina,Nicolás Otamendi,1988-02-12,54781,Nicolás Otamendi,1988-02-12,Argentina,Club Atlético River Plate,dob_and_name,1000000,2026-05-28
+p_arg_nicolas_tagliafico_ed77a5b4,Argentina,Nicolás Tagliafico,1992-08-31,131225,Nicolás Tagliafico,1992-08-31,Argentina,Olympique Lyon,dob_and_name,4000000,2026-06-01
+p_arg_rodrigo_de_paul_8af82594,Argentina,Rodrigo De Paul,1994-05-24,255901,Rodrigo De Paul,1994-05-24,Argentina,Club Internacional de Fútbol Miami,dob_and_name,14000000,2026-06-02
+p_arg_thiago_almada_3bc6dc24,Argentina,Thiago Almada,2001-04-26,576028,Thiago Almada,2001-04-26,Argentina,Atlético de Madrid,dob_and_name,15000000,2026-06-05
+p_arg_valentin_barco_e3b78216,Argentina,Valentín Barco,2004-07-23,849410,Valentín Barco,2004-07-23,Argentina,RC Strasbourg Alsace,dob_and_name,40000000,2026-06-01
+p_aus_aiden_o_neill_efb600c3,Australia,Aiden O'Neill,1998-07-04,385918,Aiden O'Neill,1998-07-04,Australia,New York City Football Club,dob_and_name,3000000,2026-06-02
+p_aus_ajdin_hrustic_175f7377,Australia,Ajdin Hrustic,1996-07-05,265625,Ajdin Hrustic,1996-07-05,Australia,Heracles Almelo,dob_and_name,600000,2026-05-28
+p_aus_alessandro_circati_764625f7,Australia,Alessandro Circati,2003-10-10,867137,Alessandro Circati,2003-10-10,Australia,Parma Calcio 1913,dob_and_name,12000000,2026-05-29
+p_aus_awer_mabil_1ac388bf,Australia,Awer Mabil,1995-09-15,255729,Awer Mabil,1995-09-15,Australia,Cádiz CF,dob_and_name,1300000,2023-10-19
+p_aus_aziz_behich_63afe512,Australia,Aziz Behich,1990-12-16,136834,Aziz Behich,1990-12-16,Australia,Melbourne City FC,dob_and_name,250000,2026-05-28
+p_aus_cameron_burgess_86ce5eeb,Australia,Cameron Burgess,1995-10-21,255788,Cameron Burgess,1995-10-21,Australia,Swansea City,dob_and_name,1500000,2026-05-28
+p_aus_cameron_devlin_644bde9b,Australia,Cameron Devlin,1998-06-07,399162,Cammy Devlin,1998-06-07,Australia,Heart of Midlothian FC,dob_and_name,2000000,2026-05-20
+p_aus_connor_metcalfe_12fb1964,Australia,Connor Metcalfe,1999-11-05,522223,Connor Metcalfe,1999-11-05,Australia,FC St. Pauli,dob_and_name,1500000,2026-05-27
+p_aus_cristian_volpato_70261c9a,Australia,Cristian Volpato,2003-11-15,746891,Cristian Volpato,2003-11-15,Australia,US Sassuolo,dob_and_name,10000000,2026-05-29
+p_aus_harry_souttar_af530958,Australia,Harry Souttar,1998-10-22,298091,Harry Souttar,1998-10-22,Australia,Leicester City,dob_and_name,6000000,2025-12-03
+p_aus_jackson_irvine_eeed0b95,Australia,Jackson Irvine,1993-03-07,192557,Jackson Irvine,1993-03-07,Australia,FC St. Pauli,dob_and_name,1000000,2026-05-27
+p_aus_jacob_italiano_9d055542,Australia,Jacob Italiano,2001-07-30,545810,Jacob Italiano,2001-07-30,Australia,Grazer AK 1902,dob_and_name,600000,2026-05-26
+p_aus_jason_geria_ca25f974,Australia,Jason Geria,1993-05-10,185175,Jason Geria,1993-05-10,Australia,Albirex Niigata,dob_and_name,350000,2026-06-05
+p_aus_jordan_bos_65625b94,Australia,Jordan Bos,2002-10-29,855731,Jordan Bos,2002-10-29,Australia,Feyenoord Rotterdam,dob_and_name,12000000,2026-05-28
+p_aus_kai_trewin_9d5c2757,Australia,Kai Trewin,2001-05-18,691326,Kai Trewin,2001-05-18,Australia,New York City Football Club,dob_and_name,1800000,2026-06-02
+p_aus_lucas_herrington_a104a4d8,Australia,Lucas Herrington,2007-09-05,1279984,Lucas Herrington,2007-09-05,Australia,Colorado Rapids,dob_and_name,4500000,2026-06-02
+p_aus_mathew_leckie_968e41a4,Australia,Mathew Leckie,1991-02-04,126214,Mathew Leckie,1991-02-04,Australia,Melbourne City FC,dob_and_name,300000,2026-05-28
+p_aus_mathew_ryan_7abfe358,Australia,Mathew Ryan,1992-04-08,128969,Mathew Ryan,1992-04-08,Australia,Levante UD,dob_and_name,1800000,2026-06-05
+p_aus_milos_degenek_d704a90d,Australia,Milos Degenek,1994-04-28,187353,Milos Degenek,1994-04-28,Australia,FK TSC Backa Topola,dob_and_name,450000,2026-06-02
+p_aus_mohamed_toure_5cd1e876,Australia,Mohamed Toure,2004-03-26,742770,Mohamed Touré,2004-03-26,Australia,Randers FC,dob_and_name,8000000,2026-05-28
+p_aus_nestory_irankunda_230ebed8,Australia,Nestory Irankunda,2006-02-09,956920,Nestory Irankunda,2006-02-09,Australia,Watford FC,dob_and_name,8000000,2026-05-28
+p_aus_nishan_velupillay_e473bc27,Australia,Nishan Velupillay,2001-05-07,888140,Nishan Velupillay,2001-05-07,Australia,Melbourne Victory,dob_and_name,650000,2026-05-28
+p_aus_patrick_beach_622c4760,Australia,Patrick Beach,2003-08-06,983578,Patrick Beach,2003-08-06,Australia,Melbourne City FC,dob_and_name,1000000,2026-05-28
+p_aus_paul_izzo_ec6eecbc,Australia,Paul Izzo,1995-01-06,181921,Paul Izzo,1995-01-06,Australia,Randers FC,dob_and_name,500000,2026-05-25
+p_aus_paul_okon_jr_7510a440,Australia,Paul Okon Jr,2005-01-24,1064377,Paul Okon-Engstler,2005-01-24,Australia,Sydney FC,dob_citizenship_and_club,1200000,2026-05-28
+p_aus_tete_yengi_66f6414a,Australia,Tete Yengi,2000-11-28,849429,Tete Yengi,2000-11-28,Australia,Livingston FC,dob_and_name,450000,2026-06-03
+p_aut_alessandro_schopf_e931a5b8,Austria,Alessandro Schopf,1994-02-07,118397,Alessandro Schöpf,1994-02-07,Austria,Wolfsberger AC,dob_and_name,800000,2026-05-26
+p_aut_alexander_prass_f7961176,Austria,Alexander Prass,2001-05-26,434116,Alexander Prass,2001-05-26,Austria,TSG 1899 Hoffenheim,dob_and_name,9000000,2026-05-27
+p_aut_alexander_schlager_b76cdc05,Austria,Alexander Schlager,1996-02-01,186374,Alexander Schlager,1996-02-01,Austria,Fußballclub Red Bull Salzburg,dob_and_name,2000000,2026-05-26
+p_aut_carney_chukwuemeka_32cb323a,Austria,Carney Chukwuemeka,2003-10-20,659459,Carney Chukwuemeka,2003-10-20,Austria,Borussia Dortmund,dob_and_name,20000000,2026-05-27
+p_aut_david_affengruber_571b6252,Austria,David Affengruber,2001-03-19,452483,David Affengruber,2001-03-19,Austria,Elche CF,dob_and_name,20000000,2026-06-05
+p_aut_david_alaba_cffaf421,Austria,David Alaba,1992-06-24,59016,David Alaba,1992-06-24,Austria,Real Madrid,dob_and_name,3000000,2026-06-05
+p_aut_florian_grillitsch_988ef91c,Austria,Florian Grillitsch,1995-08-07,195736,Florian Grillitsch,1995-08-07,Austria,SC Braga,dob_and_name,2500000,2026-05-28
+p_aut_florian_wiegele_29234ed6,Austria,Florian Wiegele,2001-03-21,393999,Florian Wiegele,2001-03-21,Austria,FC Viktoria Plzen,dob_and_name,2200000,2026-05-20
+p_aut_kevin_danso_cc750167,Austria,Kevin Danso,1998-09-19,263236,Kevin Danso,1998-09-19,Austria,Tottenham Hotspur,dob_and_name,20000000,2026-06-03
+p_aut_konrad_laimer_c4a135d3,Austria,Konrad Laimer,1997-05-27,223967,Konrad Laimer,1997-05-27,Austria,Bayern Munich,dob_and_name,32000000,2026-05-27
+p_aut_marcel_sabitzer_51c8c5f3,Austria,Marcel Sabitzer,1994-03-17,106987,Marcel Sabitzer,1994-03-17,Austria,Borussia Dortmund,dob_and_name,6000000,2026-05-27
+p_aut_marco_friedl_505f4d47,Austria,Marco Friedl,1998-03-16,156990,Marco Friedl,1998-03-16,Austria,SV Werder Bremen,dob_and_name,10000000,2026-05-27
+p_aut_marko_arnautovic_b7235e69,Austria,Marko Arnautovic,1989-04-19,41384,Marko Arnautovic,1989-04-19,Austria,Red Star Belgrade,dob_and_name,2000000,2026-06-05
+p_aut_michael_gregoritsch_79be7cb7,Austria,Michael Gregoritsch,1994-04-18,120205,Michael Gregoritsch,1994-04-18,Austria,FC Augsburg,dob_and_name,1500000,2026-05-27
+p_aut_michael_svoboda_55a6a7fb,Austria,Michael Svoboda,1998-10-15,438961,Michael Svoboda,1998-10-15,Austria,Venezia FC,dob_and_name,900000,2023-06-12
+p_aut_nicolas_seiwald_b34473c6,Austria,Nicolas Seiwald,2001-05-04,404950,Nicolas Seiwald,2001-05-04,Austria,RB Leipzig,dob_and_name,25000000,2026-05-27
+p_aut_patrick_pentz_a9b01b61,Austria,Patrick Pentz,1997-01-02,223972,Patrick Pentz,1997-01-02,Austria,Bröndby IF,dob_and_name,2200000,2026-05-25
+p_aut_patrick_wimmer_f5d2cd91,Austria,Patrick Wimmer,2001-05-30,533295,Patrick Wimmer,2001-05-30,Austria,VfL Wolfsburg,dob_and_name,12000000,2026-05-27
+p_aut_paul_wanner_29e4edc7,Austria,Paul Wanner,2005-12-23,900909,Paul Wanner,2005-12-23,Austria,PSV Eindhoven,dob_and_name,22000000,2026-05-28
+p_aut_philipp_lienhart_305d3a6e,Austria,Philipp Lienhart,1996-07-11,225657,Philipp Lienhart,1996-07-11,Austria,SC Freiburg,dob_and_name,10000000,2026-05-27
+p_aut_philipp_mwene_1f4fda7d,Austria,Philipp Mwene,1994-01-29,127573,Phillipp Mwene,1994-01-29,Austria,1.FSV Mainz 05,dob_and_name,1500000,2026-05-27
+p_aut_romano_schmid_77d66729,Austria,Romano Schmid,2000-01-27,346853,Romano Schmid,2000-01-27,Austria,SV Werder Bremen,dob_and_name,15000000,2026-05-27
+p_aut_sasa_kalajdzic_f722586c,Austria,Sasa Kalajdzic,1997-07-07,369567,Sasa Kalajdzic,1997-07-07,Austria,LASK,dob_and_name,4000000,2026-05-26
+p_aut_stefan_posch_c4a93e0c,Austria,Stefan Posch,1997-05-14,223974,Stefan Posch,1997-05-14,Austria,Bologna Football Club 1909,dob_and_name,6000000,2026-05-27
+p_aut_xaver_schlager_dd1bd3e2,Austria,Xaver Schlager,1997-09-28,223979,Xaver Schlager,1997-09-28,Austria,RB Leipzig,dob_and_name,10000000,2026-05-27
+p_bel_alexis_saelemaekers_687396dd,Belgium,Alexis Saelemaekers,1999-06-27,381950,Alexis Saelemaekers,1999-06-27,Belgium,AC Milan,dob_and_name,20000000,2026-05-29
+p_bel_amadou_onana_448ba4f1,Belgium,Amadou Onana,2001-08-16,485706,Amadou Onana,2001-08-16,Belgium,Aston Villa,dob_and_name,45000000,2026-06-03
+p_bel_arthur_theate_4ae5bb19,Belgium,Arthur Theate,2000-05-25,368891,Arthur Theate,2000-05-25,Belgium,Eintracht Frankfurt,dob_and_name,17000000,2026-05-27
+p_bel_axel_witsel_f3fb6771,Belgium,Axel Witsel,1989-01-12,35047,Axel Witsel,1989-01-12,Belgium,Girona FC,dob_and_name,1200000,2026-06-05
+p_bel_brandon_mechele_04a8a44e,Belgium,Brandon Mechele,1993-01-28,236168,Brandon Mechele,1993-01-28,Belgium,Club Brugge KV,dob_and_name,2800000,2026-06-04
+p_bel_charles_de_ketelaere_ca23ee0b,Belgium,Charles De Ketelaere,2001-03-10,435772,Charles De Ketelaere,2001-03-10,Belgium,Atalanta BC,dob_and_name,30000000,2026-05-29
+p_bel_diego_moreira_53146078,Belgium,Diego Moreira,2004-08-06,655006,Diego Moreira,2004-08-06,Belgium,RC Strasbourg Alsace,dob_and_name,25000000,2026-06-01
+p_bel_dodi_lukebakio_554fff42,Belgium,Dodi Lukebakio,1997-09-24,303259,Dodi Lukébakio,1997-09-24,Belgium,Sevilla FC,dob_and_name,15000000,2026-05-28
+p_bel_hans_vanaken_ad0966e2,Belgium,Hans Vanaken,1992-08-24,137576,Hans Vanaken,1992-08-24,Belgium,Club Brugge KV,dob_and_name,5000000,2026-06-04
+p_bel_jeremy_doku_db4a6a04,Belgium,Jérémy Doku,2002-05-27,486049,Jérémy Doku,2002-05-27,Belgium,Manchester City,dob_and_name,75000000,2026-06-03
+p_bel_joaquin_seys_c2326a15,Belgium,Joaquin Seys,2005-03-28,981196,Joaquin Seys,2005-03-28,Belgium,Club Brugge KV,dob_and_name,20000000,2026-06-04
+p_bel_kevin_de_bruyne_2ab46ffa,Belgium,Kevin De Bruyne,1991-06-28,88755,Kevin De Bruyne,1991-06-28,Belgium,SSC Napoli,dob_and_name,8000000,2026-05-29
+p_bel_koni_de_winter_2ec1bedb,Belgium,Koni De Winter,2002-06-12,490384,Koni De Winter,2002-06-12,Belgium,AC Milan,dob_and_name,23000000,2026-05-29
+p_bel_leandro_trossard_e88bad80,Belgium,Leandro Trossard,1994-12-04,144028,Leandro Trossard,1994-12-04,Belgium,Arsenal FC,dob_and_name,18000000,2026-06-03
+p_bel_matias_fernandez_pardo_c2681da5,Belgium,Matias Fernandez-Pardo,2005-02-03,724129,Matias Fernandez-Pardo,2005-02-03,Belgium,LOSC Lille,dob_and_name,35000000,2026-06-01
+p_bel_maxim_de_cuyper_2dacb3ff,Belgium,Maxim De Cuyper,2000-12-22,429915,Maxim De Cuyper,2000-12-22,Belgium,Brighton & Hove Albion,dob_and_name,22000000,2026-06-03
+p_bel_mike_penders_44bb081c,Belgium,Mike Penders,2005-07-31,834397,Mike Penders,2005-07-31,Belgium,RC Strasbourg Alsace,dob_and_name,25000000,2026-06-01
+p_bel_nathan_ngoy_02cef402,Belgium,Nathan Ngoy,2003-06-10,548254,Nathan Ngoy,2003-06-10,Belgium,LOSC Lille,dob_and_name,25000000,2026-06-01
+p_bel_nicolas_raskin_05ba6412,Belgium,Nicolas Raskin,2001-02-23,422763,Nicolas Raskin,2001-02-23,Belgium,Rangers FC,dob_and_name,12000000,2026-05-20
+p_bel_romelu_lukaku_bf4c275e,Belgium,Romelu Lukaku,1993-05-13,96341,Romelu Lukaku,1993-05-13,Belgium,SSC Napoli,dob_and_name,6000000,2026-05-29
+p_bel_senne_lammens_578abff0,Belgium,Senne Lammens,2002-07-07,503883,Senne Lammens,2002-07-07,Belgium,Royal Antwerp FC,dob_and_name,35000000,2026-06-03
+p_bel_thibaut_courtois_040ad8d2,Belgium,Thibaut Courtois,1992-05-11,108390,Thibaut Courtois,1992-05-11,Belgium,Real Madrid,dob_and_name,15000000,2026-06-05
+p_bel_thomas_meunier_3aff17d3,Belgium,Thomas Meunier,1991-09-12,100986,Thomas Meunier,1991-09-12,Belgium,LOSC Lille,dob_and_name,1500000,2026-06-01
+p_bel_timothy_castagne_7ff63792,Belgium,Timothy Castagne,1995-12-05,262226,Timothy Castagne,1995-12-05,Belgium,Fulham FC,dob_and_name,8000000,2026-06-03
+p_bel_youri_tielemans_f3e11248,Belgium,Youri Tielemans,1997-05-07,249565,Youri Tielemans,1997-05-07,Belgium,Aston Villa,dob_and_name,30000000,2026-06-03
+p_bel_zeno_debast_152d7cb9,Belgium,Zeno Debast,2003-10-24,548193,Zeno Debast,2003-10-24,Belgium,Sporting CP,dob_and_name,28000000,2026-05-28
+p_bih_amar_dedic_d2964e27,Bosnia-Herzegovina,Amar Dedic,2002-08-18,519184,Amar Dedić,2002-08-18,Bosnia-Herzegovina,SL Benfica,dob_and_name,16000000,2026-05-28
+p_bih_amar_memic_1ca20cc8,Bosnia-Herzegovina,Amar Memic,2001-01-20,638990,Amar Memić,2001-01-20,Bosnia-Herzegovina,FC Viktoria Plzen,dob_and_name,4500000,2026-05-20
+p_bih_amir_hadziahmetovic_6c02a767,Bosnia-Herzegovina,Amir Hadziahmetovic,1997-03-08,293213,Amir Hadziahmetovic,1997-03-08,Bosnia-Herzegovina,Beşiktaş Jimnastik Kulübü,dob_and_name,4000000,2026-05-28
+p_bih_armin_gigovic_28dd1773,Bosnia-Herzegovina,Armin Gigovic,2002-04-06,651269,Armin Gigovic,2002-04-06,Bosnia-Herzegovina,BSC Young Boys,dob_and_name,2500000,2026-06-02
+p_bih_benjamin_tahirovic_62e71261,Bosnia-Herzegovina,Benjamin Tahirovic,2003-03-03,787907,Benjamin Tahirović,2003-03-03,Bosnia-Herzegovina,Bröndby IF,dob_and_name,4500000,2026-05-25
+p_bih_dennis_hadzikadunic_de197585,Bosnia-Herzegovina,Dennis Hadzikadunic,1998-07-09,322065,Dennis Hadzikadunic,1998-07-09,Bosnia-Herzegovina,UC Sampdoria,dob_and_name,1200000,2026-06-04
+p_bih_dzenis_burnic_0a2873d0,Bosnia-Herzegovina,Dzenis Burnic,1998-05-22,251295,Dzenis Burnic,1998-05-22,Bosnia-Herzegovina,,dob_and_name,1200000,2026-06-01
+p_bih_edin_dzeko_ddafdfa5,Bosnia-Herzegovina,Edin Dzeko,1986-03-17,28396,Edin Dzeko,1986-03-17,Bosnia-Herzegovina,ACF Fiorentina,dob_and_name,1000000,2026-06-01
+p_bih_ermedin_demirovic_0fb96d18,Bosnia-Herzegovina,Ermedin Demirovic,1998-03-25,335457,Ermedin Demirovic,1998-03-25,Bosnia-Herzegovina,VfB Stuttgart,dob_and_name,22000000,2026-05-27
+p_bih_ermin_mahmic_f48e604f,Bosnia-Herzegovina,Ermin Mahmic,2005-03-14,803049,Ermin Mahmic,2005-03-14,Bosnia-Herzegovina,FC Slovan Liberec,dob_and_name,5000000,2026-05-20
+p_bih_esmir_bajraktarevic_94f4ae47,Bosnia-Herzegovina,Esmir Bajraktarevic,2005-03-10,925862,Esmir Bajraktarevic,2005-03-10,Bosnia-Herzegovina,PSV Eindhoven,dob_and_name,8000000,2026-05-28
+p_bih_haris_tabakovic_8ca24820,Bosnia-Herzegovina,Haris Tabakovic,1994-06-20,203123,Haris Tabakovic,1994-06-20,Bosnia-Herzegovina,Borussia Mönchengladbach,dob_and_name,3500000,2026-05-27
+p_bih_ivan_basic_6c3d818c,Bosnia-Herzegovina,Ivan Basic,2002-04-30,620560,Ivan Basic,2002-04-30,Bosnia-Herzegovina,,dob_and_name,1500000,2026-06-05
+p_bih_ivan_sunjic_0494eba9,Bosnia-Herzegovina,Ivan Sunjic,1996-10-09,226097,Ivan Šunjić,1996-10-09,Bosnia-Herzegovina,,dob_and_name,2000000,2026-06-02
+p_bih_jovo_lukic_d8dde85e,Bosnia-Herzegovina,Jovo Lukic,1998-11-28,457738,Jovo Lukić,1998-11-28,Bosnia-Herzegovina,FC Universitatea Cluj,dob_and_name,2200000,2026-06-05
+p_bih_kerim_alajbegovic_2e3e66af,Bosnia-Herzegovina,Kerim Alajbegovic,2007-09-21,929994,Kerim Alajbegovic,2007-09-21,Bosnia-Herzegovina,Fußballclub Red Bull Salzburg,dob_and_name,22000000,2026-05-26
+p_bih_martin_zlomislic_93d55036,Bosnia-Herzegovina,Martin Zlomislic,1998-08-16,495320,Martin Zlomislic,1998-08-16,Bosnia-Herzegovina,HNK Rijeka,dob_and_name,2000000,2026-05-29
+p_bih_nihad_mujakic_1dba0c25,Bosnia-Herzegovina,Nihad Mujakic,1998-04-15,380919,Nihad Mujakic,1998-04-15,Bosnia-Herzegovina,Gaziantep FK,dob_and_name,1200000,2026-05-21
+p_bih_nikola_katic_79d7e039,Bosnia-Herzegovina,Nikola Katic,1996-10-10,422051,Nikola Katic,1996-10-10,Bosnia-Herzegovina,FC Schalke 04,dob_and_name,1800000,2026-06-01
+p_bih_nikola_vasilj_4d665981,Bosnia-Herzegovina,Nikola Vasilj,1995-12-02,248454,Nikola Vasilj,1995-12-02,Bosnia-Herzegovina,FC St. Pauli,dob_and_name,4500000,2026-05-27
+p_bih_samed_bazdar_08b5f2c0,Bosnia-Herzegovina,Samed Bazdar,2004-01-31,710969,Samed Bazdar,2004-01-31,Bosnia-Herzegovina,Jagiellonia Bialystok,dob_and_name,1500000,2026-06-04
+p_bih_sead_kolasinac_542b91f0,Bosnia-Herzegovina,Sead Kolasinac,1993-06-20,94005,Sead Kolasinac,1993-06-20,Bosnia-Herzegovina,Atalanta BC,dob_and_name,4000000,2026-05-29
+p_bih_stjepan_radeljic_882cc157,Bosnia-Herzegovina,Stjepan Radeljic,1997-09-05,384568,Stjepan Radeljic,1997-09-05,Bosnia-Herzegovina,HNK Rijeka,dob_and_name,2800000,2026-05-29
+p_bih_tarik_muharemovic_f0fc52ce,Bosnia-Herzegovina,Tarik Muharemovic,2003-02-28,679423,Tarik Muharemović,2003-02-28,Bosnia-Herzegovina,US Sassuolo,dob_and_name,25000000,2026-05-29
+p_bra_alex_sandro_90bade89,Brazil,Alex Sandro,1991-01-26,79960,Alex Sandro,1991-01-26,Brazil,Clube de Regatas do Flamengo,dob_and_name,1000000,2026-05-26
+p_bra_alisson_94f708d4,Brazil,Alisson,1992-10-02,105470,Alisson,1992-10-02,Brazil,Liverpool FC,dob_and_name,15000000,2026-06-03
+p_bra_bremer_d70621c1,Brazil,Bremer,1997-03-18,516716,Bremer,1997-03-18,Brazil,Juventus FC,dob_and_name,35000000,2026-05-29
+p_bra_bruno_guimaraes_722635a3,Brazil,Bruno Guimarães,1997-11-16,520624,Bruno Guimarães,1997-11-16,Brazil,Newcastle United,dob_and_name,70000000,2026-06-03
+p_bra_casemiro_156976fb,Brazil,Casemiro,1992-02-23,16306,Casemiro,1992-02-23,Brazil,Manchester United,dob_and_name,6000000,2026-06-03
+p_bra_danilo_dad200cf,Brazil,Danilo,1991-07-15,145707,Danilo,1991-07-15,Brazil,Clube de Regatas do Flamengo,dob_and_name,2000000,2026-05-26
+p_bra_danilo_santos_056f5396,Brazil,Danilo Santos,2001-04-29,808509,Danilo,2001-04-29,Brazil,S. A. F. Botafogo,dob_and_name,32000000,2026-05-26
+p_bra_douglas_santos_028abcb8,Brazil,Douglas Santos,1994-03-22,220793,Douglas Santos,1994-03-22,Brazil,AO FK Zenit Sankt-Peterburg,dob_and_name,7500000,2026-05-26
+p_bra_ederson_3f59700a,Brazil,Ederson Santana de Moraes,1993-08-17,238223,Ederson,1993-08-17,Brazil,Manchester City,dob_and_name,10000000,2026-05-21
+p_bra_endrick_7f3c1fc7,Brazil,Endrick,2006-07-21,971570,Endrick,2006-07-21,Brazil,Real Madrid,dob_and_name,40000000,2026-06-01
+p_bra_fabinho_52c532e8,Brazil,Fabinho,1993-10-23,225693,Fabinho,1993-10-23,Brazil,Al-Ittihad Football Club,dob_and_name,12000000,2026-06-04
+p_bra_gabriel_magalhaes_471513ea,Brazil,Gabriel Magalhães,1997-12-19,435338,Gabriel,1997-12-19,Brazil,Arsenal FC,dob_and_name,75000000,2026-06-03
+p_bra_gabriel_martinelli_a800c177,Brazil,Gabriel Martinelli,2001-06-18,655488,Gabriel Martinelli,2001-06-18,Brazil,Arsenal FC,dob_and_name,45000000,2026-06-03
+p_bra_igor_thiago_089a5794,Brazil,Igor Thiago,2001-06-26,739443,Igor Thiago,2001-06-26,Brazil,Brentford FC,dob_and_name,65000000,2026-06-03
+p_bra_leo_pereira_341afa28,Brazil,Léo Pereira,1996-01-31,288431,Léo Pereira,1996-01-31,Brazil,Clube de Regatas do Flamengo,dob_and_name,12000000,2026-05-26
+p_bra_lucas_paqueta_e5388113,Brazil,Lucas Paquetá,1997-08-27,444523,Lucas Paquetá,1997-08-27,Brazil,West Ham United,dob_and_name,32000000,2026-05-26
+p_bra_luiz_henrique_87e67c62,Brazil,Luiz Henrique,2001-01-02,800175,Luiz Henrique,2001-01-02,Brazil,AO FK Zenit Sankt-Peterburg,dob_and_name,24000000,2026-05-26
+p_bra_marquinhos_93871617,Brazil,Marquinhos,1994-05-14,181767,Marquinhos,1994-05-14,Brazil,Paris Saint-Germain,dob_and_name,28000000,2026-06-01
+p_bra_matheus_cunha_952533c7,Brazil,Matheus Cunha,1999-05-27,517894,Matheus Cunha,1999-05-27,Brazil,Manchester United,dob_and_name,75000000,2026-06-03
+p_bra_neymar_04b2152f,Brazil,Neymar,1992-02-05,68290,Neymar,1992-02-05,Brazil,Santos Futebol Clube,dob_and_name,8000000,2026-05-26
+p_bra_raphinha_6616ffaa,Brazil,Raphinha,1996-12-14,411295,Raphinha,1996-12-14,Brazil,FC Barcelona,dob_and_name,70000000,2026-06-05
+p_bra_rayan_a61beae6,Brazil,Rayan,2006-08-03,1012564,Rayan,2006-08-03,Brazil,AFC Bournemouth,dob_and_name,60000000,2026-06-03
+p_bra_roger_ibanez_53f85355,Brazil,Roger Ibañez,1998-11-23,524481,Roger Ibañez,1998-11-23,Brazil,Al-Ahli Saudi Football Club,dob_and_name,18000000,2026-06-04
+p_bra_vinicius_junior_486c236d,Brazil,Vinícius Júnior,2000-07-12,371998,Vinicius Junior,2000-07-12,Brazil,Real Madrid,dob_and_name,140000000,2026-06-05
+p_bra_weverton_aa35a4b0,Brazil,Weverton,1987-12-13,69400,Weverton,1987-12-13,Brazil,Grêmio Foot-Ball Porto Alegrense,dob_and_name,700000,2026-05-26
+p_can_alfie_jones_e79490ac,Canada,Alfie Jones,1997-10-07,340990,Alfie Jones,1997-10-07,Canada,Middlesbrough FC,dob_and_name,6000000,2026-05-28
+p_can_ali_ahmed_23b0243f,Canada,Ali Ahmed,2000-10-10,995642,Ali Ahmed,2000-10-10,Canada,Norwich City,dob_and_name,,
+p_can_alistair_johnston_84f7235e,Canada,Alistair Johnston,1998-10-08,637446,Alistair Johnston,1998-10-08,Canada,Celtic FC,dob_and_name,8000000,2026-05-20
+p_can_alphonso_davies_6f19b8d9,Canada,Alphonso Davies,2000-11-02,424204,Alphonso Davies,2000-11-02,Canada,Bayern Munich,dob_and_name,40000000,2026-05-27
+p_can_cyle_larin_5ee295d1,Canada,Cyle Larin,1995-04-17,343463,Cyle Larin,1995-04-17,Canada,Feyenoord Rotterdam,dob_and_name,3500000,2025-12-02
+p_can_dayne_st_clair_14cffc0c,Canada,Dayne St. Clair,1997-05-09,439750,Dayne St. Clair,1997-05-09,Canada,Club Internacional de Fútbol Miami,dob_and_name,3500000,2026-06-02
+p_can_derek_cornelius_7647ea16,Canada,Derek Cornelius,1997-11-25,328609,Derek Cornelius,1997-11-25,Canada,Olympique Marseille,dob_and_name,2500000,2026-05-20
+p_can_ismael_kone_30a50f55,Canada,Ismaël Koné,2002-06-16,921655,Ismaël Koné,2002-06-16,Canada,US Sassuolo,dob_and_name,25000000,2026-05-29
+p_can_jacob_shaffelburg_600e8e1c,Canada,Jacob Shaffelburg,1999-11-26,637632,Jacob Shaffelburg,1999-11-26,Canada,Los Angeles Football Club,dob_and_name,2500000,2026-06-02
+p_can_joel_waterman_3ae9b89f,Canada,Joel Waterman,1996-01-24,441738,Joel Waterman,1996-01-24,Canada,Chicago Fire Soccer Club,dob_and_name,2000000,2026-06-02
+p_can_jonathan_david_48d85738,Canada,Jonathan David,2000-01-14,533738,Jonathan David,2000-01-14,Canada,Juventus FC,dob_and_name,30000000,2026-05-29
+p_can_jonathan_osorio_de04efe3,Canada,Jonathan Osorio,1992-06-12,260807,Jonathan Osorio,1992-06-12,Canada,Toronto FC,dob_and_name,1000000,2026-06-02
+p_can_liam_millar_82289e83,Canada,Liam Millar,1999-09-27,487417,Liam Millar,1999-09-27,Canada,Hull City,dob_and_name,1700000,2023-06-07
+p_can_luc_de_fougerolles_1b8770b0,Canada,Luc De Fougerolles,2005-10-12,921995,Luc De Fougerolles,2005-10-12,Canada,FCV Dender EH,dob_and_name,1000000,2026-06-04
+p_can_mathieu_choiniere_4da94c88,Canada,Mathieu Choinière,1999-02-07,589006,Mathieu Choinière,1999-02-07,Canada,Los Angeles Football Club,dob_and_name,800000,2026-06-02
+p_can_maxime_crepeau_58975bf1,Canada,Maxime Crépeau,1994-05-11,189014,Maxime Crépeau,1994-05-11,Canada,Orlando City Soccer Club,dob_and_name,1800000,2026-06-02
+p_can_moise_bombito_f446293f,Canada,Moïse Bombito,2000-03-30,1089202,Moïse Bombito,2000-03-30,Canada,OGC Nice,dob_and_name,7000000,2026-06-01
+p_can_nathan_saliba_7a28cc90,Canada,Nathan Saliba,2004-08-29,842420,Nathan-Dylan Saliba,2004-02-07,Canada,RSC Anderlecht,dob_and_name,7500000,2026-06-04
+p_can_niko_sigur_05f36400,Canada,Niko Sigur,2003-09-09,1045375,Niko Sigur,2003-09-09,Canada,HNK Hajduk Split,dob_and_name,4000000,2026-05-29
+p_can_owen_goodman_6afe3ffe,Canada,Owen Goodman,2003-11-27,814848,Owen Goodman,2003-11-27,Canada,,dob_and_name,550000,2026-05-12
+p_can_promise_david_48b187dd,Canada,Promise David,2001-07-03,888785,Promise David,2001-07-03,Canada,Union Saint-Gilloise,dob_and_name,17000000,2026-06-04
+p_can_richie_laryea_1bdc1060,Canada,Richie Laryea,1995-01-07,417348,Richie Laryea,1995-01-07,Canada,Toronto FC,dob_and_name,1000000,2026-06-02
+p_can_stephen_eustaquio_0af0fe87,Canada,Stephen Eustáquio,1996-12-21,512913,Stephen Eustaquio,1996-12-21,Canada,FC Porto,dob_and_name,6000000,2026-06-02
+p_can_tajon_buchanan_d3e9a02e,Canada,Tajon Buchanan,1999-02-08,638793,Tajon Buchanan,1999-02-08,Canada,Villarreal CF,dob_and_name,12000000,2026-06-05
+p_can_tani_oluwaseyi_c5bc2390,Canada,Tani Oluwaseyi,2000-05-15,972465,Tani Oluwaseyi,2000-05-15,Canada,Villarreal CF,dob_and_name,7000000,2026-06-05
+p_civ_alban_lafont_5ef4d738,Ivory Coast,Alban Lafont,1999-01-23,357117,Alban Lafont,1999-01-23,Cote d'Ivoire,Panathinaikos Athlitikos Omilos,dob_and_name,3000000,2026-06-04
+p_civ_amad_diallo_eaf79116,Ivory Coast,Amad Diallo,2002-07-11,536835,Amad Diallo,2002-07-11,Cote d'Ivoire,Manchester United,dob_and_name,45000000,2026-06-03
+p_civ_ange_yoan_bonny_21e399a6,Ivory Coast,Ange-Yoan Bonny,2003-10-25,827734,Ange-Yoan Bonny,2003-10-25,Cote d'Ivoire,Inter Milan,dob_and_name,35000000,2026-05-29
+p_civ_bazoumana_toure_39bde082,Ivory Coast,Bazoumana Touré,2006-03-02,1067904,Bazoumana Touré,2006-03-02,Cote d'Ivoire,TSG 1899 Hoffenheim,dob_and_name,40000000,2026-05-27
+p_civ_christ_inao_oulai_68e57131,Ivory Coast,Christ Inao Oulaï,2006-04-06,1279526,Christ Inao Oulaï,2006-04-06,Cote d'Ivoire,Trabzonspor,dob_and_name,23000000,2026-05-21
+p_civ_elye_wahi_ea121682,Ivory Coast,Elye Wahi,2003-01-02,659542,Elye Wahi,2003-01-02,Cote d'Ivoire,OGC Nice,dob_and_name,18000000,2026-06-01
+p_civ_emmanuel_agbadou_3ba2ad4e,Ivory Coast,Emmanuel Agbadou,1997-06-17,683895,Emmanuel Agbadou,1997-06-17,Cote d'Ivoire,Beşiktaş Jimnastik Kulübü,dob_and_name,16000000,2026-05-21
+p_civ_evan_ndicka_f1e4915c,Ivory Coast,Evan Ndicka,1999-08-20,371149,Evan Ndicka,1999-08-20,Cote d'Ivoire,Associazione Sportiva Roma,dob_and_name,35000000,2026-05-29
+p_civ_evann_guessand_162fdf3e,Ivory Coast,Evann Guessand,2001-07-01,500689,Evann Guessand,2001-07-01,Cote d'Ivoire,Crystal Palace,dob_and_name,25000000,2026-06-03
+p_civ_franck_kessie_f8141739,Ivory Coast,Franck Kessié,1996-12-19,294808,Franck Kessié,1996-12-19,Cote d'Ivoire,Al-Ahli Saudi Football Club,dob_and_name,12000000,2026-06-04
+p_civ_ghislain_konan_e158f52e,Ivory Coast,Ghislain Konan,1995-12-27,422850,Ghislain Konan,1995-12-27,Cote d'Ivoire,Gil Vicente FC,dob_and_name,3000000,2026-05-28
+p_civ_guela_doue_67f0b3de,Ivory Coast,Guela Doué,2002-10-17,711980,Guéla Doué,2002-10-17,Cote d'Ivoire,RC Strasbourg Alsace,dob_and_name,20000000,2026-06-01
+p_civ_ibrahim_sangare_379e4037,Ivory Coast,Ibrahim Sangaré,1997-12-02,375885,Ibrahim Sangaré,1997-12-02,Cote d'Ivoire,Nottingham Forest,dob_and_name,20000000,2026-06-03
+p_civ_jean_michael_seri_0d1254ee,Ivory Coast,Jean Michaël Seri,1991-07-19,178614,Jean Michaël Seri,1991-07-19,Cote d'Ivoire,,dob_and_name,1500000,2023-06-01
+p_civ_mohamed_kone_7bb65963,Ivory Coast,Mohamed Koné,2002-03-07,911985,Mohamed Koné,2002-03-07,Cote d'Ivoire,Royal Charleroi Sporting Club,dob_and_name,2000000,2026-06-04
+p_civ_nicolas_pepe_4c6d5a76,Ivory Coast,Nicolas Pépé,1995-05-29,343052,Nicolas Pépé,1995-05-29,Cote d'Ivoire,Villarreal CF,dob_and_name,6000000,2026-06-05
+p_civ_odilon_kossounou_485c6071,Ivory Coast,Odilon Kossounou,2001-01-04,644771,Odilon Kossounou,2001-01-04,Cote d'Ivoire,Atalanta BC,dob_and_name,15000000,2026-05-29
+p_civ_oumar_diakite_99c59fc6,Ivory Coast,Oumar Diakité,2003-12-20,847279,Oumar Diakité,2003-12-20,Cote d'Ivoire,Cercle Brugge,dob_and_name,5000000,2026-06-04
+p_civ_ousmane_diomande_1d6c0dbf,Ivory Coast,Ousmane Diomande,2003-12-04,974982,Ousmane Diomande,2003-12-04,Cote d'Ivoire,Sporting CP,dob_and_name,42000000,2026-05-28
+p_civ_parfait_guiagon_ae254f1d,Ivory Coast,Parfait Guiagon,2001-02-22,624913,Parfait Guiagon,2001-02-22,Cote d'Ivoire,Royal Charleroi Sporting Club,dob_and_name,5000000,2026-06-04
+p_civ_seko_fofana_baa2ea68,Ivory Coast,Seko Fofana,1995-05-07,182893,Seko Fofana,1995-05-07,Cote d'Ivoire,Stade Rennais FC,dob_and_name,8000000,2026-05-28
+p_civ_simon_adingra_fd8856ab,Ivory Coast,Simon Adingra,2002-01-01,658536,Simon Adingra,2002-01-01,Cote d'Ivoire,Sunderland AFC,dob_and_name,22000000,2026-06-01
+p_civ_wilfried_singo_97e43f6b,Ivory Coast,Wilfried Singo,2000-12-25,648779,Wilfried Singo,2000-12-25,Cote d'Ivoire,Galatasaray,dob_and_name,23000000,2026-05-21
+p_civ_yahia_fofana_2e5eb280,Ivory Coast,Yahia Fofana,2000-08-21,418651,Yahia Fofana,2000-08-21,Cote d'Ivoire,Caykur Rizespor,dob_and_name,5000000,2026-05-21
+p_civ_yan_diomande_de52cf92,Ivory Coast,Yan Diomande,2006-11-14,1390649,Yan Diomande,2006-11-14,Cote d'Ivoire,RB Leipzig,dob_and_name,90000000,2026-05-27
+p_cod_aaron_tshibola_5291411b,Congo DR,Aaron Tshibola,1995-01-02,243633,Aaron Tshibola,1995-01-02,DR Congo,APO Levadiakos Football Club,dob_and_name,150000,2026-05-20
+p_cod_aaron_wan_bissaka_1743e232,Congo DR,Aaron Wan-Bissaka,1997-11-26,477758,Aaron Wan-Bissaka,1997-11-26,DR Congo,West Ham United,dob_and_name,15000000,2026-06-03
+p_cod_arthur_masuaku_4b8f4c1e,Congo DR,Arthur Masuaku,1993-11-07,181380,Arthur Masuaku,1993-11-07,DR Congo,Sunderland AFC,dob_and_name,2000000,2026-06-01
+p_cod_axel_tuanzebe_90944b97,Congo DR,Axel Tuanzebe,1997-11-14,342046,Axel Tuanzebe,1997-11-14,DR Congo,Burnley FC,dob_and_name,5000000,2026-06-03
+p_cod_brian_cipenga_465e42ce,Congo DR,Brian Cipenga,1998-03-11,700565,Brian Cipenga,1998-03-11,DR Congo,,dob_and_name,,
+p_cod_cedric_bakambu_d23d8daf,Congo DR,Cédric Bakambu,1991-04-11,127048,Cédric Bakambu,1991-04-11,DR Congo,Real Betis Balompié,dob_and_name,1200000,2026-06-05
+p_cod_chancel_mbemba_df08a255,Congo DR,Chancel Mbemba,1994-08-08,203348,Chancel Mbemba,1994-08-08,DR Congo,LOSC Lille,dob_and_name,2000000,2026-06-01
+p_cod_charles_pickel_4f73be2c,Congo DR,Charles Pickel,1997-05-15,243879,Charles Pickel,1997-05-15,DR Congo,RCD Espanyol Barcelona,dob_and_name,2500000,2026-06-05
+p_cod_dylan_batubinsika_1c74e07f,Congo DR,Dylan Batubinsika,1996-02-15,289432,Dylan Batubinsika,1996-02-15,DR Congo,Athlitiki Enosi Larisas,dob_and_name,600000,2026-06-04
+p_cod_edo_kayembe_5143c1cb,Congo DR,Edo Kayembe,1998-08-03,486477,Edo Kayembe,1998-06-03,DR Congo,Watford FC,dob_and_name,4000000,2023-10-27
+p_cod_fiston_mayele_d1c0c8ef,Congo DR,Fiston Mayele,1994-06-24,727157,Fiston Mayele,1994-06-24,DR Congo,,dob_and_name,,
+p_cod_gael_kakuta_d18f69e8,Congo DR,Gaël Kakuta,1991-06-21,74297,Gaël Kakuta,1991-06-21,DR Congo,Athlitiki Enosi Larisas,dob_and_name,250000,2026-06-04
+p_cod_gedeon_kalulu_3355f179,Congo DR,Gedeon Kalulu,1997-08-29,395685,Gédéon Kalulu,1997-08-29,DR Congo,,dob_and_name,3500000,2024-06-03
+p_cod_joris_kayembe_5001c3d2,Congo DR,Joris Kayembe,1994-08-08,129586,Joris Kayembe,1994-08-08,DR Congo,KRC Genk,dob_and_name,2000000,2026-06-04
+p_cod_lionel_mpasi_ae61eb92,Congo DR,Lionel Mpasi,1994-08-01,164915,Lionel Mpasi-Nzau,1994-08-01,DR Congo,Le Havre AC,dob_and_name,400000,2026-06-01
+p_cod_matthieu_epolo_10653c65,Congo DR,Matthieu Epolo,2005-01-15,680218,Matthieu Epolo,2005-01-15,DR Congo,Standard Liège,dob_and_name,8000000,2026-06-04
+p_cod_meschak_elia_0b968915,Congo DR,Meschak Elia,1997-08-06,423678,Meschack Elia,1997-08-06,DR Congo,Alanyaspor,dob_and_name,1500000,2026-05-21
+p_cod_nathanael_mbuku_b15f5169,Congo DR,Nathanaël Mbuku,2002-03-16,557614,Nathanaël Mbuku,2002-03-16,DR Congo,Montpellier HSC,dob_and_name,2000000,2024-06-11
+p_cod_ngal_ayel_mukau_f2c34320,Congo DR,Ngal'ayel Mukau,2004-11-03,1016015,Ngal'ayel Mukau,2004-11-03,DR Congo,LOSC Lille,dob_and_name,15000000,2026-06-01
+p_cod_noah_sadiki_dddcc558,Congo DR,Noah Sadiki,2004-12-17,727089,Noah Sadiki,2004-12-17,DR Congo,Sunderland AFC,dob_and_name,35000000,2026-06-03
+p_cod_samuel_moutoussamy_8b0e95be,Congo DR,Samuel Moutoussamy,1996-08-12,353403,Samuel Moutoussamy,1996-08-12,DR Congo,APS Atromitos Athinon,dob_and_name,1200000,2026-06-04
+p_cod_simon_banza_34e3c6e3,Congo DR,Simon Banza,1996-08-13,344869,Simon Banza,1996-08-13,DR Congo,,dob_and_name,11000000,2025-11-28
+p_cod_steve_kapuadi_720557c4,Congo DR,Steve Kapuadi,1998-04-30,679709,Steve Kapuadi,1998-04-30,DR Congo,Legia Warszawa,dob_and_name,2500000,2026-06-04
+p_cod_theo_bongonda_39129f32,Congo DR,Théo Bongonda,1995-11-20,280701,Théo Bongonda,1995-11-20,DR Congo,FK Spartak Moskva,dob_and_name,3000000,2026-05-26
+p_cod_timothy_fayulu_37d7a6c0,Congo DR,Timothy Fayulu,1999-07-24,541420,Timothy Fayulu,1999-07-24,DR Congo,,dob_and_name,,
+p_cod_yoane_wissa_17ae0a9d,Congo DR,Yoane Wissa,1996-09-03,388165,Yoane Wissa,1996-09-03,DR Congo,Newcastle United,dob_and_name,25000000,2026-06-03
+p_col_alvaro_montero_6ca48db5,Colombia,Álvaro Montero,1995-03-29,292985,Álvaro Montero,1995-03-29,Colombia,Club Atlético Vélez Sársfield,dob_and_name,2500000,2026-05-22
+p_col_andres_gomez_37f19480,Colombia,Andrés Gómez,2002-09-12,957461,Andrés Gómez,2002-09-12,Colombia,Club de Regatas Vasco da Gama,dob_and_name,11000000,2026-05-26
+p_col_camilo_vargas_700a4a06,Colombia,Camilo Vargas,1989-03-09,74113,Camilo Vargas,1989-03-09,Colombia,Atlas Guadalajara,dob_and_name,450000,2026-05-20
+p_col_cucho_hernandez_b18b9740,Colombia,Cucho Hernández,1999-04-22,459463,Cucho Hernández,1999-04-20,Colombia,Real Betis Balompié,dob_and_name,18000000,2026-06-05
+p_col_daniel_munoz_1d285dc5,Colombia,Daniel Muñoz,1996-05-26,493003,Daniel Muñoz,1996-05-26,Colombia,Crystal Palace,dob_and_name,22000000,2026-06-03
+p_col_david_ospina_54e7c40a,Colombia,David Ospina,1988-08-31,73396,David Ospina,1988-08-31,Colombia,Atlético Nacional,dob_and_name,100000,2026-06-04
+p_col_davinson_sanchez_cd174d91,Colombia,Davinson Sánchez,1996-06-12,341429,Davinson Sánchez,1996-06-12,Colombia,Galatasaray,dob_and_name,16000000,2026-05-21
+p_col_deiver_machado_559f458d,Colombia,Deiver Machado,1993-09-02,332560,Deiver Machado,1993-09-02,Colombia,RC Lens,dob_and_name,1800000,2026-06-01
+p_col_gustavo_puerta_b3786d3e,Colombia,Gustavo Puerta,2003-07-23,936981,Gustavo Puerta,2003-07-23,Colombia,,dob_and_name,10000000,2026-06-05
+p_col_james_rodriguez_337c2924,Colombia,James Rodríguez,1991-07-12,88103,James Rodríguez,1991-07-12,Colombia,Club León FC,dob_and_name,1500000,2026-06-02
+p_col_jaminton_campaz_988499fe,Colombia,Jaminton Campaz,2000-05-24,491553,Jáminton Campaz,2000-05-24,Colombia,Club Atlético Rosario Central,dob_and_name,5500000,2026-05-22
+p_col_jefferson_lerma_aa1dcaca,Colombia,Jefferson Lerma,1994-10-25,262980,Jefferson Lerma,1994-10-25,Colombia,Crystal Palace,dob_and_name,6000000,2026-06-03
+p_col_jhon_arias_cc7fde94,Colombia,Jhon Arias,1997-09-21,588989,Jhon Arias,1997-09-21,Colombia,Sociedade Esportiva Palmeiras,dob_and_name,15000000,2026-05-26
+p_col_jhon_cordoba_fa8d3746,Colombia,Jhon Córdoba,1993-05-11,185245,Jhon Córdoba,1993-05-11,Colombia,FK Krasnodar,dob_and_name,10000000,2026-05-26
+p_col_jhon_lucumi_9bb59393,Colombia,Jhon Lucumí,1998-06-26,413565,Jhon Lucumí,1998-06-26,Colombia,Bologna Football Club 1909,dob_and_name,22000000,2026-05-29
+p_col_johan_mojica_9a1cfae5,Colombia,Johan Mojica,1992-08-21,262939,Johan Mojica,1992-08-21,Colombia,RCD Mallorca,dob_and_name,1500000,2026-06-05
+p_col_jorge_carrascal_235e66d9,Colombia,Jorge Carrascal,1998-05-25,354145,Jorge Carrascal,1998-05-25,Colombia,Clube de Regatas do Flamengo,dob_and_name,13000000,2026-05-26
+p_col_juan_fernando_quintero_5480f4a3,Colombia,Juan Fernando Quintero,1993-01-18,122582,Juan Fernando Quintero,1993-01-18,Colombia,Club Atlético River Plate,dob_and_name,1800000,2026-05-22
+p_col_juan_portilla_1de5885b,Colombia,Juan Portilla,1998-09-12,585747,Juan Portilla,1998-09-12,Colombia,Clube Atlético Paranaense,dob_and_name,5000000,2026-05-26
+p_col_kevin_castano_1ceb5d8e,Colombia,Kevin Castaño,2000-09-29,857948,Kevin Castaño,2000-09-29,Colombia,Club Atlético River Plate,dob_and_name,5000000,2026-05-22
+p_col_luis_diaz_e65ed479,Colombia,Luis Díaz,1997-01-13,480692,Luis Díaz,1997-01-13,Colombia,Bayern Munich,dob_and_name,70000000,2026-05-27
+p_col_luis_suarez_c1d2e1cf,Colombia,Luis Suárez,1997-12-02,424784,Luis Suárez,1997-12-02,Colombia,Sporting CP,dob_and_name,30000000,2026-05-28
+p_col_richard_rios_8d2ad3ad,Colombia,Richard Ríos,2000-06-02,735573,Richard Ríos,2000-06-02,Colombia,SL Benfica,dob_and_name,25000000,2026-05-28
+p_col_santiago_arias_6dbcd316,Colombia,Santiago Arias,1992-01-13,120443,Santiago Arias,1992-01-13,Colombia,Club Atlético Independiente de Avellaneda,dob_and_name,1200000,2026-05-22
+p_col_willer_ditta_aa30458a,Colombia,Willer Ditta,1997-01-23,609255,Willer Ditta,1998-01-23,Colombia,CD Cruz Azul,dob_and_name,5500000,2026-05-20
+p_col_yerry_mina_ad8dcfc4,Colombia,Yerry Mina,1994-09-23,289446,Yerry Mina,1994-09-23,Colombia,Cagliari Calcio,dob_and_name,2500000,2026-05-29
+p_cpv_cj_dos_santos_94353cd6,Cape Verde,CJ dos Santos,2000-08-24,532096,CJ dos Santos,2000-08-24,Cape Verde,San Diego Football Club,dob_and_name,1000000,2026-06-02
+p_cpv_dailon_livramento_bc239e04,Cape Verde,Dailon Livramento,2001-05-04,676411,Dailon Livramento,2001-05-04,Cape Verde,Hellas Verona,dob_and_name,800000,2026-05-28
+p_cpv_deroy_duarte_21c02ec9,Cape Verde,Deroy Duarte,1999-07-04,432852,Deroy Duarte,1999-07-04,Cape Verde,,dob_and_name,1000000,2024-05-31
+p_cpv_diney_74fbc707,Cape Verde,Diney,1995-01-17,349570,Diney Borges,1995-01-17,Cape Verde,,dob_and_name,1000000,2023-10-12
+p_cpv_garry_rodrigues_849010a1,Cape Verde,Garry Rodrigues,1990-11-27,170895,Garry Rodrigues,1990-11-27,Cape Verde,,dob_and_name,325000,2025-12-23
+p_cpv_gilson_benchimol_bd494b6b,Cape Verde,Gilson Benchimol,2001-12-29,820252,Benchimol,2001-12-29,Cape Verde,Akron Togliatti,dob_and_name,1200000,2026-05-26
+p_cpv_helio_varela_e03882dc,Cape Verde,Helio Varela,2002-05-03,840836,Hélio Varela,2002-05-03,Cape Verde,KAA Gent,dob_and_name,1200000,2025-12-22
+p_cpv_jamiro_monteiro_c0b70720,Cape Verde,Jamiro Monteiro,1993-11-23,272930,Jamiro Monteiro,1993-11-23,Cape Verde,PEC Zwolle,dob_and_name,650000,2026-05-28
+p_cpv_joao_paulo_d979c18f,Cape Verde,João Paulo,1998-05-26,623965,João Paulo,1998-05-26,Cape Verde,FCSB,dob_and_name,900000,2026-06-05
+p_cpv_jovane_cabral_8e657888,Cape Verde,Jovane Cabral,1998-06-14,448466,Jovane Cabral,1998-06-14,Cape Verde,CF Estrela Amadora,dob_and_name,1000000,2026-05-28
+p_cpv_kelvin_pires_4b4f3ad5,Cape Verde,Kelvin Pires,2000-06-05,662119,Kelvin Pires,2000-06-05,Cape Verde,,dob_and_name,,
+p_cpv_kevin_pina_a911b2ec,Cape Verde,Kevin Pina,1997-01-27,544586,Kevin Pina,1997-01-27,Cape Verde,FK Krasnodar,dob_and_name,5000000,2026-05-26
+p_cpv_laros_duarte_a9fe3cb1,Cape Verde,Laros Duarte,1997-02-28,258513,Laros Duarte,1997-02-28,Cape Verde,,dob_and_name,1000000,2025-12-08
+p_cpv_logan_costa_c884015d,Cape Verde,Logan Costa,2001-04-01,484988,Logan Costa,2001-04-01,Cape Verde,Villarreal CF,dob_and_name,15000000,2026-06-05
+p_cpv_marcio_rosa_4cfb6048,Cape Verde,Marcio Rosa,1997-02-23,398048,Márcio Rosa,1997-02-23,Cape Verde,,dob_and_name,,
+p_cpv_nuno_da_costa_1443d08a,Cape Verde,Nuno da Costa,1991-02-10,306166,Nuno da Costa,1991-02-10,Cape Verde,Basaksehir FK,dob_and_name,400000,2026-05-21
+p_cpv_pico_393423cd,Cape Verde,Pico,1992-06-17,,,,,,none,,
+p_cpv_ryan_mendes_16ee6c68,Cape Verde,Ryan Mendes,1990-01-08,111627,Ryan Mendes,1990-01-08,Cape Verde,Kocaelispor,dob_and_name,700000,2024-05-31
+p_cpv_sidny_lopes_cabral_454810de,Cape Verde,Sidny Lopes Cabral,2002-09-18,611855,Sidny Lopes Cabral,2002-09-18,Cape Verde,CF Estrela Amadora,dob_and_name,4000000,2026-05-28
+p_cpv_steven_moreira_94afb375,Cape Verde,Steven Moreira,1994-08-13,203517,Steven Moreira,1994-08-13,Cape Verde,Columbus Crew,dob_and_name,1500000,2026-06-02
+p_cpv_stopira_c5945b52,Cape Verde,Stopira,1988-05-20,80486,Stopira,1988-05-20,Cape Verde,,dob_and_name,,
+p_cpv_telmo_arcanjo_68d204d8,Cape Verde,Telmo Arcanjo,2001-06-21,791528,Telmo Arcanjo,2001-06-21,Cape Verde,Vitória Guimarães SC,dob_and_name,3000000,2026-05-28
+p_cpv_vozinha_39ca1e1b,Cape Verde,Vozinha,1986-06-03,242277,Vozinha,1986-06-03,Cape Verde,GD Chaves,dob_and_name,,
+p_cpv_wagner_pina_007184a6,Cape Verde,Wagner Pina,2002-11-03,1072017,Wagner Pina,2002-11-03,Cape Verde,Trabzonspor,dob_and_name,11000000,2026-05-21
+p_cpv_willy_semedo_5bf0f2cf,Cape Verde,Willy Semedo,1994-04-27,531450,Willy Semedo,1994-04-27,Cape Verde,,dob_and_name,700000,2023-09-29
+p_cpv_yannick_semedo_aec11bf9,Cape Verde,Yannick Semedo,1995-12-29,620307,Yannick Semedo,1995-12-29,Cape Verde,SC Farense,dob_and_name,,
+p_cro_andrej_kramaric_8a563275,Croatia,Andrej Kramaric,1991-06-19,46580,Andrej Kramaric,1991-06-19,Croatia,TSG 1899 Hoffenheim,dob_and_name,2500000,2026-05-27
+p_cro_ante_budimir_7e030d33,Croatia,Ante Budimir,1991-07-22,46413,Ante Budimir,1991-07-22,Croatia,CA Osasuna,dob_and_name,2800000,2026-06-05
+p_cro_dominik_kotarski_43fc9e9c,Croatia,Dominik Kotarski,2000-02-10,370997,Dominik Kotarski,2000-02-10,Croatia,FC Copenhagen,dob_and_name,5000000,2026-05-25
+p_cro_dominik_livakovic_b645f4ec,Croatia,Dominik Livakovic,1995-01-09,205927,Dominik Livakovic,1995-01-09,Croatia,Girona FC,dob_and_name,4000000,2026-05-29
+p_cro_duje_caleta_car_9f7d1eb0,Croatia,Duje Caleta-Car,1996-09-17,238266,Duje Caleta-Car,1996-09-17,Croatia,Real Sociedad,dob_and_name,2800000,2026-06-05
+p_cro_igor_matanovic_d90d27a8,Croatia,Igor Matanovic,2003-03-31,605268,Igor Matanovic,2003-03-31,Croatia,SC Freiburg,dob_and_name,22000000,2026-05-27
+p_cro_ivan_perisic_b27fa102,Croatia,Ivan Perisic,1989-02-02,42460,Ivan Perišić,1989-02-02,Croatia,PSV Eindhoven,dob_and_name,1200000,2026-05-28
+p_cro_ivor_pandur_b0e1513d,Croatia,Ivor Pandur,2000-03-25,371013,Ivor Pandur,2000-03-25,Croatia,Hull City,dob_and_name,4500000,2026-05-28
+p_cro_josip_stanisic_6bc83a44,Croatia,Josip Stanisic,2000-04-02,483046,Josip Stanisic,2000-04-02,Croatia,Bayern Munich,dob_and_name,40000000,2026-05-27
+p_cro_josip_sutalo_f8d13b90,Croatia,Josip Sutalo,2000-02-28,371001,Josip Sutalo,2000-02-28,Croatia,Ajax Amsterdam,dob_and_name,12000000,2026-05-28
+p_cro_josko_gvardiol_9da99a67,Croatia,Josko Gvardiol,2002-01-23,475959,Josko Gvardiol,2002-01-23,Croatia,Manchester City,dob_and_name,70000000,2026-06-03
+p_cro_kristijan_jakic_d8624e1b,Croatia,Kristijan Jakic,1997-05-14,374954,Kristijan Jakic,1997-05-14,Croatia,FC Augsburg,dob_and_name,6000000,2026-05-27
+p_cro_luka_modric_b1bf833b,Croatia,Luka Modric,1985-09-09,27992,Luka Modrić,1985-09-09,Croatia,AC Milan,dob_and_name,3500000,2026-05-29
+p_cro_luka_sucic_1a238337,Croatia,Luka Sucic,2002-09-08,502722,Luka Sucic,2002-09-08,Croatia,Real Sociedad,dob_and_name,10000000,2026-06-05
+p_cro_luka_vuskovic_79fcb50b,Croatia,Luka Vuskovic,2007-02-24,892160,Luka Vuskovic,2007-02-24,Croatia,Tottenham Hotspur,dob_and_name,60000000,2026-05-27
+p_cro_marco_pasalic_cf208e00,Croatia,Marco Pasalic,2000-09-14,395928,Marco Pašalić,2000-09-14,Croatia,Orlando City Soccer Club,dob_and_name,6500000,2026-06-02
+p_cro_marin_pongracic_f44edbc4,Croatia,Marin Pongracic,1997-09-11,282144,Marin Pongracic,1997-09-11,Croatia,ACF Fiorentina,dob_and_name,6500000,2026-05-29
+p_cro_mario_pasalic_79c9b5ac,Croatia,Mario Pasalic,1995-02-09,205938,Mario Pašalić,1995-02-09,Croatia,Atalanta BC,dob_and_name,6000000,2026-05-29
+p_cro_martin_baturina_5967eb7b,Croatia,Martin Baturina,2003-02-16,580451,Martin Baturina,2003-02-16,Croatia,Como 1907,dob_and_name,30000000,2026-05-29
+p_cro_martin_erlic_f3995dca,Croatia,Martin Erlic,1998-01-24,357003,Martin Erlić,1998-01-24,Croatia,FC Midtjylland,dob_and_name,4000000,2026-05-25
+p_cro_mateo_kovacic_1828796d,Croatia,Mateo Kovacic,1994-05-06,51471,Mateo Kovacic,1994-05-06,Croatia,Manchester City,dob_and_name,10000000,2026-06-03
+p_cro_nikola_moro_56d80e10,Croatia,Nikola Moro,1998-03-12,316934,Nikola Moro,1998-03-12,Croatia,Bologna Football Club 1909,dob_and_name,7000000,2026-05-29
+p_cro_nikola_vlasic_b9ef1ba0,Croatia,Nikola Vlasic,1997-10-04,293200,Nikola Vlašić,1997-10-04,Croatia,Torino FC,dob_and_name,10000000,2026-05-29
+p_cro_petar_musa_01ba09b8,Croatia,Petar Musa,1998-03-04,387110,Petar Musa,1998-03-04,Croatia,FC Dallas,dob_and_name,12000000,2026-06-02
+p_cro_petar_sucic_1a1e68bc,Croatia,Petar Sucic,2003-10-25,668207,Petar Sučić,2003-10-25,Croatia,Inter Milan,dob_and_name,40000000,2026-05-29
+p_cro_toni_fruk_1dcf2fa2,Croatia,Toni Fruk,2001-03-09,432758,Toni Fruk,2001-03-09,Croatia,HNK Rijeka,dob_and_name,9000000,2026-05-29
+p_cuw_ar_jany_martha_ee88960d,Curacao,Ar'jany Martha,2003-09-04,572519,Ar'jany Martha,2003-09-04,Curacao,,dob_and_name,1200000,2024-05-31
+p_cuw_armando_obispo_a5e33bde,Curacao,Armando Obispo,1999-03-05,339337,Armando Obispo,1999-03-05,Curacao,PSV Eindhoven,dob_and_name,4000000,2026-05-28
+p_cuw_brandley_kuwas_ec0a25de,Curacao,Brandley Kuwas,1992-09-19,232219,Brandley Kuwas,1992-09-19,Curacao,FC Volendam,dob_and_name,250000,2026-05-28
+p_cuw_deveron_fonville_09aec64e,Curacao,Deveron Fonville,2003-05-16,708989,Deveron Fonville,2003-05-16,Curacao,NEC Nijmegen,dob_and_name,1500000,2026-05-28
+p_cuw_eloy_room_766eba9c,Curacao,Eloy Room,1989-02-06,79294,Eloy Room,1989-02-06,Curacao,,dob_and_name,200000,2025-06-12
+p_cuw_gervane_kastaneer_23a2d41b,Curacao,Gervane Kastaneer,1996-06-09,240752,Gervane Kastaneer,1996-06-09,Curacao,,dob_and_name,200000,2023-10-13
+p_cuw_godfried_roemeratoe_d9cdf0ba,Curacao,Godfried Roemeratoe,1999-08-19,393241,Godfried Roemeratoe,1999-08-19,Curacao,RKC Waalwijk,dob_and_name,400000,2025-12-16
+p_cuw_jearl_margaritha_f0bb7092,Curacao,Jearl Margaritha,2000-04-10,538958,Jearl Margaritha,2000-04-10,Curacao,SK Beveren,dob_and_name,,
+p_cuw_jeremy_antonisse_2a790f95,Curacao,Jeremy Antonisse,2002-03-29,594273,Jeremy Antonisse,2002-03-29,Curacao,Athlitiki Enosi Kifisias,dob_and_name,800000,2026-06-04
+p_cuw_joshua_brenet_8ef176fa,Curacao,Joshua Brenet,1994-03-20,207006,Joshua Brenet,1994-03-20,Curacao,Livingston FC,dob_and_name,1000000,2026-05-21
+p_cuw_juninho_bacuna_6ae75aa7,Curacao,Juninho Bacuna,1997-08-07,348863,Juninho Bacuna,1997-08-07,Curacao,Gaziantep FK,dob_and_name,1700000,2026-05-28
+p_cuw_jurgen_locadia_3e4148d1,Curacao,Jurgen Locadia,1993-11-07,166240,Jürgen Locadia,1993-11-07,Curacao,,dob_and_name,1800000,2023-06-26
+p_cuw_jurien_gaari_a76a6b62,Curacao,Jurien Gaari,1993-12-23,328455,Juriën Gaari,1993-12-23,Curacao,,dob_and_name,450000,2024-05-31
+p_cuw_kenji_gorre_5c1a814f,Curacao,Kenji Gorre,1994-09-29,374889,Kenji Gorré,1994-09-29,Curacao,,dob_and_name,800000,2023-11-27
+p_cuw_kevin_felida_fdaf3088,Curacao,Kevin Felida,1999-11-11,433933,Kevin Felida,1999-11-11,Curacao,,dob_and_name,350000,2025-12-16
+p_cuw_leandro_bacuna_fe060b4c,Curacao,Leandro Bacuna,1991-08-21,126014,Leandro Bacuna,1991-08-21,Curacao,,dob_and_name,900000,2023-06-01
+p_cuw_livano_comenencia_4bfc3e0e,Curacao,Livano Comenencia,2004-02-03,626764,Livano Comenencia,2004-02-03,Curacao,FC Zürich,dob_and_name,500000,2026-06-02
+p_cuw_riechedly_bazoer_cd19291e,Curacao,Riechedly Bazoer,1996-10-12,216443,Riechedly Bazoer,1996-10-12,Curacao,Konyaspor,dob_and_name,1500000,2026-05-21
+p_cuw_roshon_van_eijma_b2ec515a,Curacao,Roshon van Eijma,1998-06-09,401029,Roshon van Eijma,1998-06-09,Curacao,RKC Waalwijk,dob_and_name,375000,2025-12-16
+p_cuw_sherel_floranus_eebdf20b,Curacao,Sherel Floranus,1998-08-23,315211,Sherel Floranus,1998-08-23,Curacao,PEC Zwolle,dob_and_name,800000,2026-05-28
+p_cuw_shurandy_sambo_a97d2c74,Curacao,Shurandy Sambo,2001-08-19,412937,Shurandy Sambo,2001-08-19,Curacao,Sparta Rotterdam,dob_and_name,1300000,2026-05-28
+p_cuw_sontje_hansen_11e5c9da,Curacao,Sontje Hansen,2002-05-18,485582,Sontje Hansen,2002-05-18,Curacao,NEC Nijmegen,dob_and_name,3000000,2024-05-31
+p_cuw_tahith_chong_28728a9e,Curacao,Tahith Chong,1999-12-04,344830,Tahith Chong,1999-12-04,Curacao,Sheffield United,dob_and_name,6000000,2024-05-27
+p_cuw_trevor_doornbusch_832d7d51,Curacao,Trevor Doornbusch,1999-07-06,390814,Trevor Doornbusch,1999-07-06,Curacao,VVV-Venlo,dob_and_name,100000,2023-07-04
+p_cuw_tyrese_noslin_15e4ed6e,Curacao,Tyrese Noslin,2002-09-11,708005,Tyrese Noslin,2002-09-11,Curacao,SC Telstar,dob_and_name,750000,2026-05-28
+p_cuw_tyrick_bodak_d57fabe6,Curacao,Tyrick Bodak,2002-05-15,663961,Tyrick Bodak,2002-05-15,Curacao,SC Telstar,dob_and_name,25000,2026-05-28
+p_cze_adam_hlozek_9f18f741,Czechia,Adam Hložek,2002-07-25,552057,Adam Hlozek,2002-07-25,Czech Republic,TSG 1899 Hoffenheim,dob_and_name,10000000,2026-05-27
+p_cze_alexandr_sojka_e8155981,Czechia,Alexandr Sojka,2003-04-02,826103,Alexandr Sojka,2003-04-02,Czech Republic,FC Hradec Kralove,dob_and_name,2300000,2026-05-20
+p_cze_david_doudera_860cd7c3,Czechia,David Douděra,1998-05-31,493758,David Doudera,1998-05-31,Czech Republic,SK Slavia Prague,dob_and_name,3500000,2026-05-20
+p_cze_david_jurasek_bd68aa70,Czechia,David Jurásek,2000-08-07,500054,David Jurásek,2000-08-07,Czech Republic,SK Slavia Prague,dob_and_name,5000000,2026-05-20
+p_cze_david_zima_dfdda2aa,Czechia,David Zima,2000-11-08,544149,David Zima,2000-11-08,Czech Republic,SK Slavia Prague,dob_and_name,7000000,2026-05-20
+p_cze_denis_visinsky_43597932,Czechia,Denis Višinský,2003-03-21,652060,Denis Visinsky,2003-03-21,Czech Republic,FC Viktoria Plzen,dob_and_name,3000000,2026-05-20
+p_cze_hugo_sochurek_1d6d29ce,Czechia,Hugo Sochůrek,2008-06-07,1206877,Hugo Sochurek,2008-06-07,Czech Republic,AC Sparta Prague,dob_and_name,3500000,2026-05-20
+p_cze_jan_kuchta_4db80617,Czechia,Jan Kuchta,1997-01-08,334802,Jan Kuchta,1997-01-08,Czech Republic,AC Sparta Prague,dob_and_name,2700000,2026-05-20
+p_cze_jaroslav_zeleny_7a83c315,Czechia,Jaroslav Zelený,1992-08-20,142219,Jaroslav Zelený,1992-08-20,Czech Republic,AC Sparta Prague,dob_and_name,600000,2026-05-20
+p_cze_jindrich_stanek_419fcbc9,Czechia,Jindrich Stanek,1996-04-27,242089,Jindrich Stanek,1996-04-27,Czech Republic,SK Slavia Prague,dob_and_name,2000000,2026-05-20
+p_cze_ladislav_krejci_c9f3ad8a,Czechia,Ladislav Krejčí,1999-04-20,345911,Ladislav Krejci,1999-04-20,Czech Republic,Girona FC,dob_and_name,22000000,2026-06-03
+p_cze_lukas_cerv_cf39dade,Czechia,Lukás Cerv,2001-04-10,611049,Lukas Cerv,2001-04-10,Czech Republic,FC Viktoria Plzen,dob_and_name,6000000,2026-05-20
+p_cze_lukas_hornicek_e3ff19bb,Czechia,Lukas Hornicek,2002-07-13,629773,Lukas Hornicek,2002-07-13,Czech Republic,SC Braga,dob_and_name,18000000,2026-05-28
+p_cze_lukas_provod_fb55d6e2,Czechia,Lukás Provod,1996-10-23,292779,Lukas Provod,1996-10-23,Czech Republic,SK Slavia Prague,dob_and_name,8000000,2026-05-20
+p_cze_michal_sadilek_862a9039,Czechia,Michal Sadílek,1999-05-31,321204,Michal Sadílek,1999-05-31,Czech Republic,SK Slavia Prague,dob_and_name,8000000,2026-05-20
+p_cze_mojmir_chytil_85222716,Czechia,Mojmír Chytil,1999-04-29,405855,Mojmír Chytil,1999-04-29,Czech Republic,SK Slavia Prague,dob_and_name,4000000,2026-05-20
+p_cze_patrik_schick_2bc58744,Czechia,Patrik Schick,1996-01-24,242086,Patrik Schick,1996-01-24,Czech Republic,Bayer 04 Leverkusen,dob_and_name,18000000,2026-05-27
+p_cze_robin_hranac_1cd4348c,Czechia,Robin Hranáč,2000-01-29,620217,Robin Hranac,2000-01-29,Czech Republic,TSG 1899 Hoffenheim,dob_and_name,10000000,2026-05-27
+p_cze_stepan_chaloupek_c0a3e524,Czechia,Štěpán Chaloupek,2003-03-08,944827,Stepan Chaloupek,2003-03-08,Czech Republic,SK Slavia Prague,dob_and_name,10000000,2026-05-20
+p_cze_tomas_chory_b5ef7aa2,Czechia,Tomáš Chorý,1995-01-26,198614,Tomas Chory,1995-01-26,Czech Republic,SK Slavia Prague,dob_and_name,2700000,2026-05-20
+p_cze_tomas_holes_7cf2b9f1,Czechia,Tomáš Holeš,1993-03-31,216278,Tomas Holes,1993-03-31,Czech Republic,SK Slavia Prague,dob_and_name,1000000,2026-05-20
+p_cze_tomas_soucek_13524176,Czechia,Tomáš Souček,1995-02-27,283628,Tomáš Souček,1995-02-27,Czech Republic,West Ham United,dob_and_name,10000000,2026-06-03
+p_cze_vladimir_coufal_eca99358,Czechia,Vladimír Coufal,1992-08-22,157672,Vladimír Coufal,1992-08-22,Czech Republic,TSG 1899 Hoffenheim,dob_and_name,2500000,2026-05-27
+p_cze_vladimir_darida_49574ae8,Czechia,Vladimir Darida,1990-08-08,179643,Vladimír Darida,1990-08-08,Czech Republic,FC Hradec Kralove,dob_and_name,375000,2026-05-20
+p_ecu_alan_franco_80965137,Ecuador,Alan Franco,1998-08-21,400960,Alan Franco,1998-08-21,Ecuador,Clube Atlético Mineiro,dob_and_name,4500000,2026-05-26
+p_ecu_alan_minda_66e3710b,Ecuador,Alan Minda,2003-05-14,897051,Alan Minda,2003-05-14,Ecuador,Clube Atlético Mineiro,dob_and_name,3000000,2026-05-26
+p_ecu_angelo_preciado_7ab7269e,Ecuador,Ángelo Preciado,1998-02-18,450241,Angelo Preciado,1998-02-18,Ecuador,Clube Atlético Mineiro,dob_and_name,3500000,2026-05-26
+p_ecu_anthony_valencia_c0877fe2,Ecuador,Anthony Valencia,2003-07-21,974374,Anthony Valencia,2003-07-21,Ecuador,Royal Antwerp FC,dob_and_name,1800000,2026-06-04
+p_ecu_denil_castillo_11773cc3,Ecuador,Denil Castillo,2004-03-24,941418,Denil Castillo,2004-03-24,Ecuador,FC Midtjylland,dob_and_name,7000000,2026-05-25
+p_ecu_enner_valencia_48a653b4,Ecuador,Enner Valencia,1989-11-04,139503,Enner Valencia,1989-11-04,Ecuador,CF Pachuca,dob_and_name,1000000,2026-05-20
+p_ecu_felix_torres_ea2e596f,Ecuador,Félix Torres,1997-01-11,468174,Félix Torres,1997-01-11,Ecuador,Sport Club Internacional,dob_and_name,1000000,2026-05-26
+p_ecu_gonzalo_plata_52795550,Ecuador,Gonzalo Plata,2000-11-01,592735,Gonzalo Plata,2000-11-01,Ecuador,Clube de Regatas do Flamengo,dob_and_name,9000000,2026-05-26
+p_ecu_gonzalo_valle_9b2837b7,Ecuador,Gonzalo Valle,1996-02-28,351941,Gonzalo Valle,1996-02-28,Ecuador,,dob_and_name,,
+p_ecu_hernan_galindez_f5182915,Ecuador,Hernán Galíndez,1987-03-30,77127,Hernán Galíndez,1987-03-30,Ecuador,Club Atlético Huracán,dob_and_name,300000,2026-05-22
+p_ecu_jackson_porozo_e9ca15cf,Ecuador,Jackson Porozo,2000-08-04,491616,Jackson Porozo,2000-08-04,Ecuador,Club Tijuana,dob_and_name,2500000,2026-05-20
+p_ecu_jeremy_arevalo_4611b2ea,Ecuador,Jeremy Arévalo,2005-03-19,971663,Jeremy Arévalo,2005-03-19,Ecuador,VfB Stuttgart,dob_and_name,7000000,2026-05-27
+p_ecu_joel_ordonez_6b4213b6,Ecuador,Joel Ordóñez,2004-04-21,893661,Joel Ordóñez,2004-04-21,Ecuador,Club Brugge KV,dob_and_name,33000000,2026-06-04
+p_ecu_john_yeboah_f4179bba,Ecuador,John Yeboah,2000-06-23,439914,John Yeboah,2000-06-23,Ecuador,Venezia FC,dob_and_name,1500000,2023-06-09
+p_ecu_jordy_alcivar_0ba80cc6,Ecuador,Jordy Alcivar,1999-08-05,598145,Jordy Alcívar,1999-08-05,Ecuador,,dob_and_name,,
+p_ecu_jordy_caicedo_8f721383,Ecuador,Jordy Caicedo,1997-11-18,360412,Jordy Caicedo,1997-11-18,Ecuador,Club Atlético Huracán,dob_and_name,2000000,2026-05-22
+p_ecu_kendry_paez_8d79db29,Ecuador,Kendry Páez,2007-05-04,1052439,Kendry Páez,2007-05-04,Ecuador,RC Strasbourg Alsace,dob_and_name,8000000,2026-05-22
+p_ecu_kevin_rodriguez_cbff52ff,Ecuador,Kevin Rodríguez,2000-03-04,684159,Kevin Rodríguez,2000-03-04,Ecuador,Union Saint-Gilloise,dob_and_name,6000000,2026-06-04
+p_ecu_moises_caicedo_933ed1f6,Ecuador,Moisés Caicedo,2001-11-02,687626,Moisés Caicedo,2001-11-02,Ecuador,Chelsea FC,dob_and_name,100000000,2026-06-03
+p_ecu_moises_ramirez_50b6ae46,Ecuador,Moisés Ramírez,2000-09-09,450233,Moisés Ramírez,2000-09-09,Ecuador,Athlitiki Enosi Kifisias,dob_and_name,800000,2026-06-04
+p_ecu_nilson_angulo_36180178,Ecuador,Nilson Angulo,2003-06-19,903611,Nilson Angulo,2003-06-19,Ecuador,RSC Anderlecht,dob_and_name,17000000,2026-06-03
+p_ecu_pedro_vite_02c8e945,Ecuador,Pedro Vite,2002-03-09,659806,Pedro Vite,2002-03-09,Ecuador,UNAM Pumas,dob_and_name,6000000,2026-05-20
+p_ecu_pervis_estupinan_79b0301b,Ecuador,Pervis Estupiñán,1998-01-21,349599,Pervis Estupiñán,1998-01-21,Ecuador,AC Milan,dob_and_name,12000000,2026-05-29
+p_ecu_piero_hincapie_2bef414e,Ecuador,Piero Hincapié,2002-01-09,659813,Piero Hincapié,2002-01-09,Ecuador,Arsenal FC,dob_and_name,50000000,2026-06-03
+p_ecu_willian_pacho_ecbaea58,Ecuador,Willian Pacho,2001-10-16,661171,Willian Pacho,2001-10-16,Ecuador,Paris Saint-Germain,dob_and_name,80000000,2026-06-01
+p_ecu_yaimar_medina_64320c80,Ecuador,Yaimar Medina,2004-11-05,893659,Yaimar Medina,2004-11-05,Ecuador,KRC Genk,dob_and_name,4000000,2026-06-04
+p_egy_ahmed_fatouh_dc7f8034,Egypt,Ahmed Fatouh,1998-03-22,465966,Ahmed Fatouh,1998-03-22,Egypt,,dob_and_name,1000000,2026-05-20
+p_egy_ahmed_zizo_a1a7d135,Egypt,Zizo,1996-01-10,320722,Zizo,1996-01-10,Egypt,,dob_and_name,5000000,2023-06-29
+p_egy_el_mahdy_soliman_378a11ec,Egypt,El Mahdy Soliman,1986-11-30,104951,El Mahdi Soliman,1987-06-08,Egypt,,dob_and_name,,
+p_egy_emam_ashour_dca07f46,Egypt,Emam Ashour,1998-02-20,604008,Emam Ashour,1998-02-20,Egypt,,dob_and_name,2000000,2023-06-26
+p_egy_haissem_hassan_176106e8,Egypt,Haissem Hassan,2002-02-08,620164,Haissem Hassan,2002-02-08,Egypt,Real Oviedo,dob_and_name,3500000,2026-06-05
+p_egy_hamdy_fathy_b1dda916,Egypt,Hamdy Fathy,1994-09-29,340303,Hamdy Fathy,1994-09-29,Egypt,,dob_and_name,1800000,2026-05-14
+p_egy_hamza_abdelkarim_21334e1d,Egypt,Hamza Abdelkarim,2008-01-01,1259085,Hamza Abdelkarim,2008-01-01,Egypt,,dob_and_name,,
+p_egy_hossam_abdelmaguid_f62351a1,Egypt,Hossam Abdelmaguid,2001-04-30,737524,Hossam Abdelmaguid,2001-04-30,Egypt,,dob_and_name,2000000,2026-05-20
+p_egy_ibrahim_adel_ada19cb6,Egypt,Ibrahim Adel,2001-04-23,677278,Ibrahim Adel,2001-04-23,Egypt,FC Nordsjaelland,dob_and_name,2500000,2026-05-25
+p_egy_karim_hafez_63394784,Egypt,Karim Hafez,1996-03-12,333004,Karim Hafez,1996-03-12,Egypt,,dob_and_name,600000,2023-06-29
+p_egy_mahmoud_saber_1d4ea4ea,Egypt,Mahmoud Saber,2001-07-30,729390,Mahmoud Saber,2001-07-30,Egypt,,dob_and_name,1500000,2026-05-20
+p_egy_mahmoud_trezeguet_50e56a9a,Egypt,Mahmoud Trezeguet,1994-10-01,234189,Trezeguet,1994-10-01,Egypt,,dob_and_name,4500000,2026-05-20
+p_egy_marwan_attia_3d176d42,Egypt,Marwan Attia,1998-08-01,734542,Marwan Ateya,1998-08-01,Egypt,,dob_and_name,,
+p_egy_mohamed_abdelmonem_7d6d2721,Egypt,Mohamed Abdelmonem,1999-02-01,566025,Mohamed Abdelmonem,1999-02-01,Egypt,OGC Nice,dob_and_name,2500000,2026-06-01
+p_egy_mohamed_alaa_bb97a03c,Egypt,Mohamed Alaa,1999-01-01,,,,,,none,,
+p_egy_mohamed_el_shenawy_6eaa4541,Egypt,Mohamed El Shenawy,1988-12-18,134573,Mohamed El Shenawy,1988-12-18,Egypt,,dob_and_name,500000,2026-05-20
+p_egy_mohamed_hany_f4c4265d,Egypt,Mohamed Hany,1996-01-25,343974,Mohamed Hany,1996-02-02,Egypt,,dob_and_name,1500000,2026-05-20
+p_egy_mohamed_salah_9bd519f5,Egypt,Mohamed Salah,1992-06-15,148455,Mohamed Salah,1992-06-15,Egypt,Liverpool FC,dob_and_name,22000000,2026-06-03
+p_egy_mohanad_lasheen_643f7e97,Egypt,Mohanad Lasheen,1996-05-29,479682,Mohanad Lasheen,1996-05-29,Egypt,,dob_and_name,,
+p_egy_mostafa_shobeir_a364322d,Egypt,Mostafa Shobeir,2000-05-15,661455,Oufa Shobeir,2000-05-15,Egypt,,dob_and_name,1200000,2026-05-20
+p_egy_mostafa_ziko_c5b09adb,Egypt,Mostafa Ziko,1997-04-27,896616,Mostafa Ziko,1997-04-27,Egypt,,dob_and_name,,
+p_egy_nabil_emad_89db2d51,Egypt,Nabil Emad,1996-04-06,479683,Nabil Dunga,1996-04-06,Egypt,Al-Najma Sport Club,dob_citizenship_and_club,1000000,2026-06-04
+p_egy_omar_marmoush_2c310315,Egypt,Omar Marmoush,1999-02-07,445939,Omar Marmoush,1999-02-07,Egypt,Manchester City,dob_and_name,50000000,2026-06-03
+p_egy_ramy_rabia_6e837348,Egypt,Ramy Rabia,1993-05-20,172623,Ramy Rabia,1993-05-20,Egypt,,dob_and_name,600000,2026-05-26
+p_egy_tarek_alaa_045a4f0c,Egypt,Tarek Alaa,2002-01-05,1087789,Tarek Alaa,2002-01-05,Egypt,,dob_and_name,,
+p_egy_yasser_ibrahim_41e0dcc2,Egypt,Yasser Ibrahim,1993-02-10,237425,Yasser Ibrahim,1993-02-10,Egypt,,dob_and_name,275000,2026-05-20
+p_eng_anthony_gordon_8d09374d,England,Anthony Gordon,2001-02-24,503733,Anthony Gordon,2001-02-24,England,Newcastle United,dob_and_name,65000000,2026-06-03
+p_eng_bukayo_saka_923ab09a,England,Bukayo Saka,2001-09-05,433177,Bukayo Saka,2001-09-05,England,Arsenal FC,dob_and_name,110000000,2026-06-03
+p_eng_dan_burn_d8767ec9,England,Dan Burn,1992-05-09,134270,Dan Burn,1992-05-09,England,Newcastle United,dob_and_name,4000000,2026-06-03
+p_eng_dean_henderson_3eb72332,England,Dean Henderson,1997-03-12,258919,Dean Henderson,1997-03-12,England,Crystal Palace,dob_and_name,28000000,2026-06-03
+p_eng_declan_rice_0ff1a845,England,Declan Rice,1999-01-14,357662,Declan Rice,1999-01-14,England,Arsenal FC,dob_and_name,120000000,2026-06-03
+p_eng_djed_spence_fb1412e0,England,Djed Spence,2000-08-09,483348,Djed Spence,2000-08-09,England,Tottenham Hotspur,dob_and_name,30000000,2026-06-03
+p_eng_eberechi_eze_f9407929,England,Eberechi Eze,1998-06-29,479999,Eberechi Eze,1998-06-29,England,Arsenal FC,dob_and_name,65000000,2026-06-03
+p_eng_elliot_anderson_bc282e95,England,Elliot Anderson,2002-11-06,567576,Elliot Anderson,2002-11-06,England,Nottingham Forest,dob_and_name,75000000,2026-06-03
+p_eng_ezri_konsa_f88a75d2,England,Ezri Konsa,1997-10-23,413403,Ezri Konsa,1997-10-23,England,Aston Villa,dob_and_name,40000000,2026-06-03
+p_eng_harry_kane_f79407ae,England,Harry Kane,1993-07-28,132098,Harry Kane,1993-07-28,England,Bayern Munich,dob_and_name,60000000,2026-05-27
+p_eng_ivan_toney_43d4768b,England,Ivan Toney,1996-03-16,251664,Ivan Toney,1996-03-16,England,Al-Ahli Saudi Football Club,dob_and_name,20000000,2026-06-04
+p_eng_james_trafford_92c6e207,England,James Trafford,2002-10-10,566799,James Trafford,2002-10-10,England,Manchester City,dob_and_name,25000000,2026-06-03
+p_eng_jarell_quansah_4880d329,England,Jarell Quansah,2003-01-29,632349,Jarell Quansah,2003-01-29,England,Bayer 04 Leverkusen,dob_and_name,45000000,2026-05-27
+p_eng_john_stones_67de16d3,England,John Stones,1994-05-28,186590,John Stones,1994-05-28,England,Manchester City,dob_and_name,12000000,2026-06-03
+p_eng_jordan_henderson_5b089a51,England,Jordan Henderson,1990-06-17,61651,Jordan Henderson,1990-06-17,England,Brentford FC,dob_and_name,1200000,2026-06-03
+p_eng_jordan_pickford_94fab51d,England,Jordan Pickford,1994-03-07,130164,Jordan Pickford,1994-03-07,England,Everton FC,dob_and_name,13000000,2026-06-03
+p_eng_jude_bellingham_2c8f4032,England,Jude Bellingham,2003-06-29,581678,Jude Bellingham,2003-06-29,England,Real Madrid,dob_and_name,130000000,2026-06-05
+p_eng_kobbie_mainoo_b235baec,England,Kobbie Mainoo,2005-04-19,820374,Kobbie Mainoo,2005-04-19,England,Manchester United,dob_and_name,70000000,2026-06-03
+p_eng_marc_guehi_fcc38a3b,England,Marc Guéhi,2000-07-13,392757,Marc Guéhi,2000-07-13,England,Manchester City,dob_and_name,70000000,2026-06-03
+p_eng_marcus_rashford_ce290c86,England,Marcus Rashford,1997-10-31,258923,Marcus Rashford,1997-10-31,England,FC Barcelona,dob_and_name,40000000,2026-06-05
+p_eng_morgan_rogers_a63d7ee3,England,Morgan Rogers,2002-07-26,503743,Morgan Rogers,2002-07-26,England,Aston Villa,dob_and_name,90000000,2026-06-03
+p_eng_nico_o_reilly_2dab2e0a,England,Nico O'Reilly,2005-03-21,743413,Nico O'Reilly,2005-03-21,England,Manchester City,dob_and_name,70000000,2026-06-03
+p_eng_noni_madueke_d8b245bd,England,Noni Madueke,2002-03-10,503987,Noni Madueke,2002-03-10,England,Arsenal FC,dob_and_name,50000000,2026-06-03
+p_eng_ollie_watkins_912d0ae6,England,Ollie Watkins,1995-12-30,324358,Ollie Watkins,1995-12-30,England,Aston Villa,dob_and_name,25000000,2026-06-03
+p_eng_reece_james_10c551ad,England,Reece James,1999-12-08,472423,Reece James,1999-12-08,England,Chelsea FC,dob_and_name,60000000,2026-06-03
+p_esp_alex_baena_bbaabdb8,Spain,Álex Baena,2001-07-20,548111,Álex Baena,2001-07-20,Spain,Atlético de Madrid,dob_and_name,40000000,2026-06-05
+p_esp_alex_grimaldo_380246b9,Spain,Álex Grimaldo,1995-09-20,193082,Alejandro Grimaldo,1995-09-20,Spain,Bayer 04 Leverkusen,dob_and_name,20000000,2026-05-27
+p_esp_aymeric_laporte_db4a868f,Spain,Aymeric Laporte,1994-05-27,176553,Aymeric Laporte,1994-05-27,Spain,Athletic Bilbao,dob_and_name,8000000,2026-06-05
+p_esp_borja_iglesias_a875a386,Spain,Borja Iglesias,1993-01-17,278359,Borja Iglesias,1993-01-17,Spain,Celta de Vigo,dob_and_name,2800000,2026-06-05
+p_esp_dani_olmo_d19ca454,Spain,Dani Olmo,1998-05-07,293385,Dani Olmo,1998-05-07,Spain,FC Barcelona,dob_and_name,60000000,2026-06-05
+p_esp_david_raya_c9061320,Spain,David Raya,1995-09-15,262749,David Raya,1995-09-15,Spain,Arsenal FC,dob_and_name,30000000,2026-06-03
+p_esp_eric_garcia_6bde2268,Spain,Eric García,2001-01-09,466794,Eric García,2001-01-09,Spain,FC Barcelona,dob_and_name,40000000,2026-06-05
+p_esp_fabian_ruiz_f77ab34e,Spain,Fabián Ruiz,1996-04-03,350219,Fabián Ruiz,1996-04-03,Spain,Paris Saint-Germain,dob_and_name,30000000,2026-06-01
+p_esp_ferran_torres_5f3e558c,Spain,Ferran Torres,2000-02-29,398184,Ferran Torres,2000-02-29,Spain,FC Barcelona,dob_and_name,50000000,2026-06-05
+p_esp_gavi_5005014c,Spain,Gavi,2004-08-05,646740,Gavi,2004-08-05,Spain,FC Barcelona,dob_and_name,30000000,2026-06-05
+p_esp_joan_garcia_bfb47d9e,Spain,Joan García,2001-05-04,561613,Joan García,2001-05-04,Spain,FC Barcelona,dob_and_name,45000000,2026-06-05
+p_esp_lamine_yamal_313dfbd9,Spain,Lamine Yamal,2007-07-13,937958,Lamine Yamal,2007-07-13,Spain,FC Barcelona,dob_and_name,200000000,2026-06-05
+p_esp_marc_cucurella_60ccd08a,Spain,Marc Cucurella,1998-07-22,284857,Marc Cucurella,1998-07-22,Spain,Chelsea FC,dob_and_name,50000000,2026-06-03
+p_esp_marc_pubill_d2a2e62e,Spain,Marc Pubill,2003-06-20,844637,Marc Pubill,2003-06-20,Spain,Atlético de Madrid,dob_and_name,35000000,2026-06-05
+p_esp_marcos_llorente_c1fec723,Spain,Marcos Llorente,1995-01-30,282411,Marcos Llorente,1995-01-30,Spain,Atlético de Madrid,dob_and_name,20000000,2026-06-05
+p_esp_martin_zubimendi_1b5ff566,Spain,Martín Zubimendi,1999-02-02,423440,Martín Zubimendi,1999-02-02,Spain,Arsenal FC,dob_and_name,75000000,2026-06-03
+p_esp_mikel_merino_3cd7ba0b,Spain,Mikel Merino,1996-06-22,338424,Mikel Merino,1996-06-22,Spain,Arsenal FC,dob_and_name,25000000,2026-06-03
+p_esp_mikel_oyarzabal_3a93b97f,Spain,Mikel Oyarzabal,1997-04-21,351478,Mikel Oyarzabal,1997-04-21,Spain,Real Sociedad,dob_and_name,25000000,2026-06-05
+p_esp_nico_williams_2f7f9310,Spain,Nico Williams,2002-07-12,709187,Nico Williams,2002-07-12,Spain,Athletic Bilbao,dob_and_name,40000000,2026-06-05
+p_esp_pau_cubarsi_18d80371,Spain,Pau Cubarsí,2007-01-22,962110,Pau Cubarsí,2007-01-22,Spain,FC Barcelona,dob_and_name,80000000,2026-06-05
+p_esp_pedri_2043861f,Spain,Pedri,2002-11-25,683840,Pedri,2002-11-25,Spain,FC Barcelona,dob_and_name,150000000,2026-06-05
+p_esp_pedro_porro_2809798d,Spain,Pedro Porro,1999-09-13,553875,Pedro Porro,1999-09-13,Spain,Tottenham Hotspur,dob_and_name,35000000,2026-06-03
+p_esp_rodri_ff6c7612,Spain,Rodri,1996-06-22,357565,Rodri,1996-06-22,Spain,Manchester City,dob_and_name,50000000,2026-06-03
+p_esp_unai_simon_0ed05794,Spain,Unai Simón,1997-06-11,262396,Unai Simón,1997-06-11,Spain,Athletic Bilbao,dob_and_name,22000000,2026-06-05
+p_esp_victor_munoz_222d24b5,Spain,Víctor Muñoz Villanueva,2003-07-13,935231,Víctor Muñoz,2003-07-13,Spain,CA Osasuna,dob_and_name,30000000,2026-06-05
+p_esp_yeremy_pino_6bc6c1eb,Spain,Yéremy Pino,2002-10-20,568157,Yéremy Pino,2002-10-20,Spain,Villarreal CF,dob_and_name,30000000,2026-06-03
+p_fra_adrien_rabiot_94aef8b8,France,Adrien Rabiot,1995-04-03,182913,Adrien Rabiot,1995-04-03,France,Olympique Marseille,dob_and_name,18000000,2026-05-29
+p_fra_aurelien_tchouameni_2623c307,France,Aurélien Tchouaméni,2000-01-27,413112,Aurélien Tchouaméni,2000-01-27,France,Real Madrid,dob_and_name,70000000,2026-06-05
+p_fra_bradley_barcola_9ed4efd7,France,Bradley Barcola,2002-09-02,708265,Bradley Barcola,2002-09-02,France,Paris Saint-Germain,dob_and_name,70000000,2026-06-01
+p_fra_brice_samba_0edb2cc4,France,Brice Samba,1994-04-25,191056,Brice Samba,1994-04-25,France,Stade Rennais FC,dob_and_name,7000000,2026-06-01
+p_fra_dayot_upamecano_a225089e,France,Dayot Upamecano,1998-10-27,344695,Dayot Upamecano,1998-10-27,France,Bayern Munich,dob_and_name,70000000,2026-05-27
+p_fra_desire_doue_a41bc652,France,Désiré Doué,2005-06-03,914562,Désiré Doué,2005-06-03,France,Paris Saint-Germain,dob_and_name,120000000,2026-06-01
+p_fra_ibrahima_konate_0aff16dd,France,Ibrahima Konaté,1999-05-25,357119,Ibrahima Konaté,1999-05-25,France,Liverpool FC,dob_and_name,45000000,2026-06-03
+p_fra_jean_philippe_mateta_8de3288c,France,Jean-Philippe Mateta,1997-06-28,420002,Jean-Philippe Mateta,1997-06-28,France,Crystal Palace,dob_and_name,30000000,2026-06-03
+p_fra_jules_kounde_38ff4e1e,France,Jules Koundé,1998-11-12,411975,Jules Koundé,1998-11-12,France,FC Barcelona,dob_and_name,60000000,2026-06-05
+p_fra_kylian_mbappe_5c8aecad,France,Kylian Mbappé,1998-12-20,342229,Kylian Mbappé,1998-12-20,France,Real Madrid,dob_and_name,180000000,2026-06-05
+p_fra_lucas_digne_c29d72a4,France,Lucas Digne,1993-07-20,126664,Lucas Digne,1993-07-20,France,Aston Villa,dob_and_name,6000000,2026-06-03
+p_fra_lucas_hernandez_0590c7c2,France,Lucas Hernández,1996-02-14,281963,Lucas Hernández,1996-02-14,France,Paris Saint-Germain,dob_and_name,18000000,2026-06-01
+p_fra_maghnes_akliouche_4775cb14,France,Maghnes Akliouche,2002-02-25,745200,Maghnes Akliouche,2002-02-25,France,AS Monaco,dob_and_name,50000000,2026-06-01
+p_fra_malo_gusto_a29e99b8,France,Malo Gusto,2003-05-19,620322,Malo Gusto,2003-05-19,France,Chelsea FC,dob_and_name,35000000,2026-06-03
+p_fra_manu_kone_f214de7a,France,Manu Koné,2001-05-17,624690,Manu Koné,2001-05-17,France,Associazione Sportiva Roma,dob_and_name,50000000,2026-05-29
+p_fra_marcus_thuram_e731d664,France,Marcus Thuram,1997-08-06,318528,Marcus Thuram,1997-08-06,France,Inter Milan,dob_and_name,50000000,2026-05-29
+p_fra_maxence_lacroix_af3dd6a0,France,Maxence Lacroix,2000-04-06,434224,Maxence Lacroix,2000-04-06,France,Crystal Palace,dob_and_name,50000000,2026-06-03
+p_fra_michael_olise_1b6b5e45,France,Michael Olise,2001-12-12,566723,Michael Olise,2001-12-12,France,Bayern Munich,dob_and_name,150000000,2026-05-27
+p_fra_mike_maignan_07745398,France,Mike Maignan,1995-07-03,182906,Mike Maignan,1995-07-03,France,AC Milan,dob_and_name,20000000,2026-05-29
+p_fra_n_golo_kante_d7ef4b21,France,N'Golo Kanté,1991-03-29,225083,N'Golo Kanté,1991-03-29,France,Fenerbahce,dob_and_name,4000000,2026-05-21
+p_fra_ousmane_dembele_7af030a3,France,Ousmane Dembélé,1997-05-15,288230,Ousmane Dembélé,1997-05-15,France,Paris Saint-Germain,dob_and_name,100000000,2026-06-01
+p_fra_rayan_cherki_8222a77c,France,Rayan Cherki,2003-08-17,607223,Rayan Cherki,2003-08-17,France,Manchester City,dob_and_name,90000000,2026-06-03
+p_fra_robin_risser_b7c52484,France,Robin Risser,2004-12-02,743515,Robin Risser,2004-12-02,France,RC Lens,dob_and_name,30000000,2026-06-01
+p_fra_theo_hernandez_9466bda3,France,Theo Hernández,1997-10-06,339808,Theo Hernández,1997-10-06,France,Al-Hilal Saudi Football Club,dob_and_name,20000000,2026-06-04
+p_fra_warren_zaire_emery_36ebe310,France,Warren Zaïre-Emery,2006-03-08,810092,Warren Zaïre-Emery,2006-03-08,France,Paris Saint-Germain,dob_and_name,80000000,2026-06-01
+p_fra_william_saliba_9577886c,France,William Saliba,2001-03-24,495666,William Saliba,2001-03-24,France,Arsenal FC,dob_and_name,100000000,2026-06-03
+p_ger_aleksandar_pavlovic_a9a7a401,Germany,Aleksandar Pavlovic,2004-05-03,792380,Aleksandar Pavlovic,2004-05-03,Germany,Bayern Munich,dob_and_name,90000000,2026-05-27
+p_ger_alexander_nubel_f6a121cf,Germany,Alexander Nübel,1996-09-30,195778,Alexander Nübel,1996-09-30,Germany,VfB Stuttgart,dob_and_name,12000000,2026-05-27
+p_ger_angelo_stiller_76abfc21,Germany,Angelo Stiller,2001-04-04,443710,Angelo Stiller,2001-04-04,Germany,VfB Stuttgart,dob_and_name,45000000,2026-05-27
+p_ger_antonio_rudiger_af855b19,Germany,Antonio Rüdiger,1993-03-03,86202,Antonio Rüdiger,1993-03-03,Germany,Real Madrid,dob_and_name,6000000,2026-06-05
+p_ger_david_raum_c3413a00,Germany,David Raum,1998-04-22,318204,David Raum,1998-04-22,Germany,RB Leipzig,dob_and_name,25000000,2026-05-27
+p_ger_deniz_undav_e68250a7,Germany,Deniz Undav,1996-07-19,339314,Deniz Undav,1996-07-19,Germany,VfB Stuttgart,dob_and_name,22000000,2026-05-27
+p_ger_felix_nmecha_c2161753,Germany,Felix Nmecha,2000-10-10,406640,Felix Nmecha,2000-10-10,Germany,Borussia Dortmund,dob_and_name,50000000,2026-05-27
+p_ger_florian_wirtz_f76adfaf,Germany,Florian Wirtz,2003-05-03,598577,Florian Wirtz,2003-05-03,Germany,Liverpool FC,dob_and_name,100000000,2026-06-03
+p_ger_jamal_musiala_2c7634e0,Germany,Jamal Musiala,2003-02-26,580195,Jamal Musiala,2003-02-26,Germany,Bayern Munich,dob_and_name,100000000,2026-05-27
+p_ger_jamie_leweling_39be0dc9,Germany,Jamie Leweling,2001-02-26,518505,Jamie Leweling,2001-02-26,Germany,VfB Stuttgart,dob_and_name,40000000,2026-05-27
+p_ger_jonathan_tah_1c697711,Germany,Jonathan Tah,1996-02-11,196357,Jonathan Tah,1996-02-11,Germany,Bayern Munich,dob_and_name,28000000,2026-05-27
+p_ger_joshua_kimmich_07cb499d,Germany,Joshua Kimmich,1995-02-08,161056,Joshua Kimmich,1995-02-08,Germany,Bayern Munich,dob_and_name,35000000,2026-05-27
+p_ger_kai_havertz_f326f9e3,Germany,Kai Havertz,1999-06-11,309400,Kai Havertz,1999-06-11,Germany,Arsenal FC,dob_and_name,55000000,2026-06-03
+p_ger_leon_goretzka_eb848a66,Germany,Leon Goretzka,1995-02-06,153084,Leon Goretzka,1995-02-06,Germany,Bayern Munich,dob_and_name,12000000,2026-05-27
+p_ger_leroy_sane_ae060795,Germany,Leroy Sané,1996-01-11,192565,Leroy Sané,1996-01-11,Germany,Galatasaray,dob_and_name,20000000,2026-05-21
+p_ger_malick_thiaw_532cd092,Germany,Malick Thiaw,2001-08-08,521964,Malick Thiaw,2001-08-08,Germany,Newcastle United,dob_and_name,45000000,2026-06-03
+p_ger_manuel_neuer_2b002102,Germany,Manuel Neuer,1986-03-27,17259,Manuel Neuer,1986-03-27,Germany,Bayern Munich,dob_and_name,4000000,2026-05-27
+p_ger_maximilian_beier_b5e59d4d,Germany,Maximilian Beier,2002-10-17,578392,Maximilian Beier,2002-10-17,Germany,Borussia Dortmund,dob_and_name,40000000,2026-05-27
+p_ger_nathaniel_brown_5c421f53,Germany,Nathaniel Brown,2003-06-16,691892,Nathaniel Brown,2003-06-16,Germany,Eintracht Frankfurt,dob_and_name,40000000,2026-05-27
+p_ger_nick_woltemade_2fd28776,Germany,Nick Woltemade,2002-02-14,455661,Nick Woltemade,2002-02-14,Germany,Newcastle United,dob_and_name,55000000,2026-06-03
+p_ger_nico_schlotterbeck_89a5b22b,Germany,Nico Schlotterbeck,1999-12-01,388198,Nico Schlotterbeck,1999-12-01,Germany,Borussia Dortmund,dob_and_name,55000000,2026-05-27
+p_ger_oliver_baumann_cf56c765,Germany,Oliver Baumann,1990-06-02,55089,Oliver Baumann,1990-06-02,Germany,TSG 1899 Hoffenheim,dob_and_name,2500000,2026-05-27
+p_ger_pascal_gross_1e084b77,Germany,Pascal Gross,1991-06-15,82873,Pascal Groß,1991-06-15,Germany,Borussia Dortmund,dob_and_name,2500000,2026-06-03
+p_ger_waldemar_anton_5a410767,Germany,Waldemar Anton,1996-07-20,193004,Waldemar Anton,1996-07-20,Germany,Borussia Dortmund,dob_and_name,18000000,2026-05-27
+p_gha_abdul_fatawu_issahaku_99eb1666,Ghana,Abdul Fatawu Issahaku,2004-03-08,864121,Abdul Fatawu,2004-03-08,Ghana,Leicester City,dob_and_name,20000000,2025-12-03
+p_gha_abdul_mumin_17e610bc,Ghana,Abdul Mumin,1998-06-06,451801,Abdul Mumin,1998-06-06,Ghana,Rayo Vallecano,dob_and_name,3000000,2026-06-05
+p_gha_alidu_seidu_bc358fed,Ghana,Alidu Seidu,2000-06-04,798404,Alidu Seidu,2000-06-04,Ghana,Stade Rennais FC,dob_and_name,6000000,2026-06-01
+p_gha_antoine_semenyo_22e4e850,Ghana,Antoine Semenyo,2000-01-07,583255,Antoine Semenyo,2000-01-07,Ghana,Manchester City,dob_and_name,80000000,2026-06-03
+p_gha_augustine_boakye_e06d4e69,Ghana,Augustine Boakye,2000-11-03,579263,Augustine Boakye,2000-11-03,Ghana,AS Saint-Étienne,dob_and_name,4000000,2025-12-11
+p_gha_baba_abdul_rahman_b5539bc9,Ghana,Baba Abdul Rahman,1994-07-02,224884,Abdul Rahman Baba,1994-07-02,Ghana,Panthessalonikios Athlitikos Omilos Konstantinoupoliton,dob_and_name,2000000,2026-06-04
+p_gha_benjamin_asare_6451594e,Ghana,Benjamin Asare,1992-01-01,837368,Benjamin Asare,1992-07-13,Ghana,,dob_and_name,,
+p_gha_brandon_thomas_asante_a966ba92,Ghana,Brandon Thomas-Asante,1999-12-29,451747,Brandon Thomas-Asante,1998-12-29,Ghana,,dob_and_name,,
+p_gha_caleb_yirenkyi_6e914fa8,Ghana,Caleb Yirenkyi,2006-01-15,1240763,Caleb Yirenkyi,2006-01-15,Ghana,FC Nordsjaelland,dob_and_name,10000000,2026-05-25
+p_gha_christopher_bonsu_baah_6f0ce58c,Ghana,Christopher Bonsu Baah,2004-12-14,1119447,Christopher Bonsu Baah,2004-12-14,Ghana,Al-Qadsiah Saudi Football Club,dob_and_name,14000000,2026-06-04
+p_gha_derrick_luckassen_12598b8a,Ghana,Derrick Luckassen,1995-07-03,241457,Derrick Luckassen,1995-07-03,Netherlands,PSV Eindhoven,dob_and_name,1200000,2023-05-29
+p_gha_elisha_owusu_142f6789,Ghana,Elisha Owusu,1997-11-07,395695,Elisha Owusu,1997-11-07,Ghana,AJ Auxerre,dob_and_name,4000000,2026-06-01
+p_gha_ernest_nuamah_78040df4,Ghana,Ernest Nuamah,2003-11-01,955070,Ernest Nuamah,2003-11-01,Ghana,Olympique Lyon,dob_and_name,10000000,2026-06-01
+p_gha_gideon_mensah_65d119e6,Ghana,Gideon Mensah,1998-07-18,397171,Gideon Mensah,1998-07-18,Ghana,AJ Auxerre,dob_and_name,4000000,2026-06-01
+p_gha_inaki_williams_67f9e88d,Ghana,Iñaki Williams,1994-06-15,255508,Iñaki Williams,1994-06-15,Ghana,Athletic Bilbao,dob_and_name,8000000,2026-06-05
+p_gha_jerome_opoku_75d9830b,Ghana,Jerome Opoku,1998-10-14,408563,Jerome Opoku,1998-10-14,Ghana,Basaksehir FK,dob_and_name,5000000,2026-05-21
+p_gha_jonas_adjetey_bec8dfa5,Ghana,Jonas Adjetey,2003-12-13,734676,Jonas Adjetey,2003-12-13,Ghana,FC Basel 1893,dob_and_name,6000000,2026-05-27
+p_gha_jordan_ayew_fe021acd,Ghana,Jordan Ayew,1991-09-11,108354,Jordan Ayew,1991-09-11,Ghana,Leicester City,dob_and_name,1800000,2025-12-03
+p_gha_joseph_anang_0dbb73df,Ghana,Joseph Anang,2000-06-08,576099,Joseph Anang,2000-06-08,Ghana,,dob_and_name,350000,2026-06-10
+p_gha_kamal_deen_sulemana_5806821c,Ghana,Kamal Deen Sulemana,2002-02-15,746695,Kamaldeen Sulemana,2002-02-15,Ghana,Atalanta BC,dob_and_name,17000000,2026-05-29
+p_gha_kojo_oppong_peprah_565abb15,Ghana,Kojo Oppong Peprah,2004-06-04,1113451,Kojo Peprah Oppong,2004-06-04,Ghana,OGC Nice,dob_and_name,10000000,2026-06-01
+p_gha_kwasi_sibo_5217bbfe,Ghana,Kwasi Sibo,1998-06-24,538006,Kwasi Sibo,1998-06-24,Ghana,Real Oviedo,dob_and_name,1400000,2026-06-05
+p_gha_lawrence_ati_zigi_050bf0e0,Ghana,Lawrence Ati-Zigi,1996-11-29,254285,Lawrence Ati Zigi,1996-11-29,Ghana,FC St. Gallen 1879,dob_and_name,1500000,2026-06-02
+p_gha_marvin_senaya_73ba140e,Ghana,Marvin Senaya,2001-01-28,830890,Marvin Senaya,2001-01-28,Ghana,AJ Auxerre,dob_and_name,3000000,2026-06-01
+p_gha_prince_kwabena_adu_8305cf1e,Ghana,Prince Kwabena Adu,2003-09-23,734799,Prince Adu,2003-09-23,Ghana,FC Viktoria Plzen,dob_and_name,3000000,2026-05-20
+p_gha_thomas_partey_36a320fc,Ghana,Thomas Partey,1993-06-13,230784,Thomas Partey,1993-06-13,Ghana,Villarreal CF,dob_and_name,2000000,2026-06-05
+p_hai_alexandre_pierre_10ace7cc,Haiti,Alexandre Pierre,2001-02-25,838947,Alexandre Pierre,2001-02-25,Haiti,FC Sochaux-Montbéliard,dob_and_name,100000,2024-06-03
+p_hai_carl_fred_sainte_85af76c4,Haiti,Carl Fred Sainté,2002-08-09,718244,Carl Sainté,2002-08-09,Haiti,,dob_and_name,,
+p_hai_carlens_arcus_602059bc,Haiti,Carlens Arcus,1996-06-28,371686,Carlens Arcus,1996-06-28,Haiti,Angers SCO,dob_and_name,1800000,2026-06-01
+p_hai_danley_jean_jacques_e7ae4eb9,Haiti,Danley Jean Jacques,2000-05-20,628834,Danley Jean Jacques,2000-05-20,Haiti,Philadelphia Union,dob_and_name,3000000,2026-06-02
+p_hai_derrick_etienne_76db4655,Haiti,Derrick Etienne Jr.,1996-11-25,354763,Derrick Etienne Jr.,1996-11-25,Haiti,Toronto FC,dob_and_name,800000,2026-06-02
+p_hai_dominique_simon_5a5018b5,Haiti,Dominique Simon,2000-07-29,988188,Dominique Simon,2000-07-29,Haiti,FK Pardubice,dob_and_name,,
+p_hai_don_deedson_louicius_d86d7de3,Haiti,Don Deedson Louicius,2001-02-11,646108,Louicius Deedson,2001-02-11,Haiti,FC Dallas,dob_and_name,1200000,2026-06-02
+p_hai_duckens_nazon_3c6b6667,Haiti,Duckens Nazon,1994-04-07,345763,Duckens Nazon,1994-04-07,Haiti,,dob_and_name,1600000,2024-05-31
+p_hai_duke_lacroix_a6b39e89,Haiti,Duke Lacroix,1993-10-14,375472,Duke Lacroix,1993-10-14,Haiti,,dob_and_name,,
+p_hai_frantzdy_pierrot_7ab97ac9,Haiti,Frantzdy Pierrot,1995-03-29,492955,Frantzdy Pierrot,1995-03-29,Haiti,Athlitiki Enosi Konstantinoupoleos,dob_and_name,1500000,2026-05-21
+p_hai_hannes_delcroix_a05d11fc,Haiti,Hannes Delcroix,1999-02-28,338635,Hannes Delcroix,1999-02-28,Haiti,FC Lugano,dob_and_name,2000000,2026-06-02
+p_hai_jean_kevin_duverne_214b51da,Haiti,Jean-Kévin Duverne,1997-07-12,344864,Jean-Kévin Duverne,1997-07-12,Haiti,KAA Gent,dob_and_name,2000000,2026-06-04
+p_hai_jean_ricner_bellegarde_b7f84448,Haiti,Jean-Ricner Bellegarde,1998-06-27,450050,Jean-Ricner Bellegarde,1998-06-27,Haiti,Wolverhampton Wanderers,dob_and_name,16000000,2026-06-03
+p_hai_johny_placide_5b55b6a8,Haiti,Johny Placide,1988-01-29,51035,Johny Placide,1988-01-29,Haiti,SC Bastia,dob_and_name,250000,2023-06-16
+p_hai_josue_casimir_4fc2ea5d,Haiti,Josué Casimir,2001-09-24,763182,Josué Casimir,2001-09-24,Haiti,AJ Auxerre,dob_and_name,3000000,2026-06-01
+p_hai_josue_duverger_59879619,Haiti,Josue Duverger,2000-04-27,490369,Josué Duverger,2000-04-27,Haiti,,dob_and_name,,
+p_hai_keeto_thermoncy_1ca5b6a8,Haiti,Keeto Thermoncy,2006-03-29,1061046,Keeto Thermoncy,2006-03-29,Haiti,BSC Young Boys,dob_and_name,,
+p_hai_lenny_joseph_6ba48cca,Haiti,Lenny Joseph,2000-10-12,815359,Lenny Joseph,2000-10-12,France,FC Metz,dob_and_name,500000,2023-10-27
+p_hai_martin_experience_fa6fe29c,Haiti,Martin Expérience,1998-03-09,804885,Martin Expérience,1999-03-09,Haiti,AS Nancy-Lorraine,dob_and_name,,
+p_hai_ricardo_ade_61845ffb,Haiti,Ricardo Adé,1990-05-21,278145,Ricardo Adé,1990-05-21,Haiti,,dob_and_name,,
+p_hai_ruben_providence_a6120264,Haiti,Ruben Providence,2001-07-07,536520,Ruben Providence,2001-07-07,Haiti,Almere City FC,dob_and_name,300000,2025-12-16
+p_hai_wilguens_paugain_2d2cf476,Haiti,Wilguens Paugain,2001-08-24,609691,Wilguens Paugain,2001-08-24,Haiti,Zulte Waregem,dob_and_name,800000,2026-06-04
+p_hai_wilson_isidor_f5f75d6e,Haiti,Wilson Isidor,2000-08-27,494237,Wilson Isidor,2000-08-27,Haiti,Sunderland AFC,dob_and_name,18000000,2026-06-03
+p_hai_woodensky_pierre_4d67f86b,Haiti,Woodensky Pierre,2004-12-30,,,,,,none,,
+p_hai_yassin_fortune_833632c6,Haiti,Yassin Fortuné,1999-01-30,342878,Yassin Fortuné,1999-01-30,Haiti,FC Vizela,dob_and_name,400000,2024-06-06
+p_irn_ali_alipour_660cfb24,Iran,Ali Alipour,1995-11-11,249360,Ali Alipour,1995-11-11,Iran,,dob_and_name,1700000,2026-05-21
+p_irn_ali_nemati_omid_noorafkan_f6768b31,Iran,Ali Nemati,1996-02-08,,,,,,none,,
+p_irn_alireza_beiranvand_c79fbeca,Iran,Alireza Beiranvand,1992-09-22,229081,Alireza Beiranvand,1992-09-21,Iran,,dob_and_name,1200000,2023-11-28
+p_irn_alireza_jahanbakhsh_5432b448,Iran,Alireza Jahanbakhsh,1993-08-11,213268,Alireza Jahanbakhsh,1993-08-11,Iran,FCV Dender EH,dob_and_name,500000,2026-06-04
+p_irn_amir_mohammad_razzaghinia_90e7272b,Iran,Amir Mohammad Razzaghinia,2006-04-11,1051591,Amirmohammad Razzaghinia,2006-04-11,Iran,,dob_and_name,,
+p_irn_amirhossein_hosseinzadeh_5e0318a3,Iran,Amirhossein Hosseinzadeh,2000-10-30,542380,Amirhossein Hosseinzadeh,2000-10-30,Iran,,dob_and_name,2200000,2026-05-21
+p_irn_aria_yousefi_f95f0ba9,Iran,Aria Yousefi,2002-04-22,932724,Arya Yousefi,2002-04-22,Iran,,dob_and_name,,
+p_irn_danial_eiri_b3eb89cf,Iran,Danial Eiri,2003-10-26,1080301,Danial Eiri,2003-10-26,Iran,,dob_and_name,,
+p_irn_dennis_dargahi_5584fc55,Iran,Dennis Dargahi,1997-01-09,249303,Dennis Eckert Ayensa,1997-01-09,Iran,Standard Liège,dob_citizenship_and_club,2000000,2026-06-04
+p_irn_ehsan_hajsafi_a5b31104,Iran,Ehsan Hajsafi,1990-02-25,77547,Ehsan Hajsafi,1990-02-25,Iran,,dob_and_name,275000,2025-12-08
+p_irn_hossein_hosseini_f21beeb8,Iran,Hossein Hosseini,1992-06-30,132561,Seyed Hossein Hosseini,1992-06-30,Iran,,dob_and_name,,
+p_irn_hossein_kanaani_9363e09c,Iran,Hossein Kanaani,1994-03-23,249400,Hossein Kanaani,1994-03-23,Iran,,dob_and_name,,
+p_irn_mehdi_ghaedi_1f0fa314,Iran,Mehdi Ghaedi,1998-12-05,478192,Mehdi Ghayedi,1998-12-05,Iran,,dob_and_name,4500000,2026-05-26
+p_irn_mehdi_taremi_38334e38,Iran,Mehdi Taremi,1992-07-18,307058,Mehdi Taremi,1992-07-18,Iran,Olympiakos Syndesmos Filathlon Peiraios,dob_and_name,2000000,2026-06-04
+p_irn_mehdi_torabi_09cc5558,Iran,Mehdi Torabi,1994-09-10,283833,Mehdi Torabi,1994-09-10,Iran,,dob_and_name,,
+p_irn_milad_mohammadi_2ae110d5,Iran,Milad Mohammadi,1993-09-29,333355,Milad Mohammadi,1993-09-29,Iran,,dob_and_name,1300000,2024-05-31
+p_irn_mohammad_ghorbani_68ed5ab8,Iran,Mohammad Ghorbani,2001-10-07,,,,,,none,,
+p_irn_mohammad_mohebi_636fdb33,Iran,Mohammad Mohebi,1998-12-20,603149,Mohammad Mohebi,1998-12-20,Iran,FK Rostov,dob_and_name,2500000,2026-05-26
+p_irn_payam_niazmand_de771085,Iran,Payam Niazmand,1995-04-06,343044,Payam Niazmand,1995-04-06,Iran,,dob_and_name,750000,2023-11-28
+p_irn_ramin_rezaeian_8c480a56,Iran,Ramin Rezaeian,1990-03-21,188312,Ramin Rezaeian,1990-03-21,Iran,,dob_and_name,250000,2026-05-21
+p_irn_rouzbeh_cheshmi_d28eefb8,Iran,Rouzbeh Cheshmi,1993-07-24,273879,Roozbeh Cheshmi,1993-07-24,Iran,,dob_and_name,,
+p_irn_saeid_ezatolahi_824242af,Iran,Saeid Ezatolahi,1996-10-01,249271,Saeed Ezatolahi,1996-10-01,Iran,,dob_and_name,900000,2024-06-03
+p_irn_saleh_hardani_78f246fd,Iran,Saleh Hardani,1996-09-14,697155,Saleh Hardani,1998-12-26,Iran,,dob_and_name,,
+p_irn_saman_ghoddos_7f5156ee,Iran,Saman Ghoddos,1993-09-06,204294,Saman Ghoddos,1993-09-06,Iran,,dob_and_name,2000000,2024-05-27
+p_irn_shoka_khalilzadeh_f59e2ea0,Iran,Shoka Khalilzadeh,1989-05-14,213715,Shoja Khalilzadeh,1989-05-14,Iran,,dob_and_name,,
+p_irq_ahmed_basil_cdcfe125,Iraq,Ahmed Basil,1996-08-19,560952,Ahmed Basil Fadhil,1996-08-19,Iraq,,dob_and_name,450000,2026-06-03
+p_irq_ahmed_qasim_8d813506,Iraq,Ahmed Qasim,2003-07-12,833817,Ahmed Qasem,2003-07-12,Iraq,Nashville SC,dob_and_name,3500000,2026-06-02
+p_irq_aimar_sher_3a79fb7b,Iraq,Aimar Sher,2002-12-20,579294,Aimar Sher,2002-12-20,Iraq,Sarpsborg 08 Fotballforening,dob_and_name,1500000,2026-05-28
+p_irq_akam_hashem_b16f6ebd,Iraq,Akam Hashem,1998-08-16,933541,Akam Hashem,1998-08-16,Iraq,,dob_and_name,700000,2026-06-03
+p_irq_ali_al_hamadi_5f405fcb,Iraq,Ali Al-Hamadi,2002-03-01,610581,Ali Al-Hamadi,2002-03-01,Iraq,Luton Town,dob_and_name,1500000,2026-05-12
+p_irq_ali_jasim_ae580daa,Iraq,Ali Jasim,2004-01-20,877672,Ali Jasim,2004-01-20,Iraq,Al-Najma Sport Club,dob_and_name,500000,2026-06-04
+p_irq_ali_yousif_6a20f1d1,Iraq,Ali Yousif,1996-01-19,576265,Ali Yousif,1996-01-19,Iraq,,dob_and_name,200000,2026-06-03
+p_irq_amir_al_ammari_558241ed,Iraq,Amir Al-Ammari,1997-07-27,303766,Amir Al-Ammari,1997-07-27,Iraq,Cracovia,dob_and_name,1000000,2026-06-04
+p_irq_aymen_hussein_9b6a0747,Iraq,Aymen Hussein,1996-03-22,401054,Aymen Hussein,1996-03-22,Iraq,,dob_and_name,400000,2026-06-03
+p_irq_fahad_talib_c28c0429,Iraq,Fahad Talib,1994-10-21,377268,Fahad Talib,1994-10-21,Iraq,,dob_and_name,375000,2026-06-03
+p_irq_frans_putros_885f98d6,Iraq,Frans Putros,1993-07-14,166460,Frans Dhia Putros,1993-07-14,Iraq,,dob_and_name,325000,2026-05-27
+p_irq_hussein_ali_529d4879,Iraq,Hussein Ali,2002-03-01,585325,Hussein Ali,2002-03-01,Iraq,Pogon Szczecin,dob_and_name,400000,2026-06-04
+p_irq_ibrahim_bayesh_14f10c39,Iraq,Ibrahim Bayesh,2000-05-01,560957,Ibrahim Bayesh,2000-05-01,Iraq,Al-Riyadh Saudi Club,dob_and_name,800000,2026-05-26
+p_irq_jalal_hassan_4f8cd40c,Iraq,Jalal Hassan,1991-05-18,206782,Jalal Hassan,1991-05-18,Iraq,,dob_and_name,250000,2026-06-03
+p_irq_kevin_yakob_a1bd8110,Iraq,Kevin Yakob,2000-10-10,413268,Kevin Yakob,2000-10-10,Iraq,Aarhus GF,dob_and_name,850000,2026-05-25
+p_irq_manaf_younis_460d1a76,Iraq,Manaf Younis,1996-12-29,945266,Manaf Younis,1996-11-16,Iraq,,dob_and_name,300000,2026-06-03
+p_irq_marko_farji_55da3fb3,Iraq,Marko Farji,2004-03-16,663153,Marko Farji,2004-03-16,Iraq,Venezia FC,dob_and_name,1700000,2026-06-04
+p_irq_merchas_doski_a5061488,Iraq,Merchas Doski,1999-12-07,530527,Merchas Doski,1999-12-07,Iraq,FC Viktoria Plzen,dob_and_name,1700000,2026-05-20
+p_irq_mohanad_ali_41068002,Iraq,Mohanad Ali,2000-06-20,589646,Mohanad Ali,2000-06-20,Iraq,,dob_and_name,1200000,2026-05-26
+p_irq_mustafa_saadoon_99731d3e,Iraq,Mustafa Saadoon,2001-05-25,952341,Mustafa Saadoon,2001-05-25,Iraq,,dob_and_name,350000,2026-06-03
+p_irq_rebin_sulaka_fedaefe9,Iraq,Rebin Sulaka,1992-04-12,217073,Rebin Sulaka,1992-04-12,Iraq,,dob_and_name,100000,2026-05-15
+p_irq_youssef_amyn_d351b42a,Iraq,Youssef Amyn,2003-08-21,684307,Youssef Amyn,2003-08-21,Iraq,,dob_and_name,550000,2026-06-02
+p_irq_zaid_ismail_8b92e738,Iraq,Zaid Ismail,2002-01-03,1132850,Zaid Ismail,2002-01-03,Iraq,,dob_and_name,500000,2026-06-03
+p_irq_zaid_tahseen_3653fad0,Iraq,Zaid Tahseen,2001-01-29,931147,Zaid Tahseen,2001-01-29,Iraq,,dob_and_name,600000,2026-05-13
+p_irq_zidane_iqbal_f6585c9f,Iraq,Zidane Iqbal,2003-04-27,686845,Zidane Iqbal,2003-04-27,Iraq,FC Utrecht,dob_and_name,1000000,2026-05-21
+p_jor_abdallah_al_fakhouri_696806b1,Jordan,Abdallah Al-Fakhouri,2000-02-22,658805,Abdallah Al-Fakhouri,2000-01-22,Jordan,,dob_and_name,250000,2026-06-03
+p_jor_abdallah_nasib_57f7fc96,Jordan,Abdallah Nasib,1994-02-25,882197,Abdallah Nasib,1994-02-25,Jordan,,dob_and_name,400000,2026-06-03
+p_jor_ali_azaizeh_d554394b,Jordan,Ali Azaizeh,2004-04-13,1059056,Ali Azaizeh,2004-04-13,Jordan,Al-Shabab Club,dob_and_name,325000,2026-06-04
+p_jor_ali_olwan_f44740f2,Jordan,Ali Olwan,2000-03-26,664057,Ali Olwan,2000-03-26,Jordan,,dob_and_name,800000,2026-05-14
+p_jor_amer_jamous_4ee15382,Jordan,Amer Jamous,2002-07-03,744040,Amer Jamous,2002-07-03,Jordan,,dob_and_name,500000,2026-06-03
+p_jor_anas_badawi_a40ec56c,Jordan,Anas Badawi,1997-09-13,1378902,Anas Badawi,1997-09-13,Jordan,,dob_and_name,,
+p_jor_husam_abu_dahab_8f755201,Jordan,Husam Abu Dahab,2000-05-13,895291,Husam Abu Dahab,2000-05-13,Jordan,,dob_and_name,350000,2026-06-03
+p_jor_ibrahim_sadeh_98980a9c,Jordan,Ibrahim Sadeh,2000-04-27,709974,Ibrahim Saadeh,2000-04-27,Jordan,,dob_and_name,500000,2026-06-03
+p_jor_ihsan_haddad_f173de07,Jordan,Ihsan Haddad,1994-02-05,310943,Ehsan Haddad,1994-02-05,Jordan,,dob_and_name,300000,2026-06-03
+p_jor_mahmoud_al_mardi_0339d694,Jordan,Mahmoud Al-Mardi,1993-10-06,401086,Mahmoud Al-Mardi,1993-10-06,Jordan,,dob_and_name,350000,2026-06-03
+p_jor_mohammad_abualnadi_553267b7,Jordan,Mohammad Abualnadi,2001-02-08,658052,Mohammad Abualnadi,2001-02-08,Jordan,,dob_and_name,350000,2026-06-05
+p_jor_mohammed_abu_hashish_e028ec54,Jordan,Mohammed Abu Hashish,1995-05-09,895249,Mohammad Abu Hasheesh,1995-05-09,Jordan,,dob_and_name,400000,2026-06-03
+p_jor_mohammed_abu_zrayq_41a4f9c2,Jordan,Mohammed Abu Zrayq,1997-12-30,,,,,,none,,
+p_jor_mohammed_al_dawoud_eaaa3401,Jordan,Mohammed Al-Dawoud,1992-04-12,,,,,,none,,
+p_jor_mohannad_abu_taha_de1d1fe2,Jordan,Mohannad Abu Taha,2003-02-02,883111,Mohannad Abu Taha,2003-02-02,Jordan,,dob_and_name,550000,2026-06-03
+p_jor_mousa_al_tamari_3a38c926,Jordan,Mousa Al-Tamari,1997-06-10,551505,Mousa Tamari,1997-06-10,Jordan,Stade Rennais FC,dob_and_name,10000000,2026-06-01
+p_jor_nizar_al_rashdan_6484db9b,Jordan,Nizar Al-Rashdan,1999-03-23,734751,Nizar Al-Rashdan,1999-03-23,Jordan,,dob_and_name,600000,2026-05-14
+p_jor_noor_al_rawabdeh_6dbad9db,Jordan,Noor Al-Rawabdeh,1997-02-24,561485,Noor Al-Rawabdeh,1997-02-24,Jordan,,dob_and_name,500000,2026-06-05
+p_jor_nour_bani_attiah_4ddf85a1,Jordan,Nour Bani Attiah,1993-01-25,,,,,,none,,
+p_jor_odeh_al_fakhouri_753f9683,Jordan,Odeh Al-Fakhouri,2005-11-20,1252820,Odeh Fakhoury,2005-11-20,Jordan,,dob_and_name,350000,2026-05-20
+p_jor_rajaei_ayed_3ba0a1a9,Jordan,Rajaei Ayed,1993-07-25,261842,Rajaei Ayed,1993-07-25,Jordan,,dob_and_name,325000,2026-06-03
+p_jor_saed_al_rosan_7aa756f3,Jordan,Saed Al-Rosan,1997-02-01,561481,Saed Al-Rosan,1997-02-01,Jordan,,dob_and_name,450000,2026-06-03
+p_jor_saleem_obaid_2fc34ef8,Jordan,Saleem Obaid,1992-01-17,658807,Saleem Obaid,1992-01-17,Jordan,,dob_and_name,100000,2026-06-03
+p_jor_yazan_al_arab_0aee9fd8,Jordan,Yazan Al-Arab,1996-01-31,539961,Yazan Al-Arab,1996-01-31,Jordan,Football Club Seoul,dob_and_name,1000000,2026-05-21
+p_jor_yazid_abulaila_b5866197,Jordan,Yazeed Abulaila,1993-01-08,261850,Yazeed Abulaila,1993-01-08,Jordan,,dob_and_name,300000,2026-06-03
+p_jpn_ao_tanaka_53e245d5,Japan,Ao Tanaka,1998-09-10,489359,Ao Tanaka,1998-09-10,Japan,Leeds United,dob_and_name,13000000,2026-06-03
+p_jpn_ayase_ueda_f7cf1aea,Japan,Ayase Ueda,1998-08-28,589128,Ayase Ueda,1998-08-28,Japan,Feyenoord Rotterdam,dob_and_name,17000000,2026-05-28
+p_jpn_ayumu_seko_70bee5b0,Japan,Ayumu Seko,2000-06-07,405389,Ayumu Seko,2000-06-07,Japan,Le Havre AC,dob_and_name,5000000,2026-06-01
+p_jpn_daichi_kamada_253f8216,Japan,Daichi Kamada,1996-08-05,356141,Daichi Kamada,1996-08-05,Japan,Crystal Palace,dob_and_name,10000000,2026-06-03
+p_jpn_daizen_maeda_5a563a7e,Japan,Daizen Maeda,1997-10-20,420931,Daizen Maeda,1997-10-20,Japan,Celtic FC,dob_and_name,13000000,2026-05-20
+p_jpn_hiroki_ito_752d0a2f,Japan,Hiroki Itō,1999-05-12,353892,Hiroki Ito,1999-05-12,Japan,Bayern Munich,dob_and_name,18000000,2026-05-27
+p_jpn_junnosuke_suzuki_58362bee,Japan,Junnosuke Suzuki,2003-07-12,848856,Junnosuke Suzuki,2003-07-12,Japan,FC Copenhagen,dob_and_name,3500000,2026-05-25
+p_jpn_junya_ito_e84750d1,Japan,Junya Ito,1993-03-09,348791,Junya Ito,1993-03-09,Japan,KRC Genk,dob_and_name,3000000,2026-06-04
+p_jpn_kaishu_sano_10750420,Japan,Kaishu Sano,2000-12-30,643574,Kaishu Sano,2000-12-30,Japan,1.FSV Mainz 05,dob_and_name,40000000,2026-05-27
+p_jpn_keisuke_goto_3f36ef1c,Japan,Keisuke Goto,2005-06-03,916623,Keisuke Goto,2005-06-03,Japan,Sint-Truidense VV,dob_and_name,10000000,2026-06-04
+p_jpn_keisuke_osako_73c87d06,Japan,Keisuke Osako,1999-07-28,415521,Keisuke Osako,1999-07-28,Japan,Sanfrecce Hiroshima,dob_and_name,2000000,2026-06-03
+p_jpn_keito_nakamura_9cd7b0ff,Japan,Keito Nakamura,2000-07-28,405397,Keito Nakamura,2000-07-28,Japan,Stade Reims,dob_and_name,10000000,2026-05-26
+p_jpn_kento_shiogai_cbbc75e1,Japan,Kento Shiogai,2005-03-26,1144627,Kento Shiogai,2005-03-26,Japan,NEC Nijmegen,dob_and_name,8000000,2026-05-27
+p_jpn_ko_itakura_4205049b,Japan,Ko Itakura,1997-01-27,355816,Ko Itakura,1997-01-27,Japan,Ajax Amsterdam,dob_and_name,8000000,2026-05-28
+p_jpn_koki_ogawa_d27941e4,Japan,Koki Ogawa,1997-08-08,351567,Koki Ogawa,1997-08-08,Japan,NEC Nijmegen,dob_and_name,2000000,2026-05-28
+p_jpn_ritsu_doan_98daeb30,Japan,Ritsu Doan,1998-06-16,358504,Ritsu Doan,1998-06-16,Japan,Eintracht Frankfurt,dob_and_name,17000000,2026-05-27
+p_jpn_shogo_taniguchi_5fd03d6e,Japan,Shogo Taniguchi,1991-07-15,307870,Shogo Taniguchi,1991-07-15,Japan,Sint-Truidense VV,dob_and_name,750000,2026-06-04
+p_jpn_takefusa_kubo_c7cec035,Japan,Takefusa Kubo,2001-06-04,405398,Takefusa Kubo,2001-06-04,Japan,Real Sociedad,dob_and_name,20000000,2026-06-05
+p_jpn_takehiro_tomiyasu_06590bf8,Japan,Takehiro Tomiyasu,1998-11-05,331560,Takehiro Tomiyasu,1998-11-05,Japan,Ajax Amsterdam,dob_and_name,5000000,2026-05-28
+p_jpn_tomoki_hayakawa_77526c2f,Japan,Tomoki Hayakawa,1999-03-03,683271,Tomoki Hayakawa,1999-03-03,Japan,Kashima Antlers FC,dob_and_name,2000000,2026-06-03
+p_jpn_tsuyoshi_watanabe_898d98e8,Japan,Tsuyoshi Watanabe,1997-02-05,598791,Tsuyoshi Watanabe,1997-02-05,Japan,Feyenoord Rotterdam,dob_and_name,10000000,2026-05-28
+p_jpn_yuito_suzuki_8b1fdd20,Japan,Yuito Suzuki,2001-10-25,668606,Yuito Suzuki,2001-10-25,Japan,SC Freiburg,dob_and_name,24000000,2026-05-27
+p_jpn_yukinari_sugawara_42fed6b2,Japan,Yukinari Sugawara,2000-06-28,405385,Yukinari Sugawara,2000-06-28,Japan,SV Werder Bremen,dob_and_name,5500000,2026-05-27
+p_jpn_yuto_nagatomo_3be35d13,Japan,Yūto Nagatomo,1986-09-12,79522,Yuto Nagatomo,1986-09-12,Japan,Tokyo Football Club,dob_and_name,100000,2026-06-03
+p_jpn_zion_suzuki_96139af4,Japan,Zion Suzuki,2002-08-21,432298,Zion Suzuki,2002-08-21,Japan,Parma Calcio 1913,dob_and_name,20000000,2026-05-29
+p_kor_bae_jun_ho_34d1ebbc,South Korea,Bae Jun-Ho,2003-08-21,912081,Jun-ho Bae,2003-08-21,"Korea, South",Stoke City,dob_and_name,4000000,2026-05-28
+p_kor_cho_kyu_sung_4b336066,South Korea,Cho Gue-sung,1998-01-25,652537,Gue-sung Cho,1998-01-25,"Korea, South",FC Midtjylland,dob_and_name,2500000,2026-05-25
+p_kor_hwang_hee_chan_fd18ecac,South Korea,Hwang Hee-Chan,1996-01-26,292246,Hee-chan Hwang,1996-01-26,"Korea, South",Wolverhampton Wanderers,dob_and_name,6000000,2026-06-03
+p_kor_hwang_in_beom_3d141c5e,South Korea,Hwang In-Beom,1996-09-20,365394,In-beom Hwang,1996-09-20,"Korea, South",Feyenoord Rotterdam,dob_and_name,7000000,2026-05-28
+p_kor_jens_castrop_cabd9e74,South Korea,Jens Castrop,2003-07-29,613192,Jens Castrop,2003-07-29,"Korea, South",Borussia Mönchengladbach,dob_and_name,10000000,2026-05-27
+p_kor_jo_hyun_woo_0fadb509,South Korea,Jo Hyeon-woo,1991-09-25,260171,Hyeon-woo Jo,1991-09-25,"Korea, South",Ulsan Hyundai Football Club,dob_and_name,650000,2026-05-21
+p_kor_kim_jin_kyu_31f94043,South Korea,Kim Jin-gyu,1997-02-24,365377,Jin-gyu Kim,1997-02-24,"Korea, South",Jeonbuk Hyundai Motors,dob_and_name,1200000,2026-05-21
+p_kor_kim_min_jae_309bd5fe,South Korea,Kim Min-jae,1996-11-15,503482,Min-jae Kim,1996-11-15,"Korea, South",Bayern Munich,dob_and_name,20000000,2026-05-27
+p_kor_kim_moon_hwan_5dba97b0,South Korea,Kim Moon-Hwan,1995-08-01,524592,Moon-hwan Kim,1995-08-01,"Korea, South",Foundation Coorperation Hana Financial Group Inc. Football Club,dob_and_name,750000,2026-05-21
+p_kor_kim_seung_gyu_3b561c51,South Korea,Kim Seung-Gyu,1990-09-30,92076,Seung-gyu Kim,1990-09-30,"Korea, South",Tokyo Football Club,dob_and_name,500000,2026-06-03
+p_kor_kim_tae_hyun_ebe70829,South Korea,Kim Tae-hyun,1996-12-19,,,,,,none,,
+p_kor_lee_dong_gyeong_4e703d31,South Korea,Lee Dong-Gyeong,1997-09-20,558086,Dong-gyeong Lee,1997-09-20,"Korea, South",Ulsan Hyundai Football Club,dob_and_name,1600000,2026-05-21
+p_kor_lee_han_beom_356f075d,South Korea,Lee Han-Beom,2002-06-17,706963,Han-beom Lee,2002-06-17,"Korea, South",FC Midtjylland,dob_and_name,3000000,2026-05-25
+p_kor_lee_jae_sung_18631f11,South Korea,Lee Jae-sung,1992-08-10,314398,Jae-sung Lee,1992-08-10,"Korea, South",1.FSV Mainz 05,dob_and_name,2000000,2026-05-27
+p_kor_lee_kang_in_25b99eea,South Korea,Lee Kang-In,2001-02-19,557149,Kang-in Lee,2001-02-19,"Korea, South",Paris Saint-Germain,dob_and_name,28000000,2026-06-01
+p_kor_lee_ki_hyeok_ee739183,South Korea,Lee Gi-hyuk,2000-07-07,763349,Gi-hyuk Lee,2000-07-07,"Korea, South",Gangwon Football Club,dob_and_name,800000,2026-05-21
+p_kor_lee_tae_seok_702171f1,South Korea,Lee Tae-Seok,2002-07-28,639027,Tae-seok Lee,2002-07-28,"Korea, South",Austria Vienna,dob_and_name,2000000,2026-05-26
+p_kor_oh_hyun_kyu_0ff51d6a,South Korea,Oh Hyeon-gyu,2001-04-12,639246,Hyeon-gyu Oh,2001-04-12,"Korea, South",Beşiktaş Jimnastik Kulübü,dob_and_name,15000000,2026-05-21
+p_kor_paik_seung_ho_49bd0363,South Korea,Paik Seung-Ho,1997-03-17,282689,Seung-ho Paik,1997-03-17,"Korea, South",,dob_and_name,2000000,2026-05-28
+p_kor_park_jin_seop_865948aa,South Korea,Park Jin-seob,1995-10-23,557469,Jin-seob Park,1995-10-23,"Korea, South",,dob_and_name,1000000,2026-06-05
+p_kor_seol_young_woo_0e0c9a40,South Korea,Seol Young-Woo,1998-12-05,639414,Young-woo Seol,1998-12-05,"Korea, South",Red Star Belgrade,dob_and_name,6500000,2026-06-05
+p_kor_son_heung_min_5f26a150,South Korea,Son Heung-Min,1992-07-08,91845,Heung-min Son,1992-07-08,"Korea, South",Los Angeles Football Club,dob_and_name,15000000,2026-06-02
+p_kor_song_bum_keun_9a9b50d2,South Korea,Song Bum-Keun,1997-10-15,508237,Bum-keun Song,1997-10-15,"Korea, South",Jeonbuk Hyundai Motors,dob_and_name,1000000,2026-05-21
+p_kor_um_ji_sung_1aee215f,South Korea,Eom Ji-sung,2002-05-09,706968,Ji-sung Eom,2002-05-09,"Korea, South",Swansea City,dob_and_name,1800000,2026-05-28
+p_kor_yang_hyun_jun_153f1578,South Korea,Yang Hyun-jun,2002-05-25,853110,Hyun-jun Yang,2002-05-25,"Korea, South",Celtic FC,dob_and_name,5000000,2026-05-20
+p_ksa_abdulelah_al_amri_ff89b489,Saudi Arabia,Abdulelah Al Amri,1997-01-15,509894,Abdulelah Al-Amri,1997-01-15,Saudi Arabia,Al-Nassr Football Club,dob_and_name,1400000,2026-06-04
+p_ksa_abdullah_al_hamdan_e6c2e57f,Saudi Arabia,Abdullah Al Hamdan,1999-09-12,68626,Abdullah Al-Hamdan,1999-09-12,Saudi Arabia,Al-Hilal Saudi Football Club,dob_and_name,350000,2026-06-04
+p_ksa_abdullah_al_khaibari_342f38bd,Saudi Arabia,Abdullah Al Khaibari,1996-08-16,437903,Abdullah Al-Khaibari,1996-08-16,Saudi Arabia,Al-Nassr Football Club,dob_and_name,750000,2026-06-04
+p_ksa_ahmed_al_kassar_8fc0426f,Saudi Arabia,Ahmed Al Kassar,1991-05-08,177956,Ahmed Al-Kassar,1991-05-08,Saudi Arabia,Al-Qadsiah Saudi Football Club,dob_and_name,175000,2026-06-04
+p_ksa_alaa_al_hajji_7835ad30,Saudi Arabia,Alaa Al Hajji,1995-12-03,443937,Alaa Hejji,1995-12-03,Saudi Arabia,Neom Sports Club,dob_and_name,300000,2026-06-04
+p_ksa_ali_lajami_81d185fd,Saudi Arabia,Ali Lajami,1996-04-25,264909,Ali Lajami,1996-04-24,Saudi Arabia,Al-Hilal Saudi Football Club,dob_and_name,750000,2026-06-04
+p_ksa_ali_majrashi_f27c8815,Saudi Arabia,Ali Majrashi,1999-10-01,672391,Ali Majrashi,1999-10-01,Saudi Arabia,Al-Ahli Saudi Football Club,dob_and_name,1400000,2026-06-04
+p_ksa_ayman_yahya_a2cd67a1,Saudi Arabia,Ayman Yahya,2001-05-14,735815,Ayman Yahya,2001-05-14,Saudi Arabia,Al-Nassr Football Club,dob_and_name,1200000,2026-06-04
+p_ksa_firas_al_buraikan_aaec0383,Saudi Arabia,Firas Al Buraikan,2000-05-14,631922,Firas Al-Buraikan,2000-05-14,Saudi Arabia,Al-Ahli Saudi Football Club,dob_and_name,3500000,2026-06-04
+p_ksa_hassan_kadesh_2de89b9c,Saudi Arabia,Hassan Kadesh,1992-09-26,260859,Hassan Kadesh,1992-09-26,Saudi Arabia,Al-Ittihad Football Club,dob_and_name,275000,2026-06-04
+p_ksa_hassan_tambakti_75c262c0,Saudi Arabia,Hassan Tambakti,1999-02-09,509897,Hassan Tambakti,1999-02-09,Saudi Arabia,Al-Hilal Saudi Football Club,dob_and_name,1800000,2026-06-04
+p_ksa_jehad_thikri_f840add2,Saudi Arabia,Jehad Thakri,2001-07-21,901334,Jehad Thakri,2001-07-21,Saudi Arabia,Al-Qadsiah Saudi Football Club,dob_and_name,1200000,2026-06-04
+p_ksa_khalid_al_ghannam_b44eecee,Saudi Arabia,Khalid Al Ghannam,2000-11-07,631923,Khalid Al-Ghannam,2000-11-07,Saudi Arabia,Al-Ettifaq Football Club,dob_and_name,2500000,2026-06-04
+p_ksa_mohammed_abu_al_shamat_9200f73e,Saudi Arabia,Mohammed Abu Al Shamat,2002-08-11,1181852,Mohammed Abu Al-Shamat,2002-08-11,Saudi Arabia,Al-Qadsiah Saudi Football Club,dob_and_name,1800000,2026-06-04
+p_ksa_mohammed_al_owais_503d89a6,Saudi Arabia,Mohammed Al Owais,1991-10-10,262845,Mohammed Al-Owais,1991-10-10,Saudi Arabia,Al-Hilal Saudi Football Club,dob_and_name,,
+p_ksa_mohammed_kanno_4ab9d092,Saudi Arabia,Mohammed Kanno,1994-09-22,308120,Mohamed Kanno,1994-09-22,Saudi Arabia,Al-Hilal Saudi Football Club,dob_and_name,800000,2026-06-04
+p_ksa_moteb_al_harbi_e138f807,Saudi Arabia,Moteb Al Harbi,2000-02-19,869509,Moteb Al-Harbi,2000-02-19,Saudi Arabia,Al-Hilal Saudi Football Club,dob_and_name,1400000,2026-06-04
+p_ksa_musab_al_juwayr_6725ea56,Saudi Arabia,Musab Al Juwayr,2003-06-20,901181,Musab Al-Juwayr,2003-06-20,Saudi Arabia,Al-Qadsiah Saudi Football Club,dob_and_name,6000000,2026-06-04
+p_ksa_nasser_al_dawsari_b09d4811,Saudi Arabia,Nasser Al Dawsari,1998-12-19,509911,Nasser Al-Dawsari,1998-12-19,Saudi Arabia,Al-Hilal Saudi Football Club,dob_and_name,900000,2026-06-04
+p_ksa_nawaf_al_aqidi_d0e97068,Saudi Arabia,Nawaf Al Aqidi,2000-05-10,886183,Nawaf Al-Aqidi,2000-05-10,Saudi Arabia,Al-Nassr Football Club,dob_and_name,650000,2026-06-04
+p_ksa_nawaf_boushal_d86dd21f,Saudi Arabia,Nawaf Boushal,1999-09-16,821377,Nawaf Boushal,1999-09-16,Saudi Arabia,Al-Nassr Football Club,dob_and_name,1400000,2026-06-04
+p_ksa_saleh_al_shehri_f0162952,Saudi Arabia,Saleh Al Shehri,1993-11-01,242267,Saleh Al-Shehri,1993-11-01,Saudi Arabia,Al-Ittihad Football Club,dob_and_name,500000,2026-06-04
+p_ksa_salem_al_dawsari_89ba5da9,Saudi Arabia,Salem Al Dawsari,1991-08-19,195332,Salem Al-Dawsari,1991-08-19,Saudi Arabia,Al-Hilal Saudi Football Club,dob_and_name,1200000,2026-06-04
+p_ksa_saud_abdulhamid_280fdc73,Saudi Arabia,Saud Abdulhamid,1999-07-18,631927,Saud Abdulhamid,1999-07-18,Saudi Arabia,RC Lens,dob_and_name,9000000,2026-06-01
+p_ksa_ziyad_al_johani_3dfbe657,Saudi Arabia,Ziyad Al Johani,2001-11-11,901079,Ziyad Al-Johani,2001-11-11,Saudi Arabia,Al-Ahli Saudi Football Club,dob_and_name,800000,2026-06-04
+p_mar_achraf_hakimi_25bd8357,Morocco,Achraf Hakimi,1998-11-04,398073,Achraf Hakimi,1998-11-04,Morocco,Paris Saint-Germain,dob_and_name,80000000,2026-06-01
+p_mar_anass_salah_eddine_b5b95ed8,Morocco,Anass Salah-Eddine,2002-01-18,485584,Anass Salah-Eddine,2002-01-18,Morocco,PSV Eindhoven,dob_and_name,12000000,2026-05-28
+p_mar_ayoub_el_kaabi_de6767d0,Morocco,Ayoub El Kaabi,1993-06-25,521127,Ayoub El Kaabi,1993-06-25,Morocco,Olympiakos Syndesmos Filathlon Peiraios,dob_and_name,4500000,2026-06-04
+p_mar_ayoube_amaimouni_78e0bc2e,Morocco,Ayoube Amaimouni,2004-11-30,799993,Ayoube Amaimouni-Echghouyab,2004-11-30,Morocco,Eintracht Frankfurt,dob_and_name,10000000,2026-05-27
+p_mar_ayyoub_bouaddi_2f15e2cb,Morocco,Ayyoub Bouaddi,2007-10-02,1097139,Ayyoub Bouaddi,2007-10-02,Morocco,LOSC Lille,dob_and_name,50000000,2026-06-01
+p_mar_azzedine_ounahi_2e95a029,Morocco,Azzedine Ounahi,2000-04-19,593482,Azzedine Ounahi,2000-04-19,Morocco,Girona FC,dob_and_name,10000000,2026-06-05
+p_mar_bilal_el_khannouss_80e44fb8,Morocco,Bilal El Khannouss,2004-05-10,654982,Bilal El Khannouss,2004-05-10,Morocco,VfB Stuttgart,dob_and_name,35000000,2026-05-27
+p_mar_brahim_diaz_ddd3914b,Morocco,Brahim Díaz,1999-08-03,314678,Brahim Díaz,1999-08-03,Morocco,Real Madrid,dob_and_name,35000000,2026-06-05
+p_mar_chadi_riad_ddbeda14,Morocco,Chadi Riad,2003-06-17,689637,Chadi Riad,2003-06-17,Morocco,Crystal Palace,dob_and_name,15000000,2026-06-03
+p_mar_chemsdine_talbi_6ed7253d,Morocco,Chemsdine Talbi,2005-05-09,743384,Chemsdine Talbi,2005-05-09,Morocco,Sunderland AFC,dob_and_name,25000000,2026-06-03
+p_mar_gessime_yassine_f7b65c3a,Morocco,Gessime Yassine,2005-11-22,1151929,Gessime Yassine,2005-11-22,Morocco,RC Strasbourg Alsace,dob_and_name,12000000,2026-06-01
+p_mar_ismael_saibari_e7edb9e4,Morocco,Ismael Saibari,2001-01-28,702869,Ismael Saibari,2001-01-28,Morocco,PSV Eindhoven,dob_and_name,40000000,2026-05-28
+p_mar_issa_diop_05f39eb9,Morocco,Issa Diop,1997-01-09,272622,Issa Diop,1997-01-09,Morocco,Fulham FC,dob_and_name,8000000,2026-06-03
+p_mar_munir_el_kajoui_872a5ca9,Morocco,Munir El Kajoui,1989-05-10,97925,Munir El Kajoui,1989-05-10,Morocco,,dob_and_name,600000,2026-06-05
+p_mar_neil_el_aynaoui_1e9ee6d0,Morocco,Neil El Aynaoui,2001-07-02,901019,Neil El Aynaoui,2001-07-02,Morocco,Associazione Sportiva Roma,dob_and_name,23000000,2026-05-29
+p_mar_noussair_mazraoui_dd4b96e7,Morocco,Noussair Mazraoui,1997-11-14,340456,Noussair Mazraoui,1997-11-14,Morocco,Manchester United,dob_and_name,18000000,2026-06-03
+p_mar_reda_tagnaouti_e4413ba6,Morocco,Ahmed Reda Tagnaouti,1996-04-05,,,,,,none,,
+p_mar_redouane_halhal_625ec8b8,Morocco,Redouane Halhal,2003-03-05,913660,Redouane Halhal,2003-03-05,Morocco,KV Mechelen,dob_and_name,5000000,2026-06-04
+p_mar_samir_el_mourabet_f037a66a,Morocco,Samir El Mourabet,2005-10-06,1130514,Samir El Mourabet,2005-10-06,Morocco,RC Strasbourg Alsace,dob_and_name,22000000,2026-06-01
+p_mar_sofyan_amrabat_7d589346,Morocco,Sofyan Amrabat,1996-08-21,287579,Sofyan Amrabat,1996-08-21,Morocco,Fenerbahce,dob_and_name,10000000,2026-06-05
+p_mar_soufiane_rahimi_cb7885e7,Morocco,Soufiane Rahimi,1996-06-02,598506,Soufiane Rahimi,1996-06-02,Morocco,,dob_and_name,6000000,2026-05-26
+p_mar_yassine_bounou_cc5a7582,Morocco,Yassine Bounou,1991-04-05,207834,Yassine Bounou,1991-04-05,Morocco,Al-Hilal Saudi Football Club,dob_and_name,3000000,2026-06-04
+p_mar_youssef_belammari_3bdfba74,Morocco,Youssef Belammari,1998-09-20,518804,Youssef Belammari,1998-09-20,Morocco,,dob_and_name,1200000,2026-05-20
+p_mar_zakaria_el_ouahdi_0544d52a,Morocco,Zakaria El Ouahdi,2001-12-31,820474,Zakaria El Ouahdi,2001-12-31,Morocco,KRC Genk,dob_and_name,17000000,2026-06-04
+p_mex_alexis_vega_6d8b7924,Mexico,Alexis Vega,1997-11-25,424689,Alexis Vega,1997-11-25,Mexico,Deportivo Toluca,dob_and_name,8000000,2026-05-20
+p_mex_alvaro_fidalgo_3d0f69df,Mexico,Álvaro Fidalgo,1997-04-09,261503,Álvaro Fidalgo,1997-04-09,Mexico,CF América,dob_and_name,6000000,2026-06-05
+p_mex_armando_gonzalez_3f91fad5,Mexico,Armando González,2003-04-20,837619,Armando González,2003-04-20,Mexico,Deportivo Guadalajara,dob_and_name,15000000,2026-05-20
+p_mex_brian_gutierrez_bd8fbff5,Mexico,Brian Gutiérrez,2003-06-17,724443,Brian Gutiérrez,2003-06-17,Mexico,Deportivo Guadalajara,dob_and_name,8000000,2026-05-20
+p_mex_carlos_acevedo_a75726b0,Mexico,Carlos Acevedo,1996-04-19,356042,Carlos Acevedo,1996-04-19,Mexico,Santos Laguna,dob_and_name,2800000,2026-05-20
+p_mex_cesar_huerta_11f35dc9,Mexico,César Huerta,2000-12-03,540315,César Huerta,2000-12-03,Mexico,RSC Anderlecht,dob_and_name,3500000,2026-06-04
+p_mex_cesar_montes_bdb1ce89,Mexico,César Montes,1997-02-24,387687,César Montes,1997-02-24,Mexico,"Футбольный клуб ""Локомотив"" Москва",dob_and_name,7500000,2026-05-26
+p_mex_edson_alvarez_ee19e8a4,Mexico,Edson Álvarez,1997-10-24,401356,Edson Álvarez,1997-10-24,Mexico,West Ham United,dob_and_name,15000000,2026-05-21
+p_mex_erik_lira_9fbed47a,Mexico,Erik Lira,2000-05-08,602324,Érik Lira,2000-05-08,Mexico,CD Cruz Azul,dob_and_name,12000000,2026-05-20
+p_mex_gilberto_mora_4cec389a,Mexico,Gilberto Mora,2008-10-14,1155723,Gilberto Mora,2008-10-14,Mexico,Club Tijuana,dob_and_name,10000000,2026-05-20
+p_mex_guillermo_martinez_fb0f082f,Mexico,Guillermo Martínez,1995-03-15,347932,Guillermo Martínez,1995-03-15,Mexico,UNAM Pumas,dob_and_name,1500000,2026-05-20
+p_mex_guillermo_ochoa_add9f489,Mexico,Guillermo Ochoa,1985-07-13,29559,Guillermo Ochoa,1985-07-13,Mexico,,dob_and_name,250000,2026-06-02
+p_mex_israel_reyes_a91c6ee7,Mexico,Israel Reyes,2000-05-23,687558,Israel Reyes,2000-05-23,Mexico,CF América,dob_and_name,6500000,2026-05-20
+p_mex_jesus_gallardo_f2c39ec2,Mexico,Jesús Gallardo,1994-08-15,344854,Jesús Gallardo,1994-08-15,Mexico,Deportivo Toluca,dob_and_name,2800000,2026-05-20
+p_mex_johan_vasquez_2858b9c4,Mexico,Johan Vásquez,1998-10-22,532937,Johan Vásquez,1998-10-22,Mexico,Genoa CFC,dob_and_name,12000000,2026-05-29
+p_mex_jorge_sanchez_f9fdad59,Mexico,Jorge Sánchez,1997-12-10,356044,Jorge Sánchez,1997-12-10,Mexico,CD Cruz Azul,dob_and_name,2000000,2026-06-04
+p_mex_julian_quinones_0cf58bb0,Mexico,Julián Quiñones,1997-03-24,416090,Julián Quiñones,1997-03-24,Mexico,Al-Qadsiah Saudi Football Club,dob_and_name,14000000,2026-06-04
+p_mex_luis_chavez_9afafe41,Mexico,Luis Chávez,1996-01-15,331059,Luis Chávez,1996-01-15,Mexico,FK Dinamo Moskva,dob_and_name,6000000,2026-05-26
+p_mex_luis_romo_56c015b1,Mexico,Luis Romo,1995-06-05,532938,Luis Romo,1995-06-05,Mexico,Deportivo Guadalajara,dob_and_name,3000000,2026-05-20
+p_mex_mateo_chavez_db583c24,Mexico,Mateo Chávez,2004-05-12,1066953,Mateo Chávez,2004-05-12,Mexico,AZ Alkmaar,dob_and_name,4000000,2026-05-28
+p_mex_obed_vargas_60228b0f,Mexico,Obed Vargas,2005-08-05,889435,Obed Vargas,2005-08-05,Mexico,Atlético de Madrid,dob_and_name,10000000,2026-06-05
+p_mex_orbelin_pineda_f17e8194,Mexico,Orbelín Pineda,1996-03-24,334042,Orbelín Pineda,1996-03-24,Mexico,Athlitiki Enosi Konstantinoupoleos,dob_and_name,7000000,2026-06-04
+p_mex_raul_jimenez_c47a5ffa,Mexico,Raúl Jiménez,1991-05-05,206040,Raúl Jiménez,1991-05-05,Mexico,Fulham FC,dob_and_name,3000000,2026-06-03
+p_mex_raul_rangel_fd3acb0d,Mexico,Raúl Rangel,2000-02-25,802855,Raúl Rangel,2000-02-25,Mexico,Deportivo Guadalajara,dob_and_name,6500000,2026-05-20
+p_mex_roberto_alvarado_f5b62687,Mexico,Roberto Alvarado,1998-09-07,353583,Roberto Alvarado,1998-09-07,Mexico,Deportivo Guadalajara,dob_and_name,7500000,2026-05-20
+p_mex_santiago_gimenez_59159c84,Mexico,Santiago Gimenez,2001-04-18,552955,Santiago Gimenez,2001-04-18,Mexico,AC Milan,dob_and_name,18000000,2026-05-29
+p_ned_bart_verbruggen_6e94a97f,Netherlands,Bart Verbruggen,2002-08-18,565093,Bart Verbruggen,2002-08-18,Netherlands,Brighton & Hove Albion,dob_and_name,40000000,2026-06-03
+p_ned_brian_brobbey_d99edca5,Netherlands,Brian Brobbey,2002-02-01,473169,Brian Brobbey,2002-02-01,Netherlands,Sunderland AFC,dob_and_name,30000000,2026-06-03
+p_ned_cody_gakpo_7eb491eb,Netherlands,Cody Gakpo,1999-05-07,434675,Cody Gakpo,1999-05-07,Netherlands,Liverpool FC,dob_and_name,60000000,2026-06-03
+p_ned_crysencio_summerville_5c5b575d,Netherlands,Crysencio Summerville,2001-10-30,474701,Crysencio Summerville,2001-10-30,Netherlands,West Ham United,dob_and_name,35000000,2026-06-03
+p_ned_denzel_dumfries_5ed0ea47,Netherlands,Denzel Dumfries,1996-04-18,321528,Denzel Dumfries,1996-04-18,Netherlands,Inter Milan,dob_and_name,25000000,2026-05-29
+p_ned_donyell_malen_3a8fc490,Netherlands,Donyell Malen,1999-01-19,326029,Donyell Malen,1999-01-19,Netherlands,Associazione Sportiva Roma,dob_and_name,45000000,2026-05-29
+p_ned_frenkie_de_jong_506d8270,Netherlands,Frenkie de Jong,1997-05-12,326330,Frenkie de Jong,1997-05-12,Netherlands,FC Barcelona,dob_and_name,35000000,2026-06-05
+p_ned_guus_til_a8ea1db8,Netherlands,Guus Til,1997-12-22,372267,Guus Til,1997-12-22,Netherlands,PSV Eindhoven,dob_and_name,15000000,2026-05-28
+p_ned_jan_paul_van_hecke_192ee129,Netherlands,Jan Paul van Hecke,2000-06-08,576314,Jan Paul van Hecke,2000-06-08,Netherlands,Brighton & Hove Albion,dob_and_name,45000000,2026-06-03
+p_ned_jorrel_hato_3e44047b,Netherlands,Jorrel Hato,2006-03-07,904802,Jorrel Hato,2006-03-07,Netherlands,Chelsea FC,dob_and_name,40000000,2026-06-03
+p_ned_justin_kluivert_0ebf1e3d,Netherlands,Justin Kluivert,1999-05-05,330659,Justin Kluivert,1999-05-05,Netherlands,AFC Bournemouth,dob_and_name,25000000,2026-06-03
+p_ned_mark_flekken_274f228e,Netherlands,Mark Flekken,1993-06-13,125714,Mark Flekken,1993-06-13,Netherlands,Bayer 04 Leverkusen,dob_and_name,6000000,2026-05-27
+p_ned_marten_de_roon_134a0d27,Netherlands,Marten de Roon,1991-03-29,133179,Marten de Roon,1991-03-29,Netherlands,Atalanta BC,dob_and_name,3200000,2026-05-29
+p_ned_mats_wieffer_8187d609,Netherlands,Mats Wieffer,1999-11-16,415381,Mats Wieffer,1999-11-16,Netherlands,Brighton & Hove Albion,dob_and_name,25000000,2026-06-03
+p_ned_memphis_depay_f7b47817,Netherlands,Memphis Depay,1994-02-13,167850,Memphis Depay,1994-02-13,Netherlands,Sport Club Corinthians Paulista,dob_and_name,7000000,2026-05-26
+p_ned_micky_van_de_ven_d7e820b9,Netherlands,Micky van de Ven,2001-04-19,557459,Micky van de Ven,2001-04-19,Netherlands,Tottenham Hotspur,dob_and_name,50000000,2026-06-03
+p_ned_nathan_ake_b4612add,Netherlands,Nathan Aké,1995-02-18,177476,Nathan Aké,1995-02-18,Netherlands,Manchester City,dob_and_name,12000000,2026-06-03
+p_ned_noa_lang_6a796b45,Netherlands,Noa Lang,1999-06-17,339332,Noa Lang,1999-06-17,Netherlands,SSC Napoli,dob_and_name,22000000,2026-05-21
+p_ned_quinten_timber_b5f8e096,Netherlands,Quinten Timber,2001-06-17,420213,Quinten Timber,2001-06-17,Netherlands,Olympique Marseille,dob_and_name,25000000,2026-06-01
+p_ned_robin_roefs_c5811ebf,Netherlands,Robin Roefs,2003-01-17,646991,Robin Roefs,2003-01-17,Netherlands,Sunderland AFC,dob_and_name,28000000,2026-06-03
+p_ned_ryan_gravenberch_dbc380de,Netherlands,Ryan Gravenberch,2002-05-16,478573,Ryan Gravenberch,2002-05-16,Netherlands,Liverpool FC,dob_and_name,80000000,2026-06-03
+p_ned_teun_koopmeiners_ffcf8621,Netherlands,Teun Koopmeiners,1998-02-28,360518,Teun Koopmeiners,1998-02-28,Netherlands,Juventus FC,dob_and_name,14000000,2026-05-29
+p_ned_tijjani_reijnders_9f40a1a3,Netherlands,Tijjani Reijnders,1998-07-29,460939,Tijjani Reijnders,1998-07-29,Netherlands,Manchester City,dob_and_name,50000000,2026-06-03
+p_ned_virgil_van_dijk_02a79b1b,Netherlands,Virgil van Dijk,1991-07-08,139208,Virgil van Dijk,1991-07-08,Netherlands,Liverpool FC,dob_and_name,15000000,2026-06-03
+p_ned_wout_weghorst_fc445a82,Netherlands,Wout Weghorst,1992-08-07,228645,Wout Weghorst,1992-08-07,Netherlands,Ajax Amsterdam,dob_and_name,2000000,2026-05-28
+p_nor_alexander_srloth_4e6e1e0b,Norway,Alexander Sørloth,1995-12-05,238407,Alexander Sørloth,1995-12-05,Norway,Atlético de Madrid,dob_and_name,18000000,2026-06-05
+p_nor_andreas_schjelderup_691edfe3,Norway,Andreas Schjelderup,2004-06-01,670103,Andreas Schjelderup,2004-06-01,Norway,SL Benfica,dob_and_name,30000000,2026-05-28
+p_nor_antonio_nusa_81417d06,Norway,Antonio Nusa,2005-04-17,894914,Antonio Nusa,2005-04-17,Norway,RB Leipzig,dob_and_name,32000000,2026-05-27
+p_nor_david_mller_wolfe_ee82ecf0,Norway,David Møller Wolfe,2002-04-23,661427,David Møller Wolfe,2002-04-23,Norway,Wolverhampton Wanderers,dob_and_name,8000000,2026-06-03
+p_nor_egil_selvik_9a4e6ec6,Norway,Egil Selvik,1997-07-30,380744,Egil Selvik,1997-07-30,Norway,Watford FC,dob_and_name,1500000,2026-05-28
+p_nor_erling_haaland_8dd12d34,Norway,Erling Haaland,2000-07-21,418560,Erling Haaland,2000-07-21,Norway,Manchester City,dob_and_name,200000000,2026-06-03
+p_nor_fredrik_andre_bjrkan_37f8fc86,Norway,Fredrik André Bjørkan,1998-08-21,364938,Fredrik Bjørkan,1998-08-21,Norway,Fotballklubben Bodø/Glimt,dob_and_name,3500000,2026-05-28
+p_nor_fredrik_aursnes_af090b77,Norway,Fredrik Aursnes,1995-12-10,223367,Fredrik Aursnes,1995-12-10,Norway,SL Benfica,dob_and_name,15000000,2026-05-28
+p_nor_henrik_falchener_17c87246,Norway,Henrik Falchener,2003-05-08,743088,Henrik Falchener,2003-05-08,Norway,Viking Fotballklubb,dob_and_name,6000000,2026-05-28
+p_nor_jens_petter_hauge_b4fbb364,Norway,Jens Petter Hauge,1999-10-12,422355,Jens Petter Hauge,1999-10-12,Norway,Fotballklubben Bodø/Glimt,dob_and_name,12000000,2026-05-28
+p_nor_jrgen_strand_larsen_79008d85,Norway,Jørgen Strand Larsen,2000-02-06,429983,Jørgen Strand Larsen,2000-02-06,Norway,Wolverhampton Wanderers,dob_and_name,40000000,2026-06-03
+p_nor_julian_ryerson_8e11cbd8,Norway,Julian Ryerson,1997-11-17,370789,Julian Ryerson,1997-11-17,Norway,Borussia Dortmund,dob_and_name,25000000,2026-05-27
+p_nor_kristian_thorstvedt_bb6b964a,Norway,Kristian Thorstvedt,1999-03-13,564785,Kristian Thorstvedt,1999-03-13,Norway,US Sassuolo,dob_and_name,12000000,2026-05-29
+p_nor_kristoffer_ajer_2a2d5159,Norway,Kristoffer Ajer,1998-04-17,328658,Kristoffer Ajer,1998-04-17,Norway,Brentford FC,dob_and_name,18000000,2026-06-03
+p_nor_leo_stigard_2b05eecd,Norway,Leo Østigård,1999-11-28,367284,Leo Østigård,1999-11-28,Norway,Genoa CFC,dob_and_name,13000000,2026-05-29
+p_nor_marcus_pedersen_469304e0,Norway,Marcus Holmgren Pedersen,2000-07-16,583404,Marcus Pedersen,2000-07-16,Norway,Torino FC,dob_and_name,3500000,2026-05-29
+p_nor_martin_degaard_a56842f6,Norway,Martin Ødegaard,1998-12-17,316264,Martin Ødegaard,1998-12-17,Norway,Arsenal FC,dob_and_name,65000000,2026-06-03
+p_nor_morten_thorsby_7f59cd96,Norway,Morten Thorsby,1996-05-05,226524,Morten Thorsby,1996-05-05,Norway,US Cremonese,dob_and_name,2800000,2026-05-29
+p_nor_oscar_bobb_af804bdb,Norway,Oscar Bobb,2003-07-12,661207,Oscar Bobb,2003-07-12,Norway,Manchester City,dob_and_name,28000000,2026-06-03
+p_nor_patrick_berg_0f63566f,Norway,Patrick Berg,1997-11-24,308439,Patrick Berg,1997-11-24,Norway,Fotballklubben Bodø/Glimt,dob_and_name,8000000,2026-05-28
+p_nor_rjan_nyland_2dbf8b2e,Norway,Ørjan Nyland,1990-09-10,73517,Ørjan Nyland,1990-09-10,Norway,Sevilla FC,dob_and_name,800000,2026-06-05
+p_nor_sander_berge_ffc0d963,Norway,Sander Berge,1998-02-14,333014,Sander Berge,1998-02-14,Norway,Fulham FC,dob_and_name,25000000,2026-06-03
+p_nor_sander_tangvik_493d3d56,Norway,Sander Tangvik,2002-11-29,549378,Sander Tangvik,2002-11-29,Norway,Hamburger SV,dob_and_name,3000000,2026-05-27
+p_nor_sondre_langas_2327cc97,Norway,Sondre Langås,2001-02-02,737837,Sondre Langås,2001-02-02,Norway,,dob_and_name,4000000,2026-05-28
+p_nor_thelo_aasgaard_c53f9e81,Norway,Thelo Aasgaard,2002-05-02,647384,Thelo Aasgaard,2002-05-02,Norway,Rangers FC,dob_and_name,2800000,2026-05-20
+p_nor_torbjrn_heggem_9c8bd1e0,Norway,Torbjørn Heggem,1999-01-12,464469,Torbjørn Heggem,1999-01-12,Norway,Bologna Football Club 1909,dob_and_name,13000000,2026-05-29
+p_nzl_alex_paulsen_484818e3,New Zealand,Alex Paulsen,2002-07-04,617009,Alex Paulsen,2002-07-04,New Zealand,Lechia Gdansk,dob_and_name,500000,2026-06-04
+p_nzl_alex_rufer_2397219e,New Zealand,Alex Rufer,1996-06-12,256019,Alex Rufer,1996-06-12,New Zealand,Wellington Phoenix,dob_and_name,600000,2026-05-28
+p_nzl_ben_old_65a24b78,New Zealand,Ben Old,2002-08-13,617021,Ben Old,2002-08-13,New Zealand,AS Saint-Étienne,dob_and_name,1800000,2026-05-26
+p_nzl_ben_waine_a8769b23,New Zealand,Ben Waine,2001-06-11,539502,Ben Waine,2001-06-11,New Zealand,,dob_and_name,400000,2026-05-12
+p_nzl_callan_elliot_a606bb00,New Zealand,Callan Elliot,1999-07-07,482204,Callan Elliot,1999-07-07,New Zealand,Auckland FC,dob_and_name,450000,2026-05-28
+p_nzl_callum_mccowatt_bdb3ef62,New Zealand,Callum McCowatt,1999-04-30,400797,Callum McCowatt,1999-04-30,New Zealand,Silkeborg IF,dob_and_name,2500000,2026-05-25
+p_nzl_chris_wood_a3d282b2,New Zealand,Chris Wood,1991-12-07,108725,Chris Wood,1991-12-07,New Zealand,Nottingham Forest,dob_and_name,5000000,2026-06-03
+p_nzl_eli_just_334179f3,New Zealand,Elijah Just,2000-05-01,485672,Elijah Just,2000-05-01,New Zealand,Motherwell FC,dob_and_name,2500000,2026-05-20
+p_nzl_finn_surman_128f933a,New Zealand,Finn Surman,2003-09-23,724809,Finn Surman,2003-09-23,New Zealand,Portland Timbers,dob_and_name,1800000,2026-06-02
+p_nzl_francis_de_vries_c9af7d52,New Zealand,Francis De Vries,1994-11-28,207061,Francis de Vries,1994-11-28,New Zealand,Auckland FC,dob_and_name,600000,2026-05-28
+p_nzl_jesse_randall_e9de5817,New Zealand,Jesse Randall,2002-08-19,677509,Jesse Randall,2002-08-19,New Zealand,Auckland FC,dob_and_name,900000,2026-05-28
+p_nzl_joe_bell_b6fb39cf,New Zealand,Joe Bell,1999-04-27,345700,Joe Bell,1999-04-27,New Zealand,Viking Fotballklubb,dob_and_name,3500000,2026-05-28
+p_nzl_kosta_barbarouses_9c19e14d,New Zealand,Kosta Barbarouses,1990-02-19,50200,Kosta Barbarouses,1990-02-19,New Zealand,Western Sydney Wanderers,dob_and_name,300000,2026-05-28
+p_nzl_lachlan_bayliss_060f8afa,New Zealand,Lachlan Bayliss,2002-07-24,1109358,Lachlan Bayliss,2002-07-24,New Zealand,Newcastle United Jets,dob_and_name,550000,2026-05-28
+p_nzl_liberato_cacace_48269594,New Zealand,Liberato Cacace,2000-09-27,469211,Liberato Cacace,2000-09-27,New Zealand,,dob_and_name,2500000,2026-05-28
+p_nzl_marko_stamenic_e9419bd4,New Zealand,Marko Stamenic,2002-02-19,617018,Marko Stamenić,2002-02-19,New Zealand,Swansea City,dob_and_name,3000000,2026-05-28
+p_nzl_max_crocombe_9b736de0,New Zealand,Max Crocombe,1993-08-12,207843,Max Crocombe,1993-08-12,New Zealand,,dob_and_name,1000000,2026-05-28
+p_nzl_michael_boxall_37cfecac,New Zealand,Michael Boxall,1988-08-18,81723,Michael Boxall,1988-08-18,New Zealand,Minnesota United FC,dob_and_name,150000,2026-06-02
+p_nzl_michael_woud_74d3c5ee,New Zealand,Michael Woud,1999-01-16,350347,Michael Woud,1999-01-16,New Zealand,Auckland FC,dob_and_name,400000,2026-05-28
+p_nzl_nando_pijnaker_e39631da,New Zealand,Nando Pijnaker,1999-02-25,455425,Nando Pijnaker,1999-02-25,New Zealand,Auckland FC,dob_and_name,400000,2026-05-28
+p_nzl_ryan_thomas_c155ade5,New Zealand,Ryan Thomas,1994-12-20,203357,Ryan Thomas,1994-12-20,New Zealand,PEC Zwolle,dob_and_name,650000,2026-05-28
+p_nzl_sarpreet_singh_84ea63e4,New Zealand,Sarpreet Singh,1999-02-20,350357,Sarpreet Singh,1999-02-20,New Zealand,FK TSC Backa Topola,dob_and_name,500000,2026-05-28
+p_nzl_tim_payne_b32f45a4,New Zealand,Tim Payne,1994-01-10,149901,Tim Payne,1994-01-10,New Zealand,Wellington Phoenix,dob_and_name,350000,2026-05-28
+p_nzl_tommy_smith_eddfc930,New Zealand,Tommy Smith,1990-03-31,54381,Tommy Smith,1990-03-31,New Zealand,,dob_and_name,50000,2026-06-01
+p_nzl_tyler_bindon_5a9cfd46,New Zealand,Tyler Bindon,2005-01-27,1007720,Tyler Bindon,2005-01-27,New Zealand,Sheffield United,dob_and_name,3500000,2026-05-28
+p_pan_adalberto_carrasquilla_09a610eb,Panama,Adalberto Carrasquilla,1998-11-28,375300,Adalberto Carrasquilla,1998-11-28,Panama,UNAM Pumas,dob_and_name,4000000,2026-05-20
+p_pan_alberto_quintero_abc8a593,Panama,Alberto Quintero,1987-12-18,126019,Alberto Quintero,1987-12-18,Panama,,dob_and_name,75000,2026-05-22
+p_pan_amir_murillo_cfdc6520,Panama,Amir Murillo,1996-02-11,354482,Amir Murillo,1996-02-11,Panama,Olympique Marseille,dob_and_name,7000000,2026-05-21
+p_pan_andres_andrade_fecf430d,Panama,Andrés Andrade,1998-10-16,403808,Andrés Andrade,1998-10-16,Panama,LASK,dob_and_name,2500000,2026-05-26
+p_pan_anibal_godoy_66da4a55,Panama,Aníbal Godoy,1990-02-10,161671,Aníbal Godoy,1990-02-10,Panama,San Diego Football Club,dob_and_name,100000,2026-06-02
+p_pan_azarias_londono_1bebc3ea,Panama,Azarias Londoño,2001-06-21,860998,Azarías Londoño,2001-06-21,Panama,,dob_and_name,1000000,2026-06-03
+p_pan_carlos_harvey_6940f7e7,Panama,Carlos Harvey,2000-02-03,628806,Carlos Harvey,2000-02-03,Panama,Minnesota United FC,dob_and_name,600000,2026-06-02
+p_pan_cecilio_waterman_c26446a3,Panama,Cecilio Waterman,1991-04-13,177064,Cecilio Waterman,1991-04-13,Panama,,dob_and_name,,
+p_pan_cesar_blackman_10f6339c,Panama,César Blackman,1998-04-02,440383,César Blackman,1998-04-02,Panama,,dob_and_name,2500000,2026-05-18
+p_pan_cesar_samudio_51e540e4,Panama,César Samudio,1994-03-26,865550,César Samudio,1994-02-23,Panama,,dob_and_name,,
+p_pan_cesar_yanis_68035ab8,Panama,César Yanis,1996-01-28,741098,César Yanis,1996-01-28,Panama,,dob_and_name,400000,2026-06-05
+p_pan_cristian_martinez_728431b8,Panama,Cristian Martínez,1997-02-06,419247,Cristian Martínez,1997-02-06,Panama,,dob_and_name,800000,2026-06-05
+p_pan_edgardo_farina_fbbc0630,Panama,Edgardo Fariña,2001-10-19,923177,Edgardo Fariña,2001-10-19,Panama,FK Nizhny Novgorod,dob_and_name,900000,2026-05-26
+p_pan_eric_davis_6aae02da,Panama,Éric Davis,1991-03-31,121791,Éric Davis,1991-03-31,Panama,,dob_and_name,50000,2026-05-22
+p_pan_fidel_escobar_e7bf7a21,Panama,Fidel Escobar,1995-01-09,345716,Fidel Escobar,1995-01-09,Panama,,dob_and_name,350000,2026-05-29
+p_pan_ismael_diaz_8352c19e,Panama,Ismael Díaz,1997-05-12,243298,Ismael Díaz,1997-05-12,Panama,Club León FC,dob_and_name,1800000,2026-05-20
+p_pan_jiovany_ramos_03a449db,Panama,Jiovany Ramos,1997-01-26,403809,Jiovany Ramos,1997-01-26,Panama,,dob_and_name,450000,2026-05-29
+p_pan_jorge_gutierrez_49c35438,Panama,Jorge Gutiérrez,1998-09-01,443379,Jorge Gutiérrez,1998-09-01,Panama,,dob_and_name,800000,2026-05-29
+p_pan_jose_cordoba_5e989cc4,Panama,José Córdoba,2001-03-06,698415,José Córdoba,2001-06-03,Panama,Norwich City,dob_and_name,5000000,2026-05-28
+p_pan_jose_fajardo_25277826,Panama,José Fajardo,1993-08-18,546803,José Fajardo,1993-08-18,Panama,,dob_and_name,,
+p_pan_jose_luis_rodriguez_9c3acc7f,Panama,José Luis Rodríguez,1998-06-19,425028,José Luis Rodríguez,1998-06-19,Panama,FC Juárez,dob_and_name,2500000,2026-05-20
+p_pan_luis_mejia_81cccffb,Panama,Luis Mejía,1991-03-16,76715,Luis Mejía,1991-03-16,Panama,,dob_and_name,,
+p_pan_orlando_mosquera_13ae1ad6,Panama,Orlando Mosquera,1994-12-25,402979,Orlando Mosquera,1994-12-25,Panama,Al-Fayha FC,dob_and_name,700000,2026-06-04
+p_pan_roderick_miller_31cae4f7,Panama,Roderick Miller,1992-04-03,157154,Roderick Miller,1992-04-03,Panama,CD Feirense,dob_and_name,200000,2023-05-31
+p_pan_tomas_rodriguez_b4db0276,Panama,Tomás Rodríguez,1999-03-09,569205,Tomás Rodríguez,1999-03-09,Panama,,dob_and_name,1000000,2026-05-29
+p_pan_yoel_barcenas_cfb422ce,Panama,Yoel Bárcenas,1993-10-23,283473,Yoel Bárcenas,1993-10-23,Panama,Mazatlán FC,dob_and_name,650000,2026-05-20
+p_par_alex_arce_256e3298,Paraguay,Alex Arce,1995-06-16,970518,Álex Arce,1995-06-16,Paraguay,Club Sportivo Independiente Rivadavia,dob_and_name,3500000,2026-05-22
+p_par_alexandro_maidana_1c0fb791,Paraguay,Alexandro Maidana,2005-07-26,1371519,Alexandro Maidana,2005-07-26,Paraguay,Club Atlético Talleres,dob_and_name,2500000,2026-05-22
+p_par_andres_cubas_23543da5,Paraguay,Andrés Cubas,1996-06-22,323872,Andrés Cubas,1996-05-22,Paraguay,Vancouver Whitecaps FC,name_citizenship_and_club,4500000,2026-06-02
+p_par_antonio_sanabria_1710832e,Paraguay,Antonio Sanabria,1996-03-04,234523,Antonio Sanabria,1996-03-04,Paraguay,US Cremonese,dob_and_name,1800000,2026-05-29
+p_par_braian_ojeda_8a697e94,Paraguay,Braian Ojeda,2000-06-27,491596,Braian Ojeda,2000-06-27,Paraguay,Orlando City Soccer Club,dob_and_name,3500000,2026-06-02
+p_par_damian_bobadilla_d7883f3b,Paraguay,Damián Bobadilla,2001-07-11,861852,Damián Bobadilla,2001-07-11,Paraguay,São Paulo Futebol Clube,dob_and_name,6000000,2026-05-26
+p_par_diego_gomez_3c192530,Paraguay,Diego Gómez,2003-03-27,996897,Diego Gómez,2003-03-27,Paraguay,Brighton & Hove Albion,dob_and_name,25000000,2026-06-03
+p_par_fabian_balbuena_94556ad3,Paraguay,Fabián Balbuena,1991-08-23,285548,Fabián Balbuena,1991-08-23,Paraguay,Grêmio Foot-Ball Porto Alegrense,dob_and_name,900000,2026-05-26
+p_par_gabriel_avalos_3d7a0590,Paraguay,Gabriel Ávalos,1990-10-12,358418,Gabriel Ávalos,1990-10-12,Paraguay,Club Atlético Independiente de Avellaneda,dob_and_name,750000,2026-05-22
+p_par_gaston_olveira_b6ce3950,Paraguay,Gastón Olveira,1993-04-21,301722,Gastón Olveira,1993-04-21,Paraguay,,dob_and_name,,
+p_par_gustavo_caballero_c06c1dcd,Paraguay,Gustavo Caballero,2001-09-21,891672,Gustavo Caballero,2001-09-21,Paraguay,Santos Futebol Clube,dob_and_name,,
+p_par_gustavo_gomez_15ac3be9,Paraguay,Gustavo Gómez,1993-05-06,215390,Gustavo Gómez,1993-05-06,Paraguay,Sociedade Esportiva Palmeiras,dob_and_name,3500000,2026-05-26
+p_par_gustavo_velazquez_3d4e04a0,Paraguay,Gustavo Velázquez,1991-04-17,389399,Gustavo Velázquez,1991-04-17,Paraguay,,dob_and_name,,
+p_par_isidro_pitta_5f7fc8a3,Paraguay,Isidro Pitta,1999-08-14,675178,Isidro Pitta,1999-08-14,Paraguay,Red Bull Bragantino,dob_and_name,7500000,2026-05-26
+p_par_jose_canale_3cfd4298,Paraguay,Jose Canale,1996-07-20,402627,José Canale,1996-07-20,Paraguay,Club Atlético Lanús,dob_and_name,2200000,2026-05-22
+p_par_juan_caceres_52182aba,Paraguay,Juan José Cáceres,2000-06-01,756494,Juan José Cáceres,2000-06-01,Paraguay,FK Dinamo Moskva,dob_and_name,5000000,2026-05-26
+p_par_julio_enciso_d5119c91,Paraguay,Julio Enciso,2004-01-23,660867,Julio Enciso,2004-01-23,Paraguay,RC Strasbourg Alsace,dob_and_name,25000000,2026-06-01
+p_par_junior_alonso_e984eb93,Paraguay,Júnior Alonso,1993-02-09,273000,Júnior Alonso,1993-02-09,Paraguay,Clube Atlético Mineiro,dob_and_name,1500000,2026-05-26
+p_par_kaku_1e07c4b6,Paraguay,Kaku,1995-01-11,355817,Kaku,1995-01-11,Paraguay,,dob_and_name,,
+p_par_matias_galarza_d7b606d1,Paraguay,Matías Galarza,2002-02-11,661269,Matías Galarza,2002-02-11,Paraguay,Club Atlético River Plate,dob_and_name,3000000,2026-06-02
+p_par_mauricio_24540669,Paraguay,Maurício,2001-06-22,678439,Mauricio,2001-06-22,Paraguay,Sociedade Esportiva Palmeiras,dob_and_name,15000000,2026-05-26
+p_par_miguel_almiron_97ef1356,Paraguay,Miguel Almirón,1994-02-10,272999,Miguel Almirón,1994-02-10,Paraguay,Atlanta United Football Club,dob_and_name,7000000,2026-06-02
+p_par_omar_alderete_29987932,Paraguay,Omar Alderete,1996-12-26,353032,Omar Alderete,1996-12-26,Paraguay,Sunderland AFC,dob_and_name,13000000,2026-06-03
+p_par_orlando_gill_7aa70d28,Paraguay,Orlando Gill,2000-06-11,643259,Orlando Gill,2000-06-11,Paraguay,Club Atlético San Lorenzo de Almagro,dob_and_name,6000000,2026-05-22
+p_par_ramon_sosa_d362dd10,Paraguay,Ramón Sosa,1999-08-31,745191,Ramón Sosa,1999-08-31,Paraguay,Sociedade Esportiva Palmeiras,dob_and_name,10000000,2026-05-26
+p_par_roberto_fernandez_ce3a140a,Paraguay,Roberto Júnior Fernández Torres,1988-03-29,107318,Roberto Fernández,1988-03-29,Paraguay,,dob_and_name,100000,2026-05-18
+p_por_bernardo_silva_27e75e3e,Portugal,Bernardo Silva,1994-08-10,241641,Bernardo Silva,1994-08-10,Portugal,Manchester City,dob_and_name,22000000,2026-06-03
+p_por_bruno_fernandes_39e06934,Portugal,Bruno Fernandes,1994-09-08,240306,Bruno Fernandes,1994-09-08,Portugal,Manchester United,dob_and_name,35000000,2026-06-03
+p_por_cristiano_ronaldo_f2d7c6b3,Portugal,Cristiano Ronaldo,1985-02-05,8198,Cristiano Ronaldo,1985-02-05,Portugal,Al-Nassr Football Club,dob_and_name,10000000,2026-06-04
+p_por_diogo_costa_f79c6507,Portugal,Diogo Costa,1999-09-19,357153,Diogo Costa,1999-09-19,Portugal,FC Porto,dob_and_name,40000000,2026-05-28
+p_por_diogo_dalot_50ac8237,Portugal,Diogo Dalot,1999-03-18,357147,Diogo Dalot,1999-03-18,Portugal,Manchester United,dob_and_name,30000000,2026-06-03
+p_por_francisco_conceicao_40abfb02,Portugal,Francisco Conceição,2002-12-14,487474,Francisco Conceição,2002-12-14,Portugal,Juventus FC,dob_and_name,30000000,2026-05-29
+p_por_francisco_trincao_7fa80efa,Portugal,Francisco Trincão,1999-12-29,412669,Francisco Trincão,1999-12-29,Portugal,Sporting CP,dob_and_name,40000000,2026-05-28
+p_por_goncalo_guedes_fd0cda11,Portugal,Gonçalo Guedes,1996-11-29,225122,Gonçalo Guedes,1996-11-29,Portugal,Real Sociedad,dob_and_name,6000000,2026-06-05
+p_por_goncalo_inacio_dfd84d89,Portugal,Gonçalo Inacio,2001-08-25,549006,Gonçalo Inácio,2001-08-25,Portugal,Sporting CP,dob_and_name,40000000,2026-05-28
+p_por_goncalo_ramos_99ad3a78,Portugal,Gonçalo Ramos,2001-06-20,550550,Gonçalo Ramos,2001-06-20,Portugal,Paris Saint-Germain,dob_and_name,30000000,2026-06-01
+p_por_joao_cancelo_f93f48d5,Portugal,João Cancelo,1994-05-27,182712,João Cancelo,1994-05-27,Portugal,Al-Hilal Saudi Football Club,dob_and_name,8000000,2026-06-05
+p_por_joao_felix_b727707a,Portugal,João Félix,1999-11-10,462250,João Félix,1999-11-10,Portugal,Al-Nassr Football Club,dob_and_name,28000000,2026-06-04
+p_por_joao_neves_068e5539,Portugal,João Neves,2004-09-27,670681,João Neves,2004-09-27,Portugal,Paris Saint-Germain,dob_and_name,140000000,2026-06-01
+p_por_jose_sa_28ba6253,Portugal,José Sá,1993-01-17,249994,José Sá,1993-01-17,Portugal,Wolverhampton Wanderers,dob_and_name,3500000,2026-06-03
+p_por_matheus_nunes_9c5b063f,Portugal,Matheus Nunes,1998-08-27,601883,Matheus Nunes,1998-08-27,Portugal,Manchester City,dob_and_name,50000000,2026-06-03
+p_por_nelson_semedo_c6670ea2,Portugal,Nélson Semedo,1993-11-16,231572,Nélson Semedo,1993-11-16,Portugal,Fenerbahce,dob_and_name,6000000,2026-05-21
+p_por_nuno_mendes_7c66d939,Portugal,Nuno Mendes,2002-06-19,616341,Nuno Mendes,2002-06-19,Portugal,Paris Saint-Germain,dob_and_name,80000000,2026-06-01
+p_por_pedro_neto_58ef9265,Portugal,Pedro Neto,2000-03-09,487465,Pedro Neto,2000-03-09,Portugal,Chelsea FC,dob_and_name,60000000,2026-06-03
+p_por_rafael_leao_a7f10c77,Portugal,Rafael Leão,1999-06-10,357164,Rafael Leão,1999-06-10,Portugal,AC Milan,dob_and_name,50000000,2026-05-29
+p_por_renato_veiga_f7fd67f2,Portugal,Renato Veiga,2003-07-29,805714,Renato Veiga,2003-07-29,Portugal,Villarreal CF,dob_and_name,25000000,2026-06-05
+p_por_ruben_dias_03318c1c,Portugal,Rúben Dias,1997-05-14,258004,Rúben Dias,1997-05-14,Portugal,Manchester City,dob_and_name,55000000,2026-06-03
+p_por_ruben_neves_7dfd12f0,Portugal,Rúben Neves,1997-03-13,225161,Rúben Neves,1997-03-13,Portugal,Al-Hilal Saudi Football Club,dob_and_name,25000000,2026-06-04
+p_por_rui_silva_dba41a0e,Portugal,Rui Silva,1994-02-07,234811,Rui Silva,1994-02-07,Portugal,Sporting CP,dob_and_name,7000000,2026-05-28
+p_por_samu_costa_1ce43354,Portugal,Samú Costa,2000-11-27,657430,Samú Costa,2000-11-27,Portugal,RCD Mallorca,dob_and_name,15000000,2026-06-05
+p_por_tomas_araujo_48300d70,Portugal,Tomás Araújo,2002-05-16,504087,Tomás Araújo,2002-05-16,Portugal,SL Benfica,dob_and_name,30000000,2026-05-28
+p_por_vitinha_51bc84d2,Portugal,Vitinha,2000-02-13,487469,Vitinha,2000-02-13,Portugal,Paris Saint-Germain,dob_and_name,140000000,2026-06-01
+p_qat_abdulaziz_hatem_1df7c78b,Qatar,Abdulaziz Hatem,1990-10-28,113915,Abdulaziz Hatim,1990-10-28,Qatar,,dob_and_name,250000,2026-05-14
+p_qat_ahmed_al_ganehi_52152103,Qatar,Ahmed Al-Ganehi,2000-09-22,670659,Ahmed Al-Ganehi,2000-09-22,Qatar,,dob_and_name,500000,2026-05-14
+p_qat_ahmed_alaa_9687a16a,Qatar,Ahmed Alaa,1993-01-31,187987,Ahmed Alaaeldin,1993-01-31,Qatar,,dob_and_name,300000,2026-05-14
+p_qat_ahmed_fathi_80feb52e,Qatar,Ahmed Fathi,1993-01-25,251183,Ahmed Fathi,1993-01-25,Qatar,,dob_and_name,250000,2026-05-14
+p_qat_akram_afif_064f2846,Qatar,Akram Afif,1996-11-18,336646,Akram Afif,1996-11-18,Qatar,,dob_and_name,8000000,2026-05-14
+p_qat_al_hashmi_al_hussain_18ea1300,Qatar,Al-Hashmi Al-Hussain,2003-08-15,943150,Al-Hashmi Al-Hussain,2003-08-15,Qatar,,dob_and_name,250000,2026-05-14
+p_qat_almoez_ali_68112fbe,Qatar,Almoez Ali,1996-08-19,345095,Almoez Ali,1996-08-19,Qatar,,dob_and_name,2500000,2026-05-14
+p_qat_assim_madibo_5500c512,Qatar,Assim Madibo,1996-10-22,336667,Assim Madibo,1996-10-22,Qatar,,dob_and_name,350000,2026-05-14
+p_qat_ayoub_al_alawi_6dd2354d,Qatar,Ayoub Al-Oui,2005-03-11,1054631,Ayoub Al-Oui,2005-03-11,Qatar,,dob_and_name,375000,2026-05-14
+p_qat_boualem_khoukhi_344ecfb2,Qatar,Boualem Khoukhi,1990-07-09,222669,Boualem Khoukhi,1990-07-09,Qatar,,dob_and_name,200000,2026-05-14
+p_qat_edmilson_junior_fd36f4dc,Qatar,Edmílson Junior,1994-08-19,237846,Edmílson Junior,1994-08-19,Qatar,,dob_and_name,1800000,2026-05-14
+p_qat_hassan_al_haydos_7964c3fe,Qatar,Hassan Al-Haydos,1990-12-11,86286,Hasan Al-Haydos,1990-12-11,Qatar,,dob_and_name,300000,2026-05-14
+p_qat_homam_al_amin_5998ff2f,Qatar,Homam Al-Amin,1999-08-25,556713,Homam Al-Amin,1999-08-25,Qatar,,dob_and_name,500000,2026-06-05
+p_qat_issa_laye_12b58964,Qatar,Issa Laye,1997-12-22,1264176,Issa Laye,1997-12-22,Qatar,,dob_and_name,200000,2026-05-14
+p_qat_jassim_gaber_e21b11b5,Qatar,Jassem Gaber,2002-02-20,735813,Jassem Gaber,2002-02-20,Qatar,,dob_and_name,500000,2026-05-14
+p_qat_karim_boudiaf_57d704fd,Qatar,Karim Boudiaf,1990-09-16,222385,Karim Boudiaf,1990-09-16,Qatar,,dob_and_name,175000,2026-05-14
+p_qat_lucas_mendes_6e398990,Qatar,Lucas Mendes,1990-07-03,83983,Lucas Mendes,1990-07-03,Qatar,,dob_and_name,350000,2026-05-14
+p_qat_mahmoud_abunada_b9d0a3c8,Qatar,Mahmoud Abunada,2000-02-05,669629,Mahmoud Abunada,2000-02-05,Qatar,,dob_and_name,400000,2026-05-14
+p_qat_meshaal_barsham_8e6c8b1b,Qatar,Meshaal Barsham,1998-02-14,560423,Meshaal Barsham,1998-02-14,Qatar,,dob_and_name,700000,2026-05-14
+p_qat_mohammed_mannai_56f09e90,Qatar,Mohamed Manai,2002-10-25,822935,Mohamed Manai,2002-10-25,Qatar,,dob_and_name,500000,2026-05-14
+p_qat_mohammed_muntari_0cc96fcf,Qatar,Mohammed Muntari,1993-12-20,266935,Mohammed Muntari,1993-12-20,Qatar,,dob_and_name,200000,2026-05-14
+p_qat_pedro_miguel_d2f653ff,Qatar,Pedro Miguel,1990-08-06,228727,Pedro Miguel,1990-08-06,Qatar,,dob_and_name,150000,2026-05-14
+p_qat_salah_zakaria_06bc91ac,Qatar,Salah Zakaria,1999-04-24,632912,Salah Zakaria,1999-04-24,Qatar,,dob_and_name,400000,2026-05-14
+p_qat_sultan_al_brake_407121a6,Qatar,Sultan Al Brake,1996-04-07,336665,Sultan Al-Brake,1996-04-07,Qatar,,dob_and_name,300000,2026-05-14
+p_qat_tahsin_mohammed_41593ac8,Qatar,Tahsin Mohammed Jamshid,2006-06-16,1143849,Tahsin Mohammed Jamshid,2006-06-16,Qatar,,dob_and_name,200000,2026-05-14
+p_qat_yusuf_abdurisag_f1f3a249,Qatar,Yusuf Abdurisag,1999-08-06,589099,Yusuf Abdurisag,1999-08-06,Qatar,,dob_and_name,275000,2026-05-14
+p_rsa_aubrey_modiba_38a51174,South Africa,Aubrey Modiba,1995-07-22,353432,Aubrey Modiba,1995-07-22,South Africa,,dob_and_name,1800000,2026-06-05
+p_rsa_bradley_cross_fefe3ca9,South Africa,Bradley Cross,2001-01-30,555209,Bradley Cross,2001-01-30,South Africa,,dob_and_name,,
+p_rsa_evidence_makgopa_dcf422d1,South Africa,Evidence Makgopa,2000-06-05,746781,Evidence Makgopa,2000-06-05,South Africa,,dob_and_name,1400000,2026-06-05
+p_rsa_ime_okon_4e7e2ef7,South Africa,Ime Okon,2004-02-20,1107265,Ime Okon,2004-02-20,South Africa,Hannover 96,dob_and_name,,
+p_rsa_iqraam_rayners_4b1217ec,South Africa,Iqraam Rayners,1995-12-19,337884,Iqraam Rayners,1995-12-19,South Africa,,dob_and_name,2800000,2026-06-05
+p_rsa_jayden_adams_661cd5d8,South Africa,Jayden Adams,2001-05-05,804472,Jayden Adams,2001-05-05,South Africa,,dob_and_name,1800000,2026-06-05
+p_rsa_kamgogelo_sebelebele_dafaac5f,South Africa,Kamogelo Sebelebele,2002-07-21,994370,Kamogelo Sebelebele,2002-07-21,South Africa,,dob_and_name,1200000,2026-06-05
+p_rsa_khuliso_mudau_658805c6,South Africa,Khuliso Mudau,1995-04-26,450806,Khuliso Mudau,1995-04-26,South Africa,,dob_and_name,1200000,2026-06-05
+p_rsa_khulumani_ndamane_fbcaf768,South Africa,Khulumani Ndamane,2004-02-05,1283140,Khulumani Ndamane,2004-02-05,South Africa,,dob_and_name,1200000,2026-06-05
+p_rsa_lyle_foster_d7794c0a,South Africa,Lyle Foster,2000-09-03,467623,Lyle Foster,2000-09-03,South Africa,Burnley FC,dob_and_name,8000000,2026-06-03
+p_rsa_mbekezeli_mbokazi_aab0b6aa,South Africa,Mbekezeli Mbokazi,2005-09-19,1378320,Mbekezeli Mbokazi,2005-09-19,South Africa,Chicago Fire Soccer Club,dob_and_name,3500000,2026-06-02
+p_rsa_nkosinathi_sibisi_c2a232db,South Africa,Nkosinathi Sibisi,1995-05-22,399068,Nkosinathi Sibisi,1995-09-22,South Africa,,dob_and_name,1600000,2026-06-05
+p_rsa_olwethu_makhanya_4966d327,South Africa,Olwethu Makhanya,2004-04-30,1069801,Olwethu Makhanya,2004-04-30,South Africa,Philadelphia Union,dob_and_name,2000000,2026-06-02
+p_rsa_oswin_appollis_c5b541fb,South Africa,Oswin Appollis,2001-08-25,673381,Oswin Appollis,2001-08-25,South Africa,,dob_and_name,2500000,2026-06-05
+p_rsa_relebohile_mofokeng_c09aabfb,South Africa,Relebohile Mofokeng,2004-10-23,1125037,Relebohile Mofokeng,2004-10-23,South Africa,,dob_and_name,3000000,2026-06-05
+p_rsa_ricardo_goss_02c98ce1,South Africa,Ricardo Goss,1994-04-02,258304,Ricardo Goss,1994-04-02,South Africa,,dob_and_name,350000,2026-06-05
+p_rsa_ronwen_williams_8988314c,South Africa,Ronwen Williams,1992-01-21,175577,Ronwen Williams,1992-01-21,South Africa,,dob_and_name,800000,2026-06-05
+p_rsa_samukelo_kabini_a3476421,South Africa,Samukele Kabini,2004-03-15,1175086,Samukele Kabini,2004-03-15,South Africa,Molde Fotballklubb,dob_and_name,2500000,2026-05-28
+p_rsa_sipho_chaine_5123e728,South Africa,Sipho Chaine,1996-12-14,453370,Sipho Chaine,1996-12-14,South Africa,,dob_and_name,1600000,2026-06-05
+p_rsa_teboho_mokoena_f2c012d8,South Africa,Teboho Mokoena,1997-01-24,436372,Teboho Mokoena,1997-01-24,South Africa,,dob_and_name,2800000,2026-06-05
+p_rsa_thabang_matuludi_b0738f64,South Africa,Thabang Matuludi,1999-01-14,1109254,Thabang Matuludi,1999-01-14,South Africa,,dob_and_name,1200000,2026-06-05
+p_rsa_thalente_mbatha_a316dba5,South Africa,Thalente Mbatha,2000-03-06,735697,Thalente Mbatha,2000-03-06,South Africa,,dob_and_name,2000000,2026-06-05
+p_rsa_thapelo_maseko_340901ba,South Africa,Thapelo Maseko,2003-11-11,983330,Thapelo Maseko,2003-11-11,South Africa,,dob_and_name,,
+p_rsa_themba_zwane_7ea3fe91,South Africa,Themba Zwane,1989-08-03,176578,Themba Zwane,1989-08-03,South Africa,,dob_and_name,,
+p_rsa_tshepang_moremi_49d28f3d,South Africa,Tshepang Moremi,2000-10-02,844485,Tshepang Moremi,2000-10-02,South Africa,,dob_and_name,1400000,2026-06-05
+p_rsa_yaya_sithole_720d4ea2,South Africa,Yaya Sithole,1999-03-03,401736,Yaya Sithole,1999-03-03,South Africa,CD Tondela,dob_and_name,600000,2026-05-28
+p_sco_aaron_hickey_923038a5,Scotland,Aaron Hickey,2002-06-10,591949,Aaron Hickey,2002-06-10,Scotland,Brentford FC,dob_and_name,16000000,2026-06-03
+p_sco_andy_robertson_6d65a602,Scotland,Andy Robertson,1994-03-11,234803,Andrew Robertson,1994-03-11,Scotland,Liverpool FC,dob_and_name,7000000,2026-06-03
+p_sco_angus_gunn_891fa04c,Scotland,Angus Gunn,1996-01-22,201574,Angus Gunn,1996-01-22,Scotland,Nottingham Forest,dob_and_name,1000000,2026-06-03
+p_sco_anthony_ralston_f8b878f9,Scotland,Anthony Ralston,1998-11-16,388171,Anthony Ralston,1998-11-16,Scotland,Celtic FC,dob_and_name,1500000,2026-05-20
+p_sco_ben_gannon_doak_dc3b3caf,Scotland,Ben Gannon-Doak,2005-11-11,719673,Ben Gannon-Doak,2005-11-11,Scotland,Liverpool FC,dob_and_name,15000000,2026-06-03
+p_sco_che_adams_e88d9b6f,Scotland,Ché Adams,1996-07-13,346779,Ché Adams,1996-07-13,Scotland,Torino FC,dob_and_name,5000000,2026-05-29
+p_sco_craig_gordon_8f2c9726,Scotland,Craig Gordon,1982-12-31,12589,Craig Gordon,1982-12-31,Scotland,Heart of Midlothian FC,dob_and_name,50000,2026-05-20
+p_sco_dom_hyam_8372632a,Scotland,Dominic Hyam,1995-12-20,,,,,,none,,
+p_sco_finlay_curtis_9d5c6741,Scotland,Findlay Curtis,2006-06-09,1082993,Findlay Curtis,2006-06-09,Scotland,Kilmarnock FC,dob_and_name,2000000,2026-05-20
+p_sco_george_hirst_c5d5fa29,Scotland,George Hirst,1999-02-15,420808,George Hirst,1999-02-15,Scotland,Ipswich Town,dob_and_name,10000000,2026-05-28
+p_sco_grant_hanley_f7710f4b,Scotland,Grant Hanley,1991-11-20,121385,Grant Hanley,1991-11-20,Scotland,Hibernian FC,dob_and_name,200000,2026-05-20
+p_sco_jack_hendry_533b108a,Scotland,Jack Hendry,1995-05-07,363223,Jack Hendry,1995-05-07,Scotland,Al-Ettifaq Football Club,dob_and_name,2500000,2026-06-04
+p_sco_john_mcginn_be1280d7,Scotland,John McGinn,1994-10-18,193116,John McGinn,1994-10-18,Scotland,Aston Villa,dob_and_name,13000000,2026-06-03
+p_sco_john_souttar_4f577a6e,Scotland,John Souttar,1996-09-25,235767,John Souttar,1996-09-25,Scotland,Rangers FC,dob_and_name,2000000,2026-05-20
+p_sco_kenny_mclean_25cd41a4,Scotland,Kenny McLean,1992-01-08,126600,Kenny McLean,1992-01-08,Scotland,Norwich City,dob_and_name,400000,2026-05-28
+p_sco_kieran_tierney_75ec1db6,Scotland,Kieran Tierney,1997-06-05,300716,Kieran Tierney,1997-06-05,Scotland,Celtic FC,dob_and_name,8000000,2026-05-20
+p_sco_lawrence_shankland_c03e8909,Scotland,Lawrence Shankland,1995-08-10,225744,Lawrence Shankland,1995-08-10,Scotland,Heart of Midlothian FC,dob_and_name,3000000,2026-05-20
+p_sco_lewis_ferguson_ea95fb10,Scotland,Lewis Ferguson,1999-08-24,428563,Lewis Ferguson,1999-08-24,Scotland,Bologna Football Club 1909,dob_and_name,14000000,2026-05-29
+p_sco_liam_kelly_c1331bc4,Scotland,Liam Kelly,1996-01-23,208772,Liam Kelly,1996-01-23,Scotland,Rangers FC,dob_and_name,800000,2026-05-20
+p_sco_lyndon_dykes_c6b1e63b,Scotland,Lyndon Dykes,1995-10-07,347138,Lyndon Dykes,1995-10-07,Scotland,,dob_and_name,800000,2026-05-28
+p_sco_nathan_patterson_e96cf00a,Scotland,Nathan Patterson,2001-10-16,424015,Nathan Patterson,2001-10-16,Scotland,Everton FC,dob_and_name,10000000,2026-06-03
+p_sco_ross_stewart_10079e43,Scotland,Ross Stewart,1996-07-11,447995,Ross Stewart,1996-07-11,Scotland,Southampton FC,dob_and_name,2800000,2025-12-03
+p_sco_ryan_christie_60f09d9e,Scotland,Ryan Christie,1995-02-22,188077,Ryan Christie,1995-02-22,Scotland,AFC Bournemouth,dob_and_name,8000000,2026-06-03
+p_sco_scott_mckenna_ab03a9df,Scotland,Scott McKenna,1996-11-12,255906,Scott McKenna,1996-11-12,Scotland,GNK Dinamo Zagreb,dob_and_name,4000000,2026-05-29
+p_sco_scott_mctominay_66d2f7cf,Scotland,Scott McTominay,1996-12-08,315969,Scott McTominay,1996-12-08,Scotland,SSC Napoli,dob_and_name,40000000,2026-05-29
+p_sen_abdoulaye_seck_fa9e55b2,Senegal,Abdoulaye Seck,1992-06-04,265383,Abdoulaye Seck,1992-06-04,Senegal,,dob_and_name,400000,2026-06-05
+p_sen_antoine_mendy_ea5f408c,Senegal,Antoine Mendy,2004-05-27,891998,Antoine Mendy,2004-05-27,Senegal,OGC Nice,dob_and_name,10000000,2026-06-01
+p_sen_assane_diao_0f0dfab0,Senegal,Assane Diao,2005-09-07,1061282,Assane Diao,2005-09-07,Senegal,Como 1907,dob_and_name,30000000,2026-05-29
+p_sen_bamba_dieng_f49589f9,Senegal,Bamba Dieng,2000-03-23,822458,Bamba Dieng,2000-03-23,Senegal,FC Lorient,dob_and_name,15000000,2026-06-01
+p_sen_bara_sapoko_ndiaye_36e09ebd,Senegal,Bara Sapoko Ndiaye,2007-12-31,1497653,Bara Sapoko Ndiaye,2007-12-31,Senegal,Bayern Munich,dob_and_name,4000000,2026-05-27
+p_sen_cherif_ndiaye_7d9e0658,Senegal,Cherif Ndiaye,1996-01-23,480705,Cherif Ndiaye,1996-01-23,Senegal,Samsunspor,dob_and_name,5000000,2026-05-21
+p_sen_edouard_mendy_12d6c326,Senegal,Édouard Mendy,1992-03-01,442531,Edouard Mendy,1992-03-01,Senegal,Al-Ahli Saudi Football Club,dob_and_name,4000000,2026-06-04
+p_sen_el_hadji_malick_diouf_2fb2dad9,Senegal,El Hadji Malick Diouf,2004-12-28,1111589,El Hadji Malick Diouf,2004-12-28,Senegal,West Ham United,dob_and_name,28000000,2026-06-03
+p_sen_habib_diarra_28f5810c,Senegal,Habib Diarra,2004-01-03,876631,Habib Diarra,2004-01-03,Senegal,Sunderland AFC,dob_and_name,35000000,2026-06-03
+p_sen_ibrahim_mbaye_c761f48b,Senegal,Ibrahim Mbaye,2008-01-24,1185888,Ibrahim Mbaye,2008-01-24,Senegal,Paris Saint-Germain,dob_and_name,30000000,2026-06-01
+p_sen_idrissa_gana_gueye_93254a9a,Senegal,Idrissa Gana Gueye,1989-09-26,126665,Idrissa Gueye,1989-09-26,Senegal,Everton FC,dob_and_name,500000,2026-06-03
+p_sen_iliman_ndiaye_04ffdec0,Senegal,Iliman Ndiaye,2000-03-06,623570,Iliman Ndiaye,2000-03-06,Senegal,Everton FC,dob_and_name,55000000,2026-06-03
+p_sen_ismail_jakobs_ee8b9fc4,Senegal,Ismail Jakobs,1999-08-17,375137,Ismail Jakobs,1999-08-17,Senegal,Galatasaray,dob_and_name,8000000,2026-05-21
+p_sen_ismaila_sarr_54028aa3,Senegal,Ismaïla Sarr,1998-02-25,410225,Ismaïla Sarr,1998-02-25,Senegal,Crystal Palace,dob_and_name,40000000,2026-06-03
+p_sen_kalidou_koulibaly_284f9c02,Senegal,Kalidou Koulibaly,1991-06-20,93128,Kalidou Koulibaly,1991-06-20,Senegal,Al-Hilal Saudi Football Club,dob_and_name,4500000,2026-06-04
+p_sen_krepin_diatta_c3508620,Senegal,Krépin Diatta,1999-02-25,490426,Krépin Diatta,1999-02-25,Senegal,AS Monaco,dob_and_name,6000000,2026-06-01
+p_sen_lamine_camara_8da56cdd,Senegal,Lamine Camara,2004-01-01,918969,Lamine Camara,2004-01-01,Senegal,AS Monaco,dob_and_name,40000000,2026-06-01
+p_sen_mamadou_sarr_73b25f01,Senegal,Mamadou Sarr,2005-08-29,910905,Mamadou Sarr,2005-08-29,Senegal,Chelsea FC,dob_and_name,22000000,2026-06-03
+p_sen_mory_diaw_03abd6b3,Senegal,Mory Diaw,1993-06-22,164904,Mory Diaw,1993-06-22,Senegal,Le Havre AC,dob_and_name,900000,2026-06-01
+p_sen_moussa_niakhate_dcbbaf9b,Senegal,Moussa Niakhaté,1996-03-08,291200,Moussa Niakhaté,1996-03-08,Senegal,Olympique Lyon,dob_and_name,15000000,2026-06-01
+p_sen_nicolas_jackson_624ecdb7,Senegal,Nicolas Jackson,2001-06-20,776890,Nicolas Jackson,2001-06-20,Senegal,Bayern Munich,dob_and_name,40000000,2026-05-27
+p_sen_pape_gueye_1b557530,Senegal,Pape Gueye,1999-01-24,485963,Pape Gueye,1999-01-24,Senegal,Villarreal CF,dob_and_name,40000000,2026-06-05
+p_sen_pape_matar_sarr_b4d0d243,Senegal,Pape Matar Sarr,2002-09-14,568693,Pape Matar Sarr,2002-09-14,Senegal,Tottenham Hotspur,dob_and_name,30000000,2026-06-03
+p_sen_pathe_ciss_8a6cdcef,Senegal,Pathé Ciss,1994-03-16,525578,Pathé Ciss,1994-03-16,Senegal,Rayo Vallecano,dob_and_name,1800000,2026-06-05
+p_sen_sadio_mane_fde3a2ed,Senegal,Sadio Mané,1992-04-10,200512,Sadio Mané,1992-04-10,Senegal,Al-Nassr Football Club,dob_and_name,6000000,2026-06-04
+p_sen_yehvann_diouf_c1354386,Senegal,Yehvann Diouf,1999-11-16,448632,Yehvann Diouf,1999-11-16,Senegal,OGC Nice,dob_and_name,7000000,2026-06-01
+p_sui_ardon_jashari_2e08546c,Switzerland,Ardon Jashari,2002-07-30,608172,Ardon Jashari,2002-07-30,Switzerland,AC Milan,dob_and_name,25000000,2026-05-29
+p_sui_aurele_amenda_eece3a6a,Switzerland,Aurèle Amenda,2003-07-31,635645,Aurèle Amenda,2003-07-31,Switzerland,Eintracht Frankfurt,dob_and_name,10000000,2026-05-27
+p_sui_breel_embolo_5b94de4f,Switzerland,Breel Embolo,1997-02-14,237662,Breel Embolo,1997-02-14,Switzerland,Stade Rennais FC,dob_and_name,15000000,2026-06-01
+p_sui_cedric_itten_c3e3378c,Switzerland,Cedric Itten,1996-12-27,243856,Cedric Itten,1996-12-27,Switzerland,Fortuna Düsseldorf,dob_and_name,1800000,2026-06-01
+p_sui_christian_fassnacht_aa3e62b8,Switzerland,Christian Fassnacht,1993-11-11,250490,Christian Fassnacht,1993-11-11,Switzerland,BSC Young Boys,dob_and_name,2000000,2026-06-02
+p_sui_dan_ndoye_7c314fdc,Switzerland,Dan Ndoye,2000-10-25,365108,Dan Ndoye,2000-10-25,Switzerland,Nottingham Forest,dob_and_name,32000000,2026-06-03
+p_sui_denis_zakaria_a483edd8,Switzerland,Denis Zakaria,1996-11-20,334526,Denis Zakaria,1996-11-20,Switzerland,AS Monaco,dob_and_name,25000000,2026-06-01
+p_sui_djibril_sow_84f9945a,Switzerland,Djibril Sow,1997-02-06,212723,Djibril Sow,1997-02-06,Switzerland,Sevilla FC,dob_and_name,7500000,2026-06-05
+p_sui_eray_comert_ad155989,Switzerland,Eray Cömert,1998-02-04,298583,Eray Cömert,1998-02-04,Switzerland,Valencia CF,dob_and_name,2500000,2026-06-05
+p_sui_fabian_rieder_6de26ce4,Switzerland,Fabian Rieder,2002-02-16,507341,Fabian Rieder,2002-02-16,Switzerland,Stade Rennais FC,dob_and_name,12000000,2026-05-27
+p_sui_granit_xhaka_665f45a1,Switzerland,Granit Xhaka,1992-09-27,111455,Granit Xhaka,1992-09-27,Switzerland,Sunderland AFC,dob_and_name,8000000,2026-06-03
+p_sui_gregor_kobel_9fd52126,Switzerland,Gregor Kobel,1997-12-06,257814,Gregor Kobel,1997-12-06,Switzerland,Borussia Dortmund,dob_and_name,40000000,2026-05-27
+p_sui_johan_manzambi_fdf8dac7,Switzerland,Johan Manzambi,2005-10-14,927353,Johan Manzambi,2005-10-14,Switzerland,SC Freiburg,dob_and_name,50000000,2026-05-27
+p_sui_luca_jaquez_07e711c4,Switzerland,Luca Jaquez,2003-06-02,539798,Luca Jaquez,2003-06-02,Switzerland,VfB Stuttgart,dob_and_name,10000000,2026-05-27
+p_sui_manuel_akanji_78cfa9fc,Switzerland,Manuel Akanji,1995-07-19,284730,Manuel Akanji,1995-07-19,Switzerland,Manchester City,dob_and_name,17000000,2026-05-29
+p_sui_marvin_keller_b14825c0,Switzerland,Marvin Keller,2002-07-03,500763,Marvin Keller,2002-07-03,Switzerland,BSC Young Boys,dob_and_name,6000000,2026-06-02
+p_sui_michel_aebischer_eaf17002,Switzerland,Michel Aebischer,1997-01-06,237658,Michel Aebischer,1997-01-06,Switzerland,Pisa Sporting Club,dob_and_name,4000000,2026-05-29
+p_sui_miro_muheim_abcffed3,Switzerland,Miro Muheim,1998-03-24,298603,Miro Muheim,1998-03-24,Switzerland,Hamburger SV,dob_and_name,5000000,2026-05-27
+p_sui_nico_elvedi_e4747b6b,Switzerland,Nico Elvedi,1996-09-30,192635,Nico Elvedi,1996-09-30,Switzerland,Borussia Mönchengladbach,dob_and_name,8000000,2026-05-27
+p_sui_noah_okafor_15d60927,Switzerland,Noah Okafor,2000-05-24,346890,Noah Okafor,2000-05-24,Switzerland,Leeds United,dob_and_name,25000000,2026-06-03
+p_sui_remo_freuler_6c0d98d6,Switzerland,Remo Freuler,1992-04-15,148252,Remo Freuler,1992-04-15,Switzerland,Bologna Football Club 1909,dob_and_name,3000000,2026-05-29
+p_sui_ricardo_rodriguez_5c3e42fc,Switzerland,Ricardo Rodriguez,1992-08-25,86784,Ricardo Rodríguez,1992-08-25,Switzerland,Real Betis Balompié,dob_and_name,1400000,2026-06-05
+p_sui_ruben_vargas_e9e82ac0,Switzerland,Rubén Vargas,1998-08-05,345886,Rubén Vargas,1998-08-05,Switzerland,Sevilla FC,dob_and_name,12000000,2026-06-05
+p_sui_silvan_widmer_5a449c9b,Switzerland,Silvan Widmer,1993-03-05,168989,Silvan Widmer,1993-03-05,Switzerland,1.FSV Mainz 05,dob_and_name,800000,2026-05-27
+p_sui_yvon_mvogo_a2147aa7,Switzerland,Yvon Mvogo,1994-06-06,147051,Yvon Mvogo,1994-06-06,Switzerland,FC Lorient,dob_and_name,2500000,2026-06-01
+p_sui_zeki_amdouni_65de5a66,Switzerland,Zeki Amdouni,2000-12-04,548729,Zeki Amdouni,2000-12-04,Switzerland,Burnley FC,dob_and_name,7000000,2026-06-03
+p_swe_alexander_bernhardsson_183625f1,Sweden,Alexander Bernhardsson,1998-09-08,633454,Alexander Bernhardsson,1998-09-08,Sweden,Holstein Kiel,dob_and_name,3000000,2026-06-01
+p_swe_alexander_isak_d29df017,Sweden,Alexander Isak,1999-09-21,349066,Alexander Isak,1999-09-21,Sweden,Liverpool FC,dob_and_name,85000000,2026-06-03
+p_swe_anthony_elanga_7d84448c,Sweden,Anthony Elanga,2002-04-27,583189,Anthony Elanga,2002-04-27,Sweden,Newcastle United,dob_and_name,32000000,2026-06-03
+p_swe_benjamin_nygren_53f36aef,Sweden,Benjamin Nygren,2001-07-08,475949,Benjamin Nygren,2001-07-08,Sweden,Celtic FC,dob_and_name,14000000,2026-05-20
+p_swe_besfort_zeneli_4d53162c,Sweden,Besfort Zeneli,2002-11-21,715653,Besfort Zeneli,2002-11-21,Sweden,Union Saint-Gilloise,dob_and_name,6000000,2026-06-04
+p_swe_carl_starfelt_f9c7b3df,Sweden,Carl Starfelt,1995-06-01,258987,Carl Starfelt,1995-06-01,Sweden,Celta de Vigo,dob_and_name,4500000,2026-06-05
+p_swe_daniel_svensson_bc86dc59,Sweden,Daniel Svensson,2002-02-12,579287,Daniel Svensson,2002-02-12,Sweden,Borussia Dortmund,dob_and_name,22000000,2026-05-27
+p_swe_elliot_stroud_e7f82634,Sweden,Elliot Stroud,2002-06-22,687622,Elliot Stroud,2002-06-22,Sweden,Mjällby Almänna Idrottsförening,dob_and_name,5000000,2026-06-05
+p_swe_erik_smith_9cafee29,Sweden,Eric Smith,1997-01-05,292534,Eric Smith,1997-01-08,Sweden,FC St. Pauli,dob_and_name,5000000,2026-05-27
+p_swe_gabriel_gudmundsson_eb2d9efc,Sweden,Gabriel Gudmundsson,1999-04-29,362108,Gabriel Gudmundsson,1999-04-29,Sweden,Leeds United,dob_and_name,20000000,2026-06-03
+p_swe_gustaf_lagerbielke_bc6ed8a1,Sweden,Gustaf Lagerbielke,2000-04-10,485395,Gustaf Lagerbielke,2000-04-10,Sweden,SC Braga,dob_and_name,10000000,2026-05-28
+p_swe_gustaf_nilsson_68eca14b,Sweden,Gustaf Nilsson,1997-05-23,320440,Gustaf Nilsson,1997-05-23,Sweden,Club Brugge KV,dob_and_name,1800000,2026-06-04
+p_swe_hjalmar_ekdal_da20d081,Sweden,Hjalmar Ekdal,1998-10-21,392179,Hjalmar Ekdal,1998-10-21,Sweden,Burnley FC,dob_and_name,5000000,2026-06-03
+p_swe_isak_hien_5af7ff83,Sweden,Isak Hien,1999-01-13,503075,Isak Hien,1999-01-13,Sweden,Atalanta BC,dob_and_name,22000000,2026-05-29
+p_swe_jacob_widell_zetterstrom_e958d11e,Sweden,Jacob Widell Zetterstrom,1998-07-11,549440,Jacob Widell Zetterström,1998-07-11,Sweden,,dob_and_name,2500000,2026-05-28
+p_swe_jesper_karlstrom_d3aef6c6,Sweden,Jesper Karlström,1995-06-21,222855,Jesper Karlström,1995-06-21,Sweden,Udinese Calcio,dob_and_name,4000000,2026-05-29
+p_swe_ken_sema_0128247c,Sweden,Ken Sema,1993-09-30,252345,Ken Sema,1993-09-30,Sweden,,dob_and_name,800000,2026-06-02
+p_swe_kristoffer_nordfeldt_c048cf33,Sweden,Kristoffer Nordfeldt,1989-06-23,75890,Kristoffer Nordfeldt,1989-06-23,Sweden,Allmänna Idrottsklubben,dob_and_name,175000,2026-06-05
+p_swe_lucas_bergvall_53031c77,Sweden,Lucas Bergvall,2006-02-02,866246,Lucas Bergvall,2006-02-02,Sweden,Tottenham Hotspur,dob_and_name,35000000,2026-06-03
+p_swe_mattias_svanberg_c682891f,Sweden,Mattias Svanberg,1999-01-05,342405,Mattias Svanberg,1999-01-05,Sweden,VfL Wolfsburg,dob_and_name,8000000,2026-05-27
+p_swe_taha_ali_e82566e9,Sweden,Taha Ali,1998-07-01,731771,Taha Ali,1998-07-01,Sweden,Malmö Fotbollförening,dob_and_name,1500000,2026-06-05
+p_swe_victor_lindelof_39bc6637,Sweden,Victor Lindelöf,1994-07-17,184573,Victor Lindelöf,1994-07-17,Sweden,Aston Villa,dob_and_name,5000000,2026-06-03
+p_swe_viktor_gyokeres_e165bb38,Sweden,Viktor Gyökeres,1998-06-04,325443,Viktor Gyökeres,1998-06-04,Sweden,Arsenal FC,dob_and_name,65000000,2026-06-03
+p_swe_viktor_johansson_6a0e6047,Sweden,Viktor Johansson,1998-09-14,273742,Viktor Johansson,1998-09-14,Sweden,Stoke City,dob_and_name,12000000,2026-05-28
+p_swe_yasin_ayari_aac82e94,Sweden,Yasin Ayari,2003-10-06,667287,Yasin Ayari,2003-10-06,Sweden,Brighton & Hove Albion,dob_and_name,35000000,2026-06-03
+p_tun_abdelmouhib_chamakh_e29f55d3,Tunisia,Abdelmouhib Chamakh,2001-08-25,,,,,,none,,
+p_tun_adem_arous_c6ec8c9f,Tunisia,Adem Arous,2004-07-17,1071742,Adem Arous,2004-07-17,Tunisia,Kasimpasa,dob_and_name,4000000,2026-05-21
+p_tun_ali_abdi_129ee089,Tunisia,Ali Abdi,1993-12-20,211474,Ali Abdi,1993-12-20,Tunisia,OGC Nice,dob_and_name,2000000,2026-06-01
+p_tun_anis_ben_slimane_f616315a,Tunisia,Anis Ben Slimane,2001-03-16,546712,Anis Ben Slimane,2001-03-16,Tunisia,Norwich City,dob_and_name,2500000,2024-05-27
+p_tun_aymen_dahmen_b36b253a,Tunisia,Aymen Dahmen,1997-01-28,569433,Aymen Dahmen,1997-01-28,Tunisia,,dob_and_name,800000,2026-06-02
+p_tun_dylan_bronn_aef3e7a9,Tunisia,Dylan Bronn,1995-06-19,450417,Dylan Bronn,1995-06-19,Tunisia,Servette FC,dob_and_name,600000,2026-06-02
+p_tun_elias_achouri_54099dc4,Tunisia,Elias Achouri,1999-02-10,645589,Elias Achouri,1999-02-10,Tunisia,FC Copenhagen,dob_and_name,3000000,2026-05-25
+p_tun_elias_saad_1fb52bca,Tunisia,Elias Saad,1999-12-27,526466,Elias Saad,1999-12-27,Tunisia,FC Augsburg,dob_and_name,,
+p_tun_ellyes_skhiri_6b6c94f5,Tunisia,Ellyes Skhiri,1995-05-10,290587,Ellyes Skhiri,1995-05-10,Tunisia,Eintracht Frankfurt,dob_and_name,5000000,2026-05-27
+p_tun_firas_chaouat_fc84bec1,Tunisia,Firas Chaouat,1996-05-08,402087,Firas Chaouat,1996-05-08,Tunisia,,dob_and_name,,
+p_tun_hadj_mahmoud_bc994824,Tunisia,Hadj Mahmoud,2000-04-24,673513,Mohamed Belhadj Mahmoud,2000-04-24,Tunisia,FC Lugano,dob_citizenship_and_club,2000000,2026-06-02
+p_tun_hannibal_mejbri_2991068c,Tunisia,Hannibal Mejbri,2003-01-21,607224,Hannibal,2003-01-21,Tunisia,Burnley FC,dob_and_name,15000000,2026-06-03
+p_tun_hazem_mastouri_d4cb874a,Tunisia,Hazem Mastouri,1997-06-18,953150,Hazem Mastouri,1997-06-18,Tunisia,Dinamo Makhachkala,dob_and_name,900000,2026-05-26
+p_tun_ismael_gharbi_d8ee92a5,Tunisia,Ismaël Gharbi,2004-04-10,810096,Ismaël Gharbi,2004-04-10,Tunisia,FC Augsburg,dob_and_name,5000000,2026-05-27
+p_tun_khalil_ayari_f0637767,Tunisia,Khalil Ayari,2005-02-02,1198342,Khalil Ayari,2005-02-02,Tunisia,,dob_and_name,,
+p_tun_mohamed_amine_ben_hamida_4045891e,Tunisia,Mohamed Amine Ben Hamida,1995-12-15,454495,Mohamed Amine Ben Hamida,1995-12-15,Tunisia,,dob_and_name,,
+p_tun_montassar_talbi_fefd7c0b,Tunisia,Montassar Talbi,1998-05-26,496706,Montassar Talbi,1998-05-26,Tunisia,FC Lorient,dob_and_name,8000000,2026-06-01
+p_tun_mortadha_ben_ouanes_504c21b9,Tunisia,Mortadha Ben Ouanes,1994-07-02,230921,Mortadha Ben Ouanes,1994-07-02,Tunisia,Kasimpasa,dob_and_name,1500000,2026-05-21
+p_tun_moutaz_neffati_4bac9637,Tunisia,Moutaz Neffati,2004-09-04,1034598,Moutaz Neffati,2004-09-04,Tunisia,IFK Norrköping,dob_and_name,,
+p_tun_omar_rekik_ceaef541,Tunisia,Omar Rekik,2001-12-20,578292,Omar Rekik,2001-12-20,Tunisia,Sparta Rotterdam,dob_and_name,600000,2023-06-01
+p_tun_raed_chikhaoui_bec8fb86,Tunisia,Raed Chikhaoui,2004-06-09,,,,,,none,,
+p_tun_rani_khedira_fced077d,Tunisia,Rani Khedira,1994-01-27,124410,Rani Khedira,1994-01-27,Tunisia,1.FC Union Berlin,dob_and_name,2000000,2026-05-27
+p_tun_rayan_elloumi_8d469ccb,Tunisia,Rayan Elloumi,2007-09-17,1273985,Rayan Elloumi,2007-09-17,Tunisia,Vancouver Whitecaps FC,dob_and_name,800000,2026-06-02
+p_tun_sabri_ben_hessen_96ec4b2c,Tunisia,Sabri Ben Hessen,1996-06-13,295381,Sabri Ben Hessen,1996-06-13,Tunisia,,dob_and_name,550000,2026-06-02
+p_tun_sebastian_tounekti_98b62da5,Tunisia,Sebastian Tounekti,2002-07-13,539677,Sebastian Tounekti,2002-07-13,Tunisia,Celtic FC,dob_and_name,5000000,2026-05-20
+p_tun_yan_valery_b224fb5c,Tunisia,Yan Valery,1999-02-22,406008,Yan Valery,1999-02-22,Tunisia,BSC Young Boys,dob_and_name,1500000,2026-06-02
+p_tur_abdulkerim_bardakci_b0c60d55,Türkiye,Abdulkerim Bardakci,1994-09-07,199316,Abdülkerim Bardakcı,1994-09-07,Türkiye,Galatasaray,dob_and_name,6500000,2026-05-21
+p_tur_altay_bayindir_049824ee,Türkiye,Altay Bayindir,1998-04-14,336077,Altay Bayındır,1998-04-14,Türkiye,Manchester United,dob_and_name,5000000,2026-06-03
+p_tur_arda_guler_fa7fbc25,Türkiye,Arda Guler,2005-02-25,861410,Arda Güler,2005-02-25,Türkiye,Real Madrid,dob_and_name,90000000,2026-06-05
+p_tur_baris_apler_yilmaz_d63c4e39,Türkiye,Barış Alper Yılmaz,2000-05-23,541537,Barış Alper Yılmaz,2000-05-23,Türkiye,Galatasaray,dob_and_name,30000000,2026-05-21
+p_tur_caglar_soyuncu_3bbca1bc,Türkiye,Caglar Soyuncu,1996-05-23,320141,Çağlar Söyüncü,1996-05-23,Türkiye,Fenerbahce,dob_and_name,3500000,2026-05-21
+p_tur_can_uzun_0da356b2,Türkiye,Can Uzun,2005-11-11,816585,Can Uzun,2005-11-11,Türkiye,Eintracht Frankfurt,dob_and_name,45000000,2026-05-27
+p_tur_deniz_gul_fc9914ea,Türkiye,Deniz Gul,2004-07-02,1063292,Deniz Gül,2004-07-02,Türkiye,FC Porto,dob_and_name,5000000,2026-05-28
+p_tur_eren_elmali_0edf1a93,Türkiye,Eren Elmali,2000-07-07,616894,Eren Elmalı,2000-07-07,Türkiye,Galatasaray,dob_and_name,5000000,2026-05-21
+p_tur_ferdi_kadioglu_79e2c5e3,Türkiye,Ferdi Kadioglu,1999-10-07,369316,Ferdi Kadıoğlu,1999-10-07,Türkiye,Brighton & Hove Albion,dob_and_name,35000000,2026-06-03
+p_tur_hakan_calhanoglou_7da5376a,Türkiye,Hakan Çalhanoğlu,1994-02-08,126414,Hakan Çalhanoğlu,1994-02-08,Türkiye,Inter Milan,dob_and_name,16000000,2026-05-29
+p_tur_irfan_can_kahveci_65af2c1e,Türkiye,Irfan Can Kahveci,1995-07-15,216603,İrfan Can Kahveci,1995-07-15,Türkiye,Kasimpasa,dob_and_name,3000000,2026-05-21
+p_tur_ismail_yuksek_0968b6bd,Türkiye,Ismail Yuksek,1999-01-26,613725,İsmail Yüksek,1999-01-26,Türkiye,Fenerbahce,dob_and_name,15000000,2026-05-21
+p_tur_kaan_ayhan_7a2fd167,Türkiye,Kaan Ayhan,1994-11-10,119031,Kaan Ayhan,1994-11-10,Türkiye,Galatasaray,dob_and_name,1500000,2026-05-21
+p_tur_kenan_yildiz_e6a42419,Türkiye,Kenan Yildiz,2005-05-04,845654,Kenan Yıldız,2005-05-04,Türkiye,Juventus FC,dob_and_name,75000000,2026-05-29
+p_tur_kerem_akturkoglu_df6efb9b,Türkiye,Kerem Akturkoglu,1998-10-21,382528,Kerem Aktürkoğlu,1998-10-21,Türkiye,Fenerbahce,dob_and_name,20000000,2026-05-21
+p_tur_merih_demiral_eba0c47c,Türkiye,Merih Demiral,1998-03-05,340879,Merih Demiral,1998-03-05,Türkiye,Al-Ahli Saudi Football Club,dob_and_name,12000000,2026-06-04
+p_tur_mert_gunok_74d9a597,Türkiye,Mert Gunok,1989-03-01,51894,Mert Günok,1989-03-01,Türkiye,Beşiktaş Jimnastik Kulübü,dob_and_name,500000,2026-05-21
+p_tur_mert_muldur_b54b5fa7,Türkiye,Mert Muldur,1999-04-03,353922,Mert Müldür,1999-04-03,Türkiye,Fenerbahce,dob_and_name,7000000,2026-05-21
+p_tur_oguz_aydin_86168307,Türkiye,Oguz Aydin,2000-10-27,563749,Oğuz Aydın,2000-10-27,Türkiye,Fenerbahce,dob_and_name,7000000,2026-05-21
+p_tur_orkun_kokcu_6391207c,Türkiye,Orkun Kokcu,2000-12-29,454567,Orkun Kökçü,2000-12-29,Türkiye,Beşiktaş Jimnastik Kulübü,dob_and_name,25000000,2026-05-21
+p_tur_ozan_kabak_c4fb80a7,Türkiye,Ozan Kabak,2000-03-25,361260,Ozan Kabak,2000-03-25,Türkiye,TSG 1899 Hoffenheim,dob_and_name,15000000,2026-05-27
+p_tur_salih_ozcan_e4897523,Türkiye,Salih Ozcan,1998-01-11,244940,Salih Özcan,1998-01-11,Türkiye,Borussia Dortmund,dob_and_name,3500000,2026-05-27
+p_tur_samet_akaydin_200fea99,Türkiye,Samet Akaydin,1994-03-13,295024,Samet Akaydin,1994-03-13,Türkiye,Caykur Rizespor,dob_and_name,1200000,2026-05-21
+p_tur_ugurcan_cakir_92178001,Türkiye,Ugurcan Cakir,1996-04-05,292199,Uğurcan Çakır,1996-04-05,Türkiye,Trabzonspor,dob_and_name,15000000,2026-05-21
+p_tur_yunus_akgun_7d8f68a0,Türkiye,Yunus Akgun,2000-07-07,396908,Yunus Akgün,2000-07-07,Türkiye,Galatasaray,dob_and_name,18000000,2026-05-21
+p_tur_zeki_celik_bd18591a,Türkiye,Zeki Celik,1997-02-17,251075,Zeki Çelik,1997-02-17,Türkiye,Associazione Sportiva Roma,dob_and_name,14000000,2026-05-29
+p_uru_agustin_canobbio_83fa6cbe,Uruguay,Agustín Canobbio,1998-10-01,457533,Agustín Canobbio,1998-10-01,Uruguay,Fluminense Football Club,dob_and_name,8000000,2026-05-26
+p_uru_brian_rodriguez_89827720,Uruguay,Brian Rodríguez,2000-05-20,465818,Brian Rodríguez,2000-05-20,Uruguay,CF América,dob_and_name,8000000,2026-05-20
+p_uru_darwin_nunez_1a84e727,Uruguay,Darwin Núñez,1999-06-24,546543,Darwin Núñez,1999-06-24,Uruguay,Al-Hilal Saudi Football Club,dob_and_name,20000000,2026-06-04
+p_uru_emiliano_martinez_d355aea9,Uruguay,Emiliano Martínez,1999-08-17,707447,Emiliano Martínez,1999-08-17,Uruguay,Sociedade Esportiva Palmeiras,dob_and_name,6500000,2026-05-26
+p_uru_facundo_pellistri_4544f6de,Uruguay,Facundo Pellistri,2001-12-20,676318,Facundo Pellistri,2001-12-20,Uruguay,Panathinaikos Athlitikos Omilos,dob_and_name,5000000,2026-06-04
+p_uru_federico_valverde_0bfec323,Uruguay,Federico Valverde,1998-07-22,369081,Federico Valverde,1998-07-22,Uruguay,Real Madrid,dob_and_name,90000000,2026-06-05
+p_uru_federico_vinas_cb9dc0dd,Uruguay,Federico Viñas,1998-06-30,578419,Federico Viñas,1998-06-30,Uruguay,Real Oviedo,dob_and_name,4000000,2026-06-05
+p_uru_fernando_muslera_496c516d,Uruguay,Fernando Muslera,1986-06-16,58088,Fernando Muslera,1986-06-16,Uruguay,Club Estudiantes de La Plata,dob_and_name,700000,2026-05-22
+p_uru_giorgian_de_arrascaeta_4eee4008,Uruguay,Giorgian De Arrascaeta,1994-06-01,248410,Giorgian de Arrascaeta,1994-06-01,Uruguay,Clube de Regatas do Flamengo,dob_and_name,14000000,2026-05-26
+p_uru_guillermo_varela_eaf90cb2,Uruguay,Guillermo Varela,1993-03-24,188862,Guillermo Varela,1993-03-24,Uruguay,Clube de Regatas do Flamengo,dob_and_name,1000000,2026-05-26
+p_uru_joaquin_piquerez_7e1e626a,Uruguay,Joaquín Piquerez,1998-08-24,496268,Joaquín Piquerez,1998-08-24,Uruguay,Sociedade Esportiva Palmeiras,dob_and_name,12000000,2026-05-26
+p_uru_jose_maria_gimenez_eafc45dd,Uruguay,José María Giménez,1995-01-20,250845,José María Giménez,1995-01-20,Uruguay,Atlético de Madrid,dob_and_name,9000000,2026-06-05
+p_uru_juan_manuel_sanabria_208c9ccd,Uruguay,Juan Manuel Sanabria,2000-03-29,446106,Juan Manuel Sanabria,2000-03-29,Uruguay,Real Salt Lake,dob_and_name,4000000,2026-06-02
+p_uru_manuel_ugarte_71c17777,Uruguay,Manuel Ugarte,2001-04-11,476701,Manuel Ugarte,2001-04-11,Uruguay,Manchester United,dob_and_name,25000000,2026-06-03
+p_uru_mathias_olivera_a22eab3e,Uruguay,Mathías Olivera,1997-10-31,376514,Mathías Olivera,1997-10-31,Uruguay,SSC Napoli,dob_and_name,15000000,2026-05-29
+p_uru_matias_vina_f28ee795,Uruguay,Matías Viña,1997-11-09,439072,Matías Viña,1997-11-09,Uruguay,Club Atlético River Plate,dob_and_name,3500000,2026-05-22
+p_uru_maximiliano_araujo_ab0bce05,Uruguay,Maximiliano Araújo,2000-02-15,572675,Maxi Araújo,2000-02-15,Uruguay,Sporting CP,dob_and_name,35000000,2026-05-28
+p_uru_nicolas_de_la_cruz_5cb19aa3,Uruguay,Nicolás De La Cruz,1997-06-01,397458,Nicolás de la Cruz,1997-06-01,Uruguay,Clube de Regatas do Flamengo,dob_and_name,8000000,2026-05-26
+p_uru_rodrigo_aguirre_3ee44e98,Uruguay,Rodrigo Aguirre,1994-10-01,189410,Rodrigo Aguirre,1994-10-01,Uruguay,CF América,dob_and_name,2300000,2026-05-20
+p_uru_rodrigo_bentancur_ebe35639,Uruguay,Rodrigo Bentancur,1997-06-25,354362,Rodrigo Bentancur,1997-06-25,Uruguay,Tottenham Hotspur,dob_and_name,20000000,2026-06-03
+p_uru_rodrigo_zalazar_78725bf0,Uruguay,Rodrigo Zalazar,1999-08-12,606752,Rodrigo Zalazar,1999-08-12,Uruguay,SC Braga,dob_and_name,30000000,2026-05-28
+p_uru_ronald_araujo_00fc3f18,Uruguay,Ronald Araújo,1999-03-07,480267,Ronald Araujo,1999-03-07,Uruguay,FC Barcelona,dob_and_name,20000000,2026-06-05
+p_uru_santiago_bueno_6eb1865b,Uruguay,Santiago Bueno,1998-11-09,438001,Santiago Bueno,1998-11-09,Uruguay,Wolverhampton Wanderers,dob_and_name,10000000,2026-06-03
+p_uru_santiago_mele_214e0c93,Uruguay,Santiago Mele,1997-09-06,320739,Santiago Mele,1997-09-06,Uruguay,CF Monterrey,dob_and_name,2000000,2026-05-20
+p_uru_sebastian_caceres_9b1bab1d,Uruguay,Sebastián Cáceres,1999-08-18,532389,Sebastián Cáceres,1999-08-18,Uruguay,CF América,dob_and_name,4500000,2026-05-20
+p_uru_sergio_rochet_c189e500,Uruguay,Sergio Rochet,1993-03-23,264014,Sergio Rochet,1993-03-23,Uruguay,Sport Club Internacional,dob_and_name,1800000,2026-05-26
+p_usa_alejandro_zendejas_579e0cb7,United States,Alejandro Zendejas,1998-02-07,351505,Álex Zendejas,1998-02-07,United States,CF América,dob_and_name,10000000,2026-05-20
+p_usa_alex_freeman_859bf9a0,United States,Alex Freeman,2004-08-09,985806,Alex Freeman,2004-08-09,United States,Villarreal CF,dob_and_name,3500000,2026-06-05
+p_usa_antonee_robinson_5fac462f,United States,Antonee Robinson,1997-08-08,349701,Antonee Robinson,1997-08-08,United States,Fulham FC,dob_and_name,22000000,2026-06-03
+p_usa_auston_trusty_ca5567ba,United States,Auston Trusty,1998-08-12,389253,Auston Trusty,1998-08-12,United States,Celtic FC,dob_and_name,6000000,2026-05-20
+p_usa_brenden_aaronson_2ed4cfa9,United States,Brenden Aaronson,2000-10-22,393323,Brenden Aaronson,2000-10-22,United States,Leeds United,dob_and_name,22000000,2026-06-03
+p_usa_chris_brady_c09c4f39,United States,Chris Brady,2004-03-03,765504,Chris Brady,2004-03-03,United States,Chicago Fire Soccer Club,dob_and_name,2500000,2026-06-02
+p_usa_chris_richards_d7a73544,United States,Chris Richards,2000-03-28,578539,Chris Richards,2000-03-28,United States,Crystal Palace,dob_and_name,28000000,2026-06-03
+p_usa_christian_pulisic_6cb8700a,United States,Christian Pulisic,1998-09-18,315779,Christian Pulisic,1998-09-18,United States,AC Milan,dob_and_name,40000000,2026-05-29
+p_usa_cristian_roldan_19b483b9,United States,Cristian Roldan,1995-06-03,354792,Cristian Roldán,1995-06-03,United States,Seattle Sounders FC,dob_and_name,3500000,2026-06-02
+p_usa_folarin_balogun_3e3f15dd,United States,Folarin Balogun,2001-07-03,503770,Folarin Balogun,2001-07-03,United States,AS Monaco,dob_and_name,40000000,2026-06-01
+p_usa_gio_reyna_b8dd3aab,United States,Gio Reyna,2002-11-13,504215,Giovanni Reyna,2002-11-13,United States,Borussia Dortmund,dob_and_name,4000000,2026-05-27
+p_usa_haji_wright_fe98ed50,United States,Haji Wright,1998-03-27,315291,Haji Wright,1998-03-27,United States,,dob_and_name,16000000,2026-05-28
+p_usa_joe_scally_08ae9c28,United States,Joe Scally,2002-12-31,504153,Joe Scally,2002-12-31,United States,Borussia Mönchengladbach,dob_and_name,7000000,2026-05-27
+p_usa_malik_tillman_28eb1a95,United States,Malik Tillman,2002-05-28,467437,Malik Tillman,2002-05-28,United States,Bayer 04 Leverkusen,dob_and_name,30000000,2026-05-27
+p_usa_mark_mckenzie_a1bff87c,United States,Mark McKenzie,1999-02-25,429259,Mark McKenzie,1999-02-25,United States,FC Toulouse,dob_and_name,7000000,2026-06-01
+p_usa_matt_freese_e8fb1d12,United States,Matt Freese,1998-09-02,500309,Matt Freese,1998-09-02,United States,New York City Football Club,dob_and_name,2000000,2026-06-02
+p_usa_matt_turner_348f92d8,United States,Matt Turner,1994-06-24,425306,Matt Turner,1994-06-24,United States,New England Revolution,dob_and_name,2500000,2026-06-02
+p_usa_max_arfsten_d1cf8510,United States,Max Arfsten,2001-04-19,993063,Max Arfsten,2001-04-19,United States,Columbus Crew,dob_and_name,5000000,2026-06-02
+p_usa_miles_robinson_b4b6ad87,United States,Miles Robinson,1997-03-14,468022,Miles Robinson,1997-03-14,United States,Football Club Cincinnati,dob_and_name,3500000,2026-06-02
+p_usa_ricardo_pepi_ef1ca62a,United States,Ricardo Pepi,2003-01-09,627207,Ricardo Pepi,2003-01-09,United States,PSV Eindhoven,dob_and_name,30000000,2026-05-28
+p_usa_sebastian_berhalter_98856966,United States,Sebastian Berhalter,2001-05-10,734761,Sebastian Berhalter,2001-05-10,United States,Vancouver Whitecaps FC,dob_and_name,8000000,2026-06-02
+p_usa_sergino_dest_5cadecb3,United States,Sergiño Dest,2000-11-03,361104,Sergiño Dest,2000-11-03,United States,PSV Eindhoven,dob_and_name,18000000,2026-05-28
+p_usa_tim_ream_b9a4d665,United States,Tim Ream,1987-10-05,145466,Tim Ream,1987-10-05,United States,Charlotte Football Club,dob_and_name,150000,2026-06-02
+p_usa_tim_weah_ec163b4c,United States,Tim Weah,2000-02-22,370846,Timothy Weah,2000-02-22,United States,Olympique Marseille,dob_and_name,20000000,2026-06-01
+p_usa_tyler_adams_399cd4e4,United States,Tyler Adams,1999-02-14,332705,Tyler Adams,1999-02-14,United States,AFC Bournemouth,dob_and_name,25000000,2026-06-03
+p_usa_weston_mckennie_b8a1d469,United States,Weston McKennie,1998-08-28,332697,Weston McKennie,1998-08-28,United States,Juventus FC,dob_and_name,30000000,2026-05-29
+p_uzb_abbosek_fayzullaev_7c8d1f65,Uzbekistan,Abbosek Fayzullaev,2003-10-03,754037,Abbosbek Fayzullaev,2003-10-03,Uzbekistan,Basaksehir FK,dob_and_name,7000000,2026-05-21
+p_uzb_abdukodir_khusanov_99618853,Uzbekistan,Abdukodir Khusanov,2004-02-29,763079,Abdukodir Khusanov,2004-02-29,Uzbekistan,Manchester City,dob_and_name,50000000,2026-06-03
+p_uzb_abdulla_abdullaev_08bb762c,Uzbekistan,Abdulla Abdullaev,1997-09-01,570272,Abdulla Abdullaev,1997-09-01,Uzbekistan,,dob_and_name,500000,2026-05-26
+p_uzb_abduvokhid_nematov_fcf4ccf8,Uzbekistan,Abduvokhid Nematov,2001-03-20,527866,Abduvokhid Nematov,2001-03-20,Uzbekistan,,dob_and_name,1500000,2026-05-13
+p_uzb_akmal_mozgovoy_b9a8b87d,Uzbekistan,Akmal Mozgovoy,1999-04-02,562022,Akmal Mozgovoy,1999-04-02,Uzbekistan,,dob_and_name,1400000,2026-05-13
+p_uzb_avazbek_ulmasaliev_bdd127da,Uzbekistan,Avazbek Ulmasaliev,2000-03-27,538764,Avazbek Ulmasaliev,2000-03-27,Uzbekistan,,dob_and_name,500000,2026-05-13
+p_uzb_azizbek_amonov_8c6d0d93,Uzbekistan,Azizbek Amonov,1997-10-30,,,,,,none,,
+p_uzb_azizjon_ganiev_4c92c41d,Uzbekistan,Azizjon Ganiev,1998-02-22,431911,Aziz Ganiev,1998-02-22,Uzbekistan,,dob_and_name,2000000,2026-05-26
+p_uzb_behruz_karimov_a874e9c9,Uzbekistan,Behruz Karimov,2007-08-07,,,,,,none,,
+p_uzb_botirali_ergashev_bb23b2eb,Uzbekistan,Botirali Ergashev,1995-06-23,312690,Botirali Ergashev,1995-06-23,Uzbekistan,,dob_and_name,500000,2026-05-13
+p_uzb_dostonbek_khamdamov_da7c6654,Uzbekistan,Dostonbek Khamdamov,1996-07-24,294502,Dostonbek Khamdamov,1996-07-24,Uzbekistan,,dob_and_name,900000,2026-05-13
+p_uzb_eldor_shomurodov_962d8f66,Uzbekistan,Eldor Shomurodov,1995-06-29,358166,Eldor Shomurodov,1995-06-29,Uzbekistan,Basaksehir FK,dob_and_name,7000000,2026-05-21
+p_uzb_farrukh_sayfiev_c014c3d9,Uzbekistan,Farrukh Sayfiev,1991-01-17,212499,Farrukh Sayfiev,1991-01-17,Uzbekistan,,dob_and_name,225000,2026-05-13
+p_uzb_igor_sergeev_f553c9f7,Uzbekistan,Igor Sergeev,1993-04-30,185372,Igor Sergeev,1993-04-30,Uzbekistan,,dob_and_name,1200000,2026-05-21
+p_uzb_jakhongir_urozov_24c7ed1b,Uzbekistan,Jakhongir Urozov,2004-01-18,989069,Jakhongir Urozov,2004-01-18,Uzbekistan,,dob_and_name,600000,2026-05-13
+p_uzb_jamshid_iskanderov_f790406f,Uzbekistan,Jamshid Iskanderov,1993-10-16,260857,Jamshid Iskanderov,1993-10-16,Uzbekistan,,dob_and_name,1000000,2026-05-13
+p_uzb_khojiakbar_alijonov_49ddb978,Uzbekistan,Khojiakbar Alijonov,1997-04-19,492558,Khozhiakbar Alizhonov,1997-04-19,Uzbekistan,,dob_and_name,1300000,2026-05-13
+p_uzb_oston_urunov_0c3c92c5,Uzbekistan,Oston Urunov,2000-12-19,492556,Oston Urunov,2000-12-19,Uzbekistan,,dob_and_name,2000000,2026-05-21
+p_uzb_otabek_shukurov_081adf33,Uzbekistan,Otabek Shukurov,1996-06-22,294525,Otabek Shukurov,1996-06-22,Uzbekistan,,dob_and_name,1500000,2026-05-26
+p_uzb_rustamjon_ashurmatov_5e5fc943,Uzbekistan,Rustamjon Ashurmatov,1996-07-07,288883,Rustam Ashurmatov,1996-07-07,Uzbekistan,,dob_and_name,750000,2026-05-21
+p_uzb_sherzod_esanov_b867f0ba,Uzbekistan,Sherzod Esanov,2003-02-01,989068,Sherzod Esanov,2003-02-01,Uzbekistan,Akron Togliatti,dob_and_name,,
+p_uzb_sherzod_nasrullaev_ea287438,Uzbekistan,Sherzod Nasrullaev,1998-07-23,608537,Sherzod Nasrullaev,1998-07-23,Uzbekistan,,dob_and_name,1200000,2026-05-13
+p_uzb_umarbek_eshmurodov_98c2b86e,Uzbekistan,Umarbek Eshmurodov,1992-11-30,493725,Umar Eshmurodov,1992-11-30,Uzbekistan,,dob_and_name,450000,2026-05-13
+p_uzb_utkir_yusupov_2a10db50,Uzbekistan,Utkir Yusupov,1991-01-04,311958,Utkir Yusupov,1991-01-04,Uzbekistan,,dob_and_name,500000,2026-05-13
+p_arg_marcos_senesi_23e61c4b,Argentina,Marcos Senesi,1997-05-10,469781,Marcos Senesi,1997-05-10,Argentina,AFC Bournemouth,dob_and_name,25000000,2026-06-03
+p_aut_dejan_ljubicic_e4b92483,Austria,Dejan Ljubičić,1997-10-08,287188,Dejan Ljubicic,1997-10-08,Austria,GNK Dinamo Zagreb,dob_and_name,5000000,2024-05-29
+p_bih_mladen_jurkas_7dd698f1,Bosnia-Herzegovina,Mladen Jurkas,2007-10-07,,,,,,none,,
+p_bih_arjan_malic_36d2d9a8,Bosnia-Herzegovina,Arjan Malić,2005-08-28,805534,Arjan Malic,2005-08-28,Bosnia-Herzegovina,Sportklub Puntigamer Sturm Graz,dob_and_name,1800000,2026-05-26
+p_bra_ederson_silva_b97cfdca,Brazil,Éderson Silva,1999-07-07,607854,Éderson,1999-07-07,Brazil,Atalanta BC,dob_and_name,45000000,2026-05-29
+p_can_jayden_nelson_0bf614a8,Canada,Jayden Nelson,2002-09-26,635445,Jayden Nelson,2002-09-26,Canada,Austin FC,dob_and_name,2000000,2026-06-02
+p_cze_matej_kovar_e022bdce,Czechia,Matěj Kovář,2000-05-17,550829,Matej Kovar,2000-05-17,Czech Republic,PSV Eindhoven,dob_and_name,8000000,2026-05-28
+p_cze_pavel_sulc_da22eec3,Czechia,Pavel Šulc,2000-12-29,500053,Pavel Sulc,2000-12-29,Czech Republic,FC Viktoria Plzen,dob_and_name,20000000,2026-06-01
+p_eng_trevoh_chalobah_10f08bc4,England,Trevoh Chalobah,1999-07-05,346314,Trevoh Chalobah,1999-07-05,England,Chelsea FC,dob_and_name,40000000,2026-06-03
+p_ger_nadiem_amiri_5a1a2651,Germany,Nadiem Amiri,1996-10-27,232454,Nadiem Amiri,1996-10-27,Germany,1.FSV Mainz 05,dob_and_name,17000000,2026-05-27
+p_ger_assan_ouedraogo_4c6134e2,Germany,Assan Ouédraogo,2006-05-09,897424,Assan Ouédraogo,2006-05-09,Germany,RB Leipzig,dob_and_name,28000000,2026-05-27
+p_hai_garven_metusala_665742b3,Haiti,Garven Metusala,1999-12-31,859175,Garven Metusala,1999-12-31,Haiti,,dob_and_name,,
+p_irn_shahriyar_moghanlou_434f2302,Iran,Shahriyar Moghanlou,1994-12-21,357125,Shahriar Moghanlou,1994-12-21,Iran,,dob_and_name,900000,2023-11-28
+p_irq_ahmed_maknzi_1ce7dd2d,Iraq,Ahmed Maknzi,2001-09-24,,,,,,none,,
+p_civ_christopher_operi_dfe23608,Ivory Coast,Christopher Opéri,1997-04-29,469976,Christopher Operi,1997-04-29,Cote d'Ivoire,Basaksehir FK,dob_and_name,4000000,2026-05-21
+p_jpn_shuto_machino_90ff7b38,Japan,Shūto Machino,1999-09-30,550580,Shuto Machino,1999-09-30,Japan,Borussia Mönchengladbach,dob_and_name,4000000,2026-05-27
+p_jor_mohammad_taha_fd5d6fec,Jordan,Mohammad Taha,2005-07-13,,,,,,none,,
+p_mar_marwane_saadane_3a0c3536,Morocco,Marwane Saâdane,1992-01-17,210009,Marwane Saadane,1992-01-17,Morocco,Al-Fateh Club,dob_and_name,400000,2026-06-04
+p_mar_amine_sbai_ca384cd5,Morocco,Amine Sbaï,2000-11-05,851220,Amine Sbaï,2000-11-05,Morocco,Angers SCO,dob_and_name,4000000,2026-06-01
+p_ned_lutsharel_geertruida_b091abd8,Netherlands,Lutsharel Geertruida,2000-07-18,420210,Lutsharel Geertruida,2000-07-18,Netherlands,RB Leipzig,dob_and_name,20000000,2026-06-03
+p_nzl_logan_rogerson_3ff8968e,New Zealand,Logan Rogerson,1998-05-28,312317,Logan Rogerson,1998-05-28,New Zealand,Auckland FC,dob_and_name,400000,2026-05-28
+p_ksa_sultan_mandash_37fed0c4,Saudi Arabia,Sultan Mandash,1994-10-17,210349,Sultan Mandash,1994-10-17,Saudi Arabia,Al-Hilal Saudi Football Club,dob_and_name,350000,2026-06-04
+p_sco_tyler_fletcher_57f94bad,Scotland,Tyler Fletcher,2007-03-19,1049911,Tyler Fletcher,2007-03-19,Scotland,Manchester United,dob_and_name,,
+p_kor_cho_wi_je_f44a7c6c,South Korea,Cho Wi-je,2001-08-25,550978,Wi-je Cho,2001-08-25,"Korea, South",Jeonbuk Hyundai Motors,dob_and_name,550000,2026-05-21
+p_swe_herman_johansson_91025fe3,Sweden,Herman Johansson,1997-10-16,744853,Herman Johansson,1997-10-16,Sweden,FC Dallas,dob_and_name,1800000,2026-06-02
+p_uzb_odiljon_hamrobekov_d3563873,Uzbekistan,Odiljon Hamrobekov,1996-02-13,288915,Odildzhon Khamrobekov,1996-02-13,Uzbekistan,,dob_and_name,1000000,2026-05-21
+p_uzb_ruslanbek_jiyanov_92e8c31a,Uzbekistan,Ruslanbek Jiyanov,2001-06-05,754040,Ruslanbek Jiyanov,2001-06-05,Uzbekistan,,dob_and_name,800000,2026-05-13

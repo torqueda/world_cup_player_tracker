@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import csv
 import json
 from datetime import date
 from pathlib import Path
@@ -12,6 +13,11 @@ OUTPUT_DIR = REPO_ROOT / "data/processed/analysis"
 
 TOURNAMENT_START = "2026-06-11"
 TOURNAMENT_END = "2026-07-19"
+
+# Transfermarkt values for the final squads, written by market_values.py. A
+# value counts only if it was set in the 12 months before the tournament.
+MARKET_VALUES = REPO_ROOT / "data/raw/transfermarkt_wc2026_snapshot.csv"
+VALUES_SET_SINCE = "2025-06-11"
 
 # The tracker's team names where martj42, the club table and the
 # confederation lists spell the country differently.
@@ -54,10 +60,19 @@ def rounded(value: float, places: int = 4) -> float:
     return round(float(value), places)
 
 
+def market_values() -> dict[str, float]:
+    """Each player's Transfermarkt market value in euros, where one was set in
+    the 12 months before the tournament."""
+    with MARKET_VALUES.open(encoding="utf-8", newline="") as handle:
+        return {r["player_id"]: float(r["market_value_eur"]) for r in csv.DictReader(handle)
+                if r["market_value_eur"] and r["valuation_date"] >= VALUES_SET_SINCE}
+
+
 def final_squads() -> list[dict]:
     """One row per player in a final squad: the squad entry joined to the player,
-    the call-up club and the team's confederation."""
+    the call-up club, the team's confederation and the market value, if known."""
     players = {p["player_id"]: p for p in read_export("players")}
+    values = market_values()
     clubs = {c["club_id"]: c for c in read_export("clubs")}
     callups = {c["player_id"]: c for c in read_export("player_club_at_callup")}
     confederation = {member: c["code"] for c in read_export("confederations") for member in c["members"]}
@@ -82,5 +97,6 @@ def final_squads() -> list[dict]:
             "plays_abroad": club["country"] != country_name(entry["team"]),
             "minutes": minutes.get(entry["player_id"], 0),
             "has_photo": bool(player["image_url"]),
+            "market_value_eur": values.get(entry["player_id"]),
         })
     return rows

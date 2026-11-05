@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 What went with winning at the 2026 World Cup: squad age, caps, the share of
-the squad at big-five league clubs, Elo rating and playing at home.
+the squad at big-five league clubs, squad market value, Elo rating and playing
+at home.
 
 Each of the 104 matches gets the difference between the two teams on each
 factor (first team minus second), and a symmetric ordered logit
@@ -19,7 +20,12 @@ factor (first team minus second), and a symmetric ordered logit
   stands for where a team plays its qualifiers.
 
 The factor list was fixed before the models were fitted. Squad market value
-is not included yet.
+was on it from the start and was added when its data arrived
+(market_values.py). It is the combined value of each team's 11 most valuable
+players, which approximates a starting eleven and depends least on the
+players Transfermarkt has no recent value for, mostly squad players at clubs
+outside the leagues it covers. Iran has recent values for only 9 players, so
+its figure is low.
 
 Team-level Spearman correlations, with bootstrap 95% intervals over the 48
 teams, relate the factors to points per match and to the Elo points each team
@@ -56,6 +62,7 @@ SQUAD_FACTORS = {
     "age_gap": ("mean_age", 1.0, "1 year of average age"),
     "caps_gap_per_10": ("mean_caps", 10.0, "10 caps of average experience"),
     "big_five_gap_per_10pts": ("big_five_share", 0.1, "10 percentage points of the squad at big-five clubs"),
+    "value_gap_per_doubling": ("log2_top11_value", 1.0, "a doubling of the market value of the 11 most valuable players"),
 }
 BASE = ["elo_gap_per_100", "home"]
 CONFEDERATION = "uefa_or_conmebol_gap"
@@ -76,6 +83,7 @@ def team_table() -> list[dict]:
     rows = []
     for team in sorted(squads):
         squad, s = squads[team], stats[team]
+        values = sorted((p["market_value_eur"] for p in squad if p["market_value_eur"] is not None), reverse=True)
         rows.append({
             "team": team,
             "confederation": squad[0]["confederation"],
@@ -83,6 +91,10 @@ def team_table() -> list[dict]:
             "mean_age": rounded(np.mean([p["age"] for p in squad]), 3),
             "mean_caps": rounded(np.mean([p["caps"] for p in squad]), 2),
             "big_five_share": rounded(np.mean([p["big_five_club"] for p in squad]), 4),
+            "players_valued": len(values),
+            "squad_value_eur": int(sum(values)),
+            "top11_value_eur": int(sum(values[:11])),
+            "log2_top11_value": rounded(np.log2(sum(values[:11])), 4),
             "elo_before": strength[team]["elo_before"],
             "host": team in hosts,
             "matches": s["matches_played"],
@@ -178,7 +190,7 @@ def build() -> dict:
                            BASE + ["big_five_gap_per_10pts", CONFEDERATION], columns, y, base)[2])
 
     rng = np.random.default_rng(SEED)
-    team_factors = ["mean_age", "mean_caps", "big_five_share", "elo_before"]
+    team_factors = ["mean_age", "mean_caps", "big_five_share", "elo_before", "top11_value_eur"]
     team_level = []
     for factor in team_factors:
         x = np.array([t[factor] for t in teams], dtype=float)
@@ -200,8 +212,8 @@ def build() -> dict:
 
     return {
         "about": {
-            "what": "How squad age, caps, big-five league players, Elo rating and playing at home went with results "
-                    "at the 2026 World Cup. Associations on one tournament, not causes.",
+            "what": "How squad age, caps, big-five league players, squad market value, Elo rating and playing at "
+                    "home went with results at the 2026 World Cup. Associations on one tournament, not causes.",
             "matches": int(len(y)),
             "teams": len(teams),
             "squads": "Final squads (26 players). Age on 2026-06-11; caps before the tournament; big-five clubs are "
@@ -214,7 +226,12 @@ def build() -> dict:
                      "a model fitted to the other 103 (lower is better); *_minus_elo_only below zero means better "
                      "forecasts than elo_only, with a 95% bootstrap interval over matches.",
             "factors_fixed_in_advance": "The factor list was fixed before the models were fitted. Squad market "
-                                        "value is not included yet.",
+                                        "value was on it from the start and was added when its data arrived.",
+            "market_value": "Transfermarkt values set in the 12 months before the tournament "
+                            "(data/raw/transfermarkt_wc2026_snapshot.csv, from market_values.py). The factor is the "
+                            "combined value of each team's 11 most valuable players, on a log2 scale, so its odds "
+                            "ratio is per doubling. players_valued counts the players with a recent value; Iran has "
+                            "9, so its figure is low.",
             "team_level": "Spearman correlations over the 48 teams with 95% bootstrap intervals.",
             "limits": "One World Cup is 104 matches, so only strong effects can show, and the factors overlap "
                       "(see factor_overlap). In all_factors, age and caps move together, so their separate "

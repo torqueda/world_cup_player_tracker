@@ -6,7 +6,8 @@
     "with_photo": 945,
     "model": "Logistic regression (statsmodels Logit). Odds ratios compare the named group with the reference (a midfielder; a UEFA team) or give the change per unit, holding the other traits fixed. Average marginal effects are in percentage points of the chance of having a photo; for yes-or-no traits they are the change from no to yes.",
     "caps": "Entered as log2(1 + caps), so each odds ratio step is a doubling of caps.",
-    "big_five": "Premier League, La Liga, Bundesliga, Serie A or Ligue 1 at call-up."
+    "big_five": "Premier League, La Liga, Bundesliga, Serie A or Ligue 1 at call-up.",
+    "market_value": "with_market_value fits the same model plus log2 of the player's Transfermarkt value, on the players with a value set in the 12 months before the tournament (data/raw/transfermarkt_wc2026_snapshot.csv). Players without one are mostly at clubs outside the leagues Transfermarkt's data covers, so this model leaves out more of them."
   },
   "coefficients": [
     {
@@ -206,10 +207,232 @@
     }
   ],
   "fit": {
+    "players": 1248,
     "auc_in_sample": 0.826,
     "auc_cross_validated": 0.8142,
     "folds": 10,
     "pseudo_r2_mcfadden": 0.2325
+  },
+  "with_market_value": {
+    "coefficients": [
+      {
+        "feature": "goalkeeper",
+        "label": "Goalkeeper (against a midfielder)",
+        "odds_ratio": 1.9378,
+        "odds_ratio_ci95": [
+          0.9789,
+          3.8358
+        ],
+        "p_value": 0.0576,
+        "average_marginal_effect_points": 7.07,
+        "average_marginal_effect_points_ci95": [
+          0.56,
+          13.57
+        ]
+      },
+      {
+        "feature": "defender",
+        "label": "Defender (against a midfielder)",
+        "odds_ratio": 0.9979,
+        "odds_ratio_ci95": [
+          0.6446,
+          1.5448
+        ],
+        "p_value": 0.9924,
+        "average_marginal_effect_points": -0.03,
+        "average_marginal_effect_points_ci95": [
+          -5.19,
+          5.13
+        ]
+      },
+      {
+        "feature": "forward",
+        "label": "Forward (against a midfielder)",
+        "odds_ratio": 0.9119,
+        "odds_ratio_ci95": [
+          0.5675,
+          1.4652
+        ],
+        "p_value": 0.703,
+        "average_marginal_effect_points": -1.1,
+        "average_marginal_effect_points_ci95": [
+          -6.79,
+          4.59
+        ]
+      },
+      {
+        "feature": "age_per_5_years",
+        "label": "5 years older",
+        "odds_ratio": 3.3153,
+        "odds_ratio_ci95": [
+          2.4051,
+          4.5699
+        ],
+        "p_value": 0.0,
+        "average_marginal_effect_points": 14.15,
+        "average_marginal_effect_points_ci95": [
+          10.67,
+          17.62
+        ]
+      },
+      {
+        "feature": "caps_doublings",
+        "label": "Twice the caps",
+        "odds_ratio": 1.6225,
+        "odds_ratio_ci95": [
+          1.3859,
+          1.8994
+        ],
+        "p_value": 0.0,
+        "average_marginal_effect_points": 5.71,
+        "average_marginal_effect_points_ci95": [
+          3.96,
+          7.47
+        ]
+      },
+      {
+        "feature": "big_five_club",
+        "label": "Plays in a big-five league",
+        "odds_ratio": 1.1262,
+        "odds_ratio_ci95": [
+          0.6944,
+          1.8266
+        ],
+        "p_value": 0.6299,
+        "average_marginal_effect_points": 1.4,
+        "average_marginal_effect_points_ci95": [
+          -4.28,
+          7.08
+        ]
+      },
+      {
+        "feature": "plays_abroad",
+        "label": "Plays abroad",
+        "odds_ratio": 1.5624,
+        "odds_ratio_ci95": [
+          1.0276,
+          2.3756
+        ],
+        "p_value": 0.0368,
+        "average_marginal_effect_points": 5.46,
+        "average_marginal_effect_points_ci95": [
+          0.19,
+          10.73
+        ]
+      },
+      {
+        "feature": "AFC",
+        "label": "AFC team (against UEFA)",
+        "odds_ratio": 2.2346,
+        "odds_ratio_ci95": [
+          1.2229,
+          4.0835
+        ],
+        "p_value": 0.0089,
+        "average_marginal_effect_points": 8.57,
+        "average_marginal_effect_points_ci95": [
+          2.87,
+          14.27
+        ]
+      },
+      {
+        "feature": "CAF",
+        "label": "CAF team (against UEFA)",
+        "odds_ratio": 0.8361,
+        "odds_ratio_ci95": [
+          0.5069,
+          1.3792
+        ],
+        "p_value": 0.4833,
+        "average_marginal_effect_points": -2.16,
+        "average_marginal_effect_points_ci95": [
+          -8.32,
+          4.0
+        ]
+      },
+      {
+        "feature": "CONCACAF",
+        "label": "CONCACAF team (against UEFA)",
+        "odds_ratio": 1.7692,
+        "odds_ratio_ci95": [
+          0.8993,
+          3.4804
+        ],
+        "p_value": 0.0984,
+        "average_marginal_effect_points": 6.22,
+        "average_marginal_effect_points_ci95": [
+          -0.51,
+          12.94
+        ]
+      },
+      {
+        "feature": "CONMEBOL",
+        "label": "CONMEBOL team (against UEFA)",
+        "odds_ratio": 0.662,
+        "odds_ratio_ci95": [
+          0.3649,
+          1.201
+        ],
+        "p_value": 0.1747,
+        "average_marginal_effect_points": -5.1,
+        "average_marginal_effect_points_ci95": [
+          -12.76,
+          2.56
+        ]
+      },
+      {
+        "feature": "OFC",
+        "label": "New Zealand, the one OFC team (against UEFA)",
+        "odds_ratio": 16.8267,
+        "odds_ratio_ci95": [
+          3.3199,
+          85.2861
+        ],
+        "p_value": 0.0007,
+        "average_marginal_effect_points": 19.18,
+        "average_marginal_effect_points_ci95": [
+          14.47,
+          23.89
+        ]
+      },
+      {
+        "feature": "matches_played_90",
+        "label": "90 more minutes at the tournament",
+        "odds_ratio": 1.0519,
+        "odds_ratio_ci95": [
+          0.9386,
+          1.1789
+        ],
+        "p_value": 0.3844,
+        "average_marginal_effect_points": 0.6,
+        "average_marginal_effect_points_ci95": [
+          -0.75,
+          1.94
+        ]
+      },
+      {
+        "feature": "value_doublings",
+        "label": "Twice the market value",
+        "odds_ratio": 1.6938,
+        "odds_ratio_ci95": [
+          1.4747,
+          1.9455
+        ],
+        "p_value": 0.0,
+        "average_marginal_effect_points": 6.22,
+        "average_marginal_effect_points_ci95": [
+          4.73,
+          7.71
+        ]
+      }
+    ],
+    "fit": {
+      "players": 1129,
+      "auc_in_sample": 0.8566,
+      "auc_cross_validated": 0.8438,
+      "folds": 10,
+      "pseudo_r2_mcfadden": 0.2807
+    }
   },
   "shares": {
     "position": [
@@ -347,6 +570,44 @@
         "with_photo": 358,
         "share": 0.8861
       }
+    ],
+    "market_value": [
+      {
+        "group": "€0m to €1m",
+        "players": 194,
+        "with_photo": 131,
+        "share": 0.6753
+      },
+      {
+        "group": "€1m to €5m",
+        "players": 336,
+        "with_photo": 244,
+        "share": 0.7262
+      },
+      {
+        "group": "€5m to €20m",
+        "players": 308,
+        "with_photo": 253,
+        "share": 0.8214
+      },
+      {
+        "group": "€20m to €50m",
+        "players": 203,
+        "with_photo": 174,
+        "share": 0.8571
+      },
+      {
+        "group": "€50m+",
+        "players": 88,
+        "with_photo": 84,
+        "share": 0.9545
+      },
+      {
+        "group": "no recent value",
+        "players": 119,
+        "with_photo": 59,
+        "share": 0.4958
+      }
     ]
   },
   "curiosities": {
@@ -380,6 +641,38 @@
         "display_name": "José Fajardo",
         "team": "Panama",
         "caps": 68
+      }
+    ],
+    "most_valuable_without_photo": [
+      {
+        "player_id": "p_civ_yan_diomande_de52cf92",
+        "display_name": "Yan Diomande",
+        "team": "Ivory Coast",
+        "market_value_eur": 90000000
+      },
+      {
+        "player_id": "p_eng_kobbie_mainoo_b235baec",
+        "display_name": "Kobbie Mainoo",
+        "team": "England",
+        "market_value_eur": 70000000
+      },
+      {
+        "player_id": "p_cro_luka_vuskovic_79fcb50b",
+        "display_name": "Luka Vuskovic",
+        "team": "Croatia",
+        "market_value_eur": 60000000
+      },
+      {
+        "player_id": "p_sui_johan_manzambi_fdf8dac7",
+        "display_name": "Johan Manzambi",
+        "team": "Switzerland",
+        "market_value_eur": 50000000
+      },
+      {
+        "player_id": "p_alg_ibrahim_maza_9745cb11",
+        "display_name": "Ibrahim Maza",
+        "team": "Algeria",
+        "market_value_eur": 45000000
       }
     ],
     "players_with_100_caps": 59,

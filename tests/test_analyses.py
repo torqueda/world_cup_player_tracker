@@ -6,11 +6,14 @@ When an output test fails after a data change, rerun
     python scripts/analysis/team_strength.py
     python scripts/analysis/win_factors.py
     python scripts/analysis/photo_correlates.py
-in that order and commit the outputs.
+in that order and commit the outputs. If the squads changed, first rerun
+    python scripts/analysis/market_values.py PLAYERS_CSV_GZ PLAYER_VALUATIONS_CSV_GZ
+with transfermarkt-datasets' players and player_valuations files.
 """
 
 from __future__ import annotations
 
+import csv
 import importlib.util
 import json
 import math
@@ -39,6 +42,7 @@ ol = load_script("ordered_logit")
 strength = load_script("team_strength")
 win_factors = load_script("win_factors")
 photos = load_script("photo_correlates")
+market = load_script("market_values")
 
 
 # Elo ---------------------------------------------------------------------------
@@ -178,3 +182,71 @@ def test_forecasts_cover_every_match_once() -> None:
     assert sorted(f["match_id"] for f in forecasts) == sorted(m["match_id"] for m in matches)
     for f in forecasts:
         assert f["p_home_win"] + f["p_draw"] + f["p_away_win"] == pytest.approx(1, abs=1e-3)
+
+
+# Market values -------------------------------------------------------------------
+
+
+def squad_player(**overrides) -> dict:
+    player = {"names": ["Nico González"], "dates": {"1998-04-06"}, "club": "Juventus",
+              "citizenships": {"Argentina"}}
+    return player | overrides
+
+
+def candidate(player_id: str, name: str, dob: str, citizenship: str = "Argentina", club: str = "Juventus FC") -> dict:
+    return {"player_id": player_id, "name": name, "last_name": name.split()[-1], "date_of_birth": f"{dob} 00:00:00",
+            "country_of_citizenship": citizenship, "current_club_name": club}
+
+
+def index(*candidates: dict) -> tuple[dict, dict]:
+    by_dob, by_citizenship = {}, {}
+    for c in candidates:
+        by_dob.setdefault(c["date_of_birth"][:10], []).append(c)
+        by_citizenship.setdefault(c["country_of_citizenship"], []).append(c)
+    return by_dob, by_citizenship
+
+
+def test_link_takes_the_same_birth_date_and_name_over_a_namesake() -> None:
+    right = candidate("1", "Nicolás González", "1998-04-06")
+    namesake = candidate("2", "Nicolás González", "1998-06-23", club="Some Other Club")
+    found, method = market.link(squad_player(), *index(right, namesake))
+    assert (found["player_id"], method) == ("1", "dob_and_name")
+
+
+def test_link_refuses_a_different_person_born_the_same_day() -> None:
+    stranger = candidate("3", "Jaison McGrath", "1998-04-06", citizenship="Scotland", club="Dundee United")
+    assert market.link(squad_player(), *index(stranger)) is None
+
+
+def test_link_uses_name_citizenship_and_club_when_the_birth_dates_differ() -> None:
+    other_date = candidate("4", "Nico González", "1998-05-06")
+    found, method = market.link(squad_player(), *index(other_date))
+    assert (found["player_id"], method) == ("4", "name_citizenship_and_club")
+    elsewhere = candidate("5", "Nico González", "1998-05-06", club="Some Other Club")
+    assert market.link(squad_player(), *index(elsewhere)) is None
+
+
+def test_link_leaves_two_equally_good_candidates_unlinked() -> None:
+    twins = candidate("6", "Nico González", "1998-04-06"), candidate("7", "Nico González", "1998-04-06")
+    assert market.link(squad_player(), *index(*twins)) is None
+
+
+def test_market_value_snapshot_covers_each_squad_player_once() -> None:
+    with market.SNAPSHOT.open(encoding="utf-8", newline="") as handle:
+        rows = list(csv.DictReader(handle))
+    entries = json.loads((REPO / "data/processed/app_exports/squad_entries.json").read_text(encoding="utf-8"))
+    active = sorted(e["player_id"] for e in entries if e["squad_status"] == "active")
+    assert sorted(r["player_id"] for r in rows) == active
+    linked = [r for r in rows if r["link_method"] != "none"]
+    assert len({r["tm_player_id"] for r in linked}) == len(linked), "two players share a Transfermarkt player"
+    assert {r["link_method"] for r in rows} <= {"dob_and_name", "dob_citizenship_and_club",
+                                                "name_citizenship_and_club", "none"}
+    for r in rows:
+        if r["market_value_eur"]:
+            assert r["link_method"] != "none" and int(r["market_value_eur"]) >= 0
+            assert r["valuation_date"] < market.TOURNAMENT_START
+
+    summary = committed("market_values_2026")["about"]
+    assert summary["players"] == len(rows)
+    assert summary["linked"] == len(linked)
+    assert summary["valued"] == sum(bool(r["market_value_eur"]) for r in rows)
