@@ -1891,9 +1891,9 @@ h4,
 }
 
 /* The national-team flag stands in for a missing player photo. */
-.player-detail-photo-flag .country-flag-glyph {
-  font-size: 4.5rem;
-  line-height: 1;
+.player-detail-photo-flag .country-flag-img {
+  width: 6.75rem;
+  height: 4.5rem;
 }
 
 .player-detail-photo-flag .country-flag-fallback {
@@ -2520,11 +2520,14 @@ button.bracket-team-active:hover {
   vertical-align: baseline;
 }
 
-.country-flag-glyph {
-  font-size: 1.05em;
-  line-height: 1;
-  /* Keep flag emoji rendering on the color font, not the text run. */
-  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+.country-flag-img {
+  display: inline-block;
+  flex-shrink: 0;
+  width: 1.35em;
+  height: 0.9em;
+  object-fit: cover;
+  /* A hairline keeps mostly white flags (Japan, ...) visible on white rows. */
+  box-shadow: 0 0 0 1px rgba(20, 32, 25, 0.16);
 }
 
 .country-flag-name {
