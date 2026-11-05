@@ -2,6 +2,12 @@
 
 Newest first. Each entry gives the date, the decision, the options that were on the table, and why. Add an entry in the same pull request as the change it decides. Decisions made before this log started are recorded in [roadmap_to_deployment.md](roadmap_to_deployment.md) and [dataset_finalization_report_2026-07-12.md](dataset_finalization_report_2026-07-12.md).
 
+## 2026-11-05: When FIFA and another source disagree, use FIFA
+
+- **Decision:** where FIFA's own records (squad lists, match reports, player statistics) disagree with another source such as Wikipedia, Wikidata, ESPN or openfootball, the data follows FIFA, and the other value is noted in the `change_log` row or the review notes.
+- **Options:** follow FIFA; follow the source the pipeline matched first; or decide each case on its own.
+- **Why:** FIFA publishes the tournament's official record, so it is the one reference every number on the site can be checked against.
+
 ## 2026-11-05: Keep per-page data loading on hold
 
 - **Decision:** the site keeps loading all of its data in one bundle for now, and the PRD sets no speed target yet.
