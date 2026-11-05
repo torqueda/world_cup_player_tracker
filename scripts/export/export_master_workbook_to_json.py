@@ -94,6 +94,8 @@ FLOAT_FIELDS = {
 }
 
 INT_FIELDS = {
+    "caps_pre_tournament",
+    "goals_pre_tournament",
     "height_cm",
     "shirt_number",
     "source_row_count",
