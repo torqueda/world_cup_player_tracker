@@ -1,0 +1,28 @@
+check,player_id,team,display_name,ours,second_source,detail,status,note
+birth_date,p_can_nathan_saliba_7a28cc90,Canada,Nathan Saliba,2004-08-29,2004-02-07,204 days apart,open,"The entity is a Canadian midfielder born in 2004, as in the squad; the day and month differ."
+birth_date,p_col_cucho_hernandez_b18b9740,Colombia,Cucho Hernández,1999-04-22,1999-04-20,2 days apart,same_person,"Dates 1 to 3 days apart: a source difference, not another person."
+birth_date,p_col_willer_ditta_aa30458a,Colombia,Willer Ditta,1997-01-23,1998-01-23,exactly one year apart,same_person,Same day and month a year apart: likely a year typo in one source.
+birth_date,p_cod_edo_kayembe_5143c1cb,Congo DR,Edo Kayembe,1998-08-03,1998-06-03,61 days apart,same_person,"Same day, different month: likely a typo in one source."
+birth_date,p_egy_el_mahdy_soliman_378a11ec,Egypt,El Mahdy Soliman,1986-11-30,1987-06-08,190 days apart,open,The entity is an Egyptian goalkeeper born the year before; check the date and his club history.
+birth_date,p_egy_mohamed_hany_f4c4265d,Egypt,Mohamed Hany,1996-01-25,1996-02-02,8 days apart,same_person,"The entity lists Al Ahly, his club in the squad; the sources disagree on the date."
+birth_date,p_gha_benjamin_asare_6451594e,Ghana,Benjamin Asare,1992-01-01,1992-07-13,"194 days apart; one source gives 1 January, often a placeholder",same_person,"Ours is 1 January, which is how a year-only Wikidata date reads; Wikipedia gives a full date, which is likely the better one."
+birth_date,p_gha_brandon_thomas_asante_a966ba92,Ghana,Brandon Thomas-Asante,1999-12-29,1998-12-29,exactly one year apart,same_person,Same day and month a year apart: likely a year typo in one source.
+birth_date,p_hai_martin_experience_fa6fe29c,Haiti,Martin Expérience,1998-03-09,1999-03-09,exactly one year apart,same_person,Same day and month a year apart: likely a year typo in one source.
+birth_date,p_irn_alireza_beiranvand_c79fbeca,Iran,Alireza Beiranvand,1992-09-22,1992-09-21,1 day apart,same_person,"Dates 1 to 3 days apart: a source difference, not another person."
+birth_date,p_irn_saleh_hardani_78f246fd,Iran,Saleh Hardani,1996-09-14,1998-12-26,833 days apart,same_person,"His Wikipedia article (born in Bahmai; Foolad, then Esteghlal) fits the entity, which is born in Bahmai County and lists Foolad. Wikidata gives 1996-09-14, Wikipedia 1998-12-26; the birth date is unsettled."
+birth_date,p_irq_manaf_younis_460d1a76,Iraq,Manaf Younis,1996-12-29,1996-11-16,43 days apart,open,The entity is an Iraqi defender born the same year; check the date.
+birth_date,p_jor_abdallah_al_fakhouri_696806b1,Jordan,Abdallah Al-Fakhouri,2000-02-22,2000-01-22,31 days apart,same_person,"Same day, different month, and the entity lists Al-Wehdat, his club in the squad."
+birth_date,p_jor_odeh_al_fakhouri_753f9683,Jordan,Odeh Al-Fakhouri,2005-11-20,2005-11-22,2 days apart,same_person,"Dates 1 to 3 days apart: a source difference, not another person."
+birth_date,p_pan_cesar_samudio_51e540e4,Panama,César Samudio,1994-03-26,1994-02-23,31 days apart,open,The entity is a Panamanian goalkeeper born the same year; check the date.
+birth_date,p_pan_jose_cordoba_5e989cc4,Panama,José Córdoba,2001-03-06,2001-06-03,day and month swapped,same_person,Day and month swapped between the sources.
+birth_date,p_par_andres_cubas_23543da5,Paraguay,Andrés Cubas,1996-06-22,1996-05-11,42 days apart,open,The entity is a midfielder with a long Argentine and European career; check the date.
+birth_date,p_par_gabriel_avalos_3d7a0590,Paraguay,Gabriel Ávalos,1990-10-12,1991-07-09,270 days apart,open,"The entity is a Paraguayan forward (Patronato, Argentinos Juniors); check the date."
+birth_date,p_qat_abdulaziz_hatem_1df7c78b,Qatar,Abdulaziz Hatem,1990-10-28,1990-01-01,"300 days apart; one source gives 1 January, often a placeholder",same_person,"The entity lists Al-Rayyan, his club in the squad. Wikipedia's 1 January looks like a placeholder; ours is the fuller date."
+birth_date,p_ksa_abdullah_al_hamdan_e6c2e57f,Saudi Arabia,Abdullah Al Hamdan,1999-09-12,1999-09-13,1 day apart,same_person,"Dates 1 to 3 days apart: a source difference, not another person."
+birth_date,p_ksa_ali_lajami_81d185fd,Saudi Arabia,Ali Lajami,1996-04-25,1996-04-24,1 day apart,same_person,"Dates 1 to 3 days apart: a source difference, not another person."
+birth_date,p_ksa_ali_majrashi_f27c8815,Saudi Arabia,Ali Majrashi,1999-10-01,1999-10-02,1 day apart,same_person,"Dates 1 to 3 days apart: a source difference, not another person."
+birth_date,p_ksa_khalid_al_ghannam_b44eecee,Saudi Arabia,Khalid Al Ghannam,2000-11-07,2000-11-08,1 day apart,same_person,"Dates 1 to 3 days apart: a source difference, not another person."
+birth_date,p_ksa_moteb_al_harbi_e138f807,Saudi Arabia,Moteb Al Harbi,2000-02-19,2000-02-20,1 day apart,same_person,"Dates 1 to 3 days apart: a source difference, not another person."
+birth_date,p_sen_el_hadji_malick_diouf_2fb2dad9,Senegal,El Hadji Malick Diouf,2004-12-28,2004-12-29,1 day apart,same_person,"Dates 1 to 3 days apart: a source difference, not another person."
+birth_date,p_rsa_nkosinathi_sibisi_c2a232db,South Africa,Nkosinathi Sibisi,1995-05-22,1995-09-22,123 days apart,same_person,"Same day, different month: likely a typo in one source."
+birth_date,p_swe_erik_smith_9cafee29,Sweden,Eric Smith,1997-01-05,1997-01-08,3 days apart,same_person,"Dates 1 to 3 days apart: a source difference, not another person."
