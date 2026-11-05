@@ -1,19 +1,7 @@
-# Frontend Prototype
+# Site
 
-This folder contains the React + TypeScript + React Router + Vite prototype for the World Cup 2026 Player Tracker.
+The React, TypeScript, React Router and Vite app for the World Cup 2026 Player Tracker, live at https://worldcupplayertracker.netlify.app/.
 
-## Current role
+It reads the JSON exports in `../data/processed/app_exports/` through the `@data` alias in `vite.config.ts`, so regenerating the exports is all it takes to change the data. `src/lib/data/` loads and joins the tables, `src/lib/analytics/` computes the Analysis page's measures (with unit tests), and `src/routes/` holds one file per page.
 
-The app is intentionally scaffolded before the shared JSON data-access layer is wired in. That keeps the route structure, visual system, and build surface stable while the dataset continues to evolve.
-
-## Planned data source
-
-The app is expected to read from the project-generated exports in:
-
-- `../data/processed/app_exports/`
-
-The current `vite.config.ts` already exposes an `@data` alias pointing at that folder so the next step can add typed loaders without moving the data into the app tree.
-
-## Expected next build step
-
-Add the typed data-access layer that loads the exported JSON files and start with the `Players & Clubs` route as the first fully functional screen.
+How to install, run, test and build it is in the main [README](../README.md#running-the-site-locally).
