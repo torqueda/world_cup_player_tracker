@@ -154,7 +154,7 @@ The audit step runs with `--strict`, so the pipeline stops before writing app JS
 
 ## Tests And CI
 
-Export-invariant tests live in `tests/` (pytest): unique IDs, cross-table referential integrity, the 48×26 active-roster shape, and `meta.json` counts matching every file. Run them with:
+Export-invariant tests live in `tests/` (pytest): unique IDs, cross-table referential integrity, the 48×26 active-roster shape, and `meta.json` counts matching every file. Identity tests (`tests/test_player_identity.py`) compare each active player with a second source: the birth date in Wikipedia's final squad, and whether a goalkeeper was matched to a goalkeeper on Wikidata. Every disagreement must be listed, with a status, in `data/quality/identity_review.csv`; `scripts/validation/check_player_identity.py --write` adds new ones. Run the tests with:
 
 ```bash
 .venv/bin/pip install -r requirements-dev.txt   # once (adds pytest)
@@ -179,6 +179,8 @@ Tournament-data collection and reconciliation (July 2026 finalization run):
 - `scripts/data_pipeline/reconcile_final_rosters.py`: diffs scraped final squads against the dataset (confirmed / cut / new players)
 - `scripts/data_pipeline/build_workbook_import_sheets.py`: merges all collected data into import-ready workbook sheets
 - `scripts/data_pipeline/apply_post_import_fixes.py` and `scripts/data_pipeline/enrich_new_players_from_wikidata.py`: post-import corrections and Wikidata birthplace enrichment, applied to the canonical xlsx with timestamped backups
+- `scripts/data_pipeline/apply_2026_11_data_fixes.py`: the 2026-11-05 corrections (four wrong-person matches, a joined name, the sources registry, `players.match_method`), each logged in `change_log`
+- `scripts/validation/check_player_identity.py`: lists each active player's disagreements with a second source and keeps `data/quality/identity_review.csv` current
 - `scripts/geolocation/build_city_country_lookup_from_clubs.py`: deduplicates club cities
 - `scripts/geolocation/build_city_geocoding_workfile.py`: builds the city-level geocoding workfile
 - `scripts/geolocation/apply_city_geocoding_results.py`: reapplies reviewed city geocoding decisions
