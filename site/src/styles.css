@@ -44,12 +44,18 @@
   --radius-control: 0;
   --content-max: 1600px;
   /* Reading measure for running text. 1ch is the width of "0", which in
-     Inter is wider than the average letter, so 52ch holds about 66
-     characters a line. The old 62-68ch caps held 78 to 87. */
+     IBM Plex Sans (as in Inter before it) is wider than the average
+     letter, so 52ch holds about 66 characters a line. The old 62-68ch
+     caps held 78 to 87. */
   --measure: 52ch;
 
-  --font-display: "Archivo", "Avenir Next", "Segoe UI", sans-serif;
-  --font-body: "Inter", "Avenir Next", "Segoe UI", sans-serif;
+  /* IBM Plex Sans for text; IBM Plex Mono for headings (--font-display)
+     and for figures in tables (--font-figures). Home sets --font-display
+     to Archivo for its own headings (.landing below). */
+  --font-body: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-display: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --font-figures: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --font-home: "Archivo", "Helvetica Neue", Arial, sans-serif;
   font-family: var(--font-body);
   line-height: 1.5;
   font-weight: 400;
@@ -166,7 +172,7 @@ h4,
   font-family: var(--font-display);
   font-weight: 800;
   font-size: 1.05rem;
-  letter-spacing: -0.02em;
+  letter-spacing: 0; /* monospace: no negative tracking */
   color: var(--text);
   white-space: nowrap;
 }
@@ -428,7 +434,7 @@ h4,
 .panel-heading h2,
 .panel-heading h3 {
   margin: 0;
-  letter-spacing: -0.04em;
+  letter-spacing: 0; /* monospace: no negative tracking */
 }
 
 .hero-copy h2 {
@@ -517,7 +523,7 @@ h4,
   margin: 0.35rem 0 0;
   font-size: clamp(2rem, 4vw, 3.15rem);
   font-weight: 700;
-  letter-spacing: -0.06em;
+  letter-spacing: 0; /* monospace: no negative tracking */
 }
 
 .metric-note {
@@ -619,6 +625,7 @@ h4,
 
 .data-table td.table-cell-numeric {
   white-space: nowrap;
+  font-family: var(--font-figures);
 }
 
 .data-table thead th {
@@ -750,7 +757,7 @@ h4,
 .section-heading {
   margin: 0 0 1rem;
   font-size: 1.35rem;
-  letter-spacing: -0.03em;
+  letter-spacing: 0; /* monospace: no negative tracking */
 }
 
 .subsection-heading {
@@ -820,6 +827,7 @@ h4,
 .bar-value {
   min-width: 3ch;
   text-align: right;
+  font-family: var(--font-figures);
   font-weight: 700;
   font-size: 0.85rem;
   font-variant-numeric: tabular-nums;
@@ -1763,9 +1771,9 @@ h4,
 }
 
 /* The national-team flag stands in for a missing player photo. */
-.player-detail-photo-flag .country-flag-glyph {
-  font-size: 4.5rem;
-  line-height: 1;
+.player-detail-photo-flag .country-flag-img {
+  width: 6.75rem;
+  height: 4.5rem;
 }
 
 .player-detail-photo-flag .country-flag-fallback {
@@ -2017,6 +2025,8 @@ button.bracket-team-active:hover {
    ============================================================ */
 
 .landing {
+  /* Home keeps Archivo for its headings and display figures. */
+  --font-display: var(--font-home);
   display: grid;
   gap: 1.5rem;
 }
@@ -2325,11 +2335,14 @@ button.bracket-team-active:hover {
   vertical-align: baseline;
 }
 
-.country-flag-glyph {
-  font-size: 1.05em;
-  line-height: 1;
-  /* Keep flag emoji rendering on the color font, not the text run. */
-  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+.country-flag-img {
+  display: inline-block;
+  flex-shrink: 0;
+  width: 1.35em;
+  height: 0.9em;
+  object-fit: cover;
+  /* A hairline keeps mostly white flags (Japan, ...) visible on white rows. */
+  box-shadow: 0 0 0 1px rgba(20, 32, 25, 0.16);
 }
 
 .country-flag-name {
@@ -2438,7 +2451,7 @@ button.bracket-team-active:hover {
   margin: 0.35rem 0 0;
   font-size: clamp(1.9rem, 3.6vw, 2.7rem);
   line-height: 1.05;
-  letter-spacing: -0.03em;
+  letter-spacing: 0; /* monospace: no negative tracking */
   font-weight: 800;
 }
 
@@ -2589,6 +2602,7 @@ button.bracket-team-active:hover {
 
 .ranked-value {
   flex-shrink: 0;
+  font-family: var(--font-figures);
   font-weight: 700;
   font-variant-numeric: tabular-nums;
 }
