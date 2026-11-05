@@ -116,7 +116,7 @@ const coverageCards = [
   { key: "teams", label: "Final squads", value: meta.counts.teams },
   { key: "clubs", label: "Clubs", value: meta.counts.clubs, note: "registered & mapped" },
   { key: "cities", label: "Club cities", value: meta.counts.cities, note: "geocoded" },
-  { key: "matches", label: "Matches", value: meta.counts.world_cup_history },
+  { key: "matches", label: "Matches", value: meta.counts.matches },
   { key: "coaches", label: "Coaches", value: coaches.length },
   { key: "officials", label: "Match officials", value: referees.length },
   { key: "sources", label: "Cited sources", value: meta.counts.sources },
