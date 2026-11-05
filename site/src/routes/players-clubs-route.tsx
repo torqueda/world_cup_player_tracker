@@ -375,7 +375,7 @@ export function PlayersClubsRoute() {
       <PageHeader
         eyebrow="Players & clubs"
         title="The club map"
-        intro="One bubble per country in the world view — click a bubble or zoom in to reveal club cities, then pick a city to see who plays there. Filters and search narrow the map and zoom it to the matching region."
+        intro="The world view shows one bubble per country. Click a bubble or zoom in to see club cities, then pick a city to see who plays there. Filters and search narrow the map and zoom it to the matching region."
       />
 
       <SummaryRow
@@ -537,7 +537,7 @@ export function PlayersClubsRoute() {
 
           {filteredCities.length === 0 ? (
             <EmptyState>
-              No cities match the current filters — remove one or two chips to widen the search.
+              No cities match the current filters. Remove one or two to widen the search.
             </EmptyState>
           ) : null}
 

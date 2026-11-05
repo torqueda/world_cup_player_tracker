@@ -271,7 +271,7 @@ export function PlayersClubsMap({ cities, selectedCityKey, onSelectCity, focus }
           >
             <Tooltip direction="top" offset={[0, -4]} opacity={1}>
               {bubble.country} &middot; {bubble.clubCount} club{bubble.clubCount === 1 ? "" : "s"} in{" "}
-              {bubble.cityCount} cit{bubble.cityCount === 1 ? "y" : "ies"} — click to zoom in
+              {bubble.cityCount} cit{bubble.cityCount === 1 ? "y" : "ies"}. Click to zoom in.
             </Tooltip>
           </CircleMarker>
         ))}

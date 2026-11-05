@@ -156,6 +156,11 @@ const cityNames = Array.from(new Set(matches.map((m) => m.city))).sort((a, b) =>
 
 const playedCount = matches.filter((m) => m.status === "played").length;
 const scheduledCount = matches.filter((m) => m.status === "scheduled").length;
+// Once every match is played, "0 still to come" reads as stale.
+const MATCHES_INTRO =
+  scheduledCount === 0
+    ? `All ${playedCount} matches of the 2026 World Cup, from the group stage to the final.`
+    : `Every World Cup 2026 match from the group stage through the knockout rounds: ${playedCount} played, ${scheduledCount} still to come.`;
 const knockoutCount = matches.filter((m) => KNOCKOUT_STAGES.includes(m.stage)).length;
 const groupCount = matches.filter((m) => m.stage === "First Stage").length;
 
@@ -239,7 +244,7 @@ export function MatchesRoute() {
       <PageHeader
         eyebrow="Matches"
         title="Results & schedule"
-        intro={`Every World Cup 2026 match from the group stage through the knockout rounds — ${playedCount} played, ${scheduledCount} still to come.`}
+        intro={MATCHES_INTRO}
       />
 
       <div className="matches-toolbar reveal">

@@ -104,7 +104,7 @@ const entryCards: EntryCard[] = [
   {
     eyebrow: "Matches & Leaderboards",
     heading: "Follow what happened on the pitch.",
-    body: "Browse every result and upcoming fixture, then explore the leading scorers, creators, goalkeepers, and team statistics.",
+    body: "Browse every result, then explore the leading scorers, creators, goalkeepers, and team statistics.",
     links: [
       { to: "/matches", label: "View matches" },
       { to: "/stats", label: "See leaderboards" },
@@ -130,7 +130,7 @@ export function OverviewRoute() {
         <p className="landing-hero-lead">
           Explore where every final-squad player at the 2026 World Cup was born, which club and
           league they represented at call-up, how all {teams.length} squads were assembled, and
-          what happened across the tournament — all thanks to publicly sourced data.
+          what happened across the tournament, all from public sources.
         </p>
         <div className="landing-actions">
           <Link className="button-primary" to="/players-clubs">
