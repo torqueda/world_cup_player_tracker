@@ -135,7 +135,7 @@
       "team": "Canada",
       "confederation": "CONCACAF",
       "squad_size": 26,
-      "mean_age": 26.951,
+      "mean_age": 26.973,
       "mean_caps": 36.65,
       "big_five_share": 0.2692,
       "players_valued": 24,
@@ -169,7 +169,7 @@
       "team": "Colombia",
       "confederation": "CONMEBOL",
       "squad_size": 26,
-      "mean_age": 30.128,
+      "mean_age": 30.089,
       "mean_caps": 40.08,
       "big_five_share": 0.2692,
       "players_valued": 26,
@@ -186,7 +186,7 @@
       "team": "Congo DR",
       "confederation": "CAF",
       "squad_size": 26,
-      "mean_age": 29.062,
+      "mean_age": 29.069,
       "mean_caps": 30.62,
       "big_five_share": 0.3077,
       "players_valued": 20,
@@ -271,7 +271,7 @@
       "team": "Egypt",
       "confederation": "CAF",
       "squad_size": 26,
-      "mean_age": 29.08,
+      "mean_age": 29.059,
       "mean_caps": 31.58,
       "big_five_share": 0.1154,
       "players_valued": 16,
@@ -339,7 +339,7 @@
       "team": "Ghana",
       "confederation": "CAF",
       "squad_size": 26,
-      "mean_age": 26.957,
+      "mean_age": 26.975,
       "mean_caps": 21.58,
       "big_five_share": 0.5,
       "players_valued": 23,
@@ -356,7 +356,7 @@
       "team": "Haiti",
       "confederation": "CONCACAF",
       "squad_size": 26,
-      "mean_age": 27.547,
+      "mean_age": 27.508,
       "mean_caps": 24.0,
       "big_five_share": 0.1154,
       "players_valued": 12,
@@ -373,7 +373,7 @@
       "team": "Iran",
       "confederation": "AFC",
       "squad_size": 26,
-      "mean_age": 30.42,
+      "mean_age": 30.333,
       "mean_caps": 45.0,
       "big_five_share": 0.0,
       "players_valued": 9,
@@ -390,7 +390,7 @@
       "team": "Iraq",
       "confederation": "AFC",
       "squad_size": 26,
-      "mean_age": 26.91,
+      "mean_age": 26.915,
       "mean_caps": 31.81,
       "big_five_share": 0.0769,
       "players_valued": 25,
@@ -441,7 +441,7 @@
       "team": "Jordan",
       "confederation": "AFC",
       "squad_size": 26,
-      "mean_age": 28.462,
+      "mean_age": 28.466,
       "mean_caps": 40.88,
       "big_five_share": 0.0385,
       "players_valued": 21,
@@ -543,7 +543,7 @@
       "team": "Panama",
       "confederation": "CONCACAF",
       "squad_size": 26,
-      "mean_age": 30.433,
+      "mean_age": 30.427,
       "mean_caps": 59.27,
       "big_five_share": 0.0,
       "players_valued": 21,
@@ -560,7 +560,7 @@
       "team": "Paraguay",
       "confederation": "CONMEBOL",
       "squad_size": 26,
-      "mean_age": 29.027,
+      "mean_age": 29.003,
       "mean_caps": 26.54,
       "big_five_share": 0.1538,
       "players_valued": 22,
@@ -594,7 +594,7 @@
       "team": "Qatar",
       "confederation": "AFC",
       "squad_size": 26,
-      "mean_age": 29.476,
+      "mean_age": 29.508,
       "mean_caps": 54.81,
       "big_five_share": 0.0,
       "players_valued": 26,
@@ -662,7 +662,7 @@
       "team": "South Africa",
       "confederation": "CAF",
       "squad_size": 26,
-      "mean_age": 26.821,
+      "mean_age": 26.808,
       "mean_caps": 18.73,
       "big_five_share": 0.0385,
       "players_valued": 22,
@@ -874,28 +874,28 @@
         {
           "feature": "age_gap",
           "per": "1 year of average age",
-          "odds_ratio": 0.9314,
+          "odds_ratio": 0.9299,
           "odds_ratio_ci95": [
-            0.7339,
-            1.1822
+            0.7316,
+            1.1819
           ],
-          "odds_ratio_per_sd": 0.9006,
-          "p_value": 0.5592
+          "odds_ratio_per_sd": 0.8988,
+          "p_value": 0.5524
         },
         {
           "feature": "home",
           "per": "playing at home",
-          "odds_ratio": 2.1073,
+          "odds_ratio": 2.1077,
           "odds_ratio_ci95": [
-            0.6863,
-            6.471
+            0.6864,
+            6.4723
           ],
           "odds_ratio_per_sd": null,
-          "p_value": 0.1928
+          "p_value": 0.1927
         }
       ],
-      "loglike": -110.5418,
-      "aic": 227.0836,
+      "loglike": -110.5358,
+      "aic": 227.0716,
       "leave_one_out_rps": 0.2419
     },
     {
@@ -909,41 +909,41 @@
         {
           "feature": "elo_gap_per_100",
           "per": "100 Elo points",
-          "odds_ratio": 1.9402,
+          "odds_ratio": 1.9401,
           "odds_ratio_ci95": [
-            1.5371,
-            2.449
+            1.537,
+            2.4488
           ],
-          "odds_ratio_per_sd": 4.4069,
+          "odds_ratio_per_sd": 4.4063,
           "p_value": 0.0
         },
         {
           "feature": "home",
           "per": "playing at home",
-          "odds_ratio": 1.3967,
+          "odds_ratio": 1.3971,
           "odds_ratio_ci95": [
-            0.419,
-            4.6564
+            0.4191,
+            4.6574
           ],
           "odds_ratio_per_sd": null,
-          "p_value": 0.5865
+          "p_value": 0.5862
         },
         {
           "feature": "age_gap",
           "per": "1 year of average age",
-          "odds_ratio": 0.9563,
+          "odds_ratio": 0.9564,
           "odds_ratio_ci95": [
-            0.7271,
-            1.2577
+            0.7258,
+            1.2602
           ],
-          "odds_ratio_per_sd": 0.9363,
-          "p_value": 0.7492
+          "odds_ratio_per_sd": 0.9366,
+          "p_value": 0.7513
         }
       ],
-      "loglike": -87.9265,
-      "aic": 183.8531,
+      "loglike": -87.9274,
+      "aic": 183.8547,
       "leave_one_out_rps": 0.1655,
-      "lr_test_p_vs_elo_only": 0.7492,
+      "lr_test_p_vs_elo_only": 0.7513,
       "leave_one_out_rps_minus_elo_only": 0.002,
       "leave_one_out_rps_minus_elo_only_ci95": [
         0.0007,
@@ -1222,78 +1222,78 @@
         {
           "feature": "elo_gap_per_100",
           "per": "100 Elo points",
-          "odds_ratio": 1.5667,
+          "odds_ratio": 1.5728,
           "odds_ratio_ci95": [
-            1.0801,
-            2.2726
+            1.0845,
+            2.281
           ],
-          "odds_ratio_per_sd": 2.7312,
-          "p_value": 0.018
+          "odds_ratio_per_sd": 2.755,
+          "p_value": 0.017
         },
         {
           "feature": "home",
           "per": "playing at home",
-          "odds_ratio": 3.1728,
+          "odds_ratio": 3.1627,
           "odds_ratio_ci95": [
-            0.8368,
-            12.0304
+            0.8345,
+            11.986
           ],
           "odds_ratio_per_sd": null,
-          "p_value": 0.0895
+          "p_value": 0.0903
         },
         {
           "feature": "age_gap",
           "per": "1 year of average age",
-          "odds_ratio": 1.5721,
+          "odds_ratio": 1.5739,
           "odds_ratio_ci95": [
-            1.0449,
-            2.3651
+            1.0432,
+            2.3748
           ],
-          "odds_ratio_per_sd": 1.9481,
-          "p_value": 0.0299
+          "odds_ratio_per_sd": 1.9454,
+          "p_value": 0.0307
         },
         {
           "feature": "caps_gap_per_10",
           "per": "10 caps of average experience",
-          "odds_ratio": 0.5699,
+          "odds_ratio": 0.5687,
           "odds_ratio_ci95": [
-            0.3258,
-            0.9968
+            0.3246,
+            0.9964
           ],
-          "odds_ratio_per_sd": 0.5219,
-          "p_value": 0.0487
+          "odds_ratio_per_sd": 0.5207,
+          "p_value": 0.0485
         },
         {
           "feature": "big_five_gap_per_10pts",
           "per": "10 percentage points of the squad at big-five clubs",
-          "odds_ratio": 1.3122,
+          "odds_ratio": 1.3111,
           "odds_ratio_ci95": [
-            1.0555,
-            1.6312
+            1.0548,
+            1.6295
           ],
-          "odds_ratio_per_sd": 3.1707,
-          "p_value": 0.0144
+          "odds_ratio_per_sd": 3.1592,
+          "p_value": 0.0146
         },
         {
           "feature": "value_gap_per_doubling",
           "per": "a doubling of the market value of the 11 most valuable players",
-          "odds_ratio": 1.0382,
+          "odds_ratio": 1.0357,
           "odds_ratio_ci95": [
-            0.6818,
-            1.581
+            0.6803,
+            1.5767
           ],
-          "odds_ratio_per_sd": 1.094,
-          "p_value": 0.8612
+          "odds_ratio_per_sd": 1.0876,
+          "p_value": 0.8702
         }
       ],
-      "loglike": -80.6352,
-      "aic": 175.2704,
-      "leave_one_out_rps": 0.1503,
-      "lr_test_p_vs_elo_only": 0.0054,
-      "leave_one_out_rps_minus_elo_only": -0.0132,
+      "loglike": -80.657,
+      "aic": 175.314,
+      "leave_one_out_rps": 0.1504,
+      "lr_test_p_vs_elo_only": 0.0055,
+      "leave_one_out_rps_minus_elo_only": -0.013,
       "leave_one_out_rps_minus_elo_only_ci95": [
-        -0.0343,
-        0.008
+        -0.034,
+        0.0081
       ]
     },
     {
@@ -1365,16 +1365,16 @@
     {
       "factor": "mean_age",
       "outcome": "points_per_match",
-      "spearman": -0.1492,
+      "spearman": -0.15,
       "spearman_ci95": [
-        -0.4261,
-        0.1361
+        -0.4271,
+        0.1357
       ]
     },
     {
       "factor": "mean_age",
       "outcome": "elo_change",
-      "spearman": -0.0623,
+      "spearman": -0.0621,
       "spearman_ci95": [
         -0.3605,
         0.246
@@ -1450,28 +1450,28 @@
         "mean_age",
         "mean_caps"
       ],
-      "spearman": 0.5899
+      "spearman": 0.5895
     },
     {
       "factors": [
         "mean_age",
         "big_five_share"
       ],
-      "spearman": -0.3163
+      "spearman": -0.315
     },
     {
       "factors": [
         "mean_age",
         "elo_before"
       ],
-      "spearman": -0.011
+      "spearman": -0.0114
     },
     {
       "factors": [
         "mean_age",
         "top11_value_eur"
       ],
-      "spearman": -0.2813
+      "spearman": -0.281
     },
     {
       "factors": [

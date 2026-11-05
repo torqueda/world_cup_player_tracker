@@ -13,121 +13,121 @@
     {
       "feature": "goalkeeper",
       "label": "Goalkeeper (against a midfielder)",
-      "odds_ratio": 1.315,
+      "odds_ratio": 1.3146,
       "odds_ratio_ci95": [
-        0.7395,
-        2.3384
+        0.7393,
+        2.3375
       ],
-      "p_value": 0.3511,
-      "average_marginal_effect_points": 3.6,
+      "p_value": 0.3517,
+      "average_marginal_effect_points": 3.59,
       "average_marginal_effect_points_ci95": [
-        -3.65,
+        -3.66,
         10.85
       ]
     },
     {
       "feature": "defender",
       "label": "Defender (against a midfielder)",
-      "odds_ratio": 0.9093,
+      "odds_ratio": 0.9108,
       "odds_ratio_ci95": [
-        0.6164,
-        1.3414
+        0.6175,
+        1.3433
       ],
-      "p_value": 0.6316,
-      "average_marginal_effect_points": -1.31,
+      "p_value": 0.6373,
+      "average_marginal_effect_points": -1.28,
       "average_marginal_effect_points_ci95": [
-        -6.67,
-        4.06
+        -6.64,
+        4.08
       ]
     },
     {
       "feature": "forward",
       "label": "Forward (against a midfielder)",
-      "odds_ratio": 0.9649,
+      "odds_ratio": 0.965,
       "odds_ratio_ci95": [
-        0.6361,
-        1.4636
+        0.6362,
+        1.4637
       ],
-      "p_value": 0.8664,
+      "p_value": 0.8669,
       "average_marginal_effect_points": -0.49,
       "average_marginal_effect_points_ci95": [
-        -6.22,
+        -6.21,
         5.24
       ]
     },
     {
       "feature": "age_per_5_years",
       "label": "5 years older",
-      "odds_ratio": 1.5754,
+      "odds_ratio": 1.5777,
       "odds_ratio_ci95": [
-        1.2364,
-        2.0073
+        1.2376,
+        2.0112
       ],
       "p_value": 0.0002,
-      "average_marginal_effect_points": 6.21,
+      "average_marginal_effect_points": 6.23,
       "average_marginal_effect_points_ci95": [
-        2.95,
-        9.47
+        2.97,
+        9.5
       ]
     },
     {
       "feature": "caps_doublings",
       "label": "Twice the caps",
-      "odds_ratio": 1.7385,
+      "odds_ratio": 1.7376,
       "odds_ratio_ci95": [
-        1.5166,
-        1.9928
+        1.5157,
+        1.992
       ],
       "p_value": 0.0,
-      "average_marginal_effect_points": 7.56,
+      "average_marginal_effect_points": 7.55,
       "average_marginal_effect_points_ci95": [
-        5.87,
-        9.25
+        5.86,
+        9.24
       ]
     },
     {
       "feature": "big_five_club",
       "label": "Plays in a big-five league",
-      "odds_ratio": 2.7627,
+      "odds_ratio": 2.7613,
       "odds_ratio_ci95": [
-        1.8712,
-        4.0789
+        1.8704,
+        4.0768
       ],
       "p_value": 0.0,
-      "average_marginal_effect_points": 13.36,
+      "average_marginal_effect_points": 13.35,
       "average_marginal_effect_points_ci95": [
-        8.59,
+        8.58,
         18.12
       ]
     },
     {
       "feature": "plays_abroad",
       "label": "Plays abroad",
-      "odds_ratio": 1.3772,
+      "odds_ratio": 1.3762,
       "odds_ratio_ci95": [
-        0.9552,
-        1.9857
+        0.9545,
+        1.9842
       ],
-      "p_value": 0.0865,
-      "average_marginal_effect_points": 4.48,
+      "p_value": 0.0871,
+      "average_marginal_effect_points": 4.47,
       "average_marginal_effect_points_ci95": [
-        -0.75,
-        9.72
+        -0.76,
+        9.71
       ]
     },
     {
       "feature": "AFC",
       "label": "AFC team (against UEFA)",
-      "odds_ratio": 0.7305,
+      "odds_ratio": 0.731,
       "odds_ratio_ci95": [
-        0.4569,
-        1.1679
+        0.4572,
+        1.1688
       ],
-      "p_value": 0.1897,
-      "average_marginal_effect_points": -4.42,
+      "p_value": 0.1907,
+      "average_marginal_effect_points": -4.41,
       "average_marginal_effect_points_ci95": [
-        -11.19,
-        2.35
+        -11.18,
+        2.36
       ]
     },
     {
@@ -136,7 +136,7 @@
       "odds_ratio": 0.4274,
       "odds_ratio_ci95": [
         0.2773,
-        0.6588
+        0.6589
       ],
       "p_value": 0.0001,
       "average_marginal_effect_points": -12.6,
@@ -148,31 +148,31 @@
     {
       "feature": "CONCACAF",
       "label": "CONCACAF team (against UEFA)",
-      "odds_ratio": 0.5684,
+      "odds_ratio": 0.5687,
       "odds_ratio_ci95": [
-        0.3334,
-        0.9691
+        0.3336,
+        0.9694
       ],
-      "p_value": 0.0379,
+      "p_value": 0.0381,
       "average_marginal_effect_points": -8.18,
       "average_marginal_effect_points_ci95": [
-        -16.27,
-        -0.1
+        -16.26,
+        -0.09
       ]
     },
     {
       "feature": "CONMEBOL",
       "label": "CONMEBOL team (against UEFA)",
-      "odds_ratio": 0.7309,
+      "odds_ratio": 0.7319,
       "odds_ratio_ci95": [
-        0.4216,
-        1.2672
+        0.4222,
+        1.2689
       ],
-      "p_value": 0.2642,
-      "average_marginal_effect_points": -4.43,
+      "p_value": 0.2663,
+      "average_marginal_effect_points": -4.41,
       "average_marginal_effect_points_ci95": [
-        -12.45,
-        3.58
+        -12.43,
+        3.6
       ]
     },
     {
@@ -181,7 +181,7 @@
       "odds_ratio": 3.4657,
       "odds_ratio_ci95": [
         0.7499,
-        16.0176
+        16.0181
       ],
       "p_value": 0.1115,
       "average_marginal_effect_points": 13.55,
@@ -193,10 +193,10 @@
     {
       "feature": "matches_played_90",
       "label": "90 more minutes at the tournament",
-      "odds_ratio": 1.1434,
+      "odds_ratio": 1.1436,
       "odds_ratio_ci95": [
-        1.0344,
-        1.2638
+        1.0346,
+        1.264
       ],
       "p_value": 0.0087,
       "average_marginal_effect_points": 1.83,
@@ -218,147 +218,147 @@
       {
         "feature": "goalkeeper",
         "label": "Goalkeeper (against a midfielder)",
-        "odds_ratio": 1.9383,
+        "odds_ratio": 1.934,
         "odds_ratio_ci95": [
-          0.9789,
-          3.8381
+          0.9766,
+          3.83
         ],
-        "p_value": 0.0576,
-        "average_marginal_effect_points": 7.08,
+        "p_value": 0.0585,
+        "average_marginal_effect_points": 7.06,
         "average_marginal_effect_points_ci95": [
-          0.56,
-          13.6
+          0.53,
+          13.58
         ]
       },
       {
         "feature": "defender",
         "label": "Defender (against a midfielder)",
-        "odds_ratio": 0.9861,
+        "odds_ratio": 0.9878,
         "odds_ratio_ci95": [
-          0.6374,
-          1.5254
+          0.6386,
+          1.5281
         ],
-        "p_value": 0.9499,
-        "average_marginal_effect_points": -0.17,
+        "p_value": 0.9562,
+        "average_marginal_effect_points": -0.14,
         "average_marginal_effect_points_ci95": [
-          -5.33,
-          5.0
+          -5.31,
+          5.02
         ]
       },
       {
         "feature": "forward",
         "label": "Forward (against a midfielder)",
-        "odds_ratio": 0.9122,
+        "odds_ratio": 0.9134,
         "odds_ratio_ci95": [
-          0.5676,
-          1.4661
+          0.5683,
+          1.4681
         ],
-        "p_value": 0.7043,
-        "average_marginal_effect_points": -1.09,
+        "p_value": 0.7084,
+        "average_marginal_effect_points": -1.08,
         "average_marginal_effect_points_ci95": [
-          -6.79,
-          4.6
+          -6.77,
+          4.62
         ]
       },
       {
         "feature": "age_per_5_years",
         "label": "5 years older",
-        "odds_ratio": 3.3126,
+        "odds_ratio": 3.3273,
         "odds_ratio_ci95": [
-          2.4033,
-          4.566
+          2.4125,
+          4.5889
         ],
         "p_value": 0.0,
-        "average_marginal_effect_points": 14.16,
+        "average_marginal_effect_points": 14.2,
         "average_marginal_effect_points_ci95": [
-          10.68,
-          17.64
+          10.72,
+          17.69
         ]
       },
       {
         "feature": "caps_doublings",
         "label": "Twice the caps",
-        "odds_ratio": 1.6254,
+        "odds_ratio": 1.6233,
         "odds_ratio_ci95": [
-          1.3885,
-          1.9028
+          1.3865,
+          1.9005
         ],
         "p_value": 0.0,
-        "average_marginal_effect_points": 5.74,
+        "average_marginal_effect_points": 5.72,
         "average_marginal_effect_points_ci95": [
-          3.98,
-          7.5
+          3.97,
+          7.48
         ]
       },
       {
         "feature": "big_five_club",
         "label": "Plays in a big-five league",
-        "odds_ratio": 1.132,
+        "odds_ratio": 1.1305,
         "odds_ratio_ci95": [
-          0.6981,
-          1.8356
+          0.697,
+          1.8335
         ],
-        "p_value": 0.6153,
-        "average_marginal_effect_points": 1.46,
+        "p_value": 0.6191,
+        "average_marginal_effect_points": 1.45,
         "average_marginal_effect_points_ci95": [
-          -4.22,
-          7.15
+          -4.24,
+          7.13
         ]
       },
       {
         "feature": "plays_abroad",
         "label": "Plays abroad",
-        "odds_ratio": 1.5446,
+        "odds_ratio": 1.5458,
         "odds_ratio_ci95": [
-          1.0165,
-          2.3471
+          1.0172,
+          2.3491
         ],
-        "p_value": 0.0417,
-        "average_marginal_effect_points": 5.32,
+        "p_value": 0.0414,
+        "average_marginal_effect_points": 5.33,
         "average_marginal_effect_points_ci95": [
-          0.06,
+          0.07,
           10.58
         ]
       },
       {
         "feature": "AFC",
         "label": "AFC team (against UEFA)",
-        "odds_ratio": 2.1884,
+        "odds_ratio": 2.1905,
         "odds_ratio_ci95": [
-          1.2003,
-          3.9898
+          1.2014,
+          3.9939
         ],
-        "p_value": 0.0106,
-        "average_marginal_effect_points": 8.38,
+        "p_value": 0.0105,
+        "average_marginal_effect_points": 8.39,
         "average_marginal_effect_points_ci95": [
-          2.65,
+          2.66,
           14.11
         ]
       },
       {
         "feature": "CAF",
         "label": "CAF team (against UEFA)",
-        "odds_ratio": 0.8372,
+        "odds_ratio": 0.8381,
         "odds_ratio_ci95": [
-          0.5074,
-          1.3812
+          0.508,
+          1.3828
         ],
-        "p_value": 0.4866,
-        "average_marginal_effect_points": -2.15,
+        "p_value": 0.4894,
+        "average_marginal_effect_points": -2.13,
         "average_marginal_effect_points_ci95": [
-          -8.31,
-          4.02
+          -8.29,
+          4.03
         ]
       },
       {
         "feature": "CONCACAF",
         "label": "CONCACAF team (against UEFA)",
-        "odds_ratio": 1.7721,
+        "odds_ratio": 1.7718,
         "odds_ratio_ci95": [
-          0.9006,
-          3.4868
+          0.9004,
+          3.4865
         ],
-        "p_value": 0.0976,
+        "p_value": 0.0977,
         "average_marginal_effect_points": 6.24,
         "average_marginal_effect_points_ci95": [
           -0.5,
@@ -368,42 +368,42 @@
       {
         "feature": "CONMEBOL",
         "label": "CONMEBOL team (against UEFA)",
-        "odds_ratio": 0.6638,
+        "odds_ratio": 0.6664,
         "odds_ratio_ci95": [
-          0.3658,
-          1.2045
+          0.3672,
+          1.2094
         ],
-        "p_value": 0.1777,
-        "average_marginal_effect_points": -5.07,
+        "p_value": 0.182,
+        "average_marginal_effect_points": -5.02,
         "average_marginal_effect_points_ci95": [
-          -12.73,
-          2.6
+          -12.68,
+          2.64
         ]
       },
       {
         "feature": "OFC",
         "label": "New Zealand, the one OFC team (against UEFA)",
-        "odds_ratio": 16.7775,
+        "odds_ratio": 16.8223,
         "odds_ratio_ci95": [
-          3.3099,
-          85.0431
+          3.3185,
+          85.2767
         ],
         "p_value": 0.0007,
         "average_marginal_effect_points": 19.23,
         "average_marginal_effect_points_ci95": [
-          14.49,
+          14.5,
           23.96
         ]
       },
       {
         "feature": "matches_played_90",
         "label": "90 more minutes at the tournament",
-        "odds_ratio": 1.054,
+        "odds_ratio": 1.0539,
         "odds_ratio_ci95": [
-          0.9404,
+          0.9403,
           1.1812
         ],
-        "p_value": 0.3662,
+        "p_value": 0.3671,
         "average_marginal_effect_points": 0.62,
         "average_marginal_effect_points_ci95": [
           -0.73,
@@ -413,25 +413,25 @@
       {
         "feature": "value_doublings",
         "label": "Twice the market value",
-        "odds_ratio": 1.692,
+        "odds_ratio": 1.6932,
         "odds_ratio_ci95": [
-          1.4732,
-          1.9433
+          1.4742,
+          1.9449
         ],
         "p_value": 0.0,
         "average_marginal_effect_points": 6.22,
         "average_marginal_effect_points_ci95": [
-          4.72,
-          7.71
+          4.73,
+          7.72
         ]
       }
     ],
     "fit": {
       "players": 1130,
-      "auc_in_sample": 0.8569,
-      "auc_cross_validated": 0.8441,
+      "auc_in_sample": 0.8571,
+      "auc_cross_validated": 0.8444,
       "folds": 10,
-      "pseudo_r2_mcfadden": 0.2813
+      "pseudo_r2_mcfadden": 0.2816
     }
   },
   "shares": {
