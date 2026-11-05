@@ -1,60 +1,5 @@
 [
   {
-    "source_id": "club_corr_0001",
-    "source_type": "p_sco_lawrence_shankland_c03e8909",
-    "publisher": "Lawrence Shankland",
-    "url": "Scotland",
-    "title": "c_hearts_422d35b1",
-    "accessed_at": "Hearts",
-    "published_at": "c_rangers_8ee581e0",
-    "reliability_tier": "Rangers F.C.",
-    "notes": "player_club_source_error"
-  },
-  {
-    "source_id": "club_corr_0002",
-    "source_type": "p_irq_aymen_hussein_9b6a0747",
-    "publisher": "Aymen Hussein",
-    "url": "Iraq",
-    "title": "c_al_khor_f91729aa",
-    "accessed_at": "Al-Khor",
-    "published_at": "c_al_karma_f9b63d11",
-    "reliability_tier": "Al-Karma SC",
-    "notes": "player_club_source_error"
-  },
-  {
-    "source_id": "club_corr_0003",
-    "source_type": "p_irq_mohanad_ali_41068002",
-    "publisher": "Mohanad Ali",
-    "url": "Iraq",
-    "title": "c_al_shorta_03f6bef7",
-    "accessed_at": "Al-Shorta",
-    "published_at": "c_dibba_al_fujairah_06c16d12",
-    "reliability_tier": "Dibba FC",
-    "notes": "player_club_source_error"
-  },
-  {
-    "source_id": "club_corr_0004",
-    "source_type": "p_nor_sander_tangvik_493d3d56",
-    "publisher": "Sander Tangvik",
-    "url": "Norway",
-    "title": "c_hamburg_sv_8cb7fa56",
-    "accessed_at": "Hamburg SV",
-    "published_at": "c_hamburger_sv_bc4db90c",
-    "reliability_tier": "Hamburger SV",
-    "notes": "club_source_variant_or_typo"
-  },
-  {
-    "source_id": "club_corr_0005",
-    "source_type": "p_cro_luka_vuskovic_79fcb50b",
-    "publisher": "Luka Vuskovic",
-    "url": "Croatia",
-    "title": "c_hamburg_sv_8cb7fa56",
-    "accessed_at": "Hamburg SV",
-    "published_at": "c_hamburger_sv_bc4db90c",
-    "reliability_tier": "Hamburger SV",
-    "notes": "club_source_variant_or_typo"
-  },
-  {
     "source_id": "wiki_squads_2026",
     "source_type": "roster",
     "publisher": "Wikipedia",
@@ -108,5 +53,82 @@
     "published_at": null,
     "reliability_tier": "primary_official",
     "notes": "All 104 match results, including the semifinals, third-place playoff, and final. Snapshot: data/raw/fifa_scores_fixtures_snapshot.txt"
+  },
+  {
+    "source_id": "espn_squads_2026",
+    "source_type": "roster",
+    "publisher": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48757621/2026-world-cup-squad-lists-players-announced-all-48-teams",
+    "title": "2026 World Cup: Squad lists for all 48 teams",
+    "accessed_at": "2026-06-08",
+    "published_at": "2026-06-03",
+    "reliability_tier": "secondary",
+    "notes": "First roster import (raw_roster_import): players, clubs and position groups for all 48 squads, later reconciled with Wikipedia's final squads. Also the bio source for the one player with no Wikidata entry. Snapshot: data/raw/espn_rosters_snapshot.html"
+  },
+  {
+    "source_id": "wikidata",
+    "source_type": "biography",
+    "publisher": "Wikidata",
+    "url": "https://www.wikidata.org/",
+    "title": "Wikidata",
+    "accessed_at": "2026-07-12",
+    "published_at": null,
+    "reliability_tier": "secondary",
+    "notes": "Player identity (wikidata_id), date and place of birth, and the link to each player's photo; bio_source_url links each player's entry. Last used for the 2026-07-12 enrichment. Licence: CC0."
+  },
+  {
+    "source_id": "wikimedia_commons",
+    "source_type": "image",
+    "publisher": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/",
+    "title": "Wikimedia Commons",
+    "accessed_at": null,
+    "published_at": null,
+    "reliability_tier": "secondary",
+    "notes": "Player photos, found through each player's Wikidata entry. Each file's author, licence and page are in the players sheet (image_author, image_license, image_source_url)."
+  },
+  {
+    "source_id": "geonames",
+    "source_type": "club_location",
+    "publisher": "GeoNames",
+    "url": "https://www.geonames.org/",
+    "title": "GeoNames geographical database",
+    "accessed_at": null,
+    "published_at": null,
+    "reliability_tier": "secondary",
+    "notes": "Club city coordinates (city_lat, city_lon). Each club's city_source_url links its GeoNames record. Licence: CC BY 4.0."
+  },
+  {
+    "source_id": "wiki_club_articles",
+    "source_type": "manual_verification",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/",
+    "title": "Wikipedia club articles",
+    "accessed_at": null,
+    "published_at": null,
+    "reliability_tier": "secondary",
+    "notes": "Read by hand to correct club details, such as Gaziantep F.K.'s league (change_log chg_2026-07-13_gaziantep_league). Licence: CC BY-SA 4.0."
+  },
+  {
+    "source_id": "transfermarkt_profiles",
+    "source_type": "manual_verification",
+    "publisher": "Transfermarkt",
+    "url": "https://www.transfermarkt.com/",
+    "title": "Transfermarkt player profiles",
+    "accessed_at": null,
+    "published_at": null,
+    "reliability_tier": "secondary",
+    "notes": "Read by hand to confirm three players' clubs (change_log chg_step5_0003, chg_step5_0004 and chg_step5_0006). Not scraped."
+  },
+  {
+    "source_id": "rangers_fc_site",
+    "source_type": "manual_verification",
+    "publisher": "Rangers F.C.",
+    "url": "https://www.rangers.co.uk/",
+    "title": "Rangers F.C. official website",
+    "accessed_at": null,
+    "published_at": null,
+    "reliability_tier": "primary_official",
+    "notes": "Signing announcement read by hand to confirm Lawrence Shankland's club (change_log chg_step5_0002)."
   }
 ]
