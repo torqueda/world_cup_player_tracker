@@ -241,9 +241,22 @@
     "change_type": "bulk_update",
     "field_changed": "players.match_method (new column)",
     "old_value": null,
-    "new_value": "auto 1139, dob 27, manual 109",
+    "new_value": "auto 1138, dob 27, manual 110",
     "source_url": null,
     "reviewed_by": "user+claude",
     "notes": "How each identity match was settled. auto: the matcher's high-confidence pick, unchanged since. dob: a late replacement matched by name and confirmed by birth date. manual: settled by hand, including auto matches corrected later. data_confidence keeps the matcher's first verdict."
+  },
+  {
+    "change_id": "chg_2026-11-05_kim_tae_hyeon_identity",
+    "changed_at": "2026-11-05",
+    "team": "South Korea",
+    "player_id": "p_kor_kim_tae_hyun_ebe70829",
+    "change_type": "identity_correction",
+    "field_changed": "display_name, name_ascii, wikidata_id, date_of_birth, place_of_birth, birth_country, bio_source_url, image_*",
+    "old_value": "Kim Tae-hyun / Q61100326 / 1996-12-19 / Daejeon, South Korea / no photo",
+    "new_value": "Kim Tae-hyeon / Q79904514 / 2000-09-17 / Gimpo, South Korea / no photo",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
+    "reviewed_by": "user+claude",
+    "notes": "Wrong-person match: Q61100326 is a namesake (a midfielder born 1996-12-19). Wikipedia's final squad lists Kim Tae-hyeon as a Kashima Antlers defender born 2000-09-17, which matches Q79904514."
   }
 ]
