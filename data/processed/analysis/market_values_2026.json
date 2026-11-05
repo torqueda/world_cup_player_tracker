@@ -4,20 +4,20 @@
     "source": "dcaribou/transfermarkt-datasets (CC0), players and player_valuations tables; valuations end on 2026-06-12.",
     "linking": "On birth date, name, citizenship and club; see scripts/analysis/market_values.py for the rules. A link is kept only when it is the single best candidate.",
     "players": 1248,
-    "linked": 1229,
+    "linked": 1230,
     "linked_by": {
-      "dob_and_name": 1223,
-      "none": 19,
+      "dob_and_name": 1224,
+      "none": 18,
       "dob_citizenship_and_club": 5,
       "name_citizenship_and_club": 1
     },
-    "valued": 1171,
+    "valued": 1172,
     "valuation_dates": {
       "earliest": "2023-05-29",
       "median": "2026-05-29",
       "latest": "2026-06-10"
     },
-    "valued_in_the_12_months_before": 1129
+    "valued_in_the_12_months_before": 1130
   },
   "teams": [
     {
@@ -296,8 +296,8 @@
     {
       "team": "South Korea",
       "players": 26,
-      "players_valued": 25,
-      "squad_value_eur": 137850000,
+      "players_valued": 26,
+      "squad_value_eur": 139050000,
       "median_player_value_eur": 2000000
     },
     {
@@ -406,10 +406,6 @@
     {
       "team": "Jordan",
       "display_name": "Nour Bani Attiah"
-    },
-    {
-      "team": "South Korea",
-      "display_name": "Kim Tae-hyun"
     },
     {
       "team": "Morocco",

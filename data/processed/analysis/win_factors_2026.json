@@ -679,11 +679,11 @@
       "team": "South Korea",
       "confederation": "AFC",
       "squad_size": 26,
-      "mean_age": 28.21,
+      "mean_age": 28.066,
       "mean_caps": 36.85,
       "big_five_share": 0.1538,
-      "players_valued": 25,
-      "squad_value_eur": 137850000,
+      "players_valued": 26,
+      "squad_value_eur": 139050000,
       "top11_value_eur": 119500000,
       "log2_top11_value": 26.8324,
       "elo_before": 1867.5,
@@ -874,29 +874,29 @@
         {
           "feature": "age_gap",
           "per": "1 year of average age",
-          "odds_ratio": 0.9307,
+          "odds_ratio": 0.9314,
           "odds_ratio_ci95": [
-            0.7335,
-            1.181
+            0.7339,
+            1.1822
           ],
-          "odds_ratio_per_sd": 0.8994,
-          "p_value": 0.5546
+          "odds_ratio_per_sd": 0.9006,
+          "p_value": 0.5592
         },
         {
           "feature": "home",
           "per": "playing at home",
-          "odds_ratio": 2.1053,
+          "odds_ratio": 2.1073,
           "odds_ratio_ci95": [
-            0.6856,
-            6.4653
+            0.6863,
+            6.471
           ],
           "odds_ratio_per_sd": null,
-          "p_value": 0.1934
+          "p_value": 0.1928
         }
       ],
-      "loglike": -110.5377,
-      "aic": 227.0754,
-      "leave_one_out_rps": 0.2418
+      "loglike": -110.5418,
+      "aic": 227.0836,
+      "leave_one_out_rps": 0.2419
     },
     {
       "model": "elo_plus_age_gap",
@@ -909,44 +909,44 @@
         {
           "feature": "elo_gap_per_100",
           "per": "100 Elo points",
-          "odds_ratio": 1.9404,
+          "odds_ratio": 1.9402,
           "odds_ratio_ci95": [
-            1.5372,
-            2.4493
+            1.5371,
+            2.449
           ],
-          "odds_ratio_per_sd": 4.4079,
+          "odds_ratio_per_sd": 4.4069,
           "p_value": 0.0
         },
         {
           "feature": "home",
           "per": "playing at home",
-          "odds_ratio": 1.3952,
+          "odds_ratio": 1.3967,
           "odds_ratio_ci95": [
-            0.4185,
-            4.6518
+            0.419,
+            4.6564
           ],
           "odds_ratio_per_sd": null,
-          "p_value": 0.5878
+          "p_value": 0.5865
         },
         {
           "feature": "age_gap",
           "per": "1 year of average age",
-          "odds_ratio": 0.9542,
+          "odds_ratio": 0.9563,
           "odds_ratio_ci95": [
-            0.7257,
-            1.2547
+            0.7271,
+            1.2577
           ],
-          "odds_ratio_per_sd": 0.9331,
-          "p_value": 0.7371
+          "odds_ratio_per_sd": 0.9363,
+          "p_value": 0.7492
         }
       ],
-      "loglike": -87.9213,
-      "aic": 183.8425,
-      "leave_one_out_rps": 0.1654,
-      "lr_test_p_vs_elo_only": 0.7371,
+      "loglike": -87.9265,
+      "aic": 183.8531,
+      "leave_one_out_rps": 0.1655,
+      "lr_test_p_vs_elo_only": 0.7492,
       "leave_one_out_rps_minus_elo_only": 0.002,
       "leave_one_out_rps_minus_elo_only_ci95": [
-        0.0006,
+        0.0007,
         0.0034
       ]
     },
@@ -1222,77 +1222,77 @@
         {
           "feature": "elo_gap_per_100",
           "per": "100 Elo points",
-          "odds_ratio": 1.5671,
+          "odds_ratio": 1.5667,
           "odds_ratio_ci95": [
-            1.0804,
-            2.2732
+            1.0801,
+            2.2726
           ],
-          "odds_ratio_per_sd": 2.7328,
-          "p_value": 0.0179
+          "odds_ratio_per_sd": 2.7312,
+          "p_value": 0.018
         },
         {
           "feature": "home",
           "per": "playing at home",
-          "odds_ratio": 3.1842,
+          "odds_ratio": 3.1728,
           "odds_ratio_ci95": [
-            0.8378,
-            12.1014
+            0.8368,
+            12.0304
           ],
           "odds_ratio_per_sd": null,
-          "p_value": 0.0891
+          "p_value": 0.0895
         },
         {
           "feature": "age_gap",
           "per": "1 year of average age",
-          "odds_ratio": 1.5662,
+          "odds_ratio": 1.5721,
           "odds_ratio_ci95": [
-            1.0413,
-            2.3556
+            1.0449,
+            2.3651
           ],
-          "odds_ratio_per_sd": 1.939,
-          "p_value": 0.0312
+          "odds_ratio_per_sd": 1.9481,
+          "p_value": 0.0299
         },
         {
           "feature": "caps_gap_per_10",
           "per": "10 caps of average experience",
-          "odds_ratio": 0.5709,
+          "odds_ratio": 0.5699,
           "odds_ratio_ci95": [
-            0.3262,
-            0.9993
+            0.3258,
+            0.9968
           ],
-          "odds_ratio_per_sd": 0.523,
-          "p_value": 0.0497
+          "odds_ratio_per_sd": 0.5219,
+          "p_value": 0.0487
         },
         {
           "feature": "big_five_gap_per_10pts",
           "per": "10 percentage points of the squad at big-five clubs",
-          "odds_ratio": 1.3117,
+          "odds_ratio": 1.3122,
           "odds_ratio_ci95": [
-            1.0551,
-            1.6308
+            1.0555,
+            1.6312
           ],
-          "odds_ratio_per_sd": 3.166,
-          "p_value": 0.0146
+          "odds_ratio_per_sd": 3.1707,
+          "p_value": 0.0144
         },
         {
           "feature": "value_gap_per_doubling",
           "per": "a doubling of the market value of the 11 most valuable players",
-          "odds_ratio": 1.0373,
+          "odds_ratio": 1.0382,
           "odds_ratio_ci95": [
-            0.6812,
-            1.5795
+            0.6818,
+            1.581
           ],
-          "odds_ratio_per_sd": 1.0916,
-          "p_value": 0.8646
+          "odds_ratio_per_sd": 1.094,
+          "p_value": 0.8612
         }
       ],
-      "loglike": -80.6751,
-      "aic": 175.3503,
-      "leave_one_out_rps": 0.1504,
-      "lr_test_p_vs_elo_only": 0.0056,
-      "leave_one_out_rps_minus_elo_only": -0.0131,
+      "loglike": -80.6352,
+      "aic": 175.2704,
+      "leave_one_out_rps": 0.1503,
+      "lr_test_p_vs_elo_only": 0.0054,
+      "leave_one_out_rps_minus_elo_only": -0.0132,
       "leave_one_out_rps_minus_elo_only_ci95": [
-        -0.0342,
+        -0.0343,
         0.008
       ]
     },
