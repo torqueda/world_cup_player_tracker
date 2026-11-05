@@ -9,6 +9,7 @@ import {
   buildSquadConcentration,
   buildSquadScorecards,
   median,
+  tableLabel,
   type AnalyticsInput,
 } from "./index.js";
 import type {
@@ -198,6 +199,9 @@ test("data quality distinguishes missing, not applicable, deferred, and validati
   const quality = buildDataQualitySummary(input, { counts: { players: players.length }, exported_at: "2026-07-14" });
   assert.equal(quality.latestExportDate, "2026-07-14");
   assert.equal(quality.rowCounts.find((row) => row.entity === "players")?.rows, players.length);
+  assert.equal(quality.rowCounts.find((row) => row.entity === "players")?.label, "Players");
+  assert.equal(tableLabel("player_club_at_callup"), "Clubs at call-up");
+  assert.equal(tableLabel("squad_entries"), "Squad entries");
   assert.equal(quality.fieldStatus.find((row) => row.key === "active_player_images")?.count, 2);
   assert.equal(quality.fieldStatus.find((row) => row.key === "xga_unavailable")?.status, "not_yet_collected");
   assert.equal(quality.fieldStatus.find((row) => row.key === "goalkeeper_stats")?.status, "not_applicable");
