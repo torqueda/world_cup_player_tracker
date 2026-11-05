@@ -52,6 +52,9 @@ jobs:
       - name: Typecheck
         run: pnpm typecheck
 
+      - name: Unit tests
+        run: pnpm test
+
       # Also the safety net for the deploy: a missing imported data file (e.g.
       # an uncommitted @data/*.json) fails the build here instead of silently
       # breaking the Netlify deploy.

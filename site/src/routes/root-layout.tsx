@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
+import { Link, NavLink, Outlet, ScrollRestoration, useLocation } from "react-router-dom";
 import metaJson from "@data/meta.json";
 import { playerStats } from "@/lib/data";
 import { PlayerDetailProvider } from "@/components/player-detail";
@@ -21,8 +21,19 @@ const navItems = [
   { to: "/insights", label: "Analysis" },
 ];
 
-// Methodology / Data & Sources stays reachable via the secondary menu + footer.
+// Methodology (the Data & Sources page) stays reachable via the secondary menu + footer.
 const secondaryItems = [{ to: "/sources", label: "Methodology" }];
+
+const SITE_TITLE = "World Cup 2026 Player Tracker";
+
+// Browser-tab title for each page (WCAG 2.4.2): the nav label, then the site name.
+function pageTitle(pathname: string): string {
+  if (pathname === "/") {
+    return SITE_TITLE;
+  }
+  const page = [...navItems, ...secondaryItems].find((item) => item.to === pathname.replace(/\/$/, ""));
+  return `${page ? page.label : "Page not found"} · ${SITE_TITLE}`;
+}
 
 function navLinkClass({ isActive }: { isActive: boolean }): string {
   return isActive ? "nav-link nav-link-active" : "nav-link";
@@ -39,6 +50,10 @@ export function RootLayout() {
     if (moreRef.current) {
       moreRef.current.open = false;
     }
+  }, [location.pathname]);
+
+  useEffect(() => {
+    document.title = pageTitle(location.pathname);
   }, [location.pathname]);
 
   return (
@@ -127,7 +142,6 @@ export function RootLayout() {
         <div className="site-footer-inner">
           <nav className="site-footer-nav" aria-label="Secondary">
             <Link to="/sources">Methodology</Link>
-            <Link to="/sources">Data &amp; Sources</Link>
             <a href={REPO_URL} target="_blank" rel="noreferrer noopener">
               Repository
             </a>
@@ -137,6 +151,9 @@ export function RootLayout() {
           </span>
         </div>
       </footer>
+
+      {/* A new page opens at the top; Back returns to where you were. */}
+      <ScrollRestoration />
     </div>
   );
 }

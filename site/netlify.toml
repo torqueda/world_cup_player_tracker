@@ -1,0 +1,8 @@
+# Netlify reads this file from the site's base directory, site/. By default
+# it skips a build when nothing in the base directory changed, but the site
+# imports its data from ../data/processed/app_exports, so a change to the data
+# alone never reached a deploy preview or the live site. This builds when
+# either changed. git diff exits 0 (skip) only when both are unchanged; any
+# git error exits non-zero, which builds.
+[build]
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ../data/processed/app_exports"

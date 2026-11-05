@@ -28,6 +28,11 @@
   --accent-soft: rgba(20, 91, 61, 0.1);
   --gold: var(--highlight);
   --gold-deep: #8a6519; /* darkened for AA text contrast on light surfaces */
+  /* Text on tinted status fills (pills): 4.5:1 or better on the tint, not just on white. */
+  --gold-text: #755512;
+  --danger-text: #9c3328;
+  /* Boundary of form controls: 3:1 against surfaces (WCAG 1.4.11). */
+  --border-control: #7c8780;
   --gold-soft: rgba(180, 134, 34, 0.14);
   --clay: #b0542b;
   --field: var(--accent-canonical);
@@ -38,6 +43,10 @@
   --radius-card: 0;
   --radius-control: 0;
   --content-max: 1600px;
+  /* Reading measure for running text. 1ch is the width of "0", which in
+     Inter is wider than the average letter, so 52ch holds about 66
+     characters a line. The old 62-68ch caps held 78 to 87. */
+  --measure: 52ch;
 
   --font-display: "Archivo", "Avenir Next", "Segoe UI", sans-serif;
   --font-body: "Inter", "Avenir Next", "Segoe UI", sans-serif;
@@ -58,6 +67,14 @@
 
 html {
   scrollbar-gutter: stable;
+  /* In-page jumps and keyboard focus stop below the sticky header instead of
+     underneath it (WCAG 2.4.11). */
+  scroll-padding-top: 4.5rem;
+}
+
+/* The Analysis page adds a sticky row of section links under the header. */
+html:has(.section-nav) {
+  scroll-padding-top: 7rem;
 }
 
 html,
@@ -81,6 +98,15 @@ input,
 textarea,
 select {
   font: inherit;
+}
+
+/* Avoid a one-word last line in running text (ignored where unsupported). */
+p,
+li,
+dd,
+blockquote,
+figcaption {
+  text-wrap: pretty;
 }
 
 .app-shell {
@@ -529,6 +555,11 @@ h4,
   margin: 1rem 0 0;
 }
 
+.detail-list > li,
+.attribution-list > li {
+  max-width: var(--measure);
+}
+
 .screen-list {
   display: grid;
   gap: 0.9rem;
@@ -629,7 +660,7 @@ h4,
   min-width: 0;
   padding: 0.65rem 0.85rem;
   border-radius: var(--radius-control);
-  border: 1px solid var(--surface-border);
+  border: 1px solid var(--border-control);
   background: var(--surface);
   color: var(--text);
 }
@@ -734,6 +765,7 @@ h4,
 
 .insight-note {
   margin: 0 0 0.85rem;
+  max-width: var(--measure);
   color: var(--text-muted);
   font-size: 0.92rem;
 }
@@ -961,56 +993,6 @@ h4,
   max-height: 240px;
 }
 
-/* --- Donut gauges --- */
-
-.donut-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  gap: 1rem;
-  margin: 0.5rem 0 0.5rem;
-}
-
-.donut-gauge {
-  display: grid;
-  justify-items: center;
-  gap: 0.4rem;
-  margin: 0;
-  text-align: center;
-}
-
-.donut-gauge svg {
-  width: 84px;
-  height: 84px;
-}
-
-.donut-track {
-  stroke: rgba(49, 95, 74, 0.14);
-}
-
-.donut-fill {
-  stroke: var(--accent);
-}
-
-.donut-center {
-  font-family: var(--font-display);
-  font-size: 1.3rem;
-  font-weight: 700;
-  fill: var(--text);
-}
-
-.donut-label {
-  display: block;
-  font-size: 0.82rem;
-  font-weight: 600;
-  color: var(--text);
-}
-
-.donut-sublabel {
-  display: block;
-  font-size: 0.76rem;
-  color: var(--text-muted);
-}
-
 /* --- Matches route --- */
 
 .match-list {
@@ -1079,7 +1061,7 @@ h4,
 .change-row {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr);
-  gap: 0.75rem;
+  gap: 0.25rem 0.75rem;
   padding: 0.65rem 0.9rem;
   border: 1px solid var(--surface-border);
   border-radius: var(--radius-control);
@@ -1096,7 +1078,33 @@ h4,
 }
 
 .change-notes {
+  grid-column: 2;
+  max-width: var(--measure);
   color: var(--text-muted);
+}
+
+/* Wide panels: the note gets its own column at reading width, so the row is
+   not a single line running the full panel width. */
+@media (min-width: 64rem) {
+  .change-row {
+    grid-template-columns: auto minmax(0, 1fr) minmax(0, var(--measure));
+    column-gap: 1.5rem;
+  }
+
+  .change-notes {
+    grid-column: auto;
+  }
+}
+
+/* Phones: date, what changed and the note stacked, each at full width. */
+@media (max-width: 560px) {
+  .change-row {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .change-notes {
+    grid-column: 1;
+  }
 }
 
 /* --- Roster extras --- */
@@ -1286,22 +1294,6 @@ h4,
   min-width: 170px;
 }
 
-.team-list-horizontal {
-  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-  gap: 0.5rem;
-  margin-top: 1.25rem;
-  max-height: none;
-  overflow: visible;
-}
-
-/* Squads "Choose a team": a fixed 8-column grid (6 rows × 8 = 48) on wide
-   viewports, collapsing to auto-fill below. */
-@media (min-width: 1024px) {
-  .team-list-horizontal {
-    grid-template-columns: repeat(8, minmax(0, 1fr));
-  }
-}
-
 .team-info-row {
   display: flex;
   flex-wrap: wrap;
@@ -1348,15 +1340,6 @@ h4,
 .player-chip-alt {
   background: var(--gold-soft);
   color: var(--gold-deep);
-}
-
-.donut-fill-b {
-  stroke: var(--gold);
-}
-
-.donut-sort-field {
-  max-width: 320px;
-  margin-bottom: 1rem;
 }
 
 /* --- Average squad age pairs --- */
@@ -1414,6 +1397,24 @@ h4,
 
 .attribution-links {
   white-space: normal;
+}
+
+/* Wide panels: short lists of separate notes flow into two columns of
+   reading width instead of one column with empty space beside it. */
+@media (min-width: 64rem) {
+  .detail-list,
+  .attribution-list {
+    display: block;
+    columns: 2;
+    column-gap: 3rem;
+    max-width: calc(2 * var(--measure) + 3rem);
+  }
+
+  .detail-list > li,
+  .attribution-list > li {
+    break-inside: avoid;
+    margin-bottom: 0.75rem;
+  }
 }
 
 /* --- Search suggestions + filter chips (Players & Clubs) --- */
@@ -1571,36 +1572,6 @@ h4,
   text-align: right;
 }
 
-/* --- Treemap --- */
-
-.treemap {
-  width: 100%;
-  height: auto;
-  margin-top: 0.5rem;
-}
-
-.treemap-rect {
-  stroke: var(--surface);
-  stroke-width: 0.4;
-}
-
-.treemap-tile-a .treemap-rect { fill: #2a7a4d; }
-.treemap-tile-b .treemap-rect { fill: #c9971c; }
-.treemap-tile-c .treemap-rect { fill: #5a9c74; }
-.treemap-tile-d .treemap-rect { fill: #e0b95c; }
-
-.treemap-label,
-.treemap-value {
-  fill: #ffffff;
-  font-family: var(--font-body);
-  font-weight: 600;
-  pointer-events: none;
-}
-
-.treemap-value {
-  opacity: 0.85;
-}
-
 /* --- Confederation matrix + filter --- */
 
 .confed-matrix td,
@@ -1661,21 +1632,6 @@ h4,
   background: var(--surface-muted);
   font-size: 0.9rem;
   line-height: 1.6;
-}
-
-/* --- Treemap selection --- */
-
-.treemap-clickable {
-  cursor: pointer;
-}
-
-.treemap-clickable:hover .treemap-rect {
-  filter: brightness(1.08);
-}
-
-.treemap-selected .treemap-rect {
-  stroke: var(--text);
-  stroke-width: 0.9;
 }
 
 /* --- Clickable player names --- */
@@ -1940,71 +1896,6 @@ h4,
   }
 }
 
-/* --- xG scatter --- */
-
-.xg-scatter {
-  margin-top: 1rem;
-  overflow-x: auto;
-}
-
-.xg-scatter svg {
-  width: 100%;
-  min-width: 340px;
-  height: auto;
-}
-
-.xg-grid {
-  stroke: var(--surface-border);
-  stroke-width: 1;
-}
-
-.xg-par-line {
-  stroke: var(--text-muted);
-  stroke-width: 1.5;
-  stroke-dasharray: 5 5;
-  opacity: 0.7;
-}
-
-.xg-par-label {
-  fill: var(--text-muted);
-  font-size: 12px;
-  font-style: italic;
-}
-
-.xg-axis-tick {
-  fill: var(--text-muted);
-  font-size: 12px;
-}
-
-.xg-axis-title {
-  fill: var(--text);
-  font-size: 13px;
-  font-weight: 600;
-}
-
-.xg-dot {
-  stroke: var(--surface-strong);
-  stroke-width: 1;
-}
-
-.xg-dot-over {
-  fill: var(--accent);
-}
-
-.xg-dot-under {
-  fill: var(--clay);
-}
-
-.xg-dot-par {
-  fill: var(--text-muted);
-}
-
-.xg-point-label {
-  fill: var(--text);
-  font-size: 12px;
-  font-weight: 600;
-}
-
 /* --- Knockout bracket --- */
 
 .bracket-wrap {
@@ -2022,7 +1913,6 @@ h4,
 
 .bracket-toolbar .insight-note {
   margin: 0;
-  max-width: 60ch;
 }
 
 .bracket-scroll {
@@ -2152,7 +2042,7 @@ button.bracket-team-active:hover {
 
 .landing-hero-lead {
   margin: 0.9rem 0 0;
-  max-width: 62ch;
+  max-width: var(--measure);
   font-size: 1.02rem;
   line-height: 1.65;
   color: var(--text-muted);
@@ -2261,7 +2151,7 @@ button.bracket-team-active:hover {
 }
 
 .landing-prose p {
-  max-width: 68ch;
+  max-width: var(--measure);
   margin: 1rem 0 0;
   line-height: 1.75;
   color: var(--text);
@@ -2289,6 +2179,36 @@ button.bracket-team-active:hover {
 
 .landing-prose .landing-actions {
   margin-top: 1.75rem;
+}
+
+/* Wide screens: the heading takes the left half of the four-column grid the
+   cards use, and the text the right half, so a capped column of text does
+   not leave half the page empty beside it. */
+@media (min-width: 1080px) {
+  .landing-split {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    column-gap: 1rem;
+    align-items: start;
+    max-width: none;
+  }
+
+  .landing-split > .eyebrow {
+    grid-column: 1 / -1;
+  }
+
+  .landing-split > h2 {
+    grid-column: 1 / 3;
+    margin-top: 0;
+  }
+
+  .landing-split-body {
+    grid-column: 3 / 5;
+  }
+
+  .landing-split-body > :first-child {
+    margin-top: 0;
+  }
 }
 
 /* 4. Explore cards */
@@ -2369,7 +2289,7 @@ button.bracket-team-active:hover {
 
 .landing-final p {
   margin: 0.75rem 0 0;
-  max-width: 60ch;
+  max-width: var(--measure);
   line-height: 1.7;
   color: var(--text-muted);
 }
@@ -2381,7 +2301,7 @@ button.bracket-team-active:hover {
 
 .landing-disclaimer p {
   margin: 0;
-  max-width: 74ch;
+  max-width: var(--measure);
   font-size: 0.82rem;
   line-height: 1.65;
   color: var(--text-muted);
@@ -2469,12 +2389,6 @@ button.bracket-team-active:hover {
   white-space: nowrap;
 }
 
-/* The 8-column picker is tight — drop the redundant code chip there (the code
-   still shows on the selected-squad header). */
-.team-list-horizontal .team-button-code {
-  display: none;
-}
-
 .bracket-team-name {
   flex: 1;
 }
@@ -2530,10 +2444,11 @@ button.bracket-team-active:hover {
 
 .page-header-intro {
   margin: 0.85rem 0 0;
-  max-width: 65ch;
+  max-width: var(--measure);
   font-size: 1rem;
   line-height: 1.7;
   color: var(--text-secondary);
+  text-wrap: balance;
 }
 
 .page-header-center .page-header-intro {
@@ -2633,6 +2548,12 @@ button.bracket-team-active:hover {
   gap: 0.75rem;
 }
 
+/* Without the rank number the label and bar take the whole row, not the
+   1.6rem rank column. */
+.ranked-row-no-rank {
+  grid-template-columns: minmax(0, 1fr);
+}
+
 .ranked-rank {
   font-variant-numeric: tabular-nums;
   font-weight: 700;
@@ -2656,6 +2577,14 @@ button.bracket-team-active:hover {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+/* Phones: long club, stage and venue names wrap instead of ending in "…". */
+@media (max-width: 560px) {
+  .ranked-name {
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
 }
 
 .ranked-value {
@@ -3071,7 +3000,9 @@ button.bracket-team-active:hover {
   margin: 0.75rem 0 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(158px, 1fr));
+  /* Wide enough for "United States" next to its flag and code; at 158px,
+     13 of the 48 names were cut off. */
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 12.5rem), 1fr));
   gap: 0.5rem;
 }
 
@@ -3110,9 +3041,8 @@ button.bracket-team-active:hover {
 .team-card-name {
   flex: 1;
   min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  /* Wrap rather than cut: "Bosnia-Herzegovina" breaks at its hyphen. */
+  overflow-wrap: break-word;
 }
 
 .team-card-code {
@@ -3323,6 +3253,41 @@ button.bracket-team-active:hover {
   color: var(--text-secondary);
 }
 
+/* Phones: the two teams stacked with the score on the right. Side by side,
+   most names were cut to a few letters ("Arge…", "Switz…"). */
+@media (max-width: 560px) {
+  .score-line {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      "home score"
+      "away score";
+    row-gap: 0.2rem;
+  }
+
+  .score-team-home {
+    grid-area: home;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    text-align: left;
+  }
+
+  .score-team-away {
+    grid-area: away;
+  }
+
+  .score-mid {
+    grid-area: score;
+  }
+
+  .score-team-name {
+    white-space: normal;
+  }
+
+  .score-meta {
+    text-align: left;
+  }
+}
+
 /* ============================================================
    Leaders route — filters, ranked bars, two-column grid
    ============================================================ */
@@ -3384,6 +3349,14 @@ button.bracket-team-active:hover {
   overflow-x: auto;
 }
 
+/* Phones: one row that scrolls sideways. Wrapped, the seven links took four
+   rows and the sticky bars covered a quarter of the screen. */
+@media (max-width: 760px) {
+  .section-nav {
+    flex-wrap: nowrap;
+  }
+}
+
 .section-nav-link {
   padding: 0.4rem 0.7rem;
   border-radius: 0;
@@ -3398,10 +3371,6 @@ button.bracket-team-active:hover {
   color: var(--text);
 }
 
-/* Anchor jumps clear the sticky app header + subnav. */
-.page-stack section[id] {
-  scroll-margin-top: 6.75rem;
-}
 
 .analysis-cols {
   display: grid;
@@ -3418,9 +3387,35 @@ button.bracket-team-active:hover {
 
 .source-note {
   margin: 1.1rem 0 0;
+  max-width: var(--measure);
   font-size: 0.8rem;
   font-style: italic;
   color: var(--text-secondary);
+}
+
+/* Definition, population, threshold and date as a strip of short facts:
+   side by side on wide panels, one per line on phones. */
+.source-note-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1.75rem;
+  max-width: none;
+  font-style: normal;
+}
+
+.source-note-facts > div {
+  max-width: var(--measure);
+}
+
+.source-note-facts dt {
+  display: inline;
+  margin-right: 0.35em;
+  font-weight: 700;
+}
+
+.source-note-facts dd {
+  display: inline;
+  margin: 0;
 }
 
 /* ============================================================
@@ -3429,7 +3424,9 @@ button.bracket-team-active:hover {
 
 .definition-list {
   display: grid;
-  gap: 0.6rem;
+  /* Two definitions to a row once the panel is wide enough. */
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 36rem), 1fr));
+  gap: 0.6rem 2.5rem;
   margin: 0.75rem 0 0;
 }
 
@@ -3448,6 +3445,7 @@ button.bracket-team-active:hover {
 
 .definition-item dd {
   margin: 0;
+  max-width: var(--measure);
   color: var(--text-secondary);
   line-height: 1.6;
 }
@@ -3645,19 +3643,17 @@ textarea:focus-visible,
   font-size: 1rem;
 }
 
+/* Two definitions under the metric cards, one under each half of the card
+   row. Plain text at the measure, so no box is drawn wider than its text. */
 .method-note-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.75rem;
-  margin: 0 0 1rem;
+  gap: 0.75rem 1rem;
+  margin: 1rem 0 1.25rem;
 }
 
 .method-note-grid .insight-note {
   margin: 0;
-  padding: 0.75rem 0.85rem;
-  border: 1px solid var(--border);
-  border-radius: 0;
-  background: var(--surface-muted);
 }
 
 .discipline-heading {
@@ -3714,13 +3710,13 @@ textarea:focus-visible,
 .quality-not_yet_collected {
   border-color: rgba(180, 134, 34, 0.36);
   background: rgba(180, 134, 34, 0.13);
-  color: var(--gold-deep);
+  color: var(--gold-text);
 }
 
 .quality-failed_validation {
   border-color: rgba(178, 59, 47, 0.32);
   background: rgba(178, 59, 47, 0.09);
-  color: var(--danger);
+  color: var(--danger-text);
 }
 
 @media (max-width: 760px) {

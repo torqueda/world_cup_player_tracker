@@ -121,11 +121,26 @@ function csvDataUri<T>(rows: T[], columns: { label: string; value: (row: T) => u
 }
 
 function sourceNote(definition: ReactNode, population: ReactNode, thresholds: ReactNode = "None") {
+  // Four short facts side by side, not one line that runs the full panel width.
   return (
-    <p className="source-note">
-      <strong>Definition:</strong> {definition} <strong>Population:</strong> {population}{" "}
-      <strong>Minimum threshold:</strong> {thresholds}. <strong>Updated:</strong> {UPDATE_LABEL}.
-    </p>
+    <dl className="source-note source-note-facts">
+      <div>
+        <dt>Definition</dt>
+        <dd>{definition}</dd>
+      </div>
+      <div>
+        <dt>Population</dt>
+        <dd>{population}</dd>
+      </div>
+      <div>
+        <dt>Minimum threshold</dt>
+        <dd>{thresholds}</dd>
+      </div>
+      <div>
+        <dt>Updated</dt>
+        <dd>{UPDATE_LABEL}</dd>
+      </div>
+    </dl>
   );
 }
 
@@ -638,7 +653,13 @@ export function InsightsRoute() {
                   { key: "b", label: "Team B", value: <><CountryFlag country={scoreB.team} /> {scoreB.team}</> },
                 ]}
               />
-              <div className="data-table-wrap">
+              {/* Focusable so keyboard users can scroll the table sideways on small screens. */}
+              <div
+                className="data-table-wrap"
+                tabIndex={0}
+                role="region"
+                aria-label="Two-team comparison table"
+              >
                 <table className="data-table comparison-table">
                   <thead>
                     <tr>
@@ -777,7 +798,7 @@ export function InsightsRoute() {
                 name: row.stage,
                 value: row.goalsPerMatch,
                 valueLabel: row.goalsPerMatch.toFixed(2),
-                meta: `${row.goals} goals in ${row.matches} matches`,
+                meta: `${row.goals} goal${row.goals === 1 ? "" : "s"} in ${row.matches} match${row.matches === 1 ? "" : "es"}`,
               }))}
               initialVisible={8}
             />
@@ -813,7 +834,7 @@ export function InsightsRoute() {
                 name: `${row.venue}, ${row.city}`,
                 value: row.goalsPerMatch,
                 valueLabel: row.goalsPerMatch.toFixed(2),
-                meta: `${row.goals} goals in ${row.matches} matches`,
+                meta: `${row.goals} goal${row.goals === 1 ? "" : "s"} in ${row.matches} match${row.matches === 1 ? "" : "es"}`,
               }))}
               initialVisible={10}
               itemsLabel="venues"
@@ -833,7 +854,7 @@ export function InsightsRoute() {
             {
               key: "record",
               label: "Record",
-              render: (row) => `${row.confedA} ${row.confedAWins}-${row.confedBWins} ${row.confedB}, ${row.draws} draws`,
+              render: (row) => `${row.confedA} ${row.confedAWins}-${row.confedBWins} ${row.confedB}, ${row.draws} draw${row.draws === 1 ? "" : "s"}`,
             },
             { key: "shootouts", label: "Shootouts", align: "right", initialAsc: false, sortValue: (row) => row.shootouts, render: (row) => row.shootouts },
             { key: "goals", label: "Goals", align: "right", initialAsc: false, sortValue: (row) => row.goals, render: (row) => row.goals },
