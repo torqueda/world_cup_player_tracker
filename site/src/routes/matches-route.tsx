@@ -218,7 +218,6 @@ export function MatchesRoute() {
   return (
     <div className="page-stack">
       <PageHeader
-        eyebrow="Matches"
         title="Results & schedule"
         intro={MATCHES_INTRO}
       />
@@ -240,7 +239,7 @@ export function MatchesRoute() {
       </div>
 
       {view !== "knockout" ? (
-        <section className="content-panel reveal">
+        <section className="content-panel control-panel reveal">
           <div className="matches-filters">
             <FilterGroup label="Team">
               <select value={teamFilter} onChange={(e) => setTeamFilter(e.target.value)}>

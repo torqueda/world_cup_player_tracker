@@ -50,22 +50,31 @@ export function SectionHeader({
   title,
   note,
   actions,
+  aside,
   id,
 }: {
   title: ReactNode;
   note?: ReactNode;
   actions?: ReactNode;
+  /** Notes for the margin column on wide screens, such as the source facts;
+   * below the note on narrower ones. */
+  aside?: ReactNode;
   id?: string;
 }) {
   return (
-    <div className="section-header">
+    <div className={cx("section-header", aside != null && "section-header-with-aside")}>
       <div className="section-header-main">
         <h2 id={id} className="section-heading">
           {title}
         </h2>
         {note ? <p className="insight-note">{note}</p> : null}
       </div>
-      {actions ? <div className="section-header-actions">{actions}</div> : null}
+      {actions || aside ? (
+        <div className="section-header-side">
+          {actions ? <div className="section-header-actions">{actions}</div> : null}
+          {aside}
+        </div>
+      ) : null}
     </div>
   );
 }
@@ -152,7 +161,6 @@ export interface RankedItem {
   valueLabel?: ReactNode;
   meta?: ReactNode;
   title?: string;
-  tone?: "accent" | "gold";
 }
 
 export function RankedList({
@@ -189,7 +197,7 @@ export function RankedList({
                 </div>
                 <span className="ranked-track">
                   <span
-                    className={cx("ranked-fill", item.tone === "gold" && "ranked-fill-gold")}
+                    className="ranked-fill"
                     style={{ width: `${pct}%` }}
                   />
                 </span>

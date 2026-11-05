@@ -8,8 +8,9 @@
 
 :root {
   color-scheme: light;
-  /* Editorial sports-data palette: warm paper background, solid near-white
-     surfaces, deep pitch green, warm gold highlight, clay for map/xG accents.
+  /* One accent, the pitch green, for links and emphasis. Clay is only a
+     chart's second series (the map's cities, team B in a comparison), and
+     gold only marks a warning. Warm paper background, near-white surfaces.
      Canonical token names are listed first; the older names below are aliases
      kept so existing class rules need no changes. */
   --page-bg: #f4f3ee;
@@ -56,6 +57,16 @@
      letter, so 52ch holds about 66 characters a line. The old 62-68ch
      caps held 78 to 87. */
   --measure: 52ch;
+
+  /* Type scale: six sizes, 12.8 / 14 / 16 / 20 / 25 / 32 px. Running text
+     is 16 px, tables 14 px, and nothing is smaller than 12.8 px. Home keeps
+     its own sizes. */
+  --step-0: 0.8rem;
+  --step-1: 0.875rem;
+  --step-2: 1rem;
+  --step-3: 1.25rem;
+  --step-4: 1.5625rem;
+  --step-5: 2rem;
 
   /* IBM Plex Sans for text; IBM Plex Mono for headings (--font-display)
      and for figures in tables (--font-figures). Home sets --font-display
@@ -133,7 +144,7 @@ figcaption {
 .eyebrow,
 .screen-eyebrow,
 .metric-label {
-  font-size: 0.76rem;
+  font-size: var(--step-0);
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -179,7 +190,7 @@ h4,
   gap: 0.5rem;
   font-family: var(--font-display);
   font-weight: 800;
-  font-size: 1.05rem;
+  font-size: var(--step-2);
   letter-spacing: 0; /* monospace: no negative tracking */
   color: var(--text);
   white-space: nowrap;
@@ -192,7 +203,7 @@ h4,
 .app-brand-sub {
   font-family: var(--font-body);
   font-weight: 600;
-  font-size: 0.82rem;
+  font-size: var(--step-0);
   letter-spacing: 0;
   color: var(--text-muted);
 }
@@ -209,7 +220,7 @@ h4,
   border-radius: var(--radius-control);
   color: var(--text-muted);
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: var(--step-1);
   transition:
     background 160ms ease,
     color 160ms ease;
@@ -236,7 +247,7 @@ h4,
 }
 
 .data-freshness {
-  font-size: 0.8rem;
+  font-size: var(--step-0);
   color: var(--text-muted);
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
@@ -253,7 +264,7 @@ h4,
   border-radius: var(--radius-control);
   color: var(--text-muted);
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: var(--step-1);
 }
 
 .app-more > summary::-webkit-details-marker {
@@ -285,7 +296,7 @@ h4,
   padding: 0.5rem 0.6rem;
   border-radius: 0;
   color: var(--text);
-  font-size: 0.92rem;
+  font-size: var(--step-1);
 }
 
 .app-more-menu a:hover {
@@ -303,7 +314,7 @@ h4,
   background: var(--surface);
   color: var(--text);
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: var(--step-1);
   cursor: pointer;
 }
 
@@ -340,7 +351,7 @@ h4,
 
 .mobile-nav-freshness {
   padding: 0.35rem 0.75rem 0;
-  font-size: 0.8rem;
+  font-size: var(--step-0);
   color: var(--text-muted);
   font-variant-numeric: tabular-nums;
 }
@@ -372,7 +383,7 @@ h4,
   flex-wrap: wrap;
   align-items: center;
   gap: 0.5rem 1.5rem;
-  font-size: 0.85rem;
+  font-size: var(--step-1);
   color: var(--text-muted);
 }
 
@@ -422,9 +433,11 @@ h4,
   gap: 1.25rem;
 }
 
+/* Boxes mark things you can use: filter panels (.control-panel), the map,
+   tables, cards you click. Sections of prose and figures sit on the page
+   under a rule, as in a printed report. */
 .hero-panel,
-.content-panel,
-.metric-card,
+.control-panel,
 .screen-card {
   border: 1px solid var(--surface-border);
   border-radius: var(--radius-card);
@@ -447,7 +460,7 @@ h4,
 
 .hero-copy h2 {
   max-width: 14ch;
-  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-size: var(--step-5);
   line-height: 0.96;
 }
 
@@ -464,7 +477,7 @@ h4,
 .panel-intro {
   max-width: 60rem;
   margin: 1rem 0 0;
-  font-size: 1rem;
+  font-size: var(--step-2);
   line-height: 1.85;
 }
 
@@ -515,21 +528,31 @@ h4,
 }
 
 .metrics-grid {
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr));
+  gap: 1.25rem 2rem;
 }
 
+.metrics-grid + .analysis-cols {
+  margin-top: 1.5rem;
+}
+
+/* Key figures: a row of label, value and note under a hairline, not tiles. */
 .metric-card {
-  padding: 1.25rem;
-  animation: rise-in 500ms ease both;
+  padding: 0.75rem 0 0;
+  border-top: 1px solid var(--border-control);
 }
 
 .metric-label {
   color: var(--field);
 }
 
+.metric-card .metric-value {
+  color: var(--text);
+}
+
 .metric-value {
   margin: 0.35rem 0 0;
-  font-size: clamp(2rem, 4vw, 3.15rem);
+  font-size: var(--step-4);
   font-weight: 700;
   letter-spacing: 0; /* monospace: no negative tracking */
 }
@@ -546,7 +569,18 @@ h4,
 }
 
 .content-panel {
-  padding: 1.4rem;
+  padding: 1rem 0 0;
+  border-top: 2px solid var(--text);
+}
+
+.page-stack > .content-panel,
+.page-stack > .content-grid {
+  margin-top: 1.25rem;
+}
+
+.content-panel.control-panel {
+  padding: 1.25rem;
+  border-top: 1px solid var(--surface-border);
 }
 
 .compact-panel {
@@ -559,7 +593,7 @@ h4,
 }
 
 .panel-heading h3 {
-  font-size: 1.55rem;
+  font-size: var(--step-4);
 }
 
 .detail-list {
@@ -597,7 +631,7 @@ h4,
 
 .screen-card h4 {
   margin: 0.35rem 0 0;
-  font-size: 1.22rem;
+  font-size: var(--step-3);
 }
 
 .screen-card p {
@@ -615,7 +649,7 @@ h4,
 .data-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.92rem;
+  font-size: var(--step-1);
 }
 
 .data-table th,
@@ -639,7 +673,7 @@ h4,
 .data-table thead th {
   color: var(--field);
   background: var(--field-soft);
-  font-size: 0.76rem;
+  font-size: var(--step-0);
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -662,7 +696,7 @@ h4,
 }
 
 .filter-field span {
-  font-size: 0.76rem;
+  font-size: var(--step-0);
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -738,7 +772,7 @@ h4,
 .club-card-meta {
   margin: 0.35rem 0 0;
   color: var(--text-muted);
-  font-size: 0.9rem;
+  font-size: var(--step-1);
 }
 
 .player-chip-list {
@@ -753,7 +787,7 @@ h4,
   border-radius: 999px;
   background: var(--field-soft);
   color: var(--field);
-  font-size: 0.85rem;
+  font-size: var(--step-1);
   font-weight: 600;
 }
 
@@ -764,13 +798,13 @@ h4,
 
 .section-heading {
   margin: 0 0 1rem;
-  font-size: 1.35rem;
+  font-size: var(--step-3);
   letter-spacing: 0; /* monospace: no negative tracking */
 }
 
 .subsection-heading {
   margin: 1.5rem 0 0.75rem;
-  font-size: 1rem;
+  font-size: var(--step-2);
   color: var(--field);
 }
 
@@ -782,7 +816,7 @@ h4,
   margin: 0 0 0.85rem;
   max-width: var(--measure);
   color: var(--text-muted);
-  font-size: 0.92rem;
+  font-size: var(--step-1);
 }
 
 .bar-list {
@@ -804,7 +838,7 @@ h4,
 }
 
 .bar-label {
-  font-size: 0.85rem;
+  font-size: var(--step-1);
   color: var(--text);
   white-space: nowrap;
   overflow: hidden;
@@ -837,7 +871,7 @@ h4,
   text-align: right;
   font-family: var(--font-figures);
   font-weight: 700;
-  font-size: 0.85rem;
+  font-size: var(--step-1);
   font-variant-numeric: tabular-nums;
   color: var(--text);
 }
@@ -919,7 +953,7 @@ h4,
 }
 
 .team-button-code {
-  font-size: 0.78rem;
+  font-size: var(--step-0);
   letter-spacing: 0.06em;
   opacity: 0.75;
 }
@@ -1002,7 +1036,7 @@ h4,
 .sidebar-table .data-table td {
   white-space: normal;
   padding: 0.55rem 0.6rem;
-  font-size: 0.85rem;
+  font-size: var(--step-1);
 }
 
 .team-list-compact {
@@ -1054,7 +1088,7 @@ h4,
 }
 
 .match-meta {
-  font-size: 0.8rem;
+  font-size: var(--step-0);
   color: var(--text-muted);
   text-align: center;
 }
@@ -1082,7 +1116,7 @@ h4,
   border: 1px solid var(--surface-border);
   border-radius: var(--radius-control);
   background: var(--surface-muted);
-  font-size: 0.9rem;
+  font-size: var(--step-1);
   overflow-wrap: anywhere;
 }
 
@@ -1132,7 +1166,7 @@ h4,
   border-radius: 0;
   background: var(--accent);
   color: #fff5ef;
-  font-size: 0.7rem;
+  font-size: var(--step-0);
   font-weight: 700;
   line-height: 1.4;
   vertical-align: middle;
@@ -1151,7 +1185,7 @@ h4,
   border-radius: 999px;
   background: var(--surface);
   color: var(--text);
-  font-size: 0.8rem;
+  font-size: var(--step-0);
   font-weight: 700;
   cursor: pointer;
   box-shadow: 0 2px 8px rgba(38, 31, 20, 0.18);
@@ -1246,7 +1280,7 @@ h4,
 }
 
 .picto-label {
-  font-size: 0.88rem;
+  font-size: var(--step-1);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1260,7 +1294,7 @@ h4,
 
 .picto-value {
   font-weight: 700;
-  font-size: 0.85rem;
+  font-size: var(--step-1);
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
 }
@@ -1276,14 +1310,14 @@ h4,
 /* --- Matches: bigger stage titles + centered group titles --- */
 
 .stage-heading {
-  font-size: clamp(1.5rem, 2.4vw, 1.9rem);
+  font-size: var(--step-4);
 }
 
 .match-group-heading {
   margin: 1.5rem 0;
   text-align: center;
   font-family: var(--font-display);
-  font-size: 1.1rem;
+  font-size: var(--step-2);
   font-weight: 700;
   letter-spacing: 0.02em;
   color: var(--accent-deep);
@@ -1326,7 +1360,7 @@ h4,
 
 .team-info-facts .insight-note {
   margin: 0;
-  font-size: 1rem;
+  font-size: var(--step-2);
 }
 
 .team-info-metrics {
@@ -1342,20 +1376,13 @@ h4,
 
 /* Full-width roster: bigger type, more column padding, wrap instead of scroll. */
 .squad-table .data-table {
-  font-size: 1rem;
+  font-size: var(--step-2);
 }
 
 .squad-table .data-table th,
 .squad-table .data-table td {
   white-space: normal;
   padding: 0.85rem 1.15rem;
-}
-
-/* --- Alternating chips + gold tone --- */
-
-.player-chip-alt {
-  background: var(--gold-soft);
-  color: var(--gold-deep);
 }
 
 /* --- Average squad age pairs --- */
@@ -1374,7 +1401,7 @@ h4,
   gap: 0.75rem;
   padding: 0.35rem 0.6rem;
   border-radius: 0;
-  font-size: 0.88rem;
+  font-size: var(--step-1);
   break-inside: avoid;
 }
 
@@ -1478,7 +1505,7 @@ h4,
 }
 
 .suggestion-hint {
-  font-size: 0.76rem;
+  font-size: var(--step-0);
   color: var(--text-muted);
   white-space: nowrap;
 }
@@ -1499,7 +1526,7 @@ h4,
   border-radius: 999px;
   background: var(--accent-soft);
   color: var(--accent-deep);
-  font-size: 0.84rem;
+  font-size: var(--step-1);
   font-weight: 600;
 }
 
@@ -1513,7 +1540,7 @@ h4,
   border-radius: 999px;
   background: rgba(20, 82, 47, 0.14);
   color: var(--accent-deep);
-  font-size: 0.9rem;
+  font-size: var(--step-1);
   line-height: 1;
   cursor: pointer;
 }
@@ -1540,13 +1567,8 @@ h4,
   background: var(--surface-muted);
 }
 
-.podium-card:first-child {
-  border-color: rgba(201, 151, 28, 0.5);
-  background: var(--gold-soft);
-}
-
 .podium-rank {
-  font-size: 1.15rem;
+  font-size: var(--step-3);
   font-weight: 700;
   text-align: center;
 }
@@ -1571,7 +1593,7 @@ h4,
   gap: 0.5rem;
   padding: 0.3rem 0.55rem;
   border-radius: 0;
-  font-size: 0.88rem;
+  font-size: var(--step-1);
   color: var(--text-muted);
   break-inside: avoid;
 }
@@ -1625,7 +1647,7 @@ h4,
 .chip-button {
   border: none;
   font: inherit;
-  font-size: 0.85rem;
+  font-size: var(--step-1);
   font-weight: 600;
   cursor: pointer;
 }
@@ -1646,7 +1668,7 @@ h4,
   border-left: 4px solid var(--accent);
   border-radius: 0;
   background: var(--surface-muted);
-  font-size: 0.9rem;
+  font-size: var(--step-1);
   line-height: 1.6;
 }
 
@@ -1679,13 +1701,7 @@ h4,
   background: var(--field-soft);
   color: var(--field);
   padding: 0.4rem 0.75rem;
-  font-size: 0.85rem;
-}
-
-.player-chip.player-alt.player-link,
-.player-chip.player-chip-alt.player-link {
-  background: var(--gold-soft);
-  color: var(--gold-deep);
+  font-size: var(--step-1);
 }
 
 .player-chip.player-link:hover {
@@ -1774,7 +1790,7 @@ h4,
   text-align: center;
   padding: 0.5rem;
   color: var(--text-muted);
-  font-size: 0.78rem;
+  font-size: var(--step-0);
   overflow: hidden;
 }
 
@@ -1791,7 +1807,7 @@ h4,
 
 .player-detail-credit {
   margin-top: 0.4rem;
-  font-size: 0.68rem;
+  font-size: var(--step-0);
   line-height: 1.35;
   color: var(--text-muted);
 }
@@ -1811,14 +1827,14 @@ h4,
 .player-detail-identity h3 {
   margin: 0.2rem 0 0.3rem;
   font-family: var(--font-display);
-  font-size: 1.5rem;
+  font-size: var(--step-4);
   line-height: 1.1;
 }
 
 .player-detail-subline {
   margin: 0;
   color: var(--text-muted);
-  font-size: 0.92rem;
+  font-size: var(--step-1);
 }
 
 .player-detail-facts {
@@ -1838,13 +1854,13 @@ h4,
 
 .player-detail-fact dt {
   color: var(--text-muted);
-  font-size: 0.82rem;
+  font-size: var(--step-0);
 }
 
 .player-detail-fact dd {
   margin: 0;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: var(--step-1);
 }
 
 .player-detail-stats-head {
@@ -1858,11 +1874,11 @@ h4,
 .player-detail-stats-head h4 {
   margin: 0;
   font-family: var(--font-display);
-  font-size: 1.05rem;
+  font-size: var(--step-2);
 }
 
 .player-detail-asof {
-  font-size: 0.76rem;
+  font-size: var(--step-0);
   color: var(--text-muted);
 }
 
@@ -1885,14 +1901,14 @@ h4,
 
 .player-detail-stat-value {
   font-family: var(--font-display);
-  font-size: 1.3rem;
+  font-size: var(--step-3);
   font-weight: 700;
   font-variant-numeric: tabular-nums;
   color: var(--accent-deep);
 }
 
 .player-detail-stat-label {
-  font-size: 0.72rem;
+  font-size: var(--step-0);
   color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -1938,7 +1954,7 @@ h4,
 
 .bracket-round-label {
   fill: var(--text-muted);
-  font-size: 12px;
+  font-size: var(--step-0);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -1978,7 +1994,7 @@ h4,
   border: none;
   background: none;
   font: inherit;
-  font-size: 0.78rem;
+  font-size: var(--step-0);
   color: var(--text);
   text-align: left;
   cursor: pointer;
@@ -1998,13 +2014,14 @@ button.bracket-team:hover {
   font-weight: 700;
 }
 
+/* The traced team's path: the accent, since gold now means a warning. */
 .bracket-team-active {
-  background: var(--gold-soft);
-  color: var(--gold-deep);
+  background: var(--accent-soft);
+  color: var(--accent-deep);
 }
 
 button.bracket-team-active:hover {
-  background: var(--gold-soft);
+  background: var(--accent-soft);
 }
 
 .bracket-team-name {
@@ -2023,7 +2040,7 @@ button.bracket-team-active:hover {
   position: absolute;
   right: 0.4rem;
   bottom: 1px;
-  font-size: 0.6rem;
+  font-size: var(--step-0);
   color: var(--text-muted);
   pointer-events: none;
 }
@@ -2178,7 +2195,7 @@ button.bracket-team-active:hover {
 .landing-quote {
   margin: 1.6rem 0 0;
   padding: 0.4rem 0 0.4rem 1.25rem;
-  border-left: 3px solid var(--gold);
+  border-left: 3px solid var(--accent);
   font-family: var(--font-display);
   font-size: 1.2rem;
   line-height: 1.4;
@@ -2224,7 +2241,8 @@ button.bracket-team-active:hover {
     grid-column: 3 / 5;
   }
 
-  .landing-split-body > :first-child {
+  .landing-split-body > :first-child,
+  .landing-split > .landing-contents {
     margin-top: 0;
   }
 }
@@ -2293,6 +2311,138 @@ button.bracket-team-active:hover {
 .landing-card-link:hover {
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+
+/* 2b. Contents: the report's table of contents, numbered, in the landing
+   layout. */
+.landing-contents {
+  margin: 1.25rem 0 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: contents;
+  border-top: 1px solid var(--surface-border);
+}
+
+.landing-contents > li {
+  counter-increment: contents;
+  display: grid;
+  grid-template-columns: 2.25rem minmax(0, 1fr);
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--surface-border);
+}
+
+.landing-contents > li::before {
+  content: counter(contents, decimal-leading-zero);
+  grid-column: 1;
+  grid-row: 1 / span 3;
+  padding-top: 0.1rem;
+  font-family: var(--font-figures);
+  font-size: var(--step-1);
+  color: var(--text-muted);
+}
+
+.landing-contents-link {
+  grid-column: 2;
+  justify-self: start;
+  font-weight: 700;
+  color: var(--accent-deep);
+}
+
+.landing-contents-note {
+  grid-column: 2;
+  margin-top: 0.2rem;
+  font-size: var(--step-1);
+  line-height: 1.55;
+  color: var(--text-muted);
+}
+
+.landing-contents-sub {
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.3rem 1rem;
+  margin: 0.45rem 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: var(--step-1);
+}
+
+@media (max-width: 560px) {
+  .landing-contents-sub {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.landing-contents-link:hover,
+.landing-contents-sub a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+.landing-contents-sub a {
+  color: var(--accent-deep);
+}
+
+/* 5b. Key counts: what each number counts, with its definition. */
+.landing-counts {
+  margin-top: 1.25rem;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--step-1);
+  line-height: 1.55;
+}
+
+.landing-counts th,
+.landing-counts td {
+  padding: 0.65rem 0;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--surface-border);
+}
+
+.landing-counts thead th {
+  padding-top: 0;
+  font-size: var(--step-0);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  border-bottom: 2px solid var(--text);
+}
+
+.landing-counts tbody th {
+  font-weight: 400;
+}
+
+.landing-counts-label {
+  display: block;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.landing-counts-note {
+  display: block;
+  margin-top: 0.15rem;
+  color: var(--text-muted);
+}
+
+.landing-counts .landing-counts-value {
+  padding-left: 1rem;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.landing-counts td.landing-counts-value {
+  font-family: var(--font-figures);
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+}
+
+.landing-prose .landing-counts-updated {
+  margin-top: 0.75rem;
+  font-size: var(--step-1);
+  color: var(--text-muted);
 }
 
 /* 7. Final CTA + 8. disclaimer */
@@ -2457,7 +2607,7 @@ button.bracket-team-active:hover {
 
 .page-header-title {
   margin: 0.35rem 0 0;
-  font-size: clamp(1.9rem, 3.6vw, 2.7rem);
+  font-size: var(--step-5);
   line-height: 1.05;
   letter-spacing: 0; /* monospace: no negative tracking */
   font-weight: 800;
@@ -2466,7 +2616,7 @@ button.bracket-team-active:hover {
 .page-header-intro {
   margin: 0.85rem 0 0;
   max-width: var(--measure);
-  font-size: 1rem;
+  font-size: var(--step-2);
   line-height: 1.7;
   color: var(--text-secondary);
   text-wrap: balance;
@@ -2513,6 +2663,39 @@ button.bracket-team-active:hover {
   gap: 0.5rem 0.75rem;
 }
 
+.section-header-side {
+  display: grid;
+  gap: 0.75rem;
+  justify-items: start;
+}
+
+/* A margin column: on laptops the section's source facts sit beside its
+   heading and note, in the width the capped text leaves empty. Below
+   that they follow the note. */
+.section-header-with-aside {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+}
+
+.section-header-with-aside .source-note-facts {
+  display: grid;
+  gap: 0.3rem;
+  margin: 0;
+}
+
+@media (min-width: 1024px) {
+  .section-header-with-aside {
+    grid-template-columns: minmax(0, 1fr) minmax(16rem, 26rem);
+    column-gap: 3rem;
+  }
+
+  .section-header-with-aside .section-header-side {
+    padding-left: 1rem;
+    border-left: 1px solid var(--border);
+  }
+}
+
 /* --- Compact summary row --- */
 .summary-row {
   display: flex;
@@ -2532,7 +2715,7 @@ button.bracket-team-active:hover {
 }
 
 .summary-item dt {
-  font-size: 0.8rem;
+  font-size: var(--step-0);
   color: var(--text-secondary);
 }
 
@@ -2631,14 +2814,10 @@ button.bracket-team-active:hover {
   background: var(--accent);
 }
 
-.ranked-fill-gold {
-  background: var(--gold);
-}
-
 .ranked-meta {
   display: block;
   margin-top: 0.2rem;
-  font-size: 0.8rem;
+  font-size: var(--step-0);
   color: var(--text-secondary);
 }
 
@@ -2651,7 +2830,7 @@ button.bracket-team-active:hover {
   background: var(--surface);
   color: var(--accent-deep);
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: var(--step-1);
   cursor: pointer;
 }
 
@@ -2708,7 +2887,7 @@ button.bracket-team-active:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem 1.25rem;
-  font-size: 0.85rem;
+  font-size: var(--step-1);
   color: var(--text-secondary);
 }
 
@@ -2759,7 +2938,7 @@ button.bracket-team-active:hover {
   color: var(--text-secondary);
   font: inherit;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: var(--step-1);
   cursor: pointer;
 }
 
@@ -2776,7 +2955,7 @@ button.bracket-team-active:hover {
 
 .segmented-count {
   font-variant-numeric: tabular-nums;
-  font-size: 0.78rem;
+  font-size: var(--step-0);
   padding: 0.05rem 0.4rem;
   border-radius: 999px;
   background: var(--surface-muted);
@@ -2845,7 +3024,7 @@ button.bracket-team-active:hover {
   background: var(--surface);
   color: var(--text);
   font-weight: 600;
-  font-size: 0.85rem;
+  font-size: var(--step-1);
   cursor: pointer;
 }
 
@@ -2855,7 +3034,7 @@ button.bracket-team-active:hover {
   border-radius: 999px;
   background: var(--accent);
   color: #f4fbf6;
-  font-size: 0.72rem;
+  font-size: var(--step-0);
   font-variant-numeric: tabular-nums;
   text-align: center;
 }
@@ -2917,7 +3096,7 @@ button.bracket-team-active:hover {
 
 .map-legend-note {
   margin: 0;
-  font-size: 0.82rem;
+  font-size: var(--step-0);
   color: var(--text-secondary);
 }
 
@@ -2949,7 +3128,7 @@ button.bracket-team-active:hover {
 .map-drawer-title {
   margin: 0.15rem 0 0;
   font-family: var(--font-display);
-  font-size: 1.2rem;
+  font-size: var(--step-3);
   font-weight: 700;
   display: inline-flex;
   align-items: center;
@@ -2958,7 +3137,7 @@ button.bracket-team-active:hover {
 
 .map-drawer-sub {
   margin: 0.15rem 0 0;
-  font-size: 0.82rem;
+  font-size: var(--step-0);
   color: var(--text-secondary);
 }
 
@@ -3006,14 +3185,14 @@ button.bracket-team-active:hover {
   gap: 0.15rem 0.6rem;
   margin: 0;
   font-family: var(--font-display);
-  font-size: 1rem;
+  font-size: var(--step-2);
   color: var(--accent-deep);
 }
 
 .team-group-sub {
   font-family: var(--font-body);
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: var(--step-0);
   color: var(--text-secondary);
 }
 
@@ -3069,7 +3248,7 @@ button.bracket-team-active:hover {
 
 .team-card-code {
   flex-shrink: 0;
-  font-size: 0.72rem;
+  font-size: var(--step-0);
   letter-spacing: 0.04em;
   opacity: 0.7;
   font-variant-numeric: tabular-nums;
@@ -3083,14 +3262,14 @@ button.bracket-team-active:hover {
 
 .squad-header .squad-title {
   margin: 0;
-  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-size: var(--step-4);
   font-weight: 800;
   gap: 0.5rem;
 }
 
 .confed-badge {
   font-family: var(--font-body);
-  font-size: 0.72rem;
+  font-size: var(--step-0);
   font-weight: 700;
   letter-spacing: 0.04em;
   padding: 0.15rem 0.55rem;
@@ -3102,7 +3281,7 @@ button.bracket-team-active:hover {
 /* Roster columns use the available width and wrap names at word boundaries.
    Small screens use player cards; the wrapper still handles genuine overflow. */
 .squad-roster .data-table {
-  font-size: 0.9rem;
+  font-size: var(--step-1);
   min-width: 0;
 }
 
@@ -3165,7 +3344,7 @@ button.bracket-team-active:hover {
 
 .squad-player-meta {
   margin: 0.3rem 0 0;
-  font-size: 0.85rem;
+  font-size: var(--step-1);
   line-height: 1.5;
   color: var(--text-secondary);
   overflow-wrap: anywhere;
@@ -3263,7 +3442,7 @@ button.bracket-team-active:hover {
 }
 
 .score-pens {
-  font-size: 0.68rem;
+  font-size: var(--step-0);
   color: var(--text-secondary);
   white-space: nowrap;
 }
@@ -3271,7 +3450,7 @@ button.bracket-team-active:hover {
 .score-meta {
   margin: 0.3rem 0 0;
   text-align: center;
-  font-size: 0.78rem;
+  font-size: var(--step-0);
   color: var(--text-secondary);
 }
 
@@ -3327,7 +3506,7 @@ button.bracket-team-active:hover {
 }
 
 .filter-field-label {
-  font-size: 0.76rem;
+  font-size: var(--step-0);
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -3337,7 +3516,7 @@ button.bracket-team-active:hover {
 .leaders-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
-  gap: 1rem;
+  gap: 1rem 2.5rem;
 }
 
 @media (min-width: 768px) {
@@ -3384,7 +3563,7 @@ button.bracket-team-active:hover {
   border-radius: 0;
   color: var(--text-secondary);
   font-weight: 600;
-  font-size: 0.88rem;
+  font-size: var(--step-1);
   white-space: nowrap;
 }
 
@@ -3410,8 +3589,7 @@ button.bracket-team-active:hover {
 .source-note {
   margin: 1.1rem 0 0;
   max-width: var(--measure);
-  font-size: 0.8rem;
-  font-style: italic;
+  font-size: var(--step-0);
   color: var(--text-secondary);
 }
 
@@ -3422,7 +3600,6 @@ button.bracket-team-active:hover {
   flex-wrap: wrap;
   gap: 0.3rem 1.75rem;
   max-width: none;
-  font-style: normal;
 }
 
 .source-note-facts > div {
@@ -3513,7 +3690,7 @@ button.bracket-team-active:hover {
 }
 
 .lineage-note {
-  font-size: 0.74rem;
+  font-size: var(--step-0);
   line-height: 1.35;
   color: var(--text-secondary);
 }
@@ -3592,6 +3769,7 @@ textarea:focus-visible,
 .button-secondary:focus-visible,
 .link-quiet:focus-visible,
 .landing-card-link:focus-visible,
+.landing-contents a:focus-visible,
 .landing-disclaimer a:focus-visible {
   outline: 2px solid var(--accent-deep);
   outline-offset: 3px;
@@ -3662,7 +3840,7 @@ textarea:focus-visible,
   display: flex;
   align-items: center;
   gap: 0.35rem;
-  font-size: 1rem;
+  font-size: var(--step-2);
 }
 
 /* Two definitions under the metric cards, one under each half of the card
@@ -3717,7 +3895,7 @@ textarea:focus-visible,
   border-radius: 999px;
   background: var(--surface-muted);
   color: var(--text);
-  font-size: 0.78rem;
+  font-size: var(--step-0);
   font-weight: 700;
   text-transform: capitalize;
 }
@@ -3817,7 +3995,9 @@ textarea:focus-visible,
   .change-row,
   .bar-row,
   .age-pair,
-  .data-table tr {
+  .data-table tr,
+  .landing-counts tr,
+  .landing-contents > li {
     break-inside: avoid;
   }
 
@@ -3913,7 +4093,7 @@ textarea:focus-visible,
 
 .analysis-index-title {
   font-weight: 700;
-  font-size: 1.05rem;
+  font-size: var(--step-2);
 }
 
 .analysis-index-title::after {
@@ -3923,7 +4103,7 @@ textarea:focus-visible,
 
 .analysis-index-question {
   color: var(--text-secondary);
-  font-size: 0.92rem;
+  font-size: var(--step-1);
   line-height: 1.45;
 }
 
@@ -3932,7 +4112,7 @@ textarea:focus-visible,
   display: block;
   margin-top: 0.15rem;
   color: var(--text-secondary);
-  font-size: 0.8rem;
+  font-size: var(--step-0);
 }
 
 /* A segmented control right under a row of metric cards. */
@@ -3946,4 +4126,15 @@ textarea:focus-visible,
   .wide-table .data-table {
     min-width: 36rem;
   }
+}
+
+/* "All analysis pages" above an Analysis page's heading. */
+.back-link {
+  margin: 0 0 -0.75rem;
+  font-size: var(--step-1);
+}
+
+.back-link a {
+  color: var(--accent);
+  font-weight: 600;
 }

@@ -323,7 +323,14 @@ export function WhatWinsRoute() {
       </section>
 
       <section id="method" className="content-panel reveal">
-        <SectionHeader title="How this was calculated" />
+        <SectionHeader
+          title="How this was calculated"
+          aside={sourceNote(
+            "Associations between squad differences and match results.",
+            `The ${data.about.matches} matches of the 2026 World Cup and the ${data.about.teams} final squads.`,
+            "95% intervals",
+          )}
+        />
         <dl className="definition-list">
           <div className="definition-item">
             <dt>Results</dt>
@@ -357,11 +364,6 @@ export function WhatWinsRoute() {
             </dd>
           </div>
         </dl>
-        {sourceNote(
-          "Associations between squad differences and match results.",
-          `The ${data.about.matches} matches of the 2026 World Cup and the ${data.about.teams} final squads.`,
-          "95% intervals",
-        )}
       </section>
     </AnalysisPage>
   );

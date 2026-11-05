@@ -179,12 +179,11 @@ export function StatsRoute() {
   return (
     <div className="page-stack">
       <PageHeader
-        eyebrow="Leaders"
         title="Tournament leaders"
         intro={`Official FIFA statistics, ${AS_OF}. Filter by team or position, switch to per-90 rates, then dig into the full team table.`}
       />
 
-      <div className="content-panel reveal">
+      <div className="content-panel control-panel reveal">
         <div className="leaders-toolbar">
           <FilterGroup label="Team">
             <select value={teamFilter} onChange={(e) => setTeamFilter(e.target.value)}>

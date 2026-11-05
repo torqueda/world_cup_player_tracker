@@ -250,15 +250,13 @@ export function NationalTeamsRoute() {
   return (
     <div className="page-stack">
       <PageHeader
-        eyebrow="National teams"
         title="All 48 squads"
         intro="Pick any World Cup 2026 squad to see its full roster, coach, each player's club, and how far the team went in the tournament."
       />
 
-      <section className="content-panel reveal">
+      <section className="content-panel control-panel reveal">
         <div className="team-picker-header">
           <div className="panel-heading">
-            <p className="eyebrow">{teams.length} squads</p>
             <h2 className="section-heading">Choose a team</h2>
           </div>
           <div className="team-picker-controls">

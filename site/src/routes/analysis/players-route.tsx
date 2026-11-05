@@ -23,6 +23,7 @@ export function PlayersRoute() {
           <SectionHeader
             title="Player efficiency"
             note="Rate rankings exclude zero- and very-low-minute players. Goalkeepers and outfield players are separated because their role context differs."
+            aside={sourceNote("Per-90 rate = event count / minutes played * 90.", `Players with at least ${minMinutes} minutes in the selected role bucket.`, `${minMinutes} minutes, adjustable by user`)}
           />
           <div className="leaders-toolbar">
             <FilterGroup label="Minimum minutes">
@@ -75,7 +76,6 @@ export function PlayersRoute() {
               { key: "cards90", label: "Cards/90", align: "right", initialAsc: false, sortValue: (row) => row.cardsPer90, render: (row) => row.cardsPer90.toFixed(2) },
             ]}
           />
-          {sourceNote("Per-90 rate = event count / minutes played * 90.", `Players with at least ${minMinutes} minutes in the selected role bucket.`, `${minMinutes} minutes, adjustable by user`)}
         </section>
     </AnalysisPage>
   );

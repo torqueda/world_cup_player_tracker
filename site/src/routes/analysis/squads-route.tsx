@@ -103,6 +103,7 @@ export function SquadsRoute() {
                 Download CSV
               </a>
             }
+            aside={sourceNote("Team-level roster and composition metrics.", "Active final-squad entries.", "Per-field non-null denominators")}
           />
           <div className="metrics-grid">
             <MetricCard label="Oldest average age" value={formatNumber(oldest?.averageAge, 1)} note={oldest?.team} />
@@ -110,7 +111,11 @@ export function SquadsRoute() {
             <MetricCard
               label="Highest domestic share"
               value={formatPct(mostDomestic?.domesticLeaguePct)}
-              note={mostDomestic?.team}
+              note={
+                mostDomestic
+                  ? `${mostDomestic.team}, ${mostDomestic.domesticLeaguePlayers} of ${mostDomestic.domesticLeagueKnown.count} players`
+                  : undefined
+              }
             />
             <MetricCard
               label="Most club-concentrated"
@@ -160,13 +165,13 @@ export function SquadsRoute() {
               </div>
             </dl>
           </Expandable>
-          {sourceNote("Team-level roster and composition metrics.", "Active final-squad entries.", "Per-field non-null denominators")}
         </section>
 
         <section id="concentration" className="content-panel reveal">
           <SectionHeader
             title="Concentration and diversity"
             note="HHI sums squared shares across clubs or club countries. Higher means the squad is concentrated in fewer clubs; lower means it is spread more broadly."
+            aside={sourceNote("Transparent concentration measures across club-at-call-up assignments.", "Active squads with club records.", "Rows with missing club country excluded from country HHI")}
           />
           <SortableTable
             rows={concentrationRows}
@@ -243,7 +248,6 @@ export function SquadsRoute() {
               effective clubs divides that by the raw number of clubs represented.
             </p>
           </Expandable>
-          {sourceNote("Transparent concentration measures across club-at-call-up assignments.", "Active squads with club records.", "Rows with missing club country excluded from country HHI")}
         </section>
     </AnalysisPage>
   );

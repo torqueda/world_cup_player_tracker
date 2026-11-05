@@ -373,7 +373,6 @@ export function PlayersClubsRoute() {
   return (
     <div className="page-stack">
       <PageHeader
-        eyebrow="Players & clubs"
         title="The club map"
         intro="The world view shows one bubble per country. Click a bubble or zoom in to see club cities, then pick a city to see who plays there. Filters and search narrow the map and zoom it to the matching region."
       />

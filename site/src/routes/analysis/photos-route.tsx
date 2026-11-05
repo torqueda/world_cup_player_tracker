@@ -196,7 +196,14 @@ export function PhotosRoute() {
       </section>
 
       <section id="method" className="content-panel reveal">
-        <SectionHeader title="How this was calculated" />
+        <SectionHeader
+          title="How this was calculated"
+          aside={sourceNote(
+            "Associations between player traits and having a Commons photo.",
+            `The ${data.about.players.toLocaleString()} players in the final squads.`,
+            "95% intervals",
+          )}
+        />
         <dl className="definition-list">
           <div className="definition-item">
             <dt>Photo</dt>
@@ -218,11 +225,6 @@ export function PhotosRoute() {
             </dd>
           </div>
         </dl>
-        {sourceNote(
-          "Associations between player traits and having a Commons photo.",
-          `The ${data.about.players.toLocaleString()} players in the final squads.`,
-          "95% intervals",
-        )}
       </section>
     </AnalysisPage>
   );
