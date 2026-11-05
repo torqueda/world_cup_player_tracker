@@ -10,7 +10,9 @@ it), name, and country.
 
 from __future__ import annotations
 
+import argparse
 import csv
+import os
 import re
 from pathlib import Path
 
@@ -19,10 +21,7 @@ from bs4 import BeautifulSoup
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 URL = "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_officials"
-USER_AGENT = (
-    "WorldCupPlayerTracker/0.1 (non-commercial research project; "
-    "contact: torqueda@andrew.cmu.edu)"
-)
+CLIENT = "WorldCupPlayerTracker/0.1 (non-commercial research project; contact: {contact})"
 SNAPSHOT = REPO_ROOT / "data/raw/wikipedia_2026_officials_snapshot.html"
 OUTPUT = REPO_ROOT / "data/processed/final_roster_reconciliation/wikipedia_match_officials.csv"
 
@@ -57,11 +56,33 @@ def expand_table_grid(table) -> list[list[str]]:
     return [[value or "" for value in row] for row in grid if row]
 
 
+def user_agent(contact: str) -> str:
+    """Wikimedia asks every client to name a contact in its User-Agent."""
+    contact = contact.strip()
+    if not contact:
+        raise SystemExit(
+            "Pass --contact or set WIKIMEDIA_CONTACT to an email address or project URL: "
+            "Wikimedia asks every client to name a contact in its User-Agent."
+        )
+    return CLIENT.format(contact=contact)
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--contact",
+        default=os.environ.get("WIKIMEDIA_CONTACT", ""),
+        help="Email address or project URL for the Wikimedia User-Agent, needed only when no snapshot exists (default: $WIKIMEDIA_CONTACT).",
+    )
+    return parser.parse_args()
+
+
 def main() -> None:
+    args = parse_args()
     if SNAPSHOT.exists():
         html = SNAPSHOT.read_text(encoding="utf-8")
     else:
-        response = requests.get(URL, headers={"User-Agent": USER_AGENT}, timeout=60)
+        response = requests.get(URL, headers={"User-Agent": user_agent(args.contact)}, timeout=60)
         response.raise_for_status()
         SNAPSHOT.parent.mkdir(parents=True, exist_ok=True)
         SNAPSHOT.write_text(response.text, encoding="utf-8")
