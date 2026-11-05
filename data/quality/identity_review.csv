@@ -1,1 +1,2 @@
 check,player_id,team,display_name,ours,second_source,detail,status,note
+birth_date,p_qat_abdulaziz_hatem_1df7c78b,Qatar,Abdulaziz Hatem,1990-10-28,1990-01-01,"300 days apart; one source gives 1 January, often a placeholder",same_person,"FIFA's list gives 1 January, a placeholder. Transfermarkt and Wikidata give 28 October 1990, which we keep (confirmed 2026-11-05)."

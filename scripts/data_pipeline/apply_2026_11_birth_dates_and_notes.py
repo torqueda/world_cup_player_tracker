@@ -5,12 +5,15 @@ Follow-ups to the 2026-11-05 data fixes, applied to the master workbook.
 Run after apply_2026_11_data_fixes.py. Writes a backup next to the workbook
 first (git ignores it), then:
 
-1. Sets 27 birth dates to FIFA's. These are the players whose birth date
+1. Sets 26 birth dates to FIFA's. These are the players whose birth date
    disagreed with Wikipedia's final squads, which give the dates from FIFA's
    squad lists (data/quality/identity_review.csv before this change). Where
    FIFA and another source disagree, the dataset uses FIFA
    (docs/decision_log.md, 2026-11-05). Each player's notes say what changed,
-   and one change_log row lists every date.
+   and one change_log row lists every date. The 27th, Abdulaziz Hatem, keeps
+   28 October 1990: FIFA's list gives 1 January 1990, a placeholder, and
+   Transfermarkt and Wikidata agree on the October date. The review file
+   lists him as same_person.
 2. Rewords the change_log notes in plain words, for the Methodology page,
    which shows them. Scores take an en dash, as on the match pages, so that
    "1–2" cannot break across lines. The other columns keep their values.
@@ -70,7 +73,6 @@ FIFA_BIRTH_DATES = (
     ("p_pan_cesar_samudio_51e540e4", "Panama", "César Samudio", "1994-03-26", "1994-02-23"),
     ("p_par_andres_cubas_23543da5", "Paraguay", "Andrés Cubas", "1996-06-22", "1996-05-11"),
     ("p_par_gabriel_avalos_3d7a0590", "Paraguay", "Gabriel Ávalos", "1990-10-12", "1991-07-09"),
-    ("p_qat_abdulaziz_hatem_1df7c78b", "Qatar", "Abdulaziz Hatem", "1990-10-28", "1990-01-01"),
     ("p_rsa_nkosinathi_sibisi_c2a232db", "South Africa", "Nkosinathi Sibisi", "1995-05-22", "1995-09-22"),
     ("p_sen_el_hadji_malick_diouf_2fb2dad9", "Senegal", "El Hadji Malick Diouf", "2004-12-28", "2004-12-29"),
     ("p_swe_erik_smith_9cafee29", "Sweden", "Eric Smith", "1997-01-05", "1997-01-08"),

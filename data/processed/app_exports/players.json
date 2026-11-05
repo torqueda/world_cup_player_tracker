@@ -24056,7 +24056,7 @@
     "espn_id": null,
     "display_name": "Abdulaziz Hatem",
     "name_ascii": "Abdulaziz Hatem",
-    "date_of_birth": "1990-01-01T00:00:00",
+    "date_of_birth": "1990-10-28T00:00:00",
     "place_of_birth": "Doha",
     "birth_country": "Qatar",
     "birth_lat": null,
@@ -24071,7 +24071,7 @@
     "bio_source_url": "https://www.wikidata.org/wiki/Q4665805",
     "data_confidence": "wikidata_auto_match_high",
     "manual_review_flag": false,
-    "notes": "Auto-matched to Wikidata Q4665805; score=193; margin=193. Birth date set on 2026-11-05 from 1990-10-28 to 1990-01-01, the date in FIFA's squad list (as Wikipedia's final squads give it).",
+    "notes": "Auto-matched to Wikidata Q4665805; score=193; margin=193",
     "match_method": "auto"
   },
   {

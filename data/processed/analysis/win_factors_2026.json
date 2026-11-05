@@ -594,7 +594,7 @@
       "team": "Qatar",
       "confederation": "AFC",
       "squad_size": 26,
-      "mean_age": 29.508,
+      "mean_age": 29.476,
       "mean_caps": 54.81,
       "big_five_share": 0.0,
       "players_valued": 26,
@@ -874,28 +874,28 @@
         {
           "feature": "age_gap",
           "per": "1 year of average age",
-          "odds_ratio": 0.9299,
+          "odds_ratio": 0.9302,
           "odds_ratio_ci95": [
-            0.7316,
-            1.1819
+            0.7317,
+            1.1826
           ],
-          "odds_ratio_per_sd": 0.8988,
-          "p_value": 0.5524
+          "odds_ratio_per_sd": 0.8994,
+          "p_value": 0.5548
         },
         {
           "feature": "home",
           "per": "playing at home",
-          "odds_ratio": 2.1077,
+          "odds_ratio": 2.1082,
           "odds_ratio_ci95": [
-            0.6864,
-            6.4723
+            0.6866,
+            6.4737
           ],
           "odds_ratio_per_sd": null,
-          "p_value": 0.1927
+          "p_value": 0.1926
         }
       ],
-      "loglike": -110.5358,
-      "aic": 227.0716,
+      "loglike": -110.5379,
+      "aic": 227.0758,
       "leave_one_out_rps": 0.2419
     },
     {
@@ -911,39 +911,39 @@
           "per": "100 Elo points",
           "odds_ratio": 1.9401,
           "odds_ratio_ci95": [
-            1.537,
-            2.4488
+            1.5371,
+            2.4489
           ],
-          "odds_ratio_per_sd": 4.4063,
+          "odds_ratio_per_sd": 4.4066,
           "p_value": 0.0
         },
         {
           "feature": "home",
           "per": "playing at home",
-          "odds_ratio": 1.3971,
+          "odds_ratio": 1.3972,
           "odds_ratio_ci95": [
             0.4191,
-            4.6574
+            4.6575
           ],
           "odds_ratio_per_sd": null,
-          "p_value": 0.5862
+          "p_value": 0.5861
         },
         {
           "feature": "age_gap",
           "per": "1 year of average age",
-          "odds_ratio": 0.9564,
+          "odds_ratio": 0.9562,
           "odds_ratio_ci95": [
-            0.7258,
-            1.2602
+            0.7255,
+            1.2603
           ],
-          "odds_ratio_per_sd": 0.9366,
-          "p_value": 0.7513
+          "odds_ratio_per_sd": 0.9365,
+          "p_value": 0.7507
         }
       ],
-      "loglike": -87.9274,
-      "aic": 183.8547,
+      "loglike": -87.9271,
+      "aic": 183.8543,
       "leave_one_out_rps": 0.1655,
-      "lr_test_p_vs_elo_only": 0.7513,
+      "lr_test_p_vs_elo_only": 0.7507,
       "leave_one_out_rps_minus_elo_only": 0.002,
       "leave_one_out_rps_minus_elo_only_ci95": [
         0.0007,
@@ -1222,77 +1222,77 @@
         {
           "feature": "elo_gap_per_100",
           "per": "100 Elo points",
-          "odds_ratio": 1.5728,
+          "odds_ratio": 1.5725,
           "odds_ratio_ci95": [
-            1.0845,
-            2.281
+            1.0842,
+            2.2805
           ],
-          "odds_ratio_per_sd": 2.755,
+          "odds_ratio_per_sd": 2.7536,
           "p_value": 0.017
         },
         {
           "feature": "home",
           "per": "playing at home",
-          "odds_ratio": 3.1627,
+          "odds_ratio": 3.157,
           "odds_ratio_ci95": [
-            0.8345,
-            11.986
+            0.8332,
+            11.9626
           ],
           "odds_ratio_per_sd": null,
-          "p_value": 0.0903
+          "p_value": 0.0907
         },
         {
           "feature": "age_gap",
           "per": "1 year of average age",
-          "odds_ratio": 1.5739,
+          "odds_ratio": 1.5726,
           "odds_ratio_ci95": [
-            1.0432,
-            2.3748
+            1.0424,
+            2.3725
           ],
-          "odds_ratio_per_sd": 1.9454,
-          "p_value": 0.0307
+          "odds_ratio_per_sd": 1.9416,
+          "p_value": 0.0309
         },
         {
           "feature": "caps_gap_per_10",
           "per": "10 caps of average experience",
-          "odds_ratio": 0.5687,
+          "odds_ratio": 0.5695,
           "odds_ratio_ci95": [
-            0.3246,
-            0.9964
+            0.3252,
+            0.9975
           ],
-          "odds_ratio_per_sd": 0.5207,
-          "p_value": 0.0485
+          "odds_ratio_per_sd": 0.5215,
+          "p_value": 0.049
         },
         {
           "feature": "big_five_gap_per_10pts",
           "per": "10 percentage points of the squad at big-five clubs",
-          "odds_ratio": 1.3111,
+          "odds_ratio": 1.3109,
           "odds_ratio_ci95": [
-            1.0548,
-            1.6295
+            1.0547,
+            1.6292
           ],
-          "odds_ratio_per_sd": 3.1592,
-          "p_value": 0.0146
+          "odds_ratio_per_sd": 3.1571,
+          "p_value": 0.0147
         },
         {
           "feature": "value_gap_per_doubling",
           "per": "a doubling of the market value of the 11 most valuable players",
-          "odds_ratio": 1.0357,
+          "odds_ratio": 1.0356,
           "odds_ratio_ci95": [
-            0.6803,
-            1.5767
+            0.6802,
+            1.5765
           ],
-          "odds_ratio_per_sd": 1.0876,
-          "p_value": 0.8702
+          "odds_ratio_per_sd": 1.0874,
+          "p_value": 0.8705
         }
       ],
-      "loglike": -80.657,
-      "aic": 175.314,
+      "loglike": -80.6655,
+      "aic": 175.331,
       "leave_one_out_rps": 0.1504,
       "lr_test_p_vs_elo_only": 0.0055,
       "leave_one_out_rps_minus_elo_only": -0.013,
       "leave_one_out_rps_minus_elo_only_ci95": [
-        -0.034,
+        -0.0341,
         0.0081
       ]
     },
