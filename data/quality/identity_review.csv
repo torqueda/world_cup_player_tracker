@@ -25,5 +25,4 @@ birth_date,p_ksa_khalid_al_ghannam_b44eecee,Saudi Arabia,Khalid Al Ghannam,2000-
 birth_date,p_ksa_moteb_al_harbi_e138f807,Saudi Arabia,Moteb Al Harbi,2000-02-19,2000-02-20,1 day apart,same_person,"Dates 1 to 3 days apart: a source difference, not another person."
 birth_date,p_sen_el_hadji_malick_diouf_2fb2dad9,Senegal,El Hadji Malick Diouf,2004-12-28,2004-12-29,1 day apart,same_person,"Dates 1 to 3 days apart: a source difference, not another person."
 birth_date,p_rsa_nkosinathi_sibisi_c2a232db,South Africa,Nkosinathi Sibisi,1995-05-22,1995-09-22,123 days apart,same_person,"Same day, different month: likely a typo in one source."
-birth_date,p_kor_kim_tae_hyun_ebe70829,South Korea,Kim Tae-hyun,1996-12-19,2000-09-17,1368 days apart,wrong_person,Matched entity Q61100326 is a midfielder born 1996-12-19 (Ansan Greeners). Wikipedia's final squad and his article (Kim Tae-hyeon) give a Kashima Antlers centre-back born 2000-09-17 in Gimpo. The right Wikidata entry is still to be found.
 birth_date,p_swe_erik_smith_9cafee29,Sweden,Eric Smith,1997-01-05,1997-01-08,3 days apart,same_person,"Dates 1 to 3 days apart: a source difference, not another person."

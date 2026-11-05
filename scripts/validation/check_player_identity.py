@@ -4,7 +4,7 @@ Check each active player's identity against sources the Wikidata match did
 not come from.
 
 The integrity checks show the data agrees with itself, and so does a complete
-record of the wrong person. Four players were matched to a namesake and passed
+record of the wrong person. Five players were matched to a namesake and passed
 every integrity check (see change_log, 2026-11-05). These checks compare each
 player with a second source instead:
 
