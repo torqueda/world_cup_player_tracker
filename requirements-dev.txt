@@ -3,3 +3,4 @@
 -r requirements.txt
 -r requirements-analysis.txt
 pytest>=8.0
+pyyaml>=6.0   # reads the data contract

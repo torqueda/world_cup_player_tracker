@@ -117,7 +117,7 @@ The master workbook is treated like a small relational database:
 - `player_stats` and `team_stats`: FIFA's tournament statistics
 - `sources`: source registry
 - `change_log`: the main corrections and updates
-- `data_dictionary`: field notes for some of the sheets
+- `data_dictionary`: the original planning template, kept for history. The exports are described in [docs/data_dictionary.md](docs/data_dictionary.md)
 - `raw_roster_import`: the original ESPN squad lists, kept for provenance
 
 Stable internal IDs are the join keys. Do not replace them with external IDs such as Wikidata QIDs.
@@ -180,7 +180,9 @@ The audit step runs with `--strict`, so the pipeline stops before writing app JS
 
 ## Tests And CI
 
-Export-invariant tests live in `tests/` (pytest): unique IDs, cross-table referential integrity, the 48×26 active-roster shape, and `meta.json` counts matching every file. Identity tests (`tests/test_player_identity.py`) compare each active player with a second source: the birth date in Wikipedia's final squad, and whether a goalkeeper was matched to a goalkeeper on Wikidata. Every disagreement must be listed, with a status, in `data/quality/identity_review.csv`; `scripts/validation/check_player_identity.py --write` adds new ones. `tests/test_change_log.py` keeps the change-log notes, which the Methodology page shows, in plain words: no field names, no em dashes, and scores with an en dash. Run the tests with:
+The data contract, [`data/contract/exports.yaml`](data/contract/exports.yaml), states every field of every export: its type, whether it can be null, and its allowed values, format and references. `tests/test_data_contract.py` checks every exported row against it. `scripts/export/generate_from_contract.py` writes the site's TypeScript types and [docs/data_dictionary.md](docs/data_dictionary.md) from it, and the same test fails when either is out of date. See [docs/data_contract.md](docs/data_contract.md) for the rules.
+
+Other export-invariant tests live in `tests/` (pytest): unique IDs, cross-table referential integrity, the 48×26 active-roster shape, and `meta.json` counts matching every file. Identity tests (`tests/test_player_identity.py`) compare each active player with a second source: the birth date in Wikipedia's final squad, and whether a goalkeeper was matched to a goalkeeper on Wikidata. Every disagreement must be listed, with a status, in `data/quality/identity_review.csv`; `scripts/validation/check_player_identity.py --write` adds new ones. `tests/test_change_log.py` keeps the change-log notes, which the Methodology page shows, in plain words: no field names, no em dashes, and scores with an en dash. Run the tests with:
 
 ```bash
 .venv/bin/pip install -r requirements-dev.txt   # once (adds pytest)
