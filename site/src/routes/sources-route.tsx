@@ -128,14 +128,20 @@ const changeLogDesc = [...changeLog].reverse();
 const recentChanges = changeLogDesc.slice(0, RECENT_CHANGES);
 const olderChanges = changeLogDesc.slice(RECENT_CHANGES);
 
+// The kind of change in words. The note says what changed, so the column
+// names in field_changed stay in the data and off the page.
+function changeLabel(changeType: string | null | undefined): string {
+  const words = (changeType ?? "change").replace(/_/g, " ");
+  return words.charAt(0).toUpperCase() + words.slice(1);
+}
+
 function ChangeRow({ change }: { change: ChangeLogRow }) {
   return (
     <article className="change-row">
       <span className="change-date">{String(change.changed_at ?? "—").slice(0, 10)}</span>
       <span>
-        <strong>{change.change_type ?? "change"}</strong>
+        <strong>{changeLabel(change.change_type)}</strong>
         {change.team && change.team !== "ALL" ? ` · ${change.team}` : ""}
-        {change.field_changed ? ` · ${change.field_changed}` : ""}
       </span>
       {change.notes ? <span className="change-notes">{change.notes}</span> : null}
     </article>

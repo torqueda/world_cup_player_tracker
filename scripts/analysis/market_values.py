@@ -13,9 +13,10 @@ analysis scripts read instead.
 Linking. Transfermarkt has no Wikidata or FIFA IDs in these tables, so each
 player is linked on birth date, name, citizenship and club:
 
-- dob_and_name: Transfermarkt's birth date equals the player's birth date
-  (from FIFA's final squad list, as published on Wikipedia, or else the
-  tracker's), and the names agree: a name similarity of at least 0.9, or at
+- dob_and_name: Transfermarkt's birth date equals one of the player's birth
+  dates (FIFA's final squad list as published on Wikipedia, the tracker's, or
+  that of the player's Wikidata record in the matcher's cache), and the names
+  agree: a name similarity of at least 0.9, or at
   least 0.75 (or Transfermarkt's surname inside the tracker's name) with the
   same citizenship or club.
 - dob_citizenship_and_club: same birth date, citizenship and club, with a
@@ -46,6 +47,7 @@ from __future__ import annotations
 import argparse
 import csv
 import gzip
+import json
 import re
 import unicodedata
 from collections import Counter, defaultdict
@@ -58,6 +60,9 @@ from analysis_data import MARKET_VALUES as SNAPSHOT
 from analysis_data import REPO_ROOT, TOURNAMENT_START, VALUES_SET_SINCE, country_name, read_export, write_output
 
 WIKIPEDIA_SQUADS = REPO_ROOT / "data/processed/final_roster_reconciliation/wikipedia_final_squads.csv"
+# The matcher's cached Wikidata facts. The tracker takes FIFA's birth date where
+# the two disagree, and Transfermarkt sometimes has Wikidata's.
+WIKIDATA_FACTS = REPO_ROOT / "data/processed/player_wikidata_matching/cache/wikidata_facts_cache.json"
 SNAPSHOT_FIELDS = [
     "player_id", "team", "display_name", "date_of_birth",
     "tm_player_id", "tm_name", "tm_date_of_birth", "tm_citizenship", "tm_club", "link_method",
@@ -108,12 +113,16 @@ def read_gzip_csv(path: Path) -> list[dict]:
 
 
 def squad_players() -> list[dict]:
-    """Each player in a final squad, with FIFA's birth date where the published list has one."""
+    """Each player in a final squad, with every birth date the sources give."""
     players = {p["player_id"]: p for p in read_export("players")}
     clubs = {c["club_id"]: c for c in read_export("clubs")}
     callups = {c["player_id"]: c for c in read_export("player_club_at_callup")}
     with WIKIPEDIA_SQUADS.open(encoding="utf-8-sig", newline="") as handle:
         fifa_dob = {(r["team"], str(r["shirt_number"])): r["date_of_birth"][:10] for r in csv.DictReader(handle)}
+    wikidata_dob = {
+        qid: (facts.get("date_of_birth") or "")[:10]
+        for qid, facts in json.loads(WIKIDATA_FACTS.read_text(encoding="utf-8")).items()
+    }
     rows = []
     for entry in read_export("squad_entries"):
         if entry["squad_status"] != "active":
@@ -125,7 +134,11 @@ def squad_players() -> list[dict]:
             "team": entry["team"],
             "display_name": player["display_name"],
             "names": [player["display_name"], player["name_ascii"] or "", entry["display_name_at_source"] or ""],
-            "dates": {d for d in (dob, fifa_dob.get((country_name(entry["team"]), str(entry["shirt_number"])))) if d},
+            "dates": {d for d in (
+                dob,
+                fifa_dob.get((country_name(entry["team"]), str(entry["shirt_number"]))),
+                wikidata_dob.get(player["wikidata_id"] or ""),
+            ) if d},
             "date_of_birth": dob,
             "club": clubs[callups[entry["player_id"]]["club_id"]]["club_name"],
             "citizenships": CITIZENSHIP.get(entry["team"], {entry["team"]}),
