@@ -441,7 +441,7 @@ export function SortableTable<T>({
               {columns.map((column) => (
                 <td
                   key={column.key}
-                  className={column.align === "right" ? "table-cell-numeric" : undefined}
+                  className={column.align && column.align !== "left" ? "table-cell-numeric" : undefined}
                   style={{ textAlign: column.align ?? "left" }}
                 >
                   {column.render(row)}
