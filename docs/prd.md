@@ -66,8 +66,8 @@ See [decision_log.md](decision_log.md).
 
 1. **Fix what the post-launch review found**, in this order:
     1. Site fixes: accessibility, phone layout, the text measure, the Methodology page's method notes, map tiles, and cross-table tests.
-    2. Pipeline and repo cleanup: a match-method field in place of stale labels, unused code and files removed, and the site's unit tests added to CI.
-    3. Data fixes, each with a `change_log` row and its evidence.
+    2. Pipeline and repo cleanup: unused code and files removed, the Wikimedia contact read at run time, and the site's unit tests added to CI.
+    3. Data fixes, each with a `change_log` row and its evidence, including a match-method field in place of stale match labels.
     4. The data contract, checked by pytest, with the site's types generated from it.
     5. Site copy, fonts, page arrangement and the Analysis split.
 2. **Then add data and analyses:** team strength and history (Elo ratings, FIFA ranking, past results), line-ups and squad market values; match forecasts, labelled as a model; what makes a team more likely to win; and which players have a photo on Wikimedia Commons.
