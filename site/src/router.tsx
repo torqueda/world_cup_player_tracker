@@ -7,6 +7,7 @@ import { MatchesRoute } from "@/routes/matches-route";
 import { StatsRoute } from "@/routes/stats-route";
 import { InsightsRoute } from "@/routes/insights-route";
 import { SourcesRoute } from "@/routes/sources-route";
+import { NotFoundRoute } from "@/routes/not-found-route";
 
 export const router = createBrowserRouter([
   {
@@ -40,6 +41,12 @@ export const router = createBrowserRouter([
       {
         path: "sources",
         element: <SourcesRoute />,
+      },
+      {
+        // Any other address: a page-not-found message inside the normal layout,
+        // not the router's developer error screen.
+        path: "*",
+        element: <NotFoundRoute />,
       },
     ],
   },

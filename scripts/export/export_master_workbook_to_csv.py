@@ -24,8 +24,6 @@ DEFAULT_SHEETS = [
     "player_club_at_callup",
     "sources",
     "change_log",
-    "manual_review_queue",
-    "world_cup_history",
     "match_history",
     "player_stats",
     "team_stats",

@@ -161,7 +161,7 @@ Export-invariant tests live in `tests/` (pytest): unique IDs, cross-table refere
 .venv/bin/python -m pytest
 ```
 
-`.github/workflows/ci.yml` runs on every push to `main` and on pull requests: a **data** job (`pytest` + the strict export audit) and a **site** job (`pnpm typecheck` + `pnpm build`). The build step also guards the deploy — a missing imported `@data/*.json` fails CI rather than silently breaking the Netlify build.
+`.github/workflows/ci.yml` runs on every push to `main` and on pull requests: a **data** job (`pytest` + the strict export audit) and a **site** job (`pnpm typecheck` + `pnpm test` + `pnpm build`). The build step also guards the deploy — a missing imported `@data/*.json` fails CI rather than silently breaking the Netlify build.
 
 ## Current Scripts
 

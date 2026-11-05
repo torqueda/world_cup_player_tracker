@@ -156,12 +156,12 @@ export function StatsRoute() {
   const saves = useMemo(() => ranking((s) => s.gk_saves ?? 0, { perMin: true }), [scopedStats, mode]);
 
   const discipline = useMemo<RankedItem[]>(() => {
-    const fair = (s: PlayerStat) => s.yellow_cards + 3 * (s.red_cards + s.indirect_red_cards);
+    const fair = (s: PlayerStat) => s.yellow_cards + 3 * s.red_cards;
     return scopedStats
       .filter((s) => fair(s) > 0)
       .sort((a, b) => fair(b) - fair(a) || displayName(a).localeCompare(displayName(b)))
       .map((s) => {
-        const reds = s.red_cards + s.indirect_red_cards;
+        const reds = s.red_cards;
         return toItem(
           s,
           fair(s),
@@ -255,9 +255,9 @@ export function StatsRoute() {
         <section className="content-panel">
           <h2 className="section-heading discipline-heading">
             Discipline
-            <span className="card-markers" aria-label="yellow and red cards">
-              <span className="card-marker card-marker-yellow" aria-hidden="true" />
-              <span className="card-marker card-marker-red" aria-hidden="true" />
+            <span className="card-markers" aria-hidden="true">
+              <span className="card-marker card-marker-yellow" />
+              <span className="card-marker card-marker-red" />
             </span>
           </h2>
           <p className="insight-note">

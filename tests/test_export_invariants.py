@@ -98,6 +98,18 @@ def test_each_active_squad_has_26_players(data: dict) -> None:
     assert not wrong, f"teams whose active squad is not 26 players: {wrong}"
 
 
+def test_squad_numbers_are_exported_as_numbers(data: dict) -> None:
+    # Exported as text, caps sort as strings in the squad tables (119 before 12).
+    fields = ("shirt_number", "caps_pre_tournament", "goals_pre_tournament")
+    wrong = [
+        (entry["squad_entry_id"], field)
+        for entry in data["squad_entries"]
+        for field in fields
+        if entry.get(field) is not None and not isinstance(entry[field], int)
+    ]
+    assert not wrong, f"squad entry numbers exported as text: {wrong[:5]}"
+
+
 def test_stats_reference_real_teams(data: dict) -> None:
     team_codes = {t["team_code"] for t in data["teams"]}
     bad_team_stats = {s["team_code"] for s in data["team_stats"] if s["team_code"] not in team_codes}
@@ -111,7 +123,7 @@ def test_meta_counts_match_files(data: dict) -> None:
     for key, expected in counts.items():
         path = EXPORT_DIR / f"{key}.json"
         if not path.exists():
-            # A retired sheet (e.g. manual_review_queue) may report 0 with no file.
+            # A retired sheet may report 0 with no file.
             assert expected == 0, f"meta counts {key}={expected} but {key}.json is missing"
             continue
         actual = len(json.loads(path.read_text(encoding="utf-8")))

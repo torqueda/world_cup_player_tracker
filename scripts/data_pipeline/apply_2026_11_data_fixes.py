@@ -4,11 +4,12 @@ Data fixes from the 2026-11-05 review, applied to the master workbook.
 
 Writes a backup next to the workbook first (git ignores it), then:
 
-1. Corrects four wrong-person Wikidata matches: Alisson, Liam Kelly, Ross
-   Stewart and Jorge Sánchez. In each case the matcher picked a namesake whose
-   birth date and position disagree with Wikipedia's final squad. The player
-   row takes the right entity's QID, birth date, birthplace and photo (or no
-   photo when that entity has none).
+1. Corrects five wrong-person Wikidata matches: Alisson, Liam Kelly, Ross
+   Stewart, Jorge Sánchez and Kim Tae-hyeon. In each case the matcher picked
+   a namesake whose birth date and position disagree with Wikipedia's final
+   squad. The player row takes the right entity's QID, birth date, birthplace
+   and photo (or no photo when that entity has none), and, for Kim Tae-hyeon,
+   the spelling of his name that FIFA uses.
 2. Corrects the name of Iran's number 19, which ESPN's squad list printed as
    "Ali Nemati Omid Noorafkan". He is Ali Nemati. The player_id stays.
 3. Cleans the sources registry: removes five club corrections that had been
@@ -68,6 +69,7 @@ class IdentityFix:
     birth_country: str
     squad_description: str  # how Wikipedia's final squad describes the player
     image: tuple[str, str, str, str, str] | None  # IMAGE_FIELDS values, or None for no photo
+    display_name: str | None = None  # a corrected name, where the old one was the namesake's spelling
 
 
 # The right entity for the first three is a lower-ranked candidate in the
@@ -75,7 +77,11 @@ class IdentityFix:
 # with the birth date, position and club that Wikipedia's final squad gives.
 # Jorge Sánchez's right entity was not among the candidates: Q24034870 is the
 # Wikidata item that DBpedia links to the English Wikipedia article
-# "Jorge Sánchez (footballer, born 1997)".
+# "Jorge Sánchez (footballer, born 1997)". Kim Tae-hyeon's was not either: the
+# matcher searched the spelling "Kim Tae-hyun", which is the namesake's. His
+# QID was confirmed by hand on 2026-11-05, his birthplace comes from the
+# English Wikipedia article "Kim Tae-hyeon", and his name follows FIFA's
+# spelling (Kim Taehyeon in its player statistics).
 IDENTITY_FIXES = (
     IdentityFix(
         player_id="p_bra_alisson_94f708d4",
@@ -138,6 +144,20 @@ IDENTITY_FIXES = (
         birth_country="Mexico",
         squad_description="a PAOK defender born 1997-12-10",
         image=None,
+    ),
+    IdentityFix(
+        player_id="p_kor_kim_tae_hyun_ebe70829",
+        team="South Korea",
+        squad_name="Kim Tae-hyeon",
+        old_qid="Q61100326",
+        old_entity="a midfielder born 1996-12-19",
+        new_qid="Q79904514",
+        date_of_birth="2000-09-17",
+        place_of_birth="Gimpo",
+        birth_country="South Korea",
+        squad_description="a Kashima Antlers defender born 2000-09-17",
+        image=None,  # neither entity's photo is in the dataset; Q79904514's was not checked
+        display_name="Kim Tae-hyeon",
     ),
 )
 
@@ -296,8 +316,10 @@ def fix_identities(players: Sheet) -> list[list[object]]:
         if current != fix.old_qid:
             raise SystemExit(f"{fix.player_id}: expected wikidata_id {fix.old_qid}, found {current!r}; not changing it")
 
+        old_name = text(players.get(row, "display_name"))
         old_values = (
-            f"{fix.old_qid} / {iso_date(players.get(row, 'date_of_birth'))} / "
+            (f"{old_name} / " if fix.display_name else "")
+            + f"{fix.old_qid} / {iso_date(players.get(row, 'date_of_birth'))} / "
             f"{text(players.get(row, 'place_of_birth'))}, {text(players.get(row, 'birth_country'))} / "
             f"{text(players.get(row, 'image_commons_title')) or 'no photo'}"
         )
@@ -306,6 +328,9 @@ def fix_identities(players: Sheet) -> list[list[object]]:
         players.set(row, "place_of_birth", fix.place_of_birth)
         players.set(row, "birth_country", fix.birth_country)
         players.set(row, "bio_source_url", f"https://www.wikidata.org/wiki/{fix.new_qid}")
+        if fix.display_name:
+            players.set(row, "display_name", fix.display_name)
+            players.set(row, "name_ascii", fix.display_name)
         had_photo = bool(text(players.get(row, "image_commons_title")))
         if fix.image:
             photo = f" Photo now {fix.new_qid}'s."
@@ -321,13 +346,15 @@ def fix_identities(players: Sheet) -> list[list[object]]:
         for field, value in zip(IMAGE_FIELDS, fix.image or (None,) * len(IMAGE_FIELDS)):
             players.set(row, field, value)
         new_values = (
-            f"{fix.new_qid} / {fix.date_of_birth} / {fix.place_of_birth}, {fix.birth_country} / "
+            (f"{fix.display_name} / " if fix.display_name else "")
+            + f"{fix.new_qid} / {fix.date_of_birth} / {fix.place_of_birth}, {fix.birth_country} / "
             f"{fix.image[0] if fix.image else 'no photo'}"
         )
         slug = re.sub(r"[^a-z]+", "_", fix.squad_name.lower().replace("á", "a")).strip("_")
         changes.append(change_row(
             f"chg_{FIX_DATE}_{slug}_identity", fix.team, fix.player_id, "identity_correction",
-            "wikidata_id, date_of_birth, place_of_birth, birth_country, bio_source_url, image_*",
+            ("display_name, name_ascii, " if fix.display_name else "")
+            + "wikidata_id, date_of_birth, place_of_birth, birth_country, bio_source_url, image_*",
             old_values, new_values, SQUADS_URL,
             f"Wrong-person match: {fix.old_qid} is a namesake ({fix.old_entity}). Wikipedia's final squad "
             f"lists {fix.squad_name} as {fix.squad_description}, which matches {fix.new_qid}.{photo}",
@@ -479,8 +506,12 @@ def main() -> None:
     if not changes:
         print("Nothing to change: every fix is already in the workbook.")
         return
-    logged_ids = {text(change_log.get(row, "change_id")) for row in change_log.rows()}
-    new_changes = [change for change in changes if change[0] not in logged_ids]
+    logged = {text(change_log.get(row, "change_id")): row for row in change_log.rows()}
+    new_changes = [change for change in changes if change[0] not in logged]
+    for change in changes:
+        if change[0] in logged:  # a rerun that moved a logged summary (match_method counts): update its row
+            for cell, value in zip(logged[change[0]], change):
+                cell.value = value
     for change in new_changes:
         change_log.ws.append(change)
 
@@ -498,6 +529,7 @@ def verify_saved_workbook() -> None:
     for fix in IDENTITY_FIXES:
         row = players.find("player_id", fix.player_id)
         expected = {
+            **({"display_name": fix.display_name, "name_ascii": fix.display_name} if fix.display_name else {}),
             "wikidata_id": fix.new_qid,
             "date_of_birth": fix.date_of_birth,
             "place_of_birth": fix.place_of_birth,

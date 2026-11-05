@@ -16351,13 +16351,13 @@
   },
   {
     "player_id": "p_kor_kim_tae_hyun_ebe70829",
-    "wikidata_id": "Q61100326",
+    "wikidata_id": "Q79904514",
     "fifa_id": null,
     "espn_id": null,
-    "display_name": "Kim Tae-hyun",
-    "name_ascii": "Kim Tae-hyun",
-    "date_of_birth": "1996-12-19T00:00:00",
-    "place_of_birth": "Daejeon",
+    "display_name": "Kim Tae-hyeon",
+    "name_ascii": "Kim Tae-hyeon",
+    "date_of_birth": "2000-09-17T00:00:00",
+    "place_of_birth": "Gimpo",
     "birth_country": "South Korea",
     "birth_lat": null,
     "birth_lon": null,
@@ -16368,11 +16368,11 @@
     "image_author": null,
     "image_license": null,
     "image_source_url": null,
-    "bio_source_url": "https://www.wikidata.org/wiki/Q61100326",
+    "bio_source_url": "https://www.wikidata.org/wiki/Q79904514",
     "data_confidence": "wikidata_auto_match_high",
     "manual_review_flag": false,
-    "notes": "Auto-matched to Wikidata Q61100326; score=145; margin=67. place_of_birth manually corrected to current cell value.",
-    "match_method": "auto"
+    "notes": "Auto-matched to Wikidata Q61100326; score=145; margin=67. place_of_birth manually corrected to current cell value. QID corrected on 2026-11-05 from Q61100326 (a midfielder born 1996-12-19) to Q79904514: Wikipedia's final squad lists Kim Tae-hyeon as a Kashima Antlers defender born 2000-09-17.",
+    "match_method": "manual"
   },
   {
     "player_id": "p_jor_husam_abu_dahab_8f755201",

@@ -180,7 +180,7 @@ export function RankedList({
         {visible.map((item, index) => {
           const pct = Math.max((item.value / max) * 100, 1.5);
           return (
-            <li key={item.key} className="ranked-row" title={item.title}>
+            <li key={item.key} className={cx("ranked-row", !showRank && "ranked-row-no-rank")} title={item.title}>
               {showRank ? <span className="ranked-rank">{index + 1}</span> : null}
               <div className="ranked-body">
                 <div className="ranked-line">
@@ -405,18 +405,28 @@ export function SortableTable<T>({
         <thead>
           <tr>
             {columns.map((column) => (
-              <th key={column.key} style={{ textAlign: column.align ?? "left" }}>
+              <th
+                key={column.key}
+                style={{ textAlign: column.align ?? "left" }}
+                // aria-sort belongs on the header cell, and only on the sorted column.
+                aria-sort={
+                  column.sortValue && column.key === sortKey
+                    ? asc
+                      ? "ascending"
+                      : "descending"
+                    : undefined
+                }
+              >
                 {column.sortValue ? (
                   <button
                     type="button"
                     className={cx("table-sort", column.key === sortKey && "table-sort-active")}
                     onClick={() => toggle(column)}
-                    aria-sort={
-                      column.key === sortKey ? (asc ? "ascending" : "descending") : "none"
-                    }
                   >
                     {column.label}
-                    {column.key === sortKey ? (asc ? " ↑" : " ↓") : ""}
+                    <span aria-hidden="true">
+                      {column.key === sortKey ? (asc ? " ↑" : " ↓") : ""}
+                    </span>
                   </button>
                 ) : (
                   column.label

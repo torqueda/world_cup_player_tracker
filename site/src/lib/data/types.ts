@@ -126,7 +126,9 @@ export interface PlayerStat {
   assists: number;
   minutes_played: number;
   yellow_cards: number;
+  /** Every sending-off, including second-yellow (indirect) reds. */
   red_cards: number;
+  /** The subset of red_cards that came from a second yellow. Never add it to red_cards. */
   indirect_red_cards: number;
   as_of_stage: string;
   gk_saves?: number | null;
