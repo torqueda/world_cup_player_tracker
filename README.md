@@ -49,6 +49,27 @@ Current derived metrics include:
 
 Limitations are explicit in the UI and selectors: no values are fabricated or inferred from unavailable fields. The current app exports include xG but not xGA; player starts are not exported, so the impact view uses a transparent meaningful-minutes threshold instead. Missing values are excluded from metric-specific denominators rather than imputed.
 
+## Analyses
+
+`scripts/analysis/` holds three statistical analyses of the tournament. Each writes JSON to `data/processed/analysis/`, and `tests/test_analyses.py` rebuilds every output and fails if a committed one no longer follows from the code and the data. They need `requirements-analysis.txt` (numpy, scipy, statsmodels), which `requirements-dev.txt` includes.
+
+| Script | Output | What it does |
+|---|---|---|
+| `team_strength.py` | `team_strength_2026.json`, `match_forecasts_2026.json` | Rebuilds World Football Elo ratings from every international since 1872, records each team's World Cup history, and gives each of the 104 matches a pre-match win, draw and loss forecast from an ordered logit on the Elo gap, scored against two baselines |
+| `win_factors.py` | `win_factors_2026.json` | Relates squad age, caps, the share of the squad at big-five league clubs, Elo and playing at home to results, match by match and team by team |
+| `photo_correlates.py` | `photo_correlates_2026.json` | Which traits go with a player having a Wikimedia Commons photo, by logistic regression |
+
+`ordered_logit.py` holds the win, draw and loss model and the scoring rules, and `analysis_data.py` the shared inputs. Results come from [martj42/international_results](https://github.com/martj42/international_results) (CC0), kept as a snapshot trimmed to the 2026 final in `data/raw/martj42_results_snapshot.csv.gz`, so the outputs do not move when the upstream file grows. Run the scripts in this order after regenerating the exports:
+
+```bash
+.venv/bin/pip install -r requirements-analysis.txt   # once
+.venv/bin/python scripts/analysis/team_strength.py
+.venv/bin/python scripts/analysis/win_factors.py
+.venv/bin/python scripts/analysis/photo_correlates.py
+```
+
+The forecasts are a model's, not betting odds or an official rating, and the other two analyses are associations on one tournament, not causes. The site does not show them yet.
+
 ## Repository Layout
 
 ```text

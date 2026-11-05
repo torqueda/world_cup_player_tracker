@@ -1,0 +1,1182 @@
+{
+  "about": {
+    "what": "How squad age, caps, big-five league players, Elo rating and playing at home went with results at the 2026 World Cup. Associations on one tournament, not causes.",
+    "matches": 104,
+    "teams": 48,
+    "squads": "Final squads (26 players). Age on 2026-06-11; caps before the tournament; big-five clubs are those in the Premier League, La Liga, Bundesliga, Serie A or Ligue 1 at call-up.",
+    "results": "Win, draw or loss after extra time; a shootout counts as a draw.",
+    "model": "Symmetric ordered logit on the differences between the two teams (scripts/analysis/ordered_logit.py). Odds ratios are per the unit given, for the first team doing better (a win rather than a draw, or a draw rather than a loss); odds_ratio_per_sd is per standard deviation of the match-level difference. leave_one_out_rps forecasts each match from a model fitted to the other 103 (lower is better); *_minus_elo_only below zero means better forecasts than elo_only, with a 95% bootstrap interval over matches.",
+    "factors_fixed_in_advance": "The factor list was fixed before the models were fitted. Squad market value is not included yet.",
+    "team_level": "Spearman correlations over the 48 teams with 95% bootstrap intervals.",
+    "limits": "One World Cup is 104 matches, so only strong effects can show, and the factors overlap (see factor_overlap). In all_factors, age and caps move together, so their separate coefficients are not reliable."
+  },
+  "teams": [
+    {
+      "team": "Algeria",
+      "confederation": "CAF",
+      "squad_size": 26,
+      "mean_age": 26.857,
+      "mean_caps": 29.92,
+      "big_five_share": 0.4231,
+      "elo_before": 1876.3,
+      "host": false,
+      "matches": 4,
+      "points_per_match": 1.0,
+      "elo_change": -28.0
+    },
+    {
+      "team": "Argentina",
+      "confederation": "CONMEBOL",
+      "squad_size": 26,
+      "mean_age": 29.118,
+      "mean_caps": 48.12,
+      "big_five_share": 0.7692,
+      "elo_before": 2181.2,
+      "host": false,
+      "matches": 8,
+      "points_per_match": 2.625,
+      "elo_change": 59.2
+    },
+    {
+      "team": "Australia",
+      "confederation": "AFC",
+      "squad_size": 26,
+      "mean_age": 27.359,
+      "mean_caps": 28.23,
+      "big_five_share": 0.1923,
+      "elo_before": 1886.9,
+      "host": false,
+      "matches": 4,
+      "points_per_match": 1.25,
+      "elo_change": 7.1
+    },
+    {
+      "team": "Austria",
+      "confederation": "UEFA",
+      "squad_size": 26,
+      "mean_age": 28.611,
+      "mean_caps": 38.58,
+      "big_five_share": 0.6538,
+      "elo_before": 1880.9,
+      "host": false,
+      "matches": 4,
+      "points_per_match": 1.0,
+      "elo_change": -1.4
+    },
+    {
+      "team": "Belgium",
+      "confederation": "UEFA",
+      "squad_size": 26,
+      "mean_age": 27.614,
+      "mean_caps": 41.73,
+      "big_five_share": 0.7692,
+      "elo_before": 1946.6,
+      "host": false,
+      "matches": 6,
+      "points_per_match": 1.8333,
+      "elo_change": 69.3
+    },
+    {
+      "team": "Bosnia-Herzegovina",
+      "confederation": "UEFA",
+      "squad_size": 26,
+      "mean_age": 26.456,
+      "mean_caps": 22.96,
+      "big_five_share": 0.3077,
+      "elo_before": 1641.9,
+      "host": false,
+      "matches": 4,
+      "points_per_match": 1.0,
+      "elo_change": 23.2
+    },
+    {
+      "team": "Brazil",
+      "confederation": "CONMEBOL",
+      "squad_size": 26,
+      "mean_age": 29.363,
+      "mean_caps": 35.23,
+      "big_five_share": 0.5385,
+      "elo_before": 2059.3,
+      "host": false,
+      "matches": 5,
+      "points_per_match": 2.0,
+      "elo_change": 7.2
+    },
+    {
+      "team": "Canada",
+      "confederation": "CONCACAF",
+      "squad_size": 26,
+      "mean_age": 26.951,
+      "mean_caps": 36.65,
+      "big_five_share": 0.2692,
+      "elo_before": 1884.1,
+      "host": true,
+      "matches": 5,
+      "points_per_match": 1.4,
+      "elo_change": -54.5
+    },
+    {
+      "team": "Cape Verde",
+      "confederation": "CAF",
+      "squad_size": 26,
+      "mean_age": 29.676,
+      "mean_caps": 31.65,
+      "big_five_share": 0.0385,
+      "elo_before": 1645.9,
+      "host": false,
+      "matches": 4,
+      "points_per_match": 0.75,
+      "elo_change": 44.5
+    },
+    {
+      "team": "Colombia",
+      "confederation": "CONMEBOL",
+      "squad_size": 26,
+      "mean_age": 30.128,
+      "mean_caps": 40.08,
+      "big_five_share": 0.2692,
+      "elo_before": 2052.5,
+      "host": false,
+      "matches": 5,
+      "points_per_match": 2.2,
+      "elo_change": 23.2
+    },
+    {
+      "team": "Congo DR",
+      "confederation": "CAF",
+      "squad_size": 26,
+      "mean_age": 29.062,
+      "mean_caps": 30.62,
+      "big_five_share": 0.3077,
+      "elo_before": 1756.3,
+      "host": false,
+      "matches": 4,
+      "points_per_match": 1.0,
+      "elo_change": 45.9
+    },
+    {
+      "team": "Croatia",
+      "confederation": "UEFA",
+      "squad_size": 26,
+      "mean_age": 28.329,
+      "mean_caps": 44.62,
+      "big_five_share": 0.6923,
+      "elo_before": 1959.9,
+      "host": false,
+      "matches": 4,
+      "points_per_match": 1.5,
+      "elo_change": -24.4
+    },
+    {
+      "team": "Curacao",
+      "confederation": "CONCACAF",
+      "squad_size": 26,
+      "mean_age": 28.021,
+      "mean_caps": 23.77,
+      "big_five_share": 0.0,
+      "elo_before": 1574.4,
+      "host": false,
+      "matches": 3,
+      "points_per_match": 0.3333,
+      "elo_change": -3.1
+    },
+    {
+      "team": "Czechia",
+      "confederation": "UEFA",
+      "squad_size": 26,
+      "mean_age": 27.621,
+      "mean_caps": 27.81,
+      "big_five_share": 0.1923,
+      "elo_before": 1791.1,
+      "host": false,
+      "matches": 3,
+      "points_per_match": 0.3333,
+      "elo_change": -47.4
+    },
+    {
+      "team": "Ecuador",
+      "confederation": "CONMEBOL",
+      "squad_size": 26,
+      "mean_age": 26.078,
+      "mean_caps": 29.65,
+      "big_five_share": 0.2308,
+      "elo_before": 2016.5,
+      "host": false,
+      "matches": 4,
+      "points_per_match": 1.0,
+      "elo_change": -64.8
+    },
+    {
+      "team": "Egypt",
+      "confederation": "CAF",
+      "squad_size": 26,
+      "mean_age": 29.08,
+      "mean_caps": 31.58,
+      "big_five_share": 0.1154,
+      "elo_before": 1803.7,
+      "host": false,
+      "matches": 5,
+      "points_per_match": 1.2,
+      "elo_change": 45.1
+    },
+    {
+      "team": "England",
+      "confederation": "UEFA",
+      "squad_size": 26,
+      "mean_age": 27.273,
+      "mean_caps": 32.19,
+      "big_five_share": 0.9615,
+      "elo_before": 2080.7,
+      "host": false,
+      "matches": 8,
+      "points_per_match": 2.375,
+      "elo_change": 106.8
+    },
+    {
+      "team": "France",
+      "confederation": "UEFA",
+      "squad_size": 26,
+      "mean_age": 27.001,
+      "mean_caps": 30.88,
+      "big_five_share": 0.9231,
+      "elo_before": 2115.7,
+      "host": false,
+      "matches": 8,
+      "points_per_match": 2.25,
+      "elo_change": 15.5
+    },
+    {
+      "team": "Germany",
+      "confederation": "UEFA",
+      "squad_size": 26,
+      "mean_age": 28.047,
+      "mean_caps": 32.46,
+      "big_five_share": 0.9615,
+      "elo_before": 1994.7,
+      "host": false,
+      "matches": 4,
+      "points_per_match": 1.75,
+      "elo_change": -16.4
+    },
+    {
+      "team": "Ghana",
+      "confederation": "CAF",
+      "squad_size": 26,
+      "mean_age": 26.957,
+      "mean_caps": 21.58,
+      "big_five_share": 0.5,
+      "elo_before": 1617.4,
+      "host": false,
+      "matches": 4,
+      "points_per_match": 1.0,
+      "elo_change": 54.7
+    },
+    {
+      "team": "Haiti",
+      "confederation": "CONCACAF",
+      "squad_size": 26,
+      "mean_age": 27.547,
+      "mean_caps": 24.0,
+      "big_five_share": 0.1154,
+      "elo_before": 1677.5,
+      "host": false,
+      "matches": 3,
+      "points_per_match": 0.0,
+      "elo_change": -37.7
+    },
+    {
+      "team": "Iran",
+      "confederation": "AFC",
+      "squad_size": 26,
+      "mean_age": 30.42,
+      "mean_caps": 45.0,
+      "big_five_share": 0.0,
+      "elo_before": 1894.8,
+      "host": false,
+      "matches": 3,
+      "points_per_match": 1.0,
+      "elo_change": -13.4
+    },
+    {
+      "team": "Iraq",
+      "confederation": "AFC",
+      "squad_size": 26,
+      "mean_age": 26.91,
+      "mean_caps": 31.81,
+      "big_five_share": 0.0769,
+      "elo_before": 1725.7,
+      "host": false,
+      "matches": 3,
+      "points_per_match": 0.0,
+      "elo_change": -62.4
+    },
+    {
+      "team": "Ivory Coast",
+      "confederation": "CAF",
+      "squad_size": 26,
+      "mean_age": 25.849,
+      "mean_caps": 27.04,
+      "big_five_share": 0.4615,
+      "elo_before": 1809.1,
+      "host": false,
+      "matches": 4,
+      "points_per_match": 1.5,
+      "elo_change": 25.4
+    },
+    {
+      "team": "Japan",
+      "confederation": "AFC",
+      "squad_size": 26,
+      "mean_age": 27.495,
+      "mean_caps": 30.62,
+      "big_five_share": 0.4615,
+      "elo_before": 1980.9,
+      "host": false,
+      "matches": 4,
+      "points_per_match": 1.25,
+      "elo_change": -19.5
+    },
+    {
+      "team": "Jordan",
+      "confederation": "AFC",
+      "squad_size": 26,
+      "mean_age": 28.462,
+      "mean_caps": 40.88,
+      "big_five_share": 0.0385,
+      "elo_before": 1761.5,
+      "host": false,
+      "matches": 3,
+      "points_per_match": 0.0,
+      "elo_change": -54.2
+    },
+    {
+      "team": "Mexico",
+      "confederation": "CONCACAF",
+      "squad_size": 26,
+      "mean_age": 27.901,
+      "mean_caps": 46.73,
+      "big_five_share": 0.1923,
+      "elo_before": 1959.6,
+      "host": true,
+      "matches": 5,
+      "points_per_match": 2.4,
+      "elo_change": 36.6
+    },
+    {
+      "team": "Morocco",
+      "confederation": "CAF",
+      "squad_size": 26,
+      "mean_age": 26.599,
+      "mean_caps": 26.85,
+      "big_five_share": 0.5769,
+      "elo_before": 1977.9,
+      "host": false,
+      "matches": 6,
+      "points_per_match": 1.8333,
+      "elo_change": 42.1
+    },
+    {
+      "team": "Netherlands",
+      "confederation": "UEFA",
+      "squad_size": 26,
+      "mean_age": 27.774,
+      "mean_caps": 33.12,
+      "big_five_share": 0.8077,
+      "elo_before": 2001.4,
+      "host": false,
+      "matches": 4,
+      "points_per_match": 2.0,
+      "elo_change": 34.5
+    },
+    {
+      "team": "New Zealand",
+      "confederation": "OFC",
+      "squad_size": 26,
+      "mean_age": 28.267,
+      "mean_caps": 31.73,
+      "big_five_share": 0.0769,
+      "elo_before": 1704.8,
+      "host": false,
+      "matches": 3,
+      "points_per_match": 0.3333,
+      "elo_change": -40.2
+    },
+    {
+      "team": "Norway",
+      "confederation": "UEFA",
+      "squad_size": 26,
+      "mean_age": 26.804,
+      "mean_caps": 30.81,
+      "big_five_share": 0.6154,
+      "elo_before": 1962.2,
+      "host": false,
+      "matches": 6,
+      "points_per_match": 2.0,
+      "elo_change": 49.2
+    },
+    {
+      "team": "Panama",
+      "confederation": "CONCACAF",
+      "squad_size": 26,
+      "mean_age": 30.433,
+      "mean_caps": 59.27,
+      "big_five_share": 0.0,
+      "elo_before": 1815.5,
+      "host": false,
+      "matches": 3,
+      "points_per_match": 0.0,
+      "elo_change": -74.2
+    },
+    {
+      "team": "Paraguay",
+      "confederation": "CONMEBOL",
+      "squad_size": 26,
+      "mean_age": 29.027,
+      "mean_caps": 26.54,
+      "big_five_share": 0.1538,
+      "elo_before": 1908.5,
+      "host": false,
+      "matches": 5,
+      "points_per_match": 1.0,
+      "elo_change": -19.1
+    },
+    {
+      "team": "Portugal",
+      "confederation": "UEFA",
+      "squad_size": 26,
+      "mean_age": 28.035,
+      "mean_caps": 44.62,
+      "big_five_share": 0.5769,
+      "elo_before": 2036.7,
+      "host": false,
+      "matches": 5,
+      "points_per_match": 1.6,
+      "elo_change": 13.6
+    },
+    {
+      "team": "Qatar",
+      "confederation": "AFC",
+      "squad_size": 26,
+      "mean_age": 29.476,
+      "mean_caps": 54.81,
+      "big_five_share": 0.0,
+      "elo_before": 1553.0,
+      "host": false,
+      "matches": 3,
+      "points_per_match": 0.3333,
+      "elo_change": -23.0
+    },
+    {
+      "team": "Saudi Arabia",
+      "confederation": "AFC",
+      "squad_size": 26,
+      "mean_age": 28.516,
+      "mean_caps": 35.65,
+      "big_five_share": 0.0385,
+      "elo_before": 1679.1,
+      "host": false,
+      "matches": 3,
+      "points_per_match": 0.6667,
+      "elo_change": 13.8
+    },
+    {
+      "team": "Scotland",
+      "confederation": "UEFA",
+      "squad_size": 26,
+      "mean_age": 29.202,
+      "mean_caps": 37.42,
+      "big_five_share": 0.4615,
+      "elo_before": 1834.2,
+      "host": false,
+      "matches": 3,
+      "points_per_match": 1.0,
+      "elo_change": -23.8
+    },
+    {
+      "team": "Senegal",
+      "confederation": "CAF",
+      "squad_size": 26,
+      "mean_age": 27.087,
+      "mean_caps": 38.81,
+      "big_five_share": 0.7308,
+      "elo_before": 1907.6,
+      "host": false,
+      "matches": 4,
+      "points_per_match": 0.75,
+      "elo_change": -35.1
+    },
+    {
+      "team": "South Africa",
+      "confederation": "CAF",
+      "squad_size": 26,
+      "mean_age": 26.821,
+      "mean_caps": 18.73,
+      "big_five_share": 0.0385,
+      "elo_before": 1655.7,
+      "host": false,
+      "matches": 4,
+      "points_per_match": 1.0,
+      "elo_change": 29.9
+    },
+    {
+      "team": "South Korea",
+      "confederation": "AFC",
+      "squad_size": 26,
+      "mean_age": 28.21,
+      "mean_caps": 36.85,
+      "big_five_share": 0.1538,
+      "elo_before": 1867.5,
+      "host": false,
+      "matches": 3,
+      "points_per_match": 1.0,
+      "elo_change": -39.1
+    },
+    {
+      "team": "Spain",
+      "confederation": "UEFA",
+      "squad_size": 26,
+      "mean_age": 26.747,
+      "mean_caps": 28.58,
+      "big_five_share": 1.0,
+      "elo_before": 2209.3,
+      "host": false,
+      "matches": 8,
+      "points_per_match": 2.75,
+      "elo_change": 107.9
+    },
+    {
+      "team": "Sweden",
+      "confederation": "UEFA",
+      "squad_size": 26,
+      "mean_age": 27.557,
+      "mean_caps": 19.96,
+      "big_five_share": 0.5,
+      "elo_before": 1761.2,
+      "host": false,
+      "matches": 4,
+      "points_per_match": 1.0,
+      "elo_change": 28.5
+    },
+    {
+      "team": "Switzerland",
+      "confederation": "UEFA",
+      "squad_size": 26,
+      "mean_age": 28.307,
+      "mean_caps": 43.54,
+      "big_five_share": 0.8077,
+      "elo_before": 1946.0,
+      "host": false,
+      "matches": 6,
+      "points_per_match": 1.8333,
+      "elo_change": 47.1
+    },
+    {
+      "team": "Tunisia",
+      "confederation": "CAF",
+      "squad_size": 26,
+      "mean_age": 26.645,
+      "mean_caps": 22.38,
+      "big_five_share": 0.2692,
+      "elo_before": 1730.5,
+      "host": false,
+      "matches": 3,
+      "points_per_match": 0.0,
+      "elo_change": -77.8
+    },
+    {
+      "team": "Türkiye",
+      "confederation": "UEFA",
+      "squad_size": 26,
+      "mean_age": 27.672,
+      "mean_caps": 37.31,
+      "big_five_share": 0.3462,
+      "elo_before": 1959.7,
+      "host": false,
+      "matches": 3,
+      "points_per_match": 1.0,
+      "elo_change": -47.7
+    },
+    {
+      "team": "United States",
+      "confederation": "CONCACAF",
+      "squad_size": 26,
+      "mean_age": 26.905,
+      "mean_caps": 37.0,
+      "big_five_share": 0.5385,
+      "elo_before": 1808.1,
+      "host": true,
+      "matches": 5,
+      "points_per_match": 1.8,
+      "elo_change": 16.5
+    },
+    {
+      "team": "Uruguay",
+      "confederation": "CONMEBOL",
+      "squad_size": 26,
+      "mean_age": 28.742,
+      "mean_caps": 35.88,
+      "big_five_share": 0.2308,
+      "elo_before": 1965.9,
+      "host": false,
+      "matches": 3,
+      "points_per_match": 0.6667,
+      "elo_change": -50.8
+    },
+    {
+      "team": "Uzbekistan",
+      "confederation": "AFC",
+      "squad_size": 26,
+      "mean_age": 28.213,
+      "mean_caps": 32.08,
+      "big_five_share": 0.0385,
+      "elo_before": 1810.8,
+      "host": false,
+      "matches": 3,
+      "points_per_match": 0.0,
+      "elo_change": -88.9
+    }
+  ],
+  "match_models": [
+    {
+      "model": "elo_only",
+      "features": [
+        "elo_gap_per_100",
+        "home"
+      ],
+      "coefficients": [
+        {
+          "feature": "elo_gap_per_100",
+          "per": "100 Elo points",
+          "odds_ratio": 1.9386,
+          "odds_ratio_ci95": [
+            1.5369,
+            2.4454
+          ],
+          "odds_ratio_per_sd": 4.399,
+          "p_value": 0.0
+        },
+        {
+          "feature": "home",
+          "per": "playing at home",
+          "odds_ratio": 1.4091,
+          "odds_ratio_ci95": [
+            0.4228,
+            4.6957
+          ],
+          "odds_ratio_per_sd": null,
+          "p_value": 0.5766
+        }
+      ],
+      "loglike": -87.9776,
+      "aic": 181.9552,
+      "leave_one_out_rps": 0.1635
+    },
+    {
+      "model": "age_gap_alone",
+      "features": [
+        "age_gap",
+        "home"
+      ],
+      "coefficients": [
+        {
+          "feature": "age_gap",
+          "per": "1 year of average age",
+          "odds_ratio": 0.9307,
+          "odds_ratio_ci95": [
+            0.7335,
+            1.181
+          ],
+          "odds_ratio_per_sd": 0.8994,
+          "p_value": 0.5546
+        },
+        {
+          "feature": "home",
+          "per": "playing at home",
+          "odds_ratio": 2.1053,
+          "odds_ratio_ci95": [
+            0.6856,
+            6.4653
+          ],
+          "odds_ratio_per_sd": null,
+          "p_value": 0.1934
+        }
+      ],
+      "loglike": -110.5377,
+      "aic": 227.0754,
+      "leave_one_out_rps": 0.2418
+    },
+    {
+      "model": "elo_plus_age_gap",
+      "features": [
+        "elo_gap_per_100",
+        "home",
+        "age_gap"
+      ],
+      "coefficients": [
+        {
+          "feature": "elo_gap_per_100",
+          "per": "100 Elo points",
+          "odds_ratio": 1.9404,
+          "odds_ratio_ci95": [
+            1.5372,
+            2.4493
+          ],
+          "odds_ratio_per_sd": 4.4079,
+          "p_value": 0.0
+        },
+        {
+          "feature": "home",
+          "per": "playing at home",
+          "odds_ratio": 1.3952,
+          "odds_ratio_ci95": [
+            0.4185,
+            4.6518
+          ],
+          "odds_ratio_per_sd": null,
+          "p_value": 0.5878
+        },
+        {
+          "feature": "age_gap",
+          "per": "1 year of average age",
+          "odds_ratio": 0.9542,
+          "odds_ratio_ci95": [
+            0.7257,
+            1.2547
+          ],
+          "odds_ratio_per_sd": 0.9331,
+          "p_value": 0.7371
+        }
+      ],
+      "loglike": -87.9213,
+      "aic": 183.8425,
+      "leave_one_out_rps": 0.1654,
+      "lr_test_p_vs_elo_only": 0.7371,
+      "leave_one_out_rps_minus_elo_only": 0.002,
+      "leave_one_out_rps_minus_elo_only_ci95": [
+        0.0006,
+        0.0034
+      ]
+    },
+    {
+      "model": "caps_gap_per_10_alone",
+      "features": [
+        "caps_gap_per_10",
+        "home"
+      ],
+      "coefficients": [
+        {
+          "feature": "caps_gap_per_10",
+          "per": "10 caps of average experience",
+          "odds_ratio": 1.1878,
+          "odds_ratio_ci95": [
+            0.848,
+            1.6638
+          ],
+          "odds_ratio_per_sd": 1.2202,
+          "p_value": 0.3169
+        },
+        {
+          "feature": "home",
+          "per": "playing at home",
+          "odds_ratio": 1.8345,
+          "odds_ratio_ci95": [
+            0.5785,
+            5.8179
+          ],
+          "odds_ratio_per_sd": null,
+          "p_value": 0.3028
+        }
+      ],
+      "loglike": -110.2027,
+      "aic": 226.4054,
+      "leave_one_out_rps": 0.2429
+    },
+    {
+      "model": "elo_plus_caps_gap_per_10",
+      "features": [
+        "elo_gap_per_100",
+        "home",
+        "caps_gap_per_10"
+      ],
+      "coefficients": [
+        {
+          "feature": "elo_gap_per_100",
+          "per": "100 Elo points",
+          "odds_ratio": 2.0829,
+          "odds_ratio_ci95": [
+            1.6063,
+            2.7009
+          ],
+          "odds_ratio_per_sd": 5.1654,
+          "p_value": 0.0
+        },
+        {
+          "feature": "home",
+          "per": "playing at home",
+          "odds_ratio": 1.8056,
+          "odds_ratio_ci95": [
+            0.5013,
+            6.5028
+          ],
+          "odds_ratio_per_sd": null,
+          "p_value": 0.3661
+        },
+        {
+          "feature": "caps_gap_per_10",
+          "per": "10 caps of average experience",
+          "odds_ratio": 0.7273,
+          "odds_ratio_ci95": [
+            0.4781,
+            1.1065
+          ],
+          "odds_ratio_per_sd": 0.692,
+          "p_value": 0.1369
+        }
+      ],
+      "loglike": -86.8282,
+      "aic": 181.6563,
+      "leave_one_out_rps": 0.1625,
+      "lr_test_p_vs_elo_only": 0.1295,
+      "leave_one_out_rps_minus_elo_only": -0.001,
+      "leave_one_out_rps_minus_elo_only_ci95": [
+        -0.0092,
+        0.007
+      ]
+    },
+    {
+      "model": "big_five_gap_per_10pts_alone",
+      "features": [
+        "big_five_gap_per_10pts",
+        "home"
+      ],
+      "coefficients": [
+        {
+          "feature": "big_five_gap_per_10pts",
+          "per": "10 percentage points of the squad at big-five clubs",
+          "odds_ratio": 1.4155,
+          "odds_ratio_ci95": [
+            1.2514,
+            1.6011
+          ],
+          "odds_ratio_per_sd": 4.3743,
+          "p_value": 0.0
+        },
+        {
+          "feature": "home",
+          "per": "playing at home",
+          "odds_ratio": 2.415,
+          "odds_ratio_ci95": [
+            0.7433,
+            7.846
+          ],
+          "odds_ratio_per_sd": null,
+          "p_value": 0.1425
+        }
+      ],
+      "loglike": -88.419,
+      "aic": 182.8381,
+      "leave_one_out_rps": 0.1623
+    },
+    {
+      "model": "elo_plus_big_five_gap_per_10pts",
+      "features": [
+        "elo_gap_per_100",
+        "home",
+        "big_five_gap_per_10pts"
+      ],
+      "coefficients": [
+        {
+          "feature": "elo_gap_per_100",
+          "per": "100 Elo points",
+          "odds_ratio": 1.5222,
+          "odds_ratio_ci95": [
+            1.1572,
+            2.0022
+          ],
+          "odds_ratio_per_sd": 2.5604,
+          "p_value": 0.0027
+        },
+        {
+          "feature": "home",
+          "per": "playing at home",
+          "odds_ratio": 1.7495,
+          "odds_ratio_ci95": [
+            0.5378,
+            5.6917
+          ],
+          "odds_ratio_per_sd": null,
+          "p_value": 0.3527
+        },
+        {
+          "feature": "big_five_gap_per_10pts",
+          "per": "10 percentage points of the squad at big-five clubs",
+          "odds_ratio": 1.2371,
+          "odds_ratio_ci95": [
+            1.0688,
+            1.4319
+          ],
+          "odds_ratio_per_sd": 2.4689,
+          "p_value": 0.0043
+        }
+      ],
+      "loglike": -83.569,
+      "aic": 175.138,
+      "leave_one_out_rps": 0.1515,
+      "lr_test_p_vs_elo_only": 0.003,
+      "leave_one_out_rps_minus_elo_only": -0.0119,
+      "leave_one_out_rps_minus_elo_only_ci95": [
+        -0.0287,
+        0.0045
+      ]
+    },
+    {
+      "model": "all_factors",
+      "features": [
+        "elo_gap_per_100",
+        "home",
+        "age_gap",
+        "caps_gap_per_10",
+        "big_five_gap_per_10pts"
+      ],
+      "coefficients": [
+        {
+          "feature": "elo_gap_per_100",
+          "per": "100 Elo points",
+          "odds_ratio": 1.5959,
+          "odds_ratio_ci95": [
+            1.172,
+            2.173
+          ],
+          "odds_ratio_per_sd": 2.8462,
+          "p_value": 0.003
+        },
+        {
+          "feature": "home",
+          "per": "playing at home",
+          "odds_ratio": 3.2213,
+          "odds_ratio_ci95": [
+            0.8519,
+            12.181
+          ],
+          "odds_ratio_per_sd": null,
+          "p_value": 0.0848
+        },
+        {
+          "feature": "age_gap",
+          "per": "1 year of average age",
+          "odds_ratio": 1.5618,
+          "odds_ratio_ci95": [
+            1.0404,
+            2.3446
+          ],
+          "odds_ratio_per_sd": 1.931,
+          "p_value": 0.0315
+        },
+        {
+          "feature": "caps_gap_per_10",
+          "per": "10 caps of average experience",
+          "odds_ratio": 0.5646,
+          "odds_ratio_ci95": [
+            0.3271,
+            0.9745
+          ],
+          "odds_ratio_per_sd": 0.5163,
+          "p_value": 0.0401
+        },
+        {
+          "feature": "big_five_gap_per_10pts",
+          "per": "10 percentage points of the squad at big-five clubs",
+          "odds_ratio": 1.3274,
+          "odds_ratio_ci95": [
+            1.1195,
+            1.5739
+          ],
+          "odds_ratio_per_sd": 3.3296,
+          "p_value": 0.0011
+        }
+      ],
+      "loglike": -80.6897,
+      "aic": 173.3794,
+      "leave_one_out_rps": 0.1477,
+      "lr_test_p_vs_elo_only": 0.0022,
+      "leave_one_out_rps_minus_elo_only": -0.0158,
+      "leave_one_out_rps_minus_elo_only_ci95": [
+        -0.0369,
+        0.0052
+      ]
+    },
+    {
+      "model": "elo_plus_big_five_and_confederation",
+      "features": [
+        "elo_gap_per_100",
+        "home",
+        "big_five_gap_per_10pts",
+        "uefa_or_conmebol_gap"
+      ],
+      "coefficients": [
+        {
+          "feature": "elo_gap_per_100",
+          "per": "100 Elo points",
+          "odds_ratio": 1.537,
+          "odds_ratio_ci95": [
+            1.1488,
+            2.0564
+          ],
+          "odds_ratio_per_sd": 2.6166,
+          "p_value": 0.0038
+        },
+        {
+          "feature": "home",
+          "per": "playing at home",
+          "odds_ratio": 1.6531,
+          "odds_ratio_ci95": [
+            0.4454,
+            6.136
+          ],
+          "odds_ratio_per_sd": null,
+          "p_value": 0.4525
+        },
+        {
+          "feature": "big_five_gap_per_10pts",
+          "per": "10 percentage points of the squad at big-five clubs",
+          "odds_ratio": 1.2429,
+          "odds_ratio_ci95": [
+            1.0659,
+            1.4492
+          ],
+          "odds_ratio_per_sd": 2.5179,
+          "p_value": 0.0055
+        },
+        {
+          "feature": "uefa_or_conmebol_gap",
+          "per": "a UEFA or CONMEBOL team against one from elsewhere",
+          "odds_ratio": 0.9303,
+          "odds_ratio_ci95": [
+            0.4498,
+            1.9237
+          ],
+          "odds_ratio_per_sd": 0.9476,
+          "p_value": 0.8454
+        }
+      ],
+      "loglike": -83.55,
+      "aic": 177.1,
+      "leave_one_out_rps": 0.1539,
+      "lr_test_p_vs_elo_only": 0.0119,
+      "leave_one_out_rps_minus_elo_only": -0.0096,
+      "leave_one_out_rps_minus_elo_only_ci95": [
+        -0.0266,
+        0.0071
+      ]
+    }
+  ],
+  "team_level": [
+    {
+      "factor": "mean_age",
+      "outcome": "points_per_match",
+      "spearman": -0.1492,
+      "spearman_ci95": [
+        -0.4261,
+        0.1361
+      ]
+    },
+    {
+      "factor": "mean_age",
+      "outcome": "elo_change",
+      "spearman": -0.0623,
+      "spearman_ci95": [
+        -0.3605,
+        0.246
+      ]
+    },
+    {
+      "factor": "mean_caps",
+      "outcome": "points_per_match",
+      "spearman": 0.1668,
+      "spearman_ci95": [
+        -0.1354,
+        0.4426
+      ]
+    },
+    {
+      "factor": "mean_caps",
+      "outcome": "elo_change",
+      "spearman": -0.0925,
+      "spearman_ci95": [
+        -0.3747,
+        0.2073
+      ]
+    },
+    {
+      "factor": "big_five_share",
+      "outcome": "points_per_match",
+      "spearman": 0.732,
+      "spearman_ci95": [
+        0.544,
+        0.8549
+      ]
+    },
+    {
+      "factor": "big_five_share",
+      "outcome": "elo_change",
+      "spearman": 0.4815,
+      "spearman_ci95": [
+        0.2276,
+        0.6781
+      ]
+    },
+    {
+      "factor": "elo_before",
+      "outcome": "points_per_match",
+      "spearman": 0.7426,
+      "spearman_ci95": [
+        0.5778,
+        0.85
+      ]
+    }
+  ],
+  "factor_overlap": [
+    {
+      "factors": [
+        "mean_age",
+        "mean_caps"
+      ],
+      "spearman": 0.5899
+    },
+    {
+      "factors": [
+        "mean_age",
+        "big_five_share"
+      ],
+      "spearman": -0.3163
+    },
+    {
+      "factors": [
+        "mean_age",
+        "elo_before"
+      ],
+      "spearman": -0.011
+    },
+    {
+      "factors": [
+        "mean_caps",
+        "big_five_share"
+      ],
+      "spearman": 0.0583
+    },
+    {
+      "factors": [
+        "mean_caps",
+        "elo_before"
+      ],
+      "spearman": 0.325
+    },
+    {
+      "factors": [
+        "big_five_share",
+        "elo_before"
+      ],
+      "spearman": 0.6582
+    }
+  ]
+}

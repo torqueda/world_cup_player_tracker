@@ -1,0 +1,7 @@
+# Python dependencies for the statistical analyses in scripts/analysis/.
+# Install into the project virtualenv:
+#   .venv/bin/pip install -r requirements-analysis.txt
+-r requirements.txt
+numpy>=2.0
+scipy>=1.14
+statsmodels>=0.14.4

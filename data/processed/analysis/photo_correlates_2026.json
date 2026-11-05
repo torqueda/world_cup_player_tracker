@@ -1,0 +1,408 @@
+{
+  "about": {
+    "what": "Which traits go with a 2026 World Cup player having a Wikimedia Commons photo. Light-hearted, and associations only.",
+    "outcome": "The player's Wikidata entry links a Commons photo, as collected for the site in July 2026.",
+    "players": 1248,
+    "with_photo": 945,
+    "model": "Logistic regression (statsmodels Logit). Odds ratios compare the named group with the reference (a midfielder; a UEFA team) or give the change per unit, holding the other traits fixed. Average marginal effects are in percentage points of the chance of having a photo; for yes-or-no traits they are the change from no to yes.",
+    "caps": "Entered as log2(1 + caps), so each odds ratio step is a doubling of caps.",
+    "big_five": "Premier League, La Liga, Bundesliga, Serie A or Ligue 1 at call-up."
+  },
+  "coefficients": [
+    {
+      "feature": "goalkeeper",
+      "label": "Goalkeeper (against a midfielder)",
+      "odds_ratio": 1.3219,
+      "odds_ratio_ci95": [
+        0.7435,
+        2.3504
+      ],
+      "p_value": 0.3418,
+      "average_marginal_effect_points": 3.67,
+      "average_marginal_effect_points_ci95": [
+        -3.57,
+        10.9
+      ]
+    },
+    {
+      "feature": "defender",
+      "label": "Defender (against a midfielder)",
+      "odds_ratio": 0.9097,
+      "odds_ratio_ci95": [
+        0.6166,
+        1.3421
+      ],
+      "p_value": 0.6333,
+      "average_marginal_effect_points": -1.3,
+      "average_marginal_effect_points_ci95": [
+        -6.67,
+        4.07
+      ]
+    },
+    {
+      "feature": "forward",
+      "label": "Forward (against a midfielder)",
+      "odds_ratio": 0.9657,
+      "odds_ratio_ci95": [
+        0.6367,
+        1.4648
+      ],
+      "p_value": 0.8696,
+      "average_marginal_effect_points": -0.48,
+      "average_marginal_effect_points_ci95": [
+        -6.2,
+        5.25
+      ]
+    },
+    {
+      "feature": "age_per_5_years",
+      "label": "5 years older",
+      "odds_ratio": 1.5655,
+      "odds_ratio_ci95": [
+        1.229,
+        1.994
+      ],
+      "p_value": 0.0003,
+      "average_marginal_effect_points": 6.13,
+      "average_marginal_effect_points_ci95": [
+        2.87,
+        9.38
+      ]
+    },
+    {
+      "feature": "caps_doublings",
+      "label": "Twice the caps",
+      "odds_ratio": 1.742,
+      "odds_ratio_ci95": [
+        1.5197,
+        1.9967
+      ],
+      "p_value": 0.0,
+      "average_marginal_effect_points": 7.59,
+      "average_marginal_effect_points_ci95": [
+        5.9,
+        9.28
+      ]
+    },
+    {
+      "feature": "big_five_club",
+      "label": "Plays in a big-five league",
+      "odds_ratio": 2.7591,
+      "odds_ratio_ci95": [
+        1.8689,
+        4.0734
+      ],
+      "p_value": 0.0,
+      "average_marginal_effect_points": 13.34,
+      "average_marginal_effect_points_ci95": [
+        8.58,
+        18.11
+      ]
+    },
+    {
+      "feature": "plays_abroad",
+      "label": "Plays abroad",
+      "odds_ratio": 1.3731,
+      "odds_ratio_ci95": [
+        0.9525,
+        1.9794
+      ],
+      "p_value": 0.0893,
+      "average_marginal_effect_points": 4.44,
+      "average_marginal_effect_points_ci95": [
+        -0.79,
+        9.68
+      ]
+    },
+    {
+      "feature": "AFC",
+      "label": "AFC team (against UEFA)",
+      "odds_ratio": 0.7284,
+      "odds_ratio_ci95": [
+        0.4557,
+        1.1644
+      ],
+      "p_value": 0.1855,
+      "average_marginal_effect_points": -4.46,
+      "average_marginal_effect_points_ci95": [
+        -11.23,
+        2.31
+      ]
+    },
+    {
+      "feature": "CAF",
+      "label": "CAF team (against UEFA)",
+      "odds_ratio": 0.4276,
+      "odds_ratio_ci95": [
+        0.2774,
+        0.6592
+      ],
+      "p_value": 0.0001,
+      "average_marginal_effect_points": -12.6,
+      "average_marginal_effect_points_ci95": [
+        -19.35,
+        -5.84
+      ]
+    },
+    {
+      "feature": "CONCACAF",
+      "label": "CONCACAF team (against UEFA)",
+      "odds_ratio": 0.5686,
+      "odds_ratio_ci95": [
+        0.3335,
+        0.9692
+      ],
+      "p_value": 0.038,
+      "average_marginal_effect_points": -8.18,
+      "average_marginal_effect_points_ci95": [
+        -16.27,
+        -0.09
+      ]
+    },
+    {
+      "feature": "CONMEBOL",
+      "label": "CONMEBOL team (against UEFA)",
+      "odds_ratio": 0.7322,
+      "odds_ratio_ci95": [
+        0.4223,
+        1.2692
+      ],
+      "p_value": 0.2667,
+      "average_marginal_effect_points": -4.41,
+      "average_marginal_effect_points_ci95": [
+        -12.42,
+        3.61
+      ]
+    },
+    {
+      "feature": "OFC",
+      "label": "New Zealand, the one OFC team (against UEFA)",
+      "odds_ratio": 3.4591,
+      "odds_ratio_ci95": [
+        0.7485,
+        15.9859
+      ],
+      "p_value": 0.1121,
+      "average_marginal_effect_points": 13.53,
+      "average_marginal_effect_points_ci95": [
+        1.16,
+        25.9
+      ]
+    },
+    {
+      "feature": "matches_played_90",
+      "label": "90 more minutes at the tournament",
+      "odds_ratio": 1.1432,
+      "odds_ratio_ci95": [
+        1.0343,
+        1.2637
+      ],
+      "p_value": 0.0088,
+      "average_marginal_effect_points": 1.83,
+      "average_marginal_effect_points_ci95": [
+        0.47,
+        3.19
+      ]
+    }
+  ],
+  "fit": {
+    "auc_in_sample": 0.826,
+    "auc_cross_validated": 0.8142,
+    "folds": 10,
+    "pseudo_r2_mcfadden": 0.2325
+  },
+  "shares": {
+    "position": [
+      {
+        "group": "goalkeeper",
+        "players": 145,
+        "with_photo": 102,
+        "share": 0.7034
+      },
+      {
+        "group": "defender",
+        "players": 420,
+        "with_photo": 315,
+        "share": 0.75
+      },
+      {
+        "group": "midfielder",
+        "players": 378,
+        "with_photo": 295,
+        "share": 0.7804
+      },
+      {
+        "group": "forward",
+        "players": 305,
+        "with_photo": 233,
+        "share": 0.7639
+      }
+    ],
+    "confederation": [
+      {
+        "group": "UEFA",
+        "players": 416,
+        "with_photo": 347,
+        "share": 0.8341
+      },
+      {
+        "group": "AFC",
+        "players": 234,
+        "with_photo": 169,
+        "share": 0.7222
+      },
+      {
+        "group": "CAF",
+        "players": 260,
+        "with_photo": 167,
+        "share": 0.6423
+      },
+      {
+        "group": "CONCACAF",
+        "players": 156,
+        "with_photo": 114,
+        "share": 0.7308
+      },
+      {
+        "group": "CONMEBOL",
+        "players": 156,
+        "with_photo": 124,
+        "share": 0.7949
+      },
+      {
+        "group": "OFC",
+        "players": 26,
+        "with_photo": 24,
+        "share": 0.9231
+      }
+    ],
+    "caps": [
+      {
+        "group": "0 caps",
+        "players": 14,
+        "with_photo": 5,
+        "share": 0.3571
+      },
+      {
+        "group": "1 to 9 caps",
+        "players": 279,
+        "with_photo": 133,
+        "share": 0.4767
+      },
+      {
+        "group": "10 to 29 caps",
+        "players": 412,
+        "with_photo": 302,
+        "share": 0.733
+      },
+      {
+        "group": "30 to 59 caps",
+        "players": 324,
+        "with_photo": 293,
+        "share": 0.9043
+      },
+      {
+        "group": "60 to 99 caps",
+        "players": 160,
+        "with_photo": 153,
+        "share": 0.9563
+      },
+      {
+        "group": "100+ caps",
+        "players": 59,
+        "with_photo": 59,
+        "share": 1.0
+      }
+    ],
+    "big_five_club": [
+      {
+        "group": "big-five league club",
+        "players": 479,
+        "with_photo": 416,
+        "share": 0.8685
+      },
+      {
+        "group": "other club",
+        "players": 769,
+        "with_photo": 529,
+        "share": 0.6879
+      }
+    ],
+    "minutes": [
+      {
+        "group": "0 minutes",
+        "players": 215,
+        "with_photo": 123,
+        "share": 0.5721
+      },
+      {
+        "group": "1 to 269 minutes",
+        "players": 629,
+        "with_photo": 464,
+        "share": 0.7377
+      },
+      {
+        "group": "270+ minutes",
+        "players": 404,
+        "with_photo": 358,
+        "share": 0.8861
+      }
+    ]
+  },
+  "curiosities": {
+    "most_capped_without_photo": [
+      {
+        "player_id": "p_cpv_vozinha_39ca1e1b",
+        "display_name": "Vozinha",
+        "team": "Cape Verde",
+        "caps": 90
+      },
+      {
+        "player_id": "p_jor_mahmoud_al_mardi_0339d694",
+        "display_name": "Mahmoud Al-Mardi",
+        "team": "Jordan",
+        "caps": 89
+      },
+      {
+        "player_id": "p_irq_ibrahim_bayesh_14f10c39",
+        "display_name": "Ibrahim Bayesh",
+        "team": "Iraq",
+        "caps": 76
+      },
+      {
+        "player_id": "p_uzb_odiljon_hamrobekov_d3563873",
+        "display_name": "Odiljon Hamrobekov",
+        "team": "Uzbekistan",
+        "caps": 72
+      },
+      {
+        "player_id": "p_pan_jose_fajardo_25277826",
+        "display_name": "José Fajardo",
+        "team": "Panama",
+        "caps": 68
+      }
+    ],
+    "players_with_100_caps": 59,
+    "players_with_100_caps_with_photo": 59,
+    "highest_team_share": [
+      {
+        "team": "France",
+        "share": 1.0
+      },
+      {
+        "team": "Portugal",
+        "share": 1.0
+      },
+      {
+        "team": "United States",
+        "share": 1.0
+      }
+    ],
+    "lowest_team_share": [
+      {
+        "team": "South Africa",
+        "share": 0.1923
+      }
+    ]
+  }
+}
