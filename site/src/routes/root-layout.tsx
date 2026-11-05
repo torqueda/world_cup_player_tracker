@@ -3,6 +3,7 @@ import { Link, NavLink, Outlet, ScrollRestoration, useLocation } from "react-rou
 import metaJson from "@data/meta.json";
 import { playerStats } from "@/lib/data";
 import { PlayerDetailProvider } from "@/components/player-detail";
+import { ANALYSIS_PAGES, analysisPath } from "@/routes/analysis/pages";
 
 const REPO_URL = "https://github.com/torqueda/world_cup_player_tracker";
 
@@ -31,7 +32,12 @@ function pageTitle(pathname: string): string {
   if (pathname === "/") {
     return SITE_TITLE;
   }
-  const page = [...navItems, ...secondaryItems].find((item) => item.to === pathname.replace(/\/$/, ""));
+  const path = pathname.replace(/\/$/, "");
+  const analysisPage = ANALYSIS_PAGES.find((item) => analysisPath(item.slug) === path);
+  if (analysisPage) {
+    return `${analysisPage.label} · Analysis · ${SITE_TITLE}`;
+  }
+  const page = [...navItems, ...secondaryItems].find((item) => item.to === path);
   return `${page ? page.label : "Page not found"} · ${SITE_TITLE}`;
 }
 

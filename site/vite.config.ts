@@ -12,6 +12,7 @@ export default defineConfig({
     alias: {
       "@": path.resolve(rootDir, "src"),
       "@data": path.resolve(repoRoot, "data/processed/app_exports"),
+      "@analysis": path.resolve(repoRoot, "data/processed/analysis"),
     },
   },
   server: {

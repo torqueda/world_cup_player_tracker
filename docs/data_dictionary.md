@@ -323,7 +323,7 @@ File `sources.json`, key `source_id`, site type `Source`.
 | Field | Type | Can be null | Allowed values | Meaning |
 |---|---|---|---|---|
 | `source_id` | string | no |  | Stable ID. |
-| `source_type` | string | no | `roster`, `biography`, `image`, `club_location`, `stats`, `matches`, `officials`, `manual_verification` | What the source was used for. |
+| `source_type` | string | no | `roster`, `biography`, `image`, `club_location`, `stats`, `matches`, `officials`, `manual_verification`, `historical_results`, `market_values` | What the source was used for. |
 | `publisher` | string | no |  | Who publishes it. |
 | `url` | string | no | URL | Where it is. |
 | `title` | string | no |  | Its title. |

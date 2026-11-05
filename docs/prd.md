@@ -29,7 +29,7 @@ Every sentence the site says about itself should trace to a row here.
 | Every number on the site is computed from the exported data | Site unit tests; no hand-typed figures in page text | Partly: two counts on Home are typed by hand and will be replaced |
 | Every player is the right person | Strict export audit; birth dates compared with Wikipedia's final squads; goals and cards compared across sources; a short review queue for doubtful identity matches | The audit, yes; the comparisons and the review queue arrive with the data fixes |
 | Tables agree with each other | `tests/test_export_invariants.py` and cross-table tests | Invariants, yes; cross-table tests arrive with the site fixes |
-| Every source is credited | The `sources` registry lists every source the pipeline uses, and the site's source list matches it | No: the registry lists only Wikipedia and FIFA today |
+| Every source is credited | The `sources` registry lists every source the pipeline uses, and the site's source list matches it | The registry, yes, including the two datasets the Analysis pages use. The Methodology page's list is written by hand, so a pull request that adds a source updates both |
 | Corrections after launch are logged with date and reason | A `change_log` row in the same change | Yes |
 | The site's description of its own methods matches the code | Reviewed in any pull request that changes a pipeline script | After the site fixes, which correct the method notes |
 
@@ -47,7 +47,19 @@ Each page has one name, used in the menu and as its heading, and answers one que
 | Analysis | `/insights` | An index of the analysis pages (below) |
 | Methodology | `/sources` | How was the data collected and checked? |
 
-**Analysis is split into sub-pages**, each 2 to 4 laptop screens long: squad make-up, clubs and leagues, players, matches and venues, and the two-team comparison as its own tool. Two more are planned: what makes a team more likely to win a match, and which players have a photo on Wikimedia Commons.
+**Analysis is an index of sub-pages**, each up to about 3 laptop screens long. The old single page's section links (`/insights#impact` and the others) redirect to the page that now holds the section.
+
+| Analysis page | Address | Question it answers |
+|---|---|---|
+| Squad make-up | `/insights/squads` | How old is each squad, where do its players play, and how many clubs does it draw on? |
+| Clubs & leagues | `/insights/clubs` | Which clubs and leagues sent the most players, minutes and goals? |
+| Player efficiency | `/insights/players` | Who scored and assisted most per 90 minutes? |
+| Matches & venues | `/insights/matches` | How did goals vary by stage and venue, and how did the confederations fare against each other? |
+| Compare two teams | `/insights/compare` | How do two squads and their tournaments compare side by side? |
+| What goes with winning | `/insights/what-wins` | Did rating, squad value, top-league players, age or caps go with winning matches? |
+| Who has a photo | `/insights/photos` | Which players have a free photo on Wikimedia Commons, and what do they have in common? |
+
+The data-quality dashboard is on Methodology (`/sources#quality`), with the rest of the method.
 
 **Open naming question:** the Methodology page's heading reads "Data & sources". One name is chosen when the pages are rearranged.
 

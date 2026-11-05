@@ -769,7 +769,7 @@ sources:
       description: Stable ID.
     source_type:
       type: string
-      values: [roster, biography, image, club_location, stats, matches, officials, manual_verification]
+      values: [roster, biography, image, club_location, stats, matches, officials, manual_verification, historical_results, market_values]
       description: What the source was used for.
     publisher:
       type: string
