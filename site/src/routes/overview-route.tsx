@@ -230,13 +230,16 @@ export function OverviewRoute() {
           </p>
           <p>Automation handled the repetitive work. Manual research handled the ambiguity.</p>
           <p>
-            Roughly 500 player records had to be researched and entered directly. About 300 more
-            were spot-checked and corrected as testing and early visualizations exposed
-            inconsistencies. Club and location data required another substantial review, including
-            the manual verification of names and/or coordinates for about 300 club cities.
+            Of the 1,248 players in the squad lists, 394 were sent for manual review at least once,
+            some for more than one reason: 96 Wikidata matches the matcher could not settle, 35
+            automatic matches missing a birth date or birthplace, 87 players flagged by the identity
+            checks, and 282 players with no photo on Wikidata. Club data needed the same care: 251
+            clubs had their location checked by hand, and the review notes record 194 corrections to
+            a club&apos;s city and 209 club name changes.
           </p>
           <blockquote className="landing-quote">
-            Every public-facing number has a source trail. Every correction is logged.
+            Every number on the site traces back to a public source, and the main corrections are
+            logged.
           </blockquote>
           <p>
             The project combines data from official tournament pages and public sources including
