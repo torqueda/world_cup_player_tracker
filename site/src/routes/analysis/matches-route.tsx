@@ -24,6 +24,7 @@ export function AnalysisMatchesRoute() {
           <SectionHeader
             title="Match and venue analysis"
             note="All match summaries use played matches with a recorded score. Penalty shootouts are counted separately from draws after 90 or 120 minutes."
+            aside={sourceNote("Stage, margin, venue, team-stage, and confederation matchup summaries from played match rows.", "Played matches with non-null scores.", `${venueMinMatches} matches for the venue ranking`)}
           />
           <div className="metrics-grid">
             <MetricCard label="Played matches" value={matches.filter((match) => match.status === "played").length} />
@@ -120,7 +121,6 @@ export function AnalysisMatchesRoute() {
               ]}
             />
           </Expandable>
-          {sourceNote("Stage, margin, venue, team-stage, and confederation matchup summaries from played match rows.", "Played matches with non-null scores.", `${venueMinMatches} matches for the venue ranking`)}
         </section>
     </AnalysisPage>
   );

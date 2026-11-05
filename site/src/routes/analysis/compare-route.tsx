@@ -101,6 +101,7 @@ export function CompareRoute() {
           <SectionHeader
             title="Two-team comparison"
             note="Your choice of teams is saved in the page address, so you can share the comparison."
+            aside={sourceNote("Side-by-side descriptive comparison using synchronized per-row bar scales.", "Selected teams from active squads and team stats.", "xG where available; the data has no xGA or team card totals")}
           />
           <div className="leaders-toolbar">
             <FilterGroup label="Team A">
@@ -201,7 +202,6 @@ export function CompareRoute() {
           ) : (
             <EmptyState>Choose two teams with available squad scorecards.</EmptyState>
           )}
-          {sourceNote("Side-by-side descriptive comparison using synchronized per-row bar scales.", "Selected teams from active squads and team stats.", "xG where available; the data has no xGA or team card totals")}
         </section>
     </AnalysisPage>
   );

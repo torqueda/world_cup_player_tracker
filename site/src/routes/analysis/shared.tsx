@@ -48,8 +48,12 @@ export function AnalysisPage({
   const page = ANALYSIS_PAGES.find((item) => item.slug === slug);
   return (
     <div className="page-stack">
+      <p className="back-link">
+        <Link to={ANALYSIS_BASE}>
+          <span aria-hidden="true">← </span>All analysis pages
+        </Link>
+      </p>
       <PageHeader
-        eyebrow={<Link to={ANALYSIS_BASE}>Analysis</Link>}
         title={page?.label ?? "Analysis"}
         intro={intro}
         actions={actions}

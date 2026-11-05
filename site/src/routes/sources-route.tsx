@@ -164,7 +164,6 @@ export function SourcesRoute() {
   return (
     <div className="page-stack">
       <PageHeader
-        eyebrow="Methodology"
         title="Data & sources"
         intro="Every number on this site traces back to a public source. Here is what the dataset covers, how it is built and checked, where it comes from, and the main corrections and updates."
         actions={

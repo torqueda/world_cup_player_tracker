@@ -22,7 +22,6 @@ export function AnalysisIndexRoute() {
   return (
     <div className="page-stack">
       <PageHeader
-        eyebrow="Analysis"
         title="Tournament analysis"
         intro={`Each page below answers one question about the 2026 World Cup. Data through the ${AS_OF} stage.`}
       />

@@ -96,6 +96,11 @@ export function ClubsRoute() {
                 Download CSV
               </a>
             }
+            aside={sourceNote(
+              "Club or league totals aggregate active players' official goals, assists, and minutes.",
+              "Active final-squad players with club-at-call-up records.",
+              `${DEFAULT_MEANINGFUL_MINUTES} minutes for meaningful-minutes counts; the data has no starts`,
+            )}
           />
           <div className="leaders-toolbar impact-toolbar">
             <SegmentedControl
@@ -150,11 +155,6 @@ export function ClubsRoute() {
               in the selected entity set. This weighting is an analytical lens for comparison, not an official ranking.
             </p>
           </Expandable>
-          {sourceNote(
-            "Club or league totals aggregate active players' official goals, assists, and minutes.",
-            "Active final-squad players with club-at-call-up records.",
-            `${DEFAULT_MEANINGFUL_MINUTES} minutes for meaningful-minutes counts; the data has no starts`,
-          )}
         </section>
     </AnalysisPage>
   );

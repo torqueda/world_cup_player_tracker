@@ -2,6 +2,12 @@
 
 Newest first. Each entry gives the date, the decision, the options that were on the table, and why. Add an entry in the same pull request as the change it decides. Decisions made before this log started are recorded in [roadmap_to_deployment.md](roadmap_to_deployment.md) and [dataset_finalization_report_2026-07-12.md](dataset_finalization_report_2026-07-12.md).
 
+## 2026-11-05: A technical-report look for the inner pages; Home keeps its landing layout
+
+- **Decision:** the inner pages read like a statistical report: descriptive headings with no small labels above them, one six-step type scale, rules between sections instead of boxes (boxes now mark only what you can interact with, such as filters and the team picker), the green as the only accent, gold only for warnings, and each Analysis section's source facts in a margin column on wide screens. Home keeps its hero, its build story and Archivo, and gains a contents list and a key-counts table that defines "active" and "removed".
+- **Options:** restyle every page including Home as a report front page; restyle the inner pages and keep Home as it is; leave the look as it was.
+- **Why:** the data is the most credible part of the site, so the design should get out of its way. Home is the one page written as a personal story, so it keeps its layout and only gains what a report's front page gives a reader: what is where, and what each number counts.
+
 ## 2026-11-05: When FIFA and another source disagree, use FIFA
 
 - **Decision:** where FIFA's own records (squad lists, match reports, player statistics) disagree with another source such as Wikipedia, Wikidata, ESPN or openfootball, the data follows FIFA, and the other value is noted in the `change_log` row or the review notes.

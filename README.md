@@ -144,7 +144,7 @@ Stable internal IDs are the join keys. Do not replace them with external IDs suc
    - coaches (48) and match officials (167) collected with sources registered.
 3. The export pipeline (`refresh_all_exports.py`) regenerates everything from the workbook in one command with a strict integrity audit.
 4. The site (`site/`, React + TypeScript + Vite) has seven pages. The navigation labels differ from the addresses, which are kept so old links work:
-   - `Home` (`/`): what the dataset is, how it was built, and counts computed from the data;
+   - `Home` (`/`): what the dataset is and how it was built, a contents list linking every page, and a table of key counts computed from the data, with "active" and "removed" defined;
    - `Club Map` (`/players-clubs`): a country-bubble world map that reveals club cities on zoom or selection, with cascading filters, club and player search, and auto-zoom to the filtered region;
    - `Squads` (`/national-teams`): sortable rosters with coach, captain, caps, and stage reached;
    - `Matches` (`/matches`): an interactive knockout bracket (click a team to trace its path) and every result grouped by stage, and by group within the group stage;

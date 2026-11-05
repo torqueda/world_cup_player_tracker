@@ -1,7 +1,18 @@
 import { Link } from "react-router-dom";
 import metaJson from "@data/meta.json";
-import { activePlayers, clubs, matches, teams } from "@/lib/data";
+import {
+  activePlayers,
+  cities,
+  clubs,
+  coaches,
+  matches,
+  playerClubAtCallup,
+  referees,
+  squadEntries,
+  teams,
+} from "@/lib/data";
 import { stageRank } from "@/lib/data/stages";
+import { ANALYSIS_PAGES, analysisPath } from "@/routes/analysis/pages";
 
 const REPO_URL = "https://github.com/torqueda/world_cup_player_tracker";
 
@@ -66,6 +77,99 @@ const headlineMetrics = [
   { value: activePlayers.length, label: "Active final-squad players" },
   { value: clubs.length, label: "Canonical clubs" },
   { value: playedMatches, label: "Matches played" },
+];
+
+// --- contents and key counts (a report's front page, kept in the landing layout) ---
+
+interface ContentsEntry {
+  to: string;
+  label: string;
+  note: string;
+  children?: { to: string; label: string }[];
+}
+
+const CONTENTS: ContentsEntry[] = [
+  {
+    to: "/players-clubs",
+    label: "Club Map",
+    note: "Every player placed at their club's city. Filter by team, league, club or player.",
+  },
+  {
+    to: "/national-teams",
+    label: "Squads",
+    note: `All ${teams.length} rosters, with each player's age, caps, birthplace and club, and the coach.`,
+  },
+  {
+    to: "/matches",
+    label: "Matches",
+    note: "Every result, by group and by round, and the knockout bracket.",
+  },
+  {
+    to: "/stats",
+    label: "Leaders",
+    note: "FIFA player and team statistics, as totals or per 90 minutes.",
+  },
+  {
+    to: "/insights",
+    label: "Analysis",
+    note: "One page per question:",
+    children: ANALYSIS_PAGES.map((page) => ({ to: analysisPath(page.slug), label: page.label })),
+  },
+  {
+    to: "/sources",
+    label: "Methodology",
+    note: "Sources, definitions, data-quality checks and the change history.",
+  },
+];
+
+const activePlayerIds = new Set(activePlayers.map((player) => player.player_id));
+const removedPlayers = squadEntries.filter((entry) => entry.squad_status === "removed").length;
+const clubsWithActivePlayer = new Set(
+  playerClubAtCallup.filter((row) => activePlayerIds.has(row.player_id)).map((row) => row.club_id),
+).size;
+const refereeCount = referees.filter((official) => official.role === "referee").length;
+
+const KEY_COUNTS: { label: string; value: string; note: string }[] = [
+  {
+    label: "Final squads",
+    value: teams.length.toLocaleString(),
+    note: "One per qualified team.",
+  },
+  {
+    label: "Active players",
+    value: activePlayers.length.toLocaleString(),
+    note: "On a team's final FIFA squad list. Every player total on the site counts only these.",
+  },
+  {
+    label: "Removed players",
+    value: removedPlayers.toLocaleString(),
+    note: "In an earlier published squad list but not on the final FIFA list. Kept for history and left out of every total.",
+  },
+  {
+    label: "Clubs",
+    value: clubs.length.toLocaleString(),
+    note: `Every club a listed player was with at call-up, one record per club with name variants merged. ${clubsWithActivePlayer.toLocaleString()} of them have an active player.`,
+  },
+  {
+    label: "Club cities",
+    value: cities.length.toLocaleString(),
+    note: "Where those clubs are based, with map coordinates looked up mainly in GeoNames and checked by hand where needed.",
+  },
+  {
+    label: "Matches played",
+    value: `${playedMatches.toLocaleString()} of ${matches.length.toLocaleString()}`,
+    note: "Group stage through the final.",
+  },
+  {
+    label: "Coaches",
+    value: coaches.length.toLocaleString(),
+    note: "The head coach named for each squad.",
+  },
+  {
+    label: "Match officials",
+    value: referees.length.toLocaleString(),
+    note: `${refereeCount.toLocaleString()} referees plus their assistant and video assistant referees.`,
+  },
 ];
 
 interface EntryLink {
@@ -150,6 +254,34 @@ export function OverviewRoute() {
             <span className="landing-metric-label">{metric.label}</span>
           </div>
         ))}
+      </section>
+
+      {/* 2b. CONTENTS */}
+      <section
+        className="landing-section landing-prose landing-split"
+        aria-labelledby="landing-contents"
+      >
+        <p className="eyebrow">Contents</p>
+        <h2 id="landing-contents">Every page, and what you will find there.</h2>
+        <ol className="landing-contents landing-split-body">
+          {CONTENTS.map((entry) => (
+            <li key={entry.to}>
+              <Link className="landing-contents-link" to={entry.to}>
+                {entry.label}
+              </Link>
+              <span className="landing-contents-note">{entry.note}</span>
+              {entry.children ? (
+                <ul className="landing-contents-sub">
+                  {entry.children.map((child) => (
+                    <li key={child.to}>
+                      <Link to={child.to}>{child.label}</Link>
+                    </li>
+                  ))}
+                </ul>
+              ) : null}
+            </li>
+          ))}
+        </ol>
       </section>
 
       {/* 3. HOW IT STARTED */}
@@ -247,6 +379,42 @@ export function OverviewRoute() {
               View the repository
             </a>
           </div>
+        </div>
+      </section>
+
+      {/* 5b. KEY COUNTS */}
+      <section
+        className="landing-section landing-prose landing-split"
+        aria-labelledby="landing-counts"
+      >
+        <p className="eyebrow">Key Counts</p>
+        <h2 id="landing-counts">What each number on the site counts.</h2>
+        <div className="landing-split-body">
+          <table className="landing-counts">
+            <caption className="sr-only">Key counts in the dataset and what each one covers</caption>
+            <thead>
+              <tr>
+                <th scope="col">What is counted</th>
+                <th scope="col" className="landing-counts-value">
+                  Number
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {KEY_COUNTS.map((row) => (
+                <tr key={row.label}>
+                  <th scope="row">
+                    <span className="landing-counts-label">{row.label}</span>
+                    <span className="landing-counts-note">{row.note}</span>
+                  </th>
+                  <td className="landing-counts-value">{row.value}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          {exportedAt ? (
+            <p className="landing-counts-updated">From the exports of {exportedAt}.</p>
+          ) : null}
         </div>
       </section>
 
