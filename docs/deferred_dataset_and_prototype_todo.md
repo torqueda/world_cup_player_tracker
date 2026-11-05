@@ -61,7 +61,7 @@ was never used for it (or by the app at all).
 
 - [x] *(Done, verified 2026-07-14)* Stats page: 'Golden Boot race' and 'Workhorses & walls' should be parallel and equal size panels (decrease distance between emojis and numbers in 'Golden Boot race'); 'Most minutes played' should exclude goalkeepers and state that; 'Fair Play' should be a third, separate panel below the previous two, showing all players that have been carded. *(`.stats-leaders-grid` renders the two panels as equal `minmax(0,1fr)` columns; the picto grid packs emoji and value together; minutes list filters out goalkeepers and says "Outfield players only — goalkeepers are excluded"; Fair Play is its own full-width panel below listing every carded player.)*
 
-## Next additions (picked from docs/site_content_and_skills_showcase_proposals.md, 2026-07-13)
+## Next additions (picked 2026-07-13)
 
 In rough priority order. The first three are pre-/at-launch candidates; the rest are for the post-final window.
 
