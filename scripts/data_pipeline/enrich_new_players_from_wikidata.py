@@ -17,11 +17,17 @@ into player_stats from data/processed/workbook_import/player_stats_goalkeeping_c
 (the import file produced with the FIFA Goalkeeping-tab collection).
 
 Backs up the workbook first; writes replication CSVs for the Google Sheets master.
+
+Usage:
+    python scripts/data_pipeline/enrich_new_players_from_wikidata.py --contact <email or project URL>
+(or set WIKIMEDIA_CONTACT instead of passing --contact)
 """
 
 from __future__ import annotations
 
+import argparse
 import csv
+import os
 import shutil
 import time
 from datetime import date
@@ -36,9 +42,18 @@ OUT = REPO_ROOT / "data/processed/workbook_import/post_import_fixes"
 TODAY = date.today().isoformat()
 
 API = "https://www.wikidata.org/w/api.php"
-HEADERS = {
-    "User-Agent": "WorldCupPlayerTracker/0.1 (non-commercial research; torqueda@andrew.cmu.edu)"
-}
+HEADERS: dict[str, str] = {}
+
+
+def set_user_agent(contact: str) -> None:
+    """Wikimedia asks every client to name a contact in its User-Agent."""
+    contact = contact.strip()
+    if not contact:
+        raise SystemExit(
+            "Pass --contact or set WIKIMEDIA_CONTACT to an email address or project URL: "
+            "Wikimedia asks every client to name a contact in its User-Agent."
+        )
+    HEADERS["User-Agent"] = f"WorldCupPlayerTracker/0.1 (non-commercial research; {contact})"
 
 
 def api_get(params: dict) -> dict:
@@ -110,7 +125,19 @@ def find_player(name: str, dob: str) -> dict | None:
     return None
 
 
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument(
+        "--contact",
+        default=os.environ.get("WIKIMEDIA_CONTACT", ""),
+        help="Email address or project URL for the Wikimedia User-Agent (default: $WIKIMEDIA_CONTACT).",
+    )
+    return parser.parse_args()
+
+
 def main() -> None:
+    set_user_agent(parse_args().contact)
+
     backup = WB_PATH.with_name(f"world_cup_2026_player_map_master.backup_{TODAY}_enrich.xlsx")
     shutil.copy2(WB_PATH, backup)
     print(f"Backup: {backup}")

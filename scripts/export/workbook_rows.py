@@ -2,13 +2,11 @@
 """
 Utilities for reading simple row-based Excel workbook sheets.
 
-These helpers prefer a normal `openpyxl` install, but can also fall back to the
-bundled Codex runtime packages on the same machine.
+They need `openpyxl`, which requirements.txt installs.
 """
 
 from __future__ import annotations
 
-import sys
 from datetime import date, datetime
 from pathlib import Path
 from typing import Any
@@ -17,35 +15,12 @@ from typing import Any
 def _ensure_openpyxl():
     try:
         from openpyxl import load_workbook  # type: ignore
-
-        return load_workbook
-    except ImportError:
-        pass
-
-    runtime_root = Path.home() / ".cache" / "codex-runtimes"
-    if runtime_root.exists():
-        candidates: list[Path] = []
-        for root_candidate in sorted(runtime_root.rglob("dependencies/python"), reverse=True):
-            if not root_candidate.is_dir():
-                continue
-            candidates.append(root_candidate)
-            candidates.extend(sorted(root_candidate.rglob("site-packages"), reverse=True))
-
-        for candidate in candidates:
-            if not candidate.is_dir():
-                continue
-            sys.path.insert(0, str(candidate))
-            try:
-                from openpyxl import load_workbook  # type: ignore
-
-                return load_workbook
-            except ImportError:
-                sys.path.pop(0)
-
-    raise SystemExit(
-        "openpyxl is required to read the master workbook. "
-        "Install it in your Python environment or run this script where the Codex bundled runtime is available."
-    )
+    except ImportError as error:
+        raise SystemExit(
+            "openpyxl is required to read the master workbook. "
+            "Install the pipeline dependencies with: pip install -r requirements.txt"
+        ) from error
+    return load_workbook
 
 
 def normalize_cell_value(value: Any) -> Any:

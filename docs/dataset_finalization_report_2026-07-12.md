@@ -54,7 +54,7 @@ The export pipeline (`refresh_all_exports.py`) already emits `player_stats.json`
 - **Semifinal/final results and updated stats** — re-run before/at deploy if you want to include SF results: re-run the two Wikipedia scrapers (they refetch live), recapture the three FIFA surfaces (the browser steps are documented by the raw snapshot formats), then `build_workbook_import_sheets.py` regenerates everything.
 - **Matches-played per player** — FIFA's stats tabs don't expose appearances directly; minutes>0 is a proxy. Could be derived later from per-match lineups if wanted.
 - **Goalkeeping stats (saves, clean sheets)** — available on FIFA's Goalkeeping tab, not collected in this pass; same collection recipe if wanted.
-- **Player images** — per the 2026-07-12 decision, Commons images are dropped; license-free per-country images to be sourced manually later.
+- **Player images** — per the 2026-07-12 decision, Commons images are dropped; license-free per-country images to be sourced manually later. (Reversed later: the site shows Commons photos with attribution; see `docs/decision_log.md`.)
 - **Birthplace geocoding, coach/referee Wikidata enrichment** — post-deploy features.
 
 ## Decision record
