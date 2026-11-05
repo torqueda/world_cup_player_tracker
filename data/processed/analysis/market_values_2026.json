@@ -1,0 +1,447 @@
+{
+  "about": {
+    "what": "Transfermarkt market values for the players in the final squads, from the last valuation before the tournament started on 2026-06-11.",
+    "source": "dcaribou/transfermarkt-datasets (CC0), players and player_valuations tables; valuations end on 2026-06-12.",
+    "linking": "On birth date, name, citizenship and club; see scripts/analysis/market_values.py for the rules. A link is kept only when it is the single best candidate.",
+    "players": 1248,
+    "linked": 1230,
+    "linked_by": {
+      "dob_and_name": 1224,
+      "none": 18,
+      "dob_citizenship_and_club": 5,
+      "name_citizenship_and_club": 1
+    },
+    "valued": 1172,
+    "valuation_dates": {
+      "earliest": "2023-05-29",
+      "median": "2026-05-29",
+      "latest": "2026-06-10"
+    },
+    "valued_in_the_12_months_before": 1130
+  },
+  "teams": [
+    {
+      "team": "Algeria",
+      "players": 26,
+      "players_valued": 25,
+      "squad_value_eur": 249150000,
+      "median_player_value_eur": 6500000
+    },
+    {
+      "team": "Argentina",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 807500000,
+      "median_player_value_eur": 20000000
+    },
+    {
+      "team": "Australia",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 80750000,
+      "median_player_value_eur": 1400000
+    },
+    {
+      "team": "Austria",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 244600000,
+      "median_player_value_eur": 6000000
+    },
+    {
+      "team": "Belgium",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 547500000,
+      "median_player_value_eur": 20000000
+    },
+    {
+      "team": "Bosnia-Herzegovina",
+      "players": 26,
+      "players_valued": 25,
+      "squad_value_eur": 145700000,
+      "median_player_value_eur": 2800000
+    },
+    {
+      "team": "Brazil",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 928200000,
+      "median_player_value_eur": 30000000
+    },
+    {
+      "team": "Canada",
+      "players": 26,
+      "players_valued": 25,
+      "squad_value_eur": 193350000,
+      "median_player_value_eur": 3500000
+    },
+    {
+      "team": "Cape Verde",
+      "players": 26,
+      "players_valued": 20,
+      "squad_value_eur": 51375000,
+      "median_player_value_eur": 1000000
+    },
+    {
+      "team": "Colombia",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 302350000,
+      "median_player_value_eur": 5750000
+    },
+    {
+      "team": "Congo DR",
+      "players": 26,
+      "players_valued": 23,
+      "squad_value_eur": 142800000,
+      "median_player_value_eur": 2500000
+    },
+    {
+      "team": "Croatia",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 387300000,
+      "median_player_value_eur": 6750000
+    },
+    {
+      "team": "Curacao",
+      "players": 26,
+      "players_valued": 25,
+      "squad_value_eur": 29900000,
+      "median_player_value_eur": 800000
+    },
+    {
+      "team": "Czechia",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 188175000,
+      "median_player_value_eur": 5500000
+    },
+    {
+      "team": "Ecuador",
+      "players": 26,
+      "players_valued": 24,
+      "squad_value_eur": 360900000,
+      "median_player_value_eur": 5250000
+    },
+    {
+      "team": "Egypt",
+      "players": 26,
+      "players_valued": 19,
+      "squad_value_eur": 103975000,
+      "median_player_value_eur": 1800000
+    },
+    {
+      "team": "England",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 1358200000,
+      "median_player_value_eur": 47500000
+    },
+    {
+      "team": "France",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 1523000000,
+      "median_player_value_eur": 50000000
+    },
+    {
+      "team": "Germany",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 947000000,
+      "median_player_value_eur": 31500000
+    },
+    {
+      "team": "Ghana",
+      "players": 26,
+      "players_valued": 24,
+      "squad_value_eur": 217250000,
+      "median_player_value_eur": 4000000
+    },
+    {
+      "team": "Haiti",
+      "players": 26,
+      "players_valued": 17,
+      "squad_value_eur": 53250000,
+      "median_player_value_eur": 1500000
+    },
+    {
+      "team": "Iran",
+      "players": 26,
+      "players_valued": 15,
+      "squad_value_eur": 22975000,
+      "median_player_value_eur": 1300000
+    },
+    {
+      "team": "Iraq",
+      "players": 26,
+      "players_valued": 25,
+      "squad_value_eur": 20750000,
+      "median_player_value_eur": 550000
+    },
+    {
+      "team": "Ivory Coast",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 523500000,
+      "median_player_value_eur": 17000000
+    },
+    {
+      "team": "Japan",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 270850000,
+      "median_player_value_eur": 9000000
+    },
+    {
+      "team": "Jordan",
+      "players": 26,
+      "players_valued": 21,
+      "squad_value_eur": 18700000,
+      "median_player_value_eur": 400000
+    },
+    {
+      "team": "Mexico",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 191850000,
+      "median_player_value_eur": 6750000
+    },
+    {
+      "team": "Morocco",
+      "players": 26,
+      "players_valued": 25,
+      "squad_value_eur": 446700000,
+      "median_player_value_eur": 12000000
+    },
+    {
+      "team": "Netherlands",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 754200000,
+      "median_player_value_eur": 25000000
+    },
+    {
+      "team": "New Zealand",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 34300000,
+      "median_player_value_eur": 600000
+    },
+    {
+      "team": "Norway",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 589900000,
+      "median_player_value_eur": 12500000
+    },
+    {
+      "team": "Panama",
+      "players": 26,
+      "players_valued": 22,
+      "squad_value_eur": 33375000,
+      "median_player_value_eur": 800000
+    },
+    {
+      "team": "Paraguay",
+      "players": 26,
+      "players_valued": 22,
+      "squad_value_eur": 147250000,
+      "median_player_value_eur": 4000000
+    },
+    {
+      "team": "Portugal",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 1005500000,
+      "median_player_value_eur": 30000000
+    },
+    {
+      "team": "Qatar",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 19925000,
+      "median_player_value_eur": 325000
+    },
+    {
+      "team": "Saudi Arabia",
+      "players": 26,
+      "players_valued": 25,
+      "squad_value_eur": 40400000,
+      "median_player_value_eur": 1200000
+    },
+    {
+      "team": "Scotland",
+      "players": 26,
+      "players_valued": 24,
+      "squad_value_eur": 167050000,
+      "median_player_value_eur": 3500000
+    },
+    {
+      "team": "Senegal",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 478100000,
+      "median_player_value_eur": 12500000
+    },
+    {
+      "team": "South Africa",
+      "players": 26,
+      "players_valued": 22,
+      "squad_value_eur": 45250000,
+      "median_player_value_eur": 1700000
+    },
+    {
+      "team": "South Korea",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 139050000,
+      "median_player_value_eur": 2000000
+    },
+    {
+      "team": "Spain",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 1222800000,
+      "median_player_value_eur": 35000000
+    },
+    {
+      "team": "Sweden",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 406075000,
+      "median_player_value_eur": 5500000
+    },
+    {
+      "team": "Switzerland",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 332500000,
+      "median_player_value_eur": 8000000
+    },
+    {
+      "team": "Tunisia",
+      "players": 26,
+      "players_valued": 19,
+      "squad_value_eur": 60750000,
+      "median_player_value_eur": 2000000
+    },
+    {
+      "team": "Türkiye",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 473700000,
+      "median_player_value_eur": 13000000
+    },
+    {
+      "team": "United States",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 385650000,
+      "median_player_value_eur": 9000000
+    },
+    {
+      "team": "Uruguay",
+      "players": 26,
+      "players_valued": 26,
+      "squad_value_eur": 359300000,
+      "median_player_value_eur": 8000000
+    },
+    {
+      "team": "Uzbekistan",
+      "players": 26,
+      "players_valued": 23,
+      "squad_value_eur": 83825000,
+      "median_player_value_eur": 1000000
+    }
+  ],
+  "birth_dates_that_disagree": [
+    {
+      "player_id": "p_par_andres_cubas_23543da5",
+      "team": "Paraguay",
+      "display_name": "Andrés Cubas",
+      "tracker_and_fifa": [
+        "1996-05-11",
+        "1996-06-22"
+      ],
+      "transfermarkt": "1996-05-22",
+      "tm_name": "Andrés Cubas"
+    }
+  ],
+  "not_linked": [
+    {
+      "team": "Algeria",
+      "display_name": "Melvin Masstil"
+    },
+    {
+      "team": "Cape Verde",
+      "display_name": "Pico"
+    },
+    {
+      "team": "Egypt",
+      "display_name": "Mohamed Alaa"
+    },
+    {
+      "team": "Haiti",
+      "display_name": "Woodensky Pierre"
+    },
+    {
+      "team": "Iran",
+      "display_name": "Ali Nemati"
+    },
+    {
+      "team": "Iran",
+      "display_name": "Mohammad Ghorbani"
+    },
+    {
+      "team": "Jordan",
+      "display_name": "Mohammed Abu Zrayq"
+    },
+    {
+      "team": "Jordan",
+      "display_name": "Mohammed Al-Dawoud"
+    },
+    {
+      "team": "Jordan",
+      "display_name": "Nour Bani Attiah"
+    },
+    {
+      "team": "Morocco",
+      "display_name": "Ahmed Reda Tagnaouti"
+    },
+    {
+      "team": "Scotland",
+      "display_name": "Dominic Hyam"
+    },
+    {
+      "team": "Tunisia",
+      "display_name": "Abdelmouhib Chamakh"
+    },
+    {
+      "team": "Tunisia",
+      "display_name": "Raed Chikhaoui"
+    },
+    {
+      "team": "Uzbekistan",
+      "display_name": "Azizbek Amonov"
+    },
+    {
+      "team": "Uzbekistan",
+      "display_name": "Behruz Karimov"
+    },
+    {
+      "team": "Bosnia-Herzegovina",
+      "display_name": "Mladen Jurkas"
+    },
+    {
+      "team": "Iraq",
+      "display_name": "Ahmed Maknzi"
+    },
+    {
+      "team": "Jordan",
+      "display_name": "Mohammad Taha"
+    }
+  ]
+}
