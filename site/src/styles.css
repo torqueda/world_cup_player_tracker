@@ -532,7 +532,8 @@ h4,
   gap: 1.25rem 2rem;
 }
 
-.metrics-grid + .analysis-cols {
+.metrics-grid + .analysis-cols,
+.metrics-grid + .insight-note {
   margin-top: 1.5rem;
 }
 

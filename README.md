@@ -42,6 +42,7 @@ The `Analysis` route now uses shared selectors in `site/src/lib/analytics/` inst
 Current derived metrics include:
 
 - Squad composition: average and median age as of `2026-06-11`, under-23 and age-30-plus counts, total and median pre-tournament caps, domestic-club share, clubs/countries/leagues represented, birthplace home-grown share, and stage reached.
+- Birthplaces across all squads: the share of players born in the country they play for, squads mostly and entirely home-born, and every birth country ranked by players born there, split into those who play for it and those who play for other teams (with which teams).
 - Club and league impact: players sent, teams represented, tournament minutes, goals, assists, goal contributions, and players with meaningful minutes. The optional impact index is a published weighted formula, not an official ranking.
 - Concentration and diversity: largest-club share, largest-club-country share, club HHI, club-country HHI, effective clubs, and normalized effective clubs. Higher HHI means concentration in fewer clubs.
 - Team comparison: shareable `teamA` and `teamB` query parameters compare roster profile, experience, domestic/foreign mix, club diversity, record, goals, xG, and top performers.

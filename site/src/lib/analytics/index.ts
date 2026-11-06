@@ -271,6 +271,94 @@ function sortedEntries(map: Map<string, number>): [string, number][] {
   return Array.from(map.entries()).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
 }
 
+export interface BirthCountryRow {
+  /** The birth country, spelled as the team is when it is also a team. */
+  country: string;
+  bornThere: number;
+  /** Players born there who play for it; null when it has no team here. */
+  playForIt: number | null;
+  playForOthers: number;
+  /** The other teams its players play for, most players first. */
+  otherTeams: { team: string; players: number }[];
+}
+
+export interface BirthplaceSummary {
+  players: number;
+  birthCountryKnown: number;
+  bornInRepresentedCountry: number;
+  squads: number;
+  /** Squads where more than half the players were born in the country. */
+  mostlyHomeBornSquads: number;
+  /** Squads where every player with a known birth country was born there. */
+  allHomeBornSquads: string[];
+  birthCountries: number;
+  /** Birth countries with no team at the tournament. */
+  birthCountriesWithoutTeam: number;
+  rows: BirthCountryRow[];
+}
+
+/** Where the players in the final squads were born, across all squads. */
+export function buildBirthplaceSummary(input: AnalyticsInput): BirthplaceSummary {
+  const playersById = indexBy(input.players, (player) => player.player_id);
+  const teamNames = new Set(input.teams.map((team) => team.team));
+  const teamForAlias = new Map<string, string>();
+  for (const [team, aliases] of Object.entries(input.teamCountryAliases)) {
+    for (const alias of aliases) {
+      teamForAlias.set(alias, team);
+    }
+  }
+  const spelling = (country: string) => teamForAlias.get(country) ?? country;
+
+  const byCountry = new Map<string, { bornThere: number; playForIt: number; others: Map<string, number> }>();
+  let known = 0;
+  let home = 0;
+  const entries = activeEntries(input.squadEntries);
+  for (const entry of entries) {
+    const birth = playersById.get(entry.player_id)?.birth_country;
+    if (!birth) {
+      continue;
+    }
+    known += 1;
+    const country = spelling(birth);
+    const row = byCountry.get(country) ?? { bornThere: 0, playForIt: 0, others: new Map<string, number>() };
+    row.bornThere += 1;
+    if (isCountryMatch(entry.team, birth, input.teamCountryAliases)) {
+      row.playForIt += 1;
+      home += 1;
+    } else {
+      row.others.set(entry.team, (row.others.get(entry.team) ?? 0) + 1);
+    }
+    byCountry.set(country, row);
+  }
+
+  const scorecards = buildSquadScorecards(input);
+  const rows: BirthCountryRow[] = Array.from(byCountry.entries())
+    .map(([country, row]) => ({
+      country,
+      bornThere: row.bornThere,
+      playForIt: teamNames.has(country) ? row.playForIt : null,
+      playForOthers: row.bornThere - row.playForIt,
+      otherTeams: sortedEntries(row.others).map(([team, players]) => ({ team, players })),
+    }))
+    .sort((a, b) => b.bornThere - a.bornThere || a.country.localeCompare(b.country));
+
+  return {
+    players: entries.length,
+    birthCountryKnown: known,
+    bornInRepresentedCountry: home,
+    squads: scorecards.length,
+    mostlyHomeBornSquads: scorecards.filter(
+      (card) => card.birthCountryKnown.count > 0 && card.homegrownBirthPlayers * 2 > card.birthCountryKnown.count,
+    ).length,
+    allHomeBornSquads: scorecards
+      .filter((card) => card.birthCountryKnown.count > 0 && card.homegrownBirthPlayers === card.birthCountryKnown.count)
+      .map((card) => card.team),
+    birthCountries: rows.length,
+    birthCountriesWithoutTeam: rows.filter((row) => row.playForIt === null).length,
+    rows,
+  };
+}
+
 export function buildSquadScorecards(input: AnalyticsInput): SquadScorecard[] {
   const playersById = indexBy(input.players, (player) => player.player_id);
   const clubsById = indexBy(input.clubs, (club) => club.club_id);

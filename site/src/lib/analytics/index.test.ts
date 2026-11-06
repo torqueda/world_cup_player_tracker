@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import {
   ageInYears,
+  buildBirthplaceSummary,
   buildDataQualitySummary,
   buildImpactRows,
   buildMatchAnalysis,
@@ -146,6 +147,43 @@ test("squad scorecards use explicit denominators and active entries only", () =>
   assert.equal(alpha.domesticLeaguePct, 2 / 3);
   assert.equal(alpha.homegrownBirthShare, 1 / 2);
   assert.equal(alpha.stageReached, "Round of 16");
+});
+
+test("birthplace summary counts all squads and ranks birth countries", () => {
+  const summary = buildBirthplaceSummary(input);
+  assert.equal(summary.players, 5);
+  assert.equal(summary.birthCountryKnown, 4);
+  assert.equal(summary.bornInRepresentedCountry, 3);
+  assert.equal(summary.squads, 2);
+  // Alpha is one of two known: half is not "mostly".
+  assert.equal(summary.mostlyHomeBornSquads, 1);
+  assert.deepEqual(summary.allHomeBornSquads, ["Beta"]);
+  assert.equal(summary.birthCountries, 3);
+  assert.equal(summary.birthCountriesWithoutTeam, 1);
+  assert.deepEqual(
+    summary.rows.map((row) => [row.country, row.bornThere, row.playForIt, row.playForOthers]),
+    [
+      ["Beta", 2, 2, 0],
+      ["Alpha", 1, 1, 0],
+      ["Gamma", 1, null, 1],
+    ],
+  );
+  assert.deepEqual(summary.rows[2].otherTeams, [{ team: "Alpha", players: 1 }]);
+
+  // A birth country spelled as the team's alias counts under the team's name.
+  const aliased = buildBirthplaceSummary({
+    ...input,
+    players: players.map((row) => (row.player_id === "p4" ? { ...row, birth_country: "Beta Republic" } : row)),
+    teamCountryAliases: { Beta: ["Beta Republic"] },
+  });
+  assert.deepEqual(
+    aliased.rows.map((row) => [row.country, row.bornThere, row.playForIt]),
+    [
+      ["Beta", 2, 2],
+      ["Alpha", 1, 1],
+      ["Gamma", 1, null],
+    ],
+  );
 });
 
 test("concentration reports HHI and effective club counts", () => {
