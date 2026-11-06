@@ -1,7 +1,13 @@
 import { CountryFlag } from "@/components/country-flag";
 import { Expandable, MetricCard, SectionHeader, SortableTable, type Column } from "@/components/ui";
 import { ANALYTICS_INPUT } from "@/lib/data/analytics-input";
-import { TOURNAMENT_START_DATE, buildSquadConcentration, buildSquadScorecards, type SquadScorecard } from "@/lib/analytics";
+import {
+  TOURNAMENT_START_DATE,
+  buildCapsSummary,
+  buildSquadConcentration,
+  buildSquadScorecards,
+  type SquadScorecard,
+} from "@/lib/analytics";
 import { csvDataUri, formatNumber, formatPct } from "@/lib/format";
 import { AnalysisPage, sourceNote, topBy } from "@/routes/analysis/shared";
 
@@ -83,6 +89,7 @@ const scorecardCsv = csvDataUri(squadScorecards, [
   { label: "stage_reached", value: (row) => row.stageReached },
 ]);
 
+const caps = buildCapsSummary(ANALYTICS_INPUT);
 const oldest = topBy(squadScorecards, (row) => row.averageAge);
 const youngest = topBy(squadScorecards, (row) => row.averageAge, true);
 const mostDomestic = topBy(squadScorecards, (row) => row.domesticLeaguePct);
@@ -121,6 +128,16 @@ export function SquadsRoute() {
               label="Most club-concentrated"
               value={formatNumber(mostConcentrated?.clubHhi, 3)}
               note={mostConcentrated?.team}
+            />
+            <MetricCard
+              label="No caps before the tournament"
+              value={caps.uncapped}
+              note={`of ${caps.capsKnown.toLocaleString()} players`}
+            />
+            <MetricCard
+              label="100 or more caps"
+              value={caps.hundredPlus}
+              note={`median ${formatNumber(caps.medianCaps, 0)} caps`}
             />
           </div>
           <div className="method-note-grid">

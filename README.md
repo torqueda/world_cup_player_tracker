@@ -42,6 +42,8 @@ The `Analysis` route now uses shared selectors in `site/src/lib/analytics/` inst
 Current derived metrics include:
 
 - Squad composition: average and median age as of `2026-06-11`, under-23 and age-30-plus counts, total and median pre-tournament caps, domestic-club share, clubs/countries/leagues represented, birthplace home-grown share, and stage reached.
+- Where players come from, across all squads: the share born in the country they play for (overall, by squad and by confederation), every birth country ranked by players born there and split into those who play for it and for other teams, players born in the host nations, the most common birth cities, the share playing club football in their own country, club countries ranked by players, and players born, playing for and at a club in three different countries.
+- Caps before the tournament: uncapped players, players with 100 or more caps, and the median.
 - Club and league impact: players sent, teams represented, tournament minutes, goals, assists, goal contributions, and players with meaningful minutes. The optional impact index is a published weighted formula, not an official ranking.
 - Concentration and diversity: largest-club share, largest-club-country share, club HHI, club-country HHI, effective clubs, and normalized effective clubs. Higher HHI means concentration in fewer clubs.
 - Team comparison: shareable `teamA` and `teamB` query parameters compare roster profile, experience, domestic/foreign mix, club diversity, record, goals, xG, and top performers.
@@ -149,7 +151,7 @@ Stable internal IDs are the join keys. Do not replace them with external IDs suc
    - `Squads` (`/national-teams`): sortable rosters with coach, captain, caps, and stage reached;
    - `Matches` (`/matches`): an interactive knockout bracket (click a team to trace its path) and every result grouped by stage, and by group within the group stage;
    - `Leaders` (`/stats`): leaderboards for goals, assists, goals plus assists, discipline, minutes, and goalkeeper saves, in totals or per 90, and a sortable team table;
-   - `Analysis` (`/insights`): an index of seven pages, one per question: squad make-up, clubs and leagues, player efficiency, matches and venues, a two-team comparison, what goes with winning, and who has a photo. The last two read the files in `data/processed/analysis/` written by `scripts/analysis/`;
+   - `Analysis` (`/insights`): an index of eight pages, one per question: squad make-up, where players come from, clubs and leagues, player efficiency, matches and venues, a two-team comparison, what goes with winning, and who has a photo. The last two read the files in `data/processed/analysis/` written by `scripts/analysis/`;
    - `Methodology` (`/sources`, under More): source attributions, how the dataset is built and checked, coverage counts, the data-quality dashboard, and the change log;
    - clicking any player name opens a detail panel with their photo and its attribution, bio, club, pre-tournament caps and goals, and tournament statistics.
 5. The site is live on Netlify (https://worldcupplayertracker.netlify.app/). The post-final refresh ran on 2026-08-19, so the dataset covers the whole tournament.

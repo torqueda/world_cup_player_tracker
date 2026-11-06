@@ -2,6 +2,9 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import {
   ageInYears,
+  buildBirthplaceSummary,
+  buildCapsSummary,
+  buildClubCountrySummary,
   buildDataQualitySummary,
   buildImpactRows,
   buildMatchAnalysis,
@@ -146,6 +149,93 @@ test("squad scorecards use explicit denominators and active entries only", () =>
   assert.equal(alpha.domesticLeaguePct, 2 / 3);
   assert.equal(alpha.homegrownBirthShare, 1 / 2);
   assert.equal(alpha.stageReached, "Round of 16");
+});
+
+test("birthplace summary counts all squads and ranks birth countries", () => {
+  const summary = buildBirthplaceSummary(input);
+  assert.equal(summary.players, 5);
+  assert.equal(summary.birthCountryKnown, 4);
+  assert.equal(summary.bornInRepresentedCountry, 3);
+  assert.equal(summary.squads, 2);
+  // Alpha is one of two known: half is not "mostly".
+  assert.equal(summary.mostlyHomeBornSquads, 1);
+  assert.deepEqual(summary.allHomeBornSquads, ["Beta"]);
+  assert.equal(summary.birthCountries, 3);
+  assert.equal(summary.birthCountriesWithoutTeam, 1);
+  assert.deepEqual(
+    summary.rows.map((row) => [row.country, row.bornThere, row.playForIt, row.playForOthers]),
+    [
+      ["Beta", 2, 2, 0],
+      ["Alpha", 1, 1, 0],
+      ["Gamma", 1, null, 1],
+    ],
+  );
+  assert.deepEqual(summary.rows[2].otherTeams, [{ team: "Alpha", players: 1 }]);
+
+  // A birth country spelled as the team's alias counts under the team's name.
+  const aliased = buildBirthplaceSummary({
+    ...input,
+    players: players.map((row) => (row.player_id === "p4" ? { ...row, birth_country: "Beta Republic" } : row)),
+    teamCountryAliases: { Beta: ["Beta Republic"] },
+  });
+  assert.deepEqual(
+    aliased.rows.map((row) => [row.country, row.bornThere, row.playForIt]),
+    [
+      ["Beta", 2, 2],
+      ["Alpha", 1, 1],
+      ["Gamma", 1, null],
+    ],
+  );
+});
+
+test("birthplace summary groups by confederation and birth city", () => {
+  const summary = buildBirthplaceSummary(input);
+  assert.deepEqual(summary.byConfederation, [
+    { confederation: "UEFA", teams: 1, players: 2, bornInRepresentedCountry: 2 },
+    { confederation: "AFC", teams: 1, players: 2, bornInRepresentedCountry: 1 },
+  ]);
+  assert.deepEqual(summary.birthCities[0], { city: "Somewhere", country: "Beta", players: 2, teams: ["Beta"] });
+  assert.equal(summary.birthCities.length, 3);
+});
+
+test("club-country summary counts players at home, abroad and in countries without a team", () => {
+  const summary = buildClubCountrySummary(input);
+  assert.equal(summary.clubCountryKnown, 5);
+  assert.equal(summary.playAtHome, 4);
+  assert.deepEqual(
+    summary.rows.map((row) => [row.country, row.players, row.clubs, row.playForIt, row.playForOthers]),
+    [
+      ["Alpha", 2, 1, 2, 0],
+      ["Beta", 2, 1, 2, 0],
+      ["Gamma", 1, 1, null, 1],
+    ],
+  );
+  assert.equal(summary.countriesWithoutTeam, 1);
+  assert.equal(summary.playersInCountriesWithoutTeam, 1);
+  assert.equal(summary.threeCountries, 0);
+
+  // Born in Gamma, plays for Alpha, at a club in Beta: three countries.
+  const moved = buildClubCountrySummary({
+    ...input,
+    playerClubAtCallup: callups.map((row) => (row.player_id === "p2" ? { ...row, club_id: "c3" } : row)),
+  });
+  assert.equal(moved.threeCountries, 1);
+  assert.deepEqual(moved.threeCountriesBy, {
+    born: [{ country: "Gamma", players: 1 }],
+    team: [{ country: "Alpha", players: 1 }],
+    club: [{ country: "Beta", players: 1 }],
+  });
+});
+
+test("caps summary counts uncapped and 100-cap players among active entries", () => {
+  assert.deepEqual(buildCapsSummary(input), { players: 5, capsKnown: 4, uncapped: 0, hundredPlus: 0, medianCaps: 12.5 });
+  const changed = buildCapsSummary({
+    ...input,
+    squadEntries: squadEntries.map((row) =>
+      row.player_id === "p1" ? { ...row, caps_pre_tournament: 0 } : row.player_id === "p4" ? { ...row, caps_pre_tournament: 120 } : row,
+    ),
+  });
+  assert.deepEqual(changed, { players: 5, capsKnown: 4, uncapped: 1, hundredPlus: 1, medianCaps: 17.5 });
 });
 
 test("concentration reports HHI and effective club counts", () => {

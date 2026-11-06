@@ -532,7 +532,8 @@ h4,
   gap: 1.25rem 2rem;
 }
 
-.metrics-grid + .analysis-cols {
+.metrics-grid + .analysis-cols,
+.metrics-grid + .insight-note {
   margin-top: 1.5rem;
 }
 
@@ -3583,6 +3584,15 @@ button.bracket-team-active:hover {
 @media (min-width: 1024px) {
   .analysis-cols {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+
+  .analysis-cols.analysis-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  /* Each of the three lists is already a narrow column. */
+  .analysis-cols-3 .detail-list {
+    columns: 1;
   }
 }
 
