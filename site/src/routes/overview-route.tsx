@@ -209,7 +209,7 @@ const entryCards: EntryCard[] = [
   {
     eyebrow: "Analysis",
     heading: "Beyond the headline numbers.",
-    body: "One page per question: squad make-up, clubs and leagues, player efficiency, matches and venues, a two-team comparison, what goes with winning, and which players have a photo.",
+    body: "One page per question: squad make-up, where players come from, clubs and leagues, player efficiency, matches and venues, a two-team comparison, what goes with winning, and which players have a photo.",
     links: [{ to: "/insights", label: "Open the analysis" }],
   },
 ];

@@ -11,7 +11,12 @@ export const ANALYSIS_PAGES: AnalysisPageInfo[] = [
   {
     slug: "squads",
     label: "Squad make-up",
-    question: "How old is each squad, where were its players born, where do they play, and how many clubs does it draw on?",
+    question: "How old is each squad, where do its players play, and how many clubs does it draw on?",
+  },
+  {
+    slug: "origins",
+    label: "Where players come from",
+    question: "Where were the players born, and where do they play their club football?",
   },
   {
     slug: "clubs",

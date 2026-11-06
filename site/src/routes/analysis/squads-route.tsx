@@ -3,14 +3,13 @@ import { Expandable, MetricCard, SectionHeader, SortableTable, type Column } fro
 import { ANALYTICS_INPUT } from "@/lib/data/analytics-input";
 import {
   TOURNAMENT_START_DATE,
-  buildBirthplaceSummary,
+  buildCapsSummary,
   buildSquadConcentration,
   buildSquadScorecards,
-  type BirthCountryRow,
   type SquadScorecard,
 } from "@/lib/analytics";
 import { csvDataUri, formatNumber, formatPct } from "@/lib/format";
-import { AnalysisPage, listInWords, sourceNote, topBy } from "@/routes/analysis/shared";
+import { AnalysisPage, sourceNote, topBy } from "@/routes/analysis/shared";
 
 const squadScorecards = buildSquadScorecards(ANALYTICS_INPUT);
 const concentrationRows = buildSquadConcentration(ANALYTICS_INPUT);
@@ -90,78 +89,7 @@ const scorecardCsv = csvDataUri(squadScorecards, [
   { label: "stage_reached", value: (row) => row.stageReached },
 ]);
 
-const birthplaces = buildBirthplaceSummary(ANALYTICS_INPUT);
-const BIRTH_TOP = 15;
-const OTHER_TEAMS_SHOWN = 3;
-
-function otherTeamsText(row: BirthCountryRow): string {
-  if (row.otherTeams.length === 0) {
-    return "None";
-  }
-  const shown = row.otherTeams
-    .slice(0, OTHER_TEAMS_SHOWN)
-    .map((item) => `${item.team} ${item.players}`)
-    .join(", ");
-  const more = row.otherTeams.length - OTHER_TEAMS_SHOWN;
-  return more > 0 ? `${shown} and ${more} more` : shown;
-}
-
-const birthColumns: Column<BirthCountryRow>[] = [
-  {
-    key: "country",
-    label: "Birth country",
-    width: "20%",
-    sortValue: (row) => row.country,
-    render: (row) => (
-      <span className="team-cell">
-        <CountryFlag country={row.country} />
-        {row.country}
-      </span>
-    ),
-  },
-  {
-    key: "born",
-    label: "Players born there",
-    align: "right",
-    initialAsc: false,
-    sortValue: (row) => row.bornThere,
-    render: (row) => row.bornThere,
-  },
-  {
-    key: "home",
-    label: "Play for it",
-    align: "right",
-    initialAsc: false,
-    sortValue: (row) => row.playForIt ?? -1,
-    render: (row) => (row.playForIt === null ? "No team" : row.playForIt),
-  },
-  {
-    key: "others",
-    label: "Play for other teams",
-    align: "right",
-    initialAsc: false,
-    sortValue: (row) => row.playForOthers,
-    render: (row) => row.playForOthers,
-  },
-  {
-    key: "otherTeams",
-    label: "Other teams (players)",
-    width: "34%",
-    sortValue: (row) => row.otherTeams.length,
-    render: (row) => otherTeamsText(row),
-  },
-];
-
-const birthCsv = csvDataUri(birthplaces.rows, [
-  { label: "birth_country", value: (row) => row.country },
-  { label: "players_born_there", value: (row) => row.bornThere },
-  { label: "play_for_it", value: (row) => row.playForIt },
-  { label: "play_for_other_teams", value: (row) => row.playForOthers },
-  { label: "other_teams", value: (row) => row.otherTeams.map((item) => `${item.team} (${item.players})`).join("; ") },
-]);
-
-const topExporter = [...birthplaces.rows].sort((a, b) => b.playForOthers - a.playForOthers)[0];
-
+const caps = buildCapsSummary(ANALYTICS_INPUT);
 const oldest = topBy(squadScorecards, (row) => row.averageAge);
 const youngest = topBy(squadScorecards, (row) => row.averageAge, true);
 const mostDomestic = topBy(squadScorecards, (row) => row.domesticLeaguePct);
@@ -200,6 +128,16 @@ export function SquadsRoute() {
               label="Most club-concentrated"
               value={formatNumber(mostConcentrated?.clubHhi, 3)}
               note={mostConcentrated?.team}
+            />
+            <MetricCard
+              label="No caps before the tournament"
+              value={caps.uncapped}
+              note={`of ${caps.capsKnown.toLocaleString()} players`}
+            />
+            <MetricCard
+              label="100 or more caps"
+              value={caps.hundredPlus}
+              note={`median ${formatNumber(caps.medianCaps, 0)} caps`}
             />
           </div>
           <div className="method-note-grid">
@@ -243,73 +181,6 @@ export function SquadsRoute() {
                 </dd>
               </div>
             </dl>
-          </Expandable>
-        </section>
-
-        <section id="birthplaces" className="content-panel reveal">
-          <SectionHeader
-            title="Where the players were born"
-            note="Every squad together: how many players were born in the country they play for, and which countries the players were born in."
-            actions={
-              <a className="button-secondary" href={birthCsv} download="world-cup-2026-birth-countries.csv">
-                Download CSV
-              </a>
-            }
-            aside={sourceNote(
-              "Birth country as recorded for each player, matched to the team's country or a documented alias.",
-              "Active final-squad players.",
-            )}
-          />
-          <div className="metrics-grid">
-            <MetricCard
-              label="Born in the country they play for"
-              value={formatPct(birthplaces.bornInRepresentedCountry / birthplaces.birthCountryKnown)}
-              note={`${birthplaces.bornInRepresentedCountry.toLocaleString()} of ${birthplaces.birthCountryKnown.toLocaleString()} players`}
-            />
-            <MetricCard
-              label="Squads mostly home-born"
-              value={`${birthplaces.mostlyHomeBornSquads} of ${birthplaces.squads}`}
-              note={`${birthplaces.allHomeBornSquads.length} entirely`}
-            />
-            <MetricCard
-              label="Birth countries"
-              value={birthplaces.birthCountries}
-              note={`${birthplaces.birthCountriesWithoutTeam} with no team at the tournament`}
-            />
-            {topExporter ? (
-              <MetricCard
-                label="Most players for other teams"
-                value={topExporter.playForOthers}
-                note={`born in ${topExporter.country}, playing for ${topExporter.otherTeams.length} teams`}
-              />
-            ) : null}
-          </div>
-          <p className="insight-note">
-            The squads made up entirely of players born in the country are {listInWords(birthplaces.allHomeBornSquads)}.
-            &quot;Mostly&quot; means more than half the squad.
-          </p>
-          <h3 className="subsection-heading">Countries where the most players were born</h3>
-          <SortableTable
-            rows={birthplaces.rows.slice(0, BIRTH_TOP)}
-            columns={birthColumns}
-            getRowKey={(row) => row.country}
-            initialSortKey="born"
-            initialSortAsc={false}
-            caption={`The ${BIRTH_TOP} countries where the most players were born`}
-            className="wide-table"
-            focusable
-          />
-          <Expandable summary={`All ${birthplaces.birthCountries} birth countries`}>
-            <SortableTable
-              rows={birthplaces.rows}
-              columns={birthColumns}
-              getRowKey={(row) => row.country}
-              initialSortKey="born"
-              initialSortAsc={false}
-              caption="Every birth country"
-              className="wide-table"
-              focusable
-            />
           </Expandable>
         </section>
 

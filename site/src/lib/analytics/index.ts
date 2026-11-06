@@ -295,6 +295,10 @@ export interface BirthplaceSummary {
   /** Birth countries with no team at the tournament. */
   birthCountriesWithoutTeam: number;
   rows: BirthCountryRow[];
+  /** Born in the country they play for, by the team's confederation. */
+  byConfederation: { confederation: string; teams: number; players: number; bornInRepresentedCountry: number }[];
+  /** Birthplaces as recorded, with their country, most players first. */
+  birthCities: { city: string; country: string; players: number; teams: string[] }[];
 }
 
 /** Where the players in the final squads were born, across all squads. */
@@ -310,19 +314,40 @@ export function buildBirthplaceSummary(input: AnalyticsInput): BirthplaceSummary
   const spelling = (country: string) => teamForAlias.get(country) ?? country;
 
   const byCountry = new Map<string, { bornThere: number; playForIt: number; others: Map<string, number> }>();
+  const byConfederation = new Map<string, { teams: Set<string>; players: number; home: number }>();
+  const byCity = new Map<string, { city: string; country: string; players: number; teams: Map<string, number> }>();
   let known = 0;
   let home = 0;
   const entries = activeEntries(input.squadEntries);
   for (const entry of entries) {
-    const birth = playersById.get(entry.player_id)?.birth_country;
+    const player = playersById.get(entry.player_id);
+    const birth = player?.birth_country;
     if (!birth) {
       continue;
     }
     known += 1;
     const country = spelling(birth);
+    const isHome = isCountryMatch(entry.team, birth, input.teamCountryAliases);
+
+    const confederation = input.confederationForCountry(entry.team) ?? "Unknown";
+    const confed = byConfederation.get(confederation) ?? { teams: new Set<string>(), players: 0, home: 0 };
+    confed.teams.add(entry.team);
+    confed.players += 1;
+    confed.home += isHome ? 1 : 0;
+    byConfederation.set(confederation, confed);
+
+    const city = player.place_of_birth?.trim();
+    if (city) {
+      const key = `${city}|${country}`;
+      const cityRow = byCity.get(key) ?? { city, country, players: 0, teams: new Map<string, number>() };
+      cityRow.players += 1;
+      cityRow.teams.set(entry.team, (cityRow.teams.get(entry.team) ?? 0) + 1);
+      byCity.set(key, cityRow);
+    }
+
     const row = byCountry.get(country) ?? { bornThere: 0, playForIt: 0, others: new Map<string, number>() };
     row.bornThere += 1;
-    if (isCountryMatch(entry.team, birth, input.teamCountryAliases)) {
+    if (isHome) {
       row.playForIt += 1;
       home += 1;
     } else {
@@ -356,6 +381,145 @@ export function buildBirthplaceSummary(input: AnalyticsInput): BirthplaceSummary
     birthCountries: rows.length,
     birthCountriesWithoutTeam: rows.filter((row) => row.playForIt === null).length,
     rows,
+    byConfederation: Array.from(byConfederation.entries())
+      .map(([confederation, row]) => ({
+        confederation,
+        teams: row.teams.size,
+        players: row.players,
+        bornInRepresentedCountry: row.home,
+      }))
+      .sort((a, b) => b.bornInRepresentedCountry / b.players - a.bornInRepresentedCountry / a.players),
+    birthCities: Array.from(byCity.values())
+      .map((row) => ({
+        city: row.city,
+        country: row.country,
+        players: row.players,
+        teams: sortedEntries(row.teams).map(([team]) => team),
+      }))
+      .sort((a, b) => b.players - a.players || a.city.localeCompare(b.city)),
+  };
+}
+
+export interface ClubCountryRow {
+  /** The club country, spelled as the team is when it is also a team. */
+  country: string;
+  players: number;
+  clubs: number;
+  /** Players at its clubs who play for its team; null when it has no team here. */
+  playForIt: number | null;
+  playForOthers: number;
+}
+
+export interface ClubCountrySummary {
+  players: number;
+  clubCountryKnown: number;
+  /** Players at a club in the country they play for. */
+  playAtHome: number;
+  clubCountries: number;
+  countriesWithoutTeam: number;
+  playersInCountriesWithoutTeam: number;
+  /** Players born in one country, playing for a second, at a club in a third. */
+  threeCountries: number;
+  /** Those players by birth country, by team and by club country, most first. */
+  threeCountriesBy: Record<"born" | "team" | "club", { country: string; players: number }[]>;
+  rows: ClubCountryRow[];
+}
+
+/** Where the players in the final squads play their club football. */
+export function buildClubCountrySummary(input: AnalyticsInput): ClubCountrySummary {
+  const playersById = indexBy(input.players, (player) => player.player_id);
+  const clubsById = indexBy(input.clubs, (club) => club.club_id);
+  const callupByPlayerId = indexBy(input.playerClubAtCallup, (link) => link.player_id);
+  const teamNames = new Set(input.teams.map((team) => team.team));
+  const teamForAlias = new Map<string, string>();
+  for (const [team, aliases] of Object.entries(input.teamCountryAliases)) {
+    for (const alias of aliases) {
+      teamForAlias.set(alias, team);
+    }
+  }
+  const spelling = (country: string) => teamForAlias.get(country) ?? country;
+
+  const byCountry = new Map<string, { players: number; clubs: Set<string>; playForIt: number }>();
+  const threeBy = { born: new Map<string, number>(), team: new Map<string, number>(), club: new Map<string, number>() };
+  let known = 0;
+  let atHome = 0;
+  let threeCountries = 0;
+  const entries = activeEntries(input.squadEntries);
+  for (const entry of entries) {
+    const club = clubsById.get(callupByPlayerId.get(entry.player_id)?.club_id ?? "");
+    if (!club?.country) {
+      continue;
+    }
+    known += 1;
+    const country = spelling(club.country);
+    const isHome = isCountryMatch(entry.team, club.country, input.teamCountryAliases);
+    atHome += isHome ? 1 : 0;
+    const row = byCountry.get(country) ?? { players: 0, clubs: new Set<string>(), playForIt: 0 };
+    row.players += 1;
+    row.clubs.add(club.club_id);
+    row.playForIt += isHome ? 1 : 0;
+    byCountry.set(country, row);
+
+    const birth = playersById.get(entry.player_id)?.birth_country;
+    if (birth) {
+      const born = spelling(birth);
+      if (new Set([born, entry.team, country]).size === 3) {
+        threeCountries += 1;
+        threeBy.born.set(born, (threeBy.born.get(born) ?? 0) + 1);
+        threeBy.team.set(entry.team, (threeBy.team.get(entry.team) ?? 0) + 1);
+        threeBy.club.set(country, (threeBy.club.get(country) ?? 0) + 1);
+      }
+    }
+  }
+
+  const rows: ClubCountryRow[] = Array.from(byCountry.entries())
+    .map(([country, row]) => ({
+      country,
+      players: row.players,
+      clubs: row.clubs.size,
+      playForIt: teamNames.has(country) ? row.playForIt : null,
+      playForOthers: row.players - row.playForIt,
+    }))
+    .sort((a, b) => b.players - a.players || a.country.localeCompare(b.country));
+  const withoutTeam = rows.filter((row) => row.playForIt === null);
+
+  return {
+    players: entries.length,
+    clubCountryKnown: known,
+    playAtHome: atHome,
+    clubCountries: rows.length,
+    countriesWithoutTeam: withoutTeam.length,
+    playersInCountriesWithoutTeam: withoutTeam.reduce((sum, row) => sum + row.players, 0),
+    threeCountries,
+    threeCountriesBy: {
+      born: sortedEntries(threeBy.born).map(([country, players]) => ({ country, players })),
+      team: sortedEntries(threeBy.team).map(([country, players]) => ({ country, players })),
+      club: sortedEntries(threeBy.club).map(([country, players]) => ({ country, players })),
+    },
+    rows,
+  };
+}
+
+export interface CapsSummary {
+  players: number;
+  capsKnown: number;
+  uncapped: number;
+  hundredPlus: number;
+  medianCaps: number | null;
+}
+
+/** Senior caps before the tournament, across every final squad. */
+export function buildCapsSummary(input: AnalyticsInput): CapsSummary {
+  const entries = activeEntries(input.squadEntries);
+  const caps = entries
+    .map((entry) => entry.caps_pre_tournament)
+    .filter((value): value is number => typeof value === "number" && Number.isFinite(value));
+  return {
+    players: entries.length,
+    capsKnown: caps.length,
+    uncapped: caps.filter((value) => value === 0).length,
+    hundredPlus: caps.filter((value) => value >= 100).length,
+    medianCaps: median(caps),
   };
 }
 

@@ -7,6 +7,7 @@ import { MatchesRoute } from "@/routes/matches-route";
 import { StatsRoute } from "@/routes/stats-route";
 import { AnalysisIndexRoute } from "@/routes/analysis/index-route";
 import { SquadsRoute } from "@/routes/analysis/squads-route";
+import { OriginsRoute } from "@/routes/analysis/origins-route";
 import { ClubsRoute } from "@/routes/analysis/clubs-route";
 import { PlayersRoute } from "@/routes/analysis/players-route";
 import { AnalysisMatchesRoute } from "@/routes/analysis/matches-route";
@@ -61,6 +62,7 @@ export const router = createBrowserRouter([
             children: [
               { index: true, element: <AnalysisIndexRoute /> },
               { path: "squads", element: <SquadsRoute /> },
+              { path: "origins", element: <OriginsRoute /> },
               { path: "clubs", element: <ClubsRoute /> },
               { path: "players", element: <PlayersRoute /> },
               { path: "matches", element: <AnalysisMatchesRoute /> },

@@ -51,7 +51,8 @@ Each page has one name, used in the menu and as its heading, and answers one que
 
 | Analysis page | Address | Question it answers |
 |---|---|---|
-| Squad make-up | `/insights/squads` | How old is each squad, where were its players born, where do they play, and how many clubs does it draw on? |
+| Squad make-up | `/insights/squads` | How old is each squad, where do its players play, and how many clubs does it draw on? |
+| Where players come from | `/insights/origins` | Where were the players born, and where do they play their club football? |
 | Clubs & leagues | `/insights/clubs` | Which clubs and leagues sent the most players, minutes and goals? |
 | Player efficiency | `/insights/players` | Who scored and assisted most per 90 minutes? |
 | Matches & venues | `/insights/matches` | How did goals vary by stage and venue, and how did the confederations fare against each other? |
